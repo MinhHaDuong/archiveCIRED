@@ -677,12 +677,22 @@ def main() -> None:
     logger.info("Step 6: Enriching CIR_SAC from OCR txt files")
     enrich_from_cir_sac_txt(entries)
 
-    # Step 7: Write outputs
-    logger.info("Step 7: Writing outputs")
+    # Step 7: Default type for YYYY-NNN entries still missing type
+    logger.info("Step 7: Applying default type for untyped YYYY-NNN entries")
+    yyyy_nnn_pattern = re.compile(r"^\d{4}-\d{3}")
+    default_type_count = 0
+    for entry in entries:
+        if entry["type"] is None and yyyy_nnn_pattern.match(entry["id"]):
+            entry["type"] = "non-classifié"
+            default_type_count += 1
+    logger.info("Default type applied to %d YYYY-NNN entries", default_type_count)
+
+    # Step 8: Write outputs
+    logger.info("Step 8: Writing outputs")
     write_index(entries, output_path)
     write_unresolved(entries, unresolved_path)
 
-    # Step 8: Coverage report
+    # Step 9: Coverage report
     total = len(entries)
     n_annee = sum(1 for e in entries if e["annee"] is not None)
     n_auteurs = sum(1 for e in entries if e["auteurs"] is not None)
