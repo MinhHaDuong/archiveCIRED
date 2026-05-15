@@ -4,7 +4,7 @@
     "annee": 1973,
     "auteurs": null,
     "titre": null,
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1973-008.pdf",
     "texte_ocr": null,
@@ -19,7 +19,7 @@
       "reaction"
     ],
     "titre": "a-the limit  to growth",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1973-009.pdf",
     "texte_ocr": null,
@@ -34,7 +34,7 @@
       "styles de développement'"
     ],
     "titre": "Environnement",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1974-013.pdf",
     "texte_ocr": null,
@@ -49,7 +49,7 @@
       "Hourcade encironnement"
     ],
     "titre": "obstacle-argument-Options mediterraneennes n31",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1975-015.pdf",
     "texte_ocr": null,
@@ -64,7 +64,7 @@
       "Godard"
     ],
     "titre": "occupation-espaces-littoraux-Options Mediterrannennes n3",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1975-016.pdf",
     "texte_ocr": null,
@@ -79,7 +79,7 @@
       "options"
     ],
     "titre": "mediterrannennes-artuso-and-co-CI010638",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1975-019_1.pdf",
     "texte_ocr": null,
@@ -94,7 +94,7 @@
       "de la gestion de l'eau"
     ],
     "titre": "Eléments pour une nouvelle approche",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1975-019_2.pdf",
     "texte_ocr": null,
@@ -109,7 +109,7 @@
       "et l'avenir des relations"
     ],
     "titre": "La politique de l'environnement",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1975-166.pdf",
     "texte_ocr": null,
@@ -124,7 +124,7 @@
       "Hourcade"
     ],
     "titre": "IFDA-Dossier-5",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1979-028.pdf",
     "texte_ocr": null,
@@ -139,7 +139,7 @@
       "Sachs"
     ],
     "titre": "Maldevelopment Development and Change",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1979-032.pdf",
     "texte_ocr": null,
@@ -154,7 +154,7 @@
       "passer du mimétisme au pluralisme technologique"
     ],
     "titre": "Thery Mimetisme technologique Revue Tiers Monde 1981 88iers 0040-7356 1981 num 22 88 4073-2",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1981-043.pdf",
     "texte_ocr": null,
@@ -169,7 +169,7 @@
       "de nouveaux modèles de temps sociaux"
     ],
     "titre": "Progrès techniques et recherche",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1981-046.pdf",
     "texte_ocr": null,
@@ -181,10 +181,10 @@
     "id": "1981-218",
     "annee": 1981,
     "auteurs": [
-      ".Jean"
+      "CERON"
     ],
     "titre": ".lean-Paul",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1981-218.pdf",
     "texte_ocr": null,
@@ -199,7 +199,7 @@
       "Puiseux"
     ],
     "titre": "bifurcations-politique-energetique",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1982-055.pdf",
     "texte_ocr": null,
@@ -214,7 +214,7 @@
       "Schiray"
     ],
     "titre": "Gaudin economie-cachee",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1984-063.pdf",
     "texte_ocr": null,
@@ -229,7 +229,7 @@
       "Thery"
     ],
     "titre": "biais-mimetique-choix-techniques-Tanzanie- Tiers Monde0040-7356 1984 num 25 100 4370",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1984-064.pdf",
     "texte_ocr": null,
@@ -244,7 +244,7 @@
       "Hourcade"
     ],
     "titre": "economies d'echelle-corr-Isabelle",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1985-068.pdf",
     "texte_ocr": null,
@@ -259,7 +259,7 @@
       "Capecchi"
     ],
     "titre": "Pesce Schiray RevueTIS vol1 n2-1",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1988-077.pdf",
     "texte_ocr": null,
@@ -274,7 +274,7 @@
       "Godard"
     ],
     "titre": "Jeux de nature chez Jollivet et Mathieu Harmattan",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1989-078.pdf",
     "texte_ocr": null,
@@ -289,7 +289,7 @@
       "IMPRIME"
     ],
     "titre": "DES-PAGES-BLANCHES- Schiray-economie de la drogue Sciences sociales et sante7 1989 num 7 3 1134",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1989-079.pdf",
     "texte_ocr": null,
@@ -304,7 +304,7 @@
       "hourcade"
     ],
     "titre": "megie-theys-bouleversement-climats-gerer-incertitudeLzPTx7yJ.pdf-1.part",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1989-080.pdf",
     "texte_ocr": null,
@@ -319,7 +319,7 @@
       "Hourcade"
     ],
     "titre": "Colombier-dev-reseaux-modulations-spatio-num 40 4 409159",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1989-081.pdf",
     "texte_ocr": null,
@@ -334,7 +334,7 @@
       "Hourcade"
     ],
     "titre": "Monsieur Jean-Charles",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1989-132.pdf",
     "texte_ocr": null,
@@ -349,7 +349,7 @@
       "IMPRIME"
     ],
     "titre": "DES-PAGES-BLANCHES-Godard-environnement-modes-coordination-legitmite",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1990-083.pdf",
     "texte_ocr": null,
@@ -364,7 +364,7 @@
       "Godard"
     ],
     "titre": "Hourcade-Instruments-gestion-collective-risques-climatiques.",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1991-087.pdf",
     "texte_ocr": null,
@@ -379,7 +379,7 @@
       "Godard"
     ],
     "titre": "Variables-coordination-negociation-univers-controverse",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1992-088.pdf",
     "texte_ocr": null,
@@ -394,7 +394,7 @@
       "Godard"
     ],
     "titre": "relation-interdisciplinaire",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1992-089.pdf",
     "texte_ocr": null,
@@ -409,7 +409,7 @@
       "Godard"
     ],
     "titre": "economie-ecologie-nature-des-choses",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1992-090.pdf",
     "texte_ocr": null,
@@ -424,7 +424,7 @@
       "Hourcade"
     ],
     "titre": "Salles Thery Ecological-economics and scientific controversies Ecolofical Economics- n3",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1992-093.pdf",
     "texte_ocr": null,
@@ -439,7 +439,7 @@
       "Hourcade Modelling long run scenarios Energy"
     ],
     "titre": "Policy 21.3 pp309-326",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1993-092.pdf",
     "texte_ocr": null,
@@ -454,7 +454,7 @@
       "Godard"
     ],
     "titre": "risques-climatiques-raisons-scientifiques-economiques-politiquepdf",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1993-095.pdf",
     "texte_ocr": null,
@@ -469,7 +469,7 @@
       "Godard"
     ],
     "titre": "Politiques-envt-transition-economie-marche-Europe-centrale-orientale",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1993-096.pdf",
     "texte_ocr": null,
@@ -484,7 +484,7 @@
       "Godard"
     ],
     "titre": "science-interet-denonciation-Lenoir",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1993-098.pdf",
     "texte_ocr": null,
@@ -496,10 +496,10 @@
     "id": "1993-100",
     "annee": 1993,
     "auteurs": [
-      "COLLECTIF"
+      "Michel Kail, Introduction à la conférence de Sartre"
     ],
     "titre": "Les Temps modernes",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1993-100.pdf",
     "texte_ocr": null,
@@ -514,7 +514,7 @@
       "El auge de la fractura Norte-Sur. ¿Es"
     ],
     "titre": "NUEVA SOCIEDAD NRO. 132 JULIO- AGOSTO 1994 , PP. 100-117",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1994-101.pdf",
     "texte_ocr": null,
@@ -529,7 +529,7 @@
       "Grubb"
     ],
     "titre": "Chapuis Duong EconomicsOfChangingCourse Energy Policy",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1995-106.pdf",
     "texte_ocr": null,
@@ -544,7 +544,7 @@
       "Godard"
     ],
     "titre": "Le developpement durable et le devenir des villes  bonnes intentions Futuribles n209 pp.29-35",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1995-109.pdf",
     "texte_ocr": null,
@@ -559,7 +559,7 @@
       "Wuppertal Institute, Wuppertal, Germany"
     ],
     "titre": "Contribution to the Workshop \"Towards a Socio-Ecological Economics\"",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1995-128.pdf",
     "texte_ocr": null,
@@ -574,7 +574,7 @@
       "Godard"
     ],
     "titre": "Economies en-transition et expériance française d economie mixte Revue d etudes compa est ouest vol26n2",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1995-170.pdf",
     "texte_ocr": null,
@@ -585,9 +585,11 @@
   {
     "id": "1997-110",
     "annee": 1997,
-    "auteurs": null,
+    "auteurs": [
+      "(implied emissions for non-Annex I countries)."
+    ],
     "titre": "Hourcade-InfluenceInertiaUncertaintyAbatement-1",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1997-110.pdf",
     "texte_ocr": null,
@@ -602,7 +604,7 @@
       "Social Decision-Making under Scientific Controversy,"
     ],
     "titre": "Published in C. Joerges, K.-H. Ladeur and E. Vos (eds.), Integrating scientific expertise into regulatory decisionmaking - National experiences and European innovations. Baden-Baden, Nomos Verlagsgesellschaft, 1997,",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1997-111.pdf",
     "texte_ocr": null,
@@ -617,7 +619,7 @@
       "Godard"
     ],
     "titre": "Les enjeux des negociations sur le climat Futuribles n224",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1997-112.pdf",
     "texte_ocr": null,
@@ -632,7 +634,7 @@
       "Godard"
     ],
     "titre": "permis-negociable-convention-climat-exp-am-ricaine-harmonisation",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1997-113.pdf",
     "texte_ocr": null,
@@ -647,7 +649,7 @@
       "environnement"
     ],
     "titre": "hierarchie-enchevetree",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1997-114.pdf",
     "texte_ocr": null,
@@ -662,7 +664,7 @@
       "Godard"
     ],
     "titre": "ambivalence-precaution",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1997-115.pdf",
     "texte_ocr": null,
@@ -677,7 +679,7 @@
       "Godard"
     ],
     "titre": "l ecodeveloppement revisite Economies et societes Cahiers ISMEA n36",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1998-116.pdf",
     "texte_ocr": null,
@@ -692,7 +694,7 @@
       "Godard"
     ],
     "titre": "Sustainable development and the process of Jusifinng choice",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1998-117.pdf",
     "texte_ocr": null,
@@ -707,7 +709,7 @@
       "Godard"
     ],
     "titre": "les scenarios energetiques de la France 2010 2020 CGP Doc Francaise",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1998-118.pdf",
     "texte_ocr": null,
@@ -719,10 +721,10 @@
     "id": "1998-127",
     "annee": 1998,
     "auteurs": [
-      "INRA"
+      "Introduction"
     ],
     "titre": "Ecole-chercheur « Normes et obstacles aux échanges »",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1998-127.pdf",
     "texte_ocr": null,
@@ -733,9 +735,11 @@
   {
     "id": "1998-129",
     "annee": 1998,
-    "auteurs": null,
+    "auteurs": [
+      "concurrence internationale et"
+    ],
     "titre": "Conseil d'Analyse Economique",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1998-129.pdf",
     "texte_ocr": null,
@@ -750,7 +754,7 @@
       "nadaud"
     ],
     "titre": "gouvello-Rapport Final Mayenne",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/1999-119.pdf",
     "texte_ocr": null,
@@ -762,10 +766,10 @@
     "id": "2000-194",
     "annee": 2000,
     "auteurs": [
-      "GLOSSAIRE"
+      "coûts d’abattement des émissions sont plus bas ;"
     ],
     "titre": "permis d'émission internationalement négociables (PEN) : possibilité pour un pays soumis à",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2000-194.pdf",
     "texte_ocr": null,
@@ -780,7 +784,7 @@
       "hourcade"
     ],
     "titre": "fortin-impact-eco-pol-climatiques-controverses",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2000-195.pdf",
     "texte_ocr": null,
@@ -795,7 +799,7 @@
       "Schiray"
     ],
     "titre": "Le trafic des drogues organisations criminelles et politiques publiques de controle RISS 169",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2001-120.pdf",
     "texte_ocr": null,
@@ -810,7 +814,7 @@
       "Minh"
     ],
     "titre": "Transparency and control engineering integrated assesment models CIRAD",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2001-121.pdf",
     "texte_ocr": null,
@@ -825,7 +829,7 @@
       "hourcade"
     ],
     "titre": "climat-au-risque-negotiation-internationale",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2001-198.pdf",
     "texte_ocr": null,
@@ -840,7 +844,7 @@
       "Boemare"
     ],
     "titre": "Quirion implementing-ghg-tradint-in-europel",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2002-122.pdf",
     "texte_ocr": null,
@@ -855,7 +859,7 @@
       "Ghersi Hourcade The"
     ],
     "titre": "economics of lost deal Kyoto-The Hague-Marrakesh Economic Journal n3",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2002-123.pdf",
     "texte_ocr": null,
@@ -870,7 +874,7 @@
       "Hourcade"
     ],
     "titre": "Labyrinthe de verre Critique Internationale n15",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2002-171.pdf",
     "texte_ocr": null,
@@ -885,7 +889,7 @@
       "climate damages"
     ],
     "titre": "Optimal control models and elicitation of attitudes towards",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2003-125.pdf",
     "texte_ocr": null,
@@ -900,7 +904,7 @@
       "ghersi"
     ],
     "titre": "hourcade-equity-responsability",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2003-201.pdf",
     "texte_ocr": null,
@@ -915,7 +919,7 @@
       "Caparros PERREAU Tazdaït North"
     ],
     "titre": "south climate change negociation Public Choice vol121 n3-4",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2004-127.pdf",
     "texte_ocr": null,
@@ -930,7 +934,7 @@
       "lecocq"
     ],
     "titre": "hourcade-taux-actualisation-contre-principe-precaution",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2004-202.pdf",
     "texte_ocr": null,
@@ -945,7 +949,7 @@
       "quirion"
     ],
     "titre": "REE-does-uncertainty",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2005-128.pdf",
     "texte_ocr": null,
@@ -960,7 +964,7 @@
       "keith"
     ],
     "titre": "haduong-climatic-strategy-CO2-capture",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2006-129.pdf",
     "texte_ocr": null,
@@ -975,7 +979,7 @@
       "demailly"
     ],
     "titre": "quirion CO2-abatement-compe-clim pol",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2006-130.pdf",
     "texte_ocr": null,
@@ -988,7 +992,7 @@
     "annee": 2006,
     "auteurs": null,
     "titre": null,
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2006-131.doc",
     "texte_ocr": null,
@@ -1003,7 +1007,7 @@
       "Hallegatte"
     ],
     "titre": "jch-dumas-DynamicsMatterExtremeEvents",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2006-132.pdf",
     "texte_ocr": null,
@@ -1018,7 +1022,7 @@
       "Hourcade"
     ],
     "titre": "Jaccard Bataille Ghersi-Hybrid Modeling",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2006-133.pdf",
     "texte_ocr": null,
@@ -1033,7 +1037,7 @@
       "Crassous"
     ],
     "titre": "et-al-endeogenous-structural-change-climate-targetsCIRED",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2006-134.pdf",
     "texte_ocr": null,
@@ -1048,7 +1052,7 @@
       "Finon"
     ],
     "titre": "social-efficiency-instruments-promotion-rnr",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2006-173.pdf",
     "texte_ocr": null,
@@ -1063,7 +1067,7 @@
       "hourcade"
     ],
     "titre": "bons-mauvais-usages-provocation-Etudes92",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2006-203.pdf",
     "texte_ocr": null,
@@ -1078,7 +1082,7 @@
       "hourcade"
     ],
     "titre": "Du bon usage de l analyse economique pour les pol climatique",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2006-204.pdf",
     "texte_ocr": null,
@@ -1089,9 +1093,11 @@
   {
     "id": "2008-139",
     "annee": 2008,
-    "auteurs": null,
+    "auteurs": [
+      "Résumé"
+    ],
     "titre": "Publié dans La Revue économique. Mai 2008",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2008-139.pdf",
     "texte_ocr": null,
@@ -1106,7 +1112,7 @@
       "Hallegatte"
     ],
     "titre": "An adaptive regional input-output model and   its application to the assessment of the economic cost of Katrina, Risk  Analysis",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2008-140.pdf",
     "texte_ocr": null,
@@ -1121,7 +1127,7 @@
       "DEMAILLY"
     ],
     "titre": "Quirion  European Emission Trading Scheme and competitiveness-A case study on the iron and steel industry-Energy Economics",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2008-141.pdf",
     "texte_ocr": null,
@@ -1136,7 +1142,7 @@
       "Hallegatte"
     ],
     "titre": "Dumas-Can natural disasters have positive consequences- Investigating the role of embodied technical change-Ecological economics",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2008-142.pdf",
     "texte_ocr": null,
@@ -1151,7 +1157,7 @@
       "Finon"
     ],
     "titre": "Locatelli-Russian and European gas interdependence-Could contractual trade channel geopolitics-Energy policy",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2008-144.pdf",
     "texte_ocr": null,
@@ -1166,7 +1172,7 @@
       "Gusdorf"
     ],
     "titre": "Hallegatte-Lahellec-Time and space matter-how urban transitions create inequality-Global Environment Change",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2008-145.pdf",
     "texte_ocr": null,
@@ -1181,7 +1187,7 @@
       "Hourcade"
     ],
     "titre": "Enjeux geopolitiques du développement durable-Etudes",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2008-206.pdf",
     "texte_ocr": null,
@@ -1196,7 +1202,7 @@
       "Hourcade"
     ],
     "titre": "Ghersi Interpreting Environmental Policy Cost Measures-in-Modelling Sustainable Development",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2009-146.pdf",
     "texte_ocr": null,
@@ -1211,7 +1217,7 @@
       "Hallegate"
     ],
     "titre": "Strategies to adapt to an uncertain climate change-Global Environmental Change",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2009-147.pdf",
     "texte_ocr": null,
@@ -1226,7 +1232,7 @@
       "Nguyen"
     ],
     "titre": "Ha-Duong- Economic potential of renewable energy in Vietnam s power sector-Energy Policy",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2009-148.pdf",
     "texte_ocr": null,
@@ -1241,7 +1247,7 @@
       "Hourcade"
     ],
     "titre": "Ambrosi-Dumas-Beyond the Stern Review-Lessons from a risky venture at the limits of the cost–benefit analysis-Ecological-Economics",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2009-208.pdf",
     "texte_ocr": null,
@@ -1256,7 +1262,7 @@
       "Combet"
     ],
     "titre": "Ghersi-Hourcade-Thubin-Etude-fiscalite-carbone-France-rapport-Cired",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2009-209.pdf",
     "texte_ocr": null,
@@ -1271,7 +1277,7 @@
       "Nadaï"
     ],
     "titre": "Labussiere-Birds-turbines and the making of wind power landscape in South France -Landscape Research",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2010-153.pdf",
     "texte_ocr": null,
@@ -1286,7 +1292,7 @@
       "Rogalski"
     ],
     "titre": "climat-negociations climat-carrefour",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2011-156.pdf",
     "texte_ocr": null,
@@ -1299,7 +1305,7 @@
     "annee": 2011,
     "auteurs": null,
     "titre": null,
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2011-213-1.docx",
     "texte_ocr": null,
@@ -1312,7 +1318,7 @@
     "annee": 2011,
     "auteurs": null,
     "titre": null,
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2011-213-2.docx",
     "texte_ocr": null,
@@ -1327,7 +1333,7 @@
       "Viguie"
     ],
     "titre": "Hallegate  Trade-offs and system energies in urban policies Nature Climate Change",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2012-157.pdf",
     "texte_ocr": null,
@@ -1342,7 +1348,7 @@
       "Lecocq"
     ],
     "titre": "Hourcade Unspoken ethical issues in the climate affair insights from a theoreticalanalysis of negociation mandates Economic Theory 49 2",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2012-158.pdf",
     "texte_ocr": null,
@@ -1357,7 +1363,7 @@
       "Rogalski"
     ],
     "titre": "Rio+20",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2012-159.pdf",
     "texte_ocr": null,
@@ -1370,7 +1376,7 @@
     "annee": 2012,
     "auteurs": null,
     "titre": "scenario-bas-carbone-acceptable-pour-la-France-elaboration-participative-et-analyse-macroeconomique-Cired-RACF",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2012-160.pdf",
     "texte_ocr": null,
@@ -1385,7 +1391,7 @@
       "Publisher: Taylor & Francis"
     ],
     "titre": "This article was downloaded by: [Ecole des Ponts ParisTech]",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2012-165.pdf",
     "texte_ocr": null,
@@ -1400,7 +1406,7 @@
       "Finon"
     ],
     "titre": "L-economieeduenucleaireerevisitee-Etudes",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2012-177.pdf",
     "texte_ocr": null,
@@ -1415,7 +1421,7 @@
       "Hourcade"
     ],
     "titre": "Pottier-Espagne-The-environment-and-directed-technical-change-comment-WP-Cired",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2012-211.pdf",
     "texte_ocr": null,
@@ -1430,7 +1436,7 @@
       "Publisher: Taylor & Francis"
     ],
     "titre": "This article was downloaded by: [Ecole des Ponts ParisTech]",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2013-164.pdf",
     "texte_ocr": null,
@@ -1445,7 +1451,7 @@
       "Hourcade"
     ],
     "titre": "Shukla-Triggering-low-carbon-transition-in-the-aftermath-of-the global-financial-crisis-Climate-policy",
-    "type": null,
+    "type": "non-classifié",
     "revue_editeur": null,
     "fichier": "docs/2013-214.pdf",
     "texte_ocr": null,
@@ -1527,8 +1533,10 @@
   {
     "id": "CIR_GEN_0005",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "DEPUIS LA GUERRE"
+    ],
+    "titre": "LES BIFURCA TIONS DE LA POLITIQUE ÉNERGÉTIQUE FRANÇAISE",
     "type": null,
     "revue_editeur": null,
     "fichier": "docs/CIR_GEN_0005.pdf",
@@ -1556,7 +1564,7 @@
     "id": "CIR_GEN_0007",
     "annee": 1974,
     "auteurs": [
-      "LE BIAIS"
+      "TECHNIQUES"
     ],
     "titre": "DANS LE CHOIX DE",
     "type": null,
@@ -1616,7 +1624,7 @@
     "id": "CIR_GOD_0001",
     "annee": 1998,
     "auteurs": [
-      "INRA"
+      "Introduction"
     ],
     "titre": "Ecole-chercheur « Normes et obstacles aux échanges »",
     "type": null,
@@ -1645,7 +1653,9 @@
   {
     "id": "CIR_GOD_0003",
     "annee": 1998,
-    "auteurs": null,
+    "auteurs": [
+      "concurrence internationale et"
+    ],
     "titre": "Conseil d'Analyse Economique",
     "type": null,
     "revue_editeur": null,
@@ -1764,7 +1774,7 @@
     "id": "CIR_GOD_0011",
     "annee": null,
     "auteurs": [
-      "DOSSIERS"
+      "Sciences de la société et"
     ],
     "titre": "L'ENVIRONNEMENT",
     "type": null,
@@ -1779,7 +1789,7 @@
     "id": "CIR_GOD_0012",
     "annee": 1977,
     "auteurs": [
-      "NOUVELLES"
+      "Unité"
     ],
     "titre": "L'E CODEVELOPPEMENT",
     "type": null,
@@ -1868,7 +1878,9 @@
   {
     "id": "CIR_GOD_0018",
     "annee": 2002,
-    "auteurs": null,
+    "auteurs": [
+      "l 'Iddri"
+    ],
     "titre": "séminaires",
     "type": null,
     "revue_editeur": null,
@@ -1897,7 +1909,7 @@
     "id": "CIR_GOD_0020",
     "annee": null,
     "auteurs": [
-      "GLOSSAIRE"
+      "coûts d’abattement des émissions sont plus bas ;"
     ],
     "titre": "permis d'émission internationalement négociables (PEN) : possibilité pour un pays soumis à",
     "type": null,
@@ -1911,7 +1923,9 @@
   {
     "id": "CIR_GOD_0021",
     "annee": 1977,
-    "auteurs": null,
+    "auteurs": [
+      "CODEVELOPPEMENT"
+    ],
     "titre": "Supplément à MSH informations",
     "type": null,
     "revue_editeur": null,
@@ -1925,7 +1939,7 @@
     "id": "CIR_GOD_0022",
     "annee": 1977,
     "auteurs": [
-      "NOUVELLES"
+      "Unité"
     ],
     "titre": "L'ECODEVELOPPEMENT",
     "type": null,
@@ -2044,7 +2058,9 @@
   {
     "id": "CIR_GOD_0030",
     "annee": null,
-    "auteurs": null,
+    "auteurs": [
+      "L'occupation des espaces"
+    ],
     "titre": "CIHEAM - Options Mediterraneennes",
     "type": null,
     "revue_editeur": null,
@@ -2072,7 +2088,9 @@
   {
     "id": "CIR_GOD_0032",
     "annee": 1989,
-    "auteurs": null,
+    "auteurs": [
+      "contient la question de leur légitimité∗"
+    ],
     "titre": "Publié in N. Mathieu et M. Jollivet (dir.), Du Rural à l’environnement – La question de la nature aujourd’hui.",
     "type": null,
     "revue_editeur": null,
@@ -2086,7 +2104,7 @@
     "id": "CIR_GOD_0033",
     "annee": null,
     "auteurs": [
-      "OLIVIER"
+      "SALLES"
     ],
     "titre": "JEAN-MICHEL",
     "type": null,
@@ -2187,7 +2205,7 @@
     "id": "CIR_GOD_0040",
     "annee": 1995,
     "auteurs": [
-      "Séminaire"
+      "Facteurs"
     ],
     "titre": "Renault - cnrs Pir villes",
     "type": null,
@@ -2231,7 +2249,9 @@
   {
     "id": "CIR_GOD_0043",
     "annee": 1993,
-    "auteurs": null,
+    "auteurs": [
+      "Olivier GODARD"
+    ],
     "titre": "Note sur l'étude du CERNA \"Impact de différents instruments économiques sur",
     "type": null,
     "revue_editeur": null,
@@ -2244,7 +2264,9 @@
   {
     "id": "CIR_GOD_0044",
     "annee": null,
-    "auteurs": null,
+    "auteurs": [
+      "polysémie sous-exploitée*"
+    ],
     "titre": "L'environnement,",
     "type": null,
     "revue_editeur": null,
@@ -2273,7 +2295,7 @@
     "id": "CIR_GOD_0046",
     "annee": null,
     "auteurs": [
-      "Entre"
+      "l'artifice des"
     ],
     "titre": "disciplines et réalité,",
     "type": null,
@@ -2302,7 +2324,9 @@
   {
     "id": "CIR_GOD_0048",
     "annee": 1992,
-    "auteurs": null,
+    "auteurs": [
+      "suscitât quelques accès"
+    ],
     "titre": "Vous avez dit : néfaste ?",
     "type": null,
     "revue_editeur": null,
@@ -2330,7 +2354,9 @@
   {
     "id": "CIR_GOD_0050",
     "annee": 1993,
-    "auteurs": null,
+    "auteurs": [
+      "about the use, benefits or impacts"
+    ],
     "titre": "German Marshall Fund of the United States of America",
     "type": null,
     "revue_editeur": null,
@@ -2431,8 +2457,10 @@
   {
     "id": "CIR_HOU_0002",
     "annee": 1979,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "MYTHES ET REALITES DES"
+    ],
+    "titre": "CHOIX ENERGETIQUES ET CHOIX DE SOCIETE",
     "type": null,
     "revue_editeur": null,
     "fichier": "docs/CIR_HOU_0002.pdf",
@@ -2444,7 +2472,9 @@
   {
     "id": "CIR_HOU_0003",
     "annee": null,
-    "auteurs": null,
+    "auteurs": [
+      "IMPACT ÉCONOMIQUE"
+    ],
     "titre": "JEAN-CHARLES HOURCADE",
     "type": null,
     "revue_editeur": null,
@@ -2500,7 +2530,9 @@
   {
     "id": "CIR_HOU_0007",
     "annee": null,
-    "auteurs": null,
+    "auteurs": [
+      "CEDEX, France."
+    ],
     "titre": "The IMACLIM-R Model:",
     "type": null,
     "revue_editeur": null,
@@ -2528,8 +2560,10 @@
   {
     "id": "CIR_HOU_0009",
     "annee": 1984,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Revue trimestrielle de sciences sociales"
+    ],
+    "titre": "avril-juin 1984",
     "type": null,
     "revue_editeur": null,
     "fichier": "docs/CIR_HOU_0009.pdf",
@@ -2554,8 +2588,10 @@
   {
     "id": "CIR_SAC_0002",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Neste artlgo, o cJentlsta Ignacy Sachs, dlretor"
+    ],
+    "titre": "energia : moderaçâo",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0002.pdf",
@@ -2593,8 +2629,10 @@
   {
     "id": "CIR_SAC_0005",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "of Industrialisation"
+    ],
+    "titre": "Transfer of Technology and Strategy",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0005.pdf",
@@ -2606,8 +2644,10 @@
   {
     "id": "CIR_SAC_0006",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Concepts, Projects, Strategies"
+    ],
+    "titre": "ECODEVELOPMENT",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0006.pdf",
@@ -2619,8 +2659,10 @@
   {
     "id": "CIR_SAC_0007",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "DIALOGUE"
+    ],
+    "titre": "THE SOUTH-NORTH",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0007.pdf",
@@ -2658,8 +2700,10 @@
   {
     "id": "CIR_SAC_0010",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Du Moyen Âge à nos jours : européo-centrisme et découverte"
+    ],
+    "titre": "Ignacy Sachs",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0010.pdf",
@@ -2671,8 +2715,10 @@
   {
     "id": "CIR_SAC_0011",
     "annee": 1973,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "vers une"
+    ],
+    "titre": "politique de",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0011.pdf",
@@ -2684,8 +2730,10 @@
   {
     "id": "CIR_SAC_0012",
     "annee": 1974,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "interview"
+    ],
+    "titre": "REPERCUSSIONS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0012.pdf",
@@ -2698,9 +2746,9 @@
     "id": "CIR_SAC_0013",
     "annee": 1974,
     "auteurs": [
-      "gaspillages                       :"
+      "pays riches, pays pauvres"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Deux gaspillages :",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0013.pdf",
@@ -2713,9 +2761,9 @@
     "id": "CIR_SAC_0014",
     "annee": 1973,
     "auteurs": [
-      "Interview  d'Ignacy  Sachs  *"
+      "population et éco-développement"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "¿o oo-^ * ¿à",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0014.pdf",
@@ -2728,9 +2776,9 @@
     "id": "CIR_SAC_0015",
     "annee": 1974,
     "auteurs": [
-      "ijNViRONNLMLNT    HT  PLANIFICATION     :"
+      "Godelier"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "ijNVi RONNLMLNT HT PLANIFICATION",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0015.pdf",
@@ -2741,9 +2789,11 @@
   },
   {
     "id": "CIR_SAC_0016",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1985,
+    "auteurs": [
+      "CU'Ltf"
+    ],
+    "titre": "/UülUv Uck",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0016.pdf",
@@ -2755,8 +2805,10 @@
   {
     "id": "CIR_SAC_0017",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "by Ignacy Sachs"
+    ],
+    "titre": "Improving Life in the \"L-City\"",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0017.pdf",
@@ -2767,9 +2819,11 @@
   },
   {
     "id": "CIR_SAC_0018",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1981,
+    "auteurs": [
+      "Abstracts of Selected Solar Energy Technology"
+    ],
+    "titre": "NRAS-31/UNUP-347",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0018.pdf",
@@ -2782,9 +2836,9 @@
     "id": "CIR_SAC_0019",
     "annee": 1973,
     "auteurs": [
-      "L'art                 de"
+      "objectifs à long"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Les économistes se sont toujours accordés sur l'importance",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0019.pdf",
@@ -2796,8 +2850,10 @@
   {
     "id": "CIR_SAC_0020",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "E RICERCA DI NUOVI VALORI"
+    ],
+    "titre": "CRISI DI UNA STRATEGIA",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0020.pdf",
@@ -2808,9 +2864,11 @@
   },
   {
     "id": "CIR_SAC_0021",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1988,
+    "auteurs": [
+      "LA QUESTIONE AMBIENTE"
+    ],
+    "titre": "mensile dell'lpalmo n. 12 dicembre 1988",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0021.pdf",
@@ -2822,8 +2880,10 @@
   {
     "id": "CIR_SAC_0022",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Bioenergia e agroindustria"
+    ],
+    "titre": "Il sole brasiliano è delle masse",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0022.pdf",
@@ -2834,9 +2894,11 @@
   },
   {
     "id": "CIR_SAC_0023",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1980,
+    "auteurs": [
+      "RESOURCES AND THE CITY"
+    ],
+    "titre": "9th CONFERENCE OP MAYORS OF THE WORLD'S MAJOR CITIES",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0023.pdf",
@@ -2861,8 +2923,10 @@
   {
     "id": "CIR_SAC_0025",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "RENEWABLE"
+    ],
+    "titre": "NORTH SOUTH ROUNDTABLE",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0025.pdf",
@@ -2874,8 +2938,10 @@
   {
     "id": "CIR_SAC_0026",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "IGNACY SACHS:"
+    ],
+    "titre": "Intervista",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0026.pdf",
@@ -2887,8 +2953,10 @@
   {
     "id": "CIR_SAC_0027",
     "annee": 1982,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "neilatI licnuoC"
+    ],
+    "titre": "liesnoC nailatI",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0027.pdf",
@@ -2913,8 +2981,10 @@
   {
     "id": "CIR_SAC_0029",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "L'ecosviluppo: una scelta non rinviabile"
+    ],
+    "titre": "Dossier / Ambiente e sviluppo",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0029.pdf",
@@ -2926,8 +2996,10 @@
   {
     "id": "CIR_SAC_0030",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "OF ECODEVELOPMENT..."
+    ],
+    "titre": "THE STRATEGIES",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0030.pdf",
@@ -2939,8 +3011,10 @@
   {
     "id": "CIR_SAC_0031",
     "annee": 1984,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "LES STRATEGIES"
+    ],
+    "titre": "^ -*-/ ^cL>",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0031.pdf",
@@ -2951,7 +3025,7 @@
   },
   {
     "id": "CIR_SAC_0032",
-    "annee": null,
+    "annee": 1983,
     "auteurs": null,
     "titre": null,
     "type": "gris-sachs",
@@ -2978,8 +3052,10 @@
   {
     "id": "CIR_SAC_0034",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "j-LXLQjL-"
+    ],
+    "titre": "P/UïlAsUMto",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0034.pdf",
@@ -2990,9 +3066,11 @@
   },
   {
     "id": "CIR_SAC_0035",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1979,
+    "auteurs": [
+      "EVELOPPEMENT"
+    ],
+    "titre": "^ EVELOPMENT",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0035.pdf",
@@ -3003,9 +3081,11 @@
   },
   {
     "id": "CIR_SAC_0036",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1986,
+    "auteurs": [
+      "JOURNAL OF THE SOCIETY*"
+    ],
+    "titre": "CHANGE • VILLA",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0036.pdf",
@@ -3017,8 +3097,10 @@
   {
     "id": "CIR_SAC_0037",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "AJU-UtPI/CE"
+    ],
+    "titre": "UTjrCUX- 'UXriCÜC",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0037.pdf",
@@ -3043,8 +3125,10 @@
   {
     "id": "CIR_SAC_0039",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "STATYSTYKI"
+    ],
+    "titre": "GLÓWNA PLANOWAMIA",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0039.pdf",
@@ -3056,8 +3140,10 @@
   {
     "id": "CIR_SAC_0040",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "THE ADVANCED COURSE IN NATIONAL ECONOMIC PLANNING"
+    ],
+    "titre": "SZKOLA GLÓWNA PLANQWANIA I STATYSTYKI",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0040.pdf",
@@ -3069,8 +3155,10 @@
   {
     "id": "CIR_SAC_0041",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "National Economic"
+    ],
+    "titre": "Higher Course",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0041.pdf",
@@ -3096,9 +3184,9 @@
     "id": "CIR_SAC_0043",
     "annee": 1993,
     "auteurs": [
-      "AFRIQUE"
+      "AFRICA"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "DEVEL OPPEMENT",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0043.pdf",
@@ -3110,8 +3198,10 @@
   {
     "id": "CIR_SAC_0044",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "MAN AND FORESTS : TOWARDS A POPULAR"
+    ],
+    "titre": "enda : \"environmental development action in the third world\" and the joint unep,",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0044.pdf",
@@ -3123,8 +3213,10 @@
   {
     "id": "CIR_SAC_0045",
     "annee": 1992,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "africain"
+    ],
+    "titre": "environnement",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0045.pdf",
@@ -3137,9 +3229,9 @@
     "id": "CIR_SAC_0046",
     "annee": 1974,
     "auteurs": [
-      "HX -        fit'"
+      "programme \"formation pour l'environnement\""
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "glj| ' * - '5r al :^S| C -SEÏ* ' S ! l^^v^>r Çf í ^ '.\"'c' Jb >Íh ^1*V j",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0046.pdf",
@@ -3151,8 +3243,10 @@
   {
     "id": "CIR_SAC_0047",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "VOLUME"
+    ],
+    "titre": "INTERNATIONAL",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0047.pdf",
@@ -3164,8 +3258,10 @@
   {
     "id": "CIR_SAC_0048",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "TRABAJO"
+    ],
+    "titre": "INTERNACIONAL",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0048.pdf",
@@ -3180,7 +3276,7 @@
     "auteurs": [
       "ECOLE       DES     HAUTES        ETUDES"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Journées des 5 et 6",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0049.pdf",
@@ -3192,8 +3288,10 @@
   {
     "id": "CIR_SAC_0050",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "THEORIE"
+    ],
+    "titre": "Ignacy SACHS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0050.pdf",
@@ -3206,9 +3304,9 @@
     "id": "CIR_SAC_0051",
     "annee": 1988,
     "auteurs": [
-      "Notre                avenir                 à      tous"
+      "Notes"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Notre avenir à tous",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0051.pdf",
@@ -3220,7 +3318,9 @@
   {
     "id": "CIR_SAC_0052",
     "annee": 1988,
-    "auteurs": null,
+    "auteurs": [
+      "/ou/ladirectionclé"
+    ],
     "titre": "---------------------Page 1---------------------",
     "type": "gris-sachs",
     "revue_editeur": null,
@@ -3279,9 +3379,9 @@
     "id": "CIR_SAC_0056",
     "annee": 1988,
     "auteurs": [
-      "Comptes           rendus"
+      "Comptes rendus"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "développement des villes",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0056.pdf",
@@ -3292,9 +3392,11 @@
   },
   {
     "id": "CIR_SAC_0057",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1988,
+    "auteurs": [
+      "EMPLOYMENT AND DEVELOPMENT FINANCING:"
+    ],
+    "titre": "RESOURCES,",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0057.pdf",
@@ -3306,8 +3408,10 @@
   {
     "id": "CIR_SAC_0058",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "to motivate research"
+    ],
+    "titre": "b> - K/01\\",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0058.pdf",
@@ -3320,9 +3424,9 @@
     "id": "CIR_SAC_0059",
     "annee": 1988,
     "auteurs": [
-      "Ignacy  Sachs   <x)"
+      "Ressources,"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Ignacy Sachs <x)",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0059.pdf",
@@ -3335,9 +3439,9 @@
     "id": "CIR_SAC_0060",
     "annee": 1988,
     "auteurs": [
-      "Ignacy  SACHS"
+      "QUOTIDIENNETE ET L'ECONOMIE REELLE"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Ignacy SACHS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0060.pdf",
@@ -3349,8 +3453,10 @@
   {
     "id": "CIR_SAC_0061",
     "annee": 1984,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "Revue trimestrielle de sciences sociales"
+    ],
+    "titre": "15 NOV. 19»",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0061.pdf",
@@ -3363,9 +3469,9 @@
     "id": "CIR_SAC_0062",
     "annee": 1987,
     "auteurs": [
-      "Ignacy  SACHS  *"
+      "L'ECODEVELOPPEMENT"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Ignacy SACHS *",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0062.pdf",
@@ -3377,8 +3483,10 @@
   {
     "id": "CIR_SAC_0063",
     "annee": 1988,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "JfCuaJL^ CPICUCJ iti"
+    ],
+    "titre": "Juixucwi^y [L a¿dz& ~jjQuA.i»i(U",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0063.pdf",
@@ -3390,8 +3498,10 @@
   {
     "id": "CIR_SAC_0064",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "FOOD AND ENERGY"
+    ],
+    "titre": "5 - r ri i",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0064.pdf",
@@ -3404,9 +3514,9 @@
     "id": "CIR_SAC_0065",
     "annee": 1985,
     "auteurs": [
-      "Amérique                       latine            :"
+      "la nouvelle donne"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Amérique latine :",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0065.pdf",
@@ -3419,9 +3529,9 @@
     "id": "CIR_SAC_0066",
     "annee": 1985,
     "auteurs": [
-      "du      Tiers         Monde             :"
+      "du Tiers Monde :"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "survivre dans les villes",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0066.pdf",
@@ -3433,8 +3543,10 @@
   {
     "id": "CIR_SAC_0067",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "AND ENVIRONMENTAL MANAGEMENT"
+    ],
+    "titre": "SETTLEMENTS:",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0067.pdf",
@@ -3445,9 +3557,11 @@
   },
   {
     "id": "CIR_SAC_0068",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1985,
+    "auteurs": [
+      "IN GIANT THIRD WORLD"
+    ],
+    "titre": "DAILY MIRACLE",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0068.pdf",
@@ -3460,9 +3574,9 @@
     "id": "CIR_SAC_0069",
     "annee": 1986,
     "auteurs": [
-      ":'ÉTA       T    DU        MONDE"
+      "Édition"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": ": 'ÉTA T DU MONDE",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0069.pdf",
@@ -3489,8 +3603,10 @@
   {
     "id": "CIR_SAC_0071",
     "annee": 1988,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "¿uCícCx"
+    ],
+    "titre": "|--£a/V.<_ ^ Ia'' C[AU_ J",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0071.pdf",
@@ -3502,8 +3618,10 @@
   {
     "id": "CIR_SAC_0072",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "ÉCOLE"
+    ],
+    "titre": "L'ÉDUCATION NATIONALE",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0072.pdf",
@@ -3516,7 +3634,7 @@
     "id": "CIR_SAC_0073",
     "annee": null,
     "auteurs": null,
-    "titre": null,
+    "titre": "DEVELOPMENT CENTRE",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0073.pdf",
@@ -3528,8 +3646,10 @@
   {
     "id": "CIR_SAC_0074",
     "annee": 1984,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "Revue trimestrielle de sciences sociales"
+    ],
+    "titre": "avril-juin 1984",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0074.pdf",
@@ -3542,9 +3662,9 @@
     "id": "CIR_SAC_0075",
     "annee": 1984,
     "auteurs": [
-      "î-   FftA                Cil)"
+      "le Forum du Développement"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "écrit pour",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0075.pdf",
@@ -3556,8 +3676,10 @@
   {
     "id": "CIR_SAC_0076",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Malthus"
+    ],
+    "titre": "Ignacy SACHS ( 1)",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0076.pdf",
@@ -3570,9 +3692,9 @@
     "id": "CIR_SAC_0077",
     "annee": 1984,
     "auteurs": [
-      "Internationalisation"
+      "de Téconomie"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Internationalisation",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0077.pdf",
@@ -3585,9 +3707,9 @@
     "id": "CIR_SAC_0078",
     "annee": 1984,
     "auteurs": [
-      "S  -  Ffirt"
+      "Dans quelle mesure ces réflexions se rap¬"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Ignacy Sachs",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0078.pdf",
@@ -3615,9 +3737,9 @@
     "id": "CIR_SAC_0080",
     "annee": 1984,
     "auteurs": [
-      "cote"
+      "feuillet"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "la découverte / maspero",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0080.pdf",
@@ -3630,9 +3752,9 @@
     "id": "CIR_SAC_0081",
     "annee": 1984,
     "auteurs": [
-      "LES       SYSTEMES                       INTEGRES"
+      "EN AGRICULTURE"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "LES SYSTEMES INTEGRES",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0081.pdf",
@@ -3644,8 +3766,10 @@
   {
     "id": "CIR_SAC_0082",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "SECOND"
+    ],
+    "titre": "Revolution,",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0082.pdf",
@@ -3657,8 +3781,10 @@
   {
     "id": "CIR_SAC_0083",
     "annee": 1983,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "AUTRE"
+    ],
+    "titre": "ACTIVITES SCIENTIFIQUES",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0083.pdf",
@@ -3670,7 +3796,9 @@
   {
     "id": "CIR_SAC_0084",
     "annee": 1992,
-    "auteurs": null,
+    "auteurs": [
+      "Les    Amériques"
+    ],
     "titre": "---------------------Page 1---------------------",
     "type": "gris-sachs",
     "revue_editeur": null,
@@ -3684,7 +3812,7 @@
     "id": "CIR_SAC_0085",
     "annee": null,
     "auteurs": null,
-    "titre": null,
+    "titre": "рию па свои лад. Поэтому совершенно",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0085.pdf",
@@ -3697,9 +3825,9 @@
     "id": "CIR_SAC_0086",
     "annee": 1984,
     "auteurs": [
-      "' nr\\       c'iLoj"
+      "mars"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "'\" Futuribles",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0086.pdf",
@@ -3740,9 +3868,11 @@
   },
   {
     "id": "CIR_SAC_0089",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1984,
+    "auteurs": [
+      "Dieter Steiner, Ben Wisner (eds.)"
+    ],
+    "titre": "Zürcher Geographische Schriften",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0089.pdf",
@@ -3767,8 +3897,10 @@
   {
     "id": "CIR_SAC_0091",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "SCOPE AND EVALUATION CRITERIA"
+    ],
+    "titre": "SOCIAL INNOVATIONS IN THE URBAN SETTING:",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0091.pdf",
@@ -3781,9 +3913,9 @@
     "id": "CIR_SAC_0092",
     "annee": 1988,
     "auteurs": [
-      "LES  NOTES    DE  LECTURE     D'IGNACY    SACHS*"
+      "SENTIER?"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "LES NOTES DE LECTURE D'IGNACY SACHS*",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0092.pdf",
@@ -3795,8 +3927,10 @@
   {
     "id": "CIR_SAC_0093",
     "annee": 1988,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "LES NOTES DE LECTURE D'IGNACY SACHS"
+    ],
+    "titre": "Doss i sr/^s.",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0093.pdf",
@@ -3807,9 +3941,11 @@
   },
   {
     "id": "CIR_SAC_0094",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 2002,
+    "auteurs": [
+      "Technical Secretariat"
+    ],
+    "titre": "World Commission on the Social Dimension of Globalization",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0094.pdf",
@@ -3835,9 +3971,9 @@
     "id": "CIR_SAC_0096",
     "annee": 1975,
     "auteurs": [
-      "problème   réel est de  savoir comment    effectuer ce"
+      "scientifiquement erronée. Le seul"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "«L'ÉCODÉVELOPPEMENT",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0096.pdf",
@@ -3849,8 +3985,10 @@
   {
     "id": "CIR_SAC_0097",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "dk. Paris, im Oktober"
+    ],
+    "titre": "DAC-Kritik an Japans Entwicklungshilfe",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0097.pdf",
@@ -3862,8 +4000,10 @@
   {
     "id": "CIR_SAC_0098",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "ON EmEOMESSITAL PROBLEMS"
+    ],
+    "titre": "NATIONS UNIES",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0098.pdf",
@@ -3874,9 +4014,11 @@
   },
   {
     "id": "CIR_SAC_0099",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1978,
+    "auteurs": [
+      "CRISES OF MALDEVELOPMENT IN THE NORTH"
+    ],
+    "titre": "BUILDING BLOCKS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0099.pdf",
@@ -3887,9 +4029,11 @@
   },
   {
     "id": "CIR_SAC_0100",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1979,
+    "auteurs": [
+      "HOW DO WE GET THERE?"
+    ],
+    "titre": "BUILDING BLOCKS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0100.pdf",
@@ -3902,9 +4046,9 @@
     "id": "CIR_SAC_0101",
     "annee": 1983,
     "auteurs": [
-      "irD(\\           Doo-^                              ïW/cUc"
+      "techniques aimed at weakening the role of"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "sophisticated",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0101.pdf",
@@ -3915,9 +4059,11 @@
   },
   {
     "id": "CIR_SAC_0102",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1985,
+    "auteurs": [
+      "DEVELOPMENT FORUM"
+    ],
+    "titre": "iRUARY-MARCH 1985",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0102.pdf",
@@ -3930,9 +4076,9 @@
     "id": "CIR_SAC_0103",
     "annee": 1985,
     "auteurs": [
-      "ö-bVi                               )££<      •  /frttvu-C"
+      "Production alimentaire"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "FÉVRIER-MARS 1985",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0103.pdf",
@@ -3944,8 +4090,10 @@
   {
     "id": "CIR_SAC_0104",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Producción alimentaria"
+    ],
+    "titre": "Ecosistemas urbanos",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0104.pdf",
@@ -3957,8 +4105,10 @@
   {
     "id": "CIR_SAC_0105",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Food"
+    ],
+    "titre": "DEVELOPMENT FORUM",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0105.pdf",
@@ -3970,8 +4120,10 @@
   {
     "id": "CIR_SAC_0106",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Energía y alimentación"
+    ],
+    "titre": "Alimentación",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0106.pdf",
@@ -3983,8 +4135,10 @@
   {
     "id": "CIR_SAC_0107",
     "annee": 1985,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "Alimentation"
+    ],
+    "titre": "FORI M DU DEVELOPPEMENT",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0107.pdf",
@@ -3997,9 +4151,9 @@
     "id": "CIR_SAC_0108",
     "annee": 1993,
     "auteurs": [
-      "ou acceptentdes dispositifs,nonpas"
+      "ou acceptent des dispositifs, non pas"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "exploitation. Ils mettent alors en place",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0108.pdf",
@@ -4011,8 +4165,10 @@
   {
     "id": "CIR_SAC_0109",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "SAC II S"
+    ],
+    "titre": "O^Ctv'AjaCc6^DJU",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0109.pdf",
@@ -4023,9 +4179,11 @@
   },
   {
     "id": "CIR_SAC_0110",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1992,
+    "auteurs": [
+      "Igiiac\\j Sachs"
+    ],
+    "titre": "THE AFTERMATH OF THE EARTH SUMMIT:",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0110.pdf",
@@ -4036,9 +4194,11 @@
   },
   {
     "id": "CIR_SAC_0111",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1977,
+    "auteurs": [
+      "INSTITUT DES NATIONS UNIES POUR LE DEVELOPPEMENT"
+    ],
+    "titre": "5-tha^^C.Í;",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0111.pdf",
@@ -4050,8 +4210,10 @@
   {
     "id": "CIR_SAC_0112",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "EJECUCION DE PLANES"
+    ],
+    "titre": "POLITICAS DE",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0112.pdf",
@@ -4075,9 +4237,11 @@
   },
   {
     "id": "CIR_SAC_0114",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1972,
+    "auteurs": [
+      "Original: español"
+    ],
+    "titre": "Marzo de 1972",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0114.pdf",
@@ -4088,9 +4252,11 @@
   },
   {
     "id": "CIR_SAC_0115",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1973,
+    "auteurs": [
+      "ECONOMICO"
+    ],
+    "titre": "E/CONF.60/SYM.111/26",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0115.pdf",
@@ -4102,8 +4268,10 @@
   {
     "id": "CIR_SAC_0116",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "XXI Century"
+    ],
+    "titre": "Management for the",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0116.pdf",
@@ -4115,8 +4283,10 @@
   {
     "id": "CIR_SAC_0117",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "strategies based on understanding the complex in¬"
+    ],
+    "titre": "by devizing sound and comprehensive development",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0117.pdf",
@@ -4128,8 +4298,10 @@
   {
     "id": "CIR_SAC_0118",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "John D. Hasarda"
+    ],
+    "titre": "Mattei Dogan",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0118.pdf",
@@ -4154,8 +4326,10 @@
   {
     "id": "CIR_SAC_0120",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "in Economic Development"
+    ],
+    "titre": "Market and Institutions",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0120.pdf",
@@ -4166,9 +4340,11 @@
   },
   {
     "id": "CIR_SAC_0121",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1995,
+    "auteurs": [
+      "A PEGS Journal"
+    ],
+    "titre": "S - l£ Tr\\",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0121.pdf",
@@ -4181,9 +4357,9 @@
     "id": "CIR_SAC_0122",
     "annee": 1984,
     "auteurs": [
-      "Des                   Superphénix"
+      "Par IGNACY SACHS *"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Des Superphénix",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0122.pdf",
@@ -4208,8 +4384,10 @@
   {
     "id": "CIR_SAC_0124",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "DEVELOPMENT"
+    ],
+    "titre": "INTERDISCIPLINARITY",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0124.pdf",
@@ -4220,9 +4398,11 @@
   },
   {
     "id": "CIR_SAC_0125",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1984,
+    "auteurs": [
+      "TRADE"
+    ],
+    "titre": "RESTRICTED",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0125.pdf",
@@ -4247,8 +4427,10 @@
   {
     "id": "CIR_SAC_0127",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Post-scriptum to a discussion"
+    ],
+    "titre": "Development-oriented research:",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0127.pdf",
@@ -4274,9 +4456,9 @@
     "id": "CIR_SAC_0129",
     "annee": 1980,
     "auteurs": [
-      "Ministère   des  Universités"
+      "Ecole"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Ministère des Universités",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0129.pdf",
@@ -4288,8 +4470,10 @@
   {
     "id": "CIR_SAC_0130",
     "annee": 1975,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "CENTRE"
+    ],
+    "titre": "*',;• v j .'.'XV '",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0130.pdf",
@@ -4302,9 +4486,9 @@
     "id": "CIR_SAC_0131",
     "annee": 1983,
     "auteurs": [
-      "SECRÉTARIATD'ÉTATAUPRÈSDUPREMIERMINISTRE"
+      "COMMISSARIAT GÉNÉRAL DU PLAN"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "SECRÉTARIAT D'ÉTAT AUPRÈS DU PREMIER MINISTRE",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0131.pdf",
@@ -4316,8 +4500,10 @@
   {
     "id": "CIR_SAC_0132",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "NATIONALE"
+    ],
+    "titre": "L'ÉDUCATION",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0132.pdf",
@@ -4329,8 +4515,10 @@
   {
     "id": "CIR_SAC_0133",
     "annee": 1980,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "VINAVER"
+    ],
+    "titre": "BERGERET, I. SACHS, M. SCHIRAY, S. SIGAL, D. THERY",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0133.pdf",
@@ -4343,9 +4531,9 @@
     "id": "CIR_SAC_0134",
     "annee": 1974,
     "auteurs": [
-      "CORDES"
+      "LE CHANGEMENT TECHNOLOGIQUE COMMIE VARIABLE"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "75007 PARIS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0134.pdf",
@@ -4357,8 +4545,10 @@
   {
     "id": "CIR_SAC_0135",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "DÉVELOPPEMENT"
+    ],
+    "titre": "INTERNATSONNAL DE RECHERCHE SÛR L'ENVIRONNEMENT",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0135.pdf",
@@ -4371,9 +4561,9 @@
     "id": "CIR_SAC_0136",
     "annee": 1981,
     "auteurs": [
-      "Centre  International    de Recherche    sur"
+      "l'Environnement et le Développement"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "International de Recherche sur",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0136.pdf",
@@ -4399,9 +4589,9 @@
     "id": "CIR_SAC_0138",
     "annee": 1990,
     "auteurs": [
-      "XavierGODARD"
+      "sous"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Xavier GODARD",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0138.pdf",
@@ -4413,8 +4603,10 @@
   {
     "id": "CIR_SAC_0139",
     "annee": 1991,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "ParIgnacy sachs*"
+    ],
+    "titre": "QUEL DEVELOPPEMENT POUR LE XXIe SIECLE ?",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0139.pdf",
@@ -4426,8 +4618,10 @@
   {
     "id": "CIR_SAC_0140",
     "annee": 1992,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "La croissance économique des pays du Nord s'est effectuée au"
+    ],
+    "titre": "Quel développement pour le XXIe siècle ?",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0140.pdf",
@@ -4439,8 +4633,10 @@
   {
     "id": "CIR_SAC_0141",
     "annee": 1992,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "PLANETE"
+    ],
+    "titre": "i\\\\J( II t- /",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0141.pdf",
@@ -4452,8 +4648,10 @@
   {
     "id": "CIR_SAC_0142",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Transition strategies"
+    ],
+    "titre": "Ignacy Sachs",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0142.pdf",
@@ -4466,9 +4664,9 @@
     "id": "CIR_SAC_0143",
     "annee": 1989,
     "auteurs": [
-      "Wiïmm"
+      "DEVELOPPEMENT"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "STRATEGIES",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0143.pdf",
@@ -4481,9 +4679,9 @@
     "id": "CIR_SAC_0144",
     "annee": 1990,
     "auteurs": [
-      "PLURALITÉ"
+      "Ignacy Sachs"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "DES DÉVELOPPEMENTS BRÉSILIENS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0144.pdf",
@@ -4494,9 +4692,11 @@
   },
   {
     "id": "CIR_SAC_0145",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1990,
+    "auteurs": [
+      "Le Brésil dans le corset du plan Collor"
+    ],
+    "titre": "LE MONDE DIPLOMATIQUE - JUIN 1990",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0145.pdf",
@@ -4509,9 +4709,9 @@
     "id": "CIR_SAC_0146",
     "annee": 1990,
     "auteurs": [
-      "LeBrésil àl'aube du troisièmemillénaire"
+      "PERSPECTIVES DE L'ECODEVELOPPEMENT"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Le Brésil à l'aube du troisième millénaire",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0146.pdf",
@@ -4524,9 +4724,9 @@
     "id": "CIR_SAC_0147",
     "annee": 1990,
     "auteurs": [
-      "Ignacy SACHS*"
+      "form"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Ignacy SACHS*",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0147.pdf",
@@ -4539,9 +4739,9 @@
     "id": "CIR_SAC_0148",
     "annee": 1990,
     "auteurs": [
-      "IV. CROISSANCE      ET PAUVRETÉ     :"
+      "LES LEÇONS DE L'EXPÉRIENCE BRÉSILIENNE"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "IV. CROISSANCE ET PAUVRETÉ :",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0148.pdf",
@@ -4553,8 +4753,10 @@
   {
     "id": "CIR_SAC_0149",
     "annee": 1990,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "L'ENVIRONNEMENT ET LES"
+    ],
+    "titre": "( qrutt+írichcl /cl. û c",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0149.pdf",
@@ -4566,8 +4768,10 @@
   {
     "id": "CIR_SAC_0150",
     "annee": 1991,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "NORD"
+    ],
+    "titre": "MALENTENDU",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0150.pdf",
@@ -4579,8 +4783,10 @@
   {
     "id": "CIR_SAC_0151",
     "annee": 1991,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "L'Amazonie"
+    ],
+    "titre": "I- I -vr-t",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0151.pdf",
@@ -4592,8 +4798,10 @@
   {
     "id": "CIR_SAC_0152",
     "annee": 1991,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "commun des citoyens"
+    ],
+    "titre": "Pour un programme",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0152.pdf",
@@ -4606,9 +4814,9 @@
     "id": "CIR_SAC_0153",
     "annee": 1992,
     "auteurs": [
-      "Terre            promise"
+      "paradis"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Terre promise",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0153.pdf",
@@ -4620,8 +4828,10 @@
   {
     "id": "CIR_SAC_0154",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Introducción: ¿El fin de la era de Colón?"
+    ],
+    "titre": "cid; fëôi,",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0154.pdf",
@@ -4634,9 +4844,9 @@
     "id": "CIR_SAC_0155",
     "annee": 1992,
     "auteurs": [
-      "NATURE                                 &"
+      "NATURE &"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "NATURE & RESSOURCES, Vol. 28, N° 1, 1992",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0155.pdf",
@@ -4648,8 +4858,10 @@
   {
     "id": "CIR_SAC_0156",
     "annee": 1993,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "Etat, marché, société civile"
+    ],
+    "titre": "I ' Hà\\-mCLLI: (juYv_",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0156.pdf",
@@ -4661,8 +4873,10 @@
   {
     "id": "CIR_SAC_0157",
     "annee": 1993,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "du Brésil ?"
+    ],
+    "titre": "La déposition du président Fernando Collor de Mello, accusé de corruption,",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0157.pdf",
@@ -4675,9 +4889,9 @@
     "id": "CIR_SAC_0158",
     "annee": 1993,
     "auteurs": [
-      "(  'Vu.                OUTOJjJr"
+      "Ignacy SACHS"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "article à paraître dans",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0158.pdf",
@@ -4690,9 +4904,9 @@
     "id": "CIR_SAC_0159",
     "annee": 1993,
     "auteurs": [
-      "vv   v VsA"
+      "du XIo Plan"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Commission \"Environnement, Qualité de la vie, Croissance\"",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0159.pdf",
@@ -4704,7 +4918,9 @@
   {
     "id": "CIR_SAC_0160",
     "annee": 1992,
-    "auteurs": null,
+    "auteurs": [
+      "Finalement,"
+    ],
     "titre": "---------------------Page 1---------------------",
     "type": "gris-sachs",
     "revue_editeur": null,
@@ -4720,7 +4936,7 @@
     "auteurs": [
       "/■ACE  AUX   FUTUR   S"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "v ¡ K •.) N N",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0161.pdf",
@@ -4733,9 +4949,9 @@
     "id": "CIR_SAC_0162",
     "annee": 1989,
     "auteurs": [
-      "LE       GEANT                 BRESILIEN"
+      "échec du modèle"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "LE GEANT BRESILIEN",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0162.pdf",
@@ -4761,9 +4977,9 @@
     "id": "CIR_SAC_0164",
     "annee": 1989,
     "auteurs": [
-      "IGNACY    SACHS"
+      "L'IMAGINATION"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "IGNACY SACHS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0164.pdf",
@@ -4775,8 +4991,10 @@
   {
     "id": "CIR_SAC_0165",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Sustainable"
+    ],
+    "titre": "Ignacy Sachs",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0165.pdf",
@@ -4789,9 +5007,9 @@
     "id": "CIR_SAC_0166",
     "annee": 1989,
     "auteurs": [
-      "Instaurer                          un         dialogue"
+      "avec la société civile"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Instaurer un dialogue",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0166.pdf",
@@ -4817,9 +5035,9 @@
     "id": "CIR_SAC_0168",
     "annee": 1994,
     "auteurs": [
-      "quete"
+      "science"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "incertaine",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0168.pdf",
@@ -4832,9 +5050,9 @@
     "id": "CIR_SAC_0169",
     "annee": 1994,
     "auteurs": [
-      "WTïTny-,"
+      "QUELQUES RÉFLEXIONS INSPIRÉES"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "LE DEVELOPPEMENT RECONSIDERE",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0169.pdf",
@@ -4847,9 +5065,9 @@
     "id": "CIR_SAC_0170",
     "annee": 1993,
     "auteurs": [
-      "DOCUMENTS       COMPLEMENTAIRES"
+      "Pour compléter le rapport de la commission Environnement et"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "DOCUMENTS COMPLEMENTAIRES",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0170.pdf",
@@ -4861,8 +5079,10 @@
   {
     "id": "CIR_SAC_0171",
     "annee": 1994,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "MONDIALISATION, DÉFIS GLOBAUX,"
+    ],
+    "titre": "MONDES EN DEVELOPPEMENT - TOME 22 - 1994 - NUMERO",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0171.pdf",
@@ -4875,9 +5095,9 @@
     "id": "CIR_SAC_0172",
     "annee": 1994,
     "auteurs": [
-      "POUR     UNE    ÉCONOMIE         ANTHROPOLOGIQUE"
+      "POUR UNE ÉCONOMIE ANTHROPOLOGIQUE"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "ENVIRONNEMENT, DÉVELOPPEMENT, MARCHÉ :",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0172.pdf",
@@ -4890,9 +5110,9 @@
     "id": "CIR_SAC_0173",
     "annee": 1995,
     "auteurs": [
-      "A  la  recherche"
+      "de nouvelles stratégies"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "A la recherche",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0173.pdf",
@@ -4904,8 +5124,10 @@
   {
     "id": "CIR_SAC_0174",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "ENVIRONMENT"
+    ],
+    "titre": "THE STONES OF BYBLOS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0174.pdf",
@@ -4918,9 +5140,9 @@
     "id": "CIR_SAC_0175",
     "annee": 1995,
     "auteurs": [
-      "parIgnacy            Sachs"
+      "parIgnacy Sachs"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Un mécanisme d'exclusion",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0175.pdf",
@@ -4933,9 +5155,9 @@
     "id": "CIR_SAC_0176",
     "annee": 1995,
     "auteurs": [
-      "L'interview     du jour   :Ignacy     Sachs"
+      "Plaidoyer pour une"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "L'interview du jour : Ignacy Sachs",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0176.pdf",
@@ -4948,9 +5170,9 @@
     "id": "CIR_SAC_0177",
     "annee": 1995,
     "auteurs": [
-      "Coréflexion             pour       un    codéveloppement"
+      "Le Sommet social de"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Coréflexion pour un codéveloppement",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0177.pdf",
@@ -4961,9 +5183,11 @@
   },
   {
     "id": "CIR_SAC_0178",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1993,
+    "auteurs": [
+      "M MDKßyHAPCflHbE"
+    ],
+    "titre": "ISSN 0131-2227",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0178.pdf",
@@ -5002,9 +5226,11 @@
   },
   {
     "id": "CIR_SAC_0181",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1996,
+    "auteurs": [
+      "IN THE GLOBAL OCEAN"
+    ],
+    "titre": "BRAZIL AND INDIA : TWO 'WHALES'",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0181.pdf",
@@ -5017,9 +5243,9 @@
     "id": "CIR_SAC_0182",
     "annee": 1995,
     "auteurs": [
-      "Les       «   sirènes             »"
+      "de Copenhague"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Les « sirènes »",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0182.pdf",
@@ -5031,7 +5257,9 @@
   {
     "id": "CIR_SAC_0183",
     "annee": 1995,
-    "auteurs": null,
+    "auteurs": [
+      "LES     NOUVEAUX"
+    ],
     "titre": "---------------------Page 1---------------------",
     "type": "gris-sachs",
     "revue_editeur": null,
@@ -5044,8 +5272,10 @@
   {
     "id": "CIR_SAC_0184",
     "annee": 1995,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "veau"
+    ],
+    "titre": "GROUPE DE LISBONNE. — Limites à la compétitivité — Vers un nou",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0184.pdf",
@@ -5087,8 +5317,10 @@
   {
     "id": "CIR_SAC_0187",
     "annee": 1996,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "Quelles techniques,"
+    ],
+    "titre": "(version revue)",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0187.pdf",
@@ -5101,9 +5333,9 @@
     "id": "CIR_SAC_0188",
     "annee": 1996,
     "auteurs": [
-      "s-FKn            %      (s)"
+      "DE LA CO-REFLEXION AU CO-DEVELOPPEMENT"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Ignacy Sachs",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0188.pdf",
@@ -5115,8 +5347,10 @@
   {
     "id": "CIR_SAC_0189",
     "annee": 1996,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "Quelle mondialisation ?"
+    ],
+    "titre": "ÉCLAIRAGE SUR...",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0189.pdf",
@@ -5127,9 +5361,11 @@
   },
   {
     "id": "CIR_SAC_0190",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1996,
+    "auteurs": [
+      "Whole"
+    ],
+    "titre": "Sustainability and",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0190.pdf",
@@ -5140,9 +5376,11 @@
   },
   {
     "id": "CIR_SAC_0191",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1996,
+    "auteurs": [
+      "OVERCOMING GROWTH WITH DEDEVELOPMENT"
+    ],
+    "titre": "Discussion Papers",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0191.pdf",
@@ -5155,9 +5393,9 @@
     "id": "CIR_SAC_0192",
     "annee": 1998,
     "auteurs": [
-      "La     logique            du      développement"
+      "Ignacy Sachs*"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "La logique du développement",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0192.pdf",
@@ -5169,8 +5407,10 @@
   {
     "id": "CIR_SAC_0193",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Ignacy Sachs*"
+    ],
+    "titre": "The logic of development",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0193.pdf",
@@ -5183,9 +5423,9 @@
     "id": "CIR_SAC_0194",
     "annee": 1983,
     "auteurs": [
-      "TRANSFORMER    LES  DECHETS   EN RICHESSES    !"
+      "titre de"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "TRANSFORMER LES",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0194.pdf",
@@ -5198,9 +5438,9 @@
     "id": "CIR_SAC_0195",
     "annee": 1998,
     "auteurs": [
-      "Ignacy  Sachs"
+      "co-développement"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Il De la co-réflexion",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0195.pdf",
@@ -5212,8 +5452,10 @@
   {
     "id": "CIR_SAC_0196",
     "annee": 1998,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "occasion"
+    ],
+    "titre": "Ignacy SachsC)",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0196.pdf",
@@ -5226,9 +5468,9 @@
     "id": "CIR_SAC_0197",
     "annee": 1998,
     "auteurs": [
-      "Se              reapproprier"
+      "les droits humains"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Se reapproprier",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0197.pdf",
@@ -5240,8 +5482,10 @@
   {
     "id": "CIR_SAC_0198",
     "annee": 1990,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "Culture et développement"
+    ],
+    "titre": "Ignacy Sachs1",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0198.pdf",
@@ -5253,8 +5497,10 @@
   {
     "id": "CIR_SAC_0199",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "MONDIALISATION"
+    ],
+    "titre": "LES QUIPROQUOS DU DEBAT SUR LA",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0199.pdf",
@@ -5266,8 +5512,10 @@
   {
     "id": "CIR_SAC_0200",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "durable"
+    ],
+    "titre": "Le droit au",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0200.pdf",
@@ -5279,8 +5527,10 @@
   {
     "id": "CIR_SAC_0201",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "ou terre de bonne"
+    ],
+    "titre": "Brésil : tristes tropiques",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0201.pdf",
@@ -5291,9 +5541,11 @@
   },
   {
     "id": "CIR_SAC_0202",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 2005,
+    "auteurs": [
+      "ORGANISATION"
+    ],
+    "titre": "INSTITUT DE L'ÉNERGIE ET DE L'ENVIRONNEMENT DE LA FRANCOPHONIE",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0202.pdf",
@@ -5305,8 +5557,10 @@
   {
     "id": "CIR_SAC_0203",
     "annee": 1996,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "LE MONDE DIPLOMATIQUE"
+    ],
+    "titre": "JANVIER 1996",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0203.pdf",
@@ -5318,8 +5572,10 @@
   {
     "id": "CIR_SAC_0204",
     "annee": 1996,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "déruralisation. Les habitants des campagnes cesseront"
+    ],
+    "titre": "Curbanisation ou la déruralisation ?",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0204.pdf",
@@ -5330,9 +5586,11 @@
   },
   {
     "id": "CIR_SAC_0205",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1996,
+    "auteurs": [
+      "So human"
+    ],
+    "titre": "journal on the environment and natural resources research",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0205.pdf",
@@ -5343,9 +5601,11 @@
   },
   {
     "id": "CIR_SAC_0206",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1994,
+    "auteurs": [
+      "Ignacy Sachs"
+    ],
+    "titre": "ri .fiat.cu. ;-v.c ce",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0206.pdf",
@@ -5358,9 +5618,9 @@
     "id": "CIR_SAC_0207",
     "annee": 1997,
     "auteurs": [
-      "S-   Ffrñ     ^     en"
+      "Ignacy Sachs"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "-oIR3D-o5>o2",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0207.pdf",
@@ -5371,9 +5631,11 @@
   },
   {
     "id": "CIR_SAC_0208",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1997,
+    "auteurs": [
+      "UNAMAZ"
+    ],
+    "titre": "üMVlBSlQflül 1(01 B£1 CU'«.'",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0208.pdf",
@@ -5386,9 +5648,9 @@
     "id": "CIR_SAC_0209",
     "annee": 1997,
     "auteurs": [
-      "ruines              de       deux             modèles"
+      "ruines de deux modèles"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Nous sommes assis sur les",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0209.pdf",
@@ -5400,8 +5662,10 @@
   {
     "id": "CIR_SAC_0210",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Learning Political Economy with Michal Kalecki"
+    ],
+    "titre": "Ignacy SachsO*)",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0210.pdf",
@@ -5414,9 +5678,9 @@
     "id": "CIR_SAC_0211",
     "annee": 1997,
     "auteurs": [
-      "Ignacy  SachsC)"
+      "Cinq"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Ignacy SachsC)",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0211.pdf",
@@ -5427,9 +5691,11 @@
   },
   {
     "id": "CIR_SAC_0212",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1998,
+    "auteurs": [
+      "State"
+    ],
+    "titre": "Ignacy SachsO",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0212.pdf",
@@ -5441,8 +5707,10 @@
   {
     "id": "CIR_SAC_0213",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Political Culture"
+    ],
+    "titre": "Ignacy Sachs",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0213.pdf",
@@ -5455,9 +5723,9 @@
     "id": "CIR_SAC_0214",
     "annee": 1998,
     "auteurs": [
-      "DE    LA   CROISSANCE          ÉCONOMIQUE"
+      "À L'ÉCODÉVELOPPEMENT"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "DE LA CROISSANCE ÉCONOMIQUE",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0214.pdf",
@@ -5469,8 +5737,10 @@
   {
     "id": "CIR_SAC_0215",
     "annee": 1998,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "développement"
+    ],
+    "titre": "Février 1998",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0215.pdf",
@@ -5482,8 +5752,10 @@
   {
     "id": "CIR_SAC_0216",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Ecole priaaaire"
+    ],
+    "titre": "pour quel développement ?",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0216.pdf",
@@ -5495,8 +5767,10 @@
   {
     "id": "CIR_SAC_0217",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "L'homme est massif et impressionne par son al¬"
+    ],
+    "titre": "Ignacy Sachs",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0217.pdf",
@@ -5508,8 +5782,10 @@
   {
     "id": "CIR_SAC_0218",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Manuel Marín"
+    ],
+    "titre": "Re]az ioui Intemazioriali",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0218.pdf",
@@ -5520,9 +5796,11 @@
   },
   {
     "id": "CIR_SAC_0219",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 2004,
+    "auteurs": [
+      "Otroshenko"
+    ],
+    "titre": "Rivista trimestrale ai scienze e storia",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0219.pdf",
@@ -5533,9 +5811,11 @@
   },
   {
     "id": "CIR_SAC_0220",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1982,
+    "auteurs": [
+      "ENVIRONMENT AND DEVELOPMENT REVISITED:"
+    ],
+    "titre": "Alternatives VIII (1982), 369-378",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0220.pdf",
@@ -5547,8 +5827,10 @@
   {
     "id": "CIR_SAC_0221",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Tourism"
+    ],
+    "titre": "JÇhe population densities; reached in coastal régió'üá/",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0221.pdf",
@@ -5559,9 +5841,11 @@
   },
   {
     "id": "CIR_SAC_0222",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1976,
+    "auteurs": [
+      "EDITOR'S"
+    ],
+    "titre": "VOL XV, WO 17, DECEMBER 25, 1976",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0222.pdf",
@@ -5573,8 +5857,10 @@
   {
     "id": "CIR_SAC_0223",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Ecodevelopment"
+    ],
+    "titre": "Work, Food and Energy in Urban",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0223.pdf",
@@ -5599,8 +5885,10 @@
   {
     "id": "CIR_SAC_0225",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "INVENTING A HUMANE FUTURE"
+    ],
+    "titre": "Ignacy Sachs(x)",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0225.pdf",
@@ -5612,8 +5900,10 @@
   {
     "id": "CIR_SAC_0226",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Challenges of Social Summit"
+    ],
+    "titre": "Searching for New Development Strategies",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0226.pdf",
@@ -5625,8 +5915,10 @@
   {
     "id": "CIR_SAC_0227",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "The State and the Social Partners"
+    ],
+    "titre": "SPECIAL ARTICLES",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0227.pdf",
@@ -5639,9 +5931,9 @@
     "id": "CIR_SAC_0228",
     "annee": 1983,
     "auteurs": [
-      "LES  STRUCTURES    DU  QUOTIDIEN   ET  LA  CUISE"
+      "Aussi"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "STRUCTURES",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0228.pdf",
@@ -5667,9 +5959,9 @@
     "id": "CIR_SAC_0230",
     "annee": 1980,
     "auteurs": [
-      "STRATÉGIES                  <xc   ¿ ±"
+      "DE L'ÉCODÉVELOPPEMENT"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "vpoV-oyu ¿ÂàjlcaA \\MJO> I |^U/",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0230.pdf",
@@ -5682,9 +5974,9 @@
     "id": "CIR_SAC_0231",
     "annee": 1980,
     "auteurs": [
-      "LA CRISE   ACTUELLE   ET LES  STRUCTURES    DE CONSOMMATION"
+      "vain, voire dangereux,"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "CRISE ACTUELLE ET",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0231.pdf",
@@ -5695,9 +5987,11 @@
   },
   {
     "id": "CIR_SAC_0232",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1980,
+    "auteurs": [
+      "proposal to elaborate a"
+    ],
+    "titre": "Ignacy SACHS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0232.pdf",
@@ -5710,9 +6004,9 @@
     "id": "CIR_SAC_0233",
     "annee": 1980,
     "auteurs": [
-      "Ignacy    SACHS *"
+      "Texte"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "ECODEVELOPPEMENT",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0233.pdf",
@@ -5724,8 +6018,10 @@
   {
     "id": "CIR_SAC_0234",
     "annee": 1980,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "Ignacy  SACHS"
+    ],
+    "titre": "Ignacy SACHS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0234.pdf",
@@ -5737,8 +6033,10 @@
   {
     "id": "CIR_SAC_0235",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "DÉVELOPPEMENT"
+    ],
+    "titre": "LES TEMPS-ESPACES DU",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0235.pdf",
@@ -5750,8 +6048,10 @@
   {
     "id": "CIR_SAC_0236",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "ENERGY»"
+    ],
+    "titre": "Ignacy SACHS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0236.pdf",
@@ -5762,9 +6062,11 @@
   },
   {
     "id": "CIR_SAC_0237",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1980,
+    "auteurs": [
+      "TO ECODEVELOPMENT"
+    ],
+    "titre": "ACTIVITIES",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0237.pdf",
@@ -5777,9 +6079,9 @@
     "id": "CIR_SAC_0238",
     "annee": 1983,
     "auteurs": [
-      "«MAITRISE           »"
+      "L'INVITÉ DE"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "ENERGIE ET STYLE",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0238.pdf",
@@ -5791,7 +6093,9 @@
   {
     "id": "CIR_SAC_0239",
     "annee": 1974,
-    "auteurs": null,
+    "auteurs": [
+      "Avertissement"
+    ],
     "titre": "---------------------Page 1---------------------",
     "type": "gris-sachs",
     "revue_editeur": null,
@@ -5804,7 +6108,9 @@
   {
     "id": "CIR_SAC_0240",
     "annee": 1980,
-    "auteurs": null,
+    "auteurs": [
+      "Autonomie,                                oui,"
+    ],
     "titre": "---------------------Page 1---------------------",
     "type": "gris-sachs",
     "revue_editeur": null,
@@ -5818,9 +6124,9 @@
     "id": "CIR_SAC_0241",
     "annee": 1983,
     "auteurs": [
-      "Le      potentiel"
+      "de développement endogène"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Le potentiel",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0241.pdf",
@@ -5832,8 +6138,10 @@
   {
     "id": "CIR_SAC_0242",
     "annee": 1983,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "(jLNj) UNIVERSITE DES NATIONS UNIES"
+    ],
+    "titre": "THE UNITED NATIONS UNIVERSITY",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0242.pdf",
@@ -5845,8 +6153,10 @@
   {
     "id": "CIR_SAC_0243",
     "annee": 1983,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "LE BRESIL"
+    ],
+    "titre": "POLITIQUE ETRANGERE I 163",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0243.pdf",
@@ -5859,9 +6169,9 @@
     "id": "CIR_SAC_0244",
     "annee": 1983,
     "auteurs": [
-      "ALPES-COTE   D'AZUR  ?\""
+      "ALPES-COTE D'AZUR ?\""
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "COLLOQUE \"QUELLES PERSPECTIVES POUR L1 AGRICULTURE REGIONALE DE PROVENCE",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0244.pdf",
@@ -5874,9 +6184,9 @@
     "id": "CIR_SAC_0245",
     "annee": 1983,
     "auteurs": [
-      "Ignacy   SACHS*"
+      "ENERGIE"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "ALIMENTATION",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0245.pdf",
@@ -5888,8 +6198,10 @@
   {
     "id": "CIR_SAC_0246",
     "annee": 1983,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "(Extrait du journal Folha de Sao Paulo,"
+    ],
+    "titre": "QUELLE SOLUTION A LA CRISE ?",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0246.pdf",
@@ -5901,8 +6213,10 @@
   {
     "id": "CIR_SAC_0247",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "I aggravating factor ofconflicts"
+    ],
+    "titre": "Ethnocentrism—source and",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0247.pdf",
@@ -5915,9 +6229,9 @@
     "id": "CIR_SAC_0248",
     "annee": 1983,
     "auteurs": [
-      "Ignacy  SACHS*"
+      "DANS"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "DEVELOPPEMENT",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0248.pdf",
@@ -5930,9 +6244,9 @@
     "id": "CIR_SAC_0249",
     "annee": 1975,
     "auteurs": [
-      "pour                                   les        «Étions"
+      "économistes"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "aprt indemain",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0249.pdf",
@@ -5959,7 +6273,9 @@
   {
     "id": "CIR_SAC_0251",
     "annee": 1976,
-    "auteurs": null,
+    "auteurs": [
+      "Or i  uajo.    kûuh/"
+    ],
     "titre": "---------------------Page 1---------------------",
     "type": "gris-sachs",
     "revue_editeur": null,
@@ -5971,9 +6287,11 @@
   },
   {
     "id": "CIR_SAC_0252",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1977,
+    "auteurs": [
+      "MEMORANDUM ON SCIENCE"
+    ],
+    "titre": "Ignacy SACHS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0252.pdf",
@@ -5985,8 +6303,10 @@
   {
     "id": "CIR_SAC_0253",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "India should leap from the"
+    ],
+    "titre": "hay-davs that followed Independence the energy choices seemed",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0253.pdf",
@@ -5999,9 +6319,9 @@
     "id": "CIR_SAC_0254",
     "annee": 1978,
     "auteurs": [
-      "Article  pour  Neue Zürcher  Zeitung"
+      "UNE IDEE EN MARCHE"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Article pour Neue Zürcher",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0254.pdf",
@@ -6013,8 +6333,10 @@
   {
     "id": "CIR_SAC_0255",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "some"
+    ],
+    "titre": "Ignacy SACHS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0255.pdf",
@@ -6026,8 +6348,10 @@
   {
     "id": "CIR_SAC_0256",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Ignacy SACHS"
+    ],
+    "titre": "Draft, Discussion Paper",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0256.pdf",
@@ -6040,9 +6364,9 @@
     "id": "CIR_SAC_0257",
     "annee": 1981,
     "auteurs": [
-      "PRISE   DE CONSCIENCE    ECOLOGIQUE"
+      "ECOLOGIQUE"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "CONSCIENCE",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0257.pdf",
@@ -6055,9 +6379,9 @@
     "id": "CIR_SAC_0258",
     "annee": 1979,
     "auteurs": [
-      "ENERGIES         NOUVELLES          ET    STRATEGIES"
+      "DES PAYS"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "ENERGIES NOUVELLES ET STRATEGIES",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0258.pdf",
@@ -6070,9 +6394,9 @@
     "id": "CIR_SAC_0259",
     "annee": 1981,
     "auteurs": [
-      "COLONISATION   ET  ECODEVELOPPEMENT"
+      "Communication présentée à la table ronde"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "COLONISATION ET ECODEVELOPPEMENT",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0259.pdf",
@@ -6085,9 +6409,9 @@
     "id": "CIR_SAC_0260",
     "annee": 1972,
     "auteurs": [
-      "De        la      croissance"
+      "Ignacy SACHS"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "De la croissance",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0260.pdf",
@@ -6099,8 +6423,10 @@
   {
     "id": "CIR_SAC_0261",
     "annee": 1979,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "L'autonomie"
+    ],
+    "titre": "Autonomie locale",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0261.pdf",
@@ -6125,8 +6451,10 @@
   {
     "id": "CIR_SAC_0263",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "focus"
+    ],
+    "titre": "The Nairobi UN Conference",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0263.pdf",
@@ -6139,9 +6467,9 @@
     "id": "CIR_SAC_0264",
     "annee": 1981,
     "auteurs": [
-      "CONFERENCE   EXPOSITION"
+      "EXPOSITION"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "CONFERENCE",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0264.pdf",
@@ -6154,9 +6482,9 @@
     "id": "CIR_SAC_0265",
     "annee": 1981,
     "auteurs": [
-      "Ignacy  SACHS"
+      "TECHNIQUE, TEMPS ET SOCIETE"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Ignacy SACHS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0265.pdf",
@@ -6169,9 +6497,9 @@
     "id": "CIR_SAC_0266",
     "annee": 1981,
     "auteurs": [
-      "ENERGIE,   ESPACE,   ENVIRONNEMENT"
+      "Styles et stratégies du développement"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "ENVIRONNEMENT",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0266.pdf",
@@ -6183,8 +6511,10 @@
   {
     "id": "CIR_SAC_0267",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Population,"
+    ],
+    "titre": "Ignacy SACHS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0267.pdf",
@@ -6197,9 +6527,9 @@
     "id": "CIR_SAC_0268",
     "annee": 1981,
     "auteurs": [
-      "Ignacy  SACHS"
+      "CIRED,"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Ignacy SACHS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0268.pdf",
@@ -6212,9 +6542,9 @@
     "id": "CIR_SAC_0269",
     "annee": 1982,
     "auteurs": [
-      "CHERCHEURS   DU  CIRED  CONCERNES   PAR  LES  RECHERCHES"
+      "CIRED CONCERNES"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "CHERCHEURS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0269.pdf",
@@ -6227,9 +6557,9 @@
     "id": "CIR_SAC_0270",
     "annee": 1981,
     "auteurs": [
-      "TEMPS               ET      SOCIÉTÉS"
+      "Ignacy Sachs"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "TEMPS ET SOCIÉTÉS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0270.pdf",
@@ -6242,9 +6572,9 @@
     "id": "CIR_SAC_0271",
     "annee": 1981,
     "auteurs": [
-      "Prise     de    conscience          écologique"
+      "et choix de"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Prise de conscience écologique",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0271.pdf",
@@ -6256,8 +6586,10 @@
   {
     "id": "CIR_SAC_0272",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "FOOD-ENERGY NEXUS"
+    ],
+    "titre": "Ignacy SACHS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0272.pdf",
@@ -6270,9 +6602,9 @@
     "id": "CIR_SAC_0273",
     "annee": 1982,
     "auteurs": [
-      "*              Ignacy  SACHS"
+      "POTENTIEL"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Ignacy SACHS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0273.pdf",
@@ -6285,9 +6617,9 @@
     "id": "CIR_SAC_0274",
     "annee": 1982,
     "auteurs": [
-      "LES       LECOINÍS"
+      "DE L'EFFONDREMENT"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "LES LECOINÍS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0274.pdf",
@@ -6299,8 +6631,10 @@
   {
     "id": "CIR_SAC_0275",
     "annee": 1982,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "et l'exercice des droits sociaux"
+    ],
+    "titre": "La crise de l'Éíat-protecteur",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0275.pdf",
@@ -6312,8 +6646,10 @@
   {
     "id": "CIR_SAC_0276",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "be of service to mankind"
+    ],
+    "titre": "V. V. Zagladin and I.",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0276.pdf",
@@ -6326,9 +6662,9 @@
     "id": "CIR_SAC_0277",
     "annee": 1982,
     "auteurs": [
-      "O                                        •rTUt»•^"
+      "..plus en plus de mal à se mettre"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Epuisement d'un modèle de l'économie mondiale",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0277.pdf",
@@ -6340,8 +6676,10 @@
   {
     "id": "CIR_SAC_0278",
     "annee": 1982,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "semble"
+    ],
+    "titre": "grands investissements que nous font",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0278.pdf",
@@ -6353,8 +6691,10 @@
   {
     "id": "CIR_SAC_0279",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "le pluralisme technologique et la gestion des systèmes"
+    ],
+    "titre": "alternatives de développement",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0279.pdf",
@@ -6366,8 +6706,10 @@
   {
     "id": "CIR_SAC_0280",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "R.M.GOODWIN Ch. R KINDLEBERGER H. MINSKY"
+    ],
+    "titre": ";w. J. BAU MOL K. BHARADWAJ R.S. ECKAUS K.GODLEY",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0280.pdf",
@@ -6392,8 +6734,10 @@
   {
     "id": "CIR_SAC_0282",
     "annee": 1992,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "soins fondamentaux. Le défi: Vappel /lancé à Rio par VAgenda"
+    ],
+    "titre": "Vingt mégalopoles, dont 14 dans le Tiers monde, comptant plllS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0282.pdf",
@@ -6417,9 +6761,11 @@
   },
   {
     "id": "CIR_SAC_0284",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1995,
+    "auteurs": [
+      "sentimenti"
+    ],
+    "titre": "democrazia dei",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0284.pdf",
@@ -6430,9 +6776,11 @@
   },
   {
     "id": "CIR_SAC_0285",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1991,
+    "auteurs": [
+      "Mondadori Business Information"
+    ],
+    "titre": "Rivista trimestrale di scienze e storia",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0285.pdf",
@@ -6443,9 +6791,11 @@
   },
   {
     "id": "CIR_SAC_0286",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1995,
+    "auteurs": [
+      "Arnoldo Mondadori Editore"
+    ],
+    "titre": "Rivista trimestrale di scienze e storia",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0286.pdf",
@@ -6456,9 +6806,11 @@
   },
   {
     "id": "CIR_SAC_0287",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1995,
+    "auteurs": [
+      "PER LO SVILUPPO"
+    ],
+    "titre": "ALLA RICERCA DI NUOVE STRATEGIE",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0287.pdf",
@@ -6470,8 +6822,10 @@
   {
     "id": "CIR_SAC_0288",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "India e Brasile, due \"balene\""
+    ],
+    "titre": "LOCALISMI E GLOBALISMI",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0288.pdf",
@@ -6483,8 +6837,10 @@
   {
     "id": "CIR_SAC_0289",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "La mondializzazione, ideologia nascente per il XXI"
+    ],
+    "titre": "Se consideriamo Pat-",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0289.pdf",
@@ -6497,9 +6853,9 @@
     "id": "CIR_SAC_0290",
     "annee": 1998,
     "auteurs": [
-      "Les  rencontres   du  Salon  du  Livre"
+      "ail t?ra"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Les rencontres du Salon du Livre",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0290.pdf",
@@ -6512,9 +6868,9 @@
     "id": "CIR_SAC_0291",
     "annee": 1982,
     "auteurs": [
-      "Carrefour                  du      monde"
+      "mmmm"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Carrefour du monde",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0291.pdf",
@@ -6526,8 +6882,10 @@
   {
     "id": "CIR_SAC_0292",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Ignacy SACHS"
+    ],
+    "titre": "Draft notes",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0292.pdf",
@@ -6539,8 +6897,10 @@
   {
     "id": "CIR_SAC_0293",
     "annee": 1983,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "problèmes de l'environnement"
+    ],
+    "titre": "prise de conscience des",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0293.pdf",
@@ -6551,9 +6911,11 @@
   },
   {
     "id": "CIR_SAC_0294",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1976,
+    "auteurs": [
+      "INDUSTRIAL FUTURES OF THE THIRD WORLD"
+    ],
+    "titre": "Ignacy SACHS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0294.pdf",
@@ -6566,9 +6928,9 @@
     "id": "CIR_SAC_0295",
     "annee": 1983,
     "auteurs": [
-      "Ignacy  SACHS"
+      "VERS UNE"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Ignacy SACHS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0295.pdf",
@@ -6581,9 +6943,9 @@
     "id": "CIR_SAC_0296",
     "annee": 1983,
     "auteurs": [
-      "Ignacy  Saohs"
+      "A qui et"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Ignacy Saohs",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0296.pdf",
@@ -6595,8 +6957,10 @@
   {
     "id": "CIR_SAC_0297",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "CONTROLLING TECHNOLOGY FOR DEVELOPMENT"
+    ],
+    "titre": "Ignacy SACHS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0297.pdf",
@@ -6608,8 +6972,10 @@
   {
     "id": "CIR_SAC_0298",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "prefix"
+    ],
+    "titre": "ECO-DEVELOPING",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0298.pdf",
@@ -6622,9 +6988,9 @@
     "id": "CIR_SAC_0299",
     "annee": 1980,
     "auteurs": [
-      "Version  préliminaire    pour  discussion"
+      "Bibliographie incomplète."
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "préliminaire pour discussion",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0299.pdf",
@@ -6637,9 +7003,9 @@
     "id": "CIR_SAC_0300",
     "annee": 1978,
     "auteurs": [
-      "Ignacy  SACHS"
+      "STYLES DE VIE"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Ignacy SACHS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0300.pdf",
@@ -6651,8 +7017,10 @@
   {
     "id": "CIR_SAC_0301",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "ÉCONOMIES PRIMITIVES'"
+    ],
+    "titre": "LA NOTION DE SURPLUS ET SON APPLICATION",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0301.pdf",
@@ -6664,8 +7032,10 @@
   {
     "id": "CIR_SAC_0302",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "TECHNIQUES: PROBLEMS AND POLICIES"
+    ],
+    "titre": "SELECTION OF",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0302.pdf",
@@ -6676,9 +7046,11 @@
   },
   {
     "id": "CIR_SAC_0303",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1971,
+    "auteurs": [
+      "Ignacy Sachs"
+    ],
+    "titre": "A Welfare State for Poor Countries",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0303.pdf",
@@ -6691,9 +7063,9 @@
     "id": "CIR_SAC_0304",
     "annee": 1975,
     "auteurs": [
-      "MINISTERE  DES UNIVERSITES"
+      "ECOLE DES HAUTES ETUDES EN SCIENCES SOCIALES"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "MINISTERE DES UNIVERSITES",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0304.pdf",
@@ -6705,8 +7077,10 @@
   {
     "id": "CIR_SAC_0305",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Ponencia de Ignacy"
+    ],
+    "titre": "MEDIO AMBIENTE Y DESARROLLO",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0305.pdf",
@@ -6718,8 +7092,10 @@
   {
     "id": "CIR_SAC_0306",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Intervenciones de Manuel"
+    ],
+    "titre": "TECNOLOGIA Y POLITICA DE EMPLEO",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0306.pdf",
@@ -6731,8 +7107,10 @@
   {
     "id": "CIR_SAC_0307",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Ponencias de Sergio Ortiz y Edmundo Flores;"
+    ],
+    "titre": "LA DEPENDENCIA CIENTIFICA Y TECNOLOGICA",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0307.pdf",
@@ -6744,8 +7122,10 @@
   {
     "id": "CIR_SAC_0308",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Ponencia de"
+    ],
+    "titre": "¿LIMITES AL CRECIMIENTO?",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0308.pdf",
@@ -6757,8 +7137,10 @@
   {
     "id": "CIR_SAC_0309",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Intervenciones"
+    ],
+    "titre": "HACIA UNA POLITICA CIENTIFICA Y TECNOLOGICA",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0309.pdf",
@@ -6786,9 +7168,9 @@
     "id": "CIR_SAC_0311",
     "annee": 1977,
     "auteurs": [
-      "ECOLE  DES  HAUTES  ETUDES   EN SCIENCES   SOCIALES"
+      "L'ENVIRONNEMENT"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "INTERNATIONAL",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0311.pdf",
@@ -6800,8 +7182,10 @@
   {
     "id": "CIR_SAC_0312",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "BIOTECHNOLOGY AND"
+    ],
+    "titre": "FOR WHOM THE PANDORA BOX?",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0312.pdf",
@@ -6851,9 +7235,11 @@
   },
   {
     "id": "CIR_SAC_0316",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1981,
+    "auteurs": [
+      "and Development Strategies"
+    ],
+    "titre": "Environment",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0316.pdf",
@@ -6866,9 +7252,9 @@
     "id": "CIR_SAC_0317",
     "annee": 1970,
     "auteurs": [
-      "DRAME       ET   DEVELOPPEMENT              EN    ASIE"
+      "alternances"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "La littérature",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0317.pdf",
@@ -6880,8 +7266,10 @@
   {
     "id": "CIR_SAC_0318",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "que se construirán las ciudades del siglo XXI,"
+    ],
+    "titre": "No es a través de una economía de mercado pura",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0318.pdf",
@@ -6893,8 +7281,10 @@
   {
     "id": "CIR_SAC_0319",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "WHAT STATE, WHAT MARKETS, FOR WHAT"
+    ],
+    "titre": "IGNACY SACHS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0319.pdf",
@@ -6906,8 +7296,10 @@
   {
     "id": "CIR_SAC_0320",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "DECIRNOS QUE ES EL ECODE¬"
+    ],
+    "titre": "ACTITUD: ¿QUISIERA USTED",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0320.pdf",
@@ -6919,8 +7311,10 @@
   {
     "id": "CIR_SAC_0321",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "DIVISION DE ESTUDIOS SUPERIORES DE LA ESCUELA DE ECONOMIA"
+    ],
+    "titre": "SEMINARIO INTERNACIONAL DE VERANO ORGANIZADO POR LA",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0321.pdf",
@@ -6931,9 +7325,11 @@
   },
   {
     "id": "CIR_SAC_0322",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1972,
+    "auteurs": [
+      "Land: An Ecodevelopment"
+    ],
+    "titre": "Lost Paradise or Promised",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0322.pdf",
@@ -6944,9 +7340,11 @@
   },
   {
     "id": "CIR_SAC_0323",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1980,
+    "auteurs": [
+      "y el ejercicio"
+    ],
+    "titre": "La crisis del Estado benefactor",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0323.pdf",
@@ -6959,9 +7357,9 @@
     "id": "CIR_SAC_0324",
     "annee": 1978,
     "auteurs": [
-      "par    IGNACY        SACHS        (*)"
+      "LA catastrophe écologique de Bretagne est survenue peu de"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "IGNACY SACHS (*)",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0324.pdf",
@@ -6972,9 +7370,11 @@
   },
   {
     "id": "CIR_SAC_0325",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1978,
+    "auteurs": [
+      "AMERICAN ACADEMY OF ARTS AND"
+    ],
+    "titre": "STATES PUGWASH COMMITTEE",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0325.pdf",
@@ -6999,8 +7399,10 @@
   {
     "id": "CIR_SAC_0327",
     "annee": 1978,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "VàCADI"
+    ],
+    "titre": "André GÀUVENET et Ignacy SACHS.",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0327.pdf",
@@ -7012,8 +7414,10 @@
   {
     "id": "CIR_SAC_0328",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "STATYSTYKI"
+    ],
+    "titre": "GLÓWNA PLANOWANIA",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0328.pdf",
@@ -7024,9 +7428,11 @@
   },
   {
     "id": "CIR_SAC_0329",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1978,
+    "auteurs": [
+      "Eco development :"
+    ],
+    "titre": "0305-750X/78/0701-0967 $02.00/0",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0329.pdf",
@@ -7038,8 +7444,10 @@
   {
     "id": "CIR_SAC_0330",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Environment and development"
+    ],
+    "titre": "Ignacy Sachs",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0330.pdf",
@@ -7052,9 +7460,9 @@
     "id": "CIR_SAC_0331",
     "annee": 1978,
     "auteurs": [
-      "Ignacy   Sachs"
+      "Environnement et développement :"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Ignacy Sachs",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0331.pdf",
@@ -7067,9 +7475,9 @@
     "id": "CIR_SAC_0332",
     "annee": 1978,
     "auteurs": [
-      "ENVIRONNEMENT   ET  DEVELOPPEMENT    : DE  LTEXTERNALITE"
+      "Olivier GODARD"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "ENVIRONNEMENT ET DEVELOPPEMENT",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0332.pdf",
@@ -7082,9 +7490,9 @@
     "id": "CIR_SAC_0333",
     "annee": 1978,
     "auteurs": [
-      "Aménagement     du  temps,  de  laproduction,  de l'espace"
+      "Ignacy Sachs"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Aménagement du temps, de la production, de l'espace",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0333.pdf",
@@ -7097,9 +7505,9 @@
     "id": "CIR_SAC_0334",
     "annee": 1978,
     "auteurs": [
-      "Développement,    utopie,  projet   de  société"
+      "Développement, utopie, projet de société"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Ignacy SACHS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0334.pdf",
@@ -7112,9 +7520,9 @@
     "id": "CIR_SAC_0335",
     "annee": 1977,
     "auteurs": [
-      "Ignacy  SACHS"
+      "STYLES DE DEVELOPPEMENT ET ENVIRONNEMENT"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Ignacy SACHS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0335.pdf",
@@ -7126,8 +7534,10 @@
   {
     "id": "CIR_SAC_0336",
     "annee": 1977,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "Note de travail"
+    ],
+    "titre": "fìuuC \\ H \\ V",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0336.pdf",
@@ -7139,8 +7549,10 @@
   {
     "id": "CIR_SAC_0337",
     "annee": 1977,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "LA PROSPECTIVE DE LA FORET"
+    ],
+    "titre": "QUELQUES HYPOTHESES SUR LES FACTEURS EXOGENES POUVANT AFFECTER",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0337.pdf",
@@ -7152,8 +7564,10 @@
   {
     "id": "CIR_SAC_0338",
     "annee": 1977,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "propos i tion"
+    ],
+    "titre": "--olLu sjo Q W",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0338.pdf",
@@ -7166,9 +7580,9 @@
     "id": "CIR_SAC_0339",
     "annee": 1977,
     "auteurs": [
-      "ENVIRONNEMENT"
+      "DÉVELOPPEMENT"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "ENVIRONNEMENT",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0339.pdf",
@@ -7207,9 +7621,9 @@
     "id": "CIR_SAC_0342",
     "annee": 1977,
     "auteurs": [
-      "Numérospécial"
+      "Le jeu de"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Numéro spécial",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0342.pdf",
@@ -7222,9 +7636,9 @@
     "id": "CIR_SAC_0343",
     "annee": 1977,
     "auteurs": [
-      "Essais"
+      "Mazingira"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Dans cette section",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0343.pdf",
@@ -7237,9 +7651,9 @@
     "id": "CIR_SAC_0344",
     "annee": 1980,
     "auteurs": [
-      "CHANGER  LA  VIE"
+      "PROSPECTUS"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "CHANGER LA VIE",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0344.pdf",
@@ -7251,8 +7665,10 @@
   {
     "id": "CIR_SAC_0345",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Ignacy Sachs"
+    ],
+    "titre": "Eco-Development: Meeting Human Needs*",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0345.pdf",
@@ -7263,9 +7679,11 @@
   },
   {
     "id": "CIR_SAC_0346",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1970,
+    "auteurs": [
+      "SACHS"
+    ],
+    "titre": "I G N A C Y",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0346.pdf",
@@ -7278,9 +7696,9 @@
     "id": "CIR_SAC_0347",
     "annee": 1977,
     "auteurs": [
-      "-tyn"
+      "stratégies de remplacement"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "à la recherche",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0347.pdf",
@@ -7292,8 +7710,10 @@
   {
     "id": "CIR_SAC_0348",
     "annee": 1977,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "L'ELECTRONUCLEAIRE"
+    ],
+    "titre": "Ignacy Sachs^*)",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0348.pdf",
@@ -7305,8 +7725,10 @@
   {
     "id": "CIR_SAC_0349",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "/\"Institute for World Order. Inc."
+    ],
+    "titre": "Alternjf.w's III ' !977 > I-IS.",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0349.pdf",
@@ -7330,9 +7752,11 @@
   },
   {
     "id": "CIR_SAC_0351",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1977,
+    "auteurs": [
+      "Reprinted Jrom"
+    ],
+    "titre": "February 1977",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0351.pdf",
@@ -7344,8 +7768,10 @@
   {
     "id": "CIR_SAC_0352",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "TECHNOLOGY"
+    ],
+    "titre": "INTEGRATION",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0352.pdf",
@@ -7357,8 +7783,10 @@
   {
     "id": "CIR_SAC_0353",
     "annee": 1976,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "culaire des prix du pétrole et de la révo¬"
+    ],
+    "titre": "Sous reflet combiné de la hausse specta¬",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0353.pdf",
@@ -7370,8 +7798,10 @@
   {
     "id": "CIR_SAC_0354",
     "annee": 1978,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "LIBRES PROPOS DE"
+    ],
+    "titre": "ni copiage, ni repli",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0354.pdf",
@@ -7383,8 +7813,10 @@
   {
     "id": "CIR_SAC_0355",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "solar y aprovechamiento"
+    ],
+    "titre": "Bioconversión de la energía",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0355.pdf",
@@ -7397,9 +7829,9 @@
     "id": "CIR_SAC_0356",
     "annee": 1980,
     "auteurs": [
-      "Économie                           et       écologie"
+      "Économie et écologie"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "'fWjM »• • lir.yv^V^ -M» j.'",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0356.pdf",
@@ -7412,9 +7844,9 @@
     "id": "CIR_SAC_0357",
     "annee": 1974,
     "auteurs": [
-      "IGNACY       SACHS"
+      "Quelques pistes de recherche et d'action *"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Environnement et planification :",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0357.pdf",
@@ -7427,9 +7859,9 @@
     "id": "CIR_SAC_0358",
     "annee": 1975,
     "auteurs": [
-      "Chapitre    V"
+      "L'ENVIRONNEMENT ET LA PLANIFICATION"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Chapitre V",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0358.pdf",
@@ -7442,9 +7874,9 @@
     "id": "CIR_SAC_0359",
     "annee": 1975,
     "auteurs": [
-      "ET DE  DEVELOPPEMENT   ECONOMIQUES"
+      "ET DE DEVELOPPEMENT ECONOMIQUES"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "ORGANISATION DE COOPERATION",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0359.pdf",
@@ -7457,9 +7889,9 @@
     "id": "CIR_SAC_0360",
     "annee": 1975,
     "auteurs": [
-      "Environnement"
+      "politique scientifique"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Environnement",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0360.pdf",
@@ -7472,9 +7904,9 @@
     "id": "CIR_SAC_0361",
     "annee": 1975,
     "auteurs": [
-      "THEME  I"
+      "SUR LES SYSTEMES ECOLOGIQUES"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "INCIDENCES DU DEVELOPPEMENT SOCIO-ECONOMIQUE",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0361.pdf",
@@ -7486,8 +7918,10 @@
   {
     "id": "CIR_SAC_0362",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "THE ADVANCED COURSE IN NATIONAL ECONOMIC PLANNING"
+    ],
+    "titre": "GLÓWNA PLANOWAMIA I STATYSTYKI",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0362.pdf",
@@ -7500,9 +7934,9 @@
     "id": "CIR_SAC_0363",
     "annee": 1974,
     "auteurs": [
-      "Energie              et     prospective"
+      "internationale :"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Energie et prospective",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0363.pdf",
@@ -7514,8 +7948,10 @@
   {
     "id": "CIR_SAC_0364",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "de desarrollo"
+    ],
+    "titre": "Ambiente y estilos",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0364.pdf",
@@ -7527,8 +7963,10 @@
   {
     "id": "CIR_SAC_0365",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "The concept"
+    ],
+    "titre": "CX\\JU) -Yï 0 J-i",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0365.pdf",
@@ -7540,8 +7978,10 @@
   {
     "id": "CIR_SAC_0366",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "After the anti-novel and"
+    ],
+    "titre": "Environment and styles of development",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0366.pdf",
@@ -7553,8 +7993,10 @@
   {
     "id": "CIR_SAC_0367",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "CHALLENGE"
+    ],
+    "titre": "Preliminary Version",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0367.pdf",
@@ -7566,8 +8008,10 @@
   {
     "id": "CIR_SAC_0368",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "recherche"
+    ],
+    "titre": "Ignacy SACHS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0368.pdf",
@@ -7579,8 +8023,10 @@
   {
     "id": "CIR_SAC_0369",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "tribution. 'we"
+    ],
+    "titre": "Controlling Technology for Development",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0369.pdf",
@@ -7592,8 +8038,10 @@
   {
     "id": "CIR_SAC_0370",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "TRANSITION"
+    ],
+    "titre": "FOR STRATEGIES",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0370.pdf",
@@ -7605,8 +8053,10 @@
   {
     "id": "CIR_SAC_0371",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "THE ADVANCED COURSE IN NATIONAL ECONOMIC PLANNING"
+    ],
+    "titre": "SZKOLA GLÓWNA PLANQWANIA I STATYSTYKI",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0371.pdf",
@@ -7619,9 +8069,9 @@
     "id": "CIR_SAC_0372",
     "annee": 1978,
     "auteurs": [
-      "le  Développement    (C.I.R.E.D.)"
+      "Ecole"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "International",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0372.pdf",
@@ -7633,8 +8083,10 @@
   {
     "id": "CIR_SAC_0373",
     "annee": 1978,
-    "auteurs": null,
-    "titre": "---------------------Page 1---------------------",
+    "auteurs": [
+      "essentiels à la prise de décision. Le danger que nous cou¬"
+    ],
+    "titre": "Schneider and maybe he would care reply to it. Mr Leach",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0373.pdf",
@@ -7646,8 +8098,10 @@
   {
     "id": "CIR_SAC_0374",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Environmental Quality Management and"
+    ],
+    "titre": "IGNACY SACIiS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0374.pdf",
@@ -7659,8 +8113,10 @@
   {
     "id": "CIR_SAC_0375",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "THE ADVANCED COURSE IN NATIONAL ECONOMIC PLANNING"
+    ],
+    "titre": "SZKOLA GLÓWNA PLANQWANIA I STATYSTYKI",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0375.pdf",
@@ -7671,9 +8127,11 @@
   },
   {
     "id": "CIR_SAC_0376",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1979,
+    "auteurs": [
+      "UNIVERSITE DE DIJON"
+    ],
+    "titre": "Sous la direction de Philippe KAHN",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0376.pdf",
@@ -7686,9 +8144,9 @@
     "id": "CIR_SAC_0378",
     "annee": 1980,
     "auteurs": [
-      "CRISE,              CONJONCTURE,"
+      "IQNACY SACHS"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "CRISE, CONJONCTURE,",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0378.pdf",
@@ -7699,9 +8157,11 @@
   },
   {
     "id": "CIR_SAC_0379",
-    "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "annee": 1976,
+    "auteurs": [
+      "Development"
+    ],
+    "titre": "Culture, Ecology, and",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0379.pdf",
@@ -7714,9 +8174,9 @@
     "id": "CIR_SAC_0380",
     "annee": 1980,
     "auteurs": [
-      "Ignacy  SACHS"
+      "somme"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Ignacy SACHS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0380.pdf",
@@ -7729,9 +8189,9 @@
     "id": "CIR_SAC_0381",
     "annee": 1980,
     "auteurs": [
-      "une proliférationde  grandes villes,au Tiers Monde  tout"
+      "marquée par"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "La seconde moitié du XXe siècle",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0381.pdf",
@@ -7743,8 +8203,10 @@
   {
     "id": "CIR_SAC_0382",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Courants et tendances"
+    ],
+    "titre": "Trends and developments",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0382.pdf",
@@ -7756,8 +8218,10 @@
   {
     "id": "CIR_SAC_0383",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "The three energy crises"
+    ],
+    "titre": "CEPAL REVIEW",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0383.pdf",
@@ -7783,9 +8247,9 @@
     "id": "CIR_SAC_0385",
     "annee": 1981,
     "auteurs": [
-      "Ignacy  SACHS"
+      "DEVELOPPEMENT"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "Ignacy SACHS",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0385.pdf",
@@ -7797,8 +8261,10 @@
   {
     "id": "CIR_SAC_0386",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Concepto, aplicación,"
+    ],
+    "titre": "Ecodesarrollo",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0386.pdf",
@@ -7813,7 +8279,7 @@
     "auteurs": [
       "matériaux"
     ],
-    "titre": "---------------------Page 1---------------------",
+    "titre": "mars/avril 1981",
     "type": "gris-sachs",
     "revue_editeur": null,
     "fichier": "docs/CIR_SAC_0387.pdf",
@@ -7856,7 +8322,7 @@
     "id": "ENPC00_AR_LEESU_0002",
     "annee": 1975,
     "auteurs": [
-      "Volume"
+      "BINDING"
     ],
     "titre": "54, number",
     "type": "article",
@@ -7871,7 +8337,7 @@
     "id": "ENPC00_AR_LEESU_0003",
     "annee": 1974,
     "auteurs": [
-      "REPRINT"
+      "Chemical and Electrochemical Oxidation of Aqueous"
     ],
     "titre": "Bioelectrochemistry and Bioenergetics 1, 96-107 (1974)",
     "type": "article",
@@ -7885,7 +8351,9 @@
   {
     "id": "ENPC00_AR_LEESU_0004",
     "annee": 1973,
-    "auteurs": null,
+    "auteurs": [
+      "PRELIMINARY NOTE"
+    ],
     "titre": "Electroanalytical Chemistry and Interfacial Electrochemistry, 47 (1973) 543-546",
     "type": "article",
     "revue_editeur": null,
@@ -7913,8 +8381,10 @@
   {
     "id": "ENPC00_AR_LEESU_0006",
     "annee": 1972,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "RI~DUCTION"
+    ],
+    "titre": "POLAROGRAPHIQUE",
     "type": "article",
     "revue_editeur": null,
     "fichier": "docs/ENPC00_AR_LEESU_0006.pdf",
@@ -7956,7 +8426,9 @@
   {
     "id": "ENPC00_AR_LEESU_0009",
     "annee": 1979,
-    "auteurs": null,
+    "auteurs": [
+      "Enzyme Collagen Membrane for Electrochemical Determination"
+    ],
     "titre": "Reprinted from ANALYTICAL CHEMISTRY, Vol. 51, Page 96, January 1979",
     "type": "article",
     "revue_editeur": null,
@@ -7969,7 +8441,9 @@
   {
     "id": "ENPC00_AR_LEESU_0010",
     "annee": 1978,
-    "auteurs": null,
+    "auteurs": [
+      "A Highly Sensitive Glucose"
+    ],
     "titre": "Il E P 11 1N T",
     "type": "article",
     "revue_editeur": null,
@@ -7983,7 +8457,7 @@
     "id": "ENPC00_AR_LEESU_0011",
     "annee": 1976,
     "auteurs": [
-      "REPRINT"
+      "Use of"
     ],
     "titre": "Bioelectvochemistry and Bioenergetics 3, 284-301 (1976)",
     "type": "article",
@@ -7997,7 +8471,9 @@
   {
     "id": "ENPC00_AR_LEESU_0012",
     "annee": 1977,
-    "auteurs": null,
+    "auteurs": [
+      "USE OF RING-DISC ELECTRODES AND VIOLOGENS FOR THE"
+    ],
     "titre": "J. Electroanal.",
     "type": "article",
     "revue_editeur": null,
@@ -8040,7 +8516,9 @@
   {
     "id": "ENPC00_AR_LEESU_0015",
     "annee": null,
-    "auteurs": null,
+    "auteurs": [
+      "Thévenot"
+    ],
     "titre": "ANALYTICAL BIOELECTROCHEMISTRY",
     "type": "article",
     "revue_editeur": null,
@@ -8113,8 +8591,10 @@
   {
     "id": "ENPC00_AR_LEESU_0020",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "Unmediated amperometric enzyme"
+    ],
+    "titre": "£,B ,S, C4SS,",
     "type": "article",
     "revue_editeur": null,
     "fichier": "docs/ENPC00_AR_LEESU_0020.pdf",
@@ -8141,8 +8621,10 @@
   {
     "id": "ENPC00_AR_LEESU_0022",
     "annee": 1990,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "TOXIC METAL SPECIATION SCHEME FOR WATER AND SEDIMENT"
+    ],
+    "titre": "INTERNATIONAL CONFERENCE ON URBAN STORM DRAINAGE",
     "type": "article",
     "revue_editeur": null,
     "fichier": "docs/ENPC00_AR_LEESU_0022.pdf",
@@ -8169,8 +8651,10 @@
   {
     "id": "ENPC00_AR_LEESU_0024",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "sensors"
+    ],
+    "titre": "The design and development of in vivo glucose",
     "type": "article",
     "revue_editeur": null,
     "fichier": "docs/ENPC00_AR_LEESU_0024.pdf",
@@ -8183,7 +8667,7 @@
     "id": "ENPC00_AR_LEESU_0025",
     "annee": 1987,
     "auteurs": [
-      "TRIBUNE û"
+      "CEBEDEAU"
     ],
     "titre": "Trib. Cebedeau, N\"s 523-524, 40, pp. 35-45",
     "type": "article",
@@ -8198,7 +8682,7 @@
     "id": "ENPC00_AR_LEESU_0026",
     "annee": 1987,
     "auteurs": [
-      "TRIBUNE g"
+      "CEBEDEAU"
     ],
     "titre": "Trib. Cebedeau, N\" 527, 40, pp. 47-58",
     "type": "article",
@@ -8212,7 +8696,9 @@
   {
     "id": "ENPC00_AR_LEESU_0027",
     "annee": null,
-    "auteurs": null,
+    "auteurs": [
+      "Potentiel d'oxydo-réduction en épuration biologique"
+    ],
     "titre": "T.S.M.-L'EAU",
     "type": "article",
     "revue_editeur": null,
@@ -8241,7 +8727,7 @@
     "id": "ENPC00_AR_LEESU_0029",
     "annee": 1988,
     "auteurs": [
-      "Wat."
+      "Pergamon Journals Ltd. Printed in Great Britain."
     ],
     "titre": "Supply, Vol. 6, Brussels, pp. 275-285, 1988.",
     "type": "article",
@@ -8345,7 +8831,9 @@
   {
     "id": "ENPC00_AR_LEESU_0036",
     "annee": 1992,
-    "auteurs": null,
+    "auteurs": [
+      "The development of an electrochemically based implant¬"
+    ],
     "titre": "Reprinted from CLINICAL CHEMISTRY, 38, 1613 (1992).",
     "type": "article",
     "revue_editeur": null,
@@ -8373,7 +8861,9 @@
   {
     "id": "ENPC00_AR_LEESU_0038",
     "annee": 1992,
-    "auteurs": null,
+    "auteurs": [
+      "FLUORESCEIN DIACETATE HYDROLYSIS AS A"
+    ],
     "titre": "Environmental Technology,",
     "type": "article",
     "revue_editeur": null,
@@ -8386,7 +8876,9 @@
   {
     "id": "ENPC00_AR_LEESU_0039",
     "annee": 1992,
-    "auteurs": null,
+    "auteurs": [
+      "POLLUTION METALLIQUE RELARGABLE PAR LES"
+    ],
     "titre": "Environmental",
     "type": "article",
     "revue_editeur": null,
@@ -8399,7 +8891,9 @@
   {
     "id": "ENPC00_AR_LEESU_0040",
     "annee": 1991,
-    "auteurs": null,
+    "auteurs": [
+      "Design and in Vitro Studies of a Needle-Type Glucose Sensor"
+    ],
     "titre": "Reprinted from Analytical Chemistry, 1991, 63.",
     "type": "article",
     "revue_editeur": null,
@@ -8412,8 +8906,10 @@
   {
     "id": "ENPC00_AR_LEESU_0041",
     "annee": 1989,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "ways of several metabolites in medical care and will"
+    ],
+    "titre": "better understand the normal and pathological path¬",
     "type": "article",
     "revue_editeur": null,
     "fichier": "docs/ENPC00_AR_LEESU_0041.pdf",
@@ -8425,8 +8921,10 @@
   {
     "id": "ENPC00_AR_LEESU_0042",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "pointes de concentration en micro¬"
+    ],
+    "titre": "compréhension et prévision des",
     "type": "article",
     "revue_editeur": null,
     "fichier": "docs/ENPC00_AR_LEESU_0042.pdf",
@@ -8499,7 +8997,7 @@
     "id": "ENPC00_AR_LEESU_0048",
     "annee": 1996,
     "auteurs": [
-      "Pergamon"
+      "Printed in Great Britain. All rights reserved."
     ],
     "titre": "Wat. Sci, Tech. Vol. 34, No. 3-4, pp. 143-150, 1996.",
     "type": "article",
@@ -8603,7 +9101,9 @@
   {
     "id": "ENPC00_AR_LEESU_0055",
     "annee": 2001,
-    "auteurs": null,
+    "auteurs": [
+      "Printed in Great Britain"
+    ],
     "titre": "PII: S0043-1354(00)00261-X",
     "type": "article",
     "revue_editeur": null,
@@ -8616,8 +9116,10 @@
   {
     "id": "ENPC00_AR_LEESU_0056",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "HYDROCARBONS IN RIVER SEINE SUSPENDED SOLIDS"
+    ],
+    "titre": "URBAN RUNOFF IMPACT ON COMPOSITION AND CONCENTRATION OF",
     "type": "article",
     "revue_editeur": null,
     "fichier": "docs/ENPC00_AR_LEESU_0056.pdf",
@@ -8629,8 +9131,10 @@
   {
     "id": "ENPC00_AR_LEESU_0057",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "POLLUTED RTVER SEINE SEDIMENTS AND INTERSTITIAL WATERS"
+    ],
+    "titre": "LABORATORY SIMULATION FOR HEAVY METAL EVOLUTION IN CSO",
     "type": "article",
     "revue_editeur": null,
     "fichier": "docs/ENPC00_AR_LEESU_0057.pdf",
@@ -8703,7 +9207,7 @@
     "id": "ENPC00_AR_LEESU_0062",
     "annee": 1995,
     "auteurs": [
-      "Pergamon"
+      "Printed io Great Britain. All rights reserved."
     ],
     "titre": "wat. scl t*cH. vol. 32, No. 1, pp. 225-232,1995.",
     "type": "article",
@@ -8777,7 +9281,9 @@
   {
     "id": "ENPC00_AR_LEESU_0067",
     "annee": null,
-    "auteurs": null,
+    "auteurs": [
+      "CtMCÏ"
+    ],
     "titre": "INVENTAIRE",
     "type": "article",
     "revue_editeur": null,
@@ -8790,8 +9296,10 @@
   {
     "id": "ENPC00_AR_LEESU_0068",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "EXTENT OF POLLUTION IN URBAN WET WEATHER"
+    ],
+    "titre": "^OWA^VAA^ £U\\W'I r^Mvw U^T , b'\\o",
     "type": "article",
     "revue_editeur": null,
     "fichier": "docs/ENPC00_AR_LEESU_0068.pdf",
@@ -8863,7 +9371,9 @@
   {
     "id": "ENPC00_AR_LEESU_0073",
     "annee": 2000,
-    "auteurs": null,
+    "auteurs": [
+      "*e-mail corresponding author: c.callieri@iii.to.cnr.it"
+    ],
     "titre": "J. Limnol., 59(1): 72-76, 2000",
     "type": "article",
     "revue_editeur": null,
@@ -8876,7 +9386,9 @@
   {
     "id": "ENPC00_AR_LEESU_0074",
     "annee": 2000,
-    "auteurs": null,
+    "auteurs": [
+      "Printed in Great Britain"
+    ],
     "titre": "PII: S0043-1354(00)00191-3",
     "type": "article",
     "revue_editeur": null,
@@ -9125,7 +9637,9 @@
   {
     "id": "ENPC00_OUV_LEESU_0015",
     "annee": 2008,
-    "auteurs": null,
+    "auteurs": [
+      "Créteil – France"
+    ],
     "titre": "Urban waters: Resource or Risk?",
     "type": "ouvrage",
     "revue_editeur": null,
@@ -9153,7 +9667,9 @@
   {
     "id": "ENPC00_OUV_LEESU_0016_b",
     "annee": 2009,
-    "auteurs": null,
+    "auteurs": [
+      "Arcueil – France"
+    ],
     "titre": "Urban waters: Resource or Risk?",
     "type": "ouvrage",
     "revue_editeur": null,
@@ -9181,7 +9697,9 @@
   {
     "id": "ENPC00_OUV_LEESU_0018",
     "annee": 2011,
-    "auteurs": null,
+    "auteurs": [
+      "Arcueil – France"
+    ],
     "titre": "Urban waters: Resource or Risk?",
     "type": "ouvrage",
     "revue_editeur": null,
@@ -9194,7 +9712,9 @@
   {
     "id": "ENPC00_OUV_LEESU_0019",
     "annee": 2012,
-    "auteurs": null,
+    "auteurs": [
+      "Arcueil – France"
+    ],
     "titre": "Urban waters: Resource or Risk?",
     "type": "ouvrage",
     "revue_editeur": null,
@@ -9207,7 +9727,9 @@
   {
     "id": "ENPC00_OUV_LEESU_0020",
     "annee": 2013,
-    "auteurs": null,
+    "auteurs": [
+      "Arcueil – France"
+    ],
     "titre": "Urban waters: Resource or Risk?",
     "type": "ouvrage",
     "revue_editeur": null,
@@ -9221,7 +9743,7 @@
     "id": "ENPC00_OUV_LEESU_0021",
     "annee": 2001,
     "auteurs": [
-      "Vivendi"
+      "wmmami ■"
     ],
     "titre": "SSE3SiS533M",
     "type": "ouvrage",
@@ -9251,7 +9773,7 @@
     "id": "ENPC00_OUV_LEESU_0023",
     "annee": 2002,
     "auteurs": [
-      "cete"
+      "Stratégie d'assainissement pluvial"
     ],
     "titre": "Mastère \"Eau potable et Assainissement\"",
     "type": "ouvrage",
@@ -9266,7 +9788,7 @@
     "id": "ENPC00_OUV_LEESU_0024",
     "annee": 1978,
     "auteurs": [
-      "ETUDE DE"
+      "Synthèse bibliographique"
     ],
     "titre": "QUALITE DU RUISSELLEMENT URBAIN",
     "type": "ouvrage",
@@ -9323,8 +9845,10 @@
   {
     "id": "ENPC00_OUV_LEESU_0028",
     "annee": null,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "iMs.i.vir'v.i.ioxs"
+    ],
+    "titre": "aiwsviitms",
     "type": "ouvrage",
     "revue_editeur": null,
     "fichier": "docs/ENPC00_OUV_LEESU_0028.pdf",
@@ -9492,7 +10016,7 @@
     "id": "ENPC00_RA_LEESU_0006",
     "annee": null,
     "auteurs": [
-      "CERGRENE"
+      "Université Paris XII"
     ],
     "titre": "(ENPC - ENGREFF)",
     "type": "rapport",
@@ -9582,7 +10106,7 @@
     "id": "ENPC00_RA_LEESU_0012",
     "annee": 1995,
     "auteurs": [
-      "CERGRENE"
+      "Centre National"
     ],
     "titre": "Centre d'Enseignement",
     "type": "rapport",
@@ -9612,7 +10136,7 @@
     "id": "ENPC00_RA_LEESU_0014",
     "annee": null,
     "auteurs": [
-      "CERGRENE"
+      "Ecole Nationale des Ponts et Chaussées"
     ],
     "titre": "DES EAUX BORDEAUX",
     "type": "rapport",
@@ -9627,7 +10151,7 @@
     "id": "ENPC00_RA_LEESU_0015",
     "annee": 1990,
     "auteurs": [
-      "CERGRENE"
+      "Ecole Nationale des Ponts et Chaussées"
     ],
     "titre": "LYONNAISE DES EAUX-BORDEAUX",
     "type": "rapport",
@@ -9887,7 +10411,7 @@
     "id": "ENPC00_RA_LEESU_0034",
     "annee": 1995,
     "auteurs": [
-      "CERGRENE"
+      "Agence de l'Eau"
     ],
     "titre": "Centre d'Enseignement",
     "type": "rapport",
@@ -9931,7 +10455,9 @@
   {
     "id": "ENPC00_TH_LEESU_0001",
     "annee": 1971,
-    "auteurs": null,
+    "auteurs": [
+      "de Doctorat d'Etat ès-Sciences Physiques"
+    ],
     "titre": "N° d'enrigistrement",
     "type": "these",
     "revue_editeur": null,
@@ -9958,7 +10484,7 @@
     "id": "ENPC00_TH_LEESU_0003",
     "annee": 2005,
     "auteurs": [
-      "ADEME"
+      "ENGREF"
     ],
     "titre": "Institut National de la Recherche Agronomique",
     "type": "these",
@@ -10103,8 +10629,10 @@
   {
     "id": "ENPC00_TH_LEESU_0013",
     "annee": 1986,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "DOCTEUR-INGENIEUR"
+    ],
+    "titre": "diplôme de",
     "type": "these",
     "revue_editeur": null,
     "fichier": "docs/ENPC00_TH_LEESU_0013.pdf",
@@ -10117,7 +10645,7 @@
     "id": "ENPC00_TH_LEESU_0014",
     "annee": 1999,
     "auteurs": [
-      "THESE"
+      "DOCTEUR"
     ],
     "titre": "présentée pour l'obtention du diplôme de",
     "type": "these",
@@ -10205,7 +10733,7 @@
     "id": "ENPC00_TH_LEESU_0020",
     "annee": 1974,
     "auteurs": [
-      "ACADÉMIE"
+      "MONTPELLIER"
     ],
     "titre": "UNIVERSITÉ",
     "type": "these",
@@ -10220,7 +10748,7 @@
     "id": "ENPC00_TH_LEESU_0021",
     "annee": 1980,
     "auteurs": [
-      "ACADEMIE"
+      "SCIENCES"
     ],
     "titre": "UNIVERSITE",
     "type": "these",
@@ -10234,7 +10762,9 @@
   {
     "id": "ENPC00_TH_LEESU_0022",
     "annee": 1984,
-    "auteurs": null,
+    "auteurs": [
+      "DYNAMIC RESPONSE OF STRATIFIED RESERVOIRS TO"
+    ],
     "titre": "Monismith, Stephen Gene",
     "type": "these",
     "revue_editeur": null,
@@ -10248,7 +10778,7 @@
     "id": "ENPC00_TH_LEESU_0023",
     "annee": 1987,
     "auteurs": [
-      "ACADEMIE"
+      "SCIENCES"
     ],
     "titre": "UNIVERSITE",
     "type": "these",
@@ -10321,7 +10851,7 @@
     "id": "ENPC00_TH_LEESU_0028",
     "annee": 1994,
     "auteurs": [
-      "DOCTEUR"
+      "speciàtion de metaux lourds"
     ],
     "titre": "' V'. Çr'-'",
     "type": "these",
@@ -10350,7 +10880,9 @@
   {
     "id": "ENPC00_TH_LEESU_0030",
     "annee": 1995,
-    "auteurs": null,
+    "auteurs": [
+      "UNIVERSITÉ LIBRE"
+    ],
     "titre": "SiPlr^'TViy^",
     "type": "these",
     "revue_editeur": null,
@@ -10393,8 +10925,10 @@
   {
     "id": "ENPC00_TH_LEESU_0033",
     "annee": 1978,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "D'ETAT"
+    ],
+    "titre": "ès Sciences",
     "type": "these",
     "revue_editeur": null,
     "fichier": "docs/ENPC00_TH_LEESU_0033.pdf",
@@ -10421,8 +10955,10 @@
   {
     "id": "ENPC00_TH_LEESU_0035",
     "annee": 1976,
-    "auteurs": null,
-    "titre": null,
+    "auteurs": [
+      "L'UNIVERSITÉ"
+    ],
+    "titre": "présentée à",
     "type": "these",
     "revue_editeur": null,
     "fichier": "docs/ENPC00_TH_LEESU_0035.pdf",
@@ -10434,7 +10970,9 @@
   {
     "id": "ENPC00_TH_LEESU_0036",
     "annee": null,
-    "auteurs": null,
+    "auteurs": [
+      "PARIS"
+    ],
     "titre": "UNIVERSITÉ",
     "type": "these",
     "revue_editeur": null,
