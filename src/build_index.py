@@ -69,20 +69,16 @@ def enumerate_docs(docs_dir: Path) -> list[dict]:
     excluded_names = {"Inventaire_Doc_CIRED.xls", "robots.txt"}
     included_extensions = {".pdf", ".doc", ".docx"}
 
-    # Build mapping: CIR_SAC_NNNN -> list of txt paths (YYYY_CIR_SAC_NNNN.txt)
-    txt_map: dict[str, str] = {}
+    # Build mapping: CIR_SAC_NNNN -> (texte_ocr_path, year) from YYYY_CIR_SAC_NNNN.txt
+    txt_map: dict[str, tuple[str, int]] = {}
     for p in docs_dir.iterdir():
         if p.is_file() and p.suffix == ".txt":
-            # Pattern: YYYY_CIR_SAC_NNNN.txt
-            m = re.match(r"^\d{4}_(CIR_SAC_\d+)\.txt$", p.name)
+            # Pattern: YYYY_CIR_SAC_NNNN.txt — year is in the filename prefix
+            m = re.match(r"^(\d{4})_(CIR_SAC_\d+)\.txt$", p.name)
             if m:
-                sac_id = m.group(1)
-                txt_map[sac_id] = str(
-                    p.relative_to(docs_dir.parent) if False else p.name
-                )
-                # Store relative to docs_dir parent for the fichier field equivalent
-                # but for texte_ocr we store relative to archive root (docs/)
-                txt_map[sac_id] = "docs/" + p.name
+                yr = int(m.group(1))
+                sac_id = m.group(2)
+                txt_map[sac_id] = ("docs/" + p.name, yr)
 
     entries: list[dict] = []
     for p in docs_dir.iterdir():
@@ -103,10 +99,14 @@ def enumerate_docs(docs_dir: Path) -> list[dict]:
         # Type from prefix
         doc_type = _type_from_stem(stem)
 
-        # texte_ocr for CIR_SAC
+        # texte_ocr and year for CIR_SAC (year is in the txt filename prefix)
         texte_ocr: str | None = None
         if stem.startswith("CIR_SAC_"):
-            texte_ocr = txt_map.get(stem)
+            txt_info = txt_map.get(stem)
+            if txt_info is not None:
+                texte_ocr, txt_year = txt_info
+                if annee is None:
+                    annee = txt_year
 
         entry: dict = {
             "id": stem,
