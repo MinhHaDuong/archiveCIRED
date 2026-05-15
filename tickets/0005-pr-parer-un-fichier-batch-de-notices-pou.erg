@@ -2,8 +2,27 @@
 Title: Préparer un fichier batch de notices pour import HAL via API
 Created: 2026-05-15
 Author: Minh Ha-Duong
+Blocked-by: 0003
 
 --- log ---
 2026-05-15T12:56Z Minh Ha-Duong created
+2026-05-15T14:30Z claude note Blocked par 0003 — ne déposer que ce qui n'est pas déjà dans HAL
 
 --- body ---
+## Contexte
+
+Préparer le fichier d'import en lot pour Delphine Du Pasquier / Frédérique Bordignon
+(ENPC, pôle Science ouverte).
+
+## Angle d'attaque
+
+1. Filtrer l'index : absents de HAL + droits compatibles (gris, loi Lemaire, éditeur permissif)
+2. Générer BibTeX ou RIS depuis `src/index.json`
+3. Valider sur 5–10 notices test avant envoi en lot
+4. Fichier séparé pour textes intégraux disponibles (fonds Sachs en priorité)
+
+## Exit criteria
+
+- [ ] `src/notices_hal.bib` — notices prêtes, périmètre validé avec Delphine
+- [ ] PDFs libres de droits listés dans `src/textes_integraux.json`
+- [ ] Email-type à Delphine avec instructions d'import

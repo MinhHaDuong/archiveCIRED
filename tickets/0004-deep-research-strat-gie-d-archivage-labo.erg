@@ -5,5 +5,25 @@ Author: Minh Ha-Duong
 
 --- log ---
 2026-05-15T12:56Z Minh Ha-Duong created
+2026-05-15T14:30Z claude note Indépendant de 0002, peut tourner en parallèle
 
 --- body ---
+## Contexte
+
+Cadrage institutionnel et retours d'expérience avant de s'engager dans les dépôts.
+
+## Questions à documenter
+
+1. Droits institutionnels CNRS/EHESS sur les publications d'une UMR — loi Lemaire 2016
+2. Précédents : comment d'autres labos (CEPREMAP, IDDRI, LATTS…) ont traité
+   l'archivage rétrospectif de leur production historique
+3. Workflow batch HAL : SWORD, API TEI, imports BibTeX/RIS — pour ~1000 notices
+4. Politiques Sherpa/RoMEO des éditeurs historiques du CIRED (Ecological Economics,
+   Energy Policy, Futuribles, NSS, Tiers Monde, L'Harmattan, Kluwer…)
+5. Modalités de dépôt pour littérature grise institutionnelle (fonds Sachs)
+
+## Exit criteria
+
+- [ ] `src/strategie_archivage.md` — note de synthèse
+- [ ] Tableau politiques des 10 revues principales du corpus
+- [ ] Recommandation : périmètre et ordre de priorité pour les dépôts

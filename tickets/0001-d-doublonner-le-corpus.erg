@@ -2,8 +2,27 @@
 Title: Dédoublonner le corpus
 Created: 2026-05-15
 Author: Minh Ha-Duong
+Blocked-by: 0002
 
 --- log ---
 2026-05-15T12:56Z Minh Ha-Duong created
+2026-05-15T14:30Z claude note Blocked par 0002 — index requis pour comparer par hash
 
 --- body ---
+## Contexte
+
+110 fichiers dans `attente/à dédoublonner avec ce qui est déjà traité/` à réconcilier
+avec `docs/`. Les noms de fichiers diffèrent (conventions différentes), matching par
+nom seul insuffisant.
+
+## Angle d'attaque
+
+1. Calculer hash SHA1 de chaque PDF dans `attente/à dédoublonner/`
+2. Comparer avec les hashs des fichiers de l'index (0002)
+3. Pour les non-matchés par hash : comparer taille + année comme signal
+4. Produire rapport : vrais doublons / variantes / inédits à intégrer
+
+## Exit criteria
+
+- [ ] `src/dedup_report.json` : statut de chaque fichier (doublon exact / probable / inédit)
+- [ ] Liste des inédits à ajouter à l'index

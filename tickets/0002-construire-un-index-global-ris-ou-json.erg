@@ -1,9 +1,48 @@
 %erg 0.1
-Title: Construire un index global (RIS ou JSON ?)
+Title: Construire un index global (JSON)
 Created: 2026-05-15
 Author: Minh Ha-Duong
 
 --- log ---
 2026-05-15T12:56Z Minh Ha-Duong created
+2026-05-15T14:30Z claude note Format tranché : JSON maître, export RIS pour HAL plus tard
 
 --- body ---
+## Contexte
+
+Index structuré de tout le corpus `docs/` (935 fichiers). Fondation de tous les
+autres tickets. Archive source en lecture seule — résultat dans `src/index.json`.
+
+## Format cible
+
+```json
+{
+  "id": "2006-129",
+  "annee": 2006,
+  "auteurs": ["Keith", "Ha-Duong"],
+  "titre": "Climatic strategy for CO2 capture",
+  "type": "article",
+  "revue_editeur": "...",
+  "fichier": "docs/2006-129.pdf",
+  "statut_droits": "inconnu",
+  "hal_id": null,
+  "notes": ""
+}
+```
+
+Types : `article`, `rapport`, `chapitre`, `working-paper`, `these`, `gris-sachs`.
+
+## Angle d'attaque
+
+1. Extraire année + id depuis noms de fichiers `docs/` (patterns `YYYY-NNN` et `YYYY_CIR_SAC_NNNN`)
+2. Croiser avec `attente/à dédoublonner/` dont les noms portent auteur + titre + revue
+3. Pour les `CIR_SAC_` : lire les `.txt` OCR pour extraire titre/auteur
+4. Compléter via API Crossref (titre + auteur → DOI + métadonnées)
+5. Compléter via API HAL (auteurs CIRED connus)
+
+## Exit criteria
+
+- [ ] `src/index.json` — un objet par fichier de `docs/`
+- [ ] `id`, `annee`, `fichier` : 100% des entrées
+- [ ] `auteurs`, `titre`, `type` : ≥ 80% des entrées
+- [ ] Script reproductible `src/build_index.py`

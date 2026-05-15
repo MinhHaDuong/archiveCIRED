@@ -2,8 +2,29 @@
 Title: Vérifier les dépôts existants en ligne (HAL, Zenodo) et mettre à jour l'index
 Created: 2026-05-15
 Author: Minh Ha-Duong
+Blocked-by: 0002
 
 --- log ---
 2026-05-15T12:56Z Minh Ha-Duong created
+2026-05-15T14:30Z claude note Blocked par 0002 — besoin titres/auteurs pour interroger les APIs
 
 --- body ---
+## Contexte
+
+Identifier ce qui est déjà dans HAL avant de déposer, pour éviter les doublons
+et renseigner les `hal_id` dans l'index.
+
+## Angle d'attaque
+
+1. API HAL : requêtes par auteur CIRED (Hourcade, Godard, Ha-Duong, Quirion,
+   Hallegatte, Finon, Lecocq, Ghersi, Waisman…)
+2. Croiser résultats avec l'index par titre normalisé + année
+3. Renseigner `hal_id` pour les documents trouvés
+4. Optionnel : vérifier Zenodo pour les documents absents de HAL
+5. Produire liste des absents → candidats au dépôt
+
+## Exit criteria
+
+- [ ] `hal_id` renseigné dans l'index pour tous les documents trouvés dans HAL
+- [ ] `src/candidats_hal.json` : documents absents de HAL avec statut droits estimé
+- [ ] Script `src/check_hal.py`
