@@ -71,7 +71,7 @@ pas d'entrée séparée). Le champ `texte_ocr` dans l'index pointe vers le TXT.
 ```
 
 Types : `article`, `rapport`, `chapitre`, `ouvrage`, `working-paper`, `these`,
-`gris-sachs`.
+`gris-sachs`, `non-classifié`.
 
 ## Angle d'attaque
 
