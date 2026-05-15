@@ -1,4 +1,4 @@
-Last updated: 2026-05-15T15:17Z
+Last updated: 2026-05-15T23:15Z
 
 ## North star
 
@@ -8,12 +8,12 @@ Succès = chaque chercheur peut trouver et citer n'importe quelle publication CI
 via HAL, avec métadonnées correctes et texte intégral accessible.
 
 ## Status
-<!-- generated 2026-05-15T15:17Z -->
+<!-- generated 2026-05-15T23:15Z -->
 
-**Tickets:** 2 ready · 4 blocked — `erg ready tickets/` for full list
+**Tickets:** 0 ready · 4 open (0003 ESCALATED, 0005/0006/0007 deferred/blocked)
+**Index:** 741 docs — auteurs 89.6%, titre 91.9%, type 90.0%, annee 68.2%
+**Dedup:** 73 exact duplicates, 30 inédits dans attente/
 **Recent commits:**
-  83e5904 Versionner uv.lock et exclure .claude/worktrees/ du suivi git
-  5eafbe3 Stratégie d'archivage CIRED (ticket 0004) (#1)
-  c33e3cf Régénérer index.json et unresolved.csv (filtre bruit auteurs)
-  a09541a Renforcer le filtre anti-bruit pour les auteurs
-  840a38b Générer src/index.json et src/unresolved.csv
+  05ae413 Fermer 0001+0002, débloquer 0003+0007, renforcer _looks_like_name
+  416789a 0002: enrichissement index — pdftotext CIR_SAC + scan 15 lignes (#3)
+  2525c76 0001: script dedup SHA1 — 73 doublons exacts, 30 inédits (#2)
