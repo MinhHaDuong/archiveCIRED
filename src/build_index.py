@@ -189,8 +189,13 @@ def enrich_from_dedoublonner(entries: list[dict], attente_dir: Path) -> None:
 
         if entry["auteurs"] is None and tokens:
             candidate = tokens[0].strip()
-            # Must look like a name: mostly alphabetic, reasonable length
-            if 2 <= len(candidate) <= 50 and re.match(r"^[A-Za-zÀ-ÿ ]+$", candidate):
+            # Must look like a name: mostly alphabetic, reasonable length,
+            # and contain at least one word of >=3 letters (not a French article like "Un")
+            if (
+                4 <= len(candidate) <= 50
+                and re.match(r"^[A-Za-zÀ-ÿ ]+$", candidate)
+                and re.search(r"[A-Za-zÀ-ÿ]{3,}", candidate)
+            ):
                 entry["auteurs"] = [candidate]
 
         if entry["titre"] is None and len(tokens) > 1:
@@ -425,13 +430,34 @@ def title_author_from_text(text: str) -> tuple[str | None, list[str] | None]:
 
 
 def _looks_like_name(text: str) -> bool:
-    """Heuristic: short line (<=60 chars), mostly alpha + spaces/dashes, no numbers."""
+    """Heuristic: short line (<=60 chars), mostly alpha + spaces/dashes, no numbers.
+
+    Rejects OCR noise like 'E C O DEVE LOPMENT', 'S  -  Ffirt', 'et', 'NO', 'DE'.
+    Accepts legitimate initials like 'J.-C. Hourcade' (dotted/hyphenated tokens).
+    Requires at least one word of >= 3 consecutive letters (real name fragment).
+    """
     if len(text) > 60:
+        return False
+    if len(text) < 4:
         return False
     if re.search(r"\d", text):
         return False
     alpha_ratio = sum(c.isalpha() or c in " -.'," for c in text) / max(len(text), 1)
-    return alpha_ratio >= 0.85
+    if alpha_ratio < 0.85:
+        return False
+    # Must contain at least one word of >= 3 consecutive letters (not pure noise/stopwords)
+    if not re.search(r"[A-Za-zÀ-ÿ]{3,}", text):
+        return False
+    # Reject if >=2 bare single-letter tokens (lone letters surrounded by spaces)
+    # Bare = not preceded/followed by . or - (which mark initials like "J.-C.")
+    bare_single_letters = re.findall(r"(?<![.\-])\b([A-Za-z])\b(?![.\-])", text)
+    if len(bare_single_letters) >= 2:
+        return False
+    # Reject short all-lowercase/all-uppercase tokens that look like stopwords or OCR noise
+    stripped = text.strip()
+    if len(stripped) <= 3:
+        return False
+    return True
 
 
 # ---------------------------------------------------------------------------
