@@ -8,11 +8,22 @@ Author: Minh Ha-Duong
 2026-05-15T14:30Z claude note Indépendant de 0002, peut tourner en parallèle
 2026-05-15T18:00Z Minh Ha-Duong note Livrable dans docs/ (pas src/)
 2026-05-15T18:01Z Minh Ha-Duong note Ajouter Q6 : analyse institutionnelle responsabilités archivage
+2026-05-15T18:05Z claude note Reimagined : loi Lemaire périphérique (corpus pré-2016), Q6 intégrée
 
 --- body ---
 ## Contexte
 
 Cadrage institutionnel et retours d'expérience avant de s'engager dans les dépôts.
+
+Le corpus `docs/` se répartit en strates aux profils de droits distincts :
+- ~98 publications cataloguées (YYYY-NNN) — articles revues, chapitres
+- ~386 CIR_SAC — fonds Sachs, littérature grise 1970–1998
+- ~74 CIR_GOD/HOU/GEN — fonds auteur, gris/institutionnel
+- ~181 ENPC00_*_LEESU — provenance LEESU (labo ENPC, distinct du CIRED)
+
+Revues principales identifiées : Energy Policy, Ecological Economics,
+Climatic Change, Climate Policy, Futuribles, NSS (Natures Sciences Sociétés),
+Tiers Monde, Global Environmental Change, L'Harmattan, CNRS Éditions.
 
 ## Questions à documenter
 
@@ -26,8 +37,70 @@ Cadrage institutionnel et retours d'expérience avant de s'engager dans les dép
 6. Analyse institutionnelle : qui au CIRED / CNRS / EHESS est en charge de
    l'archivage — responsable Science ouverte, correspondant HAL, direction labo
 
+## Angle d'attaque
+
+L'ordre de traitement suit la valeur ajoutée décroissante et la faisabilité agent :
+
+**Phase 1 — Tableau des politiques éditeurs (Q4, ~40% de l'effort)**
+Requêter l'API Sherpa/RoMEO pour les 10 revues principales. Pour les éditeurs
+français (Futuribles, L'Harmattan, CNRS Éditions, NSS), Sherpa sera lacunaire :
+chercher via web les politiques d'auto-archivage. Livrable : tableau
+revue × politique (green/gold/embargo/interdit).
+
+**Phase 2 — Cadre juridique (Q1)**
+La loi pour une République numérique (loi Lemaire, 7 oct 2016, art. 30 = L533-4
+Code de la recherche) ne s'applique qu'aux publications acceptées après oct 2016.
+Ce corpus (pic 1980–1998, dernier doc 2013) est quasiment hors champ. Documenter :
+- Ce que la loi permet (version acceptée, embargo 6-12 mois, financement public)
+- Ce qui s'applique réellement au corpus : politiques éditeurs (Phase 1) +
+  droits sur littérature grise institutionnelle
+- Droits du labo employeur (CNRS/EHESS) sur les documents de travail
+
+**Phase 3 — Littérature grise / fonds Sachs (Q5)**
+Règles HAL pour les types « document de travail », « rapport ». Le fonds Sachs
+(~386 fichiers) est institutionnel : les droits CIRED/CNRS devraient suffire.
+Vérifier les conditions de dépôt de textes OCR (qualité minimale, métadonnées).
+
+**Phase 4 — Analyse institutionnelle (Q6)**
+Identifier les interlocuteurs à CIRED, CNRS et EHESS pour l'archivage :
+- Correspondant HAL au CIRED (souvent le/la directeur·trice adjoint·e,
+  le/la documentaliste, ou le pôle Science ouverte de tutelle)
+- Correspondant Science ouverte CNRS pour l'UMR (via la délégation régionale)
+- Correspondant Science ouverte EHESS
+- Pôle Science ouverte ENPC (Delphine Du Pasquier / Frédérique Bordignon —
+  à confirmer, déjà identifiés dans ticket 0005)
+Chercher via sites institutionnels et annuaires. Ce qui ne remonte pas en ligne
+est signalé comme « à confirmer par l'auteur ».
+
+**Phase 5 — Workflow HAL batch (Q3, minimal)**
+Le ticket 0005 prévoit que l'import est géré par le pôle Science ouverte ENPC.
+Pour cette note : lister les formats d'import acceptés (BibTeX, RIS, TEI XML,
+SWORD), renvoyer au ticket 0005. Ne pas approfondir.
+
+**Phase 6 — Précédents d'archivage rétrospectif (Q2, timeboxé)**
+Chercher des cas publiés (CEPREMAP, IDDRI, LATTS ou tout labo français ayant
+fait un import batch HAL de sa production historique). Littérature éparse —
+se limiter à un paragraphe de ce qui remonte en 30 min. Ne pas s'acharner.
+
+## Antipatterns
+
+- **Loi Lemaire comme réponse principale** : le corpus est antérieur à 2016.
+  Le noyau est les politiques éditeurs (Phase 1) et les droits sur la
+  littérature grise (Phase 3).
+- **Deep dive SWORD/TEI** : l'import batch est délégué à l'ENPC (ticket 0005).
+  Documenter les formats suffit.
+- **Exhaustivité sur Q2** : les retours d'expérience d'archivage rétrospectif
+  sont rarement publiés. Accepter un court paragraphe.
+
+## Questions nécessitant l'auteur
+
+- **LEESU (181 fichiers)** : ces docs proviennent du LEESU (labo ENPC), pas du
+  CIRED. Faut-il les inclure dans la stratégie ou les traiter séparément ?
+- **Contact ENPC** : confirmer que Delphine Du Pasquier / F. Bordignon restent
+  les interlocutrices pour l'import HAL.
+
 ## Exit criteria
 
-- [ ] `docs/strategie_archivage.md` — note de synthèse
+- [ ] `docs/strategie_archivage.md` — note de synthèse (Q1–Q6)
 - [ ] Tableau politiques des 10 revues principales du corpus
 - [ ] Recommandation : périmètre et ordre de priorité pour les dépôts

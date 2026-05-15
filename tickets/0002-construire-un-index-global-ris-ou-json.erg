@@ -6,12 +6,49 @@ Author: Minh Ha-Duong
 --- log ---
 2026-05-15T12:56Z Minh Ha-Duong created
 2026-05-15T14:30Z claude note Format tranché : JSON maître, export RIS pour HAL plus tard
+2026-05-15T18:05Z claude note Reimagined : exploration complète du corpus, Crossref/HAL différés (YAGNI)
 
 --- body ---
 ## Contexte
 
-Index structuré de tout le corpus `docs/` (935 fichiers). Fondation de tous les
-autres tickets. Archive source en lecture seule — résultat dans `src/index.json`.
+Index structuré de tout le corpus `docs/` (~740 documents logiques). Fondation
+de tous les autres tickets. Archive source en lecture seule — résultat dans
+`src/index.json`.
+
+### Inventaire réel du corpus
+
+935 fichiers dans `docs/`, dont ~740 documents logiques :
+
+| Famille             | Fichiers | annee depuis nom | type depuis nom |
+|---------------------|----------|------------------|-----------------|
+| YYYY-NNN (.pdf/doc) | 98       | oui              | non             |
+| CIR_SAC_ (.pdf)     | 386      | 192 via TXT pair | gris-sachs      |
+| CIR_GOD_ (.pdf)     | 55       | non              | non             |
+| CIR_GEN_ (.pdf)     | 10       | non              | non             |
+| CIR_HOU_ (.pdf)     | 9        | non              | non             |
+| CIR-HOU-TH.pdf      | 1        | non              | these           |
+| ENPC00_AR_LEESU     | 74       | non              | article         |
+| ENPC00_OUV_LEESU    | 36       | non              | ouvrage         |
+| ENPC00_RA_LEESU     | 35       | non              | rapport         |
+| ENPC00_TH_LEESU     | 36       | non              | these           |
+
+Fichiers exclus (non-documents) : `robots.txt`, `Inventaire_Doc_CIRED.xls`,
+`Charte_droits-d-auteur_2012.pdf`, sous-répertoire `TDMSachs/`.
+
+Les 192 fichiers `.txt` sont des OCR jumelés aux CIR_SAC_ PDFs (même document,
+pas d'entrée séparée). Le champ `texte_ocr` dans l'index pointe vers le TXT.
+
+### Sources de métadonnées internes
+
+1. **Noms de fichiers `docs/`** : `id`, `type` (par préfixe), `annee` partiel
+2. **Noms de fichiers `YYYY_CIR_SAC_NNNN.txt`** : `annee` pour 192 CIR_SAC
+3. **Noms de fichiers `attente/à dédoublonner/`** : `auteurs`, `titre`,
+   `revue_editeur` pour ~52 docs YYYY-NNN (encodés dans le nom de fichier,
+   format `YYYY-NNN-Auteur-Titre-Revue.pdf`)
+4. **`Inventaire_Doc_CIRED.xls`** : 33 entrées ENPC00_CIRED_NNNN avec titre,
+   auteur, type (IDs différents — mapping à établir)
+5. **`pdftotext -l 1`** sur page 1 : `annee` (regex), `titre` heuristique
+   (premières lignes non triviales)
 
 ## Format cible
 
@@ -24,25 +61,99 @@ autres tickets. Archive source en lecture seule — résultat dans `src/index.js
   "type": "article",
   "revue_editeur": "...",
   "fichier": "docs/2006-129.pdf",
+  "texte_ocr": null,
   "statut_droits": "inconnu",
   "hal_id": null,
   "notes": ""
 }
 ```
 
-Types : `article`, `rapport`, `chapitre`, `working-paper`, `these`, `gris-sachs`.
+Types : `article`, `rapport`, `chapitre`, `ouvrage`, `working-paper`, `these`,
+`gris-sachs`.
 
 ## Angle d'attaque
 
-1. Extraire année + id depuis noms de fichiers `docs/` (patterns `YYYY-NNN` et `YYYY_CIR_SAC_NNNN`)
-2. Croiser avec `attente/à dédoublonner/` dont les noms portent auteur + titre + revue
-3. Pour les `CIR_SAC_` : lire les `.txt` OCR pour extraire titre/auteur
-4. Compléter via API Crossref (titre + auteur → DOI + métadonnées)
-5. Compléter via API HAL (auteurs CIRED connus)
+### Étape 1 — Squelette (id, fichier, type : 100%)
+
+Énumérer `docs/*.pdf`, `*.doc`, `*.docx`. Exclure robots.txt, XLS,
+Charte, TDMSachs/. Construire un objet par fichier avec :
+
+- `id` = nom de fichier sans extension
+- `fichier` = chemin relatif (`docs/2006-129.pdf`)
+- `type` déduit du préfixe de nom :
+  - `YYYY-NNN` → `null` (à enrichir étape 3)
+  - `CIR_SAC_` → `gris-sachs`
+  - `CIR_GOD_`, `CIR_GEN_`, `CIR_HOU_` → `null`
+  - `CIR-HOU-TH` → `these`
+  - `ENPC00_AR_LEESU` → `article`
+  - `ENPC00_OUV_LEESU` → `ouvrage`
+  - `ENPC00_RA_LEESU` → `rapport`
+  - `ENPC00_TH_LEESU` → `these`
+- `texte_ocr` = chemin vers `.txt` jumelé si existant, sinon `null`
+- Tous les autres champs : `null` ou valeur par défaut
+
+### Étape 2 — Années depuis noms de fichiers (~50%)
+
+- YYYY-NNN : extraire `annee` du préfixe YYYY → 98 fichiers
+- CIR_SAC avec TXT jumelé : extraire `annee` du préfixe YYYY du `.txt` → 192
+
+### Étape 3 — Enrichissement depuis `à dédoublonner` (~52 docs)
+
+Parser les noms de fichiers `attente/à dédoublonner/` (format typique :
+`YYYY-NNN-Auteur(s)-Titre-Revue.pdf`). Extraire `auteurs`, `titre`,
+`revue_editeur`, `type` heuristique. Matcher sur le champ `id` (YYYY-NNN).
+
+### Étape 4 — Enrichissement depuis Inventaire XLS (33 docs)
+
+Lire `Inventaire_Doc_CIRED.xls` (conversion CSV via libreoffice --headless).
+Colonnes : ID ENPC, Titre, Auteur (1er), Type, Nb pages. Tenter un mapping
+par numéro séquentiel. Si mapping partiel, noter et avancer.
+
+### Étape 5 — Années par `pdftotext` page 1 (~450 docs)
+
+Pour chaque entrée où `annee` est encore `null` :
+
+```bash
+pdftotext -l 1 "$fichier" - | grep -oE '\b(19[7-9][0-9]|20[01][0-9])\b'
+```
+
+Prendre la première année dans l'intervalle 1970–2015.
+
+### Étape 6 — Titre/auteur par `pdftotext` page 1 (heuristique)
+
+Pour les entrées sans `titre` ni `auteurs` : extraire les premières lignes
+non vides de la page 1. Titre = première ligne non triviale. Auteur = lignes
+suivantes. Qualité variable sur scans pré-1990 — acceptable pour seuil 80%.
+Pas de normalisation des noms d'auteurs dans ce ticket.
+
+### Étape 7 — Titre/auteur CIR_SAC depuis TXT OCR
+
+Pour les 192 CIR_SAC ayant un `.txt` jumelé : parser les 30 premières lignes.
+Le titre est souvent après `-----Page 1-----`, suivi de l'auteur.
+
+### Étape 8 — Résidus : années non résolues
+
+Après les étapes 1–7, les entrées avec `annee: null` sont listées dans
+`src/unresolved.csv`. Causes probables : PDFs image-only sans couche texte.
+Le script est relancé après complétion manuelle de `src/unresolved.csv`.
+
+## Antipatterns
+
+- **YAGNI : pas d'API Crossref/HAL dans ce ticket.** Différés — complexité
+  disproportionnée (rate limiting, matching heuristique). Ticket 0003 couvre HAL.
+- **Pas de normalisation des noms d'auteurs.** Garder les formes brutes.
+- **Pas de déduplication.** C'est le ticket 0001.
+- **Pas d'abstraction prématurée.** Un seul script, des fonctions, des dicts.
+
+## Dépendances
+
+- `pdftotext` (poppler-utils) — installé
+- `libreoffice --headless` pour XLS → CSV — installé
+- Python 3.10+ stdlib uniquement (json, pathlib, re, csv, subprocess, argparse, logging)
 
 ## Exit criteria
 
-- [ ] `src/index.json` — un objet par fichier de `docs/`
-- [ ] `id`, `annee`, `fichier` : 100% des entrées
+- [ ] `src/index.json` — un objet par document logique de `docs/` (TXTs jumelés dans `texte_ocr` ; exclus : `robots.txt`, `Inventaire_Doc_CIRED.xls`, `TDMSachs/`)
+- [ ] `id`, `annee`, `fichier` : 100% des entrées (résidus `annee` via `src/unresolved.csv`)
 - [ ] `auteurs`, `titre`, `type` : ≥ 80% des entrées
 - [ ] Script reproductible `src/build_index.py`
