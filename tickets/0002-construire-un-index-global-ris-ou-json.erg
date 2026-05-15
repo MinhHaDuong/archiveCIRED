@@ -2,6 +2,7 @@
 Title: Construire un index global (JSON)
 Created: 2026-05-15
 Author: Minh Ha-Duong
+Closed: Merged PR #3 — auteurs 89.6%, titre 91.9%, type 90.0%
 
 --- log ---
 2026-05-15T12:56Z Minh Ha-Duong created
@@ -10,6 +11,7 @@ Author: Minh Ha-Duong
 2026-05-15T18:10Z Minh Ha-Duong warn OCR qualité très médiocre — étapes 6-7 best-effort
 2026-05-15T18:15Z claude note Faisabilité PASS — pdftotext/libreoffice OK, attente/ 110 fichiers, XLS présent. Correction : ENPC00_OUV_LEESU → type="ouvrage" (pas "rapport") — les .txt CIR_SAC sont bruités, extraction titre/auteur peu fiable. Étapes 6-7 à traiter comme best-effort/optionnel, ne pas bloquer le 80% là-dessus.
 
+2026-05-15T21:05Z Minh Ha-Duong closed — Merged PR #3 — auteurs 89.6%, titre 91.9%, type 90.0%
 --- body ---
 ## Contexte
 

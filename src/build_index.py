@@ -436,13 +436,76 @@ def title_author_from_text(text: str) -> tuple[str | None, list[str] | None]:
     return titre, auteurs
 
 
-def _looks_like_name(text: str) -> bool:
+def _looks_like_name(line: str) -> bool:
     """Heuristic: short line (<=60 chars), mostly alpha + spaces/dashes, no numbers.
 
     Rejects OCR noise like 'E C O DEVE LOPMENT', 'S  -  Ffirt', 'et', 'NO', 'DE'.
     Accepts legitimate initials like 'J.-C. Hourcade' (dotted/hyphenated tokens).
     Requires at least one word of >= 3 consecutive letters (real name fragment).
     """
+    s = line.strip()
+    if not s:
+        return False
+    # Reject sentence fragments
+    if s.startswith("("):
+        return False
+    if s.endswith(";") or " ;" in s:
+        return False
+    if s.endswith("?"):
+        return False
+    if s.endswith(",") and len(s.split()) > 3:
+        return False
+    if s.endswith(".") and len(s.split()) > 4:
+        return False
+    # Reject lines with a comma mid-phrase indicating table-of-contents or sentence
+    # Valid: 'Smith, J.' (2 words), 'Dupont, Jean' (2 words)
+    # Invalid: 'Michel Kail, Introduction à la conférence' (>=4 words after comma split)
+    if "," in s and len(s.split()) >= 4:
+        return False
+    # Reject common non-name words (case-insensitive single-word matches)
+    _STOPWORDS = {
+        "introduction",
+        "conclusion",
+        "abstract",
+        "résumé",
+        "sommaire",
+        "glossaire",
+        "bibliographie",
+        "remerciements",
+        "préface",
+        "avant-propos",
+    }
+    if s.lower() in _STOPWORDS:
+        return False
+    # Reject French preposition-only fragments (sentence continuation lines)
+    _FRAG_WORDS = {
+        "ou",
+        "et",
+        "des",
+        "les",
+        "de",
+        "du",
+        "en",
+        "au",
+        "aux",
+        "par",
+        "sur",
+        "dans",
+    }
+    words_list = [w.lower().strip(".,;") for w in s.split()]
+    words_lower = set(words_list)
+    if words_lower and words_lower.issubset(_FRAG_WORDS):
+        return False
+    # Reject if majority of words are stopwords/prepositions (sentence continuation fragment)
+    if (
+        words_list
+        and sum(1 for w in words_list if w in _FRAG_WORDS) > len(words_list) / 2
+    ):
+        return False
+    # Reject single all-lowercase words (names are capitalized or have initials)
+    if len(words_list) == 1 and s == s.lower():
+        return False
+    text = s
     if len(text) > 60:
         return False
     if len(text) < 4:
