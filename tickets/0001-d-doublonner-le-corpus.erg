@@ -7,6 +7,7 @@ Blocked-by: 0002
 --- log ---
 2026-05-15T12:56Z Minh Ha-Duong created
 2026-05-15T14:30Z claude note Blocked par 0002 — index requis pour comparer par hash
+2026-05-15T21:20Z claude note Executed : 73 exact_duplicate, 30 inédits trouvés. src/dedup_report.json écrit.
 
 --- body ---
 ## Contexte
