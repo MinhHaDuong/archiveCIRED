@@ -6,6 +6,7 @@ Author: Minh Ha-Duong
 --- log ---
 2026-05-15T12:56Z Minh Ha-Duong created
 2026-05-15T14:30Z claude note Indépendant de 0002, peut tourner en parallèle
+2026-05-15T18:00Z Minh Ha-Duong note Livrable dans docs/ (pas src/)
 
 --- body ---
 ## Contexte
@@ -24,6 +25,6 @@ Cadrage institutionnel et retours d'expérience avant de s'engager dans les dép
 
 ## Exit criteria
 
-- [ ] `src/strategie_archivage.md` — note de synthèse
+- [ ] `docs/strategie_archivage.md` — note de synthèse
 - [ ] Tableau politiques des 10 revues principales du corpus
 - [ ] Recommandation : périmètre et ordre de priorité pour les dépôts
