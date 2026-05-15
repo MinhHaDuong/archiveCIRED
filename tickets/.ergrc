@@ -1,0 +1,11 @@
+# Project configuration for git-erg.
+# Created by: erg init
+
+[tags]
+# Tag vocabulary — one per line. All tags suppress `erg ready` output.
+# Remove or add lines to fit your workflow.
+needs-human
+deferred
+
+[update]
+# url = https://raw.githubusercontent.com/MinhHaDuong/git-erg/main/tickets/erg
