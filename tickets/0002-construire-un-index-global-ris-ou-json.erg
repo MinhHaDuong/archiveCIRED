@@ -7,6 +7,7 @@ Author: Minh Ha-Duong
 2026-05-15T12:56Z Minh Ha-Duong created
 2026-05-15T14:30Z claude note Format tranché : JSON maître, export RIS pour HAL plus tard
 2026-05-15T18:05Z claude note Reimagined : exploration complète du corpus, Crossref/HAL différés (YAGNI)
+2026-05-15T18:10Z Minh Ha-Duong warn OCR qualité très médiocre — les .txt CIR_SAC sont bruités, extraction titre/auteur peu fiable. Étapes 6-7 à traiter comme best-effort/optionnel, ne pas bloquer le 80% là-dessus.
 
 --- body ---
 ## Contexte
