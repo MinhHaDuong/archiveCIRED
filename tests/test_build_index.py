@@ -2,11 +2,44 @@ import subprocess
 import sys
 import tempfile
 from pathlib import Path
+from unittest.mock import patch
 
 import pytest
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
-from build_index import enumerate_docs
+from build_index import enumerate_docs, enrich_from_pdftotext
+
+
+def test_enrich_from_pdftotext_processes_cir_sac():
+    """CIR_SAC entries are no longer skipped by enrich_from_pdftotext."""
+    entry = {
+        "id": "CIR_SAC_0001",
+        "annee": None,
+        "auteurs": None,
+        "titre": None,
+        "type": "gris-sachs",
+        "revue_editeur": None,
+        "fichier": "docs/CIR_SAC_0001.pdf",
+        "texte_ocr": None,
+        "statut_droits": "inconnu",
+        "hal_id": None,
+        "notes": "",
+    }
+
+    fake_text = "A" * 250 + "\n\nUne politique climatique\n\nJean Dupont\n"
+
+    with tempfile.TemporaryDirectory() as tmp:
+        docs_dir = Path(tmp) / "docs"
+        docs_dir.mkdir()
+        fake_pdf = docs_dir / "CIR_SAC_0001.pdf"
+        fake_pdf.touch()
+
+        with patch("build_index.extract_text_page1", return_value=fake_text):
+            enrich_from_pdftotext([entry], docs_dir)
+
+    assert entry["titre"] is not None, (
+        "CIR_SAC entry was skipped — skip guard not removed"
+    )
 
 
 def test_enumerate_docs_filename_patterns():

@@ -469,10 +469,6 @@ def enrich_from_pdftotext(entries: list[dict], docs_dir: Path) -> None:
     processed = 0
 
     for entry in entries:
-        # Skip CIR_SAC (handled separately)
-        if entry["id"].startswith("CIR_SAC_"):
-            continue
-
         # Skip fully complete entries
         complete = (
             entry["annee"] is not None
