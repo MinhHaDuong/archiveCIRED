@@ -1,0 +1,42 @@
+%erg 0.1
+Title: OCRiser tout le corpus — couvrir les PDF image-seule
+Created: 2026-05-15
+Author: Minh Ha-Duong
+
+--- log ---
+2026-05-15T18:12Z Minh Ha-Duong created
+
+--- body ---
+## Contexte
+
+Une partie du corpus `docs/` est constituée de PDF image-seule (scans sans
+couche texte). Les `.txt` CIR_SAC existants sont d'une qualité très médiocre.
+Une archive non searchable limite toute exploitation future (recherche plein
+texte, NLP, extraction de métadonnées).
+
+## Angle d'attaque
+
+1. Identifier les PDF sans couche texte : `pdftotext "$f" - | wc -c` — si
+   sortie vide ou < seuil, le fichier est image-seule
+2. Choisir l'outil OCR : Tesseract (open source, multilingue, disponible),
+   OCRmyPDF (wrapper Tesseract + intégration PDF)
+3. Traiter par lot — garder les PDF originaux intacts dans l'archive source,
+   écrire les versions OCRisées dans un répertoire dédié
+4. Valider la qualité sur un échantillon (CIR_SAC 1970s — cas les plus difficiles)
+5. Stocker les textes extraits dans `src/ocr/` (fichiers `.txt` par document)
+
+## Questions ouvertes
+
+- Faut-il produire des PDF avec couche texte intégrée (OCRmyPDF) ou des `.txt`
+  seuls ? → impact sur le ticket futur 0007 (injection métadonnées)
+- Langues : corpus mixte FR/EN, Tesseract supporte les deux avec `fra+eng`
+- Priorité : CIR_SAC_ (fonds Sachs) en premier car le plus volumineux et
+  le plus utile pour l'exploration
+
+## Exit criteria
+
+- [ ] `src/ocr_status.json` : pour chaque PDF, `has_text_layer` (bool) +
+  `char_count` (int) + `ocr_done` (bool)
+- [ ] `src/ocr/` : fichiers `.txt` pour chaque PDF traité
+- [ ] ≥ 90% du corpus a une couche texte (native ou OCR)
+- [ ] Script `src/run_ocr.py` reproductible

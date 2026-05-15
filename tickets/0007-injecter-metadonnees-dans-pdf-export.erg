@@ -1,0 +1,37 @@
+%erg 0.1
+Title: Injecter les métadonnées dans les PDF d'export
+Created: 2026-05-15
+Author: Minh Ha-Duong
+Tag: deferred
+Blocked-by: 0002
+
+--- log ---
+2026-05-15T18:12Z Minh Ha-Duong created
+
+--- body ---
+## Contexte
+
+Une fois l'index construit (0002) et le corpus OCRisé (0006), les PDF à
+exporter vers HAL doivent embarquer leurs métadonnées (titre, auteurs, année,
+DOI, licence) dans les champs XMP/Dublin Core du fichier. Cela améliore
+l'indexation et la traçabilité des dépôts.
+
+Ce ticket est intentionnellement différé — il s'exécute dans la phase
+de préparation au dépôt HAL, pas dans la phase d'inventaire.
+
+## Angle d'attaque
+
+1. Lire les métadonnées depuis `src/index.json` pour chaque document
+2. Utiliser `exiftool` ou `pikepdf` pour écrire les champs XMP :
+   - `Title`, `Author`, `Date`, `Subject` (type), `Rights` (statut droits)
+   - `Identifier` (hal_id si renseigné), `Source` (revue/éditeur)
+3. Travailler sur des COPIES dans un répertoire `export/` — jamais sur
+   l'archive source
+4. Valider sur 5–10 PDF test avant de lancer en lot
+
+## Exit criteria
+
+- [ ] `export/` : copies PDF avec métadonnées XMP injectées
+- [ ] Script `src/inject_metadata.py` reproductible
+- [ ] Vérification sur échantillon : `exiftool export/YYYY-NNN.pdf` montre
+  les champs corrects
