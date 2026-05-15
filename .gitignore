@@ -8,6 +8,9 @@ __pycache__/
 # Generated outputs (not handoff artifacts — regenerable)
 src/ocr/
 
+# Worktrees (throwaway, never track)
+.claude/worktrees/
+
 # Editor
 .DS_Store
 *.swp
