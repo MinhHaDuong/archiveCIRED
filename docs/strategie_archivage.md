@@ -68,7 +68,7 @@ Sources : Sherpa/RoMEO (API v2 non accessible sans clé), pages officielles Scie
 | Climate Policy | Taylor & Francis | 1469-3062 | Vert — dépôt postprint autorisé après embargo | **12 mois** (STM) ou **18 mois** (SHS) — discipline frontalière, **valeur exacte [non confirmée]** | Manuscrit accepté | T&F Author Services; cost finder T&F non consulté | 2026-05-15 |
 | Futuribles | Futuribles International | 0337-307X | [non trouvé] — aucune politique publique open access sur le site ou dans Sherpa/RoMEO | — | — | Site futuribles.com ; Sherpa (non indexé) | 2026-05-15 |
 | Natures Sciences Sociétés (NSS) | EDP Sciences | 1240-1307 | **Accès ouvert complet depuis janvier 2020** (CC BY 4.0) — articles antérieurs à 2020 : politique non explicitement publiée | Aucun (pour articles ≥ 2020) | Version éditeur (depuis 2020) | EDP Sciences announcement ; nss-journal.org | 2026-05-15 |
-| Revue Tiers Monde | Armand Colin / IEDES | 1293-8882 | [non trouvé] — recommandations auteurs ne mentionnent pas HAL ni l'accès ouvert | — | — | PDF recommandations auteurs RTM ; revues.armand-colin.com | 2026-05-15 |
+| Revue Tiers Monde | Armand Colin / IEDES | [À vérifier] | [non trouvé] — recommandations auteurs ne mentionnent pas HAL ni l'accès ouvert | — | — | PDF recommandations auteurs RTM ; revues.armand-colin.com | 2026-05-15 |
 | L'Harmattan (chapitres/livres) | L'Harmattan | — | Dépôt de la version éditeur autorisé **3 ans après parution** | **3 ans** | Version éditeur | doc.hal.science/chapitres-ouvrage | 2026-05-15 |
 | CNRS Éditions (livres/chapitres) | CNRS Éditions | — | [non trouvé] — aucune politique publique open access trouvée | — | — | Recherche web CNRS Editions + HAL | 2026-05-15 |
 
