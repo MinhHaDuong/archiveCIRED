@@ -398,30 +398,37 @@ def year_from_text(text: str) -> int | None:
 # title_author_from_text
 # ---------------------------------------------------------------------------
 def title_author_from_text(text: str) -> tuple[str | None, list[str] | None]:
-    """Heuristic title/author extraction from first 3 non-empty lines."""
+    """Heuristic title/author extraction from first 15 non-empty lines.
+
+    Scans up to 15 lines to handle academic PDFs where journal/volume header
+    lines precede the actual title and author (common in ENPC00 reprints).
+    Title = first non-empty line >= 10 chars.
+    Author = first line after the title that passes _looks_like_name.
+    """
     lines = []
     for line in text.splitlines():
         stripped = line.strip()
         if stripped:
             lines.append(stripped)
-        if len(lines) >= 3:
+        if len(lines) >= 15:
             break
 
     titre: str | None = None
     auteurs: list[str] | None = None
 
     # Title = first non-empty line >= 10 chars
-    for line in lines:
+    titre_idx = -1
+    for i, line in enumerate(lines):
         if len(line) >= 10:
             titre = line
+            titre_idx = i
             break
 
     if titre is None:
         return None, None
 
-    # Author = second non-empty line that looks like a name
-    remaining = [ln for ln in lines if ln != titre]
-    for line in remaining:
+    # Author = first line after title that looks like a name
+    for line in lines[titre_idx + 1 :]:
         if _looks_like_name(line):
             auteurs = [line]
             break

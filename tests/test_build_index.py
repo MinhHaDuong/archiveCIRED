@@ -7,7 +7,7 @@ from unittest.mock import patch
 import pytest
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
-from build_index import enumerate_docs, enrich_from_pdftotext
+from build_index import enumerate_docs, enrich_from_pdftotext, title_author_from_text
 
 
 def test_enrich_from_pdftotext_processes_cir_sac():
@@ -40,6 +40,27 @@ def test_enrich_from_pdftotext_processes_cir_sac():
     assert entry["titre"] is not None, (
         "CIR_SAC entry was skipped — skip guard not removed"
     )
+
+
+def test_title_author_from_text_finds_author_beyond_line_3():
+    """Author lines beyond the 3rd non-empty line are now found."""
+    # Line 0-2: short noise (< 10 chars); line 3: title; line 4: author.
+    # Under the old 3-line cap, line 4 was never reached.
+    text = "\n".join(
+        [
+            "457",
+            "1990",
+            "799",
+            "TOXIC METAL SPECIATION SCHEME FOR WATER AND SEDIMENT",
+            "Julio Flores-Rodriguez and Laurent Lebreton",
+        ]
+    )
+    titre, auteurs = title_author_from_text(text)
+    assert titre == "TOXIC METAL SPECIATION SCHEME FOR WATER AND SEDIMENT"
+    assert auteurs is not None, (
+        "Author on line 4 was not found — 15-line scan not working"
+    )
+    assert "Flores" in auteurs[0] or "Lebreton" in auteurs[0]
 
 
 def test_enumerate_docs_filename_patterns():
