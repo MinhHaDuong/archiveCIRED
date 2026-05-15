@@ -669,13 +669,13 @@ def main() -> None:
     else:
         logger.warning("XLS not found: %s", xls_path)
 
-    # Step 5: Enrich from pdftotext
-    logger.info("Step 5: Enriching from pdftotext")
-    enrich_from_pdftotext(entries, docs_dir)
-
-    # Step 6: Enrich CIR_SAC from txt files
-    logger.info("Step 6: Enriching CIR_SAC from OCR txt files")
+    # Step 5: Enrich CIR_SAC from txt files (before pdftotext to avoid OCR noise override)
+    logger.info("Step 5: Enriching CIR_SAC from OCR txt files")
     enrich_from_cir_sac_txt(entries)
+
+    # Step 6: Enrich from pdftotext
+    logger.info("Step 6: Enriching from pdftotext")
+    enrich_from_pdftotext(entries, docs_dir)
 
     # Step 7: Default type for YYYY-NNN entries still missing type
     logger.info("Step 7: Applying default type for untyped YYYY-NNN entries")
