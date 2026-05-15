@@ -27,7 +27,7 @@ def classify_attente(attente_dir: Path, corpus_hashes: dict[str, str]) -> list[d
     results = []
     for f in sorted(attente_dir.glob("*.pdf")):
         sha = hash_pdf(f)
-        rel = str(f)
+        rel = str(f.relative_to(attente_dir.parent))
         doublon_de = corpus_hashes.get(sha)
         results.append(
             {

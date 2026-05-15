@@ -32,6 +32,7 @@ def test_classify_exact_duplicate(tmp_path):
 
 
 @pytest.mark.adherence
+@pytest.mark.integration
 def test_ruff():
 
     result = subprocess.run(["uv", "run", "ruff", "check", "."], capture_output=True)
