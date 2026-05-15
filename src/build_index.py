@@ -398,30 +398,37 @@ def year_from_text(text: str) -> int | None:
 # title_author_from_text
 # ---------------------------------------------------------------------------
 def title_author_from_text(text: str) -> tuple[str | None, list[str] | None]:
-    """Heuristic title/author extraction from first 3 non-empty lines."""
+    """Heuristic title/author extraction from first 15 non-empty lines.
+
+    Scans up to 15 lines to handle academic PDFs where journal/volume header
+    lines precede the actual title and author (common in ENPC00 reprints).
+    Title = first non-empty line >= 10 chars.
+    Author = first line after the title that passes _looks_like_name.
+    """
     lines = []
     for line in text.splitlines():
         stripped = line.strip()
         if stripped:
             lines.append(stripped)
-        if len(lines) >= 3:
+        if len(lines) >= 15:
             break
 
     titre: str | None = None
     auteurs: list[str] | None = None
 
     # Title = first non-empty line >= 10 chars
-    for line in lines:
+    titre_idx = -1
+    for i, line in enumerate(lines):
         if len(line) >= 10:
             titre = line
+            titre_idx = i
             break
 
     if titre is None:
         return None, None
 
-    # Author = second non-empty line that looks like a name
-    remaining = [ln for ln in lines if ln != titre]
-    for line in remaining:
+    # Author = first line after title that looks like a name
+    for line in lines[titre_idx + 1 :]:
         if _looks_like_name(line):
             auteurs = [line]
             break
@@ -469,10 +476,6 @@ def enrich_from_pdftotext(entries: list[dict], docs_dir: Path) -> None:
     processed = 0
 
     for entry in entries:
-        # Skip CIR_SAC (handled separately)
-        if entry["id"].startswith("CIR_SAC_"):
-            continue
-
         # Skip fully complete entries
         complete = (
             entry["annee"] is not None
@@ -666,20 +669,30 @@ def main() -> None:
     else:
         logger.warning("XLS not found: %s", xls_path)
 
-    # Step 5: Enrich from pdftotext
-    logger.info("Step 5: Enriching from pdftotext")
-    enrich_from_pdftotext(entries, docs_dir)
-
-    # Step 6: Enrich CIR_SAC from txt files
-    logger.info("Step 6: Enriching CIR_SAC from OCR txt files")
+    # Step 5: Enrich CIR_SAC from txt files (before pdftotext to avoid OCR noise override)
+    logger.info("Step 5: Enriching CIR_SAC from OCR txt files")
     enrich_from_cir_sac_txt(entries)
 
-    # Step 7: Write outputs
-    logger.info("Step 7: Writing outputs")
+    # Step 6: Enrich from pdftotext
+    logger.info("Step 6: Enriching from pdftotext")
+    enrich_from_pdftotext(entries, docs_dir)
+
+    # Step 7: Default type for YYYY-NNN entries still missing type
+    logger.info("Step 7: Applying default type for untyped YYYY-NNN entries")
+    yyyy_nnn_pattern = re.compile(r"^\d{4}-\d{3}")
+    default_type_count = 0
+    for entry in entries:
+        if entry["type"] is None and yyyy_nnn_pattern.match(entry["id"]):
+            entry["type"] = "non-classifié"
+            default_type_count += 1
+    logger.info("Default type applied to %d YYYY-NNN entries", default_type_count)
+
+    # Step 8: Write outputs
+    logger.info("Step 8: Writing outputs")
     write_index(entries, output_path)
     write_unresolved(entries, unresolved_path)
 
-    # Step 8: Coverage report
+    # Step 9: Coverage report
     total = len(entries)
     n_annee = sum(1 for e in entries if e["annee"] is not None)
     n_auteurs = sum(1 for e in entries if e["auteurs"] is not None)

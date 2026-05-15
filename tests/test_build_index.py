@@ -2,11 +2,65 @@ import subprocess
 import sys
 import tempfile
 from pathlib import Path
+from unittest.mock import patch
 
 import pytest
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
-from build_index import enumerate_docs
+from build_index import enumerate_docs, enrich_from_pdftotext, title_author_from_text
+
+
+def test_enrich_from_pdftotext_processes_cir_sac():
+    """CIR_SAC entries are no longer skipped by enrich_from_pdftotext."""
+    entry = {
+        "id": "CIR_SAC_0001",
+        "annee": None,
+        "auteurs": None,
+        "titre": None,
+        "type": "gris-sachs",
+        "revue_editeur": None,
+        "fichier": "docs/CIR_SAC_0001.pdf",
+        "texte_ocr": None,
+        "statut_droits": "inconnu",
+        "hal_id": None,
+        "notes": "",
+    }
+
+    fake_text = "A" * 250 + "\n\nUne politique climatique\n\nJean Dupont\n"
+
+    with tempfile.TemporaryDirectory() as tmp:
+        docs_dir = Path(tmp) / "docs"
+        docs_dir.mkdir()
+        fake_pdf = docs_dir / "CIR_SAC_0001.pdf"
+        fake_pdf.touch()
+
+        with patch("build_index.extract_text_page1", return_value=fake_text):
+            enrich_from_pdftotext([entry], docs_dir)
+
+    assert entry["titre"] is not None, (
+        "CIR_SAC entry was skipped — skip guard not removed"
+    )
+
+
+def test_title_author_from_text_finds_author_beyond_line_3():
+    """Author lines beyond the 3rd non-empty line are now found."""
+    # Line 0-2: short noise (< 10 chars); line 3: title; line 4: author.
+    # Under the old 3-line cap, line 4 was never reached.
+    text = "\n".join(
+        [
+            "457",
+            "1990",
+            "799",
+            "TOXIC METAL SPECIATION SCHEME FOR WATER AND SEDIMENT",
+            "Julio Flores-Rodriguez and Laurent Lebreton",
+        ]
+    )
+    titre, auteurs = title_author_from_text(text)
+    assert titre == "TOXIC METAL SPECIATION SCHEME FOR WATER AND SEDIMENT"
+    assert auteurs is not None, (
+        "Author on line 4 was not found — 15-line scan not working"
+    )
+    assert "Flores" in auteurs[0] or "Lebreton" in auteurs[0]
 
 
 def test_enumerate_docs_filename_patterns():
