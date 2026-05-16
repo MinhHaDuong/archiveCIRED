@@ -17,7 +17,7 @@ Préparer le fichier d'import en lot pour Delphine Du Pasquier / Frédérique Bo
 ## Angle d'attaque
 
 1. Filtrer l'index : absents de HAL + droits compatibles (gris, loi Lemaire, éditeur permissif)
-2. Générer BibTeX ou RIS depuis `src/index.json`
+2. Générer BibTeX ou RIS depuis `outputs/doc_index.json`
 3. Valider sur 5–10 notices test avant envoi en lot
 4. Fichier séparé pour textes intégraux disponibles (fonds Sachs en priorité)
 

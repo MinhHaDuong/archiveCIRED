@@ -21,7 +21,7 @@ de préparation au dépôt HAL, pas dans la phase d'inventaire.
 
 ## Angle d'attaque
 
-1. Lire les métadonnées depuis `src/index.json` pour chaque document
+1. Lire les métadonnées depuis `outputs/doc_index.json` pour chaque document
 2. Utiliser `exiftool` ou `pikepdf` pour écrire les champs XMP :
    - `Title`, `Author`, `Date`, `Subject` (type), `Rights` (statut droits)
    - `Identifier` (hal_id si renseigné), `Source` (revue/éditeur)
