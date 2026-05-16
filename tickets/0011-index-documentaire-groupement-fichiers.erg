@@ -11,6 +11,7 @@ Author: Minh Ha-Duong
 2026-05-16T07:25Z claude feasibility WARN×2 : (W6) _archive_root a un défaut absolu hardcodé à l'import — setter build_index._archive_root dans tout test appelant enrich_*. (W10) outputs/index.json est une liste plate, pas un dict — construire {stem: entry} localement dans build_doc_index.py.
 
 2026-05-16T11:44Z Minh Ha-Duong note blocker 0010 closed — Blocked-by removed.
+2026-05-16T14:37Z claude execute script run OK — 1457 fichiers → 1112 docs logiques (hash=288, canonical=866, fallback_incertain=18). Couverture : annee=57.8%, auteurs=72.8%, titre=75.3%. XLS: 0 match (colonnes non standard attendues — limitation pré-existante de build_index.py).
 --- body ---
 ## Contexte
 
