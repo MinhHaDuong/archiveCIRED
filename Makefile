@@ -13,6 +13,7 @@ outputs/index.json: src/build_index.py
 
 outputs/file_index.json outputs/file_index.csv: src/build_file_index.py
 	uv run python src/build_file_index.py \
+		--archive-dir "$(ARCHIVE)" \
 		--output-json outputs/file_index.json \
 		--output-csv outputs/file_index.csv
 

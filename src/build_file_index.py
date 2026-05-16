@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 def build_file_index(archive_root: Path) -> list[dict]:
     """Walk all files under archive_root. Return records sorted by fichier."""
     records = []
-    for p in sorted(archive_root.rglob("*")):
+    for p in archive_root.rglob("*"):
         if not p.is_file():
             continue
         if p.is_symlink():
