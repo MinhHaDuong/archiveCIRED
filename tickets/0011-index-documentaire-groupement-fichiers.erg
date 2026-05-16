@@ -1,0 +1,87 @@
+%erg 0.1
+Title: Index documentaire — grouper les fichiers par document, toute l'archive
+Created: 2026-05-16
+Author: Minh Ha-Duong
+Blocked-by: 0010
+
+--- log ---
+2026-05-16T06:45Z Minh Ha-Duong created
+
+--- body ---
+## Contexte
+
+Couche 2 de l'architecture d'indexation, construite sur `outputs/file_index.json`
+(ticket 0010). Regroupe les fichiers physiques en documents logiques par
+similarité, puis découvre les métadonnées documentaires pour chaque groupe.
+
+Étend `outputs/index.json` (ticket 0002, clos) sur deux points :
+- `fichier` devient répétable (liste) — un document peut avoir plusieurs
+  représentations physiques
+- Périmètre = toute l'archive, pas seulement `docs/`
+
+## Règles de groupement
+
+Par ordre de priorité :
+
+1. **Hash contenu identique** — même bits → même document, variante de format
+2. **Même radical de nom de fichier, extension différente** — attrape les paires
+   PDF+TXT (ex: `CIR_SAC_0042.pdf` + `1994_CIR_SAC_0042.txt`), PDF+DOC
+3. **Fuzzy sur le radical** (distance ≤ 2, longueur ≥ 8) — attrape les variantes
+   de nommage entre répertoires (ex: `1994-042.pdf` dans `docs/` et
+   `1994-042-Auteur-Titre.pdf` dans `attente/`)
+
+Les cas où plusieurs règles se contredisent (ex: même hash mais noms très
+différents) sont marqués `groupe_incertain: true` pour revue humaine.
+
+## Schéma cible
+
+```json
+{
+  "id": "<sha1 du fichier principal>",
+  "fichiers": [
+    {"fichier": "docs/CIR_SAC_0042.pdf", "role": "principal"},
+    {"fichier": "docs/1994_CIR_SAC_0042.txt", "role": "ocr"},
+    {"fichier": "attente/.../1994-042-Sachs-...pdf", "role": "doublon"}
+  ],
+  "annee": 1994,
+  "auteurs": ["Sachs"],
+  "titre": "...",
+  "type": "gris-sachs",
+  "revue_editeur": null,
+  "statut_droits": "inconnu",
+  "hal_id": null,
+  "notes": "",
+  "groupe_incertain": false
+}
+```
+
+`id` = sha1 du contenu du fichier principal (le PDF de docs/ si présent).
+`fichiers` = liste de tous les fichiers physiques du groupe avec leur rôle.
+
+Rôles : `principal`, `ocr` (TXT OCR jumelé), `doublon` (même contenu),
+`variante` (même radical, contenu différent).
+
+## Angle d'attaque
+
+1. Charger `outputs/file_index.json`
+2. Appliquer les règles de groupement dans l'ordre — construire les clusters
+3. Marquer `groupe_incertain` pour les cas borderlines
+4. Pour chaque groupe, découvrir les métadonnées en reprenant la logique de
+   `src/build_index.py` (pdftotext page 1, noms de fichiers `attente/`, XLS)
+5. Fusionner avec `outputs/index.json` existant pour les groupes déjà enrichis
+6. Écrire `outputs/doc_index.json`
+7. Écrire `outputs/uncertain_groups.csv` — les cas borderlines pour revue
+
+## Dépendances
+
+- `outputs/file_index.json` (ticket 0010)
+- `outputs/index.json` (ticket 0002, pour réutiliser les métadonnées existantes)
+- Python : stdlib + optionnel `rapidfuzz` pour fuzzy matching (uv add rapidfuzz)
+
+## Exit criteria
+
+- [ ] `outputs/doc_index.json` : un enregistrement par document logique,
+  toute l'archive, `fichiers` répétable
+- [ ] `outputs/uncertain_groups.csv` : cas borderlines pour revue humaine
+- [ ] Script `src/build_doc_index.py` reproductible
+- [ ] Nombre de groupes documenté : total / exacts / fuzzy / incertains
