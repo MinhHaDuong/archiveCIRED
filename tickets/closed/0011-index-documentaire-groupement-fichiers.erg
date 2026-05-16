@@ -2,6 +2,7 @@
 Title: Index documentaire — grouper les fichiers par document, toute l'archive
 Created: 2026-05-16
 Author: Minh Ha-Duong
+Closed: autoclosed — PR #5
 
 --- log ---
 2026-05-16T06:45Z Minh Ha-Duong created
@@ -12,6 +13,7 @@ Author: Minh Ha-Duong
 
 2026-05-16T11:44Z Minh Ha-Duong note blocker 0010 closed — Blocked-by removed.
 2026-05-16T14:37Z claude execute script run OK — 1457 fichiers → 1112 docs logiques (hash=288, canonical=866, fallback_incertain=18). Couverture : annee=57.8%, auteurs=72.8%, titre=75.3%. XLS: 0 match (colonnes non standard attendues — limitation pré-existante de build_index.py).
+2026-05-16T12:49Z Minh Ha-Duong closed — autoclosed — PR #5
 --- body ---
 ## Contexte
 
