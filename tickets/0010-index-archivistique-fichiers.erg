@@ -8,6 +8,7 @@ Author: Minh Ha-Duong
 2026-05-16T06:30Z claude note Successor conceptuel de 0002 — l'index devient archivistique (fichier par fichier) et non bibliographique (document par document). Couvre toute l'archive, pas seulement docs/.
 2026-05-16T07:00Z claude update Advisor review : inclure migration src/→outputs/ et tests d'adhérence dans les exit criteria
 2026-05-16T07:15Z claude imagine Supprimer champ id (redondant avec fichier), migrer unresolved.csv aussi
+2026-05-16T07:20Z claude plan 2 commits : (1) git mv + default path changes, (2) build_file_index.py + tests + Makefile target. Test non-tautologique : SHA1 connu de b"hello" pour vérifier contenu et non chemin.
 
 --- body ---
 ## Contexte

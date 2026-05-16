@@ -8,6 +8,7 @@ Blocked-by: 0010
 2026-05-16T06:45Z Minh Ha-Duong created
 2026-05-16T07:00Z claude update Advisor review : Levenshtein remplacé par matching structurel, uncertain_groups en JSON, doc_index remplace index.json, nettoyage différé
 2026-05-16T07:15Z claude imagine Cascade 5 règles → 2 passes (hash + canonical_key), règle 5 déplacée post-enrichissement, uncertain_groups.json supprimé (groupe_incertain dans doc_index suffit)
+2026-05-16T07:20Z claude plan 3 commits : (1) tests canonical_key, (2) build_doc_index.py, (3) Makefile. Shim pattern pour réutiliser build_index.py sans modifier. _archive_root global à setter avant import enrichissement. Test négatif décennie (1994-042 vs 2004-042 ne doivent pas grouper).
 
 --- body ---
 ## Contexte
