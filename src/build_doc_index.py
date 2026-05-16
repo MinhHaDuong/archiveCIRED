@@ -6,6 +6,7 @@ import json
 import logging
 import re
 import sys
+from collections import defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
@@ -72,7 +73,6 @@ def group_by_hash(records: list[dict]) -> tuple[dict, list[dict]]:
         - groups: {hash: [records]} for hashes with >= 2 files
         - ungrouped: records with unique hashes
     """
-    from collections import defaultdict
 
     by_hash: dict[str, list[dict]] = defaultdict(list)
     for rec in records:
@@ -101,7 +101,6 @@ def group_by_canonical_key(records: list[dict]) -> dict:
     Returns {canonical_key: [records]}.
     Note: keys with only one record are still returned (singleton groups).
     """
-    from collections import defaultdict
 
     by_key: dict[str, list[dict]] = defaultdict(list)
     for rec in records:
@@ -244,36 +243,40 @@ def _finalize_entry(entry: dict, doc_id: str) -> dict:
 # ---------------------------------------------------------------------------
 # enrich_entry
 # ---------------------------------------------------------------------------
-def enrich_entry(entry: dict, archive_root: Path) -> None:
-    """Run enrichment pipeline on a single shim entry if metadata is incomplete.
+def enrich_batch(entries: list[dict], archive_root: Path) -> None:
+    """Run batch enrichment passes (dedoublonner + XLS) on the full entry list.
 
-    Mutates entry in-place. entry must have 'id' = stem (not sha1).
+    Call once before the per-entry loop. Both sources scan the filesystem
+    once regardless of list size, so calling them per-entry would be O(N) I/O.
     """
     attente_dir = (
         archive_root / "attente" / "à dédoublonner avec ce qui est déjà traité"
     )
     xls_path = archive_root / "docs" / "Inventaire_Doc_CIRED.xls"
+
+    if attente_dir.exists():
+        build_index.enrich_from_dedoublonner(entries, attente_dir)
+
+    if xls_path.exists():
+        build_index.enrich_from_inventaire_xls(entries, xls_path)
+
+
+def enrich_entry(entry: dict, archive_root: Path) -> None:
+    """Run per-entry enrichment (CIR_SAC OCR txt + pdftotext fallback).
+
+    Call after enrich_batch(). Mutates entry in-place.
+    entry must have 'id' = stem (not sha1).
+    """
     docs_dir = archive_root / "docs"
 
-    # Skip if already fully enriched
+    # Skip if already fully enriched by batch passes
     if entry.get("auteurs") is not None and entry.get("titre") is not None:
         return
 
-    # Set the global archive root for enrich_from_cir_sac_txt
-    build_index._archive_root = archive_root
-
-    # 1. Dedoublonner filenames
-    if attente_dir.exists():
-        build_index.enrich_from_dedoublonner([entry], attente_dir)
-
-    # 2. Inventaire XLS
-    if xls_path.exists():
-        build_index.enrich_from_inventaire_xls([entry], xls_path)
-
-    # 3. CIR_SAC OCR txt
+    # CIR_SAC OCR txt
     build_index.enrich_from_cir_sac_txt([entry])
 
-    # 4. pdftotext (last resort — slow, skip if already have titre+auteurs)
+    # pdftotext (last resort — slow, skip if already have titre+auteurs)
     if entry.get("auteurs") is None or entry.get("titre") is None:
         build_index.enrich_from_pdftotext([entry], docs_dir)
 
@@ -318,8 +321,12 @@ def fallback_metadata_match(doc_index: list[dict]) -> None:
             if ratio < 0.80:
                 continue
 
-            # Merge e2 into e1
-            e1["fichiers"].extend(e2["fichiers"])
+            # Merge e2 into e1, retag e2's files as variante to preserve
+            # the invariant: exactly one principal per group
+            for f in e2["fichiers"]:
+                if f["role"] == "principal":
+                    f = dict(f, role="variante")
+                e1["fichiers"].append(f)
             e1["groupe_incertain"] = True
             merged_ids.add(e2["id"])
             merges_done += 1
