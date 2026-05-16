@@ -6,6 +6,7 @@ Blocked-by: 0010
 
 --- log ---
 2026-05-16T06:45Z Minh Ha-Duong created
+2026-05-16T07:00Z claude update Advisor review : Levenshtein remplacé par matching structurel, uncertain_groups en JSON, doc_index remplace index.json, nettoyage différé
 
 --- body ---
 ## Contexte
@@ -14,24 +15,42 @@ Couche 2 de l'architecture d'indexation, construite sur `outputs/file_index.json
 (ticket 0010). Regroupe les fichiers physiques en documents logiques par
 similarité, puis découvre les métadonnées documentaires pour chaque groupe.
 
-Étend `outputs/index.json` (ticket 0002, clos) sur deux points :
+**Remplace** `outputs/index.json` (ticket 0002, clos) :
 - `fichier` devient répétable (liste) — un document peut avoir plusieurs
   représentations physiques
 - Périmètre = toute l'archive, pas seulement `docs/`
+- Réutilise la logique d'enrichissement métadonnées de `src/build_index.py`
+  plutôt que la recoder
+
+Le nettoyage, la résolution des cas borderlines, les extensions Crossref et HAL
+sont **différés à des tickets suivants**.
 
 ## Règles de groupement
 
 Par ordre de priorité :
 
 1. **Hash contenu identique** — même bits → même document, variante de format
-2. **Même radical de nom de fichier, extension différente** — attrape les paires
-   PDF+TXT (ex: `CIR_SAC_0042.pdf` + `1994_CIR_SAC_0042.txt`), PDF+DOC
-3. **Fuzzy sur le radical** (distance ≤ 2, longueur ≥ 8) — attrape les variantes
-   de nommage entre répertoires (ex: `1994-042.pdf` dans `docs/` et
-   `1994-042-Auteur-Titre.pdf` dans `attente/`)
 
-Les cas où plusieurs règles se contredisent (ex: même hash mais noms très
+2. **Même radical exact + extension différente** — paires PDF+TXT et PDF+DOC.
+   Radical = nom de fichier sans extension, normalisé en minuscules.
+   Ex : `CIR_SAC_0042.pdf` + `CIR_SAC_0042.txt`.
+
+3. **Préfixe structurel YYYY-NNN** — extrait le motif `\d{4}-\d{3}` du nom de
+   fichier et groupe les fichiers ayant le même préfixe, quelle que soit
+   l'extension ou le suffixe.
+   Ex : `1994-042.pdf` dans `docs/` et `1994-042-Sachs-Titre.pdf` dans `attente/`.
+
+4. **Préfixe CIR_SAC_NNNN** — même logique pour le fonds Sachs.
+   Ex : `CIR_SAC_0042.pdf` (TDM/) et `CIR_SAC_0042.txt` (docs/).
+
+5. **Fallback : correspondance Titre + Auteur + Année** — si les métadonnées
+   extraites concordent (même année, même premier auteur, titre similaire à 80%),
+   classer comme variante probable. Marquer `groupe_incertain: true`.
+
+Les cas où plusieurs règles se contredisent (ex : même hash mais noms très
 différents) sont marqués `groupe_incertain: true` pour revue humaine.
+Note : Levenshtein sur radical brut n'est **pas** utilisé — trop de faux positifs
+sur des noms courts et trop de faux négatifs sur des suffixes longs.
 
 ## Schéma cible
 
@@ -66,22 +85,27 @@ Rôles : `principal`, `ocr` (TXT OCR jumelé), `doublon` (même contenu),
 1. Charger `outputs/file_index.json`
 2. Appliquer les règles de groupement dans l'ordre — construire les clusters
 3. Marquer `groupe_incertain` pour les cas borderlines
-4. Pour chaque groupe, découvrir les métadonnées en reprenant la logique de
-   `src/build_index.py` (pdftotext page 1, noms de fichiers `attente/`, XLS)
-5. Fusionner avec `outputs/index.json` existant pour les groupes déjà enrichis
-6. Écrire `outputs/doc_index.json`
-7. Écrire `outputs/uncertain_groups.csv` — les cas borderlines pour revue
+4. Pour chaque groupe, désigner le fichier `principal` : PDF dans `docs/` si
+   présent, sinon premier fichier par chemin trié
+5. Découvrir les métadonnées en réutilisant la logique de `src/build_index.py`
+   (pdftotext page 1, noms de fichiers `attente/`, XLS)
+6. Fusionner avec `outputs/index.json` existant pour les groupes déjà enrichis
+7. Écrire `outputs/doc_index.json` — remplace `outputs/index.json`
+8. Écrire `outputs/uncertain_groups.json` — les cas borderlines (JSON, pas CSV)
+   pour revue et résolution dans des tickets suivants
 
 ## Dépendances
 
 - `outputs/file_index.json` (ticket 0010)
 - `outputs/index.json` (ticket 0002, pour réutiliser les métadonnées existantes)
-- Python : stdlib + optionnel `rapidfuzz` pour fuzzy matching (uv add rapidfuzz)
+- Python : stdlib uniquement (pas de rapidfuzz — règles structurelles, pas Levenshtein)
 
 ## Exit criteria
 
 - [ ] `outputs/doc_index.json` : un enregistrement par document logique,
-  toute l'archive, `fichiers` répétable
-- [ ] `outputs/uncertain_groups.csv` : cas borderlines pour revue humaine
+  toute l'archive, `fichiers` répétable — remplace `outputs/index.json`
+- [ ] `outputs/uncertain_groups.json` : cas borderlines (format JSON) pour revue
 - [ ] Script `src/build_doc_index.py` reproductible
-- [ ] Nombre de groupes documenté : total / exacts / fuzzy / incertains
+- [ ] Nombre de groupes documenté : total / exacts (hash) / extension / préfixe structurel / incertains
+- [ ] Tests unitaires dans `tests/test_build_doc_index.py` : au moins une règle de groupement testée
+- [ ] Test d'adhérence ruff dans les tests

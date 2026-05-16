@@ -6,6 +6,7 @@ Author: Minh Ha-Duong
 --- log ---
 2026-05-16T06:30Z Minh Ha-Duong created
 2026-05-16T06:30Z claude note Successor conceptuel de 0002 — l'index devient archivistique (fichier par fichier) et non bibliographique (document par document). Couvre toute l'archive, pas seulement docs/.
+2026-05-16T07:00Z claude update Advisor review : inclure migration src/→outputs/ et tests d'adhérence dans les exit criteria
 
 --- body ---
 ## Contexte
@@ -55,6 +56,10 @@ ont leur propre enregistrement. Les doublons dans `attente/` aussi.
 3. `id` = SHA1 du chemin relatif (hex)
 4. Écrire `outputs/file_index.json` — tableau JSON trié par `fichier`
 5. Écrire `outputs/file_index.csv` — même données, format tabulaire
+6. Migrer les artefacts existants : `src/index.json` → `outputs/index.json`,
+   `src/dedup_report.json` → `outputs/dedup_report.json`
+7. Mettre à jour les chemins de sortie dans `src/build_index.py`,
+   `src/dedup.py`, et `Makefile`
 
 ## Notes
 
@@ -74,3 +79,7 @@ ont leur propre enregistrement. Les doublons dans `attente/` aussi.
 - [ ] `outputs/file_index.csv` : même données, format CSV
 - [ ] Script `src/build_file_index.py` reproductible
 - [ ] Nombre de fichiers total documenté dans le log
+- [ ] Migration : `src/index.json` → `outputs/index.json`, `src/dedup_report.json` → `outputs/dedup_report.json`
+- [ ] `src/build_index.py` et `src/dedup.py` écrits dans `outputs/` (plus dans `src/`)
+- [ ] Makefile mis à jour : cibles pointent vers `outputs/`
+- [ ] Tests d'adhérence ruff dans `tests/test_build_file_index.py`
