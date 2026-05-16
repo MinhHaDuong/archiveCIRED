@@ -1,0 +1,38 @@
+%erg 0.1
+Title: Ajouter CI GitHub Actions — make check sur chaque PR
+Created: 2026-05-16
+Author: Minh Ha-Duong
+
+--- log ---
+2026-05-16T12:30Z Minh Ha-Duong created
+
+--- body ---
+## Context
+
+`erg-pr-merge` attend la validation CI avant de fusionner, mais le dépôt
+n'a aucun workflow GitHub Actions. Le script time out après 600 s à chaque
+PR, obligeant à passer par `gh pr merge` manuellement.
+
+Ajouter un workflow minimal qui exécute `make check` sur chaque PR et push
+vers `main` corrige ce problème et protège la branche contre les régressions.
+
+## Actions
+
+1. Créer `.github/workflows/ci.yml` avec :
+   - trigger : `push` + `pull_request` sur `main`
+   - runner : `ubuntu-latest`
+   - steps : checkout → install uv → `uv sync` → `make check`
+2. Vérifier que le workflow se déclenche sur la prochaine PR
+3. S'assurer que `erg-pr-merge` détecte le check et ne time out plus
+
+## Test
+
+Ouvrir une PR de test (branch `ci-test`) avec un commit vide, vérifier que
+GitHub signale le check `ci / test` comme passed avant merge.
+
+## Exit criteria
+
+- [ ] `.github/workflows/ci.yml` commis sur `main`
+- [ ] Le workflow s'exécute sur PR et sur push vers `main`
+- [ ] `make check` passe dans le runner CI (12 tests)
+- [ ] `erg-pr-merge` ne time out plus sur une PR suivante
