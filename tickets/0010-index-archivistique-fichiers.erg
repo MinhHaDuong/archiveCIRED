@@ -1,0 +1,76 @@
+%erg 0.1
+Title: Index archivistique des fichiers (tous répertoires, path+taille+hash)
+Created: 2026-05-16
+Author: Minh Ha-Duong
+
+--- log ---
+2026-05-16T06:30Z Minh Ha-Duong created
+2026-05-16T06:30Z claude note Successor conceptuel de 0002 — l'index devient archivistique (fichier par fichier) et non bibliographique (document par document). Couvre toute l'archive, pas seulement docs/.
+
+--- body ---
+## Contexte
+
+L'index actuel (`outputs/index.json`, ticket 0002) est bibliographique : un
+enregistrement par document logique, .txt OCR exclus, doublons exclus.
+
+Le nouveau concept est un **index archivistique** : un enregistrement par
+fichier physique, tous répertoires de l'archive, sans fusion ni déduplication.
+C'est la couche de base sur laquelle les exports bibliographiques (Zotero, RIS)
+sont construits.
+
+## Périmètre
+
+Tous les fichiers sous la racine de l'archive :
+```
+/home/haduong/data/datasets/ours/Archives CIRED numerisées/
+```
+Y compris : `docs/`, `docs/TDMSachs/`, `TDM/`, `attente/` et ses sous-répertoires.
+Pas d'exclusion de type de fichier : PDF, TXT, DOC, XLS, HTML, JS…
+
+## Schéma cible
+
+```json
+{
+  "id": "<sha1 du chemin relatif>",
+  "fichier": "docs/2006-129.pdf",
+  "taille": 1234567,
+  "hash": "abc123def456...",
+  "ext": ".pdf"
+}
+```
+
+- `id` = `sha1(chemin_relatif)` — stable même si le contenu change
+- `fichier` = chemin relatif depuis la racine de l'archive
+- `taille` = taille en octets
+- `hash` = SHA1 du contenu (pour déduplication cross-répertoire)
+- `ext` = extension (pour filtrage rapide)
+
+Un enregistrement par fichier, un fichier par enregistrement. Les .txt OCR
+ont leur propre enregistrement. Les doublons dans `attente/` aussi.
+
+## Angle d'attaque
+
+1. Scanner récursivement toute l'archive avec `os.walk`
+2. Pour chaque fichier : calculer SHA1 contenu + taille + chemin relatif
+3. `id` = SHA1 du chemin relatif (hex)
+4. Écrire `outputs/file_index.json` — tableau JSON trié par `fichier`
+5. Écrire `outputs/file_index.csv` — même données, format tabulaire
+
+## Notes
+
+- L'index bibliographique (`outputs/index.json`) reste séparé — enrichi en
+  métadonnées, construit à partir du file_index pour les documents sélectionnés
+- Pas de métadonnées bibliographiques dans ce ticket (titre, auteurs) —
+  séparation stricte fichier ↔ document
+
+## Dépendances
+
+- Python stdlib : os, hashlib, json, csv, pathlib, argparse
+- Pas de dépendances externes
+
+## Exit criteria
+
+- [ ] `outputs/file_index.json` : un enregistrement par fichier, toute l'archive
+- [ ] `outputs/file_index.csv` : même données, format CSV
+- [ ] Script `src/build_file_index.py` reproductible
+- [ ] Nombre de fichiers total documenté dans le log

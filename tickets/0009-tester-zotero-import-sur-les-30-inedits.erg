@@ -1,0 +1,32 @@
+%erg 0.1
+Title: Tester le skill zotero-import sur les 30 inédits
+Created: 2026-05-16
+Author: Minh Ha-Duong
+Blocked-by: 0001
+
+--- log ---
+2026-05-16T06:30Z Minh Ha-Duong created
+
+--- body ---
+## Contexte
+
+Le ticket 0001 a identifié 30 fichiers inédits dans `attente/à dédoublonner/`
+(non présents dans `docs/` par hash SHA1). Ces fichiers sont le meilleur
+candidat pour tester le skill `/zotero-import` : petit lot, documents probablement
+récents (noms de fichiers riches), pas encore dans la bibliothèque.
+
+L'objectif est d'évaluer la qualité de la récupération de métadonnées
+(DOI lookup, extraction page 1) avant de décider si on lance sur le corpus entier.
+
+## Angle d'attaque
+
+1. Extraire la liste des 30 inédits depuis `outputs/dedup_report.json`
+2. Lancer `/zotero-import` sur ces 30 PDFs (depuis le répertoire archive source)
+3. Inspecter le fichier RIS produit : qualité des métadonnées sur un échantillon
+4. Classer par qualité : excellent (DOI trouvé) / acceptable (extraction heuristique) / mauvais
+
+## Exit criteria
+
+- [ ] `/zotero-import` lancé sur les 30 inédits
+- [ ] Rapport qualitatif : N excellent / N acceptable / N mauvais
+- [ ] Décision : lancer sur ENPC00_AR (74 articles) ou pas

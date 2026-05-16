@@ -17,12 +17,27 @@ Structure :
 ## Règle absolue
 
 **Ne jamais modifier, déplacer, renommer ou supprimer de fichiers dans l'archive source.**
-Lecture seule. Tout le travail se fait dans ce projet (`src/`, `tickets/`).
+Lecture seule. Tout le travail se fait dans ce projet.
 
-## Travail en cours
+## Structure du projet
 
-Ticket actif : **0002 — Construire un index global (JSON)**
+```
+src/        scripts Python uniquement (build_index.py, dedup.py, …)
+tests/      tests pytest
+outputs/    artefacts générés (index.json, file_index.json, dedup_report.json, …)
+tickets/    tickets de travail
+docs/       documentation projet
+```
 
-L'index (`src/index.json`) est le seul artefact à construire et modifier.
-Format : JSON, un objet par document, champs : `id`, `annee`, `auteurs`, `titre`,
-`type`, `revue_editeur`, `fichier`, `statut_droits`, `hal_id`, `notes`.
+`src/` ne contient pas de données. Les outputs vont dans `outputs/`.
+
+## Index archivistique (ticket 0010)
+
+`outputs/file_index.json` — un enregistrement par fichier physique, toute l'archive.
+Champs : `id` (sha1 du chemin), `fichier`, `taille`, `hash`, `ext`.
+
+## Index bibliographique (ticket 0002, clos)
+
+`outputs/index.json` — un enregistrement par document logique de `docs/`.
+Champs : `id`, `annee`, `auteurs`, `titre`, `type`, `revue_editeur`, `fichier`,
+`texte_ocr`, `statut_droits`, `hal_id`, `notes`.
