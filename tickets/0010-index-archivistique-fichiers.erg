@@ -10,6 +10,7 @@ Author: Minh Ha-Duong
 2026-05-16T07:15Z claude imagine Supprimer champ id (redondant avec fichier), migrer unresolved.csv aussi
 2026-05-16T07:20Z claude plan 2 commits : (1) git mv + default path changes, (2) build_file_index.py + tests + Makefile target. Test non-tautologique : SHA1 connu de b"hello" pour vérifier contenu et non chemin.
 2026-05-16T07:25Z claude feasibility PASS (10/12) — lignes confirmées : build_index.py L679/L684, dedup.py L47. WARN ignoré (0010 n'importe pas build_index).
+2026-05-16T08:00Z claude start executing
 
 --- body ---
 ## Contexte

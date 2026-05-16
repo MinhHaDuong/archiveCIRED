@@ -676,12 +676,12 @@ def main() -> None:
     )
     parser.add_argument(
         "--output",
-        default="src/index.json",
+        default="outputs/index.json",
         help="Output JSON index path",
     )
     parser.add_argument(
         "--unresolved",
-        default="src/unresolved.csv",
+        default="outputs/unresolved.csv",
         help="Output CSV of unresolved entries",
     )
     parser.add_argument(

@@ -44,7 +44,9 @@ def main():
     parser = argparse.ArgumentParser(description="Dédoublonner le corpus par SHA1")
     parser.add_argument("--docs", required=True, type=Path)
     parser.add_argument("--attente", required=True, type=Path)
-    parser.add_argument("--output", default=Path("src/dedup_report.json"), type=Path)
+    parser.add_argument(
+        "--output", default=Path("outputs/dedup_report.json"), type=Path
+    )
     args = parser.parse_args()
 
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
