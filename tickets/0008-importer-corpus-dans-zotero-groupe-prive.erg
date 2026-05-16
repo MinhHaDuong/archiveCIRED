@@ -1,0 +1,54 @@
+%erg 0.1
+Title: Importer le corpus dans une collection Zotero groupe privé CIRED/ENPC
+Created: 2026-05-16
+Author: Minh Ha-Duong
+
+--- log ---
+2026-05-16T00:00Z Minh Ha-Duong created
+
+--- body ---
+## Contexte
+
+Pivot stratégique : dépôt HAL différé, objectif immédiat = collection Zotero
+privée partagée avec les chercheurs CIRED et ENPC. Pas de blocage sur les droits
+(groupe privé). PDFs attachés aux notices pour accès direct depuis Zotero.
+
+Source : `src/index.json` (741 documents, métadonnées : auteurs 89.6%, titre
+91.9%, type 90.0%).
+
+## Angle d'attaque
+
+1. Créer un groupe Zotero privé "Archive CIRED 1970-2013" — inviter membres
+   CIRED et ENPC (Delphine Du Pasquier, Frédérique Bordignon)
+2. Générer un fichier RIS depuis `src/index.json` (`src/notices_zotero.ris`)
+3. Importer le RIS dans le groupe Zotero via l'interface web ou l'API Zotero
+4. Attacher les PDFs aux notices : parcourir `docs/` et lier chaque `fichier`
+   à sa notice par `id` — utiliser l'API Zotero (upload via `attachment`)
+5. Vérifier sur un échantillon (10 notices) : métadonnées correctes + PDF accessible
+
+## Format RIS cible
+
+```
+TY  - JOUR          (article), RPRT (rapport), BOOK (ouvrage), THES (these), GEN (gris-sachs)
+AU  - Nom, Prénom
+TI  - Titre
+PY  - YYYY
+T2  - revue_editeur
+ID  - id (ex: 2006-129)
+ER  -
+```
+
+## Dépendances
+
+- Compte Zotero avec droits de création de groupe
+- `src/index.json` (0002 — clos ✓)
+- Python : `requests` pour l'API Zotero (uv add requests)
+- Clé API Zotero (variable d'environnement ZOTERO_API_KEY)
+
+## Exit criteria
+
+- [ ] Groupe Zotero "Archive CIRED 1970-2013" créé et partagé
+- [ ] `src/notices_zotero.ris` — 741 notices RIS générées depuis index.json
+- [ ] Notices importées dans le groupe Zotero (vérification sur échantillon 10)
+- [ ] PDFs attachés pour les documents dont le fichier existe dans `docs/`
+- [ ] Script `src/zotero_import.py` reproductible
