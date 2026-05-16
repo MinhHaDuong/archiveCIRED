@@ -1,4 +1,4 @@
-Last updated: 2026-05-15T23:15Z
+Last updated: 2026-05-16T12:45Z
 
 ## North star
 
@@ -9,12 +9,13 @@ télécharger n'importe quelle publication via Zotero, avec métadonnées correc
 Dépôt HAL différé — ne pas bloquer sur les droits.
 
 ## Status
-<!-- generated 2026-05-15T23:15Z -->
+<!-- generated 2026-05-16T12:45Z -->
 
-**Tickets:** 1 imagined (0008 Zotero) · 4 déférés (0003 HAL, 0005 HAL batch, 0006 OCR, 0007 metadata)
-**Index:** 741 docs — auteurs 89.6%, titre 91.9%, type 90.0%, annee 68.2%
-**Dedup:** 73 doublons exacts, 30 inédits dans attente/ (à intégrer)
+**Tickets:** 1 imagined (0008 Zotero) · 5 déférés (0003 HAL, 0005 HAL batch, 0006 OCR, 0007 metadata, 0009 zotero-test)
+**Index archivistique:** 1991 fichiers — outputs/file_index.json (ticket 0010 ✓)
+**Index documentaire:** 1112 docs — auteurs 72.8%, titre 75.3%, annee 57.8% — outputs/doc_index.json (ticket 0011 ✓)
+**CI:** GitHub Actions actif — make check (12 tests) sur chaque PR (ticket 0012 ✓)
 **Recent commits:**
-  05ae413 Fermer 0001+0002, débloquer 0003+0007, renforcer _looks_like_name
-  416789a 0002: enrichissement index — pdftotext CIR_SAC + scan 15 lignes (#3)
-  2525c76 0001: script dedup SHA1 — 73 doublons exacts, 30 inédits (#2)
+  53d0c71 Ajouter CI GitHub Actions — make check sur chaque PR (#6)
+  3184bb6 Index documentaire par document logique (ticket 0011) (#5)
+  bde5da0 Index archivistique des fichiers (ticket 0010) (#4)
