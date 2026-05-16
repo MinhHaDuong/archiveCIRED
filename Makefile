@@ -17,6 +17,11 @@ outputs/file_index.json outputs/file_index.csv: src/build_file_index.py
 		--output-json outputs/file_index.json \
 		--output-csv outputs/file_index.csv
 
+outputs/doc_index.json: src/build_doc_index.py outputs/file_index.json outputs/index.json
+	uv run python src/build_doc_index.py \
+		--archive-dir "$(ARCHIVE)" \
+		--output outputs/doc_index.json
+
 check-fast:
 	uv run pytest -m "not integration and not slow" tests/
 
