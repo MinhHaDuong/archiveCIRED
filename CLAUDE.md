@@ -31,13 +31,20 @@ docs/       documentation projet
 
 `src/` ne contient pas de données. Les outputs vont dans `outputs/`.
 
-## Index archivistique (ticket 0010)
+## Architecture d'indexation (deux couches)
 
-`outputs/file_index.json` — un enregistrement par fichier physique, toute l'archive.
-Champs : `id` (sha1 du chemin), `fichier`, `taille`, `hash`, `ext`.
+**Couche 1 — Index archivistique** (`outputs/file_index.json`, ticket 0010)
+Un enregistrement par fichier physique, toute l'archive. 1 991 fichiers.
+Champs : `fichier`, `taille`, `hash`, `ext`. Pas de champ `id` — `fichier` est la clé.
 
-## Index bibliographique (ticket 0002, clos)
+**Couche 2 — Index documentaire** (`outputs/doc_index.json`, ticket 0011)
+Un enregistrement par document logique, toute l'archive. 1 112 documents.
+Construit depuis `file_index.json` par groupement en 3 passes :
+- Passe 1 : hash identique → doublon
+- Passe 2 : `canonical_key(filename)` → variante de format (PDF+TXT, YYYY-NNN cross-dir)
+- Passe 3 : correspondance Titre+Auteur+Année post-enrichissement → `groupe_incertain: true`
 
-`outputs/index.json` — un enregistrement par document logique de `docs/`.
-Champs : `id`, `annee`, `auteurs`, `titre`, `type`, `revue_editeur`, `fichier`,
-`texte_ocr`, `statut_droits`, `hal_id`, `notes`.
+Champs : `id` (sha1 fichier principal), `fichiers` (liste avec rôles), `annee`, `auteurs`,
+`titre`, `type`, `revue_editeur`, `statut_droits`, `hal_id`, `notes`, `groupe_incertain`.
+
+Remplace `outputs/index.json` (ticket 0002, clos) qui couvrait uniquement `docs/`.
