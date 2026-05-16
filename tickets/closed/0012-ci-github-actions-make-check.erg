@@ -2,11 +2,13 @@
 Title: Ajouter CI GitHub Actions — make check sur chaque PR
 Created: 2026-05-16
 Author: Minh Ha-Duong
+Closed: Merged PR #6 — CI passes, 12 tests green
 
 --- log ---
 2026-05-16T12:30Z Minh Ha-Duong created
 2026-05-16T12:35Z claude start executing
 
+2026-05-16T17:09Z Minh Ha-Duong closed — Merged PR #6 — CI passes, 12 tests green
 --- body ---
 ## Context
 
