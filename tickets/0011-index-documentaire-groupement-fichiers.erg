@@ -2,11 +2,15 @@
 Title: Index documentaire — grouper les fichiers par document, toute l'archive
 Created: 2026-05-16
 Author: Minh Ha-Duong
-Blocked-by: 0010
 
 --- log ---
 2026-05-16T06:45Z Minh Ha-Duong created
+2026-05-16T07:00Z claude update Advisor review : Levenshtein remplacé par matching structurel, uncertain_groups en JSON, doc_index remplace index.json, nettoyage différé
+2026-05-16T07:15Z claude imagine Cascade 5 règles → 2 passes (hash + canonical_key), règle 5 déplacée post-enrichissement, uncertain_groups.json supprimé (groupe_incertain dans doc_index suffit)
+2026-05-16T07:20Z claude plan 3 commits : (1) tests canonical_key, (2) build_doc_index.py, (3) Makefile. Shim pattern pour réutiliser build_index.py sans modifier. _archive_root global à setter avant import enrichissement. Test négatif décennie (1994-042 vs 2004-042 ne doivent pas grouper).
+2026-05-16T07:25Z claude feasibility WARN×2 : (W6) _archive_root a un défaut absolu hardcodé à l'import — setter build_index._archive_root dans tout test appelant enrich_*. (W10) outputs/index.json est une liste plate, pas un dict — construire {stem: entry} localement dans build_doc_index.py.
 
+2026-05-16T11:44Z Minh Ha-Duong note blocker 0010 closed — Blocked-by removed.
 --- body ---
 ## Contexte
 
@@ -14,24 +18,49 @@ Couche 2 de l'architecture d'indexation, construite sur `outputs/file_index.json
 (ticket 0010). Regroupe les fichiers physiques en documents logiques par
 similarité, puis découvre les métadonnées documentaires pour chaque groupe.
 
-Étend `outputs/index.json` (ticket 0002, clos) sur deux points :
+**Remplace** `outputs/index.json` (ticket 0002, clos) :
 - `fichier` devient répétable (liste) — un document peut avoir plusieurs
   représentations physiques
 - Périmètre = toute l'archive, pas seulement `docs/`
+- Réutilise la logique d'enrichissement métadonnées de `src/build_index.py`
+  plutôt que la recoder
 
-## Règles de groupement
+Le nettoyage, la résolution des cas borderlines, les extensions Crossref et HAL
+sont **différés à des tickets suivants**.
 
-Par ordre de priorité :
+## Algorithme de groupement (2 passes)
 
-1. **Hash contenu identique** — même bits → même document, variante de format
-2. **Même radical de nom de fichier, extension différente** — attrape les paires
-   PDF+TXT (ex: `CIR_SAC_0042.pdf` + `1994_CIR_SAC_0042.txt`), PDF+DOC
-3. **Fuzzy sur le radical** (distance ≤ 2, longueur ≥ 8) — attrape les variantes
-   de nommage entre répertoires (ex: `1994-042.pdf` dans `docs/` et
-   `1994-042-Auteur-Titre.pdf` dans `attente/`)
+**Passe 1 — Hash contenu identique**
+Même bits → même document. Rôles : `principal` (désigné par la règle de
+priorité ci-dessous) / `doublon`.
 
-Les cas où plusieurs règles se contredisent (ex: même hash mais noms très
-différents) sont marqués `groupe_incertain: true` pour revue humaine.
+**Passe 2 — Clé canonique**
+Pour chaque fichier non encore groupé, extraire une clé canonique via
+`canonical_key(filename)` :
+- Strip le préfixe `YYYY_` éventuel (ex : `1994_CIR_SAC_0042.pdf` → `cir_sac_0042`)
+- Pour les noms YYYY-NNN, normaliser en `YYYY-NNN` zéro-paddé
+- Supprimer l'extension et mettre en minuscules
+
+Les fichiers partageant la même clé canonique forment un groupe.
+Recouvre automatiquement : mêmes noms avec extensions différentes (PDF+TXT),
+préfixes YYYY-NNN cross-répertoire, séries CIR_SAC.
+
+Pas de Levenshtein — trop de faux positifs sur noms courts, faux négatifs sur
+suffixes longs.
+
+**Priorité du fichier `principal`** (même pour passe 1 et 2) :
+PDF dans `docs/` → PDF dans un autre répertoire → premier fichier par chemin trié
+
+**Rôles** : `principal`, `doublon` (même hash), `ocr` (TXT jumeau d'un PDF),
+`variante` (même clé canonique, hash différent, extension différente)
+
+**Passe 3 — Fallback post-enrichissement (Titre + Auteur + Année)**
+Exécutée APRÈS l'étape d'enrichissement métadonnées (étape 6), sur les
+fichiers restés sans groupe. Si métadonnées concordent (même année, même
+premier auteur, titre similaire ≥80%), classer comme variante probable.
+Marquer `groupe_incertain: true`.
+
+Tous les cas non résolus après passe 3 sont marqués `groupe_incertain: true`.
 
 ## Schéma cible
 
@@ -64,24 +93,36 @@ Rôles : `principal`, `ocr` (TXT OCR jumelé), `doublon` (même contenu),
 ## Angle d'attaque
 
 1. Charger `outputs/file_index.json`
-2. Appliquer les règles de groupement dans l'ordre — construire les clusters
-3. Marquer `groupe_incertain` pour les cas borderlines
-4. Pour chaque groupe, découvrir les métadonnées en reprenant la logique de
-   `src/build_index.py` (pdftotext page 1, noms de fichiers `attente/`, XLS)
+2. **Passe 1** : grouper par hash contenu identique
+3. **Passe 2** : grouper les fichiers restants par `canonical_key(filename)`
+4. Pour chaque groupe, désigner le `principal` (PDF docs/ → PDF ailleurs → premier chemin trié)
 5. Fusionner avec `outputs/index.json` existant pour les groupes déjà enrichis
-6. Écrire `outputs/doc_index.json`
-7. Écrire `outputs/uncertain_groups.csv` — les cas borderlines pour revue
+6. Enrichir les entrées encore incomplètes : réutiliser les fonctions de
+   `src/build_index.py` (`enrich_from_dedoublonner`, `enrich_from_inventaire_xls`,
+   `enrich_from_cir_sac_txt` wrapper, `enrich_from_pdftotext`)
+7. **Passe 3** : fallback sur Titre+Auteur+Année pour les fichiers sans groupe,
+   après enrichissement (métadonnées disponibles) — marquer `groupe_incertain: true`
+8. Attacher la liste `fichiers` à chaque entrée
+9. Écrire `outputs/doc_index.json` — remplace `outputs/index.json`
+
+Les cas borderlines sont signalés par `groupe_incertain: true` dans le JSON.
+Pas de fichier `uncertain_groups.json` séparé — filtrer avec
+`jq '[.[] | select(.groupe_incertain)]'`.
 
 ## Dépendances
 
 - `outputs/file_index.json` (ticket 0010)
 - `outputs/index.json` (ticket 0002, pour réutiliser les métadonnées existantes)
-- Python : stdlib + optionnel `rapidfuzz` pour fuzzy matching (uv add rapidfuzz)
+- Python : stdlib + `difflib.SequenceMatcher` pour la similarité de titre (passe 3)
+  Pas de rapidfuzz — stdlib suffit pour quelques dizaines de cas borderlines
 
 ## Exit criteria
 
 - [ ] `outputs/doc_index.json` : un enregistrement par document logique,
-  toute l'archive, `fichiers` répétable
-- [ ] `outputs/uncertain_groups.csv` : cas borderlines pour revue humaine
+  toute l'archive, `fichiers` répétable — remplace `outputs/index.json`
+- [ ] Champ `groupe_incertain: true` présent sur les groupes borderlines
 - [ ] Script `src/build_doc_index.py` reproductible
-- [ ] Nombre de groupes documenté : total / exacts / fuzzy / incertains
+- [ ] Nombre de groupes documenté dans le log : total / hash / canonical_key / fallback / incertains
+- [ ] Tests unitaires dans `tests/test_build_doc_index.py` :
+  `canonical_key()` et au moins une passe de groupement testées
+- [ ] Test d'adhérence ruff dans les tests
