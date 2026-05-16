@@ -2,14 +2,13 @@
 Title: Vérifier les dépôts existants en ligne (HAL, Zenodo) et mettre à jour l'index
 Created: 2026-05-15
 Author: Minh Ha-Duong
-Closed: Superseded — objectif HAL différé, pivot vers Zotero
+Tag: deferred
 
 --- log ---
 2026-05-15T12:56Z Minh Ha-Duong created
 2026-05-15T14:30Z claude note Blocked par 0002 — besoin titres/auteurs pour interroger les APIs
-
 2026-05-15T21:05Z Minh Ha-Duong note blocker 0002 closed — Blocked-by removed.
-2026-05-16T06:04Z Minh Ha-Duong closed — Superseded — objectif HAL différé, pivot vers Zotero
+2026-05-16T06:10Z claude note Deferred — objectif HAL différé, pivot vers Zotero (ticket 0008)
 --- body ---
 ## Contexte
 

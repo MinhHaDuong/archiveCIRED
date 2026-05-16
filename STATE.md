@@ -11,7 +11,7 @@ Dépôt HAL différé — ne pas bloquer sur les droits.
 ## Status
 <!-- generated 2026-05-15T23:15Z -->
 
-**Tickets:** 1 ready (0008 Zotero) · 2 open déférés (0006 OCR, 0007 metadata PDF)
+**Tickets:** 1 imagined (0008 Zotero) · 4 déférés (0003 HAL, 0005 HAL batch, 0006 OCR, 0007 metadata)
 **Index:** 741 docs — auteurs 89.6%, titre 91.9%, type 90.0%, annee 68.2%
 **Dedup:** 73 doublons exacts, 30 inédits dans attente/ (à intégrer)
 **Recent commits:**
