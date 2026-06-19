@@ -1,0 +1,57 @@
+%erg 0.1
+Title: Réconcilier le groupe Recueil_CIRED (corrections métadonnées d'Antonin)
+Created: 2026-06-19
+Author: Minh Ha-Duong
+Blocked-by: 0014
+
+--- body ---
+## Context
+
+Le groupe privé `Recueil_CIRED` (id 2511149, 149 notices) a été constitué par
+**Antonin**, qui indique avoir **corrigé pas mal de métadonnées**. Ces notices
+peuvent donc être *meilleures* que celles de My Library pour les documents
+correspondants. Il faut réconcilier les deux sans écraser le travail d'Antonin.
+
+À clarifier avec Antonin avant de coder : quels champs il a corrigés, sur quel
+sous-ensemble, et quel doit être le rôle final du groupe (cible de partage
+CIRED/ENPC vs brouillon).
+
+## Relevant files
+
+- `src/reconcile_zotero.py` — clé de jointure par nom de fichier d'archive
+- `outputs/reconcile_report.md` — réconciliation index↔perso (référence)
+- `~/.config/keys/zotero-archive-cired.env`
+
+## Actions
+
+1. Apparier les 149 notices du groupe à My Library par clé d'archive (puis par
+   titre/auteur pour celles sans clé).
+2. Diff champ par champ groupe ↔ perso ; repérer les corrections d'Antonin
+   (groupe diffère et semble meilleur).
+3. Décider la direction de propagation : corrections du groupe → My Library
+   (et/ou inversement). NE PAS écraser le groupe par défaut.
+4. Décider le rôle du groupe (peupler depuis le set canonique nettoyé, ou
+   garder le groupe comme source autoritaire pour son sous-ensemble).
+
+## Test
+
+- Diff de champs pur (réutiliser la logique de comparaison du 0013) sur
+  fixtures, sans réseau.
+
+## Verification
+
+- [ ] Rapport de diff groupe↔perso (corrections d'Antonin identifiées)
+- [ ] Direction de propagation validée avec Antonin / M. Ha-Duong
+- [ ] Aucune correction d'Antonin perdue
+- [ ] `make check` passe
+
+## Invariants
+
+- Ne pas écraser les corrections d'Antonin sans validation explicite.
+- Dry-run par défaut ; `--apply` exige `--backup`.
+
+## Exit criteria
+
+- [ ] Diff groupe↔perso produit et revu
+- [ ] Stratégie de propagation décidée et appliquée
+- [ ] `make check` passe

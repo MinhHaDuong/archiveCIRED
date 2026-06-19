@@ -1,0 +1,60 @@
+%erg 0.1
+Title: Remplacer les collections CIRED et LEESU par des tags
+Created: 2026-06-19
+Author: Minh Ha-Duong
+Blocked-by: 0013
+
+--- log ---
+2026-06-19T12:05Z claude created Proposé par M. Ha-Duong après le dédoublonnage (0013).
+
+--- body ---
+## Context
+
+Après le dédoublonnage de My Library (ticket 0013), réorganiser le classement
+par **tags** plutôt que par collections. Les collections `CIRED` (507 items) et
+`LEESU` (182 items) deviennent des tags, puis sont supprimées. Les tags sont
+plus souples (cumulables, cherchables) et survivent mieux au partage que la
+hiérarchie de collections.
+
+À trancher : faut-il aussi traiter les collections devenues vestigiales après
+0013 (`Documents à consulter`, `Old - Documents à consulter`, `Bac à sable
+DirDoc`) ? Probablement les supprimer aussi, mais demander confirmation.
+
+## Relevant files
+
+- `src/zotero_dedup.py` — helpers API réutilisables (urlopen_retry, _write)
+- `src/reconcile_zotero.py` — fetch/collecte
+- `~/.config/keys/zotero-archive-cired.env` — clé API write
+
+## Actions
+
+1. Pour chaque collection cible (CIRED=RZUZGILL, LEESU=MX3QN57W) : lister ses
+   items, ajouter le tag correspondant (`PATCH items/<key>` champ `tags`, en
+   préservant les tags existants).
+2. Vérifier que chaque item de la collection porte bien le tag.
+3. Supprimer la collection (`DELETE collections/<key>` + If-Unmodified-Since).
+4. Idem (après confirmation) pour les collections vestigiales post-0013.
+
+## Test
+
+- Fonction pure d'ajout de tag (union sans doublon, préserve les tags manuels
+  existants) sur fixtures, sans réseau.
+
+## Verification
+
+- [ ] Chaque ex-membre de CIRED porte le tag `CIRED` ; idem LEESU
+- [ ] Collections CIRED et LEESU supprimées
+- [ ] Aucun item perdu (compte items inchangé)
+- [ ] `make check` passe
+
+## Invariants
+
+- Dry-run par défaut, `--apply` exige `--backup`.
+- Préserver les tags manuels déjà présents.
+- Ne jamais toucher l'archive source sur disque.
+
+## Exit criteria
+
+- [ ] Script tags + tests
+- [ ] Tags posés, collections supprimées, vérification OK
+- [ ] `make check` passe
