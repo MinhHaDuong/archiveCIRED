@@ -1,0 +1,944 @@
+{
+  "cles_total": 682,
+  "cles_dupliquees": 45,
+  "maitres": 45,
+  "suppressions": 47,
+  "reparentages_pdf": 30,
+  "maitres_enrichis": 45,
+  "champs_fusionnes": {
+    "rights": 44,
+    "extra": 44,
+    "pages": 17,
+    "conferenceName": 1
+  },
+  "plans": [
+    {
+      "key": "1973-008",
+      "master": "CTKWES6W",
+      "master_year": "2020",
+      "master_version": 4922,
+      "master_has_pdf": true,
+      "reparent_pdf_from": null,
+      "merge_patch": {
+        "rights": "oui",
+        "extra": "ok"
+      },
+      "delete": [
+        {
+          "key": "NWNN4HZ6",
+          "version": 4519,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "1973-009",
+      "master": "4PV9557X",
+      "master_year": "2020",
+      "master_version": 4958,
+      "master_has_pdf": true,
+      "reparent_pdf_from": null,
+      "merge_patch": {
+        "rights": "non",
+        "extra": "Type de document à confirmer",
+        "pages": "70 p."
+      },
+      "delete": [
+        {
+          "key": "BDKBM3GC",
+          "version": 4536,
+          "year": "2015",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "1975-015",
+      "master": "BSU65UVI",
+      "master_year": "2020",
+      "master_version": 4921,
+      "master_has_pdf": true,
+      "reparent_pdf_from": null,
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok"
+      },
+      "delete": [
+        {
+          "key": "KXS83XK5",
+          "version": 4529,
+          "year": "2015",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "1975-166",
+      "master": "U6VHDB63",
+      "master_year": "2020",
+      "master_version": 4921,
+      "master_has_pdf": true,
+      "reparent_pdf_from": null,
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok"
+      },
+      "delete": [
+        {
+          "key": "TTQUGF92",
+          "version": 4529,
+          "year": "2015",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "1981-046",
+      "master": "PXZG48FM",
+      "master_year": "2020",
+      "master_version": 4921,
+      "master_has_pdf": true,
+      "reparent_pdf_from": null,
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok"
+      },
+      "delete": [
+        {
+          "key": "64NWIK6I",
+          "version": 4536,
+          "year": "2015",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "1984-063",
+      "master": "NYLF264S",
+      "master_year": "2020",
+      "master_version": 4921,
+      "master_has_pdf": true,
+      "reparent_pdf_from": null,
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok"
+      },
+      "delete": [
+        {
+          "key": "BTT5ZPK4",
+          "version": 4525,
+          "year": "2015",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "1985-068",
+      "master": "X3NM7EFI",
+      "master_year": "2020",
+      "master_version": 4921,
+      "master_has_pdf": true,
+      "reparent_pdf_from": null,
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok"
+      },
+      "delete": [
+        {
+          "key": "EA9MHBVR",
+          "version": 4538,
+          "year": "2015",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "1989-080",
+      "master": "8KM6L2HS",
+      "master_year": "2020",
+      "master_version": 4921,
+      "master_has_pdf": true,
+      "reparent_pdf_from": null,
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok"
+      },
+      "delete": [
+        {
+          "key": "IPVHN3WR",
+          "version": 4531,
+          "year": "2015",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "1991-087",
+      "master": "N5QPS2L7",
+      "master_year": "2020",
+      "master_version": 4921,
+      "master_has_pdf": true,
+      "reparent_pdf_from": null,
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok"
+      },
+      "delete": [
+        {
+          "key": "A7MPFUB4",
+          "version": 4525,
+          "year": "2015",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "1992-088",
+      "master": "5GSGN6AX",
+      "master_year": "2020",
+      "master_version": 4921,
+      "master_has_pdf": true,
+      "reparent_pdf_from": null,
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok"
+      },
+      "delete": [
+        {
+          "key": "35E4MGMP",
+          "version": 4540,
+          "year": "2015",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "1992-090",
+      "master": "EMI3J8YC",
+      "master_year": "2020",
+      "master_version": 4921,
+      "master_has_pdf": true,
+      "reparent_pdf_from": null,
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok"
+      },
+      "delete": [
+        {
+          "key": "47V477C4",
+          "version": 4525,
+          "year": "2015",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "1993-096",
+      "master": "HFR8C92M",
+      "master_year": "2020",
+      "master_version": 4921,
+      "master_has_pdf": true,
+      "reparent_pdf_from": null,
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok"
+      },
+      "delete": [
+        {
+          "key": "7XU3HUZI",
+          "version": 4536,
+          "year": "2015",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "1993-098",
+      "master": "KEKWF9QT",
+      "master_year": "2020",
+      "master_version": 4920,
+      "master_has_pdf": true,
+      "reparent_pdf_from": null,
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok"
+      },
+      "delete": [
+        {
+          "key": "W7QB6XGV",
+          "version": 4538,
+          "year": "2015",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "1993-100",
+      "master": "2YHQV3L4",
+      "master_year": "2020",
+      "master_version": 4920,
+      "master_has_pdf": true,
+      "reparent_pdf_from": null,
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok"
+      },
+      "delete": [
+        {
+          "key": "6PQFXCBP",
+          "version": 4514,
+          "year": "2015",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "1995-109",
+      "master": "S8VUIU74",
+      "master_year": "2020",
+      "master_version": 4923,
+      "master_has_pdf": false,
+      "reparent_pdf_from": "CJFA3QHN",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok",
+        "pages": "29–35"
+      },
+      "delete": [
+        {
+          "key": "CJFA3QHN",
+          "version": 4531,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "1995-170",
+      "master": "YYP9IPKZ",
+      "master_year": "2020",
+      "master_version": 4922,
+      "master_has_pdf": false,
+      "reparent_pdf_from": "GQES4WRV",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok"
+      },
+      "delete": [
+        {
+          "key": "GQES4WRV",
+          "version": 4540,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "1997-110",
+      "master": "QRLF5SRD",
+      "master_year": "2020",
+      "master_version": 4923,
+      "master_has_pdf": false,
+      "reparent_pdf_from": "CN5HX4JN",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok"
+      },
+      "delete": [
+        {
+          "key": "CN5HX4JN",
+          "version": 4525,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "1997-111",
+      "master": "88YZFI6N",
+      "master_year": "2020",
+      "master_version": 4924,
+      "master_has_pdf": false,
+      "reparent_pdf_from": "SXWWJNUN",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok",
+        "pages": "39–73"
+      },
+      "delete": [
+        {
+          "key": "SXWWJNUN",
+          "version": 4538,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "1997-112",
+      "master": "LIJ3E8NT",
+      "master_year": "2020",
+      "master_version": 4924,
+      "master_has_pdf": false,
+      "reparent_pdf_from": "5MDAPR4H",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok",
+        "pages": "33–66"
+      },
+      "delete": [
+        {
+          "key": "5MDAPR4H",
+          "version": 4533,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "1997-113",
+      "master": "FFTTS5TR",
+      "master_year": "2020",
+      "master_version": 4924,
+      "master_has_pdf": false,
+      "reparent_pdf_from": "P9P9ZMND",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok"
+      },
+      "delete": [
+        {
+          "key": "P9P9ZMND",
+          "version": 4533,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "1997-114",
+      "master": "3UIV2BPH",
+      "master_year": "2020",
+      "master_version": 4959,
+      "master_has_pdf": false,
+      "reparent_pdf_from": "IVXNF52P",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "dédoublonné"
+      },
+      "delete": [
+        {
+          "key": "IVXNF52P",
+          "version": 4531,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "1997-115",
+      "master": "2FVBC9PZ",
+      "master_year": "2020",
+      "master_version": 4924,
+      "master_has_pdf": false,
+      "reparent_pdf_from": "C2P4QCUR",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok",
+        "pages": "37–83"
+      },
+      "delete": [
+        {
+          "key": "C2P4QCUR",
+          "version": 4525,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "1998-116",
+      "master": "H3PNJSQQ",
+      "master_year": "2020",
+      "master_version": 4923,
+      "master_has_pdf": false,
+      "reparent_pdf_from": "ZZF572W4",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok",
+        "pages": "213–229"
+      },
+      "delete": [
+        {
+          "key": "ZZF572W4",
+          "version": 4525,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "1998-117",
+      "master": "7IKEW8MP",
+      "master_year": "2020",
+      "master_version": 4922,
+      "master_has_pdf": false,
+      "reparent_pdf_from": "CF73ND3A",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok",
+        "pages": "299–317"
+      },
+      "delete": [
+        {
+          "key": "CF73ND3A",
+          "version": 4538,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "1998-118",
+      "master": "SYUVCBW7",
+      "master_year": "2020",
+      "master_version": 4924,
+      "master_has_pdf": false,
+      "reparent_pdf_from": "Z9ZS2KFI",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok"
+      },
+      "delete": [
+        {
+          "key": "Z9ZS2KFI",
+          "version": 4514,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "2001-120",
+      "master": "MMYC3LFP",
+      "master_year": "2020",
+      "master_version": 4923,
+      "master_has_pdf": false,
+      "reparent_pdf_from": "ZF2FRJEN",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok"
+      },
+      "delete": [
+        {
+          "key": "ZF2FRJEN",
+          "version": 4525,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "2001-121",
+      "master": "6GLAHY9Y",
+      "master_year": "2020",
+      "master_version": 4924,
+      "master_has_pdf": false,
+      "reparent_pdf_from": "2CAS46JW",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok"
+      },
+      "delete": [
+        {
+          "key": "2CAS46JW",
+          "version": 4540,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "2001-198",
+      "master": "C2YLFBMY",
+      "master_year": "2020",
+      "master_version": 4923,
+      "master_has_pdf": false,
+      "reparent_pdf_from": "IBV3BHQI",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok",
+        "pages": "136–145"
+      },
+      "delete": [
+        {
+          "key": "IBV3BHQI",
+          "version": 4531,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "2002-122",
+      "master": "PQIGHQJR",
+      "master_year": "2020",
+      "master_version": 4923,
+      "master_has_pdf": false,
+      "reparent_pdf_from": "VFIGAJNM",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok",
+        "pages": "213–230"
+      },
+      "delete": [
+        {
+          "key": "VFIGAJNM",
+          "version": 4525,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "2002-171",
+      "master": "INCBDSWS",
+      "master_year": "2020",
+      "master_version": 4924,
+      "master_has_pdf": false,
+      "reparent_pdf_from": "UPHAMGCP",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok",
+        "pages": "143–158"
+      },
+      "delete": [
+        {
+          "key": "UPHAMGCP",
+          "version": 4519,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "2003-125",
+      "master": "MAU49Z23",
+      "master_year": "2020",
+      "master_version": 4922,
+      "master_has_pdf": false,
+      "reparent_pdf_from": "A7AWWUUD",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok",
+        "pages": "133–147"
+      },
+      "delete": [
+        {
+          "key": "A7AWWUUD",
+          "version": 4534,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "2003-201",
+      "master": "48Y52GT6",
+      "master_year": "2020",
+      "master_version": 4922,
+      "master_has_pdf": false,
+      "reparent_pdf_from": "XGEQ4MR8",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok"
+      },
+      "delete": [
+        {
+          "key": "XGEQ4MR8",
+          "version": 424,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "2004-127",
+      "master": "I2Y8J7YM",
+      "master_year": "2020",
+      "master_version": 4922,
+      "master_has_pdf": false,
+      "reparent_pdf_from": "E5DCXFJ7",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok",
+        "pages": "455–480"
+      },
+      "delete": [
+        {
+          "key": "E5DCXFJ7",
+          "version": 4534,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "2004-202",
+      "master": "UEQDYIG2",
+      "master_year": "2020",
+      "master_version": 4922,
+      "master_has_pdf": false,
+      "reparent_pdf_from": "EPMH8CVH",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok"
+      },
+      "delete": [
+        {
+          "key": "EPMH8CVH",
+          "version": 4531,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "2005-128",
+      "master": "5XZ54S9Y",
+      "master_year": "2020",
+      "master_version": 4964,
+      "master_has_pdf": false,
+      "reparent_pdf_from": "K6E487BU",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok"
+      },
+      "delete": [
+        {
+          "key": "K6E487BU",
+          "version": 4519,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "2006-129",
+      "master": "7AJNH48Y",
+      "master_year": "2020",
+      "master_version": 4924,
+      "master_has_pdf": false,
+      "reparent_pdf_from": "HTG6XKF6",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok"
+      },
+      "delete": [
+        {
+          "key": "HTG6XKF6",
+          "version": 4516,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "2006-130",
+      "master": "69BSN3R7",
+      "master_year": "2020",
+      "master_version": 4924,
+      "master_has_pdf": false,
+      "reparent_pdf_from": "XWT7RMUF",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok",
+        "pages": "93–113"
+      },
+      "delete": [
+        {
+          "key": "XWT7RMUF",
+          "version": 4516,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "2006-132",
+      "master": "3UU7NR6F",
+      "master_year": "2020",
+      "master_version": 4922,
+      "master_has_pdf": false,
+      "reparent_pdf_from": "NWAI49VU",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok"
+      },
+      "delete": [
+        {
+          "key": "NWAI49VU",
+          "version": 423,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "2006-133",
+      "master": "CE4JJNVD",
+      "master_year": "2020",
+      "master_version": 4923,
+      "master_has_pdf": false,
+      "reparent_pdf_from": "KTZ7FH6M",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok",
+        "pages": "1–12"
+      },
+      "delete": [
+        {
+          "key": "KTZ7FH6M",
+          "version": 4523,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "2006-173",
+      "master": "Y7EMI7W6",
+      "master_year": "2020",
+      "master_version": 4922,
+      "master_has_pdf": false,
+      "reparent_pdf_from": "KR6GXCPZ",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok",
+        "pages": "309–343"
+      },
+      "delete": [
+        {
+          "key": "KR6GXCPZ",
+          "version": 424,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "2006-203",
+      "master": "BDEZFM5U",
+      "master_year": "2020",
+      "master_version": 4923,
+      "master_has_pdf": false,
+      "reparent_pdf_from": "3EA3RC5B",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok",
+        "pages": "635–645"
+      },
+      "delete": [
+        {
+          "key": "3EA3RC5B",
+          "version": 4529,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "2011-156",
+      "master": "3T33LI2E",
+      "master_year": "2020",
+      "master_version": 4923,
+      "master_has_pdf": false,
+      "reparent_pdf_from": "WTDUTGM6",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok"
+      },
+      "delete": [
+        {
+          "key": "WTDUTGM6",
+          "version": 4531,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "2012-157",
+      "master": "W7JAGF2D",
+      "master_year": "2020",
+      "master_version": 4922,
+      "master_has_pdf": true,
+      "reparent_pdf_from": null,
+      "merge_patch": {
+        "rights": "oui",
+        "extra": "ok",
+        "pages": "334–337"
+      },
+      "delete": [
+        {
+          "key": "VTDVER3S",
+          "version": 4540,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "2012-159",
+      "master": "9JUBWUFG",
+      "master_year": "2020",
+      "master_version": 4923,
+      "master_has_pdf": false,
+      "reparent_pdf_from": "SBETJWFU",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok"
+      },
+      "delete": [
+        {
+          "key": "SBETJWFU",
+          "version": 4519,
+          "year": "2014",
+          "had_pdf": true
+        }
+      ]
+    },
+    {
+      "key": "ENPC00_OUV_LEESU_0016",
+      "master": "KPF9BDBN",
+      "master_year": "2020",
+      "master_version": 4937,
+      "master_has_pdf": false,
+      "reparent_pdf_from": "CFMUNRAX",
+      "merge_patch": {
+        "conferenceName": "WWW-YES"
+      },
+      "delete": [
+        {
+          "key": "F65HPQ28",
+          "version": 4735,
+          "year": "2020",
+          "had_pdf": false
+        },
+        {
+          "key": "CFMUNRAX",
+          "version": 4804,
+          "year": "2015",
+          "had_pdf": true
+        },
+        {
+          "key": "QSBUQWQ8",
+          "version": 4804,
+          "year": "2015",
+          "had_pdf": true
+        }
+      ]
+    }
+  ]
+}

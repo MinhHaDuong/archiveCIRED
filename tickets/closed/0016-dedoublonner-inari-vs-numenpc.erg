@@ -1,0 +1,78 @@
+%erg 0.1
+Title: Dédoublonner les notices inter-serveurs inari vs numenpc
+Created: 2026-06-19
+Author: Minh Ha-Duong
+Closed: autoclosed — PR #7
+
+--- log ---
+2026-06-19T12:40Z claude created Repéré par M. Ha-Duong après le dédoublonnage par clé (0013).
+
+2026-06-19T15:20Z Minh Ha-Duong note blocker 0013 closed — Blocked-by removed.
+2026-06-19T15:20Z Minh Ha-Duong closed — autoclosed — PR #7
+--- body ---
+## Résultat (2026-06-19)
+
+Apply OK : 44 fusionnés, 29 PDF re-parentés, 44 supprimés. Maître = inari à 100 %.
+numenpc 47 → 3 (reliquat du cas 2-volumes). My Library 735 → **691** notices.
+
+Dédoublonnage **par identifiant terminé** (0013 + 0016) : 1378 → 691, zéro perte.
+
+Reste, NON automatisable (à juger à la main) :
+- `ENPC00_OUV_LEESU_0016` : ouvrage 2 volumes → 2 notices (décidé en 0013).
+- **22 titres dupliqués à clés `CIR_SAC` différentes = vrais docs distincts**
+  (Sachs réutilisait les titres) → NE PAS fusionner, juste vérifier.
+- 3 titres sans clé (Godard descriptifs) + 1 à clé unilatérale → investiguer.
+
+## Context
+
+Après le dédoublonnage par nom de fichier (0013), il reste ~70 titres dupliqués
+dans My Library, dont **47 paires inari ↔ numenpc** : le même document existe sur
+deux serveurs de numérisation, `inari.centre-cired.fr` (CIRED) et
+`numenpc.centre-cired.fr` (ENPC), avec des noms de fichiers différents — donc
+invisibles à la clé `CIR_/ENPC` du 0013.
+
+Mesure de matchabilité (47 notices numenpc) :
+- **46 matchent une notice inari par clé/id** (sûr) — il suffit d'étendre la clé
+  pour parser aussi l'id `YYYY-NNN` du basename (ex. numenpc `1973-009.pdf`).
+- **1 ne matche que par titre** (à vérifier manuellement).
+- 0 orpheline (tout numenpc a un correspondant inari).
+
+Reste aussi le cas `ENPC00_OUV_LEESU_0016` (ouvrage 2 volumes _a_/_b_, à modéliser
+en 2 notices — décidé en 0013) qui se mêle à ce lot.
+
+## Relevant files
+
+- `src/zotero_dedup.py` — réutiliser la mécanique (choix maître, merge, garde
+  multi-volume) ; étendre l'extraction de clé.
+- `src/reconcile_zotero.py` — `extract_archive_key` (ajouter le repli id `YYYY-NNN`).
+
+## Actions
+
+1. Étendre l'extraction de clé : si pas de `CIR_/ENPC`, parser l'id `YYYY-NNN`
+   du basename (présent côté numenpc et recueil). Ne PAS casser les tests 0013.
+2. Re-run dry-run : vérifier que les 46 paires se regroupent, maître = inari 2020.
+3. `--apply --backup` : absorber les doublons numenpc dans le maître inari.
+4. Traiter à la main : le cas titre-seul (1) et l'ouvrage 2 volumes.
+
+## Test
+
+- `extract_archive_key` reconnaît `YYYY-NNN.pdf` en repli, sans changer le
+  comportement sur `CIR_/ENPC` ni sur les noms descriptifs.
+
+## Verification
+
+- [ ] 0 paire inari↔numenpc restante (hors cas manuels documentés)
+- [ ] Chaque maître conserve son PDF
+- [ ] `make check` passe
+
+## Invariants
+
+- Maître = notice inari la plus récente (ne pas privilégier numenpc).
+- Garde-fou multi-volume conservé (ne pas collapser _a_/_b_).
+- Dry-run par défaut ; `--apply` exige `--backup`.
+
+## Exit criteria
+
+- [ ] Clé étendue + tests
+- [ ] Doublons inari↔numenpc résorbés (sauf cas manuels listés)
+- [ ] `make check` passe

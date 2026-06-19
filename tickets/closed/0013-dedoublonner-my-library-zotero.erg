@@ -1,0 +1,131 @@
+%erg 0.1
+Title: Dédoublonner My Library Zotero (fusion générations 2015+2020)
+Created: 2026-06-19
+Author: Minh Ha-Duong
+Closed: autoclosed — PR #7
+
+--- log ---
+2026-06-19T00:00Z claude created Diagnostic issu de l'audit ticket 0008.
+
+2026-06-19T15:20Z Minh Ha-Duong closed — autoclosed — PR #7
+--- body ---
+
+## Résultat du run complet (2026-06-19)
+
+1376 → 737 notices. 415 fusionnés, 633 re-parentés, 639 supprimés, 2 ignorés,
+3 erreurs. 733/736 clés dédoublées proprement, **zéro perte** (invariant OK).
+3 cas restants à corriger (bugs révélés sans casse) :
+
+- `CIR_SAC_0019` : maître 2020 a un enfant *note* → `has_pdf` (basé sur
+  numChildren) croit qu'il a un PDF, le vrai PDF (jumelle) n'est pas re-parenté.
+  Corriger : décider le re-parentage sur la présence d'une *pièce jointe PDF
+  réelle* (contentType), pas numChildren.
+- `CIR_SAC_0325` : aucun PDF nulle part ; l'invariant bloque une suppression
+  pourtant sans risque. Corriger : ne bloquer que si une jumelle a un PDF réel
+  absent du maître.
+- `ENPC00_OUV_LEESU_0016` : ouvrage en **2 volumes** (PDF `_a_` et `_b_`).
+  HTTP 400 = backfill d'un champ d'un autre itemType (conferencePaper→book).
+  Corriger : ne pas backfiller les champs invalides pour le type du maître
+  (try/catch 400 → re-tenter sans patch) ; rattacher les DEUX PDF au maître.
+## Context
+
+L'audit de la bibliothèque Zotero distante (`My Library`, 1378 notices) révèle
+une duplication systématique : **les 638 clés d'archive sont toutes en double**
+(634 ×2, 4 ×4), produit de deux générations d'import quasi-miroir :
+
+| Génération | Notices | Collection | Métadonnées | PDF attaché |
+|---|---|---|---|---|
+| 2015 (+2014) | 688 | `Old - Documents à consulter` (PJ8WJG9X) | anciennes | 655/656 oui |
+| 2020 | 689 | `Documents à consulter` (QGVAEV3K) + `CIRED` (RZUZGILL) | rafraîchies + URL inari | 16/689 |
+
+Les deux générations sont complémentaires : 2015 porte les PDF attachés, 2020
+porte les meilleures métadonnées et les liens inari. On ne peut donc pas
+supprimer une génération en bloc sans perte. 94 notices sans clé d'archive sont
+aussi dédoublées par titre (phase 2).
+
+## Décision (2026-06-19, M. Ha-Duong)
+
+Fusion par script API : pour chaque clé, garder la notice **2020** comme maître,
+y **re-parenter le PDF** de sa jumelle 2015, **fusionner les champs**, puis
+**supprimer** la 2015. Résultat cible : ~638 notices propres, métadonnées à jour
++ PDF attaché.
+
+## Audit du contenu des champs (2026-06-19)
+
+Comparaison des 638 paires (maître 2020 vs jumelle 2015) — « garder 2020 en
+bloc » perdrait des données :
+
+- itemType : 110 diffèrent, dont 109 `document`(2015)→`journalArticle`(2020) —
+  **2020 meilleur**, le garder.
+- pages : 351 diffèrent — **bug de 2020** (`p.-307-319`, `16-p.` au lieu de
+  `p. 307-319`, `16 p.`). **Préférer 2015.**
+- date : 119 diffèrent — mixte ; 2020 a parfois perdu les plages de conférence
+  (`12 - 15 May 2004`) et l'incertitude (`[1983 ?]`). **Revoir / préférer 2015
+  si plus riche.**
+- publisher : 8 présents seulement en 2015 ; creators : 1 seulement en 2015,
+  43 diffèrent. **Backfill depuis 2015 des champs vides du maître.**
+- title 636/638 égaux ; abstractNote/volume/DOI majoritairement vides des deux
+  côtés.
+
+Politique de fusion par champ (à confirmer) : base 2020 ; `pages`←2015 ;
+champs vides du maître ← 2015 ; `date` ← 2015 si contient une plage/incertitude ;
+flag les `creators` divergents pour revue.
+
+## Relevant files
+
+- `src/zotero_dedup.py` — script de fusion (dry-run par défaut, `--apply`)
+- `src/reconcile_zotero.py` — collecte/clés Zotero (réutiliser les helpers)
+- `outputs/dedup_plan.json` — plan généré (paires, actions)
+- `~/.config/keys/zotero-archive-cired.env` — credentials (clé write)
+
+## Mécanique API (vérifiée)
+
+- Pièce jointe 2015 = `attachment` / `imported_file`, filename `CIR_*.pdf`
+  (fichier stocké). Re-parentage : `PATCH items/<att>` avec
+  `{"parentItem":"<maître>"}` + header `If-Unmodified-Since-Version: <ver att>`.
+- Suppression : `DELETE items/<2015>` + `If-Unmodified-Since-Version: <ver>`.
+- **Invariant de sûreté** : ne supprimer une notice 2015 qu'après avoir vérifié
+  que son PDF est bien rattaché au maître (le fichier stocké survit tant que sa
+  pièce jointe survit). Re-parenter AVANT de supprimer.
+
+## Actions
+
+1. Construire le plan (pur, testable) : grouper par clé, choisir le maître
+   (2020), lister les suppressions, repérer le PDF source. — FAIT
+2. Dry-run : écrire `outputs/dedup_plan.json` + compteurs, aucune écriture. — FAIT
+   (638 maîtres, 646 suppressions, 636 re-parentages PDF)
+3. Audit du contenu des champs des jumelles. — FAIT (voir ci-dessus)
+4. Implémenter le merge par champ (politique ci-dessus) AVANT la suppression.
+   — FAIT (pages←2015, backfill vides, date←2015 si plus riche ; creators
+   divergents gardent 2020). Dry-run : 418 maîtres enrichis (pages 351, extra
+   67, date 62, publisher 8, rights 3, conferenceName 1, creators 1).
+5. Export de sauvegarde de la bibliothèque AVANT toute écriture (`--backup`,
+   exigé par `--apply`).
+6. `--apply` : fusionner champs → re-parenter PDF → vérifier invariant →
+   supprimer. Essai `--limit 1` d'abord, puis run complet. — EN ATTENTE feu vert.
+7. Re-collecter et vérifier : 0 clé dupliquée, PDF + champs préservés.
+
+## Test
+
+- Fonctions pures : `choose_master`, `dedup_plan` sur fixtures (×2, ×4,
+  cas dégénérés : que 2020, que 2015) — sans réseau.
+
+## Verification
+
+- [ ] Dry-run produit un plan cohérent (638 maîtres, ~640 suppressions)
+- [ ] Après apply : `reconcile`/recomptage → 0 clé dupliquée
+- [ ] Chaque maître a 1 PDF attaché (≥ couverture 2015 d'origine)
+- [ ] `make check` passe
+
+## Invariants
+
+- Aucun PDF perdu (re-parenter avant supprimer, vérifier rattachement).
+- Ne jamais toucher l'archive source sur disque (lecture seule).
+- Pas d'écriture sans export de sauvegarde préalable.
+
+## Exit criteria
+
+- [ ] `src/zotero_dedup.py` + tests des fonctions pures
+- [ ] Dry-run validé et plan revu
+- [ ] Fusion appliquée, vérification post-merge OK
+- [ ] `make check` passe

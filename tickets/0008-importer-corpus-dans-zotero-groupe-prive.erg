@@ -1,55 +1,65 @@
 %erg 0.1
-Title: Importer le corpus dans une collection Zotero groupe privé CIRED/ENPC
+Title: Réconcilier le corpus avec le catalogue Zotero existant (CIRED/ENPC)
 Created: 2026-05-16
 Author: Minh Ha-Duong
 
 --- log ---
 2026-05-16T06:10Z Minh Ha-Duong created
 2026-05-16T06:10Z claude note [Imagine] Idée stratégique — pas encore planifié ni exécuté. Prochaine étape : vérifier l'API Zotero et la faisabilité du group library avant de passer en Plan.
+2026-06-19T00:00Z claude note Le groupe Zotero privé existe déjà — credentials dans ~/.config/keys/zotero-archive-cired.env. Suppression de l'étape "créer le groupe". Typo ZOERO_→ZOTERO_ corrigée dans ce fichier.
+2026-06-19T00:00Z claude note Audit du distant : un catalogue Zotero mûr existe déjà (1378 notices perso + 131 groupe Recueil_CIRED). Réconciliation faite (src/reconcile_zotero.py) : 829/1112 docs déjà catalogués, 0 orphelin, fonds structuré couvert à ~100%. La prémisse "importer 1112 notices" est caduque. Ticket recentré sur réconciliation + comblement des lacunes.
 
 --- body ---
 ## Contexte
 
-Pivot stratégique : dépôt HAL différé, objectif immédiat = collection Zotero
-privée partagée avec les chercheurs CIRED et ENPC. Pas de blocage sur les droits
-(groupe privé). PDFs attachés aux notices pour accès direct depuis Zotero.
+Pivot stratégique : dépôt HAL différé, objectif = catalogue Zotero partagé avec
+les chercheurs CIRED et ENPC (groupe privé, pas de blocage sur les droits).
 
-Source : `outputs/doc_index.json` (741 documents, métadonnées : auteurs 89.6%, titre
-91.9%, type 90.0%).
+**Découverte (2026-06-19)** : un catalogue Zotero mûr **existe déjà** — ce n'est
+pas un groupe vide à remplir. Probablement la numérisation inari /
+F. Bordignon ; notre `doc_index.json` en est une re-dérivation.
 
-## Angle d'attaque
+- Bibliothèque perso : 1 378 notices (collections `CIRED` 507, `LEESU` 182,
+  `!! Documents à consulter` 689, …).
+- Groupe privé `Recueil_CIRED` (id 2511149) : 131 notices top-level.
+- Les notices lient les PDF par URL `inari.centre-cired.fr/.../docs/<nom>.pdf` —
+  dont le basename est le nom de fichier d'archive (clé de jointure).
 
-1. Créer un groupe Zotero privé "Archive CIRED 1970-2013" — inviter membres
-   CIRED et ENPC (Delphine Du Pasquier, Frédérique Bordignon)
-2. Générer un fichier RIS depuis `outputs/doc_index.json` (`src/notices_zotero.ris`)
-3. Importer le RIS dans le groupe Zotero via l'interface web ou l'API Zotero
-4. Attacher les PDFs aux notices : parcourir `docs/` et lier chaque `fichier`
-   à sa notice par `id` — utiliser l'API Zotero (upload via `attachment`)
-5. Vérifier sur un échantillon (10 notices) : métadonnées correctes + PDF accessible
+Credentials : `~/.config/keys/zotero-archive-cired.env`. NB : la variable est
+`ZOTERO_USER_LOGIN` (le login "Base R2DS"), pas l'ID numérique — l'API récupère
+l'ID via `GET /keys/current`.
 
-## Format RIS cible
+## Réconciliation — FAIT
 
-```
-TY  - JOUR          (article), RPRT (rapport), BOOK (ouvrage), THES (these), GEN (gris-sachs)
-AU  - Nom, Prénom
-TI  - Titre
-PY  - YYYY
-T2  - revue_editeur
-ID  - id (ex: 2006-129)
-ER  -
-```
+`src/reconcile_zotero.py` → `outputs/reconcile_report.{json,md}` :
+
+- **829 / 1 112** docs déjà catalogués (match par clé d'archive).
+- **0** clé Zotero orpheline (tout Zotero correspond à un de nos docs).
+- Couverture par fonds ~100 % : CIR_SAC 581/581, ENPC_LEESU 180/180,
+  CIR_GEN 10/10, CIR_HOU 9/9, CIR_GOD 54/55.
+- **1** seul manquant identifié : `CIR_GOD_0017` (1997, Revue de l'Énergie).
+- **282** docs sans clé d'archive (193 `type=null`, 87 `non-classifié`) : non
+  rattachables par nom de fichier.
+
+## Travail restant (recentré)
+
+1. Appariement titre/auteur/année des 282 docs non typés contre les 1 378
+   notices, pour distinguer "déjà dans Zotero sous un autre nom" de "vraiment
+   absent".
+2. Ajout des documents réellement manquants (au moins `CIR_GOD_0017`).
+3. Audit de qualité des métadonnées des notices existantes.
+4. Décision séparée (hors ce ticket) : attacher les vrais PDF dans le stockage
+   Zotero pour rendre le groupe autonome vs dépendance au serveur inari.
 
 ## Dépendances
 
-- Compte Zotero avec droits de création de groupe
-- `outputs/doc_index.json` (0011 — remplace 0002)
-- Python : `requests` pour l'API Zotero (uv add requests)
-- Clé API Zotero (variable d'environnement ZOTERO_API_KEY)
+- `outputs/doc_index.json` (0011)
+- Catalogue Zotero distant + `~/.config/keys/zotero-archive-cired.env`
+- Stdlib `urllib` (pas de dépendance externe)
 
 ## Exit criteria
 
-- [ ] Groupe Zotero "Archive CIRED 1970-2013" créé et partagé
-- [ ] `outputs/notices_zotero.ris` — notices RIS générées depuis doc_index.json
-- [ ] Notices importées dans le groupe Zotero (vérification sur échantillon 10)
-- [ ] PDFs attachés pour les documents dont le fichier existe dans `docs/`
-- [ ] Script `src/zotero_import.py` reproductible
+- [x] Réconciliation par nom de fichier (`src/reconcile_zotero.py` + rapport)
+- [ ] Appariement titre/auteur des 282 docs sans clé
+- [ ] Liste consolidée des documents réellement absents du catalogue
+- [ ] `make check` passe

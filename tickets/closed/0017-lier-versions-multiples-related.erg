@@ -1,0 +1,79 @@
+%erg 0.1
+Title: Lier les versions multiples d'une même œuvre (Zotero Related items)
+Created: 2026-06-19
+Author: Minh Ha-Duong
+Closed: Versions multiples reliées en Zotero Related (PR #7)
+
+--- log ---
+2026-06-19T13:00Z claude created
+2026-06-19T15:20Z Minh Ha-Duong note blocker 0013 closed — Blocked-by removed.
+2026-06-19T15:22Z Minh Ha-Duong closed — Versions multiples reliées en Zotero Related (PR #7)
+--- body ---
+## Résultat (2026-06-19) — FAIT
+
+Apply OK : 26 groupes de versions multiples reliés en Zotero Related, 53 notices,
+0 incomplète (Zotero crée le lien réciproque), 0 erreur. Garde-fou même-id actif.
+
+Préalable réglé dans la foulée : 5 doublons résiduels (issus de la collection
+« Old » non synchronisée) fusionnés avec leurs jumelles canoniques (PDF rapatrié
+pour 3, dont le « 2-volumes » LEESU_0016 → 2 notices a/b distinctes) ; collection
+« Old - Documents à consulter » supprimée (vide). My Library : 691 → **686**.
+
+## Context
+
+Après le dédoublonnage par identifiant (0013, 0016), il reste ~22 titres
+partagés par des notices à clés `CIR_SAC` *différentes*. Analyse : ce ne sont
+PAS des doublons à fusionner ni des collisions de titre, mais des **versions
+multiples d'une même œuvre** — preprint→article, traductions (ex. « Agropolis »
+ES/FR), même communication en revue + chapitre de livre. Sachs republiait
+beaucoup.
+
+Action voulue (M. Ha-Duong) : ne pas fusionner, mais **relier ces notices en
+Zotero Related items** (non destructif, réversible) pour que le lecteur voie les
+autres manifestations.
+
+## Relevant files
+
+- `src/zotero_relate.py` — grouper par titre+auteur, planifier les relations
+- `src/reconcile_zotero.py` — helpers réseau (load_env, fetch, _write, retry)
+- `~/.config/keys/zotero-archive-cired.env`
+
+## Mécanique API
+
+- Relation = champ `data.relations.dc:relation` (liste d'URI
+  `http://zotero.org/users/<uid>/items/<KEY>`). Lien bidirectionnel : ajouter
+  l'URI de chaque membre dans les autres.
+- `PATCH items/<key>` avec `relations` (UNION avec l'existant) +
+  `If-Unmodified-Since-Version`.
+
+## Actions
+
+1. Grouper les notices top-level par (titre normalisé + 1er auteur). Garder les
+   groupes ≥2.
+2. Dry-run : écrire `outputs/relate_plan.json` + liste lisible pour REVUE.
+3. Revue humaine des groupes (garde-fou faux positifs Sachs).
+4. `--apply --backup` : poser les relations bidirectionnelles (union).
+
+## Test
+
+- `normalize_title`, `group_versions` (pur) sur fixtures ; vérifier qu'un
+  groupe à auteurs différents n'est pas relié, qu'un singleton est ignoré.
+
+## Verification
+
+- [ ] Plan revu (aucun faux positif évident)
+- [ ] Relations posées, bidirectionnelles, sans écraser l'existant
+- [ ] `make check` passe
+
+## Invariants
+
+- Non destructif : on n'ajoute que des relations (jamais de suppression/fusion).
+- Union avec les relations existantes.
+- Dry-run par défaut ; `--apply` exige `--backup`.
+
+## Exit criteria
+
+- [ ] Script + tests
+- [ ] Dry-run revu et validé
+- [ ] Relations appliquées
+- [ ] `make check` passe
