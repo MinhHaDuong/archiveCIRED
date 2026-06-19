@@ -165,40 +165,59 @@ def _write(method: str, url: str, api_key: str, version: int,
         return resp.status
 
 
-def find_pdf_child(uid: str, parent_key: str, api_key: str) -> dict | None:
+def pdf_children(uid: str, parent_key: str, api_key: str) -> list[dict]:
+    """Pièces jointes PDF réelles d'une notice (contentType, pas une note)."""
     children, _ = rz._get(f"{API}/users/{uid}/items/{parent_key}/children", api_key)
-    for c in children:
-        d = c.get("data", {})
-        if d.get("itemType") == "attachment" and d.get("contentType") == "application/pdf":
-            return c
-    return None
-
-
-def master_has_attachment(uid: str, master_key: str, api_key: str) -> bool:
-    return find_pdf_child(uid, master_key, api_key) is not None
+    return [c for c in children
+            if c.get("data", {}).get("itemType") == "attachment"
+            and c.get("data", {}).get("contentType") == "application/pdf"]
 
 
 def apply_plan(uid: str, plan: dict, api_key: str, limit: int | None) -> dict:
-    """Exécute le plan. Re-parente le PDF puis supprime, en vérifiant l'invariant."""
+    """Exécute le plan : fusion champs → re-parentage PDF réel → suppression.
+
+    Décisions PDF prises sur les *pièces jointes réelles* (pas numChildren).
+    Garde-fous : un seul PDF distinct par clé (sinon multi-volume → on saute) ;
+    on ne supprime jamais si un PDF d'une jumelle n'est pas sur le maître ; le
+    backfill cross-itemType (HTTP 400) est rattrapé sans bloquer la dédup.
+    """
     done = {"merged": 0, "reparented": 0, "deleted": 0, "skipped": 0, "errors": []}
     plans = plan["plans"][:limit] if limit else plan["plans"]
     for p in plans:
         try:
-            if p["merge_patch"]:  # fusion des champs sur le maître AVANT suppression
-                _write("PATCH", f"{API}/users/{uid}/items/{p['master']}",
-                       api_key, p["master_version"], p["merge_patch"])
-                done["merged"] += 1
-            if p["reparent_pdf_from"]:
-                att = find_pdf_child(uid, p["reparent_pdf_from"], api_key)
-                if not att:
-                    done["skipped"] += 1
-                    done["errors"].append(f"{p['key']}: pas de PDF chez {p['reparent_pdf_from']}")
-                    continue
-                _write("PATCH", f"{API}/users/{uid}/items/{att['key']}",
-                       api_key, att["version"], {"parentItem": p["master"]})
-                done["reparented"] += 1
-            # INVARIANT : le maître doit avoir un PDF avant toute suppression
-            if not master_has_attachment(uid, p["master"], api_key):
+            keys = [p["master"]] + [d["key"] for d in p["delete"]]
+            pdfs = {k: pdf_children(uid, k, api_key) for k in keys}
+            # Garde-fou multi-volume : plusieurs PDF de noms distincts → on saute
+            names = {a["data"].get("filename") for atts in pdfs.values() for a in atts}
+            if len(names) > 1:
+                done["skipped"] += 1
+                done["errors"].append(f"{p['key']}: {len(names)} PDF distincts "
+                                      "(multi-volume ?), non fusionné")
+                continue
+
+            if p["merge_patch"]:  # fusion des champs (cross-type → 400 rattrapé)
+                try:
+                    _write("PATCH", f"{API}/users/{uid}/items/{p['master']}",
+                           api_key, p["master_version"], p["merge_patch"])
+                    done["merged"] += 1
+                except urllib.error.HTTPError as e:
+                    if e.code != 400:
+                        raise
+                    done["errors"].append(f"{p['key']}: merge ignoré (HTTP 400 "
+                                          "champ incompatible avec le type)")
+
+            if not pdfs[p["master"]]:  # maître sans PDF réel → en re-parenter un
+                src = next((k for k in keys[1:] if pdfs[k]), None)
+                if src:
+                    att = pdfs[src][0]
+                    _write("PATCH", f"{API}/users/{uid}/items/{att['key']}",
+                           api_key, att["version"], {"parentItem": p["master"]})
+                    done["reparented"] += 1
+                    pdfs[p["master"]] = [att]
+
+            # INVARIANT : si un PDF existe, le maître doit l'avoir avant suppression
+            any_pdf = any(pdfs[k] for k in keys)
+            if any_pdf and not pdfs[p["master"]]:
                 done["skipped"] += 1
                 done["errors"].append(f"{p['key']}: maître sans PDF, suppressions annulées")
                 continue
