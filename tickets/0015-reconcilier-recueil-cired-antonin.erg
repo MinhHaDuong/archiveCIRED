@@ -13,15 +13,22 @@ de métadonnées**. Hypothèse : ses notices sont *meilleures* — **à vérifie
 champ par champ, pas à présumer** (M. Ha-Duong, 2026-06-19).
 
 Particularité d'appariement : les notices du groupe ont bien des URL inari
-(121/131), mais dans une **autre arborescence** que My Library —
+(121/131), mais dans une **autre arborescence** —
 `inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/` avec des noms descriptifs
-`YYYY-NN-Auteur-titre.pdf` (ex. `1993-97-Godard-Strategies_industrielles….pdf`),
-au lieu de `kCj0pHP0-CIRED_numerisation/.../CIR_xxx.pdf`. Donc :
-- pas de jointure possible par la clé `CIR_xxx` ;
-- jointure principale par **titre + auteur + année** ;
-- clé secondaire à tester : le préfixe `YYYY-NN` ressemble à l'ancien schéma
-  d'`id` CIRED `année-numéro` (cf. `2006-129`, ticket 0008) — vérifier s'il
-  matche un identifiant côté My Library / doc_index.
+`YYYY-NN-Auteur-titre.pdf`, au lieu de `kCj0pHP0-CIRED_numerisation/.../CIR_xxx`.
+
+Ces fichiers descriptifs sont l'archive locale `attente/à dédoublonner avec ce
+qui est déjà traité/` (110 fichiers). Clé de jointure trouvée : le préfixe
+`YYYY-NN` = l'`id` `docs/YYYY-NNN` (zéro-paddé) — ex. `1973-9` → `docs/1973-009`.
+Jointure principale par cet `id` ; titre/auteur en repli.
+
+Analyse de contenu par hash SHA-1 (file_index.json) :
+- **77/110 byte-à-byte identiques** à un fichier déjà dans le corpus (même
+  hash, renommage) → la notice perso pointe déjà sur le même contenu ; ne
+  reste qu'à fusionner les corrections de métadonnées d'Antonin.
+- **33/110 contenu unique** (aucun jumeau de hash) → fichiers réellement
+  différents : nouveau document OU autre scan/version du même. À examiner un par
+  un (nouveau → ajouter ; meilleur scan → décider quel PDF garder).
 
 Objectif, en deux temps :
 1. **Vérifier que `Recueil_CIRED` est un sous-ensemble strict** de My Library :
