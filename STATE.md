@@ -11,8 +11,8 @@ Dépôt HAL différé — ne pas bloquer sur les droits.
 ## Status
 <!-- generated 2026-06-19T00:00Z -->
 
-**Tickets:** 1 imagined (0008 Zotero import) · 5 déférés (0003 HAL, 0005 HAL batch, 0006 OCR, 0007 metadata, 0009 zotero-test)
-**Groupe Zotero:** "archive CIRED" existe déjà — credentials dans `~/.config/keys/zotero-archive-cired.env`. Reste à générer/importer les notices (ticket 0008), pas à créer le groupe.
+**Tickets:** 1 en cours (0008 réconciliation Zotero) · 5 déférés (0003 HAL, 0005 HAL batch, 0006 OCR, 0007 metadata, 0009 zotero-test)
+**Catalogue Zotero:** existe déjà — 1378 notices perso + groupe `Recueil_CIRED` (2511149). Réconciliation faite (`outputs/reconcile_report.md`) : 829/1112 docs déjà catalogués, fonds structuré ~100%, 1 manquant (CIR_GOD_0017), 282 docs sans clé à apparier par titre. Prémisse "importer 1112 notices" caduque.
 **Index archivistique:** 1991 fichiers — outputs/file_index.json (ticket 0010 ✓)
 **Index documentaire:** 1112 docs — auteurs 72.8%, titre 75.3%, annee 57.8% — outputs/doc_index.json (ticket 0011 ✓)
 **CI:** GitHub Actions actif — make check (12 tests) sur chaque PR (ticket 0012 ✓)

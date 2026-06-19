@@ -1,69 +1,65 @@
 %erg 0.1
-Title: Importer le corpus dans le groupe Zotero privé existant "archive CIRED"
+Title: Réconcilier le corpus avec le catalogue Zotero existant (CIRED/ENPC)
 Created: 2026-05-16
 Author: Minh Ha-Duong
 
 --- log ---
 2026-05-16T06:10Z Minh Ha-Duong created
 2026-05-16T06:10Z claude note [Imagine] Idée stratégique — pas encore planifié ni exécuté. Prochaine étape : vérifier l'API Zotero et la faisabilité du group library avant de passer en Plan.
-2026-06-19T00:00Z claude note Le groupe Zotero privé "archive CIRED" existe déjà — credentials dans ~/.config/keys/zotero-archive-cired.env. Suppression de l'étape "créer le groupe". Typo ZOERO_→ZOTERO_ corrigée dans ce fichier.
+2026-06-19T00:00Z claude note Le groupe Zotero privé existe déjà — credentials dans ~/.config/keys/zotero-archive-cired.env. Suppression de l'étape "créer le groupe". Typo ZOERO_→ZOTERO_ corrigée dans ce fichier.
+2026-06-19T00:00Z claude note Audit du distant : un catalogue Zotero mûr existe déjà (1378 notices perso + 131 groupe Recueil_CIRED). Réconciliation faite (src/reconcile_zotero.py) : 829/1112 docs déjà catalogués, 0 orphelin, fonds structuré couvert à ~100%. La prémisse "importer 1112 notices" est caduque. Ticket recentré sur réconciliation + comblement des lacunes.
 
 --- body ---
 ## Contexte
 
-Pivot stratégique : dépôt HAL différé, objectif immédiat = collection Zotero
-privée partagée avec les chercheurs CIRED et ENPC. Pas de blocage sur les droits
-(groupe privé). PDFs attachés aux notices pour accès direct depuis Zotero.
+Pivot stratégique : dépôt HAL différé, objectif = catalogue Zotero partagé avec
+les chercheurs CIRED et ENPC (groupe privé, pas de blocage sur les droits).
 
-Le groupe Zotero privé **existe déjà** ("archive CIRED"). Les credentials sont
-dans `~/.config/keys/zotero-archive-cired.env` (hors dépôt). Il ne reste donc
-qu'à générer les notices et les importer dans ce groupe — pas à le créer.
+**Découverte (2026-06-19)** : un catalogue Zotero mûr **existe déjà** — ce n'est
+pas un groupe vide à remplir. Probablement la numérisation inari /
+F. Bordignon ; notre `doc_index.json` en est une re-dérivation.
 
-Source : `outputs/doc_index.json` (1 112 documents, métadonnées : auteurs 72.8%,
-titre 75.3%, année 57.8%).
+- Bibliothèque perso : 1 378 notices (collections `CIRED` 507, `LEESU` 182,
+  `!! Documents à consulter` 689, …).
+- Groupe privé `Recueil_CIRED` (id 2511149) : 131 notices top-level.
+- Les notices lient les PDF par URL `inari.centre-cired.fr/.../docs/<nom>.pdf` —
+  dont le basename est le nom de fichier d'archive (clé de jointure).
 
-## Question ouverte à lever avant le Plan
+Credentials : `~/.config/keys/zotero-archive-cired.env`. NB : `ZOTERO_USER_ID`
+contient le *login* ("Base R2DS"), pas l'ID numérique — l'API le récupère via
+`GET /keys/current`.
 
-- L'écriture dans un **groupe** Zotero passe par `/groups/<groupID>/items`, et
-  `<groupID>` est distinct de l'`userID`. `zotero-archive-cired.env` expose
-  `ZOTERO_USER_ID` mais pas explicitement un `ZOTERO_GROUP_ID`. Déterminer si
-  `ZOTERO_USER_ID` est en fait le group ID, sinon récupérer le group ID (via
-  `GET /users/<userID>/groups` avec la clé API) et l'ajouter au fichier env.
+## Réconciliation — FAIT
 
-## Angle d'attaque
+`src/reconcile_zotero.py` → `outputs/reconcile_report.{json,md}` :
 
-1. Lever la question group ID ci-dessus.
-2. Générer un fichier RIS depuis `outputs/doc_index.json`
-   (`outputs/notices_zotero.ris`).
-3. Importer le RIS dans le groupe Zotero existant via l'API Zotero.
-4. Attacher les PDFs aux notices : parcourir `docs/` et lier chaque `fichier`
-   à sa notice par `id` — upload via l'API Zotero (`attachment`).
-5. Vérifier sur un échantillon (10 notices) : métadonnées correctes + PDF accessible.
+- **829 / 1 112** docs déjà catalogués (match par clé d'archive).
+- **0** clé Zotero orpheline (tout Zotero correspond à un de nos docs).
+- Couverture par fonds ~100 % : CIR_SAC 581/581, ENPC_LEESU 180/180,
+  CIR_GEN 10/10, CIR_HOU 9/9, CIR_GOD 54/55.
+- **1** seul manquant identifié : `CIR_GOD_0017` (1997, Revue de l'Énergie).
+- **282** docs sans clé d'archive (193 `type=null`, 87 `non-classifié`) : non
+  rattachables par nom de fichier.
 
-## Format RIS cible
+## Travail restant (recentré)
 
-```
-TY  - JOUR          (article), RPRT (rapport), BOOK (ouvrage), THES (these), GEN (gris-sachs)
-AU  - Nom, Prénom
-TI  - Titre
-PY  - YYYY
-T2  - revue_editeur
-ID  - id (ex: 2006-129)
-ER  -
-```
+1. Appariement titre/auteur/année des 282 docs non typés contre les 1 378
+   notices, pour distinguer "déjà dans Zotero sous un autre nom" de "vraiment
+   absent".
+2. Ajout des documents réellement manquants (au moins `CIR_GOD_0017`).
+3. Audit de qualité des métadonnées des notices existantes.
+4. Décision séparée (hors ce ticket) : attacher les vrais PDF dans le stockage
+   Zotero pour rendre le groupe autonome vs dépendance au serveur inari.
 
 ## Dépendances
 
-- Groupe Zotero "archive CIRED" — déjà créé, credentials dans
-  `~/.config/keys/zotero-archive-cired.env` (`ZOTERO_API_KEY`, `ZOTERO_USER_ID`)
-- `outputs/doc_index.json` (0011 — remplace 0002)
-- Python : `requests` pour l'API Zotero (`uv add requests`)
+- `outputs/doc_index.json` (0011)
+- Catalogue Zotero distant + `~/.config/keys/zotero-archive-cired.env`
+- Stdlib `urllib` (pas de dépendance externe)
 
 ## Exit criteria
 
-- [ ] Group ID confirmé (et ajouté au fichier env si manquant)
-- [ ] `outputs/notices_zotero.ris` — notices RIS générées depuis doc_index.json
-- [ ] Notices importées dans le groupe Zotero (vérification sur échantillon 10)
-- [ ] PDFs attachés pour les documents dont le fichier existe dans `docs/`
-- [ ] Script `src/zotero_import.py` reproductible
+- [x] Réconciliation par nom de fichier (`src/reconcile_zotero.py` + rapport)
+- [ ] Appariement titre/auteur des 282 docs sans clé
+- [ ] Liste consolidée des documents réellement absents du catalogue
 - [ ] `make check` passe

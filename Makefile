@@ -22,6 +22,11 @@ outputs/doc_index.json: src/build_doc_index.py outputs/file_index.json outputs/i
 		--archive-dir "$(ARCHIVE)" \
 		--output outputs/doc_index.json
 
+# Réconciliation avec le catalogue Zotero distant — nécessite réseau +
+# ~/.config/keys/zotero-archive-cired.env (hors `make check` exprès).
+outputs/reconcile_report.json: src/reconcile_zotero.py outputs/doc_index.json
+	uv run python src/reconcile_zotero.py --output outputs/reconcile_report.json
+
 check-fast:
 	uv run pytest -m "not integration and not slow" tests/
 
