@@ -1,0 +1,377 @@
+{
+  "groupes": 26,
+  "notices_concernees": 53,
+  "plans": [
+    {
+      "cles": [
+        "GGPYT8AM",
+        "I4ICPUGA"
+      ],
+      "relations": {
+        "GGPYT8AM": [
+          "http://zotero.org/users/2114597/items/I4ICPUGA"
+        ],
+        "I4ICPUGA": [
+          "http://zotero.org/users/2114597/items/GGPYT8AM"
+        ]
+      }
+    },
+    {
+      "cles": [
+        "5H9CCNYY",
+        "FU7DRGHX",
+        "V6CYVFAD"
+      ],
+      "relations": {
+        "5H9CCNYY": [
+          "http://zotero.org/users/2114597/items/FU7DRGHX",
+          "http://zotero.org/users/2114597/items/V6CYVFAD"
+        ],
+        "FU7DRGHX": [
+          "http://zotero.org/users/2114597/items/5H9CCNYY",
+          "http://zotero.org/users/2114597/items/V6CYVFAD"
+        ],
+        "V6CYVFAD": [
+          "http://zotero.org/users/2114597/items/5H9CCNYY",
+          "http://zotero.org/users/2114597/items/FU7DRGHX"
+        ]
+      }
+    },
+    {
+      "cles": [
+        "46NHL4PX",
+        "XCERT277"
+      ],
+      "relations": {
+        "46NHL4PX": [
+          "http://zotero.org/users/2114597/items/XCERT277"
+        ],
+        "XCERT277": [
+          "http://zotero.org/users/2114597/items/46NHL4PX"
+        ]
+      }
+    },
+    {
+      "cles": [
+        "BF8ZAGC4",
+        "ZIJ4AC7K"
+      ],
+      "relations": {
+        "BF8ZAGC4": [
+          "http://zotero.org/users/2114597/items/ZIJ4AC7K"
+        ],
+        "ZIJ4AC7K": [
+          "http://zotero.org/users/2114597/items/BF8ZAGC4"
+        ]
+      }
+    },
+    {
+      "cles": [
+        "N8IFQILB",
+        "TTA8S48P"
+      ],
+      "relations": {
+        "N8IFQILB": [
+          "http://zotero.org/users/2114597/items/TTA8S48P"
+        ],
+        "TTA8S48P": [
+          "http://zotero.org/users/2114597/items/N8IFQILB"
+        ]
+      }
+    },
+    {
+      "cles": [
+        "33LMMBJR",
+        "SKLXIG8L"
+      ],
+      "relations": {
+        "33LMMBJR": [
+          "http://zotero.org/users/2114597/items/SKLXIG8L"
+        ],
+        "SKLXIG8L": [
+          "http://zotero.org/users/2114597/items/33LMMBJR"
+        ]
+      }
+    },
+    {
+      "cles": [
+        "3SN6WTKG",
+        "LR2XAKDN"
+      ],
+      "relations": {
+        "3SN6WTKG": [
+          "http://zotero.org/users/2114597/items/LR2XAKDN"
+        ],
+        "LR2XAKDN": [
+          "http://zotero.org/users/2114597/items/3SN6WTKG"
+        ]
+      }
+    },
+    {
+      "cles": [
+        "FHFGVT4L",
+        "WUUAFPXM"
+      ],
+      "relations": {
+        "FHFGVT4L": [
+          "http://zotero.org/users/2114597/items/WUUAFPXM"
+        ],
+        "WUUAFPXM": [
+          "http://zotero.org/users/2114597/items/FHFGVT4L"
+        ]
+      }
+    },
+    {
+      "cles": [
+        "9L76DXXD",
+        "HQM7XTIR"
+      ],
+      "relations": {
+        "9L76DXXD": [
+          "http://zotero.org/users/2114597/items/HQM7XTIR"
+        ],
+        "HQM7XTIR": [
+          "http://zotero.org/users/2114597/items/9L76DXXD"
+        ]
+      }
+    },
+    {
+      "cles": [
+        "MA6CRSGK",
+        "R24GWFTW"
+      ],
+      "relations": {
+        "MA6CRSGK": [
+          "http://zotero.org/users/2114597/items/R24GWFTW"
+        ],
+        "R24GWFTW": [
+          "http://zotero.org/users/2114597/items/MA6CRSGK"
+        ]
+      }
+    },
+    {
+      "cles": [
+        "8VNF8P2V",
+        "IZ7CKD87"
+      ],
+      "relations": {
+        "8VNF8P2V": [
+          "http://zotero.org/users/2114597/items/IZ7CKD87"
+        ],
+        "IZ7CKD87": [
+          "http://zotero.org/users/2114597/items/8VNF8P2V"
+        ]
+      }
+    },
+    {
+      "cles": [
+        "TZFRPEK7",
+        "WFHMAI46"
+      ],
+      "relations": {
+        "TZFRPEK7": [
+          "http://zotero.org/users/2114597/items/WFHMAI46"
+        ],
+        "WFHMAI46": [
+          "http://zotero.org/users/2114597/items/TZFRPEK7"
+        ]
+      }
+    },
+    {
+      "cles": [
+        "NBCD4TEC",
+        "X3HPY2PS"
+      ],
+      "relations": {
+        "NBCD4TEC": [
+          "http://zotero.org/users/2114597/items/X3HPY2PS"
+        ],
+        "X3HPY2PS": [
+          "http://zotero.org/users/2114597/items/NBCD4TEC"
+        ]
+      }
+    },
+    {
+      "cles": [
+        "PPZ9SJPV",
+        "Z9Y3R2IY"
+      ],
+      "relations": {
+        "PPZ9SJPV": [
+          "http://zotero.org/users/2114597/items/Z9Y3R2IY"
+        ],
+        "Z9Y3R2IY": [
+          "http://zotero.org/users/2114597/items/PPZ9SJPV"
+        ]
+      }
+    },
+    {
+      "cles": [
+        "GBYJDDUG",
+        "WINM9HZI"
+      ],
+      "relations": {
+        "GBYJDDUG": [
+          "http://zotero.org/users/2114597/items/WINM9HZI"
+        ],
+        "WINM9HZI": [
+          "http://zotero.org/users/2114597/items/GBYJDDUG"
+        ]
+      }
+    },
+    {
+      "cles": [
+        "6SRZZ6PS",
+        "DMTICJZD"
+      ],
+      "relations": {
+        "6SRZZ6PS": [
+          "http://zotero.org/users/2114597/items/DMTICJZD"
+        ],
+        "DMTICJZD": [
+          "http://zotero.org/users/2114597/items/6SRZZ6PS"
+        ]
+      }
+    },
+    {
+      "cles": [
+        "HQBMIYR8",
+        "XGIKNTQM"
+      ],
+      "relations": {
+        "HQBMIYR8": [
+          "http://zotero.org/users/2114597/items/XGIKNTQM"
+        ],
+        "XGIKNTQM": [
+          "http://zotero.org/users/2114597/items/HQBMIYR8"
+        ]
+      }
+    },
+    {
+      "cles": [
+        "C6RT3F5V",
+        "VBWYMGMS"
+      ],
+      "relations": {
+        "C6RT3F5V": [
+          "http://zotero.org/users/2114597/items/VBWYMGMS"
+        ],
+        "VBWYMGMS": [
+          "http://zotero.org/users/2114597/items/C6RT3F5V"
+        ]
+      }
+    },
+    {
+      "cles": [
+        "BN8VPLY7",
+        "T6XIDV66"
+      ],
+      "relations": {
+        "BN8VPLY7": [
+          "http://zotero.org/users/2114597/items/T6XIDV66"
+        ],
+        "T6XIDV66": [
+          "http://zotero.org/users/2114597/items/BN8VPLY7"
+        ]
+      }
+    },
+    {
+      "cles": [
+        "DA5WI32Y",
+        "TKBB96ZF"
+      ],
+      "relations": {
+        "DA5WI32Y": [
+          "http://zotero.org/users/2114597/items/TKBB96ZF"
+        ],
+        "TKBB96ZF": [
+          "http://zotero.org/users/2114597/items/DA5WI32Y"
+        ]
+      }
+    },
+    {
+      "cles": [
+        "5BDA6SPW",
+        "GQBQNPVJ"
+      ],
+      "relations": {
+        "5BDA6SPW": [
+          "http://zotero.org/users/2114597/items/GQBQNPVJ"
+        ],
+        "GQBQNPVJ": [
+          "http://zotero.org/users/2114597/items/5BDA6SPW"
+        ]
+      }
+    },
+    {
+      "cles": [
+        "S9R4I4F4",
+        "ZG5GWPY6"
+      ],
+      "relations": {
+        "S9R4I4F4": [
+          "http://zotero.org/users/2114597/items/ZG5GWPY6"
+        ],
+        "ZG5GWPY6": [
+          "http://zotero.org/users/2114597/items/S9R4I4F4"
+        ]
+      }
+    },
+    {
+      "cles": [
+        "AX9AFBC7",
+        "NL4EDB7S"
+      ],
+      "relations": {
+        "AX9AFBC7": [
+          "http://zotero.org/users/2114597/items/NL4EDB7S"
+        ],
+        "NL4EDB7S": [
+          "http://zotero.org/users/2114597/items/AX9AFBC7"
+        ]
+      }
+    },
+    {
+      "cles": [
+        "9QWDNI8H",
+        "UXN4CB66"
+      ],
+      "relations": {
+        "9QWDNI8H": [
+          "http://zotero.org/users/2114597/items/UXN4CB66"
+        ],
+        "UXN4CB66": [
+          "http://zotero.org/users/2114597/items/9QWDNI8H"
+        ]
+      }
+    },
+    {
+      "cles": [
+        "87U3BGI4",
+        "9MFSB62T"
+      ],
+      "relations": {
+        "87U3BGI4": [
+          "http://zotero.org/users/2114597/items/9MFSB62T"
+        ],
+        "9MFSB62T": [
+          "http://zotero.org/users/2114597/items/87U3BGI4"
+        ]
+      }
+    },
+    {
+      "cles": [
+        "F65HPQ28",
+        "YZL9Q87V"
+      ],
+      "relations": {
+        "F65HPQ28": [
+          "http://zotero.org/users/2114597/items/YZL9Q87V"
+        ],
+        "YZL9Q87V": [
+          "http://zotero.org/users/2114597/items/F65HPQ28"
+        ]
+      }
+    }
+  ]
+}
