@@ -76,9 +76,13 @@ flag les `creators` divergents pour revue.
    (638 maîtres, 646 suppressions, 636 re-parentages PDF)
 3. Audit du contenu des champs des jumelles. — FAIT (voir ci-dessus)
 4. Implémenter le merge par champ (politique ci-dessus) AVANT la suppression.
-5. Export de sauvegarde de la bibliothèque AVANT toute écriture.
-6. `--apply` : re-parenter PDF → fusionner champs → supprimer, par paquets, en
-   respectant les versions ; vérifier l'invariant à chaque étape.
+   — FAIT (pages←2015, backfill vides, date←2015 si plus riche ; creators
+   divergents gardent 2020). Dry-run : 418 maîtres enrichis (pages 351, extra
+   67, date 62, publisher 8, rights 3, conferenceName 1, creators 1).
+5. Export de sauvegarde de la bibliothèque AVANT toute écriture (`--backup`,
+   exigé par `--apply`).
+6. `--apply` : fusionner champs → re-parenter PDF → vérifier invariant →
+   supprimer. Essai `--limit 1` d'abord, puis run complet. — EN ATTENTE feu vert.
 7. Re-collecter et vérifier : 0 clé dupliquée, PDF + champs préservés.
 
 ## Test

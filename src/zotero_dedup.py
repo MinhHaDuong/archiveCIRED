@@ -31,12 +31,68 @@ DEFAULT_PLAN = Path("outputs/dedup_plan.json")
 
 # --- logique pure (testable, sans réseau) -------------------------------------
 
+# Champs de contrôle/système jamais fusionnés depuis la jumelle.
+SKIP_FIELDS = {
+    "key", "version", "itemType", "dateAdded", "dateModified", "relations",
+    "collections", "tags", "parentItem", "note", "md5", "mtime", "linkMode",
+    "contentType", "filename", "charset", "accessDate", "url", "title",
+    "pages", "date",  # gérés par des règles dédiées
+}
+
+
 def item_year(item: dict) -> str:
     return (item.get("data", {}).get("dateAdded") or "")[:4]
 
 
 def has_pdf(item: dict) -> bool:
     return (item.get("meta", {}).get("numChildren") or 0) > 0
+
+
+def _empty(v) -> bool:
+    return v in (None, "", [], {})
+
+
+def richer_date(master_date, twin_date) -> bool:
+    """La date 2015 est-elle plus riche : plage, incertitude, ou maître vide ?"""
+    if _empty(twin_date):
+        return False
+    if _empty(master_date):
+        return True
+    t = str(twin_date)
+    return any(mark in t for mark in (" - ", " – ", "–", "?", "["))
+
+
+def merge_fields(master: dict, twins: list[dict]) -> dict:
+    """Patch à appliquer au maître 2020 selon la politique de fusion.
+
+    Politique : base 2020 ; `pages`←2015 ; `date`←2015 si plus riche ; tout champ
+    vide du maître ← première valeur non vide d'une jumelle (2015 d'abord).
+    Ne touche jamais aux champs de contrôle ni à un champ déjà rempli (hors
+    pages/date). Retourne seulement les champs modifiés.
+    """
+    md = master["data"]
+    older_first = sorted(twins, key=item_year)  # 2015 avant 2020
+    patch: dict = {}
+
+    for t in older_first:  # backfill des champs vides
+        for f, v in t["data"].items():
+            if f in SKIP_FIELDS or f in patch or _empty(v):
+                continue
+            if _empty(md.get(f)):
+                patch[f] = v
+
+    for t in older_first:  # pages ← 2015
+        pv = t["data"].get("pages")
+        if not _empty(pv) and pv != md.get("pages"):
+            patch["pages"] = pv
+            break
+
+    for t in older_first:  # date ← 2015 si plus riche
+        if richer_date(md.get("date"), t["data"].get("date")):
+            patch["date"] = t["data"]["date"]
+            break
+
+    return patch
 
 
 def choose_master(items: list[dict]) -> dict:
@@ -59,6 +115,7 @@ def plan_for_key(key: str, items: list[dict]) -> dict:
         "master_version": master["version"],
         "master_has_pdf": has_pdf(master),
         "reparent_pdf_from": reparent_from,
+        "merge_patch": merge_fields(master, others),
         "delete": [{"key": it["key"], "version": it["version"],
                     "year": item_year(it), "had_pdf": has_pdf(it)}
                    for it in others],
@@ -76,12 +133,19 @@ def build_plan(items: list[dict]) -> dict:
     plans = [plan_for_key(k, v) for k, v in sorted(dup.items())]
     n_delete = sum(len(p["delete"]) for p in plans)
     n_reparent = sum(1 for p in plans if p["reparent_pdf_from"])
+    n_merge = sum(1 for p in plans if p["merge_patch"])
+    champs = {}
+    for p in plans:
+        for f in p["merge_patch"]:
+            champs[f] = champs.get(f, 0) + 1
     return {
         "cles_total": len(by_key),
         "cles_dupliquees": len(dup),
         "maitres": len(plans),
         "suppressions": n_delete,
         "reparentages_pdf": n_reparent,
+        "maitres_enrichis": n_merge,
+        "champs_fusionnes": dict(sorted(champs.items(), key=lambda kv: -kv[1])),
         "plans": plans,
     }
 
@@ -116,10 +180,14 @@ def master_has_attachment(uid: str, master_key: str, api_key: str) -> bool:
 
 def apply_plan(uid: str, plan: dict, api_key: str, limit: int | None) -> dict:
     """Exécute le plan. Re-parente le PDF puis supprime, en vérifiant l'invariant."""
-    done = {"reparented": 0, "deleted": 0, "skipped": 0, "errors": []}
+    done = {"merged": 0, "reparented": 0, "deleted": 0, "skipped": 0, "errors": []}
     plans = plan["plans"][:limit] if limit else plan["plans"]
     for p in plans:
         try:
+            if p["merge_patch"]:  # fusion des champs sur le maître AVANT suppression
+                _write("PATCH", f"{API}/users/{uid}/items/{p['master']}",
+                       api_key, p["master_version"], p["merge_patch"])
+                done["merged"] += 1
             if p["reparent_pdf_from"]:
                 att = find_pdf_child(uid, p["reparent_pdf_from"], api_key)
                 if not att:
@@ -187,9 +255,6 @@ def main() -> None:
         logger.info("DRY-RUN — aucune écriture. Relancer avec --apply pour exécuter.")
         return
 
-    logger.warning("ATTENTION : la fusion par champ (pages←2015, backfill) "
-                   "n'est pas encore implémentée — supprimer la jumelle 2015 "
-                   "maintenant perdrait ses champs. Voir ticket 0013 étape 4.")
     if not args.backup:
         raise SystemExit("--apply exige --backup (export de sauvegarde).")
     n = dump_backup(uid, api_key, args.backup)
@@ -197,9 +262,9 @@ def main() -> None:
     stamp = datetime.now(timezone.utc).isoformat()
     logger.info("APPLY %s (limit=%s)…", stamp, args.limit)
     done = apply_plan(uid, plan, api_key, args.limit)
-    logger.info("Re-parentés %d, supprimés %d, ignorés %d, erreurs %d",
-                done["reparented"], done["deleted"], done["skipped"],
-                len(done["errors"]))
+    logger.info("Fusionnés %d, re-parentés %d, supprimés %d, ignorés %d, erreurs %d",
+                done["merged"], done["reparented"], done["deleted"],
+                done["skipped"], len(done["errors"]))
     for e in done["errors"][:20]:
         logger.warning("  %s", e)
 

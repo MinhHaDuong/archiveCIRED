@@ -4,6 +4,16 @@
   "maitres": 638,
   "suppressions": 646,
   "reparentages_pdf": 636,
+  "maitres_enrichis": 418,
+  "champs_fusionnes": {
+    "pages": 351,
+    "extra": 67,
+    "date": 62,
+    "publisher": 8,
+    "rights": 3,
+    "conferenceName": 1,
+    "creators": 1
+  },
   "plans": [
     {
       "key": "CIR_GEN_0001",
@@ -12,6 +22,9 @@
       "master_version": 4725,
       "master_has_pdf": false,
       "reparent_pdf_from": "UN3BU9V8",
+      "merge_patch": {
+        "pages": "6 p."
+      },
       "delete": [
         {
           "key": "UN3BU9V8",
@@ -28,6 +41,9 @@
       "master_version": 4759,
       "master_has_pdf": false,
       "reparent_pdf_from": "ERW47QKU",
+      "merge_patch": {
+        "date": "[1990?]"
+      },
       "delete": [
         {
           "key": "ERW47QKU",
@@ -44,6 +60,9 @@
       "master_version": 4745,
       "master_has_pdf": false,
       "reparent_pdf_from": "QD8H9RUK",
+      "merge_patch": {
+        "pages": "22 p."
+      },
       "delete": [
         {
           "key": "QD8H9RUK",
@@ -60,6 +79,9 @@
       "master_version": 4745,
       "master_has_pdf": false,
       "reparent_pdf_from": "A893PUED",
+      "merge_patch": {
+        "pages": "8 p."
+      },
       "delete": [
         {
           "key": "A893PUED",
@@ -76,6 +98,9 @@
       "master_version": 4745,
       "master_has_pdf": false,
       "reparent_pdf_from": "Q5FHJ878",
+      "merge_patch": {
+        "pages": "12 p."
+      },
       "delete": [
         {
           "key": "Q5FHJ878",
@@ -92,6 +117,9 @@
       "master_version": 4772,
       "master_has_pdf": false,
       "reparent_pdf_from": "6EJVB6HE",
+      "merge_patch": {
+        "pages": "17 p."
+      },
       "delete": [
         {
           "key": "6EJVB6HE",
@@ -108,6 +136,9 @@
       "master_version": 4745,
       "master_has_pdf": false,
       "reparent_pdf_from": "NXJKPX8M",
+      "merge_patch": {
+        "pages": "14 p."
+      },
       "delete": [
         {
           "key": "NXJKPX8M",
@@ -124,6 +155,9 @@
       "master_version": 4772,
       "master_has_pdf": false,
       "reparent_pdf_from": "Q92UAMEH",
+      "merge_patch": {
+        "pages": "20 p."
+      },
       "delete": [
         {
           "key": "Q92UAMEH",
@@ -140,6 +174,9 @@
       "master_version": 4752,
       "master_has_pdf": false,
       "reparent_pdf_from": "E5PN8QD6",
+      "merge_patch": {
+        "pages": "51 p."
+      },
       "delete": [
         {
           "key": "E5PN8QD6",
@@ -156,6 +193,9 @@
       "master_version": 4772,
       "master_has_pdf": false,
       "reparent_pdf_from": "4SV6UKSQ",
+      "merge_patch": {
+        "pages": "20 p."
+      },
       "delete": [
         {
           "key": "4SV6UKSQ",
@@ -172,6 +212,7 @@
       "master_version": 4723,
       "master_has_pdf": false,
       "reparent_pdf_from": "AEHFZC53",
+      "merge_patch": {},
       "delete": [
         {
           "key": "AEHFZC53",
@@ -188,6 +229,10 @@
       "master_version": 4723,
       "master_has_pdf": false,
       "reparent_pdf_from": "34ZRRV89",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok"
+      },
       "delete": [
         {
           "key": "34ZRRV89",
@@ -204,6 +249,10 @@
       "master_version": 4723,
       "master_has_pdf": false,
       "reparent_pdf_from": "HGABJXEP",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "ok"
+      },
       "delete": [
         {
           "key": "HGABJXEP",
@@ -220,6 +269,9 @@
       "master_version": 4758,
       "master_has_pdf": false,
       "reparent_pdf_from": "HNCBXRAC",
+      "merge_patch": {
+        "pages": "6 p."
+      },
       "delete": [
         {
           "key": "HNCBXRAC",
@@ -236,6 +288,9 @@
       "master_version": 4732,
       "master_has_pdf": false,
       "reparent_pdf_from": "QA485A8U",
+      "merge_patch": {
+        "pages": "136 p."
+      },
       "delete": [
         {
           "key": "QA485A8U",
@@ -252,6 +307,7 @@
       "master_version": 4722,
       "master_has_pdf": false,
       "reparent_pdf_from": "HTDJUI32",
+      "merge_patch": {},
       "delete": [
         {
           "key": "HTDJUI32",
@@ -268,6 +324,7 @@
       "master_version": 4721,
       "master_has_pdf": false,
       "reparent_pdf_from": "N4HS5G96",
+      "merge_patch": {},
       "delete": [
         {
           "key": "N4HS5G96",
@@ -284,6 +341,7 @@
       "master_version": 4723,
       "master_has_pdf": false,
       "reparent_pdf_from": "XUC5HMRF",
+      "merge_patch": {},
       "delete": [
         {
           "key": "XUC5HMRF",
@@ -300,6 +358,7 @@
       "master_version": 4722,
       "master_has_pdf": false,
       "reparent_pdf_from": "Q7BVJ6QD",
+      "merge_patch": {},
       "delete": [
         {
           "key": "Q7BVJ6QD",
@@ -316,6 +375,7 @@
       "master_version": 4723,
       "master_has_pdf": false,
       "reparent_pdf_from": "7RVECPVB",
+      "merge_patch": {},
       "delete": [
         {
           "key": "7RVECPVB",
@@ -332,6 +392,7 @@
       "master_version": 4723,
       "master_has_pdf": false,
       "reparent_pdf_from": "6ECQ7ZG7",
+      "merge_patch": {},
       "delete": [
         {
           "key": "6ECQ7ZG7",
@@ -348,6 +409,7 @@
       "master_version": 4723,
       "master_has_pdf": false,
       "reparent_pdf_from": "PKN5ADHP",
+      "merge_patch": {},
       "delete": [
         {
           "key": "PKN5ADHP",
@@ -364,6 +426,7 @@
       "master_version": 4742,
       "master_has_pdf": false,
       "reparent_pdf_from": "R6UC992U",
+      "merge_patch": {},
       "delete": [
         {
           "key": "R6UC992U",
@@ -380,6 +443,7 @@
       "master_version": 4758,
       "master_has_pdf": false,
       "reparent_pdf_from": "6493MTGU",
+      "merge_patch": {},
       "delete": [
         {
           "key": "6493MTGU",
@@ -396,6 +460,7 @@
       "master_version": 4724,
       "master_has_pdf": false,
       "reparent_pdf_from": "BS66PZTH",
+      "merge_patch": {},
       "delete": [
         {
           "key": "BS66PZTH",
@@ -412,6 +477,7 @@
       "master_version": 4724,
       "master_has_pdf": false,
       "reparent_pdf_from": "NGT9IJRK",
+      "merge_patch": {},
       "delete": [
         {
           "key": "NGT9IJRK",
@@ -428,6 +494,9 @@
       "master_version": 4716,
       "master_has_pdf": false,
       "reparent_pdf_from": "G9FEZWC9",
+      "merge_patch": {
+        "pages": "45 p."
+      },
       "delete": [
         {
           "key": "G9FEZWC9",
@@ -444,6 +513,7 @@
       "master_version": 4763,
       "master_has_pdf": false,
       "reparent_pdf_from": "ZJWTAEUE",
+      "merge_patch": {},
       "delete": [
         {
           "key": "ZJWTAEUE",
@@ -460,6 +530,7 @@
       "master_version": 4772,
       "master_has_pdf": false,
       "reparent_pdf_from": "T9MXKEPV",
+      "merge_patch": {},
       "delete": [
         {
           "key": "T9MXKEPV",
@@ -476,6 +547,7 @@
       "master_version": 4763,
       "master_has_pdf": false,
       "reparent_pdf_from": "8KX7QSBS",
+      "merge_patch": {},
       "delete": [
         {
           "key": "8KX7QSBS",
@@ -492,6 +564,7 @@
       "master_version": 4763,
       "master_has_pdf": false,
       "reparent_pdf_from": "Q8J5XWH5",
+      "merge_patch": {},
       "delete": [
         {
           "key": "Q8J5XWH5",
@@ -508,6 +581,7 @@
       "master_version": 4762,
       "master_has_pdf": false,
       "reparent_pdf_from": "NKUWSDWH",
+      "merge_patch": {},
       "delete": [
         {
           "key": "NKUWSDWH",
@@ -524,6 +598,7 @@
       "master_version": 4722,
       "master_has_pdf": false,
       "reparent_pdf_from": "W42849FQ",
+      "merge_patch": {},
       "delete": [
         {
           "key": "W42849FQ",
@@ -540,6 +615,7 @@
       "master_version": 4722,
       "master_has_pdf": false,
       "reparent_pdf_from": "N8HS7T2X",
+      "merge_patch": {},
       "delete": [
         {
           "key": "N8HS7T2X",
@@ -556,6 +632,7 @@
       "master_version": 4722,
       "master_has_pdf": false,
       "reparent_pdf_from": "2V2TE5CX",
+      "merge_patch": {},
       "delete": [
         {
           "key": "2V2TE5CX",
@@ -572,6 +649,7 @@
       "master_version": 4722,
       "master_has_pdf": false,
       "reparent_pdf_from": "DTNTGF3I",
+      "merge_patch": {},
       "delete": [
         {
           "key": "DTNTGF3I",
@@ -588,6 +666,7 @@
       "master_version": 4722,
       "master_has_pdf": false,
       "reparent_pdf_from": "2RXIU39X",
+      "merge_patch": {},
       "delete": [
         {
           "key": "2RXIU39X",
@@ -604,6 +683,7 @@
       "master_version": 4722,
       "master_has_pdf": false,
       "reparent_pdf_from": "9K3TVGIT",
+      "merge_patch": {},
       "delete": [
         {
           "key": "9K3TVGIT",
@@ -620,6 +700,7 @@
       "master_version": 4763,
       "master_has_pdf": false,
       "reparent_pdf_from": "2GHNG3MA",
+      "merge_patch": {},
       "delete": [
         {
           "key": "2GHNG3MA",
@@ -636,6 +717,7 @@
       "master_version": 4723,
       "master_has_pdf": false,
       "reparent_pdf_from": "7SXKSHMX",
+      "merge_patch": {},
       "delete": [
         {
           "key": "7SXKSHMX",
@@ -652,6 +734,7 @@
       "master_version": 4722,
       "master_has_pdf": false,
       "reparent_pdf_from": "G9QT9HKG",
+      "merge_patch": {},
       "delete": [
         {
           "key": "G9QT9HKG",
@@ -668,6 +751,7 @@
       "master_version": 4722,
       "master_has_pdf": false,
       "reparent_pdf_from": "PE8DPV4H",
+      "merge_patch": {},
       "delete": [
         {
           "key": "PE8DPV4H",
@@ -684,6 +768,7 @@
       "master_version": 4723,
       "master_has_pdf": false,
       "reparent_pdf_from": "75F69M8C",
+      "merge_patch": {},
       "delete": [
         {
           "key": "75F69M8C",
@@ -700,6 +785,7 @@
       "master_version": 4752,
       "master_has_pdf": false,
       "reparent_pdf_from": "2KB7U4RM",
+      "merge_patch": {},
       "delete": [
         {
           "key": "2KB7U4RM",
@@ -716,6 +802,7 @@
       "master_version": 4721,
       "master_has_pdf": false,
       "reparent_pdf_from": "4JIP95JI",
+      "merge_patch": {},
       "delete": [
         {
           "key": "4JIP95JI",
@@ -732,6 +819,9 @@
       "master_version": 4773,
       "master_has_pdf": false,
       "reparent_pdf_from": "AIVC5T3W",
+      "merge_patch": {
+        "extra": "Faux doublon"
+      },
       "delete": [
         {
           "key": "AIVC5T3W",
@@ -748,6 +838,7 @@
       "master_version": 4721,
       "master_has_pdf": false,
       "reparent_pdf_from": "B89A4RXF",
+      "merge_patch": {},
       "delete": [
         {
           "key": "B89A4RXF",
@@ -764,6 +855,7 @@
       "master_version": 4721,
       "master_has_pdf": false,
       "reparent_pdf_from": "DS5DGRMM",
+      "merge_patch": {},
       "delete": [
         {
           "key": "DS5DGRMM",
@@ -780,6 +872,7 @@
       "master_version": 4721,
       "master_has_pdf": false,
       "reparent_pdf_from": "XTC2HMMB",
+      "merge_patch": {},
       "delete": [
         {
           "key": "XTC2HMMB",
@@ -796,6 +889,9 @@
       "master_version": 4721,
       "master_has_pdf": false,
       "reparent_pdf_from": "CZMDP878",
+      "merge_patch": {
+        "pages": "14 p."
+      },
       "delete": [
         {
           "key": "CZMDP878",
@@ -812,6 +908,9 @@
       "master_version": 4721,
       "master_has_pdf": false,
       "reparent_pdf_from": "JGHG4EMK",
+      "merge_patch": {
+        "pages": "14 p."
+      },
       "delete": [
         {
           "key": "JGHG4EMK",
@@ -828,6 +927,7 @@
       "master_version": 4721,
       "master_has_pdf": false,
       "reparent_pdf_from": "HT5T7VCI",
+      "merge_patch": {},
       "delete": [
         {
           "key": "HT5T7VCI",
@@ -844,6 +944,7 @@
       "master_version": 4720,
       "master_has_pdf": false,
       "reparent_pdf_from": "BCEBCVRQ",
+      "merge_patch": {},
       "delete": [
         {
           "key": "BCEBCVRQ",
@@ -860,6 +961,7 @@
       "master_version": 4720,
       "master_has_pdf": false,
       "reparent_pdf_from": "Q3CRN45H",
+      "merge_patch": {},
       "delete": [
         {
           "key": "Q3CRN45H",
@@ -876,6 +978,7 @@
       "master_version": 4720,
       "master_has_pdf": false,
       "reparent_pdf_from": "8NVBIMMJ",
+      "merge_patch": {},
       "delete": [
         {
           "key": "8NVBIMMJ",
@@ -892,6 +995,9 @@
       "master_version": 4720,
       "master_has_pdf": false,
       "reparent_pdf_from": "6NKCSXDZ",
+      "merge_patch": {
+        "pages": "10 p."
+      },
       "delete": [
         {
           "key": "6NKCSXDZ",
@@ -908,6 +1014,9 @@
       "master_version": 4720,
       "master_has_pdf": false,
       "reparent_pdf_from": "NBGDGFPU",
+      "merge_patch": {
+        "pages": "p. 33-39"
+      },
       "delete": [
         {
           "key": "NBGDGFPU",
@@ -924,6 +1033,9 @@
       "master_version": 4720,
       "master_has_pdf": false,
       "reparent_pdf_from": "AG7HT9NA",
+      "merge_patch": {
+        "pages": "13 p."
+      },
       "delete": [
         {
           "key": "AG7HT9NA",
@@ -940,6 +1052,9 @@
       "master_version": 4719,
       "master_has_pdf": false,
       "reparent_pdf_from": "4FBT2SKX",
+      "merge_patch": {
+        "pages": "22 p."
+      },
       "delete": [
         {
           "key": "4FBT2SKX",
@@ -956,6 +1071,9 @@
       "master_version": 4744,
       "master_has_pdf": false,
       "reparent_pdf_from": "G6HK2WZ4",
+      "merge_patch": {
+        "pages": "10 p."
+      },
       "delete": [
         {
           "key": "G6HK2WZ4",
@@ -972,6 +1090,9 @@
       "master_version": 4719,
       "master_has_pdf": false,
       "reparent_pdf_from": "D3XQUBMT",
+      "merge_patch": {
+        "pages": "46 p."
+      },
       "delete": [
         {
           "key": "D3XQUBMT",
@@ -988,6 +1109,10 @@
       "master_version": 4743,
       "master_has_pdf": false,
       "reparent_pdf_from": "REAZTZJV",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "p. 29-50"
+      },
       "delete": [
         {
           "key": "REAZTZJV",
@@ -1004,6 +1129,9 @@
       "master_version": 4743,
       "master_has_pdf": false,
       "reparent_pdf_from": "SJNF3XMG",
+      "merge_patch": {
+        "extra": "Faux doublon"
+      },
       "delete": [
         {
           "key": "SJNF3XMG",
@@ -1020,6 +1148,9 @@
       "master_version": 4744,
       "master_has_pdf": false,
       "reparent_pdf_from": "66S68SH2",
+      "merge_patch": {
+        "pages": "22 p."
+      },
       "delete": [
         {
           "key": "66S68SH2",
@@ -1036,6 +1167,9 @@
       "master_version": 4723,
       "master_has_pdf": false,
       "reparent_pdf_from": "BC4GQC9R",
+      "merge_patch": {
+        "pages": "649–677"
+      },
       "delete": [
         {
           "key": "BC4GQC9R",
@@ -1052,6 +1186,10 @@
       "master_version": 4772,
       "master_has_pdf": false,
       "reparent_pdf_from": "M3APT2KW",
+      "merge_patch": {
+        "rights": "non",
+        "extra": "Type doc"
+      },
       "delete": [
         {
           "key": "M3APT2KW",
@@ -1068,6 +1206,7 @@
       "master_version": 4759,
       "master_has_pdf": false,
       "reparent_pdf_from": "TDMS4963",
+      "merge_patch": {},
       "delete": [
         {
           "key": "TDMS4963",
@@ -1084,6 +1223,7 @@
       "master_version": 4720,
       "master_has_pdf": false,
       "reparent_pdf_from": "GK345R4I",
+      "merge_patch": {},
       "delete": [
         {
           "key": "GK345R4I",
@@ -1100,6 +1240,7 @@
       "master_version": 4721,
       "master_has_pdf": false,
       "reparent_pdf_from": "KUI7ZIGM",
+      "merge_patch": {},
       "delete": [
         {
           "key": "KUI7ZIGM",
@@ -1116,6 +1257,10 @@
       "master_version": 4721,
       "master_has_pdf": false,
       "reparent_pdf_from": "XK8TRV5B",
+      "merge_patch": {
+        "pages": "30 p.",
+        "date": "[2010?]"
+      },
       "delete": [
         {
           "key": "XK8TRV5B",
@@ -1132,6 +1277,10 @@
       "master_version": 4720,
       "master_has_pdf": false,
       "reparent_pdf_from": "UR8445XF",
+      "merge_patch": {
+        "pages": "32 p.",
+        "date": "[2010?]"
+      },
       "delete": [
         {
           "key": "UR8445XF",
@@ -1148,6 +1297,10 @@
       "master_version": 4720,
       "master_has_pdf": false,
       "reparent_pdf_from": "R2BTKDSA",
+      "merge_patch": {
+        "pages": "27 p.",
+        "date": "[2010?]"
+      },
       "delete": [
         {
           "key": "R2BTKDSA",
@@ -1164,6 +1317,9 @@
       "master_version": 4731,
       "master_has_pdf": false,
       "reparent_pdf_from": "XEAGGMDZ",
+      "merge_patch": {
+        "pages": "p. 45-54"
+      },
       "delete": [
         {
           "key": "XEAGGMDZ",
@@ -1180,6 +1336,9 @@
       "master_version": 4719,
       "master_has_pdf": false,
       "reparent_pdf_from": "RBPH6A4C",
+      "merge_patch": {
+        "pages": "p. 45-57"
+      },
       "delete": [
         {
           "key": "RBPH6A4C",
@@ -1196,6 +1355,9 @@
       "master_version": 4719,
       "master_has_pdf": false,
       "reparent_pdf_from": "WENKTXNS",
+      "merge_patch": {
+        "pages": "p. 8-10"
+      },
       "delete": [
         {
           "key": "WENKTXNS",
@@ -1212,6 +1374,9 @@
       "master_version": 4719,
       "master_has_pdf": false,
       "reparent_pdf_from": "FCBDWJM5",
+      "merge_patch": {
+        "pages": "12 p."
+      },
       "delete": [
         {
           "key": "FCBDWJM5",
@@ -1228,6 +1393,9 @@
       "master_version": 4771,
       "master_has_pdf": false,
       "reparent_pdf_from": "TUIM4D32",
+      "merge_patch": {
+        "extra": "Faux doublon"
+      },
       "delete": [
         {
           "key": "TUIM4D32",
@@ -1244,6 +1412,9 @@
       "master_version": 4758,
       "master_has_pdf": false,
       "reparent_pdf_from": "8S38J6VW",
+      "merge_patch": {
+        "pages": "p. 1-3"
+      },
       "delete": [
         {
           "key": "8S38J6VW",
@@ -1260,6 +1431,10 @@
       "master_version": 4715,
       "master_has_pdf": false,
       "reparent_pdf_from": "ZHN5IKQB",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "p. 209-227"
+      },
       "delete": [
         {
           "key": "ZHN5IKQB",
@@ -1276,6 +1451,9 @@
       "master_version": 4772,
       "master_has_pdf": false,
       "reparent_pdf_from": "FDEEQJSM",
+      "merge_patch": {
+        "extra": "FAux doublon"
+      },
       "delete": [
         {
           "key": "FDEEQJSM",
@@ -1292,6 +1470,9 @@
       "master_version": 4719,
       "master_has_pdf": false,
       "reparent_pdf_from": "5ZUNMBJH",
+      "merge_patch": {
+        "pages": "p. 39-45"
+      },
       "delete": [
         {
           "key": "5ZUNMBJH",
@@ -1308,6 +1489,9 @@
       "master_version": 4719,
       "master_has_pdf": false,
       "reparent_pdf_from": "MEJZQKRB",
+      "merge_patch": {
+        "pages": "p. 25-36"
+      },
       "delete": [
         {
           "key": "MEJZQKRB",
@@ -1324,6 +1508,9 @@
       "master_version": 4720,
       "master_has_pdf": false,
       "reparent_pdf_from": "PCAR69BF",
+      "merge_patch": {
+        "pages": "p. 465-487"
+      },
       "delete": [
         {
           "key": "PCAR69BF",
@@ -1340,6 +1527,7 @@
       "master_version": 4762,
       "master_has_pdf": false,
       "reparent_pdf_from": "99KUZDQG",
+      "merge_patch": {},
       "delete": [
         {
           "key": "99KUZDQG",
@@ -1356,6 +1544,7 @@
       "master_version": 4719,
       "master_has_pdf": false,
       "reparent_pdf_from": "TCNSWZKN",
+      "merge_patch": {},
       "delete": [
         {
           "key": "TCNSWZKN",
@@ -1372,6 +1561,9 @@
       "master_version": 4752,
       "master_has_pdf": false,
       "reparent_pdf_from": "UEZM5SRP",
+      "merge_patch": {
+        "pages": "p. 14-15"
+      },
       "delete": [
         {
           "key": "UEZM5SRP",
@@ -1388,6 +1580,7 @@
       "master_version": 4733,
       "master_has_pdf": false,
       "reparent_pdf_from": "6IVZEX4G",
+      "merge_patch": {},
       "delete": [
         {
           "key": "6IVZEX4G",
@@ -1404,6 +1597,10 @@
       "master_version": 4748,
       "master_has_pdf": false,
       "reparent_pdf_from": "UPS4VXW4",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "date": "[1974?]"
+      },
       "delete": [
         {
           "key": "UPS4VXW4",
@@ -1420,6 +1617,9 @@
       "master_version": 4733,
       "master_has_pdf": false,
       "reparent_pdf_from": "QKDK8GHR",
+      "merge_patch": {
+        "pages": "p. 2-4"
+      },
       "delete": [
         {
           "key": "QKDK8GHR",
@@ -1436,6 +1636,9 @@
       "master_version": 4733,
       "master_has_pdf": false,
       "reparent_pdf_from": "JCZQ9EK2",
+      "merge_patch": {
+        "pages": "p. 2"
+      },
       "delete": [
         {
           "key": "JCZQ9EK2",
@@ -1452,6 +1655,10 @@
       "master_version": 4714,
       "master_has_pdf": false,
       "reparent_pdf_from": "P9TWKKJU",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "p. 45"
+      },
       "delete": [
         {
           "key": "P9TWKKJU",
@@ -1468,6 +1675,9 @@
       "master_version": 4733,
       "master_has_pdf": true,
       "reparent_pdf_from": null,
+      "merge_patch": {
+        "pages": "p. 40-43"
+      },
       "delete": [
         {
           "key": "NSFCAPQI",
@@ -1484,6 +1694,9 @@
       "master_version": 4733,
       "master_has_pdf": false,
       "reparent_pdf_from": "5NVBJEMA",
+      "merge_patch": {
+        "pages": "p. 76-87"
+      },
       "delete": [
         {
           "key": "5NVBJEMA",
@@ -1500,6 +1713,9 @@
       "master_version": 4733,
       "master_has_pdf": false,
       "reparent_pdf_from": "BZAU5XT2",
+      "merge_patch": {
+        "pages": "p. 72-77"
+      },
       "delete": [
         {
           "key": "BZAU5XT2",
@@ -1516,6 +1732,9 @@
       "master_version": 4733,
       "master_has_pdf": false,
       "reparent_pdf_from": "SDWQWGBF",
+      "merge_patch": {
+        "pages": "p. 73"
+      },
       "delete": [
         {
           "key": "SDWQWGBF",
@@ -1532,6 +1751,9 @@
       "master_version": 4733,
       "master_has_pdf": false,
       "reparent_pdf_from": "3KAED7AW",
+      "merge_patch": {
+        "pages": "9 p."
+      },
       "delete": [
         {
           "key": "3KAED7AW",
@@ -1548,6 +1770,9 @@
       "master_version": 4733,
       "master_has_pdf": false,
       "reparent_pdf_from": "E74DJ9PE",
+      "merge_patch": {
+        "pages": "p. 75-90"
+      },
       "delete": [
         {
           "key": "E74DJ9PE",
@@ -1564,6 +1789,9 @@
       "master_version": 4732,
       "master_has_pdf": false,
       "reparent_pdf_from": "TITFSDPQ",
+      "merge_patch": {
+        "pages": "15 p."
+      },
       "delete": [
         {
           "key": "TITFSDPQ",
@@ -1580,6 +1808,9 @@
       "master_version": 4732,
       "master_has_pdf": false,
       "reparent_pdf_from": "82ITWKWU",
+      "merge_patch": {
+        "pages": "p. 64-66"
+      },
       "delete": [
         {
           "key": "82ITWKWU",
@@ -1596,6 +1827,7 @@
       "master_version": 4732,
       "master_has_pdf": false,
       "reparent_pdf_from": "ZKPW84MK",
+      "merge_patch": {},
       "delete": [
         {
           "key": "ZKPW84MK",
@@ -1612,6 +1844,9 @@
       "master_version": 4719,
       "master_has_pdf": false,
       "reparent_pdf_from": "VZR9MGD2",
+      "merge_patch": {
+        "pages": "p. 34-43"
+      },
       "delete": [
         {
           "key": "VZR9MGD2",
@@ -1628,6 +1863,9 @@
       "master_version": 4732,
       "master_has_pdf": false,
       "reparent_pdf_from": "UWCTIVR6",
+      "merge_patch": {
+        "pages": "p. 73-78"
+      },
       "delete": [
         {
           "key": "UWCTIVR6",
@@ -1644,6 +1882,9 @@
       "master_version": 4732,
       "master_has_pdf": false,
       "reparent_pdf_from": "5WH2XZMT",
+      "merge_patch": {
+        "pages": "p. 17-21"
+      },
       "delete": [
         {
           "key": "5WH2XZMT",
@@ -1660,6 +1901,9 @@
       "master_version": 4762,
       "master_has_pdf": false,
       "reparent_pdf_from": "MU76FKN4",
+      "merge_patch": {
+        "pages": "p. 17-21"
+      },
       "delete": [
         {
           "key": "MU76FKN4",
@@ -1676,6 +1920,9 @@
       "master_version": 4732,
       "master_has_pdf": false,
       "reparent_pdf_from": "9TU5JNP8",
+      "merge_patch": {
+        "pages": "p. 40-49"
+      },
       "delete": [
         {
           "key": "9TU5JNP8",
@@ -1692,6 +1939,9 @@
       "master_version": 4732,
       "master_has_pdf": false,
       "reparent_pdf_from": "RDXW4U7U",
+      "merge_patch": {
+        "pages": "p. 32-46"
+      },
       "delete": [
         {
           "key": "RDXW4U7U",
@@ -1708,6 +1958,9 @@
       "master_version": 4732,
       "master_has_pdf": false,
       "reparent_pdf_from": "FVCEHMC5",
+      "merge_patch": {
+        "pages": "p. 93-107"
+      },
       "delete": [
         {
           "key": "FVCEHMC5",
@@ -1724,6 +1977,9 @@
       "master_version": 4732,
       "master_has_pdf": false,
       "reparent_pdf_from": "BFEB74PJ",
+      "merge_patch": {
+        "pages": "p. 10-14"
+      },
       "delete": [
         {
           "key": "BFEB74PJ",
@@ -1740,6 +1996,10 @@
       "master_version": 4772,
       "master_has_pdf": false,
       "reparent_pdf_from": "KTV9G2N7",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "p. 2-11"
+      },
       "delete": [
         {
           "key": "KTV9G2N7",
@@ -1756,6 +2016,9 @@
       "master_version": 4731,
       "master_has_pdf": false,
       "reparent_pdf_from": "3K9AHPRZ",
+      "merge_patch": {
+        "pages": "p. 383-401"
+      },
       "delete": [
         {
           "key": "3K9AHPRZ",
@@ -1772,6 +2035,9 @@
       "master_version": 4731,
       "master_has_pdf": false,
       "reparent_pdf_from": "4I5E56GB",
+      "merge_patch": {
+        "pages": "p. 25"
+      },
       "delete": [
         {
           "key": "4I5E56GB",
@@ -1788,6 +2054,10 @@
       "master_version": 4745,
       "master_has_pdf": false,
       "reparent_pdf_from": "IZ7E7M5U",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "20 p."
+      },
       "delete": [
         {
           "key": "IZ7E7M5U",
@@ -1804,6 +2074,9 @@
       "master_version": 4745,
       "master_has_pdf": false,
       "reparent_pdf_from": "BR733949",
+      "merge_patch": {
+        "pages": "34 p."
+      },
       "delete": [
         {
           "key": "BR733949",
@@ -1820,6 +2093,9 @@
       "master_version": 4762,
       "master_has_pdf": false,
       "reparent_pdf_from": "497NTCXS",
+      "merge_patch": {
+        "pages": "78 p."
+      },
       "delete": [
         {
           "key": "497NTCXS",
@@ -1836,6 +2112,9 @@
       "master_version": 4731,
       "master_has_pdf": false,
       "reparent_pdf_from": "3867NWVV",
+      "merge_patch": {
+        "pages": "19 p."
+      },
       "delete": [
         {
           "key": "3867NWVV",
@@ -1852,6 +2131,9 @@
       "master_version": 4731,
       "master_has_pdf": false,
       "reparent_pdf_from": "ETHQH9G7",
+      "merge_patch": {
+        "pages": "p. 249-268"
+      },
       "delete": [
         {
           "key": "ETHQH9G7",
@@ -1868,6 +2150,9 @@
       "master_version": 4731,
       "master_has_pdf": false,
       "reparent_pdf_from": "3349CHPU",
+      "merge_patch": {
+        "pages": "p. 291-310"
+      },
       "delete": [
         {
           "key": "3349CHPU",
@@ -1884,6 +2169,9 @@
       "master_version": 4731,
       "master_has_pdf": false,
       "reparent_pdf_from": "DXCA3K37",
+      "merge_patch": {
+        "pages": "p. 5-24"
+      },
       "delete": [
         {
           "key": "DXCA3K37",
@@ -1900,6 +2188,9 @@
       "master_version": 4932,
       "master_has_pdf": false,
       "reparent_pdf_from": "RZUDN2QI",
+      "merge_patch": {
+        "pages": "p. 9-34"
+      },
       "delete": [
         {
           "key": "RZUDN2QI",
@@ -1916,6 +2207,9 @@
       "master_version": 4731,
       "master_has_pdf": false,
       "reparent_pdf_from": "KUV7CB9V",
+      "merge_patch": {
+        "pages": "p. 177-202"
+      },
       "delete": [
         {
           "key": "KUV7CB9V",
@@ -1932,6 +2226,7 @@
       "master_version": 4731,
       "master_has_pdf": false,
       "reparent_pdf_from": "D5K52P8P",
+      "merge_patch": {},
       "delete": [
         {
           "key": "D5K52P8P",
@@ -1948,6 +2243,10 @@
       "master_version": 4730,
       "master_has_pdf": false,
       "reparent_pdf_from": "AD9RV8BJ",
+      "merge_patch": {
+        "pages": "5 p.",
+        "date": "[1987?]"
+      },
       "delete": [
         {
           "key": "AD9RV8BJ",
@@ -1964,6 +2263,10 @@
       "master_version": 4730,
       "master_has_pdf": false,
       "reparent_pdf_from": "26BEBUJE",
+      "merge_patch": {
+        "pages": "9 p.",
+        "date": "[1984?]"
+      },
       "delete": [
         {
           "key": "26BEBUJE",
@@ -1980,6 +2283,10 @@
       "master_version": 4730,
       "master_has_pdf": false,
       "reparent_pdf_from": "226V67MW",
+      "merge_patch": {
+        "pages": "p. 84-92",
+        "date": "[1988?]"
+      },
       "delete": [
         {
           "key": "226V67MW",
@@ -1996,6 +2303,9 @@
       "master_version": 4730,
       "master_has_pdf": false,
       "reparent_pdf_from": "76HSZGW5",
+      "merge_patch": {
+        "pages": "p. 13-27"
+      },
       "delete": [
         {
           "key": "76HSZGW5",
@@ -2012,6 +2322,9 @@
       "master_version": 4730,
       "master_has_pdf": false,
       "reparent_pdf_from": "4WJZ6CWA",
+      "merge_patch": {
+        "pages": "p. 29-56"
+      },
       "delete": [
         {
           "key": "4WJZ6CWA",
@@ -2028,6 +2341,9 @@
       "master_version": 4730,
       "master_has_pdf": false,
       "reparent_pdf_from": "5Z4M85KP",
+      "merge_patch": {
+        "pages": "p. 171-187"
+      },
       "delete": [
         {
           "key": "5Z4M85KP",
@@ -2044,6 +2360,9 @@
       "master_version": 4730,
       "master_has_pdf": false,
       "reparent_pdf_from": "UE9F5E2G",
+      "merge_patch": {
+        "pages": "p. 113-118"
+      },
       "delete": [
         {
           "key": "UE9F5E2G",
@@ -2060,6 +2379,9 @@
       "master_version": 4717,
       "master_has_pdf": false,
       "reparent_pdf_from": "4BEDPX27",
+      "merge_patch": {
+        "pages": "p. 507-509"
+      },
       "delete": [
         {
           "key": "4BEDPX27",
@@ -2076,6 +2398,9 @@
       "master_version": 4730,
       "master_has_pdf": false,
       "reparent_pdf_from": "X4IVU6MM",
+      "merge_patch": {
+        "pages": "35 p."
+      },
       "delete": [
         {
           "key": "X4IVU6MM",
@@ -2092,6 +2417,9 @@
       "master_version": 4730,
       "master_has_pdf": false,
       "reparent_pdf_from": "47IKSVT2",
+      "merge_patch": {
+        "pages": "p. 224-225"
+      },
       "delete": [
         {
           "key": "47IKSVT2",
@@ -2108,6 +2436,10 @@
       "master_version": 4730,
       "master_has_pdf": false,
       "reparent_pdf_from": "VMJJZ6EV",
+      "merge_patch": {
+        "pages": "49 p.",
+        "date": "[1988?]"
+      },
       "delete": [
         {
           "key": "VMJJZ6EV",
@@ -2124,6 +2456,10 @@
       "master_version": 4729,
       "master_has_pdf": false,
       "reparent_pdf_from": "CS47S8W6",
+      "merge_patch": {
+        "pages": "3 p.",
+        "date": "[1988?]"
+      },
       "delete": [
         {
           "key": "CS47S8W6",
@@ -2140,6 +2476,9 @@
       "master_version": 4729,
       "master_has_pdf": false,
       "reparent_pdf_from": "BW7NU2PW",
+      "merge_patch": {
+        "pages": "p. 30-43"
+      },
       "delete": [
         {
           "key": "BW7NU2PW",
@@ -2156,6 +2495,10 @@
       "master_version": 4729,
       "master_has_pdf": false,
       "reparent_pdf_from": "AVEFXXDS",
+      "merge_patch": {
+        "pages": "13 p.",
+        "date": "[1987?]"
+      },
       "delete": [
         {
           "key": "AVEFXXDS",
@@ -2172,6 +2515,10 @@
       "master_version": 4729,
       "master_has_pdf": false,
       "reparent_pdf_from": "M5PNZCS9",
+      "merge_patch": {
+        "pages": "8 p.",
+        "date": "[1988?]"
+      },
       "delete": [
         {
           "key": "M5PNZCS9",
@@ -2188,6 +2535,10 @@
       "master_version": 4729,
       "master_has_pdf": false,
       "reparent_pdf_from": "RN3PNZJ2",
+      "merge_patch": {
+        "pages": "9 p.",
+        "date": "[1985?]"
+      },
       "delete": [
         {
           "key": "RN3PNZJ2",
@@ -2204,6 +2555,9 @@
       "master_version": 4729,
       "master_has_pdf": false,
       "reparent_pdf_from": "QQFDECSP",
+      "merge_patch": {
+        "pages": "p. 27-36"
+      },
       "delete": [
         {
           "key": "QQFDECSP",
@@ -2220,6 +2574,9 @@
       "master_version": 4729,
       "master_has_pdf": false,
       "reparent_pdf_from": "4F6SUB7Z",
+      "merge_patch": {
+        "pages": "p. 5-7"
+      },
       "delete": [
         {
           "key": "4F6SUB7Z",
@@ -2236,6 +2593,10 @@
       "master_version": 4729,
       "master_has_pdf": false,
       "reparent_pdf_from": "QVAJQGQ3",
+      "merge_patch": {
+        "pages": "8 p.",
+        "date": "[1985?]"
+      },
       "delete": [
         {
           "key": "QVAJQGQ3",
@@ -2252,6 +2613,9 @@
       "master_version": 4729,
       "master_has_pdf": false,
       "reparent_pdf_from": "5FUKQA8D",
+      "merge_patch": {
+        "pages": "33 p."
+      },
       "delete": [
         {
           "key": "5FUKQA8D",
@@ -2268,6 +2632,9 @@
       "master_version": 4729,
       "master_has_pdf": false,
       "reparent_pdf_from": "SAX2VMII",
+      "merge_patch": {
+        "pages": "p. 124-130"
+      },
       "delete": [
         {
           "key": "SAX2VMII",
@@ -2284,6 +2651,9 @@
       "master_version": 4728,
       "master_has_pdf": false,
       "reparent_pdf_from": "Z789UUHR",
+      "merge_patch": {
+        "pages": "3 p."
+      },
       "delete": [
         {
           "key": "Z789UUHR",
@@ -2300,6 +2670,10 @@
       "master_version": 4728,
       "master_has_pdf": false,
       "reparent_pdf_from": "IKEMRHSS",
+      "merge_patch": {
+        "pages": "18 p.",
+        "date": "[1988?]"
+      },
       "delete": [
         {
           "key": "IKEMRHSS",
@@ -2316,6 +2690,10 @@
       "master_version": 4728,
       "master_has_pdf": false,
       "reparent_pdf_from": "8UJV3Z7D",
+      "merge_patch": {
+        "pages": "57 p.",
+        "date": "[1990?]"
+      },
       "delete": [
         {
           "key": "8UJV3Z7D",
@@ -2332,6 +2710,10 @@
       "master_version": 4757,
       "master_has_pdf": false,
       "reparent_pdf_from": "DNRI9IDZ",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "p. 101-104"
+      },
       "delete": [
         {
           "key": "DNRI9IDZ",
@@ -2348,6 +2730,9 @@
       "master_version": 4728,
       "master_has_pdf": false,
       "reparent_pdf_from": "42H296ZG",
+      "merge_patch": {
+        "pages": "p. 59-62"
+      },
       "delete": [
         {
           "key": "42H296ZG",
@@ -2364,6 +2749,9 @@
       "master_version": 4728,
       "master_has_pdf": false,
       "reparent_pdf_from": "IQNVI4FD",
+      "merge_patch": {
+        "pages": "12 p."
+      },
       "delete": [
         {
           "key": "IQNVI4FD",
@@ -2380,6 +2768,10 @@
       "master_version": 4728,
       "master_has_pdf": false,
       "reparent_pdf_from": "RX9DV7RQ",
+      "merge_patch": {
+        "pages": "4 p.",
+        "date": "[1985?]"
+      },
       "delete": [
         {
           "key": "RX9DV7RQ",
@@ -2396,6 +2788,10 @@
       "master_version": 4757,
       "master_has_pdf": false,
       "reparent_pdf_from": "SEU7MSDI",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "p. 200-220"
+      },
       "delete": [
         {
           "key": "SEU7MSDI",
@@ -2412,6 +2808,9 @@
       "master_version": 4728,
       "master_has_pdf": false,
       "reparent_pdf_from": "EXUHGUUT",
+      "merge_patch": {
+        "pages": "p. 60-61"
+      },
       "delete": [
         {
           "key": "EXUHGUUT",
@@ -2428,6 +2827,11 @@
       "master_version": 4757,
       "master_has_pdf": false,
       "reparent_pdf_from": "6KMCICR7",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "25 p.",
+        "date": "[1984?]"
+      },
       "delete": [
         {
           "key": "6KMCICR7",
@@ -2444,6 +2848,10 @@
       "master_version": 4728,
       "master_has_pdf": false,
       "reparent_pdf_from": "EEPSXBWX",
+      "merge_patch": {
+        "pages": "11 p.",
+        "date": "[1984?]"
+      },
       "delete": [
         {
           "key": "EEPSXBWX",
@@ -2460,6 +2868,9 @@
       "master_version": 4728,
       "master_has_pdf": false,
       "reparent_pdf_from": "I3DI63H7",
+      "merge_patch": {
+        "pages": "p. 53-56"
+      },
       "delete": [
         {
           "key": "I3DI63H7",
@@ -2476,6 +2887,9 @@
       "master_version": 4728,
       "master_has_pdf": false,
       "reparent_pdf_from": "7IC8DI4Z",
+      "merge_patch": {
+        "pages": "7 p."
+      },
       "delete": [
         {
           "key": "7IC8DI4Z",
@@ -2492,6 +2906,10 @@
       "master_version": 4710,
       "master_has_pdf": false,
       "reparent_pdf_from": "HFGEX3M4",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "p. 3-6"
+      },
       "delete": [
         {
           "key": "HFGEX3M4",
@@ -2508,6 +2926,10 @@
       "master_version": 4711,
       "master_has_pdf": false,
       "reparent_pdf_from": "7VFJPBRX",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "p. 513-519"
+      },
       "delete": [
         {
           "key": "7VFJPBRX",
@@ -2524,6 +2946,10 @@
       "master_version": 4711,
       "master_has_pdf": false,
       "reparent_pdf_from": "2QA9DE6A",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "8 p."
+      },
       "delete": [
         {
           "key": "2QA9DE6A",
@@ -2540,6 +2966,9 @@
       "master_version": 4727,
       "master_has_pdf": false,
       "reparent_pdf_from": "SCIVG43Q",
+      "merge_patch": {
+        "pages": "p. 50-56"
+      },
       "delete": [
         {
           "key": "SCIVG43Q",
@@ -2556,6 +2985,9 @@
       "master_version": 4727,
       "master_has_pdf": false,
       "reparent_pdf_from": "5MCF8S29",
+      "merge_patch": {
+        "pages": "149 p."
+      },
       "delete": [
         {
           "key": "5MCF8S29",
@@ -2572,6 +3004,10 @@
       "master_version": 4711,
       "master_has_pdf": false,
       "reparent_pdf_from": "VAAIHREK",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "p. 179-183"
+      },
       "delete": [
         {
           "key": "VAAIHREK",
@@ -2588,6 +3024,9 @@
       "master_version": 4727,
       "master_has_pdf": false,
       "reparent_pdf_from": "UUXUP27I",
+      "merge_patch": {
+        "pages": "p. 137-159"
+      },
       "delete": [
         {
           "key": "UUXUP27I",
@@ -2604,6 +3043,10 @@
       "master_version": 4727,
       "master_has_pdf": false,
       "reparent_pdf_from": "TSWKNW7E",
+      "merge_patch": {
+        "pages": "p. 23",
+        "date": "[1988?]"
+      },
       "delete": [
         {
           "key": "TSWKNW7E",
@@ -2620,6 +3063,9 @@
       "master_version": 4727,
       "master_has_pdf": false,
       "reparent_pdf_from": "KZHXPS56",
+      "merge_patch": {
+        "pages": "p. 42-44"
+      },
       "delete": [
         {
           "key": "KZHXPS56",
@@ -2636,6 +3082,10 @@
       "master_version": 4756,
       "master_has_pdf": false,
       "reparent_pdf_from": "2SQK3PCA",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "date": "[1988?]"
+      },
       "delete": [
         {
           "key": "2SQK3PCA",
@@ -2652,6 +3102,9 @@
       "master_version": 4756,
       "master_has_pdf": false,
       "reparent_pdf_from": "W8T8MXNP",
+      "merge_patch": {
+        "extra": "Faux doublon"
+      },
       "delete": [
         {
           "key": "W8T8MXNP",
@@ -2668,6 +3121,9 @@
       "master_version": 4727,
       "master_has_pdf": false,
       "reparent_pdf_from": "N23KT6E7",
+      "merge_patch": {
+        "pages": "23 p."
+      },
       "delete": [
         {
           "key": "N23KT6E7",
@@ -2684,6 +3140,10 @@
       "master_version": 4945,
       "master_has_pdf": false,
       "reparent_pdf_from": "DE4X4MI5",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "16 p."
+      },
       "delete": [
         {
           "key": "DE4X4MI5",
@@ -2700,6 +3160,9 @@
       "master_version": 4727,
       "master_has_pdf": false,
       "reparent_pdf_from": "PQXXNKNN",
+      "merge_patch": {
+        "pages": "p. 1"
+      },
       "delete": [
         {
           "key": "PQXXNKNN",
@@ -2716,6 +3179,9 @@
       "master_version": 4727,
       "master_has_pdf": false,
       "reparent_pdf_from": "DMZMPZUW",
+      "merge_patch": {
+        "pages": "p. 19"
+      },
       "delete": [
         {
           "key": "LS2QKGNA",
@@ -2744,6 +3210,10 @@
       "master_version": 4712,
       "master_has_pdf": false,
       "reparent_pdf_from": "95ZPCGIU",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "23 p."
+      },
       "delete": [
         {
           "key": "95ZPCGIU",
@@ -2760,6 +3230,9 @@
       "master_version": 4726,
       "master_has_pdf": false,
       "reparent_pdf_from": "7VZVCIG5",
+      "merge_patch": {
+        "pages": "11 p."
+      },
       "delete": [
         {
           "key": "IQY9DBK6",
@@ -2788,6 +3261,10 @@
       "master_version": 4752,
       "master_has_pdf": false,
       "reparent_pdf_from": "7W3BFBXM",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "12 p."
+      },
       "delete": [
         {
           "key": "7W3BFBXM",
@@ -2804,6 +3281,10 @@
       "master_version": 4718,
       "master_has_pdf": false,
       "reparent_pdf_from": "WGJTHMZE",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "2 p."
+      },
       "delete": [
         {
           "key": "WGJTHMZE",
@@ -2820,6 +3301,9 @@
       "master_version": 4726,
       "master_has_pdf": false,
       "reparent_pdf_from": "M49HFPAF",
+      "merge_patch": {
+        "pages": "1 p."
+      },
       "delete": [
         {
           "key": "M49HFPAF",
@@ -2836,6 +3320,10 @@
       "master_version": 4712,
       "master_has_pdf": false,
       "reparent_pdf_from": "R8RE9I23",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "1 p."
+      },
       "delete": [
         {
           "key": "R8RE9I23",
@@ -2852,6 +3340,10 @@
       "master_version": 4712,
       "master_has_pdf": false,
       "reparent_pdf_from": "P5ZWC7J9",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "1 p."
+      },
       "delete": [
         {
           "key": "P5ZWC7J9",
@@ -2868,6 +3360,9 @@
       "master_version": 4726,
       "master_has_pdf": false,
       "reparent_pdf_from": "MT42QXRE",
+      "merge_patch": {
+        "pages": "1 p."
+      },
       "delete": [
         {
           "key": "MT42QXRE",
@@ -2884,6 +3379,9 @@
       "master_version": 4726,
       "master_has_pdf": false,
       "reparent_pdf_from": "2JHHB4C2",
+      "merge_patch": {
+        "pages": "1 p."
+      },
       "delete": [
         {
           "key": "2JHHB4C2",
@@ -2900,6 +3398,9 @@
       "master_version": 4726,
       "master_has_pdf": false,
       "reparent_pdf_from": "ISAV2NA4",
+      "merge_patch": {
+        "pages": "1 p."
+      },
       "delete": [
         {
           "key": "ISAV2NA4",
@@ -2916,6 +3417,7 @@
       "master_version": 4726,
       "master_has_pdf": false,
       "reparent_pdf_from": "AWKXZUKN",
+      "merge_patch": {},
       "delete": [
         {
           "key": "AWKXZUKN",
@@ -2932,6 +3434,9 @@
       "master_version": 4726,
       "master_has_pdf": false,
       "reparent_pdf_from": "FAUXD66M",
+      "merge_patch": {
+        "pages": "p. 113-128"
+      },
       "delete": [
         {
           "key": "FAUXD66M",
@@ -2948,6 +3453,9 @@
       "master_version": 4726,
       "master_has_pdf": false,
       "reparent_pdf_from": "TK5GKWII",
+      "merge_patch": {
+        "pages": "p. 227-239"
+      },
       "delete": [
         {
           "key": "TK5GKWII",
@@ -2964,6 +3472,7 @@
       "master_version": 4726,
       "master_has_pdf": false,
       "reparent_pdf_from": "MKZNHPAE",
+      "merge_patch": {},
       "delete": [
         {
           "key": "MKZNHPAE",
@@ -2980,6 +3489,9 @@
       "master_version": 4726,
       "master_has_pdf": false,
       "reparent_pdf_from": "72QH9D45",
+      "merge_patch": {
+        "pages": "42 p."
+      },
       "delete": [
         {
           "key": "72QH9D45",
@@ -2996,6 +3508,9 @@
       "master_version": 4725,
       "master_has_pdf": false,
       "reparent_pdf_from": "6VJIF8K5",
+      "merge_patch": {
+        "pages": "16 p."
+      },
       "delete": [
         {
           "key": "6VJIF8K5",
@@ -3012,6 +3527,9 @@
       "master_version": 4725,
       "master_has_pdf": false,
       "reparent_pdf_from": "AJ4JVA8S",
+      "merge_patch": {
+        "pages": "64 p."
+      },
       "delete": [
         {
           "key": "AJ4JVA8S",
@@ -3028,6 +3546,9 @@
       "master_version": 4725,
       "master_has_pdf": false,
       "reparent_pdf_from": "B4A9M76H",
+      "merge_patch": {
+        "pages": "35 p."
+      },
       "delete": [
         {
           "key": "B4A9M76H",
@@ -3044,6 +3565,10 @@
       "master_version": 4747,
       "master_has_pdf": false,
       "reparent_pdf_from": "HUHAP5ER",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "p. 38-48"
+      },
       "delete": [
         {
           "key": "HUHAP5ER",
@@ -3060,6 +3585,9 @@
       "master_version": 4725,
       "master_has_pdf": false,
       "reparent_pdf_from": "XHMS4BKW",
+      "merge_patch": {
+        "pages": "p. 11-15"
+      },
       "delete": [
         {
           "key": "XHMS4BKW",
@@ -3076,6 +3604,9 @@
       "master_version": 4725,
       "master_has_pdf": false,
       "reparent_pdf_from": "TCUZNTPC",
+      "merge_patch": {
+        "pages": "p. 337-350"
+      },
       "delete": [
         {
           "key": "TCUZNTPC",
@@ -3092,6 +3623,10 @@
       "master_version": 4773,
       "master_has_pdf": false,
       "reparent_pdf_from": "K4572FIQ",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "p. 307-319"
+      },
       "delete": [
         {
           "key": "K4572FIQ",
@@ -3108,6 +3643,10 @@
       "master_version": 4772,
       "master_has_pdf": false,
       "reparent_pdf_from": "6C39AAH3",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "p. 173-182"
+      },
       "delete": [
         {
           "key": "6C39AAH3",
@@ -3124,6 +3663,9 @@
       "master_version": 4725,
       "master_has_pdf": false,
       "reparent_pdf_from": "MF3MBWNN",
+      "merge_patch": {
+        "pages": "p. 22-27"
+      },
       "delete": [
         {
           "key": "MF3MBWNN",
@@ -3140,6 +3682,9 @@
       "master_version": 4761,
       "master_has_pdf": false,
       "reparent_pdf_from": "NHBSP8EF",
+      "merge_patch": {
+        "pages": "p. 10-11"
+      },
       "delete": [
         {
           "key": "NHBSP8EF",
@@ -3156,6 +3701,9 @@
       "master_version": 4725,
       "master_has_pdf": false,
       "reparent_pdf_from": "2Q5P3FXM",
+      "merge_patch": {
+        "pages": "p. 235-240"
+      },
       "delete": [
         {
           "key": "2Q5P3FXM",
@@ -3172,6 +3720,10 @@
       "master_version": 4773,
       "master_has_pdf": false,
       "reparent_pdf_from": "V65SIU8B",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "16 p."
+      },
       "delete": [
         {
           "key": "V65SIU8B",
@@ -3188,6 +3740,11 @@
       "master_version": 4772,
       "master_has_pdf": false,
       "reparent_pdf_from": "PWW3742E",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "26 p.",
+        "date": "[1983 ?]"
+      },
       "delete": [
         {
           "key": "PWW3742E",
@@ -3204,6 +3761,7 @@
       "master_version": 4762,
       "master_has_pdf": false,
       "reparent_pdf_from": "N9QHWTDQ",
+      "merge_patch": {},
       "delete": [
         {
           "key": "N9QHWTDQ",
@@ -3220,6 +3778,9 @@
       "master_version": 4762,
       "master_has_pdf": false,
       "reparent_pdf_from": "ZA2AN2RW",
+      "merge_patch": {
+        "pages": "p. 33-39"
+      },
       "delete": [
         {
           "key": "ZA2AN2RW",
@@ -3236,6 +3797,9 @@
       "master_version": 4725,
       "master_has_pdf": false,
       "reparent_pdf_from": "MRRKCGXT",
+      "merge_patch": {
+        "pages": "67 p."
+      },
       "delete": [
         {
           "key": "MRRKCGXT",
@@ -3252,6 +3816,9 @@
       "master_version": 4762,
       "master_has_pdf": false,
       "reparent_pdf_from": "VUVB6FFV",
+      "merge_patch": {
+        "pages": "97 p."
+      },
       "delete": [
         {
           "key": "VUVB6FFV",
@@ -3268,6 +3835,9 @@
       "master_version": 4762,
       "master_has_pdf": false,
       "reparent_pdf_from": "KR7P33XE",
+      "merge_patch": {
+        "pages": "178 p."
+      },
       "delete": [
         {
           "key": "KR7P33XE",
@@ -3284,6 +3854,9 @@
       "master_version": 4761,
       "master_has_pdf": false,
       "reparent_pdf_from": "W6I9VCWN",
+      "merge_patch": {
+        "pages": "101 p."
+      },
       "delete": [
         {
           "key": "W6I9VCWN",
@@ -3300,6 +3873,9 @@
       "master_version": 4725,
       "master_has_pdf": false,
       "reparent_pdf_from": "CGA8W7NW",
+      "merge_patch": {
+        "pages": "14 p."
+      },
       "delete": [
         {
           "key": "CGA8W7NW",
@@ -3316,6 +3892,9 @@
       "master_version": 4724,
       "master_has_pdf": false,
       "reparent_pdf_from": "EJU24ECE",
+      "merge_patch": {
+        "pages": "43 p."
+      },
       "delete": [
         {
           "key": "EJU24ECE",
@@ -3332,6 +3911,9 @@
       "master_version": 4724,
       "master_has_pdf": false,
       "reparent_pdf_from": "6DJ5X44I",
+      "merge_patch": {
+        "pages": "66 p."
+      },
       "delete": [
         {
           "key": "6DJ5X44I",
@@ -3348,6 +3930,7 @@
       "master_version": 4724,
       "master_has_pdf": false,
       "reparent_pdf_from": "KFGBVQCC",
+      "merge_patch": {},
       "delete": [
         {
           "key": "KFGBVQCC",
@@ -3364,6 +3947,9 @@
       "master_version": 4724,
       "master_has_pdf": false,
       "reparent_pdf_from": "ZIH2BSDX",
+      "merge_patch": {
+        "pages": "23 p."
+      },
       "delete": [
         {
           "key": "ZIH2BSDX",
@@ -3380,6 +3966,9 @@
       "master_version": 4762,
       "master_has_pdf": false,
       "reparent_pdf_from": "NI8G2IA9",
+      "merge_patch": {
+        "pages": "8 p."
+      },
       "delete": [
         {
           "key": "NI8G2IA9",
@@ -3396,6 +3985,10 @@
       "master_version": 4756,
       "master_has_pdf": false,
       "reparent_pdf_from": "5F7W9BW7",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "p. 113-120"
+      },
       "delete": [
         {
           "key": "5F7W9BW7",
@@ -3412,6 +4005,10 @@
       "master_version": 4757,
       "master_has_pdf": false,
       "reparent_pdf_from": "JWKJD8EF",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "date": "[1991?]"
+      },
       "delete": [
         {
           "key": "JWKJD8EF",
@@ -3428,6 +4025,10 @@
       "master_version": 4757,
       "master_has_pdf": false,
       "reparent_pdf_from": "XDTXNQCB",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "p. 84-99"
+      },
       "delete": [
         {
           "key": "XDTXNQCB",
@@ -3444,6 +4045,9 @@
       "master_version": 4724,
       "master_has_pdf": false,
       "reparent_pdf_from": "PXXDVHUW",
+      "merge_patch": {
+        "pages": "p. 5-7"
+      },
       "delete": [
         {
           "key": "PXXDVHUW",
@@ -3460,6 +4064,9 @@
       "master_version": 4724,
       "master_has_pdf": false,
       "reparent_pdf_from": "WAGRQAKA",
+      "merge_patch": {
+        "pages": "p. 4-17"
+      },
       "delete": [
         {
           "key": "WAGRQAKA",
@@ -3476,6 +4083,9 @@
       "master_version": 4724,
       "master_has_pdf": false,
       "reparent_pdf_from": "KKJWG2EV",
+      "merge_patch": {
+        "pages": "25 p."
+      },
       "delete": [
         {
           "key": "KKJWG2EV",
@@ -3492,6 +4102,9 @@
       "master_version": 4724,
       "master_has_pdf": false,
       "reparent_pdf_from": "FXDWUJ3P",
+      "merge_patch": {
+        "pages": "p. 5-12"
+      },
       "delete": [
         {
           "key": "FXDWUJ3P",
@@ -3508,6 +4121,9 @@
       "master_version": 4762,
       "master_has_pdf": false,
       "reparent_pdf_from": "QB3QB4SI",
+      "merge_patch": {
+        "pages": "p. 3"
+      },
       "delete": [
         {
           "key": "QB3QB4SI",
@@ -3524,6 +4140,9 @@
       "master_version": 4761,
       "master_has_pdf": false,
       "reparent_pdf_from": "I2ZQCFU9",
+      "merge_patch": {
+        "pages": "p. 33-47"
+      },
       "delete": [
         {
           "key": "I2ZQCFU9",
@@ -3540,6 +4159,9 @@
       "master_version": 4761,
       "master_has_pdf": false,
       "reparent_pdf_from": "AX457RD9",
+      "merge_patch": {
+        "pages": "p. 121-146"
+      },
       "delete": [
         {
           "key": "AX457RD9",
@@ -3556,6 +4178,9 @@
       "master_version": 4761,
       "master_has_pdf": false,
       "reparent_pdf_from": "7RMW5PAC",
+      "merge_patch": {
+        "pages": "p. 285-300"
+      },
       "delete": [
         {
           "key": "7RMW5PAC",
@@ -3572,6 +4197,9 @@
       "master_version": 4756,
       "master_has_pdf": false,
       "reparent_pdf_from": "X9VMPEXG",
+      "merge_patch": {
+        "extra": "Faux doublon"
+      },
       "delete": [
         {
           "key": "X9VMPEXG",
@@ -3588,6 +4216,9 @@
       "master_version": 4761,
       "master_has_pdf": false,
       "reparent_pdf_from": "PMW64742",
+      "merge_patch": {
+        "pages": "p. 68-73"
+      },
       "delete": [
         {
           "key": "PMW64742",
@@ -3604,6 +4235,7 @@
       "master_version": 4761,
       "master_has_pdf": false,
       "reparent_pdf_from": "BZUEVRD5",
+      "merge_patch": {},
       "delete": [
         {
           "key": "BZUEVRD5",
@@ -3620,6 +4252,9 @@
       "master_version": 4761,
       "master_has_pdf": false,
       "reparent_pdf_from": "45UPV6FG",
+      "merge_patch": {
+        "pages": "1 p."
+      },
       "delete": [
         {
           "key": "45UPV6FG",
@@ -3636,6 +4271,9 @@
       "master_version": 4761,
       "master_has_pdf": false,
       "reparent_pdf_from": "ISE84VAJ",
+      "merge_patch": {
+        "pages": "p. 3-6"
+      },
       "delete": [
         {
           "key": "ISE84VAJ",
@@ -3652,6 +4290,10 @@
       "master_version": 4743,
       "master_has_pdf": false,
       "reparent_pdf_from": "SSR3X9CE",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "p. 483-489"
+      },
       "delete": [
         {
           "key": "SSR3X9CE",
@@ -3668,6 +4310,9 @@
       "master_version": 4761,
       "master_has_pdf": false,
       "reparent_pdf_from": "XFJUVWMK",
+      "merge_patch": {
+        "pages": "15 p."
+      },
       "delete": [
         {
           "key": "XFJUVWMK",
@@ -3684,6 +4329,9 @@
       "master_version": 4760,
       "master_has_pdf": false,
       "reparent_pdf_from": "7JEM37IZ",
+      "merge_patch": {
+        "pages": "5 p."
+      },
       "delete": [
         {
           "key": "7JEM37IZ",
@@ -3700,6 +4348,10 @@
       "master_version": 4756,
       "master_has_pdf": false,
       "reparent_pdf_from": "QKPWFZDE",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "p. 79-88"
+      },
       "delete": [
         {
           "key": "QKPWFZDE",
@@ -3716,6 +4368,9 @@
       "master_version": 4757,
       "master_has_pdf": false,
       "reparent_pdf_from": "CX724TWK",
+      "merge_patch": {
+        "extra": "Faux doublon"
+      },
       "delete": [
         {
           "key": "CX724TWK",
@@ -3732,6 +4387,9 @@
       "master_version": 4760,
       "master_has_pdf": false,
       "reparent_pdf_from": "KPJP75X8",
+      "merge_patch": {
+        "pages": "p. 1-7"
+      },
       "delete": [
         {
           "key": "KPJP75X8",
@@ -3748,6 +4406,9 @@
       "master_version": 4760,
       "master_has_pdf": false,
       "reparent_pdf_from": "JCQDB5IK",
+      "merge_patch": {
+        "pages": "p. 131-134"
+      },
       "delete": [
         {
           "key": "JCQDB5IK",
@@ -3764,6 +4425,9 @@
       "master_version": 4760,
       "master_has_pdf": false,
       "reparent_pdf_from": "B9TAFFQ5",
+      "merge_patch": {
+        "pages": "p. 326-329"
+      },
       "delete": [
         {
           "key": "B9TAFFQ5",
@@ -3780,6 +4444,9 @@
       "master_version": 4760,
       "master_has_pdf": false,
       "reparent_pdf_from": "ZGX96AG5",
+      "merge_patch": {
+        "pages": "2 p."
+      },
       "delete": [
         {
           "key": "ZGX96AG5",
@@ -3796,6 +4463,9 @@
       "master_version": 4753,
       "master_has_pdf": false,
       "reparent_pdf_from": "K2XG46A6",
+      "merge_patch": {
+        "extra": "Faux doublon"
+      },
       "delete": [
         {
           "key": "K2XG46A6",
@@ -3812,6 +4482,9 @@
       "master_version": 4760,
       "master_has_pdf": false,
       "reparent_pdf_from": "UVQGVEM8",
+      "merge_patch": {
+        "pages": "p. 297-304"
+      },
       "delete": [
         {
           "key": "UVQGVEM8",
@@ -3828,6 +4501,7 @@
       "master_version": 4760,
       "master_has_pdf": false,
       "reparent_pdf_from": "SSETIZJP",
+      "merge_patch": {},
       "delete": [
         {
           "key": "SSETIZJP",
@@ -3844,6 +4518,9 @@
       "master_version": 4760,
       "master_has_pdf": false,
       "reparent_pdf_from": "NEX6TADS",
+      "merge_patch": {
+        "pages": "p. 10-13"
+      },
       "delete": [
         {
           "key": "NEX6TADS",
@@ -3860,6 +4537,9 @@
       "master_version": 4760,
       "master_has_pdf": false,
       "reparent_pdf_from": "2E337FG3",
+      "merge_patch": {
+        "pages": "p. 5-13"
+      },
       "delete": [
         {
           "key": "2E337FG3",
@@ -3876,6 +4556,9 @@
       "master_version": 4760,
       "master_has_pdf": false,
       "reparent_pdf_from": "7B7NQVU2",
+      "merge_patch": {
+        "pages": "p. 321-361"
+      },
       "delete": [
         {
           "key": "7B7NQVU2",
@@ -3892,6 +4575,9 @@
       "master_version": 4759,
       "master_has_pdf": false,
       "reparent_pdf_from": "S7UAHWFG",
+      "merge_patch": {
+        "pages": "p. 53-60"
+      },
       "delete": [
         {
           "key": "S7UAHWFG",
@@ -3908,6 +4594,7 @@
       "master_version": 4759,
       "master_has_pdf": false,
       "reparent_pdf_from": "MKC7XSPN",
+      "merge_patch": {},
       "delete": [
         {
           "key": "MKC7XSPN",
@@ -3924,6 +4611,9 @@
       "master_version": 4759,
       "master_has_pdf": false,
       "reparent_pdf_from": "W8AUTTVU",
+      "merge_patch": {
+        "pages": "p. 47-51"
+      },
       "delete": [
         {
           "key": "W8AUTTVU",
@@ -3940,6 +4630,9 @@
       "master_version": 4759,
       "master_has_pdf": false,
       "reparent_pdf_from": "F3WD6335",
+      "merge_patch": {
+        "pages": "p. 258-265"
+      },
       "delete": [
         {
           "key": "F3WD6335",
@@ -3956,6 +4649,9 @@
       "master_version": 4759,
       "master_has_pdf": false,
       "reparent_pdf_from": "DIGXFRPD",
+      "merge_patch": {
+        "pages": "48 p."
+      },
       "delete": [
         {
           "key": "DIGXFRPD",
@@ -3972,6 +4668,9 @@
       "master_version": 4717,
       "master_has_pdf": false,
       "reparent_pdf_from": "5FI2AJBR",
+      "merge_patch": {
+        "pages": "6 p."
+      },
       "delete": [
         {
           "key": "5FI2AJBR",
@@ -3988,6 +4687,9 @@
       "master_version": 4759,
       "master_has_pdf": false,
       "reparent_pdf_from": "A8278KI4",
+      "merge_patch": {
+        "pages": "p. 9-13"
+      },
       "delete": [
         {
           "key": "A8278KI4",
@@ -4004,6 +4706,9 @@
       "master_version": 4759,
       "master_has_pdf": false,
       "reparent_pdf_from": "45FR22QM",
+      "merge_patch": {
+        "pages": "1 p."
+      },
       "delete": [
         {
           "key": "45FR22QM",
@@ -4020,6 +4725,9 @@
       "master_version": 4717,
       "master_has_pdf": false,
       "reparent_pdf_from": "U7PXMZZI",
+      "merge_patch": {
+        "date": "[1995?]"
+      },
       "delete": [
         {
           "key": "U7PXMZZI",
@@ -4036,6 +4744,7 @@
       "master_version": 4759,
       "master_has_pdf": false,
       "reparent_pdf_from": "GSZKKKVI",
+      "merge_patch": {},
       "delete": [
         {
           "key": "GSZKKKVI",
@@ -4052,6 +4761,9 @@
       "master_version": 4758,
       "master_has_pdf": false,
       "reparent_pdf_from": "EBKP4BVS",
+      "merge_patch": {
+        "pages": "11 p."
+      },
       "delete": [
         {
           "key": "EBKP4BVS",
@@ -4068,6 +4780,9 @@
       "master_version": 4758,
       "master_has_pdf": false,
       "reparent_pdf_from": "R9XTDGBF",
+      "merge_patch": {
+        "pages": "p. 9-20"
+      },
       "delete": [
         {
           "key": "R9XTDGBF",
@@ -4084,6 +4799,7 @@
       "master_version": 4758,
       "master_has_pdf": false,
       "reparent_pdf_from": "QKIAK4GD",
+      "merge_patch": {},
       "delete": [
         {
           "key": "QKIAK4GD",
@@ -4100,6 +4816,9 @@
       "master_version": 4758,
       "master_has_pdf": false,
       "reparent_pdf_from": "QSKV5NVQ",
+      "merge_patch": {
+        "pages": "p. 11"
+      },
       "delete": [
         {
           "key": "QSKV5NVQ",
@@ -4116,6 +4835,9 @@
       "master_version": 4758,
       "master_has_pdf": false,
       "reparent_pdf_from": "B6FJ27I5",
+      "merge_patch": {
+        "pages": "p. 89-91"
+      },
       "delete": [
         {
           "key": "B6FJ27I5",
@@ -4132,6 +4854,9 @@
       "master_version": 4758,
       "master_has_pdf": false,
       "reparent_pdf_from": "BV9SMDZ3",
+      "merge_patch": {
+        "pages": "p. 100-103"
+      },
       "delete": [
         {
           "key": "BV9SMDZ3",
@@ -4148,6 +4873,9 @@
       "master_version": 4758,
       "master_has_pdf": false,
       "reparent_pdf_from": "E3TZBXRG",
+      "merge_patch": {
+        "pages": "p. 161-186"
+      },
       "delete": [
         {
           "key": "E3TZBXRG",
@@ -4164,6 +4892,9 @@
       "master_version": 4757,
       "master_has_pdf": false,
       "reparent_pdf_from": "QU7HR3ZH",
+      "merge_patch": {
+        "pages": "20 p."
+      },
       "delete": [
         {
           "key": "QU7HR3ZH",
@@ -4180,6 +4911,9 @@
       "master_version": 4757,
       "master_has_pdf": false,
       "reparent_pdf_from": "4J2JVQBJ",
+      "merge_patch": {
+        "pages": "p. 341-345"
+      },
       "delete": [
         {
           "key": "4J2JVQBJ",
@@ -4196,6 +4930,9 @@
       "master_version": 4744,
       "master_has_pdf": false,
       "reparent_pdf_from": "4G2SN32H",
+      "merge_patch": {
+        "extra": "Faux doublon"
+      },
       "delete": [
         {
           "key": "4G2SN32H",
@@ -4212,6 +4949,9 @@
       "master_version": 4757,
       "master_has_pdf": false,
       "reparent_pdf_from": "X6ZGD7K4",
+      "merge_patch": {
+        "pages": "p. 19-21"
+      },
       "delete": [
         {
           "key": "X6ZGD7K4",
@@ -4228,6 +4968,7 @@
       "master_version": 4757,
       "master_has_pdf": false,
       "reparent_pdf_from": "RQ6CV4JM",
+      "merge_patch": {},
       "delete": [
         {
           "key": "RQ6CV4JM",
@@ -4244,6 +4985,9 @@
       "master_version": 4756,
       "master_has_pdf": false,
       "reparent_pdf_from": "F35NEGAA",
+      "merge_patch": {
+        "pages": "8 p."
+      },
       "delete": [
         {
           "key": "F35NEGAA",
@@ -4260,6 +5004,9 @@
       "master_version": 4756,
       "master_has_pdf": false,
       "reparent_pdf_from": "PM5QG3DM",
+      "merge_patch": {
+        "pages": "5 p."
+      },
       "delete": [
         {
           "key": "PM5QG3DM",
@@ -4276,6 +5023,9 @@
       "master_version": 4756,
       "master_has_pdf": false,
       "reparent_pdf_from": "ZXG949U6",
+      "merge_patch": {
+        "pages": "5 p."
+      },
       "delete": [
         {
           "key": "ZXG949U6",
@@ -4292,6 +5042,9 @@
       "master_version": 4716,
       "master_has_pdf": false,
       "reparent_pdf_from": "8FD2RPGZ",
+      "merge_patch": {
+        "date": "[1983?]"
+      },
       "delete": [
         {
           "key": "8FD2RPGZ",
@@ -4308,6 +5061,10 @@
       "master_version": 4744,
       "master_has_pdf": false,
       "reparent_pdf_from": "HDTEWUZK",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "p. 57"
+      },
       "delete": [
         {
           "key": "HDTEWUZK",
@@ -4324,6 +5081,7 @@
       "master_version": 4717,
       "master_has_pdf": false,
       "reparent_pdf_from": "HSGZSS5A",
+      "merge_patch": {},
       "delete": [
         {
           "key": "HSGZSS5A",
@@ -4340,6 +5098,9 @@
       "master_version": 4756,
       "master_has_pdf": false,
       "reparent_pdf_from": "UIUPQR27",
+      "merge_patch": {
+        "pages": "3 p."
+      },
       "delete": [
         {
           "key": "UIUPQR27",
@@ -4356,6 +5117,9 @@
       "master_version": 4756,
       "master_has_pdf": false,
       "reparent_pdf_from": "NPICZWGH",
+      "merge_patch": {
+        "date": "[1990?]"
+      },
       "delete": [
         {
           "key": "NPICZWGH",
@@ -4372,6 +5136,9 @@
       "master_version": 4755,
       "master_has_pdf": false,
       "reparent_pdf_from": "T326NTF5",
+      "merge_patch": {
+        "pages": "p. 15-30"
+      },
       "delete": [
         {
           "key": "T326NTF5",
@@ -4388,6 +5155,9 @@
       "master_version": 4755,
       "master_has_pdf": false,
       "reparent_pdf_from": "HZUCDXN3",
+      "merge_patch": {
+        "pages": "p. 10-11"
+      },
       "delete": [
         {
           "key": "HZUCDXN3",
@@ -4404,6 +5174,9 @@
       "master_version": 4755,
       "master_has_pdf": false,
       "reparent_pdf_from": "4SPBDD8W",
+      "merge_patch": {
+        "pages": "p. 184-201"
+      },
       "delete": [
         {
           "key": "4SPBDD8W",
@@ -4420,6 +5193,9 @@
       "master_version": 4755,
       "master_has_pdf": false,
       "reparent_pdf_from": "A79CTSCC",
+      "merge_patch": {
+        "pages": "p. 25-28"
+      },
       "delete": [
         {
           "key": "A79CTSCC",
@@ -4436,6 +5212,9 @@
       "master_version": 4755,
       "master_has_pdf": false,
       "reparent_pdf_from": "NZVCJIFM",
+      "merge_patch": {
+        "pages": "1 p."
+      },
       "delete": [
         {
           "key": "NZVCJIFM",
@@ -4452,6 +5231,9 @@
       "master_version": 4755,
       "master_has_pdf": false,
       "reparent_pdf_from": "ED63R8GZ",
+      "merge_patch": {
+        "pages": "p. 27-28"
+      },
       "delete": [
         {
           "key": "ED63R8GZ",
@@ -4468,6 +5250,9 @@
       "master_version": 4755,
       "master_has_pdf": false,
       "reparent_pdf_from": "5VPB96GJ",
+      "merge_patch": {
+        "pages": "7 p."
+      },
       "delete": [
         {
           "key": "5VPB96GJ",
@@ -4484,6 +5269,9 @@
       "master_version": 4755,
       "master_has_pdf": false,
       "reparent_pdf_from": "43IRMGA3",
+      "merge_patch": {
+        "pages": "15 p."
+      },
       "delete": [
         {
           "key": "43IRMGA3",
@@ -4500,6 +5288,9 @@
       "master_version": 4755,
       "master_has_pdf": false,
       "reparent_pdf_from": "RA8I4BSI",
+      "merge_patch": {
+        "extra": "Faux doublon"
+      },
       "delete": [
         {
           "key": "RA8I4BSI",
@@ -4516,6 +5307,9 @@
       "master_version": 4755,
       "master_has_pdf": false,
       "reparent_pdf_from": "6SQCNW3V",
+      "merge_patch": {
+        "pages": "13 p."
+      },
       "delete": [
         {
           "key": "6SQCNW3V",
@@ -4532,6 +5326,9 @@
       "master_version": 4754,
       "master_has_pdf": false,
       "reparent_pdf_from": "AUK48RSP",
+      "merge_patch": {
+        "pages": "1 p."
+      },
       "delete": [
         {
           "key": "AUK48RSP",
@@ -4548,6 +5345,7 @@
       "master_version": 4754,
       "master_has_pdf": false,
       "reparent_pdf_from": "MEKTTNGZ",
+      "merge_patch": {},
       "delete": [
         {
           "key": "MEKTTNGZ",
@@ -4564,6 +5362,9 @@
       "master_version": 4754,
       "master_has_pdf": false,
       "reparent_pdf_from": "BNNWT366",
+      "merge_patch": {
+        "date": "[1997?]"
+      },
       "delete": [
         {
           "key": "BNNWT366",
@@ -4580,6 +5381,9 @@
       "master_version": 4718,
       "master_has_pdf": false,
       "reparent_pdf_from": "5FHC5826",
+      "merge_patch": {
+        "extra": "Faux doublon"
+      },
       "delete": [
         {
           "key": "5FHC5826",
@@ -4596,6 +5400,9 @@
       "master_version": 4754,
       "master_has_pdf": false,
       "reparent_pdf_from": "6A5RAZ6K",
+      "merge_patch": {
+        "date": "[1998?]"
+      },
       "delete": [
         {
           "key": "6A5RAZ6K",
@@ -4612,6 +5419,9 @@
       "master_version": 4754,
       "master_has_pdf": false,
       "reparent_pdf_from": "J2J65F5U",
+      "merge_patch": {
+        "date": "[1998?]"
+      },
       "delete": [
         {
           "key": "J2J65F5U",
@@ -4628,6 +5438,7 @@
       "master_version": 4754,
       "master_has_pdf": false,
       "reparent_pdf_from": "DQ2I4793",
+      "merge_patch": {},
       "delete": [
         {
           "key": "DQ2I4793",
@@ -4644,6 +5455,9 @@
       "master_version": 4754,
       "master_has_pdf": false,
       "reparent_pdf_from": "2VIB5EVX",
+      "merge_patch": {
+        "pages": "p. 57-59"
+      },
       "delete": [
         {
           "key": "2VIB5EVX",
@@ -4660,6 +5474,9 @@
       "master_version": 4754,
       "master_has_pdf": false,
       "reparent_pdf_from": "QW6ZD3UA",
+      "merge_patch": {
+        "pages": "8 p."
+      },
       "delete": [
         {
           "key": "QW6ZD3UA",
@@ -4676,6 +5493,9 @@
       "master_version": 4754,
       "master_has_pdf": false,
       "reparent_pdf_from": "49DRC5BJ",
+      "merge_patch": {
+        "pages": "8 p."
+      },
       "delete": [
         {
           "key": "49DRC5BJ",
@@ -4692,6 +5512,9 @@
       "master_version": 4754,
       "master_has_pdf": false,
       "reparent_pdf_from": "653KK3ES",
+      "merge_patch": {
+        "pages": "15 p."
+      },
       "delete": [
         {
           "key": "653KK3ES",
@@ -4708,6 +5531,7 @@
       "master_version": 4753,
       "master_has_pdf": false,
       "reparent_pdf_from": "TVBSHVFV",
+      "merge_patch": {},
       "delete": [
         {
           "key": "TVBSHVFV",
@@ -4724,6 +5548,9 @@
       "master_version": 4753,
       "master_has_pdf": false,
       "reparent_pdf_from": "G9UFIE4S",
+      "merge_patch": {
+        "pages": "2 p."
+      },
       "delete": [
         {
           "key": "G9UFIE4S",
@@ -4740,6 +5567,9 @@
       "master_version": 4753,
       "master_has_pdf": false,
       "reparent_pdf_from": "P3GGJE2N",
+      "merge_patch": {
+        "pages": "12 p."
+      },
       "delete": [
         {
           "key": "P3GGJE2N",
@@ -4756,6 +5586,10 @@
       "master_version": 4772,
       "master_has_pdf": false,
       "reparent_pdf_from": "M5SVJNK9",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "9 p."
+      },
       "delete": [
         {
           "key": "M5SVJNK9",
@@ -4772,6 +5606,10 @@
       "master_version": 4711,
       "master_has_pdf": false,
       "reparent_pdf_from": "P8VAKXDT",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "7 p."
+      },
       "delete": [
         {
           "key": "P8VAKXDT",
@@ -4788,6 +5626,10 @@
       "master_version": 4719,
       "master_has_pdf": false,
       "reparent_pdf_from": "8ZRXKQ24",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "date": "[1989?]"
+      },
       "delete": [
         {
           "key": "8ZRXKQ24",
@@ -4804,6 +5646,9 @@
       "master_version": 4718,
       "master_has_pdf": false,
       "reparent_pdf_from": "JQI4PVB2",
+      "merge_patch": {
+        "pages": "11 p."
+      },
       "delete": [
         {
           "key": "JQI4PVB2",
@@ -4820,6 +5665,10 @@
       "master_version": 4718,
       "master_has_pdf": false,
       "reparent_pdf_from": "R9PDF84G",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "7 p."
+      },
       "delete": [
         {
           "key": "R9PDF84G",
@@ -4836,6 +5685,10 @@
       "master_version": 4718,
       "master_has_pdf": false,
       "reparent_pdf_from": "V4X5KF5U",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "date": "[1983?]"
+      },
       "delete": [
         {
           "key": "V4X5KF5U",
@@ -4852,6 +5705,9 @@
       "master_version": 4718,
       "master_has_pdf": false,
       "reparent_pdf_from": "JWRAM3F2",
+      "merge_patch": {
+        "pages": "11 p."
+      },
       "delete": [
         {
           "key": "JWRAM3F2",
@@ -4868,6 +5724,9 @@
       "master_version": 4718,
       "master_has_pdf": false,
       "reparent_pdf_from": "TDEZKWKG",
+      "merge_patch": {
+        "pages": "1 p."
+      },
       "delete": [
         {
           "key": "TDEZKWKG",
@@ -4884,6 +5743,7 @@
       "master_version": 4718,
       "master_has_pdf": false,
       "reparent_pdf_from": "9B94GBR5",
+      "merge_patch": {},
       "delete": [
         {
           "key": "9B94GBR5",
@@ -4900,6 +5760,7 @@
       "master_version": 4718,
       "master_has_pdf": false,
       "reparent_pdf_from": "HWV8MR8S",
+      "merge_patch": {},
       "delete": [
         {
           "key": "HWV8MR8S",
@@ -4916,6 +5777,7 @@
       "master_version": 4718,
       "master_has_pdf": false,
       "reparent_pdf_from": "TK68FWJP",
+      "merge_patch": {},
       "delete": [
         {
           "key": "TK68FWJP",
@@ -4932,6 +5794,9 @@
       "master_version": 4717,
       "master_has_pdf": false,
       "reparent_pdf_from": "FTRWJUVH",
+      "merge_patch": {
+        "extra": "Faux doublon"
+      },
       "delete": [
         {
           "key": "FTRWJUVH",
@@ -4948,6 +5813,10 @@
       "master_version": 4717,
       "master_has_pdf": false,
       "reparent_pdf_from": "GRN6J9A8",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "16 p."
+      },
       "delete": [
         {
           "key": "GRN6J9A8",
@@ -4964,6 +5833,9 @@
       "master_version": 4717,
       "master_has_pdf": false,
       "reparent_pdf_from": "9DIEISPG",
+      "merge_patch": {
+        "date": "[1980?]"
+      },
       "delete": [
         {
           "key": "9DIEISPG",
@@ -4980,6 +5852,7 @@
       "master_version": 4717,
       "master_has_pdf": false,
       "reparent_pdf_from": "GU6UCWAJ",
+      "merge_patch": {},
       "delete": [
         {
           "key": "GU6UCWAJ",
@@ -4996,6 +5869,9 @@
       "master_version": 4714,
       "master_has_pdf": false,
       "reparent_pdf_from": "TNCKXTSX",
+      "merge_patch": {
+        "pages": "1 p."
+      },
       "delete": [
         {
           "key": "TNCKXTSX",
@@ -5012,6 +5888,9 @@
       "master_version": 4717,
       "master_has_pdf": false,
       "reparent_pdf_from": "4T4V4B6A",
+      "merge_patch": {
+        "pages": "78 p."
+      },
       "delete": [
         {
           "key": "4T4V4B6A",
@@ -5028,6 +5907,9 @@
       "master_version": 4717,
       "master_has_pdf": false,
       "reparent_pdf_from": "K8UNUJTZ",
+      "merge_patch": {
+        "pages": "7 p."
+      },
       "delete": [
         {
           "key": "K8UNUJTZ",
@@ -5044,6 +5926,10 @@
       "master_version": 4909,
       "master_has_pdf": false,
       "reparent_pdf_from": "BDNBE243",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "22 p."
+      },
       "delete": [
         {
           "key": "BDNBE243",
@@ -5060,6 +5946,9 @@
       "master_version": 4716,
       "master_has_pdf": false,
       "reparent_pdf_from": "8ZWI5NQI",
+      "merge_patch": {
+        "pages": "6 p."
+      },
       "delete": [
         {
           "key": "8ZWI5NQI",
@@ -5076,6 +5965,9 @@
       "master_version": 4716,
       "master_has_pdf": false,
       "reparent_pdf_from": "FGBB45ZK",
+      "merge_patch": {
+        "pages": "17 p."
+      },
       "delete": [
         {
           "key": "FGBB45ZK",
@@ -5092,6 +5984,9 @@
       "master_version": 4716,
       "master_has_pdf": false,
       "reparent_pdf_from": "M2TIITD5",
+      "merge_patch": {
+        "pages": "6 p."
+      },
       "delete": [
         {
           "key": "M2TIITD5",
@@ -5108,6 +6003,9 @@
       "master_version": 4716,
       "master_has_pdf": false,
       "reparent_pdf_from": "TJVEF7JU",
+      "merge_patch": {
+        "pages": "2 p."
+      },
       "delete": [
         {
           "key": "TJVEF7JU",
@@ -5124,6 +6022,9 @@
       "master_version": 4710,
       "master_has_pdf": false,
       "reparent_pdf_from": "SVDDZEFJ",
+      "merge_patch": {
+        "extra": "Faux doublon"
+      },
       "delete": [
         {
           "key": "SVDDZEFJ",
@@ -5140,6 +6041,9 @@
       "master_version": 4716,
       "master_has_pdf": false,
       "reparent_pdf_from": "KRCKRQ8J",
+      "merge_patch": {
+        "pages": "6 p."
+      },
       "delete": [
         {
           "key": "KRCKRQ8J",
@@ -5156,6 +6060,7 @@
       "master_version": 4716,
       "master_has_pdf": false,
       "reparent_pdf_from": "UH4CKMC9",
+      "merge_patch": {},
       "delete": [
         {
           "key": "UH4CKMC9",
@@ -5172,6 +6077,9 @@
       "master_version": 4716,
       "master_has_pdf": false,
       "reparent_pdf_from": "E273JBSP",
+      "merge_patch": {
+        "pages": "p. 29-31"
+      },
       "delete": [
         {
           "key": "E273JBSP",
@@ -5188,6 +6096,9 @@
       "master_version": 4716,
       "master_has_pdf": false,
       "reparent_pdf_from": "XH34RFCT",
+      "merge_patch": {
+        "pages": "9 p."
+      },
       "delete": [
         {
           "key": "XH34RFCT",
@@ -5204,6 +6115,9 @@
       "master_version": 4715,
       "master_has_pdf": false,
       "reparent_pdf_from": "N2XRJCMX",
+      "merge_patch": {
+        "pages": "76 p."
+      },
       "delete": [
         {
           "key": "N2XRJCMX",
@@ -5220,6 +6134,7 @@
       "master_version": 4715,
       "master_has_pdf": false,
       "reparent_pdf_from": "3MUMQUB3",
+      "merge_patch": {},
       "delete": [
         {
           "key": "3MUMQUB3",
@@ -5236,6 +6151,9 @@
       "master_version": 4715,
       "master_has_pdf": false,
       "reparent_pdf_from": "RFBKVW73",
+      "merge_patch": {
+        "date": "[1980?]"
+      },
       "delete": [
         {
           "key": "RFBKVW73",
@@ -5252,6 +6170,7 @@
       "master_version": 4715,
       "master_has_pdf": false,
       "reparent_pdf_from": "RN5W2RU9",
+      "merge_patch": {},
       "delete": [
         {
           "key": "RN5W2RU9",
@@ -5268,6 +6187,9 @@
       "master_version": 4715,
       "master_has_pdf": false,
       "reparent_pdf_from": "P3QUZMNW",
+      "merge_patch": {
+        "extra": "Faux doublon"
+      },
       "delete": [
         {
           "key": "P3QUZMNW",
@@ -5284,6 +6206,7 @@
       "master_version": 4715,
       "master_has_pdf": false,
       "reparent_pdf_from": "E4MMUQCP",
+      "merge_patch": {},
       "delete": [
         {
           "key": "E4MMUQCP",
@@ -5300,6 +6223,10 @@
       "master_version": 4710,
       "master_has_pdf": false,
       "reparent_pdf_from": "8EEVVXDW",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "date": "[1981?]"
+      },
       "delete": [
         {
           "key": "8EEVVXDW",
@@ -5316,6 +6243,9 @@
       "master_version": 4715,
       "master_has_pdf": false,
       "reparent_pdf_from": "32HMZGHQ",
+      "merge_patch": {
+        "pages": "p. 385-402"
+      },
       "delete": [
         {
           "key": "32HMZGHQ",
@@ -5332,6 +6262,9 @@
       "master_version": 4715,
       "master_has_pdf": false,
       "reparent_pdf_from": "FIBFFK6N",
+      "merge_patch": {
+        "date": "[1981?]"
+      },
       "delete": [
         {
           "key": "FIBFFK6N",
@@ -5348,6 +6281,9 @@
       "master_version": 4752,
       "master_has_pdf": false,
       "reparent_pdf_from": "KI794527",
+      "merge_patch": {
+        "pages": "4 p."
+      },
       "delete": [
         {
           "key": "KI794527",
@@ -5364,6 +6300,9 @@
       "master_version": 4715,
       "master_has_pdf": false,
       "reparent_pdf_from": "RH5WU6QK",
+      "merge_patch": {
+        "pages": "9 p."
+      },
       "delete": [
         {
           "key": "RH5WU6QK",
@@ -5380,6 +6319,9 @@
       "master_version": 4714,
       "master_has_pdf": false,
       "reparent_pdf_from": "5XKCDTQ3",
+      "merge_patch": {
+        "pages": "21 p."
+      },
       "delete": [
         {
           "key": "5XKCDTQ3",
@@ -5396,6 +6338,9 @@
       "master_version": 4714,
       "master_has_pdf": false,
       "reparent_pdf_from": "MM7N6TRI",
+      "merge_patch": {
+        "extra": "Faux doublon"
+      },
       "delete": [
         {
           "key": "MM7N6TRI",
@@ -5412,6 +6357,9 @@
       "master_version": 4714,
       "master_has_pdf": false,
       "reparent_pdf_from": "236PNBD4",
+      "merge_patch": {
+        "pages": "17 p."
+      },
       "delete": [
         {
           "key": "236PNBD4",
@@ -5428,6 +6376,9 @@
       "master_version": 4714,
       "master_has_pdf": false,
       "reparent_pdf_from": "9HZXNVHJ",
+      "merge_patch": {
+        "date": "[1981?]"
+      },
       "delete": [
         {
           "key": "9HZXNVHJ",
@@ -5444,6 +6395,9 @@
       "master_version": 4714,
       "master_has_pdf": false,
       "reparent_pdf_from": "5GASCI2V",
+      "merge_patch": {
+        "date": "[1981?]"
+      },
       "delete": [
         {
           "key": "5GASCI2V",
@@ -5460,6 +6414,7 @@
       "master_version": 4714,
       "master_has_pdf": false,
       "reparent_pdf_from": "D9JAJT4G",
+      "merge_patch": {},
       "delete": [
         {
           "key": "D9JAJT4G",
@@ -5476,6 +6431,7 @@
       "master_version": 4714,
       "master_has_pdf": false,
       "reparent_pdf_from": "ET26VDKK",
+      "merge_patch": {},
       "delete": [
         {
           "key": "ET26VDKK",
@@ -5492,6 +6448,9 @@
       "master_version": 4714,
       "master_has_pdf": false,
       "reparent_pdf_from": "Z3I9H53Z",
+      "merge_patch": {
+        "date": "[1982?]"
+      },
       "delete": [
         {
           "key": "Z3I9H53Z",
@@ -5508,6 +6467,10 @@
       "master_version": 4713,
       "master_has_pdf": false,
       "reparent_pdf_from": "H29RTTVI",
+      "merge_patch": {
+        "pages": "7 p.",
+        "date": "[1981?]"
+      },
       "delete": [
         {
           "key": "H29RTTVI",
@@ -5524,6 +6487,9 @@
       "master_version": 4710,
       "master_has_pdf": false,
       "reparent_pdf_from": "WBR2DM2T",
+      "merge_patch": {
+        "extra": "Faux doublon"
+      },
       "delete": [
         {
           "key": "WBR2DM2T",
@@ -5540,6 +6506,9 @@
       "master_version": 4910,
       "master_has_pdf": false,
       "reparent_pdf_from": "UUM4TNID",
+      "merge_patch": {
+        "date": "[1984?]"
+      },
       "delete": [
         {
           "key": "UUM4TNID",
@@ -5556,6 +6525,9 @@
       "master_version": 4909,
       "master_has_pdf": false,
       "reparent_pdf_from": "GAE5V983",
+      "merge_patch": {
+        "extra": "Faux doublon"
+      },
       "delete": [
         {
           "key": "GAE5V983",
@@ -5572,6 +6544,9 @@
       "master_version": 4713,
       "master_has_pdf": false,
       "reparent_pdf_from": "AUXW8E75",
+      "merge_patch": {
+        "pages": "p. 43-54"
+      },
       "delete": [
         {
           "key": "AUXW8E75",
@@ -5588,6 +6563,9 @@
       "master_version": 4713,
       "master_has_pdf": false,
       "reparent_pdf_from": "Z3HMUPR8",
+      "merge_patch": {
+        "pages": "p. 137-151"
+      },
       "delete": [
         {
           "key": "Z3HMUPR8",
@@ -5604,6 +6582,9 @@
       "master_version": 4713,
       "master_has_pdf": false,
       "reparent_pdf_from": "JBJ5W66T",
+      "merge_patch": {
+        "pages": "17 p."
+      },
       "delete": [
         {
           "key": "JBJ5W66T",
@@ -5620,6 +6601,9 @@
       "master_version": 4713,
       "master_has_pdf": false,
       "reparent_pdf_from": "QEDTX9V9",
+      "merge_patch": {
+        "pages": "1 p."
+      },
       "delete": [
         {
           "key": "QEDTX9V9",
@@ -5636,6 +6620,9 @@
       "master_version": 4713,
       "master_has_pdf": false,
       "reparent_pdf_from": "CP4XUP87",
+      "merge_patch": {
+        "pages": "3 p."
+      },
       "delete": [
         {
           "key": "CP4XUP87",
@@ -5652,6 +6639,9 @@
       "master_version": 4713,
       "master_has_pdf": false,
       "reparent_pdf_from": "XTUJHS3N",
+      "merge_patch": {
+        "pages": "2 p."
+      },
       "delete": [
         {
           "key": "XTUJHS3N",
@@ -5668,6 +6658,9 @@
       "master_version": 4713,
       "master_has_pdf": false,
       "reparent_pdf_from": "6QGDTXF3",
+      "merge_patch": {
+        "pages": "12 p."
+      },
       "delete": [
         {
           "key": "6QGDTXF3",
@@ -5684,6 +6677,9 @@
       "master_version": 4713,
       "master_has_pdf": false,
       "reparent_pdf_from": "ERJ6P8X7",
+      "merge_patch": {
+        "pages": "7 p."
+      },
       "delete": [
         {
           "key": "ERJ6P8X7",
@@ -5700,6 +6696,9 @@
       "master_version": 4712,
       "master_has_pdf": false,
       "reparent_pdf_from": "WJ2C9UGV",
+      "merge_patch": {
+        "pages": "3 p."
+      },
       "delete": [
         {
           "key": "WJ2C9UGV",
@@ -5716,6 +6715,9 @@
       "master_version": 4712,
       "master_has_pdf": false,
       "reparent_pdf_from": "9KB3EEZH",
+      "merge_patch": {
+        "pages": "3 p."
+      },
       "delete": [
         {
           "key": "9KB3EEZH",
@@ -5732,6 +6734,9 @@
       "master_version": 4712,
       "master_has_pdf": false,
       "reparent_pdf_from": "5A38AUGI",
+      "merge_patch": {
+        "pages": "2 p."
+      },
       "delete": [
         {
           "key": "5A38AUGI",
@@ -5748,6 +6753,9 @@
       "master_version": 4712,
       "master_has_pdf": false,
       "reparent_pdf_from": "42PR8BZN",
+      "merge_patch": {
+        "pages": "7 p."
+      },
       "delete": [
         {
           "key": "42PR8BZN",
@@ -5764,6 +6772,9 @@
       "master_version": 4712,
       "master_has_pdf": false,
       "reparent_pdf_from": "9Z3C5R6T",
+      "merge_patch": {
+        "pages": "15 p."
+      },
       "delete": [
         {
           "key": "9Z3C5R6T",
@@ -5780,6 +6791,9 @@
       "master_version": 4711,
       "master_has_pdf": false,
       "reparent_pdf_from": "MDUBZ3Q2",
+      "merge_patch": {
+        "pages": "31 p."
+      },
       "delete": [
         {
           "key": "MDUBZ3Q2",
@@ -5796,6 +6810,9 @@
       "master_version": 4711,
       "master_has_pdf": false,
       "reparent_pdf_from": "96989HXZ",
+      "merge_patch": {
+        "pages": "12 p."
+      },
       "delete": [
         {
           "key": "96989HXZ",
@@ -5812,6 +6829,9 @@
       "master_version": 4711,
       "master_has_pdf": false,
       "reparent_pdf_from": "E2V9IUN9",
+      "merge_patch": {
+        "pages": "14 p."
+      },
       "delete": [
         {
           "key": "E2V9IUN9",
@@ -5828,6 +6848,9 @@
       "master_version": 4711,
       "master_has_pdf": false,
       "reparent_pdf_from": "C35ES5DN",
+      "merge_patch": {
+        "pages": "p. 15-71"
+      },
       "delete": [
         {
           "key": "C35ES5DN",
@@ -5844,6 +6867,9 @@
       "master_version": 4711,
       "master_has_pdf": false,
       "reparent_pdf_from": "ZSS77AWG",
+      "merge_patch": {
+        "pages": "1 p."
+      },
       "delete": [
         {
           "key": "ZSS77AWG",
@@ -5860,6 +6886,7 @@
       "master_version": 4711,
       "master_has_pdf": false,
       "reparent_pdf_from": "R6TD35N6",
+      "merge_patch": {},
       "delete": [
         {
           "key": "R6TD35N6",
@@ -5876,6 +6903,9 @@
       "master_version": 4710,
       "master_has_pdf": false,
       "reparent_pdf_from": "M82GB5B6",
+      "merge_patch": {
+        "pages": "1 p."
+      },
       "delete": [
         {
           "key": "M82GB5B6",
@@ -5892,6 +6922,9 @@
       "master_version": 4710,
       "master_has_pdf": false,
       "reparent_pdf_from": "QICDGUVN",
+      "merge_patch": {
+        "date": "[1983?]"
+      },
       "delete": [
         {
           "key": "QICDGUVN",
@@ -5908,6 +6941,9 @@
       "master_version": 4710,
       "master_has_pdf": false,
       "reparent_pdf_from": "NHGZNZWP",
+      "merge_patch": {
+        "date": "[1983?]"
+      },
       "delete": [
         {
           "key": "NHGZNZWP",
@@ -5924,6 +6960,9 @@
       "master_version": 4710,
       "master_has_pdf": false,
       "reparent_pdf_from": "FCPEMCW7",
+      "merge_patch": {
+        "date": "[1983?]"
+      },
       "delete": [
         {
           "key": "FCPEMCW7",
@@ -5940,6 +6979,9 @@
       "master_version": 4744,
       "master_has_pdf": false,
       "reparent_pdf_from": "UWJ8T4QF",
+      "merge_patch": {
+        "extra": "Faux doublon"
+      },
       "delete": [
         {
           "key": "UWJ8T4QF",
@@ -5956,6 +6998,9 @@
       "master_version": 4710,
       "master_has_pdf": false,
       "reparent_pdf_from": "6RIGPFGF",
+      "merge_patch": {
+        "date": "[1983?]"
+      },
       "delete": [
         {
           "key": "6RIGPFGF",
@@ -5972,6 +7017,7 @@
       "master_version": 4710,
       "master_has_pdf": false,
       "reparent_pdf_from": "473RH4IJ",
+      "merge_patch": {},
       "delete": [
         {
           "key": "473RH4IJ",
@@ -5988,6 +7034,7 @@
       "master_version": 4709,
       "master_has_pdf": false,
       "reparent_pdf_from": "VSE6EKDA",
+      "merge_patch": {},
       "delete": [
         {
           "key": "VSE6EKDA",
@@ -6004,6 +7051,9 @@
       "master_version": 4709,
       "master_has_pdf": false,
       "reparent_pdf_from": "X9XZC76T",
+      "merge_patch": {
+        "pages": "14 p."
+      },
       "delete": [
         {
           "key": "X9XZC76T",
@@ -6020,6 +7070,9 @@
       "master_version": 4752,
       "master_has_pdf": false,
       "reparent_pdf_from": "9WN3K4SA",
+      "merge_patch": {
+        "pages": "34 p."
+      },
       "delete": [
         {
           "key": "9WN3K4SA",
@@ -6036,6 +7089,9 @@
       "master_version": 4709,
       "master_has_pdf": false,
       "reparent_pdf_from": "34IQPSGU",
+      "merge_patch": {
+        "pages": "4 p."
+      },
       "delete": [
         {
           "key": "34IQPSGU",
@@ -6052,6 +7108,10 @@
       "master_version": 4954,
       "master_has_pdf": false,
       "reparent_pdf_from": "I8MZ7DM7",
+      "merge_patch": {
+        "pages": "53 p.",
+        "date": "[1975?]"
+      },
       "delete": [
         {
           "key": "I8MZ7DM7",
@@ -6068,6 +7128,9 @@
       "master_version": 4709,
       "master_has_pdf": false,
       "reparent_pdf_from": "DMQ8FA5P",
+      "merge_patch": {
+        "pages": "41 p."
+      },
       "delete": [
         {
           "key": "DMQ8FA5P",
@@ -6084,6 +7147,9 @@
       "master_version": 4709,
       "master_has_pdf": false,
       "reparent_pdf_from": "XG9CFHFC",
+      "merge_patch": {
+        "pages": "25 p."
+      },
       "delete": [
         {
           "key": "XG9CFHFC",
@@ -6100,6 +7166,9 @@
       "master_version": 4709,
       "master_has_pdf": false,
       "reparent_pdf_from": "9DGF5SU4",
+      "merge_patch": {
+        "pages": "27 p."
+      },
       "delete": [
         {
           "key": "9DGF5SU4",
@@ -6116,6 +7185,9 @@
       "master_version": 4709,
       "master_has_pdf": false,
       "reparent_pdf_from": "9DHPCWVF",
+      "merge_patch": {
+        "pages": "37 p."
+      },
       "delete": [
         {
           "key": "9DHPCWVF",
@@ -6132,6 +7204,9 @@
       "master_version": 4709,
       "master_has_pdf": false,
       "reparent_pdf_from": "78N5ZNK5",
+      "merge_patch": {
+        "pages": "25 p."
+      },
       "delete": [
         {
           "key": "78N5ZNK5",
@@ -6148,6 +7223,9 @@
       "master_version": 4954,
       "master_has_pdf": false,
       "reparent_pdf_from": "G76XZCSP",
+      "merge_patch": {
+        "pages": "36 p."
+      },
       "delete": [
         {
           "key": "G76XZCSP",
@@ -6164,6 +7242,10 @@
       "master_version": 4954,
       "master_has_pdf": false,
       "reparent_pdf_from": "BA98U2SK",
+      "merge_patch": {
+        "pages": "36 p.",
+        "date": "[1977?]"
+      },
       "delete": [
         {
           "key": "BA98U2SK",
@@ -6180,6 +7262,10 @@
       "master_version": 4753,
       "master_has_pdf": false,
       "reparent_pdf_from": "HCNB9ZQR",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "4 p."
+      },
       "delete": [
         {
           "key": "HCNB9ZQR",
@@ -6196,6 +7282,9 @@
       "master_version": 4753,
       "master_has_pdf": false,
       "reparent_pdf_from": "PQWPQGBC",
+      "merge_patch": {
+        "pages": "13 p."
+      },
       "delete": [
         {
           "key": "PQWPQGBC",
@@ -6212,6 +7301,9 @@
       "master_version": 4753,
       "master_has_pdf": false,
       "reparent_pdf_from": "MRBSARNR",
+      "merge_patch": {
+        "pages": "51 p."
+      },
       "delete": [
         {
           "key": "MRBSARNR",
@@ -6228,6 +7320,9 @@
       "master_version": 4752,
       "master_has_pdf": false,
       "reparent_pdf_from": "SWSP55PE",
+      "merge_patch": {
+        "pages": "61 p."
+      },
       "delete": [
         {
           "key": "SWSP55PE",
@@ -6244,6 +7339,9 @@
       "master_version": 4752,
       "master_has_pdf": false,
       "reparent_pdf_from": "IIG87KBJ",
+      "merge_patch": {
+        "pages": "8  p."
+      },
       "delete": [
         {
           "key": "IIG87KBJ",
@@ -6260,6 +7358,9 @@
       "master_version": 4752,
       "master_has_pdf": false,
       "reparent_pdf_from": "JM6KTTCJ",
+      "merge_patch": {
+        "pages": "9 p."
+      },
       "delete": [
         {
           "key": "JM6KTTCJ",
@@ -6276,6 +7377,9 @@
       "master_version": 4752,
       "master_has_pdf": false,
       "reparent_pdf_from": "2KTWDIDX",
+      "merge_patch": {
+        "pages": "1 p."
+      },
       "delete": [
         {
           "key": "2KTWDIDX",
@@ -6292,6 +7396,9 @@
       "master_version": 4751,
       "master_has_pdf": false,
       "reparent_pdf_from": "427V8R4H",
+      "merge_patch": {
+        "pages": "10 p."
+      },
       "delete": [
         {
           "key": "427V8R4H",
@@ -6308,6 +7415,9 @@
       "master_version": 4751,
       "master_has_pdf": false,
       "reparent_pdf_from": "IF54BTPI",
+      "merge_patch": {
+        "pages": "6 p."
+      },
       "delete": [
         {
           "key": "IF54BTPI",
@@ -6324,6 +7434,10 @@
       "master_version": 4751,
       "master_has_pdf": false,
       "reparent_pdf_from": "S2K5SKEK",
+      "merge_patch": {
+        "pages": "5 p.",
+        "date": "[1987?]"
+      },
       "delete": [
         {
           "key": "S2K5SKEK",
@@ -6340,6 +7454,9 @@
       "master_version": 4751,
       "master_has_pdf": false,
       "reparent_pdf_from": "5R3P56PI",
+      "merge_patch": {
+        "pages": "14 p."
+      },
       "delete": [
         {
           "key": "5R3P56PI",
@@ -6356,6 +7473,9 @@
       "master_version": 4751,
       "master_has_pdf": false,
       "reparent_pdf_from": "SSJ62INA",
+      "merge_patch": {
+        "pages": "17 p."
+      },
       "delete": [
         {
           "key": "SSJ62INA",
@@ -6372,6 +7492,9 @@
       "master_version": 4751,
       "master_has_pdf": false,
       "reparent_pdf_from": "QGH3D9IJ",
+      "merge_patch": {
+        "pages": "1 p."
+      },
       "delete": [
         {
           "key": "QGH3D9IJ",
@@ -6388,6 +7511,7 @@
       "master_version": 4751,
       "master_has_pdf": false,
       "reparent_pdf_from": null,
+      "merge_patch": {},
       "delete": [
         {
           "key": "UQPJDKJC",
@@ -6404,6 +7528,10 @@
       "master_version": 4751,
       "master_has_pdf": false,
       "reparent_pdf_from": "CN8KS2KE",
+      "merge_patch": {
+        "pages": "1 p.",
+        "date": "[1980?]"
+      },
       "delete": [
         {
           "key": "CN8KS2KE",
@@ -6420,6 +7548,9 @@
       "master_version": 4751,
       "master_has_pdf": false,
       "reparent_pdf_from": "4M5BK8M3",
+      "merge_patch": {
+        "pages": "27 p."
+      },
       "delete": [
         {
           "key": "4M5BK8M3",
@@ -6436,6 +7567,10 @@
       "master_version": 4745,
       "master_has_pdf": false,
       "reparent_pdf_from": "JTQM4T4R",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "25 p."
+      },
       "delete": [
         {
           "key": "JTQM4T4R",
@@ -6452,6 +7587,9 @@
       "master_version": 4751,
       "master_has_pdf": false,
       "reparent_pdf_from": "JPAKIXVK",
+      "merge_patch": {
+        "pages": "3 p."
+      },
       "delete": [
         {
           "key": "JPAKIXVK",
@@ -6468,6 +7606,9 @@
       "master_version": 4750,
       "master_has_pdf": false,
       "reparent_pdf_from": "CF8575XR",
+      "merge_patch": {
+        "pages": "7 p."
+      },
       "delete": [
         {
           "key": "CF8575XR",
@@ -6484,6 +7625,9 @@
       "master_version": 4750,
       "master_has_pdf": false,
       "reparent_pdf_from": "6S8KJIAF",
+      "merge_patch": {
+        "pages": "8 p."
+      },
       "delete": [
         {
           "key": "6S8KJIAF",
@@ -6500,6 +7644,7 @@
       "master_version": 4750,
       "master_has_pdf": false,
       "reparent_pdf_from": "BWI4EHQV",
+      "merge_patch": {},
       "delete": [
         {
           "key": "BWI4EHQV",
@@ -6516,6 +7661,9 @@
       "master_version": 4750,
       "master_has_pdf": false,
       "reparent_pdf_from": "GKAWDHKP",
+      "merge_patch": {
+        "pages": "4 p."
+      },
       "delete": [
         {
           "key": "GKAWDHKP",
@@ -6532,6 +7680,7 @@
       "master_version": 4750,
       "master_has_pdf": false,
       "reparent_pdf_from": "MUUKKAM8",
+      "merge_patch": {},
       "delete": [
         {
           "key": "MUUKKAM8",
@@ -6548,6 +7697,7 @@
       "master_version": 4750,
       "master_has_pdf": false,
       "reparent_pdf_from": "9NIHPMEN",
+      "merge_patch": {},
       "delete": [
         {
           "key": "9NIHPMEN",
@@ -6564,6 +7714,7 @@
       "master_version": 4750,
       "master_has_pdf": false,
       "reparent_pdf_from": "6KVKAA3N",
+      "merge_patch": {},
       "delete": [
         {
           "key": "6KVKAA3N",
@@ -6580,6 +7731,7 @@
       "master_version": 4750,
       "master_has_pdf": false,
       "reparent_pdf_from": "Z285T797",
+      "merge_patch": {},
       "delete": [
         {
           "key": "Z285T797",
@@ -6596,6 +7748,9 @@
       "master_version": 4750,
       "master_has_pdf": false,
       "reparent_pdf_from": "TZW2UVVB",
+      "merge_patch": {
+        "pages": "3 p."
+      },
       "delete": [
         {
           "key": "TZW2UVVB",
@@ -6612,6 +7767,9 @@
       "master_version": 4750,
       "master_has_pdf": false,
       "reparent_pdf_from": "9UJ4FIU2",
+      "merge_patch": {
+        "pages": "32 p."
+      },
       "delete": [
         {
           "key": "9UJ4FIU2",
@@ -6628,6 +7786,9 @@
       "master_version": 4749,
       "master_has_pdf": false,
       "reparent_pdf_from": "EADXM2UB",
+      "merge_patch": {
+        "pages": "12 p."
+      },
       "delete": [
         {
           "key": "EADXM2UB",
@@ -6644,6 +7805,7 @@
       "master_version": 4749,
       "master_has_pdf": false,
       "reparent_pdf_from": "EKN7NRMK",
+      "merge_patch": {},
       "delete": [
         {
           "key": "EKN7NRMK",
@@ -6660,6 +7822,9 @@
       "master_version": 4749,
       "master_has_pdf": false,
       "reparent_pdf_from": "UMVMRMEE",
+      "merge_patch": {
+        "pages": "9 p."
+      },
       "delete": [
         {
           "key": "UMVMRMEE",
@@ -6676,6 +7841,10 @@
       "master_version": 4749,
       "master_has_pdf": false,
       "reparent_pdf_from": "DN6XX2TJ",
+      "merge_patch": {
+        "pages": "6 p.",
+        "date": "[1977?]"
+      },
       "delete": [
         {
           "key": "DN6XX2TJ",
@@ -6692,6 +7861,9 @@
       "master_version": 4749,
       "master_has_pdf": false,
       "reparent_pdf_from": "IMU2J6NS",
+      "merge_patch": {
+        "date": "[1980?]"
+      },
       "delete": [
         {
           "key": "IMU2J6NS",
@@ -6708,6 +7880,9 @@
       "master_version": 4749,
       "master_has_pdf": false,
       "reparent_pdf_from": "9WIZJ442",
+      "merge_patch": {
+        "pages": "14 p."
+      },
       "delete": [
         {
           "key": "9WIZJ442",
@@ -6724,6 +7899,9 @@
       "master_version": 4749,
       "master_has_pdf": false,
       "reparent_pdf_from": "EWVWHM8C",
+      "merge_patch": {
+        "pages": "6 p."
+      },
       "delete": [
         {
           "key": "EWVWHM8C",
@@ -6740,6 +7918,9 @@
       "master_version": 4749,
       "master_has_pdf": false,
       "reparent_pdf_from": "9FX4HZGJ",
+      "merge_patch": {
+        "pages": "5 p."
+      },
       "delete": [
         {
           "key": "9FX4HZGJ",
@@ -6756,6 +7937,7 @@
       "master_version": 4749,
       "master_has_pdf": false,
       "reparent_pdf_from": "2TRGPRDE",
+      "merge_patch": {},
       "delete": [
         {
           "key": "2TRGPRDE",
@@ -6772,6 +7954,9 @@
       "master_version": 4749,
       "master_has_pdf": false,
       "reparent_pdf_from": "GQZ5ZQN8",
+      "merge_patch": {
+        "pages": "18 p."
+      },
       "delete": [
         {
           "key": "GQZ5ZQN8",
@@ -6788,6 +7973,9 @@
       "master_version": 4748,
       "master_has_pdf": false,
       "reparent_pdf_from": "GT2WCKMV",
+      "merge_patch": {
+        "pages": "14 p."
+      },
       "delete": [
         {
           "key": "GT2WCKMV",
@@ -6804,6 +7992,9 @@
       "master_version": 4748,
       "master_has_pdf": false,
       "reparent_pdf_from": "PC4RXDQX",
+      "merge_patch": {
+        "pages": "11 p."
+      },
       "delete": [
         {
           "key": "PC4RXDQX",
@@ -6820,6 +8011,9 @@
       "master_version": 4748,
       "master_has_pdf": false,
       "reparent_pdf_from": "45BEGPVJ",
+      "merge_patch": {
+        "pages": "41 p."
+      },
       "delete": [
         {
           "key": "45BEGPVJ",
@@ -6836,6 +8030,9 @@
       "master_version": 4748,
       "master_has_pdf": false,
       "reparent_pdf_from": "F3BKPK9Z",
+      "merge_patch": {
+        "pages": "3 p."
+      },
       "delete": [
         {
           "key": "F3BKPK9Z",
@@ -6852,6 +8049,10 @@
       "master_version": 4748,
       "master_has_pdf": false,
       "reparent_pdf_from": "E6HRSJXN",
+      "merge_patch": {
+        "pages": "4 p.",
+        "date": "[1978?]"
+      },
       "delete": [
         {
           "key": "E6HRSJXN",
@@ -6868,6 +8069,7 @@
       "master_version": 4748,
       "master_has_pdf": false,
       "reparent_pdf_from": "5G4ZEBBG",
+      "merge_patch": {},
       "delete": [
         {
           "key": "5G4ZEBBG",
@@ -6884,6 +8086,10 @@
       "master_version": 4748,
       "master_has_pdf": false,
       "reparent_pdf_from": "6E3DNDHX",
+      "merge_patch": {
+        "pages": "19 p.",
+        "date": "[1980?]"
+      },
       "delete": [
         {
           "key": "6E3DNDHX",
@@ -6900,6 +8106,10 @@
       "master_version": 4748,
       "master_has_pdf": false,
       "reparent_pdf_from": "RSHQEJVG",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "13 p."
+      },
       "delete": [
         {
           "key": "RSHQEJVG",
@@ -6916,6 +8126,9 @@
       "master_version": 4748,
       "master_has_pdf": false,
       "reparent_pdf_from": "VES9JKBP",
+      "merge_patch": {
+        "pages": "41 p."
+      },
       "delete": [
         {
           "key": "VES9JKBP",
@@ -6932,6 +8145,9 @@
       "master_version": 4747,
       "master_has_pdf": false,
       "reparent_pdf_from": "5ZRBRHXG",
+      "merge_patch": {
+        "pages": "26 p."
+      },
       "delete": [
         {
           "key": "5ZRBRHXG",
@@ -6948,6 +8164,9 @@
       "master_version": 4747,
       "master_has_pdf": false,
       "reparent_pdf_from": "HR3GXFBJ",
+      "merge_patch": {
+        "pages": "31 p."
+      },
       "delete": [
         {
           "key": "HR3GXFBJ",
@@ -6964,6 +8183,7 @@
       "master_version": 4771,
       "master_has_pdf": false,
       "reparent_pdf_from": "N85HKQT6",
+      "merge_patch": {},
       "delete": [
         {
           "key": "N85HKQT6",
@@ -6980,6 +8200,10 @@
       "master_version": 4745,
       "master_has_pdf": false,
       "reparent_pdf_from": "GFQBUKMX",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "15 p."
+      },
       "delete": [
         {
           "key": "GFQBUKMX",
@@ -6996,6 +8220,9 @@
       "master_version": 4747,
       "master_has_pdf": false,
       "reparent_pdf_from": "PFF3UM56",
+      "merge_patch": {
+        "pages": "6 p."
+      },
       "delete": [
         {
           "key": "PFF3UM56",
@@ -7012,6 +8239,9 @@
       "master_version": 4747,
       "master_has_pdf": false,
       "reparent_pdf_from": "NC9TBI8K",
+      "merge_patch": {
+        "pages": "9 p."
+      },
       "delete": [
         {
           "key": "NC9TBI8K",
@@ -7028,6 +8258,9 @@
       "master_version": 4747,
       "master_has_pdf": false,
       "reparent_pdf_from": "R4NJ2FW9",
+      "merge_patch": {
+        "pages": "5 p."
+      },
       "delete": [
         {
           "key": "R4NJ2FW9",
@@ -7044,6 +8277,10 @@
       "master_version": 4945,
       "master_has_pdf": false,
       "reparent_pdf_from": "HGU7FGV7",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "date": "[1974?]"
+      },
       "delete": [
         {
           "key": "HGU7FGV7",
@@ -7060,6 +8297,9 @@
       "master_version": 4773,
       "master_has_pdf": false,
       "reparent_pdf_from": "4JIEF7G9",
+      "merge_patch": {
+        "extra": "Faux doublon"
+      },
       "delete": [
         {
           "key": "4JIEF7G9",
@@ -7076,6 +8316,9 @@
       "master_version": 4747,
       "master_has_pdf": false,
       "reparent_pdf_from": "XBX2M5GI",
+      "merge_patch": {
+        "date": "[1979?]"
+      },
       "delete": [
         {
           "key": "XBX2M5GI",
@@ -7092,6 +8335,10 @@
       "master_version": 4744,
       "master_has_pdf": false,
       "reparent_pdf_from": "2SXQSNAR",
+      "merge_patch": {
+        "extra": "Faux doublon",
+        "pages": "9 p."
+      },
       "delete": [
         {
           "key": "2SXQSNAR",
@@ -7108,6 +8355,9 @@
       "master_version": 4747,
       "master_has_pdf": false,
       "reparent_pdf_from": "2FGMH5Z8",
+      "merge_patch": {
+        "pages": "5 p."
+      },
       "delete": [
         {
           "key": "2FGMH5Z8",
@@ -7124,6 +8374,9 @@
       "master_version": 4744,
       "master_has_pdf": false,
       "reparent_pdf_from": "6VHMJJP8",
+      "merge_patch": {
+        "pages": "10 p."
+      },
       "delete": [
         {
           "key": "6VHMJJP8",
@@ -7140,6 +8393,9 @@
       "master_version": 4747,
       "master_has_pdf": false,
       "reparent_pdf_from": "RBVRKB9C",
+      "merge_patch": {
+        "pages": "85 p."
+      },
       "delete": [
         {
           "key": "RBVRKB9C",
@@ -7156,6 +8412,9 @@
       "master_version": 4747,
       "master_has_pdf": false,
       "reparent_pdf_from": "88BGA7ZK",
+      "merge_patch": {
+        "pages": "9 p."
+      },
       "delete": [
         {
           "key": "88BGA7ZK",
@@ -7172,6 +8431,9 @@
       "master_version": 4746,
       "master_has_pdf": false,
       "reparent_pdf_from": "ZFBZJC95",
+      "merge_patch": {
+        "pages": "17 p."
+      },
       "delete": [
         {
           "key": "ZFBZJC95",
@@ -7188,6 +8450,9 @@
       "master_version": 4744,
       "master_has_pdf": false,
       "reparent_pdf_from": "8UR57HTE",
+      "merge_patch": {
+        "pages": "29 p."
+      },
       "delete": [
         {
           "key": "8UR57HTE",
@@ -7204,6 +8469,9 @@
       "master_version": 4746,
       "master_has_pdf": false,
       "reparent_pdf_from": "NZIZ6JKG",
+      "merge_patch": {
+        "pages": "8 p."
+      },
       "delete": [
         {
           "key": "NZIZ6JKG",
@@ -7220,6 +8488,7 @@
       "master_version": 4746,
       "master_has_pdf": false,
       "reparent_pdf_from": "3BANN3HF",
+      "merge_patch": {},
       "delete": [
         {
           "key": "3BANN3HF",
@@ -7236,6 +8505,9 @@
       "master_version": 4746,
       "master_has_pdf": false,
       "reparent_pdf_from": "J99ZKW57",
+      "merge_patch": {
+        "pages": "25 p."
+      },
       "delete": [
         {
           "key": "J99ZKW57",
@@ -7252,6 +8524,7 @@
       "master_version": 4746,
       "master_has_pdf": false,
       "reparent_pdf_from": "HMPIFQ6C",
+      "merge_patch": {},
       "delete": [
         {
           "key": "HMPIFQ6C",
@@ -7268,6 +8541,9 @@
       "master_version": 4746,
       "master_has_pdf": false,
       "reparent_pdf_from": "HWIDP8RE",
+      "merge_patch": {
+        "pages": "4 p."
+      },
       "delete": [
         {
           "key": "HWIDP8RE",
@@ -7284,6 +8560,9 @@
       "master_version": 4746,
       "master_has_pdf": false,
       "reparent_pdf_from": "3V7HCWEN",
+      "merge_patch": {
+        "pages": "12 p."
+      },
       "delete": [
         {
           "key": "3V7HCWEN",
@@ -7300,6 +8579,9 @@
       "master_version": 4746,
       "master_has_pdf": false,
       "reparent_pdf_from": "NR6B7W7T",
+      "merge_patch": {
+        "pages": "7 p."
+      },
       "delete": [
         {
           "key": "NR6B7W7T",
@@ -7316,6 +8598,9 @@
       "master_version": 4746,
       "master_has_pdf": false,
       "reparent_pdf_from": "JEI8NIUV",
+      "merge_patch": {
+        "pages": "7 p."
+      },
       "delete": [
         {
           "key": "JEI8NIUV",
@@ -7332,6 +8617,7 @@
       "master_version": 4746,
       "master_has_pdf": false,
       "reparent_pdf_from": "6JDC8GAP",
+      "merge_patch": {},
       "delete": [
         {
           "key": "6JDC8GAP",
@@ -7348,6 +8634,9 @@
       "master_version": 4745,
       "master_has_pdf": false,
       "reparent_pdf_from": "7IJFFE7V",
+      "merge_patch": {
+        "pages": "8 p."
+      },
       "delete": [
         {
           "key": "7IJFFE7V",
@@ -7364,6 +8653,9 @@
       "master_version": 4745,
       "master_has_pdf": false,
       "reparent_pdf_from": "GU9ADQHC",
+      "merge_patch": {
+        "pages": "8 p."
+      },
       "delete": [
         {
           "key": "GU9ADQHC",
@@ -7380,6 +8672,9 @@
       "master_version": 4765,
       "master_has_pdf": false,
       "reparent_pdf_from": "I9HEZR3M",
+      "merge_patch": {
+        "pages": "119–126"
+      },
       "delete": [
         {
           "key": "I9HEZR3M",
@@ -7396,6 +8691,7 @@
       "master_version": 4739,
       "master_has_pdf": false,
       "reparent_pdf_from": "RVXFS5KH",
+      "merge_patch": {},
       "delete": [
         {
           "key": "RVXFS5KH",
@@ -7412,6 +8708,7 @@
       "master_version": 4767,
       "master_has_pdf": false,
       "reparent_pdf_from": "5GZSUVB4",
+      "merge_patch": {},
       "delete": [
         {
           "key": "5GZSUVB4",
@@ -7428,6 +8725,9 @@
       "master_version": 4767,
       "master_has_pdf": false,
       "reparent_pdf_from": "RHAIJAF4",
+      "merge_patch": {
+        "pages": "543–546"
+      },
       "delete": [
         {
           "key": "RHAIJAF4",
@@ -7444,6 +8744,7 @@
       "master_version": 4765,
       "master_has_pdf": false,
       "reparent_pdf_from": "QFC5866J",
+      "merge_patch": {},
       "delete": [
         {
           "key": "QFC5866J",
@@ -7460,6 +8761,7 @@
       "master_version": 4739,
       "master_has_pdf": false,
       "reparent_pdf_from": "HCK3SQFV",
+      "merge_patch": {},
       "delete": [
         {
           "key": "HCK3SQFV",
@@ -7476,6 +8778,7 @@
       "master_version": 4765,
       "master_has_pdf": false,
       "reparent_pdf_from": "VWEBPHD3",
+      "merge_patch": {},
       "delete": [
         {
           "key": "VWEBPHD3",
@@ -7492,6 +8795,9 @@
       "master_version": 4766,
       "master_has_pdf": false,
       "reparent_pdf_from": "EE2FNV73",
+      "merge_patch": {
+        "pages": "317—327"
+      },
       "delete": [
         {
           "key": "EE2FNV73",
@@ -7508,6 +8814,9 @@
       "master_version": 4766,
       "master_has_pdf": false,
       "reparent_pdf_from": "ES2ZJAJH",
+      "merge_patch": {
+        "pages": "96–100"
+      },
       "delete": [
         {
           "key": "ES2ZJAJH",
@@ -7524,6 +8833,9 @@
       "master_version": 4767,
       "master_has_pdf": false,
       "reparent_pdf_from": "2QE7PENJ",
+      "merge_patch": {
+        "pages": "548–553"
+      },
       "delete": [
         {
           "key": "2QE7PENJ",
@@ -7540,6 +8852,7 @@
       "master_version": 4766,
       "master_has_pdf": false,
       "reparent_pdf_from": "6B6P26T5",
+      "merge_patch": {},
       "delete": [
         {
           "key": "6B6P26T5",
@@ -7556,6 +8869,7 @@
       "master_version": 4739,
       "master_has_pdf": false,
       "reparent_pdf_from": "W9JEAEJG",
+      "merge_patch": {},
       "delete": [
         {
           "key": "W9JEAEJG",
@@ -7572,6 +8886,7 @@
       "master_version": 4739,
       "master_has_pdf": false,
       "reparent_pdf_from": "4SA668B6",
+      "merge_patch": {},
       "delete": [
         {
           "key": "4SA668B6",
@@ -7588,6 +8903,7 @@
       "master_version": 4738,
       "master_has_pdf": false,
       "reparent_pdf_from": "W9H7QEPK",
+      "merge_patch": {},
       "delete": [
         {
           "key": "W9H7QEPK",
@@ -7604,6 +8920,9 @@
       "master_version": 4742,
       "master_has_pdf": false,
       "reparent_pdf_from": "JS43G43T",
+      "merge_patch": {
+        "pages": "181–188"
+      },
       "delete": [
         {
           "key": "JS43G43T",
@@ -7620,6 +8939,7 @@
       "master_version": 4738,
       "master_has_pdf": false,
       "reparent_pdf_from": "UABZEJBN",
+      "merge_patch": {},
       "delete": [
         {
           "key": "UABZEJBN",
@@ -7636,6 +8956,7 @@
       "master_version": 4738,
       "master_has_pdf": false,
       "reparent_pdf_from": "A653IUTN",
+      "merge_patch": {},
       "delete": [
         {
           "key": "A653IUTN",
@@ -7652,6 +8973,7 @@
       "master_version": 4738,
       "master_has_pdf": false,
       "reparent_pdf_from": "IAZVNIFT",
+      "merge_patch": {},
       "delete": [
         {
           "key": "IAZVNIFT",
@@ -7668,6 +8990,9 @@
       "master_version": 4742,
       "master_has_pdf": false,
       "reparent_pdf_from": "KDUJDPXR",
+      "merge_patch": {
+        "pages": "2781–2786"
+      },
       "delete": [
         {
           "key": "KDUJDPXR",
@@ -7684,6 +9009,7 @@
       "master_version": 4765,
       "master_has_pdf": false,
       "reparent_pdf_from": "87VAVHZM",
+      "merge_patch": {},
       "delete": [
         {
           "key": "87VAVHZM",
@@ -7700,6 +9026,9 @@
       "master_version": 4742,
       "master_has_pdf": false,
       "reparent_pdf_from": "JGIFDZ23",
+      "merge_patch": {
+        "pages": "164–171"
+      },
       "delete": [
         {
           "key": "JGIFDZ23",
@@ -7716,6 +9045,7 @@
       "master_version": 4765,
       "master_has_pdf": false,
       "reparent_pdf_from": "4PFR7S52",
+      "merge_patch": {},
       "delete": [
         {
           "key": "4PFR7S52",
@@ -7732,6 +9062,7 @@
       "master_version": 4738,
       "master_has_pdf": false,
       "reparent_pdf_from": "N9Z6EHHI",
+      "merge_patch": {},
       "delete": [
         {
           "key": "N9Z6EHHI",
@@ -7748,6 +9079,7 @@
       "master_version": 4742,
       "master_has_pdf": false,
       "reparent_pdf_from": "XM94NZ7J",
+      "merge_patch": {},
       "delete": [
         {
           "key": "XM94NZ7J",
@@ -7764,6 +9096,7 @@
       "master_version": 4738,
       "master_has_pdf": false,
       "reparent_pdf_from": "67P9E4XB",
+      "merge_patch": {},
       "delete": [
         {
           "key": "67P9E4XB",
@@ -7780,6 +9113,7 @@
       "master_version": 4738,
       "master_has_pdf": false,
       "reparent_pdf_from": "85PZT5KP",
+      "merge_patch": {},
       "delete": [
         {
           "key": "85PZT5KP",
@@ -7796,6 +9130,7 @@
       "master_version": 4738,
       "master_has_pdf": false,
       "reparent_pdf_from": "E938V9R3",
+      "merge_patch": {},
       "delete": [
         {
           "key": "E938V9R3",
@@ -7812,6 +9147,7 @@
       "master_version": 4742,
       "master_has_pdf": false,
       "reparent_pdf_from": "PAXM9929",
+      "merge_patch": {},
       "delete": [
         {
           "key": "PAXM9929",
@@ -7828,6 +9164,7 @@
       "master_version": 4742,
       "master_has_pdf": false,
       "reparent_pdf_from": "8MDVQ7BS",
+      "merge_patch": {},
       "delete": [
         {
           "key": "8MDVQ7BS",
@@ -7844,6 +9181,7 @@
       "master_version": 4738,
       "master_has_pdf": false,
       "reparent_pdf_from": "N74339ZH",
+      "merge_patch": {},
       "delete": [
         {
           "key": "N74339ZH",
@@ -7860,6 +9198,7 @@
       "master_version": 4770,
       "master_has_pdf": false,
       "reparent_pdf_from": "5N2UF2FN",
+      "merge_patch": {},
       "delete": [
         {
           "key": "5N2UF2FN",
@@ -7876,6 +9215,7 @@
       "master_version": 4769,
       "master_has_pdf": false,
       "reparent_pdf_from": "NS8SS38N",
+      "merge_patch": {},
       "delete": [
         {
           "key": "NS8SS38N",
@@ -7892,6 +9232,7 @@
       "master_version": 4764,
       "master_has_pdf": false,
       "reparent_pdf_from": "VXHAE978",
+      "merge_patch": {},
       "delete": [
         {
           "key": "VXHAE978",
@@ -7908,6 +9249,7 @@
       "master_version": 4738,
       "master_has_pdf": false,
       "reparent_pdf_from": "5NNDSF8B",
+      "merge_patch": {},
       "delete": [
         {
           "key": "5NNDSF8B",
@@ -7924,6 +9266,7 @@
       "master_version": 4770,
       "master_has_pdf": false,
       "reparent_pdf_from": "ZX7QJM44",
+      "merge_patch": {},
       "delete": [
         {
           "key": "ZX7QJM44",
@@ -7940,6 +9283,9 @@
       "master_version": 4766,
       "master_has_pdf": false,
       "reparent_pdf_from": "UUN6QQPQ",
+      "merge_patch": {
+        "pages": "1613–1617"
+      },
       "delete": [
         {
           "key": "UUN6QQPQ",
@@ -7956,6 +9302,7 @@
       "master_version": 4737,
       "master_has_pdf": false,
       "reparent_pdf_from": "K9XG88SR",
+      "merge_patch": {},
       "delete": [
         {
           "key": "K9XG88SR",
@@ -7972,6 +9319,9 @@
       "master_version": 4737,
       "master_has_pdf": false,
       "reparent_pdf_from": "ZPNFD3CV",
+      "merge_patch": {
+        "pages": "531–540"
+      },
       "delete": [
         {
           "key": "ZPNFD3CV",
@@ -7988,6 +9338,7 @@
       "master_version": 4737,
       "master_has_pdf": false,
       "reparent_pdf_from": "M68K7JDU",
+      "merge_patch": {},
       "delete": [
         {
           "key": "M68K7JDU",
@@ -8004,6 +9355,7 @@
       "master_version": 4737,
       "master_has_pdf": false,
       "reparent_pdf_from": "35HWHWIG",
+      "merge_patch": {},
       "delete": [
         {
           "key": "35HWHWIG",
@@ -8020,6 +9372,9 @@
       "master_version": 4764,
       "master_has_pdf": false,
       "reparent_pdf_from": "IHGEM2X8",
+      "merge_patch": {
+        "pages": "9–11"
+      },
       "delete": [
         {
           "key": "IHGEM2X8",
@@ -8036,6 +9391,7 @@
       "master_version": 4737,
       "master_has_pdf": false,
       "reparent_pdf_from": "QGIQQZDE",
+      "merge_patch": {},
       "delete": [
         {
           "key": "QGIQQZDE",
@@ -8052,6 +9408,9 @@
       "master_version": 4769,
       "master_has_pdf": false,
       "reparent_pdf_from": "4DNG6R5C",
+      "merge_patch": {
+        "pages": "1–19"
+      },
       "delete": [
         {
           "key": "4DNG6R5C",
@@ -8068,6 +9427,7 @@
       "master_version": 4737,
       "master_has_pdf": false,
       "reparent_pdf_from": "G33MTJCJ",
+      "merge_patch": {},
       "delete": [
         {
           "key": "G33MTJCJ",
@@ -8084,6 +9444,9 @@
       "master_version": 4769,
       "master_has_pdf": false,
       "reparent_pdf_from": "QKBM99FS",
+      "merge_patch": {
+        "pages": "27–35"
+      },
       "delete": [
         {
           "key": "QKBM99FS",
@@ -8100,6 +9463,9 @@
       "master_version": 4769,
       "master_has_pdf": false,
       "reparent_pdf_from": "9QGVUJX7",
+      "merge_patch": {
+        "pages": "185–193"
+      },
       "delete": [
         {
           "key": "9QGVUJX7",
@@ -8116,6 +9482,7 @@
       "master_version": 4737,
       "master_has_pdf": false,
       "reparent_pdf_from": "59XZUTB3",
+      "merge_patch": {},
       "delete": [
         {
           "key": "59XZUTB3",
@@ -8132,6 +9499,7 @@
       "master_version": 4769,
       "master_has_pdf": false,
       "reparent_pdf_from": "A9KXS44B",
+      "merge_patch": {},
       "delete": [
         {
           "key": "A9KXS44B",
@@ -8148,6 +9516,7 @@
       "master_version": 4769,
       "master_has_pdf": false,
       "reparent_pdf_from": "BEGWX66C",
+      "merge_patch": {},
       "delete": [
         {
           "key": "BEGWX66C",
@@ -8164,6 +9533,7 @@
       "master_version": 4769,
       "master_has_pdf": false,
       "reparent_pdf_from": "NR3AWU3J",
+      "merge_patch": {},
       "delete": [
         {
           "key": "NR3AWU3J",
@@ -8180,6 +9550,9 @@
       "master_version": 4766,
       "master_has_pdf": false,
       "reparent_pdf_from": "VMZ3MINC",
+      "merge_patch": {
+        "pages": "107–115"
+      },
       "delete": [
         {
           "key": "VMZ3MINC",
@@ -8196,6 +9569,7 @@
       "master_version": 4742,
       "master_has_pdf": false,
       "reparent_pdf_from": "4KK6TP4A",
+      "merge_patch": {},
       "delete": [
         {
           "key": "4KK6TP4A",
@@ -8212,6 +9586,9 @@
       "master_version": 4742,
       "master_has_pdf": false,
       "reparent_pdf_from": "WA8NXNJH",
+      "merge_patch": {
+        "pages": "67–86"
+      },
       "delete": [
         {
           "key": "WA8NXNJH",
@@ -8228,6 +9605,9 @@
       "master_version": 4741,
       "master_has_pdf": false,
       "reparent_pdf_from": "SGECHAZT",
+      "merge_patch": {
+        "pages": "521–533"
+      },
       "delete": [
         {
           "key": "SGECHAZT",
@@ -8244,6 +9624,7 @@
       "master_version": 4737,
       "master_has_pdf": false,
       "reparent_pdf_from": "ZRFVFF4G",
+      "merge_patch": {},
       "delete": [
         {
           "key": "ZRFVFF4G",
@@ -8260,6 +9641,7 @@
       "master_version": 4737,
       "master_has_pdf": false,
       "reparent_pdf_from": "UQHUD6HU",
+      "merge_patch": {},
       "delete": [
         {
           "key": "UQHUD6HU",
@@ -8276,6 +9658,9 @@
       "master_version": 4767,
       "master_has_pdf": false,
       "reparent_pdf_from": "8BIFCGRV",
+      "merge_patch": {
+        "pages": "95–105"
+      },
       "delete": [
         {
           "key": "8BIFCGRV",
@@ -8292,6 +9677,9 @@
       "master_version": 4767,
       "master_has_pdf": false,
       "reparent_pdf_from": "Z7EG3VQ2",
+      "merge_patch": {
+        "pages": "90–96"
+      },
       "delete": [
         {
           "key": "Z7EG3VQ2",
@@ -8308,6 +9696,7 @@
       "master_version": 4766,
       "master_has_pdf": false,
       "reparent_pdf_from": "TU2I2DQ9",
+      "merge_patch": {},
       "delete": [
         {
           "key": "TU2I2DQ9",
@@ -8324,6 +9713,9 @@
       "master_version": 4737,
       "master_has_pdf": false,
       "reparent_pdf_from": "Q6M3685Q",
+      "merge_patch": {
+        "pages": "21–33"
+      },
       "delete": [
         {
           "key": "Q6M3685Q",
@@ -8340,6 +9732,7 @@
       "master_version": 4736,
       "master_has_pdf": false,
       "reparent_pdf_from": "UVI4ITTZ",
+      "merge_patch": {},
       "delete": [
         {
           "key": "UVI4ITTZ",
@@ -8356,6 +9749,7 @@
       "master_version": 4736,
       "master_has_pdf": false,
       "reparent_pdf_from": "NFZZ24M4",
+      "merge_patch": {},
       "delete": [
         {
           "key": "NFZZ24M4",
@@ -8372,6 +9766,9 @@
       "master_version": 4766,
       "master_has_pdf": false,
       "reparent_pdf_from": "8UF6D23Q",
+      "merge_patch": {
+        "pages": "35–43"
+      },
       "delete": [
         {
           "key": "8UF6D23Q",
@@ -8388,6 +9785,7 @@
       "master_version": 4736,
       "master_has_pdf": false,
       "reparent_pdf_from": "M343J45N",
+      "merge_patch": {},
       "delete": [
         {
           "key": "M343J45N",
@@ -8404,6 +9802,7 @@
       "master_version": 4766,
       "master_has_pdf": false,
       "reparent_pdf_from": "58AVFRAB",
+      "merge_patch": {},
       "delete": [
         {
           "key": "58AVFRAB",
@@ -8420,6 +9819,7 @@
       "master_version": 4736,
       "master_has_pdf": false,
       "reparent_pdf_from": "3JG6DFVM",
+      "merge_patch": {},
       "delete": [
         {
           "key": "3JG6DFVM",
@@ -8436,6 +9836,7 @@
       "master_version": 4736,
       "master_has_pdf": false,
       "reparent_pdf_from": "9C97ZDMG",
+      "merge_patch": {},
       "delete": [
         {
           "key": "9C97ZDMG",
@@ -8452,6 +9853,7 @@
       "master_version": 4736,
       "master_has_pdf": false,
       "reparent_pdf_from": "8XF6PT4M",
+      "merge_patch": {},
       "delete": [
         {
           "key": "8XF6PT4M",
@@ -8468,6 +9870,9 @@
       "master_version": 4770,
       "master_has_pdf": false,
       "reparent_pdf_from": "9E2V9MCE",
+      "merge_patch": {
+        "pages": "53–60"
+      },
       "delete": [
         {
           "key": "9E2V9MCE",
@@ -8484,6 +9889,9 @@
       "master_version": 4767,
       "master_has_pdf": false,
       "reparent_pdf_from": "6DWKCUVC",
+      "merge_patch": {
+        "pages": "63–70"
+      },
       "delete": [
         {
           "key": "6DWKCUVC",
@@ -8500,6 +9908,9 @@
       "master_version": 4766,
       "master_has_pdf": false,
       "reparent_pdf_from": "XX4TCXTE",
+      "merge_patch": {
+        "pages": "23–33"
+      },
       "delete": [
         {
           "key": "XX4TCXTE",
@@ -8516,6 +9927,9 @@
       "master_version": 4766,
       "master_has_pdf": false,
       "reparent_pdf_from": "R23BDBW4",
+      "merge_patch": {
+        "pages": "72–76"
+      },
       "delete": [
         {
           "key": "R23BDBW4",
@@ -8532,6 +9946,9 @@
       "master_version": 4765,
       "master_has_pdf": false,
       "reparent_pdf_from": "8APHC5MC",
+      "merge_patch": {
+        "pages": "4151–4160"
+      },
       "delete": [
         {
           "key": "8APHC5MC",
@@ -8548,6 +9965,7 @@
       "master_version": 4734,
       "master_has_pdf": false,
       "reparent_pdf_from": "BQH4WS6E",
+      "merge_patch": {},
       "delete": [
         {
           "key": "BQH4WS6E",
@@ -8564,6 +9982,7 @@
       "master_version": 4771,
       "master_has_pdf": false,
       "reparent_pdf_from": "EQ4XT5JQ",
+      "merge_patch": {},
       "delete": [
         {
           "key": "EQ4XT5JQ",
@@ -8580,6 +9999,7 @@
       "master_version": 4736,
       "master_has_pdf": false,
       "reparent_pdf_from": "IC8CJ5FR",
+      "merge_patch": {},
       "delete": [
         {
           "key": "IC8CJ5FR",
@@ -8596,6 +10016,7 @@
       "master_version": 4764,
       "master_has_pdf": false,
       "reparent_pdf_from": "HD4GTBNA",
+      "merge_patch": {},
       "delete": [
         {
           "key": "HD4GTBNA",
@@ -8612,6 +10033,7 @@
       "master_version": 4771,
       "master_has_pdf": false,
       "reparent_pdf_from": "MHJWTHTI",
+      "merge_patch": {},
       "delete": [
         {
           "key": "MHJWTHTI",
@@ -8628,6 +10050,7 @@
       "master_version": 4764,
       "master_has_pdf": false,
       "reparent_pdf_from": "SGXKWGBE",
+      "merge_patch": {},
       "delete": [
         {
           "key": "SGXKWGBE",
@@ -8644,6 +10067,7 @@
       "master_version": 4736,
       "master_has_pdf": false,
       "reparent_pdf_from": "7WX37PP2",
+      "merge_patch": {},
       "delete": [
         {
           "key": "7WX37PP2",
@@ -8660,6 +10084,7 @@
       "master_version": 4736,
       "master_has_pdf": false,
       "reparent_pdf_from": "H3G8N7HG",
+      "merge_patch": {},
       "delete": [
         {
           "key": "H3G8N7HG",
@@ -8676,6 +10101,7 @@
       "master_version": 4771,
       "master_has_pdf": false,
       "reparent_pdf_from": "WD3HVVRX",
+      "merge_patch": {},
       "delete": [
         {
           "key": "WD3HVVRX",
@@ -8692,6 +10118,7 @@
       "master_version": 4771,
       "master_has_pdf": false,
       "reparent_pdf_from": "8MMME3VI",
+      "merge_patch": {},
       "delete": [
         {
           "key": "8MMME3VI",
@@ -8708,6 +10135,7 @@
       "master_version": 4739,
       "master_has_pdf": false,
       "reparent_pdf_from": "V94RACG6",
+      "merge_patch": {},
       "delete": [
         {
           "key": "V94RACG6",
@@ -8724,6 +10152,7 @@
       "master_version": 4768,
       "master_has_pdf": false,
       "reparent_pdf_from": "9PAZIFE2",
+      "merge_patch": {},
       "delete": [
         {
           "key": "438Z6ESD",
@@ -8752,6 +10181,9 @@
       "master_version": 4768,
       "master_has_pdf": false,
       "reparent_pdf_from": "V6F4ZD97",
+      "merge_patch": {
+        "date": "14 - 17 May 2003"
+      },
       "delete": [
         {
           "key": "V6F4ZD97",
@@ -8768,6 +10200,9 @@
       "master_version": 4768,
       "master_has_pdf": false,
       "reparent_pdf_from": "SUNQVTUE",
+      "merge_patch": {
+        "date": "12 - 15 May 2004"
+      },
       "delete": [
         {
           "key": "SUNQVTUE",
@@ -8784,6 +10219,9 @@
       "master_version": 4768,
       "master_has_pdf": false,
       "reparent_pdf_from": "6RJUMQBK",
+      "merge_patch": {
+        "date": "10 - 13 May 2005"
+      },
       "delete": [
         {
           "key": "6RJUMQBK",
@@ -8800,6 +10238,7 @@
       "master_version": 4736,
       "master_has_pdf": false,
       "reparent_pdf_from": "I5SGHVHT",
+      "merge_patch": {},
       "delete": [
         {
           "key": "I5SGHVHT",
@@ -8816,6 +10255,9 @@
       "master_version": 4937,
       "master_has_pdf": false,
       "reparent_pdf_from": "CFMUNRAX",
+      "merge_patch": {
+        "conferenceName": "WWW-YES"
+      },
       "delete": [
         {
           "key": "F65HPQ28",
@@ -8844,6 +10286,9 @@
       "master_version": 4735,
       "master_has_pdf": false,
       "reparent_pdf_from": "XE5STJZJ",
+      "merge_patch": {
+        "date": "31 May - 4 June 2010"
+      },
       "delete": [
         {
           "key": "XE5STJZJ",
@@ -8860,6 +10305,9 @@
       "master_version": 4735,
       "master_has_pdf": false,
       "reparent_pdf_from": "4HC5M2P6",
+      "merge_patch": {
+        "date": "5 - 10 June 2011"
+      },
       "delete": [
         {
           "key": "4HC5M2P6",
@@ -8876,6 +10324,9 @@
       "master_version": 4735,
       "master_has_pdf": false,
       "reparent_pdf_from": "VPFMBXCV",
+      "merge_patch": {
+        "date": "21 – 25 May 2012"
+      },
       "delete": [
         {
           "key": "VPFMBXCV",
@@ -8892,6 +10343,9 @@
       "master_version": 4735,
       "master_has_pdf": false,
       "reparent_pdf_from": "C5VXWZDH",
+      "merge_patch": {
+        "date": "2 – 7 June 2013"
+      },
       "delete": [
         {
           "key": "C5VXWZDH",
@@ -8908,6 +10362,7 @@
       "master_version": 4768,
       "master_has_pdf": false,
       "reparent_pdf_from": "FI9D3PTG",
+      "merge_patch": {},
       "delete": [
         {
           "key": "FI9D3PTG",
@@ -8924,6 +10379,7 @@
       "master_version": 4735,
       "master_has_pdf": false,
       "reparent_pdf_from": "IJBDU24G",
+      "merge_patch": {},
       "delete": [
         {
           "key": "IJBDU24G",
@@ -8940,6 +10396,7 @@
       "master_version": 4768,
       "master_has_pdf": false,
       "reparent_pdf_from": "67B3MZK9",
+      "merge_patch": {},
       "delete": [
         {
           "key": "67B3MZK9",
@@ -8956,6 +10413,7 @@
       "master_version": 4767,
       "master_has_pdf": false,
       "reparent_pdf_from": "H367DBEQ",
+      "merge_patch": {},
       "delete": [
         {
           "key": "H367DBEQ",
@@ -8972,6 +10430,7 @@
       "master_version": 4767,
       "master_has_pdf": false,
       "reparent_pdf_from": "UP9E7IED",
+      "merge_patch": {},
       "delete": [
         {
           "key": "UP9E7IED",
@@ -8988,6 +10447,7 @@
       "master_version": 4735,
       "master_has_pdf": false,
       "reparent_pdf_from": "UQ6T4478",
+      "merge_patch": {},
       "delete": [
         {
           "key": "UQ6T4478",
@@ -9004,6 +10464,7 @@
       "master_version": 4767,
       "master_has_pdf": false,
       "reparent_pdf_from": "A74TSAQ2",
+      "merge_patch": {},
       "delete": [
         {
           "key": "A74TSAQ2",
@@ -9020,6 +10481,7 @@
       "master_version": 4735,
       "master_has_pdf": false,
       "reparent_pdf_from": "VPAR829U",
+      "merge_patch": {},
       "delete": [
         {
           "key": "VPAR829U",
@@ -9036,6 +10498,7 @@
       "master_version": 4767,
       "master_has_pdf": false,
       "reparent_pdf_from": "JATJXHHP",
+      "merge_patch": {},
       "delete": [
         {
           "key": "JATJXHHP",
@@ -9052,6 +10515,7 @@
       "master_version": 4764,
       "master_has_pdf": false,
       "reparent_pdf_from": "FU2UVEJZ",
+      "merge_patch": {},
       "delete": [
         {
           "key": "FU2UVEJZ",
@@ -9068,6 +10532,15 @@
       "master_version": 4763,
       "master_has_pdf": false,
       "reparent_pdf_from": "6UGSJATJ",
+      "merge_patch": {
+        "creators": [
+          {
+            "creatorType": "contributor",
+            "firstName": "",
+            "lastName": "Compagnie générale des eaux et l'IAURIF"
+          }
+        ]
+      },
       "delete": [
         {
           "key": "6UGSJATJ",
@@ -9084,6 +10557,7 @@
       "master_version": 4763,
       "master_has_pdf": false,
       "reparent_pdf_from": "82R9EVMD",
+      "merge_patch": {},
       "delete": [
         {
           "key": "82R9EVMD",
@@ -9100,6 +10574,7 @@
       "master_version": 4743,
       "master_has_pdf": false,
       "reparent_pdf_from": "F7CJSI7K",
+      "merge_patch": {},
       "delete": [
         {
           "key": "F7CJSI7K",
@@ -9116,6 +10591,7 @@
       "master_version": 4743,
       "master_has_pdf": false,
       "reparent_pdf_from": "T2BEKVCK",
+      "merge_patch": {},
       "delete": [
         {
           "key": "T2BEKVCK",
@@ -9132,6 +10608,9 @@
       "master_version": 4771,
       "master_has_pdf": false,
       "reparent_pdf_from": "TXTX9MIS",
+      "merge_patch": {
+        "publisher": "CERGRENE"
+      },
       "delete": [
         {
           "key": "TXTX9MIS",
@@ -9148,6 +10627,7 @@
       "master_version": 4765,
       "master_has_pdf": false,
       "reparent_pdf_from": "J63D4G23",
+      "merge_patch": {},
       "delete": [
         {
           "key": "J63D4G23",
@@ -9164,6 +10644,7 @@
       "master_version": 4771,
       "master_has_pdf": false,
       "reparent_pdf_from": "J379W75Z",
+      "merge_patch": {},
       "delete": [
         {
           "key": "J379W75Z",
@@ -9180,6 +10661,9 @@
       "master_version": 4770,
       "master_has_pdf": false,
       "reparent_pdf_from": "2VSZHQEQ",
+      "merge_patch": {
+        "publisher": "CERGRENE"
+      },
       "delete": [
         {
           "key": "2VSZHQEQ",
@@ -9196,6 +10680,7 @@
       "master_version": 4770,
       "master_has_pdf": false,
       "reparent_pdf_from": "4EI4UTN5",
+      "merge_patch": {},
       "delete": [
         {
           "key": "4EI4UTN5",
@@ -9212,6 +10697,7 @@
       "master_version": 4770,
       "master_has_pdf": false,
       "reparent_pdf_from": "37D27MP7",
+      "merge_patch": {},
       "delete": [
         {
           "key": "37D27MP7",
@@ -9228,6 +10714,9 @@
       "master_version": 4771,
       "master_has_pdf": false,
       "reparent_pdf_from": "DRWKRI75",
+      "merge_patch": {
+        "publisher": "CERGRENE"
+      },
       "delete": [
         {
           "key": "DRWKRI75",
@@ -9244,6 +10733,9 @@
       "master_version": 4740,
       "master_has_pdf": false,
       "reparent_pdf_from": "TE8MSPZV",
+      "merge_patch": {
+        "publisher": "CERGRENE"
+      },
       "delete": [
         {
           "key": "TE8MSPZV",
@@ -9260,6 +10752,7 @@
       "master_version": 4735,
       "master_has_pdf": false,
       "reparent_pdf_from": "AWWWXAVE",
+      "merge_patch": {},
       "delete": [
         {
           "key": "AWWWXAVE",
@@ -9276,6 +10769,7 @@
       "master_version": 4771,
       "master_has_pdf": false,
       "reparent_pdf_from": "R5TUPEQ5",
+      "merge_patch": {},
       "delete": [
         {
           "key": "R5TUPEQ5",
@@ -9292,6 +10786,9 @@
       "master_version": 4770,
       "master_has_pdf": false,
       "reparent_pdf_from": "4C2UCCSG",
+      "merge_patch": {
+        "publisher": "CERGRENE"
+      },
       "delete": [
         {
           "key": "4C2UCCSG",
@@ -9308,6 +10805,9 @@
       "master_version": 4770,
       "master_has_pdf": false,
       "reparent_pdf_from": "S48V7ZUK",
+      "merge_patch": {
+        "publisher": "CERGRENE, CEMAGREF"
+      },
       "delete": [
         {
           "key": "S48V7ZUK",
@@ -9324,6 +10824,7 @@
       "master_version": 4734,
       "master_has_pdf": false,
       "reparent_pdf_from": "R3NBI4UV",
+      "merge_patch": {},
       "delete": [
         {
           "key": "R3NBI4UV",
@@ -9340,6 +10841,7 @@
       "master_version": 4770,
       "master_has_pdf": false,
       "reparent_pdf_from": "E6VRCT4K",
+      "merge_patch": {},
       "delete": [
         {
           "key": "E6VRCT4K",
@@ -9356,6 +10858,7 @@
       "master_version": 4770,
       "master_has_pdf": false,
       "reparent_pdf_from": "NUW6T9P6",
+      "merge_patch": {},
       "delete": [
         {
           "key": "NUW6T9P6",
@@ -9372,6 +10875,7 @@
       "master_version": 4769,
       "master_has_pdf": false,
       "reparent_pdf_from": "8NGQ6JW9",
+      "merge_patch": {},
       "delete": [
         {
           "key": "8NGQ6JW9",
@@ -9388,6 +10892,7 @@
       "master_version": 4769,
       "master_has_pdf": false,
       "reparent_pdf_from": "R7TU78XW",
+      "merge_patch": {},
       "delete": [
         {
           "key": "R7TU78XW",
@@ -9404,6 +10909,7 @@
       "master_version": 4769,
       "master_has_pdf": false,
       "reparent_pdf_from": "SFNMCSRU",
+      "merge_patch": {},
       "delete": [
         {
           "key": "SFNMCSRU",
@@ -9420,6 +10926,7 @@
       "master_version": 4768,
       "master_has_pdf": false,
       "reparent_pdf_from": "A9P3BT55",
+      "merge_patch": {},
       "delete": [
         {
           "key": "A9P3BT55",
@@ -9436,6 +10943,9 @@
       "master_version": 4768,
       "master_has_pdf": false,
       "reparent_pdf_from": "KW625656",
+      "merge_patch": {
+        "publisher": "Canada Centre for Inland Waters"
+      },
       "delete": [
         {
           "key": "KW625656",
@@ -9452,6 +10962,7 @@
       "master_version": 4768,
       "master_has_pdf": false,
       "reparent_pdf_from": "9KIXPGKZ",
+      "merge_patch": {},
       "delete": [
         {
           "key": "9KIXPGKZ",
@@ -9468,6 +10979,7 @@
       "master_version": 4739,
       "master_has_pdf": false,
       "reparent_pdf_from": "8TWJU3NU",
+      "merge_patch": {},
       "delete": [
         {
           "key": "8TWJU3NU",
@@ -9484,6 +10996,7 @@
       "master_version": 4764,
       "master_has_pdf": false,
       "reparent_pdf_from": "SSWB9EKX",
+      "merge_patch": {},
       "delete": [
         {
           "key": "SSWB9EKX",
@@ -9500,6 +11013,7 @@
       "master_version": 4965,
       "master_has_pdf": false,
       "reparent_pdf_from": "AEZ9JUVM",
+      "merge_patch": {},
       "delete": [
         {
           "key": "AEZ9JUVM",
@@ -9516,6 +11030,7 @@
       "master_version": 4764,
       "master_has_pdf": false,
       "reparent_pdf_from": "97ARA2AP",
+      "merge_patch": {},
       "delete": [
         {
           "key": "97ARA2AP",
@@ -9532,6 +11047,7 @@
       "master_version": 4965,
       "master_has_pdf": false,
       "reparent_pdf_from": "BEWK483U",
+      "merge_patch": {},
       "delete": [
         {
           "key": "BEWK483U",
@@ -9548,6 +11064,7 @@
       "master_version": 4763,
       "master_has_pdf": false,
       "reparent_pdf_from": "6SHZJ4W9",
+      "merge_patch": {},
       "delete": [
         {
           "key": "6SHZJ4W9",
@@ -9564,6 +11081,7 @@
       "master_version": 4763,
       "master_has_pdf": false,
       "reparent_pdf_from": "6CDKBSNC",
+      "merge_patch": {},
       "delete": [
         {
           "key": "6CDKBSNC",
@@ -9580,6 +11098,9 @@
       "master_version": 4743,
       "master_has_pdf": false,
       "reparent_pdf_from": "QK7K33UC",
+      "merge_patch": {
+        "publisher": "Ministère de l'équipement, du logement, des transports et de la mer, Direction de l'architecture et de l'urbanisme"
+      },
       "delete": [
         {
           "key": "QK7K33UC",
@@ -9596,6 +11117,9 @@
       "master_version": 4743,
       "master_has_pdf": false,
       "reparent_pdf_from": "FG57B7AZ",
+      "merge_patch": {
+        "date": "Avril - Août 2005"
+      },
       "delete": [
         {
           "key": "FG57B7AZ",
@@ -9612,6 +11136,7 @@
       "master_version": 4743,
       "master_has_pdf": false,
       "reparent_pdf_from": "HK8EHI53",
+      "merge_patch": {},
       "delete": [
         {
           "key": "HK8EHI53",
@@ -9628,6 +11153,7 @@
       "master_version": 4734,
       "master_has_pdf": false,
       "reparent_pdf_from": "9UTTRQBT",
+      "merge_patch": {},
       "delete": [
         {
           "key": "9UTTRQBT",
@@ -9644,6 +11170,7 @@
       "master_version": 4734,
       "master_has_pdf": false,
       "reparent_pdf_from": "MQ4EQ9J8",
+      "merge_patch": {},
       "delete": [
         {
           "key": "MQ4EQ9J8",
@@ -9660,6 +11187,7 @@
       "master_version": 4743,
       "master_has_pdf": false,
       "reparent_pdf_from": "MJ6G6KA6",
+      "merge_patch": {},
       "delete": [
         {
           "key": "MJ6G6KA6",
@@ -9676,6 +11204,7 @@
       "master_version": 4734,
       "master_has_pdf": false,
       "reparent_pdf_from": "N4AXMVPC",
+      "merge_patch": {},
       "delete": [
         {
           "key": "N4AXMVPC",
@@ -9692,6 +11221,7 @@
       "master_version": 4741,
       "master_has_pdf": false,
       "reparent_pdf_from": "SBREKH77",
+      "merge_patch": {},
       "delete": [
         {
           "key": "SBREKH77",
@@ -9708,6 +11238,7 @@
       "master_version": 4741,
       "master_has_pdf": false,
       "reparent_pdf_from": "BHBI4CGF",
+      "merge_patch": {},
       "delete": [
         {
           "key": "BHBI4CGF",
@@ -9724,6 +11255,7 @@
       "master_version": 4741,
       "master_has_pdf": false,
       "reparent_pdf_from": "Q4ZC8DE3",
+      "merge_patch": {},
       "delete": [
         {
           "key": "Q4ZC8DE3",
@@ -9740,6 +11272,7 @@
       "master_version": 4741,
       "master_has_pdf": false,
       "reparent_pdf_from": "35CE6RJP",
+      "merge_patch": {},
       "delete": [
         {
           "key": "35CE6RJP",
@@ -9756,6 +11289,7 @@
       "master_version": 4741,
       "master_has_pdf": false,
       "reparent_pdf_from": "SDG3EQ45",
+      "merge_patch": {},
       "delete": [
         {
           "key": "SDG3EQ45",
@@ -9772,6 +11306,7 @@
       "master_version": 4741,
       "master_has_pdf": false,
       "reparent_pdf_from": "9GBV3AV8",
+      "merge_patch": {},
       "delete": [
         {
           "key": "9GBV3AV8",
@@ -9788,6 +11323,7 @@
       "master_version": 4741,
       "master_has_pdf": false,
       "reparent_pdf_from": "8IP9D222",
+      "merge_patch": {},
       "delete": [
         {
           "key": "8IP9D222",
@@ -9804,6 +11340,7 @@
       "master_version": 4739,
       "master_has_pdf": false,
       "reparent_pdf_from": "QH5Q6TA7",
+      "merge_patch": {},
       "delete": [
         {
           "key": "QH5Q6TA7",
@@ -9820,6 +11357,7 @@
       "master_version": 4739,
       "master_has_pdf": false,
       "reparent_pdf_from": "FURXX6VP",
+      "merge_patch": {},
       "delete": [
         {
           "key": "FURXX6VP",
@@ -9836,6 +11374,7 @@
       "master_version": 4741,
       "master_has_pdf": false,
       "reparent_pdf_from": "PMW5BVSR",
+      "merge_patch": {},
       "delete": [
         {
           "key": "PMW5BVSR",
@@ -9852,6 +11391,7 @@
       "master_version": 4741,
       "master_has_pdf": false,
       "reparent_pdf_from": "C9BT3KC2",
+      "merge_patch": {},
       "delete": [
         {
           "key": "C9BT3KC2",
@@ -9868,6 +11408,7 @@
       "master_version": 4739,
       "master_has_pdf": false,
       "reparent_pdf_from": "NMVSWKJF",
+      "merge_patch": {},
       "delete": [
         {
           "key": "NMVSWKJF",
@@ -9884,6 +11425,7 @@
       "master_version": 4734,
       "master_has_pdf": false,
       "reparent_pdf_from": "3WPH27JC",
+      "merge_patch": {},
       "delete": [
         {
           "key": "3WPH27JC",
@@ -9900,6 +11442,7 @@
       "master_version": 4740,
       "master_has_pdf": false,
       "reparent_pdf_from": "K72A3FFX",
+      "merge_patch": {},
       "delete": [
         {
           "key": "K72A3FFX",
@@ -9916,6 +11459,7 @@
       "master_version": 4740,
       "master_has_pdf": false,
       "reparent_pdf_from": "K8ZTDS92",
+      "merge_patch": {},
       "delete": [
         {
           "key": "K8ZTDS92",
@@ -9932,6 +11476,7 @@
       "master_version": 4739,
       "master_has_pdf": false,
       "reparent_pdf_from": "3KPQ7N75",
+      "merge_patch": {},
       "delete": [
         {
           "key": "3KPQ7N75",
@@ -9948,6 +11493,7 @@
       "master_version": 4740,
       "master_has_pdf": false,
       "reparent_pdf_from": "QFX2XZ8N",
+      "merge_patch": {},
       "delete": [
         {
           "key": "QFX2XZ8N",
@@ -9964,6 +11510,7 @@
       "master_version": 4742,
       "master_has_pdf": false,
       "reparent_pdf_from": "X4DSACB2",
+      "merge_patch": {},
       "delete": [
         {
           "key": "X4DSACB2",
@@ -9980,6 +11527,7 @@
       "master_version": 4740,
       "master_has_pdf": false,
       "reparent_pdf_from": "FMS2CDSR",
+      "merge_patch": {},
       "delete": [
         {
           "key": "FMS2CDSR",
@@ -9996,6 +11544,7 @@
       "master_version": 4740,
       "master_has_pdf": false,
       "reparent_pdf_from": "QTSNX7HW",
+      "merge_patch": {},
       "delete": [
         {
           "key": "QTSNX7HW",
@@ -10012,6 +11561,7 @@
       "master_version": 4740,
       "master_has_pdf": false,
       "reparent_pdf_from": "ZGGMH5GX",
+      "merge_patch": {},
       "delete": [
         {
           "key": "ZGGMH5GX",
@@ -10028,6 +11578,7 @@
       "master_version": 4740,
       "master_has_pdf": false,
       "reparent_pdf_from": "7XKPR9BC",
+      "merge_patch": {},
       "delete": [
         {
           "key": "7XKPR9BC",
@@ -10044,6 +11595,7 @@
       "master_version": 4740,
       "master_has_pdf": false,
       "reparent_pdf_from": "HI8IZXKG",
+      "merge_patch": {},
       "delete": [
         {
           "key": "HI8IZXKG",
@@ -10060,6 +11612,7 @@
       "master_version": 4740,
       "master_has_pdf": false,
       "reparent_pdf_from": "RSHMWKF9",
+      "merge_patch": {},
       "delete": [
         {
           "key": "RSHMWKF9",
@@ -10076,6 +11629,7 @@
       "master_version": 4734,
       "master_has_pdf": false,
       "reparent_pdf_from": "HFMVG3XV",
+      "merge_patch": {},
       "delete": [
         {
           "key": "HFMVG3XV",
@@ -10092,6 +11646,7 @@
       "master_version": 4734,
       "master_has_pdf": false,
       "reparent_pdf_from": "3S3UEZ4F",
+      "merge_patch": {},
       "delete": [
         {
           "key": "3S3UEZ4F",
@@ -10108,6 +11663,7 @@
       "master_version": 4765,
       "master_has_pdf": false,
       "reparent_pdf_from": "HB96KVM8",
+      "merge_patch": {},
       "delete": [
         {
           "key": "HB96KVM8",
@@ -10124,6 +11680,7 @@
       "master_version": 4765,
       "master_has_pdf": false,
       "reparent_pdf_from": "53TXAMMC",
+      "merge_patch": {},
       "delete": [
         {
           "key": "53TXAMMC",
@@ -10140,6 +11697,7 @@
       "master_version": 4765,
       "master_has_pdf": false,
       "reparent_pdf_from": "SFU4DQ82",
+      "merge_patch": {},
       "delete": [
         {
           "key": "SFU4DQ82",
@@ -10156,6 +11714,7 @@
       "master_version": 4763,
       "master_has_pdf": false,
       "reparent_pdf_from": "C2HFF6BU",
+      "merge_patch": {},
       "delete": [
         {
           "key": "C2HFF6BU",
@@ -10172,6 +11731,7 @@
       "master_version": 4743,
       "master_has_pdf": false,
       "reparent_pdf_from": "DQUTPC9R",
+      "merge_patch": {},
       "delete": [
         {
           "key": "DQUTPC9R",
@@ -10188,6 +11748,7 @@
       "master_version": 4764,
       "master_has_pdf": false,
       "reparent_pdf_from": "7X8PIAH9",
+      "merge_patch": {},
       "delete": [
         {
           "key": "7X8PIAH9",
@@ -10204,6 +11765,7 @@
       "master_version": 4733,
       "master_has_pdf": false,
       "reparent_pdf_from": "RWU3QWN7",
+      "merge_patch": {},
       "delete": [
         {
           "key": "RWU3QWN7",
@@ -10220,6 +11782,7 @@
       "master_version": 4763,
       "master_has_pdf": false,
       "reparent_pdf_from": "KXW8T7FM",
+      "merge_patch": {},
       "delete": [
         {
           "key": "KXW8T7FM",
@@ -10236,6 +11799,7 @@
       "master_version": 4734,
       "master_has_pdf": false,
       "reparent_pdf_from": "MRAMK86I",
+      "merge_patch": {},
       "delete": [
         {
           "key": "MRAMK86I",
@@ -10252,6 +11816,7 @@
       "master_version": 4734,
       "master_has_pdf": false,
       "reparent_pdf_from": "REEPQMT9",
+      "merge_patch": {},
       "delete": [
         {
           "key": "REEPQMT9",
