@@ -26,9 +26,17 @@ Analyse de contenu par hash SHA-1 (file_index.json) :
 - **77/110 byte-à-byte identiques** à un fichier déjà dans le corpus (même
   hash, renommage) → la notice perso pointe déjà sur le même contenu ; ne
   reste qu'à fusionner les corrections de métadonnées d'Antonin.
-- **33/110 contenu unique** (aucun jumeau de hash) → fichiers réellement
-  différents : nouveau document OU autre scan/version du même. À examiner un par
-  un (nouveau → ajouter ; meilleur scan → décider quel PDF garder).
+- **33/110 contenu unique** (aucun jumeau de hash). Classés par `id` `YYYY-NNN`
+  contre `docs/` :
+  - **6 autre scan** d'un doc existant (id présent, contenu ≠) → comparer les
+    PDF, garder le meilleur : 1975-015, 1975-016, 1979-028, 1988-077,
+    1993-095, 2004-127.
+  - **20 nouveaux** (id absent de `docs/`) → candidats à ajouter au corpus ;
+    surtout Hourcade/Godard 2001–2013 (climat-éco) + qq 1970-80. NB `1975-019`
+    ×2 (artuso & chabrol, deux articles au même numéro).
+  - **7 sans id standard** avec signaux : `1981-SCAN-INCOMPLET-Ceron…`
+    (qualité), 3× `PAS-DANS-LA-LISTE-…` (hors liste, intentionnel), 3 à id
+    interne (`1997-Godard-111-…`) parsables avec une règle plus souple.
 
 Objectif, en deux temps :
 1. **Vérifier que `Recueil_CIRED` est un sous-ensemble strict** de My Library :
