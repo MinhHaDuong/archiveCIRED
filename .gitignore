@@ -14,3 +14,6 @@ src/ocr/
 # Editor
 .DS_Store
 *.swp
+
+# Sauvegarde Zotero (volumineux, non versionné)
+outputs/zotero_backup*.json

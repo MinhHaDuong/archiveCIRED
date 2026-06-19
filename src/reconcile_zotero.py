@@ -19,6 +19,7 @@ import argparse
 import json
 import logging
 import re
+import time
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -127,11 +128,27 @@ def load_env(path: Path) -> dict[str, str]:
     return env
 
 
+def urlopen_retry(req: urllib.request.Request, tries: int = 5):
+    """urlopen avec respect du rate-limiting Zotero (429/503 + Retry-After)."""
+    delay = 2
+    for attempt in range(tries):
+        try:
+            return urllib.request.urlopen(req, timeout=60)
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 503) and attempt < tries - 1:
+                wait = int(e.headers.get("Retry-After") or delay)
+                logger.warning("rate-limit %s, pause %ss…", e.code, wait)
+                time.sleep(wait)
+                delay *= 2
+                continue
+            raise
+
+
 def _get(url: str, api_key: str) -> tuple[list, int]:
     """GET Zotero -> (objets json, Total-Results). Lève sur erreur HTTP."""
     req = urllib.request.Request(url, headers={"Zotero-API-Key": api_key,
                                                "Zotero-API-Version": "3"})
-    with urllib.request.urlopen(req, timeout=60) as resp:
+    with urlopen_retry(req) as resp:
         total = int(resp.headers.get("Total-Results", 0))
         return json.loads(resp.read().decode()), total
 

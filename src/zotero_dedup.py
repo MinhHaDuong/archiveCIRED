@@ -161,7 +161,7 @@ def _write(method: str, url: str, api_key: str, version: int,
         data = json.dumps(body).encode()
         headers["Content-Type"] = "application/json"
     req = urllib.request.Request(url, data=data, method=method, headers=headers)
-    with urllib.request.urlopen(req, timeout=60) as resp:
+    with rz.urlopen_retry(req) as resp:
         return resp.status
 
 
