@@ -2,9 +2,11 @@
 Title: Réconcilier le groupe Recueil_CIRED (corrections métadonnées d'Antonin)
 Created: 2026-06-19
 Author: Minh Ha-Duong
-Blocked-by: 0014
-Label: needs-human
 
+--- log ---
+2026-06-19T13:00Z claude created
+2026-06-19T15:20Z Minh Ha-Duong note blocker 0014 closed — Blocked-by removed.
+2026-06-19T15:25Z claude label needs-human — bloqué : recueil non joignable sans la table d'Antonin
 --- body ---
 ## Diagnostic d'appariement (2026-06-19) — BLOQUÉ
 
