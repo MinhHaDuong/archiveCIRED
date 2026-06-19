@@ -22,6 +22,16 @@ def test_extract_archive_key_none():
     assert rz.extract_archive_key(None) is None
 
 
+def test_extract_archive_key_docid_fallback():
+    # id canonique YYYY-NNN en repli (numenpc, docs/)
+    assert rz.extract_archive_key("http://numenpc.centre-cired.fr/1973-009.pdf") == "1973-009"
+    assert rz.extract_archive_key("docs/1982-055.pdf") == "1982-055"
+    # le nom d'archive CIR_/ENPC reste prioritaire
+    assert rz.extract_archive_key("inari/docs/CIR_SAC_0317.pdf") == "CIR_SAC_0317"
+    # une année isolée dans un chemin ne doit pas matcher (pas en basename)
+    assert rz.extract_archive_key("2020/rapport-final.pdf") is None
+
+
 def test_doc_keys_dedups_across_files():
     # même numéro d'archive dans deux dossiers -> une seule clé
     doc = {"fichiers": [

@@ -34,22 +34,31 @@ DEFAULT_REPORT = Path("outputs/reconcile_report.json")
 
 # Clé d'archive : CIR_SAC_0317, CIR_GOD_0052, ENPC00_AR_LEESU_0012, …
 KEY_RE = re.compile(r"(CIR_[A-Z]+_\d+|ENPC\d*_[A-Z]+_LEESU_\d+)")
+# Repli : id canonique YYYY-NNN en *basename* (ex. docs/1973-009.pdf, numenpc).
+DOCID_RE = re.compile(r"/(\d{4}-\d{3})\.[A-Za-z0-9]+$")
 
 
 def extract_archive_key(text: str | None) -> str | None:
     """Extrait la clé d'archive normalisée d'un chemin, d'une URL ou d'un nom.
 
+    Priorité au nom de fichier d'archive `CIR_/ENPC` ; à défaut, l'id canonique
+    `YYYY-NNN` du basename (présent côté numenpc et recueil). Jamais par titre —
+    l'appariement reste fondé sur un identifiant unique, pas sur un libellé.
+
     >>> extract_archive_key("TDM/1970_CIR_SAC_0317.pdf")
     'CIR_SAC_0317'
-    >>> extract_archive_key("https://x/docs/ENPC00_AR_LEESU_0012.PDF")
-    'ENPC00_AR_LEESU_0012'
+    >>> extract_archive_key("http://numenpc.centre-cired.fr/1973-009.pdf")
+    '1973-009'
     >>> extract_archive_key("Godard-OCDE-libre.pdf") is None
     True
     """
     if not text:
         return None
     m = KEY_RE.search(text)
-    return m.group(1) if m else None
+    if m:
+        return m.group(1)
+    d = DOCID_RE.search(text)
+    return d.group(1) if d else None
 
 
 def doc_keys(doc: dict) -> set[str]:
