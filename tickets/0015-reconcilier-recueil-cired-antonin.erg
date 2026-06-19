@@ -7,14 +7,30 @@ Blocked-by: 0014
 --- body ---
 ## Context
 
-Le groupe privé `Recueil_CIRED` (id 2511149, 149 notices) a été constitué par
-**Antonin**, qui indique avoir **corrigé pas mal de métadonnées**. Ces notices
-peuvent donc être *meilleures* que celles de My Library pour les documents
-correspondants. Il faut réconcilier les deux sans écraser le travail d'Antonin.
+Le groupe privé `Recueil_CIRED` (id 2511149, 149 notices) est le **« recueil
+50 ans CIRED »** constitué par **Antonin**, qui indique avoir **corrigé pas mal
+de métadonnées**. Hypothèse : ses notices sont *meilleures* — **à vérifier
+champ par champ, pas à présumer** (M. Ha-Duong, 2026-06-19).
 
-À clarifier avec Antonin avant de coder : quels champs il a corrigés, sur quel
-sous-ensemble, et quel doit être le rôle final du groupe (cible de partage
-CIRED/ENPC vs brouillon).
+Particularité d'appariement : les notices du groupe ont bien des URL inari
+(121/131), mais dans une **autre arborescence** que My Library —
+`inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/` avec des noms descriptifs
+`YYYY-NN-Auteur-titre.pdf` (ex. `1993-97-Godard-Strategies_industrielles….pdf`),
+au lieu de `kCj0pHP0-CIRED_numerisation/.../CIR_xxx.pdf`. Donc :
+- pas de jointure possible par la clé `CIR_xxx` ;
+- jointure principale par **titre + auteur + année** ;
+- clé secondaire à tester : le préfixe `YYYY-NN` ressemble à l'ancien schéma
+  d'`id` CIRED `année-numéro` (cf. `2006-129`, ticket 0008) — vérifier s'il
+  matche un identifiant côté My Library / doc_index.
+
+Objectif, en deux temps :
+1. **Vérifier que `Recueil_CIRED` est un sous-ensemble strict** de My Library :
+   chaque notice du groupe a un correspondant (titre/auteur/année), le groupe
+   est plus petit. Les notices de groupe sans correspondant → exceptions à
+   signaler.
+2. **Importer les corrections d'Antonin** : direction **groupe → My Library**
+   uniquement. Diff champ par champ produit en rapport, **revu avant
+   propagation** (ne pas écraser sur la seule hypothèse que le groupe est mieux).
 
 ## Relevant files
 
@@ -26,12 +42,12 @@ CIRED/ENPC vs brouillon).
 
 1. Apparier les 149 notices du groupe à My Library par clé d'archive (puis par
    titre/auteur pour celles sans clé).
-2. Diff champ par champ groupe ↔ perso ; repérer les corrections d'Antonin
-   (groupe diffère et semble meilleur).
-3. Décider la direction de propagation : corrections du groupe → My Library
-   (et/ou inversement). NE PAS écraser le groupe par défaut.
-4. Décider le rôle du groupe (peupler depuis le set canonique nettoyé, ou
-   garder le groupe comme source autoritaire pour son sous-ensemble).
+2. **Vérifier le sous-ensemble strict** : 149 paires trouvées, 0 notice de
+   groupe orpheline ; sortir un rapport des éventuelles exceptions.
+3. Diff champ par champ groupe ↔ perso ; lister les champs où le groupe diffère
+   (corrections d'Antonin) — produire un rapport pour revue.
+4. Propager **groupe → perso** : appliquer les corrections aux notices perso
+   (dry-run d'abord, `--apply` + `--backup`). Direction unique.
 
 ## Test
 
@@ -40,18 +56,19 @@ CIRED/ENPC vs brouillon).
 
 ## Verification
 
+- [ ] Sous-ensemble strict confirmé (149 paires, 0 orpheline) ou exceptions listées
 - [ ] Rapport de diff groupe↔perso (corrections d'Antonin identifiées)
-- [ ] Direction de propagation validée avec Antonin / M. Ha-Duong
-- [ ] Aucune correction d'Antonin perdue
+- [ ] Corrections propagées groupe → perso, aucune perdue
 - [ ] `make check` passe
 
 ## Invariants
 
-- Ne pas écraser les corrections d'Antonin sans validation explicite.
+- Propagation **uniquement** groupe → perso (jamais perso → groupe).
 - Dry-run par défaut ; `--apply` exige `--backup`.
+- Ne pas toucher l'archive source sur disque.
 
 ## Exit criteria
 
-- [ ] Diff groupe↔perso produit et revu
-- [ ] Stratégie de propagation décidée et appliquée
+- [ ] Sous-ensemble strict vérifié (rapport)
+- [ ] Corrections d'Antonin importées dans My Library
 - [ ] `make check` passe
