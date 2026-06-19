@@ -8,6 +8,19 @@ Blocked-by: 0013
 2026-06-19T12:40Z claude created Repéré par M. Ha-Duong après le dédoublonnage par clé (0013).
 
 --- body ---
+## Résultat (2026-06-19)
+
+Apply OK : 44 fusionnés, 29 PDF re-parentés, 44 supprimés. Maître = inari à 100 %.
+numenpc 47 → 3 (reliquat du cas 2-volumes). My Library 735 → **691** notices.
+
+Dédoublonnage **par identifiant terminé** (0013 + 0016) : 1378 → 691, zéro perte.
+
+Reste, NON automatisable (à juger à la main) :
+- `ENPC00_OUV_LEESU_0016` : ouvrage 2 volumes → 2 notices (décidé en 0013).
+- **22 titres dupliqués à clés `CIR_SAC` différentes = vrais docs distincts**
+  (Sachs réutilisait les titres) → NE PAS fusionner, juste vérifier.
+- 3 titres sans clé (Godard descriptifs) + 1 à clé unilatérale → investiguer.
+
 ## Context
 
 Après le dédoublonnage par nom de fichier (0013), il reste ~70 titres dupliqués
