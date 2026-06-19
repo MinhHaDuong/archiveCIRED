@@ -14,7 +14,8 @@ Dépôt HAL différé — ne pas bloquer sur les droits.
 **Tickets:** 1 en cours (0008 réconciliation Zotero) · 5 déférés (0003 HAL, 0005 HAL batch, 0006 OCR, 0007 metadata, 0009 zotero-test)
 **Catalogue Zotero:** existe déjà — groupe `Recueil_CIRED` (2511149, recueil 50 ans d'Antonin) + My Library. Réconciliation faite (`outputs/reconcile_report.md`) : 829/1112 docs déjà catalogués. Prémisse "importer 1112 notices" caduque.
 **Dédoublonnage My Library (0013+0016+0017):** FAIT — 1378 → **686** notices, zéro perte. Par id (633+44), + 5 résiduelles fusionnées, collection « Old » supprimée. Les 26 groupes de versions multiples (preprint/article, traductions) reliés en Zotero Related (53 notices). Collections : LEESU 181, CIRED 505, Documents à consulter 686, Bac à sable 0.
-**Suite:** 0014 (collections→tags), 0015 (importer corrections métadonnées d'Antonin, groupe→perso, par id YYYY-NN).
+**Collections→tags (0014):** FAIT — 686 tags (CIRED 505, LEESU 181), collections CIRED/LEESU supprimées ; reste « Documents à consulter » (686) + « Bac à sable » (0, vide).
+**Suite:** 0015 (importer corrections métadonnées d'Antonin depuis le groupe Recueil_CIRED, groupe→perso, par id YYYY-NN).
 **Index archivistique:** 1991 fichiers — outputs/file_index.json (ticket 0010 ✓)
 **Index documentaire:** 1112 docs — auteurs 72.8%, titre 75.3%, annee 57.8% — outputs/doc_index.json (ticket 0011 ✓)
 **CI:** GitHub Actions actif — make check (12 tests) sur chaque PR (ticket 0012 ✓)
