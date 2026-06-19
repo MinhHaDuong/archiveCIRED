@@ -7,6 +7,24 @@ Author: Minh Ha-Duong
 2026-06-19T00:00Z claude created Diagnostic issu de l'audit ticket 0008.
 
 --- body ---
+
+## Résultat du run complet (2026-06-19)
+
+1376 → 737 notices. 415 fusionnés, 633 re-parentés, 639 supprimés, 2 ignorés,
+3 erreurs. 733/736 clés dédoublées proprement, **zéro perte** (invariant OK).
+3 cas restants à corriger (bugs révélés sans casse) :
+
+- `CIR_SAC_0019` : maître 2020 a un enfant *note* → `has_pdf` (basé sur
+  numChildren) croit qu'il a un PDF, le vrai PDF (jumelle) n'est pas re-parenté.
+  Corriger : décider le re-parentage sur la présence d'une *pièce jointe PDF
+  réelle* (contentType), pas numChildren.
+- `CIR_SAC_0325` : aucun PDF nulle part ; l'invariant bloque une suppression
+  pourtant sans risque. Corriger : ne bloquer que si une jumelle a un PDF réel
+  absent du maître.
+- `ENPC00_OUV_LEESU_0016` : ouvrage en **2 volumes** (PDF `_a_` et `_b_`).
+  HTTP 400 = backfill d'un champ d'un autre itemType (conferencePaper→book).
+  Corriger : ne pas backfiller les champs invalides pour le type du maître
+  (try/catch 400 → re-tenter sans patch) ; rattacher les DEUX PDF au maître.
 ## Context
 
 L'audit de la bibliothèque Zotero distante (`My Library`, 1378 notices) révèle
