@@ -5,6 +5,16 @@ Author: Minh Ha-Duong
 Blocked-by: 0013
 
 --- body ---
+## Résultat (2026-06-19) — FAIT
+
+Apply OK : 26 groupes de versions multiples reliés en Zotero Related, 53 notices,
+0 incomplète (Zotero crée le lien réciproque), 0 erreur. Garde-fou même-id actif.
+
+Préalable réglé dans la foulée : 5 doublons résiduels (issus de la collection
+« Old » non synchronisée) fusionnés avec leurs jumelles canoniques (PDF rapatrié
+pour 3, dont le « 2-volumes » LEESU_0016 → 2 notices a/b distinctes) ; collection
+« Old - Documents à consulter » supprimée (vide). My Library : 691 → **686**.
+
 ## Context
 
 Après le dédoublonnage par identifiant (0013, 0016), il reste ~22 titres
