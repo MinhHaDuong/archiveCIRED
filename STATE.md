@@ -1,4 +1,4 @@
-Last updated: 2026-06-19T00:00Z
+Last updated: 2026-06-19T15:40Z
 
 ## North star
 
@@ -9,17 +9,13 @@ télécharger n'importe quelle publication via Zotero, avec métadonnées correc
 Dépôt HAL différé — ne pas bloquer sur les droits.
 
 ## Status
-<!-- generated 2026-06-19T00:00Z -->
+<!-- generated 2026-06-19T15:40Z -->
 
-**Tickets:** 1 en cours (0008 réconciliation Zotero) · 5 déférés (0003 HAL, 0005 HAL batch, 0006 OCR, 0007 metadata, 0009 zotero-test)
-**Catalogue Zotero:** existe déjà — groupe `Recueil_CIRED` (2511149, recueil 50 ans d'Antonin) + My Library. Réconciliation faite (`outputs/reconcile_report.md`) : 829/1112 docs déjà catalogués. Prémisse "importer 1112 notices" caduque.
-**Dédoublonnage My Library (0013+0016+0017):** FAIT — 1378 → **686** notices, zéro perte. Par id (633+44), + 5 résiduelles fusionnées, collection « Old » supprimée. Les 26 groupes de versions multiples (preprint/article, traductions) reliés en Zotero Related (53 notices). Collections : LEESU 181, CIRED 505, Documents à consulter 686, Bac à sable 0.
-**Collections→tags (0014):** FAIT — 686 tags (CIRED 505, LEESU 181), collections CIRED/LEESU supprimées ; reste « Documents à consulter » (686) + « Bac à sable » (0, vide).
-**0015 (corrections Antonin):** BLOQUÉ needs-human — le recueil 50 ans ne se joint pas proprement à My Library (50/131 seulement, 81 injoignables ; fichiers hors archive locale, numérotation propre, titres corrigés cassent le matching). Demander à Antonin sa correspondance numérotation YYYY-NN ↔ document.
-**Index archivistique:** 1991 fichiers — outputs/file_index.json (ticket 0010 ✓)
-**Index documentaire:** 1112 docs — auteurs 72.8%, titre 75.3%, annee 57.8% — outputs/doc_index.json (ticket 0011 ✓)
-**CI:** GitHub Actions actif — make check (12 tests) sur chaque PR (ticket 0012 ✓)
+**Tickets ouverts:** 0008 (réconciliation Zotero) · 0015 (corrections Antonin — BLOQUÉ needs-human) · déférés 0003 HAL, 0005 HAL batch, 0006 OCR, 0007 metadata, 0009 zotero-test
+**Catalogue Zotero:** déduplicé **1378 → 686** notices (PR #7 ; 0013/0014/0016/0017 clos). Une seule collection « Documents à consulter » + tags `CIRED`/`LEESU` ; 26 groupes de versions reliés en *Related*. Scripts `src/zotero_*.py`. Règle : apparier par **id, jamais par titre** (faux doublons Sachs).
+**0015 bloqué:** recueil 50 ans d'Antonin injoignable (50/131) sans sa table `YYYY-NN`↔document — il ne l'a pas. Voir `tickets/0015`.
+**Index:** file_index.json 1991 fichiers (0010 ✓) · doc_index.json 1112 docs (0011 ✓) · CI make check sur chaque PR (0012 ✓).
 **Recent commits:**
-  3e00212 Archiver dedup_report.json et unresolved.csv dans outputs/attic/
-  53d0c71 Ajouter CI GitHub Actions — make check sur chaque PR (#6)
-  3184bb6 Index documentaire par document logique (ticket 0011) (#5)
+  c40a2a8 Merge PR #7 — nettoyage catalogue Zotero (réconciliation + dédoublonnage + tags)
+  7c57c2a Clore tickets 0013/0014/0016/0017 ; réparer format 0015/0017
+  119fdd1 Ticket 0014 FAIT : CIRED/LEESU en tags
