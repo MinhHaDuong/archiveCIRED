@@ -3,8 +3,32 @@ Title: Réconcilier le groupe Recueil_CIRED (corrections métadonnées d'Antonin
 Created: 2026-06-19
 Author: Minh Ha-Duong
 Blocked-by: 0014
+Label: needs-human
 
 --- body ---
+## Diagnostic d'appariement (2026-06-19) — BLOQUÉ
+
+Le recueil (131 notices top-level) ne se joint PAS proprement à My Library :
+- par id `YYYY-NN`→`docs/YYYY-NNN` : 26 ;
+- par hash local (file_index) : 15 — car **99/131 fichiers du recueil sont
+  absents de l'archive locale** (curation inari séparée, numérotation propre) ;
+- par titre+auteur+année (unique) : 49 ;
+- **union des 3 signaux : 50/131**. Restent **81 injoignables**.
+
+Causes : numérotation propre au recueil, fichiers hors archive locale, et les
+corrections de titre d'Antonin cassent justement l'appariement par titre.
+L'hypothèse « sous-ensemble strict » n'est donc pas démontrable par nos clés.
+
+Sur les 49 paires sûres, les corrections sont **modestes** (volume 8, issue 8,
+pages 10, creators 10, publicationTitle 5, qq publisher/abstract/langue).
+
+**Action requise (humain)** : obtenir d'Antonin sa correspondance
+numérotation `YYYY-NN` ↔ document (il l'a forcément pour avoir bâti le recueil).
+Elle rend la jointure déterministe, prouve/réfute le sous-ensemble, et permet
+d'importer ses corrections de façon fiable — y compris sur les 81 actuellement
+injoignables. Sans elle : on ne peut traiter au mieux que les 50, pour un gain
+faible et un risque de faux appariement (cf. fonds Sachs).
+
 ## Context
 
 Le groupe privé `Recueil_CIRED` (id 2511149, 149 notices) est le **« recueil
