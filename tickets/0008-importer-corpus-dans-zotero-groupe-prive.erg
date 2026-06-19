@@ -25,9 +25,9 @@ F. Bordignon ; notre `doc_index.json` en est une re-dérivation.
 - Les notices lient les PDF par URL `inari.centre-cired.fr/.../docs/<nom>.pdf` —
   dont le basename est le nom de fichier d'archive (clé de jointure).
 
-Credentials : `~/.config/keys/zotero-archive-cired.env`. NB : `ZOTERO_USER_ID`
-contient le *login* ("Base R2DS"), pas l'ID numérique — l'API le récupère via
-`GET /keys/current`.
+Credentials : `~/.config/keys/zotero-archive-cired.env`. NB : la variable est
+`ZOTERO_USER_LOGIN` (le login "Base R2DS"), pas l'ID numérique — l'API récupère
+l'ID via `GET /keys/current`.
 
 ## Réconciliation — FAIT
 
