@@ -7,6 +7,7 @@ Author: Minh Ha-Duong
 2026-06-22T18:08Z Minh Ha-Duong created
 2026-06-22T18:08Z claude note Enfant de 0015 (tracker). Actionnable sans la table d'Antonin : « nouveau » se décide sur l'id YYYY-NNN du fichier, pas sur une jointure curatoriale.
 
+2026-06-22T18:17Z claude note Action 1 faite : src/select_new_recueil.py reproduit la sélection (77 déjà-corpus, 8 meilleurs-scans, 18 nouveaux, 7 non-standard). Reste l'ingestion Zotero (écriture groupe privé, humain).
 --- body ---
 ## Context
 
@@ -27,12 +28,29 @@ Ce flux **ne dépend pas** de la table `YYYY-NN`↔document d'Antonin qui bloque
 - `outputs/doc_index.json` — ids `YYYY-NNN` déjà présents
 - `attente/à dédoublonner avec ce qui est déjà traité/` (archive, lecture seule)
 
+## Sélection reproductible — FAIT (2026-06-22)
+
+`src/select_new_recueil.py` → `outputs/recueil_new_docs.json`. Décision fondée
+sur le fichier seul (hash + id), sans la table d'Antonin. Sur 110 fichiers du
+recueil : 77 déjà dans le corpus (renommage), **8** meilleurs scans (id connu,
+contenu ≠), **18** nouveaux (id absent de docs/), 7 à id non standard.
+
+Les chiffres diffèrent du diagnostic 0015 (« 20 / 6 ») à cause du cas
+`1975-019` ×2 (deux articles distincts au même numéro d'archive) : l'id étant
+présent dans docs/, ils tombent en « meilleur scan », pas en « nouveau ». 18 est
+le compte défendable des id réellement absents ; le rapport liste tout.
+
+Les 18 nouveaux sont bien les Hourcade/Godard/Quirion climat-éco 2001–2013
+attendus (+ qq 1972–1993).
+
 ## Actions
 
-1. Reconstituer la liste des 20 nouveaux + 6 meilleurs-scans depuis file_index
-   (id absent de docs/ ; hash unique) — script ou requête reproductible.
-2. Pour les 6 meilleurs scans : comparer les deux PDF, décider lequel garder.
-3. Ajouter les 20 nouveaux au catalogue Zotero (notice + lien inari recueil).
+1. [x] Reconstituer la liste reproductible (`src/select_new_recueil.py`).
+2. [ ] Pour les 8 meilleurs scans : comparer les deux PDF, décider lequel garder
+   (inclut le doublon de numéro `1975-019` ×2).
+3. [ ] Ajouter les 18 nouveaux au catalogue Zotero (notice + lien inari recueil)
+   — étape de saisie/écriture sur le groupe privé, à la main ou via
+   `zotero-import`.
 
 ## Test
 
@@ -41,9 +59,9 @@ Ce flux **ne dépend pas** de la table `YYYY-NN`↔document d'Antonin qui bloque
 
 ## Verification
 
-- [ ] Liste des 20 nouveaux + 6 meilleurs-scans reproductible
-- [ ] Décision documentée pour chacun des 6 doublons de contenu
-- [ ] 20 notices ajoutées au catalogue
+- [x] Liste des nouveaux + meilleurs-scans reproductible (`recueil_new_docs.json`)
+- [ ] Décision documentée pour chacun des 8 doublons de contenu
+- [ ] 18 notices ajoutées au catalogue
 
 ## Invariants
 
@@ -52,5 +70,5 @@ Ce flux **ne dépend pas** de la table `YYYY-NN`↔document d'Antonin qui bloque
 
 ## Exit criteria
 
-- [ ] Les 20 documents nouveaux sont au catalogue
+- [ ] Les 18 documents nouveaux sont au catalogue
 - [ ] `make check` passe

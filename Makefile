@@ -32,6 +32,11 @@ outputs/reconcile_report.json: src/reconcile_zotero.py outputs/doc_index.json
 outputs/match_untyped_report.json: src/match_untyped.py outputs/doc_index.json
 	uv run python src/match_untyped.py --output outputs/match_untyped_report.json
 
+# Sélection des documents nouveaux du recueil 50 ans CIRED (ticket 0018) —
+# pur, hors-ligne, depuis file_index.json.
+outputs/recueil_new_docs.json: src/select_new_recueil.py outputs/file_index.json
+	uv run python src/select_new_recueil.py --output outputs/recueil_new_docs.json
+
 check-fast:
 	uv run pytest -m "not integration and not slow" tests/
 
