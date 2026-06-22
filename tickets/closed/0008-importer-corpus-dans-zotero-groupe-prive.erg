@@ -2,6 +2,7 @@
 Title: Réconcilier le corpus avec le catalogue Zotero existant (CIRED/ENPC)
 Created: 2026-05-16
 Author: Minh Ha-Duong
+Closed: autoclosed — PR #9
 
 --- log ---
 2026-05-16T06:10Z Minh Ha-Duong created
@@ -10,6 +11,7 @@ Author: Minh Ha-Duong
 2026-06-19T00:00Z claude note Audit du distant : un catalogue Zotero mûr existe déjà (1378 notices perso + 131 groupe Recueil_CIRED). Réconciliation faite (src/reconcile_zotero.py) : 829/1112 docs déjà catalogués, 0 orphelin, fonds structuré couvert à ~100%. La prémisse "importer 1112 notices" est caduque. Ticket recentré sur réconciliation + comblement des lacunes.
 
 2026-06-22T10:54Z claude note Appariement flou des 195 docs sans clé fait (src/match_untyped.py). 3 probable, 28 incertain, 140 absent, 24 sans-méta. Exit criteria atteints.
+2026-06-22T18:39Z Minh Ha-Duong closed — autoclosed — PR #9
 --- body ---
 ## Contexte
 
