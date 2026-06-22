@@ -26,19 +26,31 @@ confiance aveugle dans la jointure.
 Couverture partielle assumée : ~50/131 notices sont appariables de façon sûre ;
 les 81 restantes peuvent rester non traitées (gain faible, cf. diagnostic 0015).
 
+## Dépendance
+
+`src/match_untyped.py` n'arrive sur `main` qu'au **merge de [[0008]]** (PR #9).
+`src/diff_recueil.py` est écrit pour ne pas en dépendre à l'import (import
+paresseux dans `main`) : la logique de diff (pure) tourne et est testée sans
+lui ; seul l'appariement flou de bout en bout l'exige. Lancer le run réel après
+le merge de #9.
+
+Note d'appariement : les URL de groupe portent des noms descriptifs (pas de clé
+d'archive `CIR_/ENPC`), donc le repli déterministe par clé ne marche pas pour
+groupe↔perso — c'est précisément ce qui bloquait 0015. L'appariement est donc
+fondé sur le matcher flou, avec revue humaine.
+
 ## Relevant files
 
-- `src/match_untyped.py` — appariement flou réutilisable (titre/auteur/année)
-- `src/reconcile_zotero.py` — collecte des notices, clé d'archive
-- `outputs/zotero_notices.json` — cache des notices (regénérable)
+- `src/diff_recueil.py` — diff de champs groupe→perso (pur) + appariement (main)
+- `src/match_untyped.py` — appariement flou (issu de 0008, requis au run réel)
+- `src/reconcile_zotero.py` — collecte des notices
 
 ## Actions
 
-1. Apparier les 131 notices du groupe aux notices perso (matcher flou + repli
-   par clé d'archive quand elle existe).
-2. Diff champ par champ groupe ↔ perso sur les paires retenues ; rapport pour
-   revue.
-3. Après revue humaine : propager groupe → perso (dry-run par défaut ;
+1. [x] Diff de champs groupe → perso, pur et testé (`src/diff_recueil.py`).
+2. [ ] Run réel après merge de #9 : apparier les 131 notices de groupe aux
+   perso (matcher flou), produire le rapport de corrections pour revue.
+3. [ ] Après revue humaine : propager groupe → perso (dry-run par défaut ;
    `--apply` exige `--backup`).
 
 ## Test
@@ -47,8 +59,8 @@ les 81 restantes peuvent rester non traitées (gain faible, cf. diagnostic 0015)
 
 ## Verification
 
-- [ ] Rapport d'appariement recueil → perso (paires sûres + écartées)
-- [ ] Rapport de diff des champs (corrections d'Antonin identifiées)
+- [x] Logique de diff des champs, pure et testée (`src/diff_recueil.py`)
+- [ ] Rapport d'appariement + diff sur données réelles (après merge #9)
 - [ ] Corrections propagées après revue, aucune perdue, sens unique
 
 ## Invariants
