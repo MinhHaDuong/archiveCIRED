@@ -1,0 +1,56 @@
+%erg 0.1
+Title: Ingérer les 20 documents réellement nouveaux du recueil d'Antonin
+Created: 2026-06-22
+Author: Minh Ha-Duong
+
+--- log ---
+2026-06-22T18:08Z Minh Ha-Duong created
+2026-06-22T18:08Z claude note Enfant de 0015 (tracker). Actionnable sans la table d'Antonin : « nouveau » se décide sur l'id YYYY-NNN du fichier, pas sur une jointure curatoriale.
+
+--- body ---
+## Context
+
+Enfant du tracker [[0015]]. Le recueil « 50 ans CIRED » d'Antonin contient des
+fichiers absents de l'archive locale. L'analyse de contenu par hash (cf. 0015)
+a isolé, parmi les 33 fichiers à contenu unique de
+`attente/à dédoublonner avec ce qui est déjà traité/`, **20 documents vraiment
+nouveaux** (id `YYYY-NNN` absent de `docs/`) — surtout Hourcade/Godard
+climat-éco 2001–2013 + quelques 1970-80 — plus **6 meilleurs scans** d'un doc
+existant (1975-015, 1975-016, 1979-028, 1988-077, 1993-095, 2004-127).
+
+Ce flux **ne dépend pas** de la table `YYYY-NN`↔document d'Antonin qui bloque
+0015 : « absent de docs/ » se décide à partir de l'id du fichier lui-même.
+
+## Relevant files
+
+- `outputs/file_index.json` — hash SHA-1 de chaque fichier (jointure par contenu)
+- `outputs/doc_index.json` — ids `YYYY-NNN` déjà présents
+- `attente/à dédoublonner avec ce qui est déjà traité/` (archive, lecture seule)
+
+## Actions
+
+1. Reconstituer la liste des 20 nouveaux + 6 meilleurs-scans depuis file_index
+   (id absent de docs/ ; hash unique) — script ou requête reproductible.
+2. Pour les 6 meilleurs scans : comparer les deux PDF, décider lequel garder.
+3. Ajouter les 20 nouveaux au catalogue Zotero (notice + lien inari recueil).
+
+## Test
+
+- Sélection des « nouveaux » = fonction pure sur file_index/doc_index, testée
+  sur fixtures (id présent/absent, hash dupliqué/unique).
+
+## Verification
+
+- [ ] Liste des 20 nouveaux + 6 meilleurs-scans reproductible
+- [ ] Décision documentée pour chacun des 6 doublons de contenu
+- [ ] 20 notices ajoutées au catalogue
+
+## Invariants
+
+- Ne pas modifier l'archive source sur disque.
+- Apparier par id/hash, jamais par titre.
+
+## Exit criteria
+
+- [ ] Les 20 documents nouveaux sont au catalogue
+- [ ] `make check` passe

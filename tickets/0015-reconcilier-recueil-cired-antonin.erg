@@ -7,109 +7,45 @@ Author: Minh Ha-Duong
 2026-06-19T13:00Z claude created
 2026-06-19T15:20Z Minh Ha-Duong note blocker 0014 closed — Blocked-by removed.
 2026-06-19T15:25Z claude label needs-human — bloqué : recueil non joignable sans la table d'Antonin
+2026-06-22T18:09Z claude note Scindé en enfants 0018 (20 nouveaux docs, actionnable) et 0019 (corrections via matcher flou + revue humaine). Dépendance à la table d'Antonin levée : on apparie par similarité + revue. Tracker, reste ouvert jusqu'aux deux enfants.
 --- body ---
-## Diagnostic d'appariement (2026-06-19) — BLOQUÉ
+## Tracker — scindé le 2026-06-22
 
-Le recueil (131 notices top-level) ne se joint PAS proprement à My Library :
-- par id `YYYY-NN`→`docs/YYYY-NNN` : 26 ;
-- par hash local (file_index) : 15 — car **99/131 fichiers du recueil sont
-  absents de l'archive locale** (curation inari séparée, numérotation propre) ;
-- par titre+auteur+année (unique) : 49 ;
-- **union des 3 signaux : 50/131**. Restent **81 injoignables**.
+Ticket de suivi. Le travail réel vit dans deux enfants ; ce ticket reste ouvert
+jusqu'à la clôture des deux.
 
-Causes : numérotation propre au recueil, fichiers hors archive locale, et les
-corrections de titre d'Antonin cassent justement l'appariement par titre.
-L'hypothèse « sous-ensemble strict » n'est donc pas démontrable par nos clés.
+- [[0018]] — **Ingérer les 20 documents réellement nouveaux** du recueil.
+  Actionnable maintenant : « nouveau » se décide sur l'id `YYYY-NNN` du fichier,
+  sans la table d'Antonin.
+- [[0019]] — **Propager les corrections de métadonnées** (groupe → perso) via
+  appariement flou + revue humaine du diff. Couverture partielle assumée.
 
-Sur les 49 paires sûres, les corrections sont **modestes** (volume 8, issue 8,
-pages 10, creators 10, publicationTitle 5, qq publisher/abstract/langue).
+## Pourquoi scinder
 
-**Action requise (humain)** : obtenir d'Antonin sa correspondance
-numérotation `YYYY-NN` ↔ document (il l'a forcément pour avoir bâti le recueil).
-Elle rend la jointure déterministe, prouve/réfute le sous-ensemble, et permet
-d'importer ses corrections de façon fiable — y compris sur les 81 actuellement
-injoignables. Sans elle : on ne peut traiter au mieux que les 50, pour un gain
-faible et un risque de faux appariement (cf. fonds Sachs).
+Le ticket était bloqué `needs-human` en attendant la correspondance
+numérotation `YYYY-NN` ↔ document d'Antonin, table qui n'existe pas (il ne l'a
+pas). L'attente était sans issue. Le ticket confondait deux flux de valeur :
 
-## Context
+1. **Contenu nouveau** (→ 0018) : 20 docs absents de `docs/` + 6 meilleurs
+   scans, isolés par hash. Ne dépend PAS de la table — actionnable.
+2. **Corrections de métadonnées** (→ 0019) : gain modeste, dépendait de la
+   table. On lève la dépendance en appariant par similarité (`match_untyped.py`,
+   issu de [[0008]]) avec revue humaine de chaque diff — le risque de faux
+   appariement (façon fonds Sachs) est porté par la revue, pas par la jointure.
 
-Le groupe privé `Recueil_CIRED` (id 2511149, 149 notices) est le **« recueil
-50 ans CIRED »** constitué par **Antonin**, qui indique avoir **corrigé pas mal
-de métadonnées**. Hypothèse : ses notices sont *meilleures* — **à vérifier
-champ par champ, pas à présumer** (M. Ha-Duong, 2026-06-19).
+## Diagnostic d'appariement (2026-06-19) — conservé pour mémoire
 
-Particularité d'appariement : les notices du groupe ont bien des URL inari
-(121/131), mais dans une **autre arborescence** —
-`inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/` avec des noms descriptifs
-`YYYY-NN-Auteur-titre.pdf`, au lieu de `kCj0pHP0-CIRED_numerisation/.../CIR_xxx`.
+Le recueil (131 notices) ne se joint pas proprement à My Library :
+- par id `YYYY-NN`→`docs/YYYY-NNN` : 26 ; par hash local : 15 (99/131 fichiers
+  hors archive locale) ; par titre+auteur+année unique : 49 ; **union : 50/131**.
+- Analyse hash des 110 fichiers `attente/à dédoublonner…/` : 77 byte-à-byte
+  identiques à un fichier du corpus ; 33 à contenu unique, dont **6 meilleurs
+  scans** (1975-015, 1975-016, 1979-028, 1988-077, 1993-095, 2004-127), **20
+  nouveaux** (id absent de docs/), 7 à id non standard.
+- Sur les 49 paires sûres, les corrections d'Antonin sont modestes (volume,
+  issue, pages, creators, publicationTitle).
 
-Ces fichiers descriptifs sont l'archive locale `attente/à dédoublonner avec ce
-qui est déjà traité/` (110 fichiers). Clé de jointure trouvée : le préfixe
-`YYYY-NN` = l'`id` `docs/YYYY-NNN` (zéro-paddé) — ex. `1973-9` → `docs/1973-009`.
-Jointure principale par cet `id` ; titre/auteur en repli.
+## Exit criteria (tracker)
 
-Analyse de contenu par hash SHA-1 (file_index.json) :
-- **77/110 byte-à-byte identiques** à un fichier déjà dans le corpus (même
-  hash, renommage) → la notice perso pointe déjà sur le même contenu ; ne
-  reste qu'à fusionner les corrections de métadonnées d'Antonin.
-- **33/110 contenu unique** (aucun jumeau de hash). Classés par `id` `YYYY-NNN`
-  contre `docs/` :
-  - **6 autre scan** d'un doc existant (id présent, contenu ≠) → comparer les
-    PDF, garder le meilleur : 1975-015, 1975-016, 1979-028, 1988-077,
-    1993-095, 2004-127.
-  - **20 nouveaux** (id absent de `docs/`) → candidats à ajouter au corpus ;
-    surtout Hourcade/Godard 2001–2013 (climat-éco) + qq 1970-80. NB `1975-019`
-    ×2 (artuso & chabrol, deux articles au même numéro).
-  - **7 sans id standard** avec signaux : `1981-SCAN-INCOMPLET-Ceron…`
-    (qualité), 3× `PAS-DANS-LA-LISTE-…` (hors liste, intentionnel), 3 à id
-    interne (`1997-Godard-111-…`) parsables avec une règle plus souple.
-
-Objectif, en deux temps :
-1. **Vérifier que `Recueil_CIRED` est un sous-ensemble strict** de My Library :
-   chaque notice du groupe a un correspondant (titre/auteur/année), le groupe
-   est plus petit. Les notices de groupe sans correspondant → exceptions à
-   signaler.
-2. **Importer les corrections d'Antonin** : direction **groupe → My Library**
-   uniquement. Diff champ par champ produit en rapport, **revu avant
-   propagation** (ne pas écraser sur la seule hypothèse que le groupe est mieux).
-
-## Relevant files
-
-- `src/reconcile_zotero.py` — clé de jointure par nom de fichier d'archive
-- `outputs/reconcile_report.md` — réconciliation index↔perso (référence)
-- `~/.config/keys/zotero-archive-cired.env`
-
-## Actions
-
-1. Apparier les 149 notices du groupe à My Library par clé d'archive (puis par
-   titre/auteur pour celles sans clé).
-2. **Vérifier le sous-ensemble strict** : 149 paires trouvées, 0 notice de
-   groupe orpheline ; sortir un rapport des éventuelles exceptions.
-3. Diff champ par champ groupe ↔ perso ; lister les champs où le groupe diffère
-   (corrections d'Antonin) — produire un rapport pour revue.
-4. Propager **groupe → perso** : appliquer les corrections aux notices perso
-   (dry-run d'abord, `--apply` + `--backup`). Direction unique.
-
-## Test
-
-- Diff de champs pur (réutiliser la logique de comparaison du 0013) sur
-  fixtures, sans réseau.
-
-## Verification
-
-- [ ] Sous-ensemble strict confirmé (149 paires, 0 orpheline) ou exceptions listées
-- [ ] Rapport de diff groupe↔perso (corrections d'Antonin identifiées)
-- [ ] Corrections propagées groupe → perso, aucune perdue
-- [ ] `make check` passe
-
-## Invariants
-
-- Propagation **uniquement** groupe → perso (jamais perso → groupe).
-- Dry-run par défaut ; `--apply` exige `--backup`.
-- Ne pas toucher l'archive source sur disque.
-
-## Exit criteria
-
-- [ ] Sous-ensemble strict vérifié (rapport)
-- [ ] Corrections d'Antonin importées dans My Library
-- [ ] `make check` passe
+- [ ] [[0018]] clos
+- [ ] [[0019]] clos
