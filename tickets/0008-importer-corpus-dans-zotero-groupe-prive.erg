@@ -9,6 +9,7 @@ Author: Minh Ha-Duong
 2026-06-19T00:00Z claude note Le groupe Zotero privé existe déjà — credentials dans ~/.config/keys/zotero-archive-cired.env. Suppression de l'étape "créer le groupe". Typo ZOERO_→ZOTERO_ corrigée dans ce fichier.
 2026-06-19T00:00Z claude note Audit du distant : un catalogue Zotero mûr existe déjà (1378 notices perso + 131 groupe Recueil_CIRED). Réconciliation faite (src/reconcile_zotero.py) : 829/1112 docs déjà catalogués, 0 orphelin, fonds structuré couvert à ~100%. La prémisse "importer 1112 notices" est caduque. Ticket recentré sur réconciliation + comblement des lacunes.
 
+2026-06-22T10:54Z claude note Appariement flou des 195 docs sans clé fait (src/match_untyped.py). 3 probable, 28 incertain, 140 absent, 24 sans-méta. Exit criteria atteints.
 --- body ---
 ## Contexte
 
@@ -51,6 +52,25 @@ l'ID via `GET /keys/current`.
 4. Décision séparée (hors ce ticket) : attacher les vrais PDF dans le stockage
    Zotero pour rendre le groupe autonome vs dépendance au serveur inari.
 
+## Appariement flou — FAIT (2026-06-22)
+
+`src/match_untyped.py` → `outputs/match_untyped_report.{json,md}`. Après
+dédoublonnage, **195** docs sans clé (et non 282 — chiffre antérieur au
+nettoyage PR #7). Appariement par titre (dominant, robuste à la troncature via
+*containment*) + bonus additifs auteur/année :
+
+- **3 probable** (titre identique) — déjà dans Zotero sous un autre nom, à
+  confirmer puis fusionner, pas ajouter.
+- **28 incertain** (0.5–0.62) — quasi tous des collisions de vocabulaire
+  générique (« développement durable »…) ; les « titres » côté doc sont souvent
+  des lignes de provenance (« Paru dans… », « Séminaire… »). À arbitrer, mais
+  l'essentiel est réellement absent.
+- **140 absent** — aucun candidat crédible.
+- **24 sans métadonnées** — indécidables sans OCR (cf. ticket 0006).
+
+Conclusion : la population « sans clé » est distincte du catalogue inari ;
+seuls 3/195 y figurent déjà. La liste consolidée des absents est le rapport.
+
 ## Dépendances
 
 - `outputs/doc_index.json` (0011)
@@ -60,6 +80,6 @@ l'ID via `GET /keys/current`.
 ## Exit criteria
 
 - [x] Réconciliation par nom de fichier (`src/reconcile_zotero.py` + rapport)
-- [ ] Appariement titre/auteur des 282 docs sans clé
-- [ ] Liste consolidée des documents réellement absents du catalogue
-- [ ] `make check` passe
+- [x] Appariement titre/auteur des docs sans clé (`src/match_untyped.py` + rapport)
+- [x] Liste consolidée des documents réellement absents du catalogue
+- [x] `make check` passe

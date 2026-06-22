@@ -15,5 +15,6 @@ src/ocr/
 .DS_Store
 *.swp
 
-# Sauvegarde Zotero (volumineux, non versionné)
+# Sauvegarde / cache Zotero (volumineux, regénérable, contenu de groupe privé)
 outputs/zotero_backup*.json
+outputs/zotero_notices.json
