@@ -59,3 +59,20 @@ def test_corrections_report_counts():
     assert r["total_ajouts"] == 1          # pages
     assert r["total_modifications"] == 1   # title
     assert r["corrections"][0]["perso_key"] == "K1"
+
+
+def test_pair_fuzzy_matches_by_title_year_and_finds_corrections():
+    # match_untyped est sur main depuis le merge de 0008 : appariement réel.
+    group = [{"title": "Oppositions locales aux projets d'équipement",
+              "date": "1981", "pages": "417-438",
+              "creators": [{"lastName": "Nicolon", "firstName": "Alexandre"}]}]
+    perso = [
+        {"key": "HIT", "title": "Oppositions locales aux projets d'équipement",
+         "date": "1981", "pages": "", "creators": [{"lastName": "Nicolon", "firstName": "A."}]},
+        {"key": "MISS", "title": "Tout autre sujet sans rapport",
+         "date": "2010", "pages": "1-2", "creators": [{"lastName": "Autre"}]},
+    ]
+    pairs = dr._pair_fuzzy(group, perso, threshold=0.75)
+    assert len(pairs) == 1 and pairs[0]["perso_key"] == "HIT"
+    d = dr.diff_fields(pairs[0]["groupe"], pairs[0]["perso"])
+    assert d["pages"]["type"] == "ajout"      # perso vide -> groupe renseigne

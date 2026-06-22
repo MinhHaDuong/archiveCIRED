@@ -48,10 +48,14 @@ fondé sur le matcher flou, avec revue humaine.
 ## Actions
 
 1. [x] Diff de champs groupe → perso, pur et testé (`src/diff_recueil.py`).
-2. [ ] Run réel après merge de #9 : apparier les 131 notices de groupe aux
-   perso (matcher flou), produire le rapport de corrections pour revue.
-3. [ ] Après revue humaine : propager groupe → perso (dry-run par défaut ;
-   `--apply` exige `--backup`).
+2. [x] Run réel (matcher flou sur 131 groupe × 686 perso) →
+   `outputs/recueil_corrections_report.json`. **57 paires** (seuil 0.75),
+   **25 avec corrections** : 22 ajouts + 54 modifications. Champs les plus
+   corrigés : pages (13), creators (13), volume (9), title (9), issue (8),
+   publicationTitle (7). Corrections vérifiées de bonne qualité (ex. revue mal
+   orthographiée corrigée, « 22 p. » → « 417-438 », journal vide renseigné).
+3. [ ] **Revue humaine** du rapport, puis propager groupe → perso (dry-run par
+   défaut ; `--apply` exige `--backup`).
 
 ## Test
 
@@ -60,8 +64,8 @@ fondé sur le matcher flou, avec revue humaine.
 ## Verification
 
 - [x] Logique de diff des champs, pure et testée (`src/diff_recueil.py`)
-- [ ] Rapport d'appariement + diff sur données réelles (après merge #9)
-- [ ] Corrections propagées après revue, aucune perdue, sens unique
+- [x] Rapport d'appariement + diff sur données réelles (`recueil_corrections_report.json`)
+- [ ] Corrections propagées après revue humaine, aucune perdue, sens unique
 
 ## Invariants
 

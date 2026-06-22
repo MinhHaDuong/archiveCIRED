@@ -26,6 +26,8 @@ from pathlib import Path
 logger = logging.getLogger("diff_recueil")
 
 DEFAULT_OUTPUT = Path("outputs/recueil_corrections_report.json")
+DEFAULT_ENV = Path.home() / ".config/keys/zotero-archive-cired.env"
+DEFAULT_GROUP_ID = "2511149"  # groupe privé "Recueil_CIRED"
 
 # Champs où une correction d'Antonin a un sens à importer. On ignore les champs
 # techniques (key, version, dateAdded…) et la collection.
@@ -108,17 +110,24 @@ def _pair_fuzzy(group_notices, perso_notices, threshold):
     Import paresseux : le module `match_untyped` n'arrive sur `main` qu'au merge
     de 0008. Tant qu'il est absent, seules les fonctions de diff (pures) tournent.
     """
+    import re
     import sys
     sys.path.insert(0, str(Path(__file__).resolve().parent))
     import match_untyped as mu  # noqa: E402
 
+    def year_of(data):
+        m = re.search(r"\b(\d{4})\b", data.get("date") or "")
+        return int(m.group(1)) if m else None
+
+    # match_untyped lit `year` ; les notices Zotero portent `date` -> on l'expose.
+    perso_pool = [{**p, "year": p.get("year") or year_of(p)} for p in perso_notices]
     pairs = []
     for g in group_notices:
         doc = {"titre": g.get("title"),
                "auteurs": [f"{c.get('lastName','')} {c.get('firstName','')}".strip()
                            for c in g.get("creators", [])],
-               "annee": None}
-        cands = mu.match_one(doc, perso_notices, top=1)
+               "annee": year_of(g)}
+        cands = mu.match_one(doc, perso_pool, top=1)
         if cands and cands[0]["score"] >= threshold:
             perso = next(p for p in perso_notices if p.get("key") == cands[0]["key"])
             pairs.append({"groupe": g, "perso": perso,
@@ -126,19 +135,38 @@ def _pair_fuzzy(group_notices, perso_notices, threshold):
     return pairs
 
 
+def _fetch_data(library: str, api_key: str) -> list[dict]:
+    """`data` des notices top-level d'une bibliothèque (via reconcile_zotero)."""
+    import sys
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import reconcile_zotero as rz  # noqa: E402
+    return [it["data"] for it in rz.fetch_top_items(library, api_key)]
+
+
 def main() -> None:
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("--group-notices", type=Path, required=True,
-                   help="JSON des `data` de notices du groupe Recueil_CIRED")
-    p.add_argument("--perso-notices", type=Path, required=True,
-                   help="JSON des `data` de notices My Library")
+    p.add_argument("--group-notices", type=Path, default=None,
+                   help="JSON des `data` de notices du groupe (hors-ligne)")
+    p.add_argument("--perso-notices", type=Path, default=None,
+                   help="JSON des `data` de notices My Library (hors-ligne)")
+    p.add_argument("--env", type=Path, default=DEFAULT_ENV)
+    p.add_argument("--group-id", default=DEFAULT_GROUP_ID)
     p.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     p.add_argument("--threshold", type=float, default=0.75)
     args = p.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(message)s")
 
-    group = json.loads(args.group_notices.read_text())
-    perso = json.loads(args.perso_notices.read_text())
+    if args.group_notices and args.perso_notices:
+        group = json.loads(args.group_notices.read_text())
+        perso = json.loads(args.perso_notices.read_text())
+    else:
+        import sys
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        import reconcile_zotero as rz  # noqa: E402
+        env = rz.load_env(args.env)
+        api_key = env["ZOTERO_API_KEY"]
+        group = _fetch_data(f"groups/{args.group_id}", api_key)
+        perso = _fetch_data(f"users/{rz.fetch_user_id(api_key)}", api_key)
     pairs = _pair_fuzzy(group, perso, args.threshold)
     report = corrections_report(pairs)
     args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2))
