@@ -44,3 +44,15 @@ def test_classify_flags_colliding_new_ids():
     ]
     r = snr.classify_recueil(att, corpus_hashes=set(), docids=set())
     assert "1975-019" in r["ids_en_collision"]
+
+
+def test_collision_detected_in_meilleur_scan_bucket():
+    # le cas réel : deux scans distincts au même numéro DÉJÀ dans docs/ tombent
+    # en meilleur_scan ; la collision doit quand même être signalée.
+    att = [
+        {"fichier": "attente/x/1975-19-artuso.pdf", "hash": "h1"},
+        {"fichier": "attente/x/1975-19-chabrol.pdf", "hash": "h2"},
+    ]
+    r = snr.classify_recueil(att, corpus_hashes=set(), docids={"1975-019"})
+    assert [d["id"] for d in r["meilleur_scan"]] == ["1975-019", "1975-019"]
+    assert "1975-019" in r["ids_en_collision"]

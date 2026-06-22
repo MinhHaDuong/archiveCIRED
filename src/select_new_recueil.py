@@ -94,8 +94,11 @@ def classify_recueil(att: list[dict], corpus_hashes: set[str],
             out["meilleur_scan"].append({"id": cid, "fichier": path, "hash": e["hash"]})
         else:
             out["nouveau"].append({"id": cid, "fichier": path, "hash": e["hash"]})
-    new_ids = Counter(d["id"] for d in out["nouveau"])
-    out["ids_en_collision"] = sorted(i for i, n in new_ids.items() if n > 1)
+    # Collision = même id YYYY-NNN porté par deux fichiers de contenu différent.
+    # Cherchée dans nouveau ET meilleur_scan : le cas réel 1975-019 ×2 tombe en
+    # meilleur_scan (id déjà dans docs/) et serait manqué si on ne lisait que nouveau.
+    ids = Counter(d["id"] for d in out["nouveau"] + out["meilleur_scan"])
+    out["ids_en_collision"] = sorted(i for i, n in ids.items() if n > 1)
     return out
 
 
