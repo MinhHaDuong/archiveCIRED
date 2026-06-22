@@ -1,0 +1,63 @@
+%erg 0.1
+Title: Propager les corrections métadonnées du recueil (matcher flou + revue humaine)
+Created: 2026-06-22
+Author: Minh Ha-Duong
+
+--- log ---
+2026-06-22T18:08Z Minh Ha-Duong created
+2026-06-22T18:08Z claude note Enfant de 0015 (tracker). Remplace la dépendance « table d'Antonin » par un appariement flou + revue humaine du diff. Couverture partielle assumée.
+
+--- body ---
+## Context
+
+Enfant du tracker [[0015]]. Antonin a corrigé des métadonnées dans le groupe
+`Recueil_CIRED`. Objectif : importer ces corrections **groupe → My Library**,
+direction unique, jamais l'inverse.
+
+Le ticket parent était bloqué `needs-human` en attendant la table
+`YYYY-NN`↔document d'Antonin (jointure déterministe). Cette table n'existe pas.
+On lève la dépendance : on **apparie par similarité** (titre/auteur/année) avec
+`src/match_untyped.py` (écrit pour [[0008]]) — les noms de fichiers descriptifs
+du recueil (`YYYY-NN-Auteur-titre.pdf`) fournissent un titre+auteur propres — et
+**l'humain revoit chaque diff de champ** avant propagation. Le risque de faux
+appariement (façon fonds Sachs) est porté par la revue humaine, pas par une
+confiance aveugle dans la jointure.
+
+Couverture partielle assumée : ~50/131 notices sont appariables de façon sûre ;
+les 81 restantes peuvent rester non traitées (gain faible, cf. diagnostic 0015).
+
+## Relevant files
+
+- `src/match_untyped.py` — appariement flou réutilisable (titre/auteur/année)
+- `src/reconcile_zotero.py` — collecte des notices, clé d'archive
+- `outputs/zotero_notices.json` — cache des notices (regénérable)
+
+## Actions
+
+1. Apparier les 131 notices du groupe aux notices perso (matcher flou + repli
+   par clé d'archive quand elle existe).
+2. Diff champ par champ groupe ↔ perso sur les paires retenues ; rapport pour
+   revue.
+3. Après revue humaine : propager groupe → perso (dry-run par défaut ;
+   `--apply` exige `--backup`).
+
+## Test
+
+- Diff de champs pur sur fixtures, sans réseau (réutiliser la logique 0013).
+
+## Verification
+
+- [ ] Rapport d'appariement recueil → perso (paires sûres + écartées)
+- [ ] Rapport de diff des champs (corrections d'Antonin identifiées)
+- [ ] Corrections propagées après revue, aucune perdue, sens unique
+
+## Invariants
+
+- Propagation **uniquement** groupe → perso.
+- Dry-run par défaut ; `--apply` exige `--backup`.
+- Ne pas toucher l'archive source.
+
+## Exit criteria
+
+- [ ] Corrections d'Antonin (paires sûres) importées dans My Library
+- [ ] `make check` passe
