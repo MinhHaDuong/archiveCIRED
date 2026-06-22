@@ -27,6 +27,11 @@ outputs/doc_index.json: src/build_doc_index.py outputs/file_index.json outputs/i
 outputs/reconcile_report.json: src/reconcile_zotero.py outputs/doc_index.json
 	uv run python src/reconcile_zotero.py --output outputs/reconcile_report.json
 
+# Appariement flou des docs sans clé d'archive ↔ notices Zotero — réseau au
+# premier passage (met en cache outputs/zotero_notices.json), hors `make check`.
+outputs/match_untyped_report.json: src/match_untyped.py outputs/doc_index.json
+	uv run python src/match_untyped.py --output outputs/match_untyped_report.json
+
 check-fast:
 	uv run pytest -m "not integration and not slow" tests/
 

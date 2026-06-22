@@ -1,0 +1,217 @@
+# Appariement des docs sans clé d'archive ↔ Zotero
+
+- Docs sans clé d'archive : **195**
+- Probable (déjà dans Zotero, à confirmer) : **3**
+- Incertain (à arbitrer, bruit de vocabulaire générique) : **28**
+- Absent (aucun candidat crédible) : **140**
+- Sans métadonnées exploitables (cf. OCR, ticket 0006) : **24**
+
+## Probable — à confirmer puis fusionner (groupe → perso), pas ajouter
+
+- `ef9898a2bc3fb346a24589aea61dd33ff2024088` [1975] "L'environnement, obstacle ou argument pour un nouvel ordre"
+  - → Zotero `BSU65UVI` (1.00) 'L’environnement, obstacle ou argument pour un nouvel ordre économique international : essai de prospective à l’échelle du bassin méditerranéen'
+- `82f97adcfd465989f983e8e8c414cc19bef144c1` [1975] "Eléments pour une nouvelle approche de la gestion de l'eau dans les pays"
+  - → Zotero `Z83SYUK5` (1.00) "Elements pour une nouvelle approche de la gestion de l'eau dans les pays méditérranéens"
+- `521864856a379ddbde479eb27bf9a7cb83b62201` [None] 'Does uncertainty justify intensity emission caps?'
+  - → Zotero `5XZ54S9Y` (1.00) 'Does uncertainty justify intensity emission caps?'
+
+## Incertain — à arbitrer (score 0.5–0.75)
+
+- `9495e86cd7a340a77ea14481b3c884704eea3e6a` [1991] 'Séminaire du PIREN-CNRS "Environnement et développement durable",' → 0.50 'Eau dans la ville et développement durable.'
+- `2e3f30d058dea29a4e5df65f0139008f4dc50b6f` [1991] "Séminaire sur l'utilisation des instruments économiques pour la protection de l'environnement" → 0.50 'Croissance et environnement – Quelques aspects économiques de la protection de l’environnement'
+- `dc83f8b40223530b1821b7077b9fef52ba683457` [1991] "Publié in A. Kiss (dir.), Le développement durable et le concept d'intérêt général, Strasbourg," → 0.60 "Le développement durable : du concept normatif à l'action"
+- `bca73c9f1d09b12f80857a2d91657b9b29f6ced9` [1993] 'Séminaire "Fiscalité et environnement dans les économies en transition. Un agenda"' → 0.50 "Trajectoires institutionnelles et choix d'instruments pour les politiques d'environnement dans les économies en transition"
+- `277b0eab015f13f54d9d3460a8c2d3e428914cb2` [1993] 'Économie, croissance et environnement De nouvelles stratégies pour de nouvelles' → 0.60 'Environnement, développement et styles de vie: recherche des grandes tendances de la croissance passée en France, comparables à celles des autres pays industrialisés à économie de marché'
+- `3d6af67b7a9769f470f66254e15b23f7e61045f5` [1993] 'UNIVERSITE DE PARIS I - PANTHEON - SORBONNE' → 0.50 'HABILITATION A DIRIGER DES RECHERCHES UNIVERSITE PARIS XII - VAL DE MARNE NOTICE INDIVIDUELLE Titres et travaux'
+- `8917609e90e49524f77f2cab3c31e3e54d18ef3d` [1994] 'Paru dans Natures, Sciences, Sociétés, 2(4), Paris, octobre 1994, pp. 309-322.' → 0.52 "Gestion intégrée des milieux aquatiques: actes des Cinquièmes journées du Diplôme d'études approfondies Sciences et techniques de l'environnement, organisées les 19 et 20 mai 1994 à Paris"
+- `23e1922196750a76971e04e6fe39cc8865e9657e` [1995] 'Centre International de Recherche sur l’Environnement et le Développement' → 0.60 'Environnement, développement et styles de vie: recherche des grandes tendances de la croissance passée en France, comparables à celles des autres pays industrialisés à économie de marché'
+- `2c7f899da6c3a5045f58471ff801d1e81a84af5b` [1997] 'Published in International Journal of Environment and Pollution, 7(3), 1997, pp. 538-546' → 0.60 'International Journal of Environment and Sustainable Development'
+- `900d3d8b7e0d507f1de17b023087fa668a3eb3d7` [1998] 'Journées de l’Association Française de Sciences Économiques – 1998' → 0.62 "La Matière organique dans les milieux naturels: actes des neuvièmes journées du Diplôme d'Etudes Approfondies Sciences et techniques de l'environnement organisées les 14 et 15 mai 1998, à Paris"
+- `0fdc420e9ca8c6caba4400a868c0f67d1f85197e` [1971] "Paru in B. BARRAQUÉ et J. THEYS, J. (dir.).- Les politiques d'environnement. Évaluation de la première" → 0.50 'Développement, environnement et évaluation des techniques'
+- `699d2979e691000787fb1f3a0c8fd67201e65dc0` [1998] 'Parution dans la revue Economies et sociétés, Cahiers de l’ISMEA ‘Pour aborder le XXIe siècle avec le' → 0.50 'Quel développement pour le XXIe siècle ?'
+- `abcba6a44357ee67f66e6d8e140e1ddd2352da47` [1998] 'Séminaire Économie de l’environnement du Commissariat Général du Plan' → 0.50 "L'expertise économique du changement climatique planétaire : sur la scène française, autour du Commissariat général du Plan"
+- `38184502d27de8f04d6c2ce383f3f153deac0b04` [2000] 'Publié dans J. Theys (dir.), L’environnement au XXIe siècle. Vol. III : Démocratie et politique à' → 0.50 'Quel développement pour le XXIe siècle ?'
+- `ba1d9e3f671df5dd7739bbf35a40c38efcc2cbda` [2001] 'Journal of Environmental Policy & Planning' → 0.50 'Environmental quality management and development planning : some suggestions for action'
+- `647fcab16e06294eb9b5a7335d38d49aabd993bd` [2001] 'DÉVELOPPEMENT DURABLE : EXHORTER OU GOUVERNER ?' → 0.50 'Eau dans la ville et développement durable.'
+- `736efe172c2d2d2b03a5903fc861e19928d099a2` [2001] 'Matching the precautionary principle as a social norm and as' → 0.50 'Social Decision-Making under Scientific Controversy, Expertise, and the Precautionary Principle'
+- `965c8719444173adda94b02f66db7141938ff472` [2001] 'Publié in M. Jollivet (dir.), Le développement durable, de l’utopie au concept. De nouveaux chantiers pour la' → 0.60 "Le développement durable : du concept normatif à l'action"
+- `fa7e9b35a86f0e46abb6b43abf76f574b80c75b0` [2005] 'LE DÉVELOPPEMENT-DURABLE, UNE CHIMÈRE, UNE' → 0.50 'Le droit au développement durable'
+- `7c0b18560454e002c55d4c30f9bffb45da7b152b` [2006] 'LES ENTREPRISES ET LE DÉVELOPPEMENT DURABLE' → 0.50 'Le droit au développement durable'
+- `b05dee100df6f865c27f17be844b78935dd25e6e` [2006] 'Chaire développement durable' → 0.50 'Le droit au développement durable'
+- `75b1c0dc7fd66e46eb59e243b2e64681c27acaa8` [2006] 'DU DÉVELOPPEMENT RÉGIONAL AU DÉVELOPPEMENT DURABLE :' → 0.50 'Le droit au développement durable'
+- `726f298622836de72b208367bd238c36397783cd` [2006] 'Chaire développement durable' → 0.50 'Le droit au développement durable'
+- `bb3ec1b53cefc2100d05fd1f13250f2320826ef5` [2007] 'Chaire développement durable' → 0.50 'Le droit au développement durable'
+- `5c56bb430dec220d985dff79dd1380e8cd28af5b` [None] 'Chaire développement durable' → 0.50 'Le droit au développement durable'
+- `1cb0a517e66fe4c16d3fd86def3ef46a7a9e9c79` [2010] 'Publié dans l’OURS, ‘Socialisme, écologie et développement durable’, (400), juillet-août 2010' → 0.50 'Eau dans la ville et développement durable.'
+- `ffaa7aef1b4daf0e09a56df619aa2e1debb65b1a` [2010] "L'ORGANISATION INTERNATIONALE DE LA LUTTE CONTRE" → 0.50 'Les instruments économiques au service de la lutte contre la pollution atmosphérique : le cas des permis négociables = Economic instruments at the service of atmospheric pollution control : the case of tradable permits.'
+- `5b5fe4fdeb4f998eeb5459a7b21e8fa666dde7f2` [2009] 'NÉGOCIATIONS SUR LE CLIMAT : LA BIFURCATION OPÉRÉE À' → 0.50 'Les enjeux des négociations sur le climat De Rio à Kyoto : pourquoi la Convention sur le climat devrait intéresser ceux qui ne s’y intéressent pas'
+
+## Absent — liste consolidée des documents réellement absents
+
+- `fa205d89f7912e208012b7d1879cb034009717e1`
+- `d1d75948744815a182803520179b5611f7fff310`
+- `c8ebbc0bccaa1942189efb6a6d937a9f81424311`
+- `f8569edfe00cc77728faf746c036c5d6b7372677`
+- `0ee148623bd03fb17576f8646cce91b4c3e3830a`
+- `479c6a4779fd1fdb568d2b9598c2e074fd718d15`
+- `27ddeb674124362adcebb1c937f5a18cfea0ad28`
+- `e7a4a5a3406572785de54528ef555bb3bbcca7b0`
+- `4f1ba6e4a1da9bb380634cd5afd742a26115760c`
+- `6360b6130a38d513f3fb1a47d55f3181be7fa80a`
+- `e2dcddb2c19df169e91241fb753240a3c3c867c0`
+- `a838dc7ab4cb2bab500ef6f3708eb8860fd99a19`
+- `5c1d4a533b93bf433a10119e16e96ca0be2d83c6`
+- `bda2118d9f96a3ce4b583639d5fdbee9e54022f0`
+- `7286bdb8a7982928ae12d2f5900330e63961295c`
+- `01a4980b574a6af321ee36b9164d6fca6b4a81c3`
+- `ff5879299aedcf5266bcded4425067fdb3dff0da`
+- `b42029a5b4de69b85de32085a0ad67ba386b164b`
+- `bed6d573452902aa2a30a0429e9ef9bce6dd6772`
+- `5bd232cdd2e31d40408706646edc409900cc231f`
+- `09fd9ba437b582718a481cafda6c22a4ed5b26f7`
+- `871096038b4ffe2328b026b01b907dfb4f17571e`
+- `6ffd34d246606ef2cff3b46177102e0d4045e537`
+- `78731199c566c879ea4fadb0051fd46c8f188712`
+- `342b1322c6a7d353c75c1281ec13089854d0cb11`
+- `fcf60582b687fff243c03386e110aa1ead023792`
+- `9fcba22f0bd48d69947a2b76140e9f599b6b19ca`
+- `c72c29c6f72afb1869eda6715910008d97974ebf`
+- `b70e19565db010d3b0e2b133ed12ccb1f67b60ef`
+- `3537d0a5ef0340a1fa2e8feb9d8151214f82a734`
+- `56744695828b523e80c2786c70c94db044a94212`
+- `5a61f47214be9cbeb293c06a7c428106eee2e7d1`
+- `ac7035180e4f5f07c8dc3f3510e7c09b1e2d36e3`
+- `0251152405da0c10216ba3ddb22110ddc8032b1b`
+- `353e4cbf782bd8d76d43e6f1a93f0b95446f59c7`
+- `2a6d959399da08662f34b36fb50518e8fdddef33`
+- `059a306d6cc227ff44606be3c72532e177b0b8f1`
+- `11b4d835d5063114d210ce74a500e332a35df257`
+- `3ff8e74902ffcb4316e988169ac65106b4843d02`
+- `108cb349f0d254b809a9e597abaccb4695b0eb6f`
+- `cf30cd0c4759b372d1223948b8caf4d3852d54af`
+- `f63cf56327a22e5bba4e004c9c868d47518f133f`
+- `daa94723bce20574eff94b6e08c114f36ae22439`
+- `a38a7e967122079998c200b103d774c578e773f2`
+- `6fa47bc6ffb99a69d18b88371afcc89048d4ad09`
+- `71bc2c1647c8305f270f0f359f5add7e8828e60a`
+- `03cd3090c03d71fee2f9a2a0a4913f5a6e065ea3`
+- `63189891fb88803e9ec46cd779c016197e2b086d`
+- `b73902789d5265286487c14f3db5f80f6bc66746`
+- `caebc3cee301a1f801ff32048cba452dd575efa9`
+- `dd6519a61bdffadc31b168d4fe39d460fbde6d4c`
+- `678dfbc95320d6f399cbc5053dfae2223c3ec24a`
+- `722d247a75af74e5c99d9fbfbe399159495375cc`
+- `3fcdcacd99d53f061a354c0e974e4579519abf74`
+- `504df69cb3d9cd4581a679fb0d339c1096b79837`
+- `717f07c1477c4102166cb6ef5325d2ee56f311f9`
+- `690408718c2a2faa8e4818874e55a953dbbad37e`
+- `6273315805d5295d45d8577ce0293a61bac52bd9`
+- `4cade8b29324acc5ab7d5a22d908aec1470f0037`
+- `3a560d842f46357f3c992f7effe7f786e0f20af9`
+- `a0b133cb352f98dba28cf84ee2f4f681e860310c`
+- `77a455b721b69bedcc8da53ec2943da84357321f`
+- `5c2e6962aedc1961ab093c519ffaf029708cfd76`
+- `8dfab7b1ef9205cefb0acc8acff3562996f987b3`
+- `4551dd4528f0f8ebdcde021364181faba60d7c6d`
+- `674f9513af98c272e88d30e878725df4fbc08dbe`
+- `607b4afcdf2d99af57645463e90620f4db050ace`
+- `7766584fd926a5742a8a9c4985917838126e39ef`
+- `94c4df536c9fc2707ea8b18fc40fe5680e924e6a`
+- `199d6cbf888570371d3b8d4a0d4dfc8367557668`
+- `83a3722aa27edb6bc24719610da648211e4d2594`
+- `08ca48282cd1abab60d1e95c44eca651f5166e28`
+- `54034005f97d7816646fbadb7fa778ab350c3f8e`
+- `9366d45cd091e77e8920bab1e8acc04138b19757`
+- `4f399b7e6474027f39fd21593970619d499c59d9`
+- `d0dd99ff590aff79b8d7f81fc765d3662840c83e`
+- `b90229f97960c5d89eccff059ce2744e15cd1bf9`
+- `f9c538d3ed5ae3c45815d55872f3374e8c1a201d`
+- `cfeac6e40d932d8d91ae31f018fdea4b1e11dfe4`
+- `7bb167dfa96e0353b44a788616bd5b06a1719ae5`
+- `8da909e1850945e15ef9aec327a2770c242683ec`
+- `e1db6d6ab9c37c751d4d54abf7ee0a47214968fe`
+- `7f3f7baa29e2ad75b62770c55f12f9ceb14e25c8`
+- `a85d36d0c775542600d350f0090d13ab79f5f9ab`
+- `bab467f825bbc5445ff3aea6a50ed42b15f5ce76`
+- `7a2deaefc69440db3dfcac87a63ae2495aa1112d`
+- `1ac974f55f1b093e4278948c9688f22b93785a47`
+- `21c79998b22b262703508a173eb2856fcc9e8dbc`
+- `46ed28e8c78f66d4d8b1d3d0ebf8de27bd1594f9`
+- `824ac7d943b9c6d5576938036009f1d2547e3d37`
+- `db33ae42965a1961ca806fcc60786dc7c63ae831`
+- `23f74c3a71748db4a73f7b5dd1365b99b0b61051`
+- `0fe11bd560d17a5779fe0a0c677d77ad46cf1b7d`
+- `c1ff8847a00ad481ec68b72f3e5064236a666143`
+- `c50a4db7c740fd91e12fdb6b75ab578f1891b435`
+- `d0335633b3ce3dd88351584720a9776d4708cc92`
+- `b0445ba92fd4a7d0d0928f5262d13e5955140e87`
+- `b2e31ef251e168e00fbaf57d73e4595851aa8eb8`
+- `35091138875618118c1a5b855b429e47b3ddd02d`
+- `c86f59247569c9393613fa75cb69c743174bdb40`
+- `6d820fb7472862ecf91faae89c3e8200c9639563`
+- `6f62ef1a66500487f81529c24e2d923d70613615`
+- `8432877ff0bbf390797655e56beb720e0b2f0203`
+- `be2b01b35615668ad568c72f911dc5adf01ff998`
+- `5848b9f32598769723ba3b08d8cb6ec47d13e1ec`
+- `17721a512a959ece08681c96fa87bff95172af0c`
+- `8b6a4e75f2a6cfdd42280db0afc08679aa09a4f4`
+- `751af64d5d6cb810b6421c6add02efa6973acf8e`
+- `2b14f9434eacf57cd825784539e3892092d30e6e`
+- `32c54b99496e7846ad52a0c6be9c4e175fadbefc`
+- `5827f54ebb4e883806a45e25f4cabe0d6adcd313`
+- `078afdcd5ddb8e9a11683e1048c9112fb0a0ddf7`
+- `ead12c9121ad63e3627405b143efd355b14659b2`
+- `1c75a0b47163706d6a3310de4b81f7538bad0aba`
+- `7f4018fc06ef32e215ca2c3a311c4c9cb3def2f9`
+- `8315fcc06245458d17000a2b78cc8871e05393fd`
+- `7a719970e8af0cbd6a9a53dbe15366a33183fda4`
+- `0b9aa1658b877ce98db907b3501f410c903af9fd`
+- `11850ef19956035ea2fc932a3f7d51f83280fd1e`
+- `9ce95f59b07440afe4ff6228bdf4c5f5ca9d09e0`
+- `22ded1a1b09ee9a2963d904bc5282ac10d6d4766`
+- `3b2c996e40a010f1279347c7af5c64caa9e87e0b`
+- `7a16225fa1d54ea67bc0493bf6e0ba531121f7f8`
+- `cbf9f902b8e46e1efd0717ef8226e3f2dc11005c`
+- `b187eb4b420195a0360ee2bcc2e423004621e408`
+- `c98cff14f0ef36525eb8c973edc0008931b6b3e9`
+- `ec657114b6a273c2231f24ad396d0459fd0dd633`
+- `3eb73be13819a262f4a751307de592b57bbfad7d`
+- `f1f25064858db257208d9889762b4daccee133ee`
+- `5cf0c0d291ee8a3d89627b816e36b15b33bf4217`
+- `90824d8902e0fcbc791265ba242a78cfdd20b636`
+- `31dacda303327a2074b7c139ccdb90372a73fb83`
+- `123b8ffcd1d5b7cc15ab5ecbfe38ca6d6952228d`
+- `58d51682d11132e2c7e491fa0dded9209ae88df8`
+- `6f64fdfe747da5f482208d518d1ac8190130c4ab`
+- `a32c9c5073fa493103aa8198b5bda3aa67510018`
+- `1a201fff87c25d086e7daccdad06973e0f2e6bfe`
+- `26527b4181572c37415f7291942a0366c1602e34`
+- `b00ca06cd37ceb0a9b1e3f6a9e3c37a8de20a79f`
+- `a1c1d7457321b79e3721eaa7bf94b6fab233ddb6`
+
+## Sans métadonnées — indécidables sans OCR/saisie
+
+- `0f3f2c69455f2ddd28e6823655716d3f68da4e19`
+- `91be0aa25870541046814c3947f9cc044c3a5174`
+- `1e2f9cbc7d99579e2160cfd68a3309f0944b4eef`
+- `f994532c881009ca12fad90644b020e99365aa33`
+- `80165005c8987e997aa5bf0f538eae3d85e5ef34`
+- `f5c344f14b79a7642ee01d0fcdd2161e26fdba91`
+- `3903f53b6545e7bfa406c17e6c5a6404fd685c09`
+- `4ce9d3df2df5dd6c9a99cc4a8076aa3bb3433300`
+- `37dcf5076fd5d8e1b5ac6c308abd0c365c8fe1d3`
+- `0279ca818d22e473ca28432a3117b5ef6de3da12`
+- `dcf61af26018e46e4d3611f39d8546fad6dd3db0`
+- `d1f0928adbae86565f4781bab9eb776d9a7e1d16`
+- `3e490cefec01e8da6d98c01c3cb33d1391fa30c1`
+- `603d78f6a64b6b62386648933b0d23e91b2d2cfb`
+- `729eddcd88b48bb04d8defb8bb3efbeafc10d236`
+- `1d54a8efb7fb1d104ba79f4478bacb82424fc67e`
+- `56614dea9705c946c8539813a79d0d1638aced13`
+- `e96caaff47bdef480245c6d72945e4b26f826e46`
+- `28af996b4f1ef380fe90b8c133ca3e44e7f81f38`
+- `69711c879f6d27ac184b71341fc18a1c26b30ab0`
+- `871e6161cc2b70c12de594f03cf31c851408a157`
+- `222c4ba80d1960ee13b3c4baa77b566499551342`
+- `84b41aa324a4dcbe3080de6c293d18ee41c11826`
+- `dad6ff7141e372d59968567705474212b582b850`
