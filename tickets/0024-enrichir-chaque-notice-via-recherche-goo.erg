@@ -2,10 +2,13 @@
 Title: Enrichir chaque notice via recherche Google (url + vérif métadonnées)
 Created: 2026-06-23
 Author: Minh Ha-Duong
+Blocked-by: 0022
+Blocked-by: 0023
 
 --- log ---
 2026-06-23T07:43Z Minh Ha-Duong created
 2026-06-23T07:43Z claude note Filet de rattrapage après [[0022]] (HAL) et [[0023]] (OpenAlex) pour ce qu'aucune base structurée ne couvre. Vérification humaine renforcée (résultats web non fiables). Bénéficie de [[0021]].
+2026-06-23T09:30Z claude note Arête DAG : Blocked-by 0022+0023 — ce filet ne s'applique qu'au résidu non couvert par HAL/OpenAlex (dépendance dure). 0021 reste un préalable souple (« bénéficie de »), pas une arête bloquante.
 
 --- body ---
 ## Context

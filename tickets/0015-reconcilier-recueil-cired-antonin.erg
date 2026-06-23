@@ -2,12 +2,16 @@
 Title: Réconcilier le groupe Recueil_CIRED (corrections métadonnées d'Antonin)
 Created: 2026-06-19
 Author: Minh Ha-Duong
+Blocked-by: 0018
+Blocked-by: 0019
+Blocked-by: 0025
 
 --- log ---
 2026-06-19T13:00Z claude created
 2026-06-19T15:20Z Minh Ha-Duong note blocker 0014 closed — Blocked-by removed.
 2026-06-19T15:25Z claude label needs-human — bloqué : recueil non joignable sans la table d'Antonin
 2026-06-22T18:09Z claude note Scindé en enfants 0018 (20 nouveaux docs, actionnable) et 0019 (corrections via matcher flou + revue humaine). Dépendance à la table d'Antonin levée : on apparie par similarité + revue. Tracker, reste ouvert jusqu'aux deux enfants.
+2026-06-23T09:30Z claude note Arêtes DAG explicitées : Blocked-by 0018+0019 (enfants) + 0025 (audit zéro-perte qui débloque la suppression du groupe). Le tracker ne ferme qu'une fois les trois verts.
 --- body ---
 ## Tracker — scindé le 2026-06-22
 
@@ -49,3 +53,4 @@ Le recueil (131 notices) ne se joint pas proprement à My Library :
 
 - [ ] [[0018]] clos
 - [ ] [[0019]] clos
+- [ ] [[0025]] vert (zéro perte) → groupe `Recueil_CIRED` supprimé
