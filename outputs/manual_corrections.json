@@ -1,0 +1,69 @@
+[
+  {
+    "key": "7MT4P69D",
+    "ref": "Godard — L'inscription économique du développement durable",
+    "source": "PDF docs/CIR_GOD_0038 (revue M. Ha-Duong)",
+    "set": {
+      "bookTitle": "Enjeux et politiques de l'environnement",
+      "publisher": "La Documentation Française",
+      "pages": "52-56",
+      "date": "2002-01"
+    },
+    "note": "Cahiers Français n°306. itemType à confirmer (journalArticle 'Cahiers Français' n°306 vs bookSection) avant écriture.",
+    "applied": false
+  },
+  {
+    "key": "3ZMINRSF",
+    "ref": "Sachs — Environnement et projet de civilisation",
+    "source": "PDF docs/CIR_SAC_0350 + Gallimard (revue M. Ha-Duong)",
+    "set": {
+      "publisher": "Gallimard",
+      "date": "1972-11"
+    },
+    "deja_correct": {
+      "publicationTitle": "Les Temps Modernes",
+      "issue": "n°316"
+    },
+    "verify": {
+      "volume": "vol. 28 — Les Temps Modernes ne numérote pas en volumes ; effacer ?",
+      "pages": "'14 p.' est un nombre de pages, pas une plage — pages réelles ?",
+      "ISSN": "0040-3075 (Les Temps Modernes) — ajouter ?"
+    },
+    "applied": false
+  },
+  {
+    "key": "5QKTKLWV",
+    "ref": "Godard — Décentralisation et développement local en France (1984)",
+    "source": "PDF docs/CIR_GOD_0041 + compte rendu Persée (Autogestions 1984, n°17)",
+    "set": {
+      "itemType": "journalArticle",
+      "publicationTitle": "Les Nouvelles de l'Écodéveloppement",
+      "issue": "30",
+      "date": "1984-09"
+    },
+    "note": "Numéro thématique « Le Développement Local ». SUPERSEDE la proposition d'Antonin pour cette notice (recueil row 39 : bookTitle « DÉVELOPPEMENT local… Genève: Editions Régionales Européennes ») — vérif PDF = article dans Les Nouvelles de l'Écodéveloppement n°30, PAS un livre de Genève. NE PAS appliquer le bookTitle du recueil ici.",
+    "applied": false
+  },
+  {
+    "key": "S8VUIU74",
+    "ref": "Godard — Le développement durable et le devenir des villes (Futuribles 209)",
+    "source": "PDF docs/1995-109 + vérif M. Ha-Duong + HAL hal-00624329",
+    "set": {
+      "date": "1996-05",
+      "extra": "hal-00624329 (preprint, v1 2011-09-16)"
+    },
+    "deja_correct": {
+      "publicationTitle": "Futuribles",
+      "issue": "209",
+      "pages": "29–35"
+    },
+    "verify": {
+      "extra_ancien": "champ extra valait 'ok' (parasite) — remplacé par l'id HAL",
+      "publisher": "laisser vide ou « Association Futuribles » (≠ revue Futuribles) ?",
+      "ISSN": "0337-307X (Futuribles) — ajouter ?"
+    },
+    "note": "Confirme la proposition d'Antonin (recueil row 33/34) : Futuribles n°209, pp 29-35. Preprint HAL hal-00624329.",
+    "hal_verified": "HAL hal-00624329 confirme : Olivier Godard, Futuribles n°209, pp 29-35, 1996-05-01.",
+    "applied": false
+  }
+]
