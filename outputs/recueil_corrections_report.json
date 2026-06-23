@@ -1,11 +1,13 @@
 {
-  "paires_avec_corrections": 25,
-  "total_ajouts": 22,
-  "total_modifications": 54,
+  "paires_avec_corrections": 22,
+  "paires_appariement_douteux": 1,
+  "total_ajouts": 15,
+  "total_modifications": 42,
   "corrections": [
     {
       "perso_key": "B9PV9QB7",
       "score": 1.0,
+      "titre_sim": 1.0,
       "titre": "Oppositions locales à des projets d'équipement",
       "champs": {
         "publicationTitle": {
@@ -33,12 +35,14 @@
     {
       "perso_key": "LV3GLTLU",
       "score": 1.0,
+      "titre_sim": 1.0,
       "titre": "Environment and development revisited : ten years after Stockholm conference",
       "champs": {
         "volume": {
           "type": "modification",
           "groupe": "8",
-          "perso": "vol. 8"
+          "perso": "vol. 8",
+          "note": "vérifier volume vs numéro (perte d'info ?)"
         },
         "issue": {
           "type": "modification",
@@ -55,6 +59,7 @@
     {
       "perso_key": "RP95B3RA",
       "score": 1.0,
+      "titre_sim": 1.0,
       "titre": "Plaidoyer pour développer des technologies plus appropriées et passer du mimétisme au pluralisme technologique",
       "champs": {
         "volume": {
@@ -75,50 +80,9 @@
       }
     },
     {
-      "perso_key": "RP95B3RA",
-      "score": 0.8143,
-      "titre": "Plaidoyer pour développer des technologies plus appropriées et passer du mimétisme au pluralisme technologique",
-      "champs": {
-        "title": {
-          "type": "modification",
-          "groupe": "Mimétisme ou pluralisme de technologies plus appropriées: réplique à A. Emmanuel",
-          "perso": "Plaidoyer pour développer des technologies plus appropriées et passer du mimétisme au pluralisme technologique"
-        },
-        "publicationTitle": {
-          "type": "modification",
-          "groupe": "Revue Tiers Monde",
-          "perso": "Tiers Monde"
-        },
-        "publisher": {
-          "type": "ajout",
-          "groupe": "JSTOR",
-          "perso": ""
-        },
-        "volume": {
-          "type": "ajout",
-          "groupe": "24",
-          "perso": ""
-        },
-        "issue": {
-          "type": "modification",
-          "groupe": "93",
-          "perso": "n°88"
-        },
-        "pages": {
-          "type": "modification",
-          "groupe": "169–176",
-          "perso": "8 p."
-        },
-        "date": {
-          "type": "modification",
-          "groupe": "1983",
-          "perso": "1981"
-        }
-      }
-    },
-    {
       "perso_key": "R24GWFTW",
       "score": 1.0,
+      "titre_sim": 1.0,
       "titre": "Les temps : espaces du développement",
       "champs": {
         "title": {
@@ -146,6 +110,7 @@
     {
       "perso_key": "4VPQC7F6",
       "score": 1.0,
+      "titre_sim": 1.0,
       "titre": "Développement, utopie, projet de société",
       "champs": {
         "publicationTitle": {
@@ -173,6 +138,7 @@
     {
       "perso_key": "UI8XFEWK",
       "score": 1.0,
+      "titre_sim": 1.0,
       "titre": "Entre nature et société : les jeux de l'irréversibilité : dans la construction économique et sociale du champ de l'environnement",
       "champs": {
         "creators": {
@@ -194,6 +160,7 @@
     {
       "perso_key": "33LMMBJR",
       "score": 1.0,
+      "titre_sim": 1.0,
       "titre": "Le potentiel de développement endogène",
       "champs": {
         "issue": {
@@ -216,6 +183,7 @@
     {
       "perso_key": "U6VHDB63",
       "score": 1.0,
+      "titre_sim": 1.0,
       "titre": "La politique de l'environnement et l'avenir des relations entre l'Europe et le Tiers-Monde",
       "champs": {
         "creators": {
@@ -236,6 +204,7 @@
     {
       "perso_key": "KGKS7LFH",
       "score": 1.0,
+      "titre_sim": 1.0,
       "titre": "De l'effet de domination à la 'self-reliance' : techniques appropriées pour le développement",
       "champs": {
         "abstractNote": {
@@ -248,6 +217,7 @@
     {
       "perso_key": "5GPCR5FK",
       "score": 1.0,
+      "titre_sim": 0.917,
       "titre": "Ecodevelopment : to create a durable equilibrium between man and nature, while avoiding the erros of lawless growth",
       "champs": {
         "title": {
@@ -260,6 +230,7 @@
     {
       "perso_key": "2YWUKF7M",
       "score": 1.0,
+      "titre_sim": 1.0,
       "titre": "Les bifurcations de la politique énergétique française depuis la guerre",
       "champs": {
         "creators": {
@@ -276,6 +247,7 @@
     {
       "perso_key": "BSU65UVI",
       "score": 1.0,
+      "titre_sim": 1.0,
       "titre": "L’environnement, obstacle ou argument pour un nouvel ordre économique international : essai de prospective à l’échelle du bassin méditerranéen",
       "champs": {
         "creators": {
@@ -292,6 +264,7 @@
     {
       "perso_key": "QRLF5SRD",
       "score": 1.0,
+      "titre_sim": 1.0,
       "titre": "Inﬂuence of socioeconomic inertia and uncertainty on optimal CO2-emission abatement",
       "champs": {
         "creators": {
@@ -312,6 +285,7 @@
     {
       "perso_key": "Z83SYUK5",
       "score": 1.0,
+      "titre_sim": 1.0,
       "titre": "Elements pour une nouvelle approche de la gestion de l'eau dans les pays méditérranéens",
       "champs": {
         "creators": {
@@ -332,6 +306,7 @@
     {
       "perso_key": "NYFD6CNL",
       "score": 1.0,
+      "titre_sim": 1.0,
       "titre": "La Méditerranée : un potentiel de ressources menacé ?",
       "champs": {
         "creators": {
@@ -352,6 +327,7 @@
     {
       "perso_key": "TE5U3W6V",
       "score": 1.0,
+      "titre_sim": 1.0,
       "titre": "Energies nouvelles et stratégies des pays en développement",
       "champs": {
         "creators": {
@@ -370,6 +346,7 @@
     {
       "perso_key": "27L4GI2E",
       "score": 1.0,
+      "titre_sim": 1.0,
       "titre": "Environnement et politique scientifique",
       "champs": {
         "creators": {
@@ -392,6 +369,7 @@
     {
       "perso_key": "7MT4P69D",
       "score": 0.75,
+      "titre_sim": 0.75,
       "titre": "L'inscription économique du développement durable",
       "champs": {
         "title": {
@@ -436,25 +414,9 @@
       }
     },
     {
-      "perso_key": "STPFPZYZ",
-      "score": 0.85,
-      "titre": "Décentralisation et planification du développement endogène",
-      "champs": {
-        "title": {
-          "type": "modification",
-          "groupe": "Planification du développement endogène et articulation des espaces de développement régionaux et micro-régionaux",
-          "perso": "Décentralisation et planification du développement endogène"
-        },
-        "date": {
-          "type": "modification",
-          "groupe": "1984",
-          "perso": "1982"
-        }
-      }
-    },
-    {
       "perso_key": "S8VUIU74",
       "score": 1.0,
+      "titre_sim": 1.0,
       "titre": "Le développement durable et le devenir des villes: bonnes intentions et fausses bonnes idées",
       "champs": {
         "title": {
@@ -462,15 +424,11 @@
           "groupe": "Le développement durable et le devenir des villes. Bonnes intentions et fausses bonnes idées",
           "perso": "Le développement durable et le devenir des villes: bonnes intentions et fausses bonnes idées"
         },
-        "publicationTitle": {
-          "type": "modification",
-          "groupe": "Le développement durable et le devenir des villes. Bonnes intentions et fausses bonnes idées",
-          "perso": "Futuribles"
-        },
         "publisher": {
           "type": "ajout",
           "groupe": "Futuribles",
-          "perso": ""
+          "perso": "",
+          "note": "éditeur = nom de la revue ? préciser l'organisme"
         },
         "pages": {
           "type": "modification",
@@ -485,65 +443,9 @@
       }
     },
     {
-      "perso_key": "N5QPS2L7",
-      "score": 0.9,
-      "titre": "Instruments pour une gestion collective des risques climatiques Un cadre d'analyse centré sur les moyens de faire apparaitre un signal-prix",
-      "champs": {
-        "title": {
-          "type": "modification",
-          "groupe": "Analyse économique et gestion des risques climatiques",
-          "perso": "Instruments pour une gestion collective des risques climatiques Un cadre d'analyse centré sur les moyens de faire apparaitre un signal-prix"
-        },
-        "publicationTitle": {
-          "type": "ajout",
-          "groupe": "Natures Sciences Sociétés",
-          "perso": ""
-        },
-        "volume": {
-          "type": "ajout",
-          "groupe": "2",
-          "perso": ""
-        },
-        "issue": {
-          "type": "ajout",
-          "groupe": "3",
-          "perso": ""
-        },
-        "pages": {
-          "type": "modification",
-          "groupe": "202-211",
-          "perso": "401-457"
-        },
-        "date": {
-          "type": "modification",
-          "groupe": "07/1994",
-          "perso": "1991"
-        },
-        "DOI": {
-          "type": "ajout",
-          "groupe": "10.1051/nss/19940203202",
-          "perso": ""
-        },
-        "ISSN": {
-          "type": "ajout",
-          "groupe": "1240-1307, 1765-2979",
-          "perso": ""
-        },
-        "creators": {
-          "type": "modification",
-          "groupe": [
-            "hourcade jean-charles"
-          ],
-          "perso": [
-            "godard olivier",
-            "hourcade jean-charles"
-          ]
-        }
-      }
-    },
-    {
       "perso_key": "5QKTKLWV",
       "score": 1.0,
+      "titre_sim": 1.0,
       "titre": "Décentralisation et développement local en France",
       "champs": {
         "title": {
@@ -554,7 +456,8 @@
         "bookTitle": {
           "type": "ajout",
           "groupe": "DÉVELOPPEMENT local et decentralisation. Genève: Editions Régionales Européennes",
-          "perso": ""
+          "perso": "",
+          "note": "recasser (ALLCAPS) ; extraire lieu/éditeur du bookTitle"
         },
         "pages": {
           "type": "modification",
@@ -581,6 +484,7 @@
     {
       "perso_key": "WCI9YSD4",
       "score": 1.0,
+      "titre_sim": 1.0,
       "titre": "Integration of technology in development planning : a normative view",
       "champs": {
         "title": {
@@ -591,12 +495,14 @@
         "bookTitle": {
           "type": "modification",
           "groupe": "Science and Technology for Development Planning in the STPI Countries",
-          "perso": "Science and technology for development : planning in the STPI countries"
+          "perso": "Science and technology for development : planning in the STPI countries",
+          "note": "recasser (ALLCAPS)"
         },
         "publisher": {
           "type": "ajout",
           "groupe": "IDRC",
-          "perso": ""
+          "perso": "",
+          "note": "recasser (ALLCAPS)"
         },
         "place": {
           "type": "ajout",
@@ -625,12 +531,14 @@
     {
       "perso_key": "3ZMINRSF",
       "score": 1.0,
+      "titre_sim": 1.0,
       "titre": "Environnement et projet de civilisation",
       "champs": {
         "volume": {
           "type": "modification",
           "groupe": "316",
-          "perso": "vol. 28"
+          "perso": "vol. 28",
+          "note": "vérifier volume vs numéro (perte d'info ?)"
         },
         "pages": {
           "type": "modification",
