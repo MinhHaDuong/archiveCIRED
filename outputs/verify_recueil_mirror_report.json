@@ -3,8 +3,8 @@
     "notices_groupe": 131,
     "notes_groupe": 17,
     "notices_my_library_top": 764,
-    "notices_my_library_total": 1517,
-    "notes_my_library": 1,
+    "notices_my_library_total": 1533,
+    "notes_my_library": 17,
     "group_id": "2511149",
     "user_id": "2114597"
   },
@@ -534,72 +534,7 @@
       "matched": "3ZMINRSF"
     }
   ],
-  "note_losses": [
-    {
-      "parent": "2R9DUG9W",
-      "extrait": "Il part de l'existence d'une crise de légitimité, ce qui pose que une crise de l'analyse/calcul économique qui part d'un"
-    },
-    {
-      "parent": "ILBXVP7W",
-      "extrait": "Quelques traits communs des problèmes globaux d'environnement (pluies acides, effets de serre, ozone) qui permettent de "
-    },
-    {
-      "parent": "D7R89HKH",
-      "extrait": "synthèse dans Croissance et environnement: éléments pour une stratégie d'harmonisation, c'est ce document qui le remplac"
-    },
-    {
-      "parent": "B8E6YMRE",
-      "extrait": "livre: à ne pas évaluer"
-    },
-    {
-      "parent": "EW7ENHB4",
-      "extrait": "sur la crise de l'Etat-providence, remplacement de l'Etat par des initiatives de la société civile, prise en charge diff"
-    },
-    {
-      "parent": "USFEI9ZY",
-      "extrait": "pourrait aussi aller vers les technologies appropriées"
-    },
-    {
-      "parent": "YLGKJBV4",
-      "extrait": "a publié un bouquin à la Découverte"
-    },
-    {
-      "parent": "TL695VVE",
-      "extrait": "à partir de la littérature américaine sur la valeur du temps, l'évaluation du travail non-rémunéré"
-    },
-    {
-      "parent": "HQ3RY9IP",
-      "extrait": "rapport avec l'obsolescence programmée Céron et Baillon a publié La civilisation de l'éphémère justement sur cette quest"
-    },
-    {
-      "parent": "MQVWZT28",
-      "extrait": "\"nouvelle croissance\" = terme de Giscard"
-    },
-    {
-      "parent": "RTLIRMTU",
-      "extrait": "très bon texte culture et technologie"
-    },
-    {
-      "parent": "XQDFZY3F",
-      "extrait": "IFDA (International Fondation for Another Developpement) réseau d'anciens communistes"
-    },
-    {
-      "parent": "VZZLHYNW",
-      "extrait": "édité par l'actuel président du Pérou"
-    },
-    {
-      "parent": "TT4YBRZJ",
-      "extrait": "article fait pour La Revue du Monde, pas sûr que cela ait été publié"
-    },
-    {
-      "parent": "ERX2ECHX",
-      "extrait": "revue de la FAO, traduite dans 25 langues, doit donc exister en français"
-    },
-    {
-      "parent": "QJIVWLIW",
-      "extrait": "très gros rapport: peut-être pas à lire rapport à l'OCDE idées doivent se retrouver dans d'autres textes"
-    }
-  ],
+  "note_losses": [],
   "duplicate_clusters": [
     {
       "titre": "les temps espaces du developpement",
