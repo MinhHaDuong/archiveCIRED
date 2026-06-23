@@ -55,6 +55,12 @@ outputs/verify_recueil_mirror_report.json outputs/verify_recueil_mirror_report.m
 		--output-json outputs/verify_recueil_mirror_report.json \
 		--output-md outputs/verify_recueil_mirror_report.md
 
+# Comparaison fichier-par-fichier des 54 URL « recueil non dupliquée » (ticket
+# 0029) : taille + SHA-256 des paires de taille égale — réseau + téléchargement
+# de gros PDF, lecture seule, hors `make check`.
+outputs/recueil_url_comparison.json outputs/recueil_url_comparison.md: src/compare_recueil_urls.py src/reconcile_zotero.py outputs/verify_recueil_mirror_report.json
+	uv run python src/compare_recueil_urls.py --output outputs/recueil_url_comparison.json
+
 check-fast:
 	uv run pytest -m "not integration and not slow" tests/
 

@@ -1,5 +1,5 @@
 %erg 0.1
-Title: Remédier aux pertes avant suppression de Recueil_CIRED (notes + 8 notices)
+Title: Remédier aux pertes avant suppression de Recueil_CIRED (notes + 8 notices + 14 URL)
 Created: 2026-06-23
 Author: Minh Ha-Duong
 Blocked-by: 0025
@@ -9,7 +9,8 @@ Blocked-by: 0025
 2026-06-23T13:18Z claude note Issu de l'audit 0025 (verdict NO-GO). Corrige les pertes identifiées, puis 0025 sera re-vérifié (doit revenir GO/zéro-perte) avant suppression du groupe.
 
 2026-06-23T14:11Z claude note Notes faites : 16 notes d'Antonin réinjectées dans My Library (en-tête « Note de Antonin Pottier »), sauvegarde outputs/recueil_notes_backup.json. Audit re-vérifié : PERTES notes = 0. Restent les 8 notices méta/PDF (6 sans match, 2 champs manquants) -> 0029 reste ouvert. Bug d'audit corrigé en passant (appariement des notes multi-paragraphes, PR #22).
-2026-06-23T15:11Z claude note Axe méta/PDF corrigé : 2 PATCH (champs manquants) + 6 POST (no_match → My Library). Backup outputs/recueil_losses_backup.json. Audit re-vérifié → GO (0 perte méta/PDF, 0 perte note). Ticket 0025 reste ouvert : voir commentaire utilisateur sur les 56 URL recueil non dupliquées dans doc_equivalent.
+2026-06-23T15:00Z claude note Comparaison des URL des 54 doc-équivalents (src/compare_recueil_urls.py) : 31 vrais doublons (SHA-256 identiques), mais 14 pointent un FICHIER DISTINCT sur inari (extrait d'article vs scan du volume ; parfois meilleur côté recueil). Ces 14 sont des pertes si suppression sans réconciliation -> cause NO-GO supplémentaire. Rapport outputs/recueil_url_comparison.md.
+2026-06-23T15:11Z claude note Axe méta/PDF corrigé (PR #27) : 2 PATCH (champs manquants) + 6 POST (no_match → My Library). Backup outputs/recueil_losses_backup.json. Audit verify_recueil_mirror re-vérifié → GO sur son périmètre (méta/PDF + notes). Restent les 14 URL distinctes (action 4) avant un GO complet ; 0025 reste ROUGE.
 --- body ---
 ## Context
 
@@ -36,9 +37,19 @@ zéro-perte exigée après).
    Méditerranée : un potentiel de ressources menacé ? (1975), La décentralisation
    en France (1986), Integration of technology in development planning (1979).
 
-Hors verdict (rappel) : les 54 doc-équivalents (URL recueil non dupliquée mais
-PDF du même document présent) et les doublons internes de My Library ne sont PAS
-des pertes ; ne pas s'en occuper ici.
+4. **14 fichiers distincts** parmi les 54 doc-équivalents : l'URL recueil pointe
+   un PDF **réellement différent** de celui de la notice My Library (comparaison
+   `src/compare_recueil_urls.py`, rapport `outputs/recueil_url_comparison.md` —
+   souvent extrait d'article côté recueil contre scan du volume entier, parfois
+   meilleur côté recueil ; ex. 1982 Décentralisation où le fichier My Library ne
+   fait que 87 Ko). Supprimer le groupe sans réconcilier détruirait ces fichiers.
+   Réconcilier = rattacher l'URL/fichier recueil à la notice My Library (2e
+   attachement `linked_url`, ou note avec l'URL) — **sans supprimer de copie**.
+
+Pas des pertes (vérifié) : les **31** autres doc-équivalents sont des doublons
+vrais (même fichier, SHA-256 identique) et les **9** restants n'ont de PDF
+d'aucun côté (équivalence métadonnée seule). Les doublons internes de My Library
+restent hors scope.
 
 ## Relevant files
 - `src/verify_recueil_mirror.py` — l'audit (lecture seule) qui définit « perte ».
@@ -48,9 +59,12 @@ des pertes ; ne pas s'en occuper ici.
 
 ## Actions
 1. Réinjecter les 16 notes sur la notice My Library équivalente (créer la notice
-   si absente).
-2. Compléter/injecter les 2 notices à champs manquants.
-3. Apparier ou injecter les 6 notices sans match.
+   si absente). **[fait — PR #26]**
+2. Compléter/injecter les 2 notices à champs manquants. **[fait — PR #27]**
+3. Apparier ou injecter les 6 notices sans match. **[fait — PR #27]**
+4. Réconcilier les 14 fichiers distincts : rattacher l'URL recueil à la notice
+   My Library (sans supprimer la copie My Library — les deux PDF sont conservés).
+   **[reste à faire]**
 
 ## Test
 - Réutiliser l'audit : après remédiation, `uv run python
@@ -67,6 +81,8 @@ des pertes ; ne pas s'en occuper ici.
 - Toute écriture Zotero passe par un script avec `--backup`.
 
 ## Exit criteria
-- [ ] Les 16 notes et 8 notices sont couvertes dans My Library
-- [ ] L'audit 0025 ré-exécuté rend GO (zéro perte)
+- [x] Les 16 notes et 8 notices sont couvertes dans My Library (PR #26, #27)
+- [ ] Les 14 fichiers distincts sont réconciliés (URL recueil rattachée à la
+      notice My Library, aucune copie supprimée)
+- [ ] L'audit 0025 ré-exécuté rend GO (zéro perte) — y compris les URL distinctes
 - [ ] `make check` passe

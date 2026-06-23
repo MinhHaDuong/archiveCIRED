@@ -11,6 +11,7 @@ Author: Minh Ha-Duong
 2026-06-23T09:30Z claude note Rôle dans le DAG : audit-gate du tracker [[0015]] (qui le porte en Blocked-by). Vert ⇒ groupe `Recueil_CIRED` supprimable ⇒ recueil réconcilié. Lui-même bloqué par rien : exécutable maintenant (lecture seule).
 
 2026-06-23T13:18Z claude note Audit implémenté (src/verify_recueil_mirror.py) + exécuté en live. Verdict NO-GO : 16 notes d'annotation d'Antonin absentes de My Library + 8 notices (6 sans appariement net, 2 champs énumérés perdus). 69 URL préservées, 54 doc-équivalents. Rapport : outputs/verify_recueil_mirror_report.md. Gate reste ROUGE — ticket ouvert jusqu'à re-vérification zéro-perte après remédiation (voir 0029).
+2026-06-23T15:00Z claude note Les « 54 doc-équivalents » n'étaient pas tous des non-pertes (M. Ha-Duong) : comparaison fichier par fichier (src/compare_recueil_urls.py, rapport outputs/recueil_url_comparison.md) → 31 doublons vrais (SHA-256 identiques), MAIS 14 URL recueil pointent un FICHIER DISTINCT sur inari (extrait vs volume entier, parfois meilleur côté recueil) + 9 sans PDF. Les 14 sont des pertes si suppression sans réconciliation → cause NO-GO supplémentaire, ajoutée au scope de 0029. Aucune copie supprimée.
 --- body ---
 ## But
 
