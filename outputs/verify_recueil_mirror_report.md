@@ -8,7 +8,7 @@ _Ticket 0025 — vérificateur indépendant, lecture seule. Groupe 2511149, My L
 - URL/PDF du recueil préservée à l'identique : **69**
 - Document équivalent dans My Library (métadonnées + PDF, URL recueil non dupliquée) : **54**
 - **Pertes métadonnées/PDF : 8**
-- **Pertes de notes d'annotation : 16**
+- **Pertes de notes d'annotation : 0**
 
 ## Pertes métadonnées/PDF (verdict)
 
@@ -22,29 +22,6 @@ _Ticket 0025 — vérificateur indépendant, lecture seule. Groupe 2511149, My L
 | BI5WKFD9 | 1986 | La décentralisation en France: un levier pour le développement local | no_match | — |
 | VZZLHYNW | 1979 | Integration of technology in development planning: a normative view | no_match | — |
 | TIZUI4EU | 1972 | Environnement et projet de civilisation | metadata_incomplete | volume, pages |
-
-## Pertes de notes d'annotation (verdict)
-
-Notes (commentaires d'Antonin) rattachées à des notices de groupe, dont le texte est introuvable dans My Library. Leur suppression effacerait ces annotations.
-
-| notice parente | extrait |
-|---|---|
-| 2R9DUG9W | Il part de l'existence d'une crise de légitimité, ce qui pose que une crise de l'analyse/calcul économique qui part d'un |
-| ILBXVP7W | Quelques traits communs des problèmes globaux d'environnement (pluies acides, effets de serre, ozone) qui permettent de  |
-| D7R89HKH | synthèse dans Croissance et environnement: éléments pour une stratégie d'harmonisation, c'est ce document qui le remplac |
-| B8E6YMRE | livre: à ne pas évaluer |
-| EW7ENHB4 | sur la crise de l'Etat-providence, remplacement de l'Etat par des initiatives de la société civile, prise en charge diff |
-| USFEI9ZY | pourrait aussi aller vers les technologies appropriées |
-| YLGKJBV4 | a publié un bouquin à la Découverte |
-| TL695VVE | à partir de la littérature américaine sur la valeur du temps, l'évaluation du travail non-rémunéré |
-| HQ3RY9IP | rapport avec l'obsolescence programmée Céron et Baillon a publié La civilisation de l'éphémère justement sur cette quest |
-| MQVWZT28 | "nouvelle croissance" = terme de Giscard |
-| RTLIRMTU | très bon texte culture et technologie |
-| XQDFZY3F | IFDA (International Fondation for Another Developpement) réseau d'anciens communistes |
-| VZZLHYNW | édité par l'actuel président du Pérou |
-| TT4YBRZJ | article fait pour La Revue du Monde, pas sûr que cela ait été publié |
-| ERX2ECHX | revue de la FAO, traduite dans 25 langues, doit donc exister en français |
-| QJIVWLIW | très gros rapport: peut-être pas à lire rapport à l'OCDE idées doivent se retrouver dans d'autres textes |
 
 Tant que ces listes ne sont pas vides, **ne pas supprimer le groupe**.
 
