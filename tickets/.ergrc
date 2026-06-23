@@ -1,7 +1,7 @@
 # Project configuration for git-erg.
 # Created by: erg init
 
-[tags]
+[labels]
 # Tag vocabulary — one per line. All tags suppress `erg ready` output.
 # Remove or add lines to fit your workflow.
 needs-human

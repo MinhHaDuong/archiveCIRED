@@ -16,7 +16,7 @@ Blocked-by: 0007
 
 --- log ---
 2026-05-04T09:00Z alice created
-2026-05-04T14:22Z bob status open Was blocked, 0007 now merged
+2026-05-04T14:22Z bob note Was blocked, 0007 now merged
 
 --- body ---
 ## Context
@@ -25,7 +25,7 @@ We need exponential backoff with jitter, capped at 3 retries.
 
 ## Exit criteria
 - [ ] `client.Fetch()` retries up to 3 times on 5xx
-- [ ] Backoff is 1s, 2s, 4s + random jitter �i 500ms
+- [ ] Backoff is 1s, 2s, 4s + random jitter less than 500ms
 - [ ] Unit test covers retry exhaustion path
 - [ ] `make check` passes
 ```
@@ -33,7 +33,10 @@ We need exponential backoff with jitter, capped at 3 retries.
 Rules agents must know:
 - No `Status:` header in %erg 0.1 (use `erg migrate` for legacy files)
 - Closed/not-closed is inferred from path conventions or a non-empty `Closed:` header
-- `Tag:` is optional and repeatable; accepted values are defined in `tickets/.ergrc` (defaults: `needs-human`, `deferred`)
+- `Label:` is optional and repeatable; accepted values are defined in `tickets/.ergrc` (defaults: `needs-human`, `deferred`)
 - Log entries are append-only: `YYYY-MM-DDTHH:MMZ author verb detail`
+- Artifacts a ticket consumes or produces (reports, data, generated files, scripts) live in their natural location in the project tree and are referenced from the body by path, not embedded wholesale, and not kept as a filename-twinned `0002-slug.md` sidecar the tooling cannot track.
 
-In doubt, read the specification `spec-erg-v1.md` (file format) or run `erg --help --all` / `erg COMMAND --help` for command documentation.
+On GitHub, `tickets/erg-github` (a separate committed helper, not an `erg` subcommand) adds a `verify` check that fails a PR referencing a still-open ticket -- so close the ticket in the same PR (`erg close`).
+
+In doubt, run `erg spec` (file format) or `erg --help --all` / `erg COMMAND --help` for command documentation.
