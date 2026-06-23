@@ -2,12 +2,14 @@
 Title: Mettre à jour le binaire committé tickets/erg (obsolète : sans list/Label:, casse refresh-STATE.py)
 Created: 2026-06-23
 Author: Minh Ha-Duong
+Closed: autoclosed — PR #19
 
 --- log ---
 2026-06-23T09:33Z Minh Ha-Duong created
 2026-06-23T09:33Z claude note Découvert pendant /lair : refresh-STATE.py a échoué (« Unknown command: list »).
 
 2026-06-23T09:41Z claude note Vérifié : binaire committé mis à jour (sha256 1e204c1, build 2026-06-18) reconnaît list/Label: ; refresh-STATE.py régénère ## Status sans erreur (exit 0) ; make check 81 passent.
+2026-06-23T09:41Z Minh Ha-Duong closed — autoclosed — PR #19
 --- body ---
 ## Contexte
 
