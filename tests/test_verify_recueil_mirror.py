@@ -177,6 +177,21 @@ def test_unpreserved_notes_flags_absent_text():
     assert parents == {"P1"}
 
 
+def test_unpreserved_notes_matches_across_paragraph_boundaries():
+    # Note multi-paragraphe : la recherche ne doit pas être cassée par les noms
+    # de balises (un probe traversant </p><p> ou <br/> doit matcher).
+    gnotes = [{"parentItem": "P1",
+               "note": "<p>très bon texte</p>\n<p>culture et technologie</p>"},
+              {"parentItem": "P2",
+               "note": "<p>peut-être pas à lire<br />rapport à l'OCDE</p>"}]
+    # Côté lib : mêmes notes ré-injectées avec en-tête (balises incluses).
+    lib_notes = [
+        "<p><strong>Note de Antonin Pottier</strong></p>\n<p>très bon texte</p>\n<p>culture et technologie</p>",
+        "<p><strong>Note de Antonin Pottier</strong></p>\n<p>peut-être pas à lire<br />rapport à l'OCDE</p>",
+    ]
+    assert vm.unpreserved_notes(gnotes, lib_notes) == []
+
+
 def test_assess_all_note_loss_forces_no_go():
     group = [{"key": "A", "title": "T", "date": "1990", "url": "https://inari/recueil/a.pdf",
               "creators": [{"lastName": "X"}]}]

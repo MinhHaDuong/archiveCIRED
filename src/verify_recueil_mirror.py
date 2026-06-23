@@ -122,7 +122,11 @@ def unpreserved_notes(group_notes: list[dict],
     reformatages HTML mais sensible à une vraie disparition de contenu. Une note
     vide n'est jamais une perte.
     """
-    corpus = " || ".join(norm_text(t) for t in lib_note_texts)
+    # Retirer les balises AVANT de normaliser : sinon norm_text transforme les
+    # noms de balises en tokens (« <br/> » → « br »), ce qui coupe une recherche
+    # de sous-chaîne traversant une frontière de paragraphe (« lire br rapport »
+    # ≠ « lire rapport »). Le côté groupe passe déjà par note_text — symétrie.
+    corpus = " || ".join(norm_text(note_text(t)) for t in lib_note_texts)
     lost = []
     for n in group_notes:
         txt = note_text(n.get("note"))
