@@ -1,0 +1,56 @@
+%erg 0.1
+Title: Normaliser les noms d'auteur du catalogue
+Created: 2026-06-23
+Author: Minh Ha-Duong
+
+--- log ---
+2026-06-23T07:43Z Minh Ha-Duong created
+2026-06-23T07:43Z claude note Issu de la revue 0019. Fondation pour les swarms d'enrichissement [[0022]]/[[0023]]/[[0024]] : des noms canoniques fiabilisent l'appariement aux sources externes.
+
+--- body ---
+## Context
+
+Les noms d'auteur du catalogue Zotero sont incohérents : « Hourcade J.-C. »,
+« Jean-Charles Hourcade », « Godard, Olivier » vs « Olivier Godard », initiales
+vs prénom complet, accents variables. Cette dispersion nuit à l'appariement (aux
+notices entre elles et aux sources externes HAL/OpenAlex) et à la qualité du
+catalogue partagé.
+
+Préalable utile aux tickets d'enrichissement [[0022]] [[0023]] [[0024]] : un
+nom canonique par personne fiabilise les recherches par auteur.
+
+## Relevant files
+
+- `src/reconcile_zotero.py` — collecte des notices (creators)
+- `src/apply_corrections.py` — écriture Zotero (PATCH/PUT, backup, version)
+- `src/match_untyped.py` — `last_names`, normalisation (réutilisable)
+
+## Actions
+
+1. Inventorier toutes les variantes de `creators` (lastName/firstName) du
+   catalogue ; regrouper par personne (clé : nom de famille normalisé).
+2. Définir une forme canonique (lastName + firstName complet quand connu, ordre,
+   accents) ; produire un mapping variante → canonique pour **revue humaine**.
+3. Appliquer le mapping aux notices via `apply_corrections.py` (champ creators),
+   dry-run + backup d'abord.
+
+## Test
+
+- Regroupement et choix de la forme canonique : fonctions pures sur fixtures
+  (initiales vs prénom, virgule, accents, homonymes à ne pas fusionner).
+
+## Verification
+
+- [ ] Rapport des variantes par personne + forme canonique proposée
+- [ ] Mapping revu avant application
+- [ ] Noms normalisés dans My Library (backup), aucune fusion d'homonymes
+
+## Invariants
+
+- Ne jamais fusionner deux personnes distinctes (homonymes) sans revue.
+- Dry-run par défaut ; écriture avec backup ; sens unique.
+
+## Exit criteria
+
+- [ ] Noms d'auteur normalisés (rapport + application)
+- [ ] `make check` passe

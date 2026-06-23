@@ -1,0 +1,61 @@
+%erg 0.1
+Title: Enrichir chaque notice via HAL (halId + vérif métadonnées)
+Created: 2026-06-23
+Author: Minh Ha-Duong
+
+--- log ---
+2026-06-23T07:43Z Minh Ha-Duong created
+2026-06-23T07:43Z claude note Prototype HAL validé en revue 0019 (hal-00624329 a confirmé la notice Godard/Futuribles). À industrialiser en swarm. Famille avec [[0023]] [[0024]] ; bénéficie de [[0021]].
+
+--- body ---
+## Context
+
+Enrichir systématiquement chaque notice du catalogue via **HAL** (archives
+ouvertes). Pour chaque notice : rechercher dans HAL par titre + auteur (+ année),
+apparier le bon résultat, ajouter le **halId** et **vérifier/corriger** les
+métadonnées (revue, volume, numéro, pages, date, DOI) d'après HAL.
+
+Prototype déjà validé (revue 0019) : l'API `api.archives-ouvertes.fr/search`
+renvoie titre, auteurs, revue, numéro, pages, date, docType, doiId, halId — ex.
+`hal-00624329` a confirmé exactement la notice Godard/Futuribles 209. Reste à
+industrialiser en **swarm** (fan-out d'agents sur des lots de notices).
+
+Famille d'enrichissement avec [[0023]] (OpenAlex) et [[0024]] (Google) ;
+bénéficie de [[0021]] (noms normalisés). Les trois partagent un harnais commun :
+rechercher → apparier (réutiliser `match_untyped`/`diff_recueil`) → diff →
+**revue humaine** → écrire via `src/apply_corrections.py`.
+
+## Relevant files
+
+- `src/apply_corrections.py` — écriture Zotero (backup, version)
+- `src/match_untyped.py`, `src/diff_recueil.py` — appariement + diff de champs
+- `src/reconcile_zotero.py` — collecte des notices
+
+## Actions
+
+1. Harnais de recherche HAL (API, lib standard) → candidats structurés.
+2. Appariement notice ↔ résultat HAL (titre+auteur+année), avec seuil et
+   corroboration (cf. leçon 0019 : Jaccard + auteur/année, pas le containment).
+3. Diff métadonnées (HAL → notice) + halId ; rapport pour revue.
+4. Swarm : fan-out d'agents sur lots ; agréger les diffs.
+5. Après revue : écrire halId + corrections (dry-run, backup).
+
+## Test
+
+- Parsing d'un résultat HAL → champs ; appariement sur fixtures (vrai/faux).
+
+## Verification
+
+- [ ] halId ajouté à chaque notice trouvée dans HAL
+- [ ] Diffs de métadonnées revus avant écriture
+- [ ] Corrections appliquées (backup), rapport des notices sans correspondance
+
+## Invariants
+
+- Appariement corroboré (jamais titre générique seul) ; revue avant écriture.
+- Dry-run par défaut ; backup ; sens unique source → notice.
+
+## Exit criteria
+
+- [ ] Catalogue enrichi via HAL (halId + métadonnées vérifiées, rapport)
+- [ ] `make check` passe
