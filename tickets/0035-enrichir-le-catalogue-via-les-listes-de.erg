@@ -1,0 +1,54 @@
+%erg 0.1
+Title: Enrichir le catalogue via les listes de publication historiques du CIRED
+Created: 2026-06-23
+Author: Minh Ha-Duong
+Label: deferred
+
+--- log ---
+2026-06-23T13:56Z Minh Ha-Duong created
+2026-06-23T13:56Z claude note Issu du rapport d'étape COPIL (23 juin). Source primaire (listes papier/PDF internes) utile pour combler les trous et alimenter [[0032]]/[[0033]] (liste d'auteurs de référence).
+
+--- body ---
+## Context
+
+Le CIRED a produit au fil des ans des **listes de publication** (rapports
+d'activité, bibliographies internes, listes annuelles). Ces sources primaires
+attestent l'existence et les métadonnées d'œuvres que ni HAL ni OpenAlex ne
+couvrent (littérature grise, rapports). Les exploiter pour : combler les trous
+du catalogue, corroborer des métadonnées douteuses, et constituer la **liste
+d'auteurs de référence** dont [[0032]]/[[0033]] ont besoin.
+
+Travail mi-archivistique mi-extraction : retrouver les listes, les numériser/OCR
+si besoin, en extraire des entrées structurées, puis dédoublonner contre le
+catalogue.
+
+## Relevant files
+
+- archive source (lecture seule) — emplacement des listes à localiser
+- `outputs/doc_index.json` — catalogue pour dédoublonnage
+
+## Actions
+
+1. Localiser les listes de publication historiques dans l'archive (et auprès du
+   CIRED si manquantes).
+2. Extraire des entrées structurées (auteur, titre, année, type, source).
+3. Dédoublonner contre le catalogue ; rapport des entrées nouvelles/corroborées.
+4. Revue humaine, puis ajout/correction (backup, sens unique).
+
+## Test
+
+- Extraction sur un échantillon de liste → entrées structurées correctes.
+
+## Verification
+
+- [ ] Listes localisées et extraites
+- [ ] Entrées nouvelles/corroborées rapportées et revues
+
+## Invariants
+
+- Archive source en lecture seule ; revue avant écriture ; backup.
+
+## Exit criteria
+
+- [ ] Catalogue enrichi/complété depuis les listes historiques (rapport revu)
+- [ ] `make check` passe

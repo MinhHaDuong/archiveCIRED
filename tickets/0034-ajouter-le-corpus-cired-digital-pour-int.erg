@@ -1,0 +1,52 @@
+%erg 0.1
+Title: Ajouter le corpus à CIRED.digital pour interrogation en langage naturel
+Created: 2026-06-23
+Author: Minh Ha-Duong
+Label: deferred
+
+--- log ---
+2026-06-23T13:56Z Minh Ha-Duong created
+2026-06-23T13:56Z claude note Issu du rapport d'étape COPIL (23 juin). Dépend de l'accès aux fichiers (PDF récupérés depuis INARI, cf. [[0030]]).
+
+--- body ---
+## Context
+
+Verser le corpus CIRED pré-1998 dans **CIRED.digital** (projet RAG du
+laboratoire, dépôt `CIRED/cired.digital`) pour permettre des questions en langage
+naturel sur le fonds. Valorisation : interroger 40 ans de production scientifique.
+
+Prérequis fort : disposer des **plein-textes**. L'index Zotero n'a que 15 PDF ;
+647/668 sont récupérables depuis INARI ([[0030]]). L'ingestion CIRED.digital
+suppose donc fichiers + métadonnées propres ([[0021]] noms, [[0022]]/[[0023]]
+enrichissement). À cadrer avec l'équipe CIRED.digital (format d'ingestion,
+gouvernance, droits de diffusion interne).
+
+## Relevant files
+
+- `outputs/doc_index.json` — métadonnées documentaires
+- dépôt externe `CIRED/cired.digital` — pipeline d'ingestion
+
+## Actions
+
+1. Cadrer avec l'équipe CIRED.digital : format d'entrée, métadonnées attendues,
+   périmètre de diffusion (interne CIRED/ENPC).
+2. Constituer le lot : plein-textes ([[0030]]) + métadonnées exportées.
+3. Convertir au format d'ingestion CIRED.digital.
+4. Verser un lot pilote, vérifier les réponses sur questions témoins.
+
+## Test
+
+- Conversion d'un échantillon → format attendu (validation de schéma).
+
+## Verification
+
+- [ ] Lot pilote ingéré, questions témoins répondues correctement
+- [ ] Périmètre de diffusion validé avec l'équipe
+
+## Invariants
+
+- Respect des droits de diffusion ; pas d'exposition publique non autorisée.
+
+## Exit criteria
+
+- [ ] Corpus CIRED interrogeable via CIRED.digital (au moins un lot pilote)

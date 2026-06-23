@@ -1,0 +1,51 @@
+%erg 0.1
+Title: Transmettre le fonds aux services d'archive de l'EHESS (CRBC)
+Created: 2026-06-23
+Author: Minh Ha-Duong
+Label: deferred
+
+--- log ---
+2026-06-23T13:56Z Minh Ha-Duong created
+2026-06-23T13:56Z claude note Issu du rapport d'étape COPIL (23 juin). Livrable archivistique pérenne, complémentaire de Zotero. Lien avec [[0020]] (bibliographie Sachs publiée par le CRBC-EHESS).
+
+--- body ---
+## Context
+
+Au-delà de la collection Zotero (vivante, collaborative), assurer une
+**conservation pérenne** du fonds CIRED auprès d'un service d'archive
+institutionnel. L'EHESS — et le **CRBC** déjà dépositaire de la bibliographie
+publiée du fonds Sachs ([[0020]]) — est l'interlocuteur naturel.
+
+Démarche de cadrage, pas (encore) technique : périmètre transmis (métadonnées,
+fichiers ?), format de versement attendu par l'EHESS, droits, et articulation
+avec HAL (cf. `docs/strategie_archivage.md`). Décision humaine/institutionnelle.
+
+## Relevant files
+
+- `docs/strategie_archivage.md` — cadre juridique, acteurs institutionnels (§6)
+- `outputs/doc_index.json` — métadonnées à transmettre
+
+## Actions
+
+1. Identifier l'interlocuteur archive EHESS/CRBC et ses exigences de versement.
+2. Définir le périmètre transmis (métadonnées seules vs avec fichiers) et les
+   droits afférents.
+3. Préparer un export conforme au format demandé.
+4. Versement pilote, accusé de réception.
+
+## Test
+
+- (Le cas échéant) export d'échantillon conforme au format de versement.
+
+## Verification
+
+- [ ] Interlocuteur et exigences identifiés
+- [ ] Périmètre + droits cadrés avec l'EHESS
+
+## Invariants
+
+- Respect des droits ; archive source en lecture seule.
+
+## Exit criteria
+
+- [ ] Fonds transmis (ou versement pilote accepté) aux archives EHESS/CRBC
