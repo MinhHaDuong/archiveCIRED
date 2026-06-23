@@ -1,0 +1,54 @@
+%erg 0.1
+Title: Enrichir chaque notice via OpenAlex (openalexId + vérif métadonnées)
+Created: 2026-06-23
+Author: Minh Ha-Duong
+
+--- log ---
+2026-06-23T07:43Z Minh Ha-Duong created
+2026-06-23T07:43Z claude note Famille d'enrichissement avec [[0022]] (HAL) et [[0024]] (Google) ; même harnais. Bénéficie de [[0021]].
+
+--- body ---
+## Context
+
+Enrichir chaque notice via **OpenAlex** (api.openalex.org). Pour chaque notice :
+rechercher (`/works?search=titre`), apparier le bon travail, ajouter l'**id
+OpenAlex** (`Wxxxxxxxxx`) et son **DOI**, et vérifier/corriger les métadonnées
+(revue/venue, volume, numéro, pages, année, auteurs).
+
+OpenAlex couvre largement la littérature internationale (utile là où HAL est
+incomplet — [[0022]]) et expose un DOI + des identifiants pérennes. Même harnais
+que [[0022]]/[[0024]] : rechercher → apparier → diff → revue → écrire via
+`src/apply_corrections.py`. Bénéficie de [[0021]] (noms normalisés).
+
+## Relevant files
+
+- `src/apply_corrections.py` — écriture Zotero (backup, version)
+- `src/match_untyped.py`, `src/diff_recueil.py` — appariement + diff
+- `src/reconcile_zotero.py` — collecte des notices
+
+## Actions
+
+1. Harnais de recherche OpenAlex (API REST, lib standard ; `mailto` poli).
+2. Appariement notice ↔ work (titre+auteur+année, corroboré).
+3. Diff métadonnées + ids (openalexId, DOI) ; rapport pour revue.
+4. Swarm : fan-out sur lots.
+5. Après revue : écrire ids + corrections (dry-run, backup).
+
+## Test
+
+- Parsing d'un work OpenAlex → champs ; appariement sur fixtures.
+
+## Verification
+
+- [ ] openalexId (+ DOI) ajouté aux notices trouvées
+- [ ] Diffs revus avant écriture
+- [ ] Corrections appliquées (backup), rapport des non-trouvées
+
+## Invariants
+
+- Appariement corroboré ; revue avant écriture ; dry-run + backup ; sens unique.
+
+## Exit criteria
+
+- [ ] Catalogue enrichi via OpenAlex (ids + métadonnées vérifiées, rapport)
+- [ ] `make check` passe
