@@ -42,6 +42,11 @@ outputs/recueil_new_docs.json: src/select_new_recueil.py outputs/file_index.json
 outputs/recueil_new_docs.ris: src/build_recueil_ris.py outputs/recueil_new_docs.json
 	uv run python src/build_recueil_ris.py --output outputs/recueil_new_docs.ris
 
+# Diff des corrections d'Antonin (groupe Recueil_CIRED → My Library) pour revue
+# humaine — réseau (notices groupe + perso), hors `make check`.
+outputs/recueil_corrections_report.json: src/diff_recueil.py src/match_untyped.py
+	uv run python src/diff_recueil.py --output outputs/recueil_corrections_report.json
+
 check-fast:
 	uv run pytest -m "not integration and not slow" tests/
 

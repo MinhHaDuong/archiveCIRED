@@ -1,0 +1,66 @@
+[
+  {
+    "key": "7MT4P69D",
+    "ref": "Godard — L'inscription économique du développement durable (Cahiers Français 306)",
+    "source": "PDF docs/CIR_GOD_0038 (revue M. Ha-Duong)",
+    "set": {
+      "itemType": "bookSection",
+      "bookTitle": "Enjeux et politiques de l'environnement",
+      "series": "Cahiers Français",
+      "seriesNumber": "306",
+      "publisher": "La Documentation Française",
+      "pages": "52-56",
+      "date": "2002-01"
+    },
+    "note": "Numéro 306 des Cahiers Français, dossier « Enjeux et politiques de l'environnement ». Était à tort journalArticle ; modélisé en bookSection (a un champ publisher).",
+    "applied": true
+  },
+  {
+    "key": "3ZMINRSF",
+    "ref": "Sachs — Environnement et projet de civilisation (Les Temps Modernes 316)",
+    "source": "PDF docs/CIR_SAC_0350 + Gallimard (revue M. Ha-Duong)",
+    "set": {
+      "date": "1972-11",
+      "extra": "Éditeur : Gallimard",
+      "volume": "",
+      "ISSN": "0040-3075"
+    },
+    "deja_correct": {
+      "publicationTitle": "Les Temps Modernes",
+      "issue": "n°316"
+    },
+    "note": "journalArticle n'a pas de champ publisher → Gallimard dans extra. 2e passe (décisions M. Ha-Duong) : volume effacé (Les Temps Modernes sans volume) ; ISSN 0040-3075 vérifié OpenAlex (2507 works). Pages : réelles introuvables (OpenAlex/HAL/PDF) → on garde '14 p.' (pages du PDF).",
+    "applied": true
+  },
+  {
+    "key": "5QKTKLWV",
+    "ref": "Godard — Décentralisation et développement local en France (1984)",
+    "source": "PDF docs/CIR_GOD_0041 + compte rendu Persée (Autogestions 1984, n°17)",
+    "set": {
+      "itemType": "journalArticle",
+      "publicationTitle": "Les Nouvelles de l'Écodéveloppement",
+      "issue": "30",
+      "date": "1984-09"
+    },
+    "note": "Numéro thématique « Le Développement Local ». Était à tort itemType=report → journalArticle. SUPERSEDE la proposition d'Antonin (recueil row 39 : bookTitle « DÉVELOPPEMENT local… Genève ») — NE PAS appliquer le bookTitle du recueil ici.",
+    "applied": true
+  },
+  {
+    "key": "S8VUIU74",
+    "ref": "Godard — Le développement durable et le devenir des villes (Futuribles 209)",
+    "source": "PDF docs/1995-109 + HAL hal-00624329",
+    "set": {
+      "date": "1996-05",
+      "extra": "hal-00624329 (preprint v1 2011-09-16)",
+      "ISSN": "0337-307X"
+    },
+    "deja_correct": {
+      "publicationTitle": "Futuribles",
+      "issue": "209",
+      "pages": "29–35"
+    },
+    "note": "Confirme la proposition d'Antonin (recueil row 33/34). extra valait 'ok' (parasite) → remplacé par l'id HAL. 2e passe (décisions M. Ha-Duong) : pas de publisher (journalArticle) ; ISSN 0337-307X vérifié OpenAlex (1440 works).",
+    "hal_verified": "HAL hal-00624329 confirme : Olivier Godard, Futuribles n°209, pp 29-35, 1996-05-01.",
+    "applied": true
+  }
+]

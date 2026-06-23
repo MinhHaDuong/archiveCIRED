@@ -1,0 +1,509 @@
+{
+  "paires_avec_corrections": 21,
+  "paires_appariement_douteux": 2,
+  "total_ajouts": 14,
+  "total_modifications": 36,
+  "corrections": [
+    {
+      "perso_key": "B9PV9QB7",
+      "score": 1.0,
+      "titre_sim": 1.0,
+      "titre": "Oppositions locales à des projets d'équipement",
+      "champs": {
+        "publicationTitle": {
+          "type": "modification",
+          "groupe": "Revue française de sciences politiques",
+          "perso": "Revue françaisede sciences politiques"
+        },
+        "volume": {
+          "type": "ajout",
+          "groupe": "31",
+          "perso": ""
+        },
+        "issue": {
+          "type": "modification",
+          "groupe": "2",
+          "perso": "n°2"
+        },
+        "pages": {
+          "type": "modification",
+          "groupe": "417-438",
+          "perso": "22 p."
+        }
+      }
+    },
+    {
+      "perso_key": "LV3GLTLU",
+      "score": 1.0,
+      "titre_sim": 1.0,
+      "titre": "Environment and development revisited : ten years after Stockholm conference",
+      "champs": {
+        "volume": {
+          "type": "modification",
+          "groupe": "8",
+          "perso": "vol. 8",
+          "note": "vérifier volume vs numéro (perte d'info ?)"
+        },
+        "issue": {
+          "type": "modification",
+          "groupe": "3",
+          "perso": "n°3"
+        },
+        "pages": {
+          "type": "modification",
+          "groupe": "369-378",
+          "perso": "10p."
+        }
+      }
+    },
+    {
+      "perso_key": "RP95B3RA",
+      "score": 1.0,
+      "titre_sim": 1.0,
+      "titre": "Plaidoyer pour développer des technologies plus appropriées et passer du mimétisme au pluralisme technologique",
+      "champs": {
+        "volume": {
+          "type": "ajout",
+          "groupe": "22",
+          "perso": ""
+        },
+        "issue": {
+          "type": "modification",
+          "groupe": "88",
+          "perso": "n°88"
+        },
+        "pages": {
+          "type": "modification",
+          "groupe": "877-884",
+          "perso": "8 p."
+        }
+      }
+    },
+    {
+      "perso_key": "R24GWFTW",
+      "score": 1.0,
+      "titre_sim": 1.0,
+      "titre": "Les temps : espaces du développement",
+      "champs": {
+        "title": {
+          "type": "modification",
+          "groupe": "Les temps - espaces du développement",
+          "perso": "Les temps : espaces du développement"
+        },
+        "publicationTitle": {
+          "type": "ajout",
+          "groupe": "Diogène",
+          "perso": ""
+        },
+        "volume": {
+          "type": "ajout",
+          "groupe": "112",
+          "perso": ""
+        },
+        "pages": {
+          "type": "ajout",
+          "groupe": "80-95",
+          "perso": ""
+        }
+      }
+    },
+    {
+      "perso_key": "4VPQC7F6",
+      "score": 1.0,
+      "titre_sim": 1.0,
+      "titre": "Développement, utopie, projet de société",
+      "champs": {
+        "publicationTitle": {
+          "type": "ajout",
+          "groupe": "Revue Tiers Monde",
+          "perso": ""
+        },
+        "volume": {
+          "type": "ajout",
+          "groupe": "19",
+          "perso": ""
+        },
+        "issue": {
+          "type": "ajout",
+          "groupe": "75",
+          "perso": ""
+        },
+        "pages": {
+          "type": "ajout",
+          "groupe": "645-656",
+          "perso": ""
+        }
+      }
+    },
+    {
+      "perso_key": "UI8XFEWK",
+      "score": 1.0,
+      "titre_sim": 1.0,
+      "titre": "Entre nature et société : les jeux de l'irréversibilité : dans la construction économique et sociale du champ de l'environnement",
+      "champs": {
+        "creators": {
+          "type": "modification",
+          "groupe": [
+            "godard olivier",
+            "salles jean-michel",
+            "godard olivier",
+            "boyer robert",
+            "chavance bernard"
+          ],
+          "perso": [
+            "godard olivier",
+            "salles jean-michel"
+          ]
+        }
+      }
+    },
+    {
+      "perso_key": "33LMMBJR",
+      "score": 1.0,
+      "titre_sim": 1.0,
+      "titre": "Le potentiel de développement endogène",
+      "champs": {
+        "issue": {
+          "type": "modification",
+          "groupe": "29",
+          "perso": "n°2"
+        },
+        "pages": {
+          "type": "modification",
+          "groupe": "405-426",
+          "perso": "22 p."
+        },
+        "date": {
+          "type": "modification",
+          "groupe": "1983-02",
+          "perso": "1983"
+        }
+      }
+    },
+    {
+      "perso_key": "U6VHDB63",
+      "score": 1.0,
+      "titre_sim": 1.0,
+      "titre": "La politique de l'environnement et l'avenir des relations entre l'Europe et le Tiers-Monde",
+      "champs": {
+        "creators": {
+          "type": "modification",
+          "groupe": [
+            "céron jean-paul",
+            "hourcade jean-charles",
+            "schiray michel"
+          ],
+          "perso": [
+            "céron jean-paul",
+            "hourcade jean charles",
+            "schiray michel"
+          ]
+        }
+      }
+    },
+    {
+      "perso_key": "KGKS7LFH",
+      "score": 1.0,
+      "titre_sim": 1.0,
+      "titre": "De l'effet de domination à la 'self-reliance' : techniques appropriées pour le développement",
+      "champs": {
+        "abstractNote": {
+          "type": "modification",
+          "groupe": "Extrait des Actes du XLIIe congrès international des Américanistes",
+          "perso": "Extrait des Actes du XLIIe congrès intrenational des Américanistes"
+        }
+      }
+    },
+    {
+      "perso_key": "5GPCR5FK",
+      "score": 1.0,
+      "titre_sim": 0.846,
+      "titre": "Ecodevelopment : to create a durable equilibrium between man and nature, while avoiding the erros of lawless growth",
+      "champs": {
+        "title": {
+          "type": "modification",
+          "groupe": "Ecodevelopment : to create a durable equilibrium between man and nature, while avoiding the errors of lawless growth",
+          "perso": "Ecodevelopment : to create a durable equilibrium between man and nature, while avoiding the erros of lawless growth"
+        }
+      }
+    },
+    {
+      "perso_key": "2YWUKF7M",
+      "score": 1.0,
+      "titre_sim": 1.0,
+      "titre": "Les bifurcations de la politique énergétique française depuis la guerre",
+      "champs": {
+        "creators": {
+          "type": "modification",
+          "groupe": [
+            "puiseux louis"
+          ],
+          "perso": [
+            "puiseux l."
+          ]
+        }
+      }
+    },
+    {
+      "perso_key": "BSU65UVI",
+      "score": 1.0,
+      "titre_sim": 1.0,
+      "titre": "L’environnement, obstacle ou argument pour un nouvel ordre économique international : essai de prospective à l’échelle du bassin méditerranéen",
+      "champs": {
+        "creators": {
+          "type": "modification",
+          "groupe": [
+            "hourcade jean-charles"
+          ],
+          "perso": [
+            "hourcade jean charles"
+          ]
+        }
+      }
+    },
+    {
+      "perso_key": "QRLF5SRD",
+      "score": 1.0,
+      "titre_sim": 1.0,
+      "titre": "Inﬂuence of socioeconomic inertia and uncertainty on optimal CO2-emission abatement",
+      "champs": {
+        "creators": {
+          "type": "modification",
+          "groupe": [
+            "ha-duong minh",
+            "grubb m. j.",
+            "hourcade jean-charles"
+          ],
+          "perso": [
+            "ha-duong m.",
+            "grubb m. j.",
+            "hourcade jean charles"
+          ]
+        }
+      }
+    },
+    {
+      "perso_key": "Z83SYUK5",
+      "score": 1.0,
+      "titre_sim": 1.0,
+      "titre": "Elements pour une nouvelle approche de la gestion de l'eau dans les pays méditérranéens",
+      "champs": {
+        "creators": {
+          "type": "modification",
+          "groupe": [
+            "chabrol d.",
+            "criqui patrick",
+            "godard olivier",
+            "hourcade jean-charles"
+          ],
+          "perso": [
+            "chabrol d.",
+            "criqui p."
+          ]
+        }
+      }
+    },
+    {
+      "perso_key": "NYFD6CNL",
+      "score": 1.0,
+      "titre_sim": 1.0,
+      "titre": "La Méditerranée : un potentiel de ressources menacé ?",
+      "champs": {
+        "creators": {
+          "type": "modification",
+          "groupe": [
+            "godard olivier",
+            "hourcade jean-charles",
+            "artuso max",
+            "ertaud michel"
+          ],
+          "perso": [
+            "artuso max",
+            "ertaud michel"
+          ]
+        }
+      }
+    },
+    {
+      "perso_key": "TE5U3W6V",
+      "score": 1.0,
+      "titre_sim": 1.0,
+      "titre": "Energies nouvelles et stratégies des pays en développement",
+      "champs": {
+        "creators": {
+          "type": "modification",
+          "groupe": [
+            "sachs ignacy",
+            "hourcade jean-charles"
+          ],
+          "perso": [
+            "sachs ignacy",
+            "hourcade jean charles"
+          ]
+        }
+      }
+    },
+    {
+      "perso_key": "27L4GI2E",
+      "score": 1.0,
+      "titre_sim": 1.0,
+      "titre": "Environnement et politique scientifique",
+      "champs": {
+        "creators": {
+          "type": "modification",
+          "groupe": [
+            "sachs ignacy",
+            "godard olivier",
+            "lagadec patrick",
+            "passaris solange"
+          ],
+          "perso": [
+            "sachs ignacy",
+            "godard olivier",
+            "lagadec patrick",
+            "passaris s."
+          ]
+        }
+      }
+    },
+    {
+      "perso_key": "S8VUIU74",
+      "score": 1.0,
+      "titre_sim": 1.0,
+      "titre": "Le développement durable et le devenir des villes: bonnes intentions et fausses bonnes idées",
+      "champs": {
+        "title": {
+          "type": "modification",
+          "groupe": "Le développement durable et le devenir des villes. Bonnes intentions et fausses bonnes idées",
+          "perso": "Le développement durable et le devenir des villes: bonnes intentions et fausses bonnes idées"
+        },
+        "publisher": {
+          "type": "ajout",
+          "groupe": "Futuribles",
+          "perso": "",
+          "note": "éditeur = nom de la revue ? préciser l'organisme"
+        },
+        "pages": {
+          "type": "modification",
+          "groupe": "29-35",
+          "perso": "29–35"
+        },
+        "ISSN": {
+          "type": "ajout",
+          "groupe": "0337-307X",
+          "perso": ""
+        }
+      }
+    },
+    {
+      "perso_key": "5QKTKLWV",
+      "score": 1.0,
+      "titre_sim": 0.8,
+      "titre": "Décentralisation et développement local en France",
+      "champs": {
+        "title": {
+          "type": "modification",
+          "groupe": "La décentralisation en France: un levier pour le développement local",
+          "perso": "Décentralisation et développement local en France"
+        },
+        "bookTitle": {
+          "type": "ajout",
+          "groupe": "DÉVELOPPEMENT local et decentralisation. Genève: Editions Régionales Européennes",
+          "perso": "",
+          "note": "recasser (ALLCAPS) ; extraire lieu/éditeur du bookTitle"
+        },
+        "pages": {
+          "type": "modification",
+          "groupe": "147–171",
+          "perso": "14 p."
+        },
+        "date": {
+          "type": "modification",
+          "groupe": "1986",
+          "perso": "1984"
+        },
+        "creators": {
+          "type": "modification",
+          "groupe": [
+            "godard olivier",
+            "céron jean-paul"
+          ],
+          "perso": [
+            "godard olivier"
+          ]
+        }
+      }
+    },
+    {
+      "perso_key": "WCI9YSD4",
+      "score": 1.0,
+      "titre_sim": 1.0,
+      "titre": "Integration of technology in development planning : a normative view",
+      "champs": {
+        "title": {
+          "type": "modification",
+          "groupe": "Integration of technology in development planning: a normative view",
+          "perso": "Integration of technology in development planning : a normative view"
+        },
+        "bookTitle": {
+          "type": "modification",
+          "groupe": "Science and Technology for Development Planning in the STPI Countries",
+          "perso": "Science and technology for development : planning in the STPI countries",
+          "note": "recasser (ALLCAPS)"
+        },
+        "publisher": {
+          "type": "ajout",
+          "groupe": "IDRC",
+          "perso": "",
+          "note": "recasser (ALLCAPS)"
+        },
+        "place": {
+          "type": "ajout",
+          "groupe": "Ottawa",
+          "perso": ""
+        },
+        "pages": {
+          "type": "modification",
+          "groupe": "117-136",
+          "perso": "41 p."
+        },
+        "creators": {
+          "type": "modification",
+          "groupe": [
+            "sachs ignacy",
+            "vinaver krystyna",
+            "sagasti r.",
+            "araz a."
+          ],
+          "perso": [
+            "sachs ignacy"
+          ]
+        }
+      }
+    },
+    {
+      "perso_key": "3ZMINRSF",
+      "score": 1.0,
+      "titre_sim": 1.0,
+      "titre": "Environnement et projet de civilisation",
+      "champs": {
+        "volume": {
+          "type": "modification",
+          "groupe": "316",
+          "perso": "vol. 28",
+          "note": "vérifier volume vs numéro (perte d'info ?)"
+        },
+        "pages": {
+          "type": "modification",
+          "groupe": "736-749",
+          "perso": "14 p."
+        },
+        "date": {
+          "type": "modification",
+          "groupe": "1972-11",
+          "perso": "1972"
+        }
+      }
+    }
+  ]
+}
