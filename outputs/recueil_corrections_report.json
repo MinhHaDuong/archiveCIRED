@@ -1,8 +1,8 @@
 {
-  "paires_avec_corrections": 22,
-  "paires_appariement_douteux": 1,
-  "total_ajouts": 15,
-  "total_modifications": 42,
+  "paires_avec_corrections": 21,
+  "paires_appariement_douteux": 2,
+  "total_ajouts": 14,
+  "total_modifications": 36,
   "corrections": [
     {
       "perso_key": "B9PV9QB7",
@@ -217,7 +217,7 @@
     {
       "perso_key": "5GPCR5FK",
       "score": 1.0,
-      "titre_sim": 0.917,
+      "titre_sim": 0.846,
       "titre": "Ecodevelopment : to create a durable equilibrium between man and nature, while avoiding the erros of lawless growth",
       "champs": {
         "title": {
@@ -367,53 +367,6 @@
       }
     },
     {
-      "perso_key": "7MT4P69D",
-      "score": 0.75,
-      "titre_sim": 0.75,
-      "titre": "L'inscription économique du développement durable",
-      "champs": {
-        "title": {
-          "type": "modification",
-          "groupe": "Analyse économique, modélisation prospective et développement durable ou comment faire remonter des informations du futur",
-          "perso": "L'inscription économique du développement durable"
-        },
-        "publicationTitle": {
-          "type": "modification",
-          "groupe": "Economies et sociétés",
-          "perso": "Cahiers français"
-        },
-        "volume": {
-          "type": "ajout",
-          "groupe": "32",
-          "perso": ""
-        },
-        "issue": {
-          "type": "modification",
-          "groupe": "1",
-          "perso": "306"
-        },
-        "pages": {
-          "type": "modification",
-          "groupe": "175–192",
-          "perso": "52-59"
-        },
-        "date": {
-          "type": "modification",
-          "groupe": "1998",
-          "perso": "2002"
-        },
-        "creators": {
-          "type": "modification",
-          "groupe": [
-            "hourcade jean-charles"
-          ],
-          "perso": [
-            "godard olivier"
-          ]
-        }
-      }
-    },
-    {
       "perso_key": "S8VUIU74",
       "score": 1.0,
       "titre_sim": 1.0,
@@ -445,7 +398,7 @@
     {
       "perso_key": "5QKTKLWV",
       "score": 1.0,
-      "titre_sim": 1.0,
+      "titre_sim": 0.8,
       "titre": "Décentralisation et développement local en France",
       "champs": {
         "title": {

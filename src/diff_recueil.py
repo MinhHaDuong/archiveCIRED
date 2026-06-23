@@ -254,7 +254,18 @@ def _pair_fuzzy(group_notices, perso_notices, threshold):
     perso_pool = [{**p, "year": p.get("year") or year_of(p)} for p in perso_notices]
     by_key = {p.get("key"): p for p in perso_notices}
 
-    best: dict[str, dict] = {}  # perso_key -> meilleure paire (titre_sim max)
+    def credible(g, perso, jac):
+        """Paire crédible ? Le Jaccard de titre porte la décision (les deux notices
+        ont un titre complet, pas tronqué — le containment n'a pas lieu d'être).
+        Un faible recouvrement n'est retenu que s'il est corroboré par un auteur
+        ou une année commune ; sinon c'est un faux rapprochement (mots génériques)."""
+        if jac >= 0.6:
+            return True
+        auteur = bool(mu._notice_lastnames(g) & mu._notice_lastnames(perso))
+        annee = year_of(g) is not None and year_of(g) == year_of(perso)
+        return jac >= 0.3 and (auteur or annee)
+
+    best: dict[str, dict] = {}  # perso_key -> meilleure paire (jaccard titre max)
     for g in group_notices:
         doc = {"titre": g.get("title"),
                "auteurs": [f"{c.get('lastName','')} {c.get('firstName','')}".strip()
@@ -265,10 +276,14 @@ def _pair_fuzzy(group_notices, perso_notices, threshold):
             continue
         pk = cands[0]["key"]
         perso = by_key[pk]
-        ts = round(mu.title_match(g.get("title"), perso.get("title")), 3)
-        if pk not in best or ts > best[pk]["titre_sim"]:
+        # Jaccard (et non title_match) : le containment gonflait à 0.75 des
+        # paires sans rapport (titre court générique inclus dans un titre long).
+        jac = round(mu.title_sim(g.get("title"), perso.get("title")), 3)
+        if not credible(g, perso, jac):
+            continue
+        if pk not in best or jac > best[pk]["titre_sim"]:
             best[pk] = {"groupe": g, "perso": perso, "perso_key": pk,
-                        "score": cands[0]["score"], "titre_sim": ts}
+                        "score": cands[0]["score"], "titre_sim": jac}
     return list(best.values())
 
 
