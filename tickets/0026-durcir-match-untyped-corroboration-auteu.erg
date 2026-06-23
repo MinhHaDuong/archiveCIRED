@@ -1,0 +1,56 @@
+%erg 0.1
+Title: Durcir match_untyped : corroboration auteur/année quand l'accroche de titre est pure containment
+Created: 2026-06-23
+Author: Minh Ha-Duong
+
+--- log ---
+2026-06-23T09:17Z Minh Ha-Duong created
+2026-06-23T09:17Z claude note Issu d'un balayage /roar : même classe de bug que le correctif de diff_recueil.py (containment gonflait un appariement Godard/Hourcade à 0.75 alors que le Jaccard valait 0.25). Latent ici, pas un défaut confirmé.
+
+--- body ---
+## Contexte
+
+`diff_recueil.py` a abandonné le *containment* de titre au profit du Jaccard +
+corroboration auteur/année : le containment appariait à tort Godard↔Hourcade
+(0.75) là où le Jaccard donnait 0.25. `match_untyped.py` garde le motif
+`max(jaccard, containment)` dans `title_match()` — légitime ici, car les titres
+des docs sont des **noms de fichiers tronqués** que le containment rattrape, et
+c'est gardé par `smaller >= 4`.
+
+Le résidu : `score()` laisse une accroche de titre **purement** par containment
+porter le score jusqu'à ~0,8+ **sans aucune corroboration auteur ni année** (les
+champs auteur/année ne sont que des bonus additifs). C'est exactement le trou que
+le correctif de `diff_recueil` a bouché ailleurs. Deux titres dont l'un est
+sous-ensemble de l'autre sur 4 jetons coïncidents, mais d'auteurs et d'années
+différents, peuvent ressortir « probable ».
+
+## Relevant files
+- `src/match_untyped.py` — `title_match()` (containment), `score()` (l.143) : le
+  durcissement porte sur `score`, pas sur `title_match`.
+- `src/diff_recueil.py` — `_credible()` / boucle l.290-311 : le précédent à imiter.
+- `tests/test_match_untyped.py` — où ajouter le cas de régression.
+
+## Actions
+1. Dans `score()` : quand l'accroche de titre provient *essentiellement* du
+   containment (cov nettement > jac), exiger au moins une corroboration
+   (auteur OU année) avant de classer le doc « probable » ; à défaut, le
+   rétrograder en « incertain ».
+2. Ne pas toucher au cas Jaccard fort (titre complet), ni au seuil `smaller >= 4`.
+3. Re-tourner l'appariement et comparer les buckets (probable/incertain/absent)
+   avant/après ; documenter tout reclassement.
+
+## Test
+- Cas rouge : doc titre tronqué de 4 jetons, sous-ensemble d'une notice à auteur
+  ET année différents → doit sortir « incertain », pas « probable ».
+- Cas vert (non-régression) : containment + même auteur ou même année → reste
+  « probable ».
+
+## Invariants
+- Ne pas dégrader les vrais appariements tronqués (containment + corroboration).
+- `make check` passe.
+
+## Exit criteria
+- [ ] `score()` exige une corroboration auteur/année pour une accroche pure-containment
+- [ ] Test de régression rouge→vert ajouté dans `tests/test_match_untyped.py`
+- [ ] Reclassements des buckets documentés (combien de « probable » rétrogradés)
+- [ ] `make check` passe
