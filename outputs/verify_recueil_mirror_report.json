@@ -1,0 +1,726 @@
+{
+  "meta": {
+    "notices_groupe": 131,
+    "notes_groupe": 17,
+    "notices_my_library_top": 764,
+    "notices_my_library_total": 1517,
+    "notes_my_library": 1,
+    "group_id": "2511149",
+    "user_id": "2114597"
+  },
+  "total": 131,
+  "url_preserved": 69,
+  "doc_equivalent": 54,
+  "doc_equivalent_list": [
+    {
+      "key": "LBZL2DLF",
+      "title": "Oppositions locales à des projets d'équipement",
+      "annee": "1981",
+      "url_basename": "1981-42-nicolon_oppositions_projets_d_equipement_article_rfsp_num_31_2.pdf",
+      "tier": "doc_equivalent",
+      "matched": "B9PV9QB7"
+    },
+    {
+      "key": "H9SPPPJK",
+      "title": "Environment and development revisited : ten years after Stockholm conference",
+      "annee": "1982",
+      "url_basename": "1982-57-sach_environment_development_stockholm.pdf",
+      "tier": "doc_equivalent",
+      "matched": "LV3GLTLU"
+    },
+    {
+      "key": "G9ELIQQ6",
+      "title": "Plaidoyer pour développer des technologies plus appropriées et passer du mimétisme au pluralisme technologique",
+      "annee": "1981",
+      "url_basename": "1981-43-_thery_mimetisme_technologique_revue_tiers_monde_1981_88iers_0040-7356_1981_num_22_88_4073-2.pdf",
+      "tier": "doc_equivalent",
+      "matched": "RP95B3RA"
+    },
+    {
+      "key": "TL695VVE",
+      "title": "Les temps - espaces du développement",
+      "annee": "1980",
+      "url_basename": "1980-38_sachs_temps-espaces_developpement.pdf",
+      "tier": "doc_equivalent",
+      "matched": "R24GWFTW"
+    },
+    {
+      "key": "G9AEDNLN",
+      "title": "Développement, utopie, projet de société",
+      "annee": "1978",
+      "url_basename": "1978-192-sachs.developpement_utopie.pdf",
+      "tier": "doc_equivalent",
+      "matched": "4VPQC7F6"
+    },
+    {
+      "key": "C38PHR9A",
+      "title": "Le potentiel de développement endogène",
+      "annee": "1983",
+      "url_basename": "1983-58-sachs_potentiel_developpement_endogene.pdf",
+      "tier": "doc_equivalent",
+      "matched": "33LMMBJR"
+    },
+    {
+      "key": "2WFPW84D",
+      "title": "Le nucléaire en France: un projet technique irréversible?",
+      "annee": "1986",
+      "url_basename": "",
+      "tier": "doc_equivalent",
+      "matched": "D4N5IM23"
+    },
+    {
+      "key": "95P6Y25E",
+      "title": "Les permis négociables et la Convention sur le climat : de l’expérience américaine aux enjeux de l’harmonisation",
+      "annee": "1997",
+      "url_basename": "1997-113-godard-permis-negociable-convention-climat-exp-am-ricaine-harmonisation.pdf",
+      "tier": "doc_equivalent",
+      "matched": "FFTTS5TR"
+    },
+    {
+      "key": "DUGS4XKC",
+      "title": "Developing in harmony with nature : consumption patterns, time and space uses, resource profiles, and technological choices",
+      "annee": "1984",
+      "url_basename": "1984-40-sachs_developing_harmony_nature.pdf",
+      "tier": "doc_equivalent",
+      "matched": "S9R4I4F4"
+    },
+    {
+      "key": "IRCNH6IF",
+      "title": "La politique de l'environnement et l'avenir des relations entre l'Europe et le Tiers-Monde",
+      "annee": "1975",
+      "url_basename": "1975-17-ceron-hource-environnement-europe-tiers-monde.pdf",
+      "tier": "doc_equivalent",
+      "matched": "U6VHDB63"
+    },
+    {
+      "key": "MQVWZT28",
+      "title": "Substitution entre ressources naturelles et nouvelle croissance",
+      "annee": "1977",
+      "url_basename": "",
+      "tier": "doc_equivalent",
+      "matched": "PVFKUMBK"
+    },
+    {
+      "key": "TT4YBRZJ",
+      "title": "De l'effet de domination à la 'self-reliance' : techniques appropriées pour le développement",
+      "annee": "1976",
+      "url_basename": "1976-20-sachs_domination_technologie.pdf",
+      "tier": "doc_equivalent",
+      "matched": "KGKS7LFH"
+    },
+    {
+      "key": "PQZQLGTH",
+      "title": "Le biais mimétique dans le choix de techniques : un facteurd'asphyxie du dévéleoppement autocentré en Tanzanie",
+      "annee": "1984",
+      "url_basename": "1984-64-thery_biais-mimetique-choix-techniques-tanzanie-_tiers_monde0040-7356_1984_num_25_100_4370.pdf",
+      "tier": "doc_equivalent",
+      "matched": "62FAWZYT"
+    },
+    {
+      "key": "SGUWUSZT",
+      "title": "Développement, environnement et évaluation des techniques",
+      "annee": "1973",
+      "url_basename": "1973-8-sachs-environnement-developpement-evaluation-des-techniques-revue-internationale-des-sciences-sociales.pdf",
+      "tier": "doc_equivalent",
+      "matched": "CTKWES6W"
+    },
+    {
+      "key": "XWXQCCP6",
+      "title": "Armements et économie : une nouvelle donne pour les “dividendes de la paix” ?",
+      "annee": "1993",
+      "url_basename": "1993-100-rogalski-armement-et-economie.pdf",
+      "tier": "doc_equivalent",
+      "matched": "2YHQV3L4"
+    },
+    {
+      "key": "M4BTRNDY",
+      "title": "Les bifurcations de la politique énergétique française depuis la guerre",
+      "annee": "1982",
+      "url_basename": "1982-55-puiseux-bifurcations-politique-energetique.pdf",
+      "tier": "doc_equivalent",
+      "matched": "2YWUKF7M"
+    },
+    {
+      "key": "RD24DULV",
+      "title": "Le bouleversement des climats. Comment gérer l'incertitude ?",
+      "annee": "1989",
+      "url_basename": "1989-80-hourcade-megie-theys-bouleversement-climats-gerer-incertitudelzptx7yj.pdf-1.part.pdf",
+      "tier": "doc_equivalent",
+      "matched": "8KM6L2HS"
+    },
+    {
+      "key": "XPE8ZI2Y",
+      "title": "L’environnement, obstacle ou argument pour un nouvel ordre économique international : essai de prospective à l’échelle du bassin méditerranéen",
+      "annee": "1975",
+      "url_basename": "1975-15-hourcade_environnement-obstacle-argument-options_mediterraneennes_n31.pdf",
+      "tier": "doc_equivalent",
+      "matched": "BSU65UVI"
+    },
+    {
+      "key": "DJDX3BI8",
+      "title": "Inﬂuence of socioeconomic inertia and uncertainty on optimal CO2-emission abatement",
+      "annee": "1997",
+      "url_basename": "1997-110-haduong.grubb-hourcade-influenceinertiauncertaintyabatement-1.pdf",
+      "tier": "doc_equivalent",
+      "matched": "QRLF5SRD"
+    },
+    {
+      "key": "XUDKXC9Z",
+      "title": "Instruments pour une gestion collective des risques climatiques Un cadre d'analyse centré sur les moyens de faire apparaitre un signal-prix",
+      "annee": "1991",
+      "url_basename": "1991-87-godard-hourcade-instruments-gestion-collective-risques-climatiques..pdf",
+      "tier": "doc_equivalent",
+      "matched": "N5QPS2L7"
+    },
+    {
+      "key": "77IP96MI",
+      "title": "Sustainable development and the process of justifying choices in a controversial universe",
+      "annee": "1998",
+      "url_basename": "1998-117-godard_sustainable_development_and_the_process_of_jusifinng_choice.pdf",
+      "tier": "doc_equivalent",
+      "matched": "7IKEW8MP"
+    },
+    {
+      "key": "EIZD2MFA",
+      "title": "L'écodéveloppement revisité",
+      "annee": "1998",
+      "url_basename": "1998-116-godard_l_ecodeveloppement_revisite_economies_et_societes_cahiers_ismea_n36.pdf",
+      "tier": "doc_equivalent",
+      "matched": "H3PNJSQQ"
+    },
+    {
+      "key": "NER7SMGB",
+      "title": "Annexe 1 LES SCÉNARIOS ÉNERGÉTIQUES DE LA FRANCE 2010-2020",
+      "annee": "1998",
+      "url_basename": "1998-118-godard_les_scenarios_energetiques_de_la_france_2010_2020_cgp_doc_francaise.pdf",
+      "tier": "doc_equivalent",
+      "matched": "SYUVCBW7"
+    },
+    {
+      "key": "GMXE93BS",
+      "title": "Social Decision-Making under Scientific Controversy, Expertise, and the Precautionary Principle",
+      "annee": "1997",
+      "url_basename": "1997-111-godard-social-decision-making-under-scientific-controversy.pdf",
+      "tier": "doc_equivalent",
+      "matched": "88YZFI6N"
+    },
+    {
+      "key": "IKWAK9IU",
+      "title": "Les enjeux des négociations sur le climat De Rio à Kyoto : pourquoi la Convention sur le climat devrait intéresser ceux qui ne s’y intéressent pas",
+      "annee": "1997",
+      "url_basename": "1997-112-godard_les_enjeux_des_negociations_sur_le_climat_futuribles_n224.pdf",
+      "tier": "doc_equivalent",
+      "matched": "LIJ3E8NT"
+    },
+    {
+      "key": "QDUI8C7Q",
+      "title": "Le concept d'environnement, une hiérarchie enchevêtrée",
+      "annee": "1997",
+      "url_basename": "1997-114-environnement-hierarchie-enchevetree.pdf",
+      "tier": "doc_equivalent",
+      "matched": "3UIV2BPH"
+    },
+    {
+      "key": "WSNFNQFG",
+      "title": "L'ambivalence de la précaution et la transformation des rapports entre science et décision",
+      "annee": "1997",
+      "url_basename": "1997-115-godard-ambivalence-precaution.pdf",
+      "tier": "doc_equivalent",
+      "matched": "2FVBC9PZ"
+    },
+    {
+      "key": "9C969N43",
+      "title": "Variables de coordination et négociation, en univers controversé, d'un régime international pour le climat",
+      "annee": "1992",
+      "url_basename": "1992-88-godard-variables-coordination-negociation-univers-controverse.pdf",
+      "tier": "doc_equivalent",
+      "matched": "5GSGN6AX"
+    },
+    {
+      "key": "EFMULDKZ",
+      "title": "L'économie, l'écologie et la nature des choses",
+      "annee": "1992",
+      "url_basename": "1992-90-godard-economie-ecologie-nature-des-choses.pdf",
+      "tier": "doc_equivalent",
+      "matched": "EMI3J8YC"
+    },
+    {
+      "key": "7ZYDMBRA",
+      "title": "Environnement, modes de coordination et systèmes de légitimité : analyse de la catégorie de patrimoine naturel",
+      "annee": "1990",
+      "url_basename": "1990-83-imprime-des-pages-blanches-godard-environnement-modes-coordination-legitmite.pdf",
+      "tier": "doc_equivalent",
+      "matched": "BPFGPPBH"
+    },
+    {
+      "key": "88CIV4SC",
+      "title": "Jeux de nature : quand le débat sur l'efficacité des politiques publiques contient la question de leur légitilité",
+      "annee": "1989",
+      "url_basename": "1989-78-godard_jeux_de_nature_chez_jollivet_et_mathieu_harmattan.pdf",
+      "tier": "doc_equivalent",
+      "matched": "DPQBEHSB"
+    },
+    {
+      "key": "X7ASGCXN",
+      "title": "L'occupation  des espaces littoraux méditérranéens",
+      "annee": "1975",
+      "url_basename": "1975-16-godard_occupation-espaces-littoraux-options_mediterrannennes_n3.pdf",
+      "tier": "doc_equivalent",
+      "matched": "RQ2AY8XX"
+    },
+    {
+      "key": "5TLTLHYK",
+      "title": "L'économie cachée en France : état du débat et bilan des travaux",
+      "annee": "1984",
+      "url_basename": "1984-63-schiray_gaudin_economie-cachee.pdf",
+      "tier": "doc_equivalent",
+      "matched": "NYLF264S"
+    },
+    {
+      "key": "TISPDA42",
+      "title": "Développement des réseaux et modulations spatio-temporelles des tarifs: l'équité territoriale revisitée",
+      "annee": "1989",
+      "url_basename": "1989-81-hourcade-colombier-dev-reseaux-modulations-spatio-num_40_4_409159.pdf",
+      "tier": "doc_equivalent",
+      "matched": "VMZPHJXH"
+    },
+    {
+      "key": "MGXHTGK2",
+      "title": "Réactions au rapport \"The Limits to growth\"",
+      "annee": "1973",
+      "url_basename": "1973-9-reaction-a-the_limit_growth.pdf",
+      "tier": "doc_equivalent",
+      "matched": "4PV9557X"
+    },
+    {
+      "key": "Q8NP9SQG",
+      "title": "Choix énergétiques et choix de société : mythes et réalités des sentiers énergétiques doux",
+      "annee": "1979",
+      "url_basename": "1979-28-hourcade-ifda-dossier-5.pdf",
+      "tier": "doc_equivalent",
+      "matched": "VV3TCDIR"
+    },
+    {
+      "key": "JKB2F2AC",
+      "title": "Sciences et intérêts : la figure de la dénonciation",
+      "annee": "1993",
+      "url_basename": "1993-98-godard-science-interet-denonciation-lenoir.pdf",
+      "tier": "doc_equivalent",
+      "matched": "KEKWF9QT"
+    },
+    {
+      "key": "I73N53PY",
+      "title": "La relation interdisciplinaire : problèmes et stratégies",
+      "annee": "1992",
+      "url_basename": "1992-89-godard-relation-interdisciplinaire.pdf",
+      "tier": "doc_equivalent",
+      "matched": "Y6PTWIVR"
+    },
+    {
+      "key": "BUPRIS9R",
+      "title": "Trade and development : a prospective view of unctad",
+      "annee": "1985",
+      "url_basename": "1985-67-sachs_trade_development.pdf",
+      "tier": "doc_equivalent",
+      "matched": "NGED73Q2"
+    },
+    {
+      "key": "EW7ENHB4",
+      "title": "La crise de l'Etat protecteur et l'exercice des droits sociaux au développement",
+      "annee": "1982",
+      "url_basename": "1982-56-sachs_crise_etat.pdf",
+      "tier": "doc_equivalent",
+      "matched": "6MJFX9HB"
+    },
+    {
+      "key": "U3X9VX2D",
+      "title": "Progrès techniques et recherche de nouveaux modèles de temps sociaux",
+      "annee": "1981",
+      "url_basename": "1981-46-schiray_progres_temps.pdf",
+      "tier": "doc_equivalent",
+      "matched": "PXZG48FM"
+    },
+    {
+      "key": "RA2J6CX4",
+      "title": "Energies nouvelles et stratégies des pays en développement",
+      "annee": "1979",
+      "url_basename": "1979-27-hourcade_sachs_energie.pdf",
+      "tier": "doc_equivalent",
+      "matched": "TE5U3W6V"
+    },
+    {
+      "key": "PXZK5FDF",
+      "title": "Environnement et développement : de l'externalité à l'intégration contextuelle",
+      "annee": "1978",
+      "url_basename": "1978-25-godard_sachs_environnement_integration.pdf",
+      "tier": "doc_equivalent",
+      "matched": "G5G4Q8CS"
+    },
+    {
+      "key": "IJNE9FV7",
+      "title": "Environnement et politique scientifique",
+      "annee": "1975",
+      "url_basename": "1975-18-godard_environnement_politique_scientifique.pdf",
+      "tier": "doc_equivalent",
+      "matched": "27L4GI2E"
+    },
+    {
+      "key": "8YUYJGJH",
+      "title": "Trajectoires institutionnelles et choix d'instruments pour les politiques d'environnement dans les économies en transition",
+      "annee": "1995",
+      "url_basename": "1995-170-godard_economies_en-transition.pdf",
+      "tier": "doc_equivalent",
+      "matched": "YYP9IPKZ"
+    },
+    {
+      "key": "3YG6YUA7",
+      "title": "Politiques de l'environnement et transition vers l'économie de marché dans les sociétés de l'Europe centrale et orientale Questions guidées par l'expérience française",
+      "annee": "1993",
+      "url_basename": "1993-96-godard-politiques-envt-transition-economie-marche-europe-centrale-orientale.pdf",
+      "tier": "doc_equivalent",
+      "matched": "HFR8C92M"
+    },
+    {
+      "key": "5NMK4RVK",
+      "title": "Décentralisation et planification du développement endogène",
+      "annee": "1982",
+      "url_basename": "1982-52-godard_la_decentralisation_et_la_planification_du_developpement_endogene_ifda_doss_32.pdf",
+      "tier": "doc_equivalent",
+      "matched": "STPFPZYZ"
+    },
+    {
+      "key": "4QALJU9P",
+      "title": "Permis d'émission négociables",
+      "annee": "1993",
+      "url_basename": "",
+      "tier": "doc_equivalent",
+      "matched": "37ATUJ9G"
+    },
+    {
+      "key": "TEUILYUK",
+      "title": "Réduire les émissions de gaz à effet de serre au moyen de permis négociables",
+      "annee": "1992",
+      "url_basename": "",
+      "tier": "doc_equivalent",
+      "matched": "7EW9ZRZT"
+    },
+    {
+      "key": "EA8X28BL",
+      "title": "Nouvelles formes de financement de l’action internationale sur l’environnement",
+      "annee": "1971",
+      "url_basename": "",
+      "tier": "doc_equivalent",
+      "matched": "D59FDR3V"
+    },
+    {
+      "key": "WB4BD6TC",
+      "title": "Politique énergétique et effet de serre. Une esquisse des marges de manœuvre à 2030",
+      "annee": "1991",
+      "url_basename": "",
+      "tier": "doc_equivalent",
+      "matched": "DZ72AX7G"
+    },
+    {
+      "key": "6L34DEER",
+      "title": "Energy, development styles and capital requirements in Thrid world countries",
+      "annee": "1982",
+      "url_basename": "",
+      "tier": "doc_equivalent",
+      "matched": "6WKHA877"
+    },
+    {
+      "key": "B8E6YMRE",
+      "title": "Planification décentralisée et modes de développement - L'expérience du Bureau Méridional de planification agricole en Provence",
+      "annee": "1985",
+      "url_basename": "",
+      "tier": "doc_equivalent",
+      "matched": "837IMTI5"
+    },
+    {
+      "key": "4NACI36V",
+      "title": "demande énergétique au tiers monde et besoin d'investissements",
+      "annee": "1978",
+      "url_basename": "",
+      "tier": "doc_equivalent",
+      "matched": "QE7AC8ZD"
+    }
+  ],
+  "losses": [
+    {
+      "key": "BL2UXD8E",
+      "title": "Entre nature et société : les jeux de l'irréversibilité : dans la construction économique et sociale du champ de l'environnement",
+      "annee": "1991",
+      "url_basename": "1991-86-godard-salles-jeux-irreversibilite.pdf",
+      "tier": "loss",
+      "reason": "no_match",
+      "missing": [],
+      "matched": null
+    },
+    {
+      "key": "ERX2ECHX",
+      "title": "Ecodevelopment : to create a durable equilibrium between man and nature, while avoiding the errors of lawless growth",
+      "annee": "1974",
+      "url_basename": "1974-14-sachs_ecodevelopment.pdf",
+      "tier": "loss",
+      "reason": "no_match",
+      "missing": [],
+      "matched": null
+    },
+    {
+      "key": "CU8CTE8X",
+      "title": "Elements pour une nouvelle approche de la gestion de l'eau dans les pays méditérranéens",
+      "annee": "1975",
+      "url_basename": "1975-191-options-mediterrannennes-chabrol-ci010639.pdf",
+      "tier": "loss",
+      "reason": "no_match",
+      "missing": [],
+      "matched": null
+    },
+    {
+      "key": "U45SGSYS",
+      "title": "La Méditerranée : un potentiel de ressources menacé ?",
+      "annee": "1975",
+      "url_basename": "1975-19-options-mediterrannennes-artuso-and-co-ci010638.pdf",
+      "tier": "loss",
+      "reason": "no_match",
+      "missing": [],
+      "matched": null
+    },
+    {
+      "key": "QZ4RUYE4",
+      "title": "Le développement durable et le devenir des villes. Bonnes intentions et fausses bonnes idées",
+      "annee": "1996",
+      "url_basename": "1995-109-godard_le_developpement_durable_et_le_devenir_des_villes__bonnes_intentions_futuribles_n209_pp.29-35.pdf",
+      "tier": "loss",
+      "reason": "metadata_incomplete",
+      "missing": [
+        "pages",
+        "publicationTitle",
+        "publisher"
+      ],
+      "matched": "S8VUIU74"
+    },
+    {
+      "key": "BI5WKFD9",
+      "title": "La décentralisation en France: un levier pour le développement local",
+      "annee": "1986",
+      "url_basename": "1986-72-godard-ceron-decentralisation-france.pdf",
+      "tier": "loss",
+      "reason": "no_match",
+      "missing": [],
+      "matched": null
+    },
+    {
+      "key": "VZZLHYNW",
+      "title": "Integration of technology in development planning: a normative view",
+      "annee": "1979",
+      "url_basename": "1979-30-sachs_vinaver_stpi.pdf",
+      "tier": "loss",
+      "reason": "no_match",
+      "missing": [],
+      "matched": null
+    },
+    {
+      "key": "TIZUI4EU",
+      "title": "Environnement et projet de civilisation",
+      "annee": "1972",
+      "url_basename": "1972-5-sachs.environnement_projet_civilisation.pdf",
+      "tier": "loss",
+      "reason": "metadata_incomplete",
+      "missing": [
+        "volume",
+        "pages"
+      ],
+      "matched": "3ZMINRSF"
+    }
+  ],
+  "note_losses": [
+    {
+      "parent": "2R9DUG9W",
+      "extrait": "Il part de l'existence d'une crise de légitimité, ce qui pose que une crise de l'analyse/calcul économique qui part d'un"
+    },
+    {
+      "parent": "ILBXVP7W",
+      "extrait": "Quelques traits communs des problèmes globaux d'environnement (pluies acides, effets de serre, ozone) qui permettent de "
+    },
+    {
+      "parent": "D7R89HKH",
+      "extrait": "synthèse dans Croissance et environnement: éléments pour une stratégie d'harmonisation, c'est ce document qui le remplac"
+    },
+    {
+      "parent": "B8E6YMRE",
+      "extrait": "livre: à ne pas évaluer"
+    },
+    {
+      "parent": "EW7ENHB4",
+      "extrait": "sur la crise de l'Etat-providence, remplacement de l'Etat par des initiatives de la société civile, prise en charge diff"
+    },
+    {
+      "parent": "USFEI9ZY",
+      "extrait": "pourrait aussi aller vers les technologies appropriées"
+    },
+    {
+      "parent": "YLGKJBV4",
+      "extrait": "a publié un bouquin à la Découverte"
+    },
+    {
+      "parent": "TL695VVE",
+      "extrait": "à partir de la littérature américaine sur la valeur du temps, l'évaluation du travail non-rémunéré"
+    },
+    {
+      "parent": "HQ3RY9IP",
+      "extrait": "rapport avec l'obsolescence programmée Céron et Baillon a publié La civilisation de l'éphémère justement sur cette quest"
+    },
+    {
+      "parent": "MQVWZT28",
+      "extrait": "\"nouvelle croissance\" = terme de Giscard"
+    },
+    {
+      "parent": "RTLIRMTU",
+      "extrait": "très bon texte culture et technologie"
+    },
+    {
+      "parent": "XQDFZY3F",
+      "extrait": "IFDA (International Fondation for Another Developpement) réseau d'anciens communistes"
+    },
+    {
+      "parent": "VZZLHYNW",
+      "extrait": "édité par l'actuel président du Pérou"
+    },
+    {
+      "parent": "TT4YBRZJ",
+      "extrait": "article fait pour La Revue du Monde, pas sûr que cela ait été publié"
+    },
+    {
+      "parent": "ERX2ECHX",
+      "extrait": "revue de la FAO, traduite dans 25 langues, doit donc exister en français"
+    },
+    {
+      "parent": "QJIVWLIW",
+      "extrait": "très gros rapport: peut-être pas à lire rapport à l'OCDE idées doivent se retrouver dans d'autres textes"
+    }
+  ],
+  "duplicate_clusters": [
+    {
+      "titre": "les temps espaces du developpement",
+      "annee": "1980",
+      "keys": [
+        "R24GWFTW",
+        "MA6CRSGK"
+      ]
+    },
+    {
+      "titre": "the challenge of development a prospective view",
+      "annee": "1979",
+      "keys": [
+        "FU7DRGHX",
+        "5H9CCNYY"
+      ]
+    },
+    {
+      "titre": "environnement et planification quelques pistes de recherche et d action",
+      "annee": "1974",
+      "keys": [
+        "BF8ZAGC4",
+        "ZIJ4AC7K"
+      ]
+    },
+    {
+      "titre": "energy food ecodevelopment",
+      "annee": "1981",
+      "keys": [
+        "WUUAFPXM",
+        "FHFGVT4L"
+      ]
+    },
+    {
+      "titre": "internationalisation de l economie ou developpement endogene les enjeux de la crise au bresil",
+      "annee": "1984",
+      "keys": [
+        "87U3BGI4",
+        "9MFSB62T"
+      ]
+    },
+    {
+      "titre": "un autre developpement quelle solution a la crise",
+      "annee": "1983",
+      "keys": [
+        "HQM7XTIR",
+        "9L76DXXD"
+      ]
+    },
+    {
+      "titre": "les notes de lecture d ignacy sachs",
+      "annee": "1988",
+      "keys": [
+        "AX9AFBC7",
+        "NL4EDB7S"
+      ]
+    },
+    {
+      "titre": "environment and styles of development",
+      "annee": "1974",
+      "keys": [
+        "46NHL4PX",
+        "XCERT277"
+      ]
+    },
+    {
+      "titre": "les structures du quotidien et la crise",
+      "annee": "1983",
+      "keys": [
+        "IZ7CKD87",
+        "8VNF8P2V"
+      ]
+    },
+    {
+      "titre": "agropolis",
+      "annee": "1985",
+      "keys": [
+        "5BDA6SPW",
+        "GQBQNPVJ"
+      ]
+    },
+    {
+      "titre": "l environnement et les transports urbains",
+      "annee": "1990",
+      "keys": [
+        "C6RT3F5V",
+        "VBWYMGMS"
+      ]
+    },
+    {
+      "titre": "le bresil en mal d un projet",
+      "annee": "1993",
+      "keys": [
+        "HQBMIYR8",
+        "XGIKNTQM"
+      ]
+    },
+    {
+      "titre": "the state and the social partners towards a development compact",
+      "annee": "1998",
+      "keys": [
+        "WFHMAI46",
+        "TZFRPEK7"
+      ]
+    },
+    {
+      "titre": "inventing a humane future",
+      "annee": "1989",
+      "keys": [
+        "NBCD4TEC",
+        "X3HPY2PS"
+      ]
+    },
+    {
+      "titre": "prise de conscience ecologique et choix de techniques appropriees",
+      "annee": "1981",
+      "keys": [
+        "LR2XAKDN",
+        "3SN6WTKG"
+      ]
+    }
+  ],
+  "verdict": "no-go"
+}

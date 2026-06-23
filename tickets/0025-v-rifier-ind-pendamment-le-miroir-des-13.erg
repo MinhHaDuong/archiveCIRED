@@ -10,6 +10,7 @@ Author: Minh Ha-Duong
 2026-06-23T09:20Z claude note But recadré (M. Ha-Duong) : « ne perd-on pas d'information ? ». La cohérence interne de My Library (doublons, dédoublonnage) est HORS SCOPE.
 2026-06-23T09:30Z claude note Rôle dans le DAG : audit-gate du tracker [[0015]] (qui le porte en Blocked-by). Vert ⇒ groupe `Recueil_CIRED` supprimable ⇒ recueil réconcilié. Lui-même bloqué par rien : exécutable maintenant (lecture seule).
 
+2026-06-23T13:18Z claude note Audit implémenté (src/verify_recueil_mirror.py) + exécuté en live. Verdict NO-GO : 16 notes d'annotation d'Antonin absentes de My Library + 8 notices (6 sans appariement net, 2 champs énumérés perdus). 69 URL préservées, 54 doc-équivalents. Rapport : outputs/verify_recueil_mirror_report.md. Gate reste ROUGE — ticket ouvert jusqu'à re-vérification zéro-perte après remédiation (voir 0029).
 --- body ---
 ## But
 

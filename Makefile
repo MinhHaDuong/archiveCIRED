@@ -47,6 +47,14 @@ outputs/recueil_new_docs.ris: src/build_recueil_ris.py outputs/recueil_new_docs.
 outputs/recueil_corrections_report.json: src/diff_recueil.py src/match_untyped.py
 	uv run python src/diff_recueil.py --output outputs/recueil_corrections_report.json
 
+# Audit indépendant (ticket 0025) : aucune information perdue avant de supprimer
+# le groupe Recueil_CIRED — réseau (notices groupe + My Library), lecture seule,
+# hors `make check`.
+outputs/verify_recueil_mirror_report.json outputs/verify_recueil_mirror_report.md: src/verify_recueil_mirror.py src/reconcile_zotero.py
+	uv run python src/verify_recueil_mirror.py \
+		--output-json outputs/verify_recueil_mirror_report.json \
+		--output-md outputs/verify_recueil_mirror_report.md
+
 check-fast:
 	uv run pytest -m "not integration and not slow" tests/
 
