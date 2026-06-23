@@ -100,8 +100,9 @@ def metadata_missing(group: dict, lib: dict,
         gv = norm_text(group.get(f))
         if not gv:
             continue
-        lv = norm_text(lib.get(f))
-        if not lv or (gv not in lv and lv not in gv):
+        # Inclusion par tokens (« 29 35 » ⊆ « pp 29 35 »), pas par sous-chaîne :
+        # évite qu'un volume « 2 » soit « couvert » par une année « 2024 ».
+        if not set(gv.split()) <= set(norm_text(lib.get(f)).split()):
             miss.append(f)
     return miss
 
@@ -147,7 +148,11 @@ def _title_author_year_match(group: dict, lib: dict) -> bool:
     if norm_year(group.get("date")) != norm_year(lib.get("date")):
         return False
     gn = author_lastnames(group.get("creators"))
-    return not gn or gn <= author_lastnames(lib.get("creators"))
+    # Pas d'auteur pour corroborer ⇒ titre+année seuls : refusé (jamais par titre
+    # seul). L'item sera signalé pour revue humaine plutôt qu'apparié à tort.
+    if not gn:
+        return False
+    return gn <= author_lastnames(lib.get("creators"))
 
 
 def assess_item(group: dict, enriched_lib: list[tuple[dict, set[str]]]) -> dict:
@@ -179,7 +184,7 @@ def assess_item(group: dict, enriched_lib: list[tuple[dict, set[str]]]) -> dict:
         return {**base, "tier": "loss", "reason": "no_match",
                 "missing": [], "matched": None}
 
-    best = None  # (n_missing, has_pdf, lib, missing)
+    best = None  # (score, lib, missing, has_pdf) ; score = (n_missing, pdf_penalty)
     for lib, ubs in candidates:
         miss = metadata_missing(group, lib)
         has_pdf = bool(ubs)
@@ -274,15 +279,20 @@ def _children_by_parent(all_items: list[dict]) -> dict[str, list[dict]]:
     return out
 
 
-def _fetch_all_items(library: str, api_key: str) -> list[dict]:
-    """Toutes les notices d'une bibliothèque (top + enfants), paginées."""
+def _fetch_all_items(library: str, api_key: str, limit: int = 100) -> list[dict]:
+    """Toutes les notices d'une bibliothèque (top + enfants), paginées.
+
+    La pagination s'arrête sur une page incomplète (< limit), pas sur l'en-tête
+    `Total-Results` : `rz._get` renvoie 0 si l'en-tête manque, ce qui tronquerait
+    silencieusement l'audit à 100 notices et sous-estimerait la couverture.
+    """
     items, start = [], 0
     while True:
-        page, total = rz._get(
-            f"{rz.API}/{library}/items?limit=100&start={start}", api_key)
+        page, _ = rz._get(
+            f"{rz.API}/{library}/items?limit={limit}&start={start}", api_key)
         items.extend(page)
-        start += 100
-        if start >= total or not page:
+        start += limit
+        if len(page) < limit:
             break
     return items
 

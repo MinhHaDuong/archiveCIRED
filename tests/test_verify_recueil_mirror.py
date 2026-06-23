@@ -54,6 +54,13 @@ def test_metadata_missing_empty_when_lib_superset():
     assert vm.metadata_missing(g, lib) == []
 
 
+def test_metadata_missing_no_numeric_substring_false_cover():
+    # volume « 2 » ne doit PAS être couvert par une année « 2024 » (sous-chaîne).
+    assert vm.metadata_missing({"volume": "2"}, {"volume": "2024"}) == ["volume"]
+    # mais « 29-35 » reste couvert par « pp. 29-35 » (inclusion par tokens).
+    assert vm.metadata_missing({"pages": "29-35"}, {"pages": "pp. 29-35"}) == []
+
+
 # --- assess_item : les trois niveaux de préservation -------------------------
 
 def _enrich(items):
@@ -115,6 +122,18 @@ def test_assess_author_corroboration_blocks_title_only_match():
     lib = _enrich([{"key": "L5", "title": "Rapport", "date": "1980",
                     "url": "https://inari/archive/r2.pdf",
                     "creators": [{"lastName": "Hourcade"}]}])
+    r = vm.assess_item(g, lib)
+    assert r["tier"] == "loss"
+    assert r["reason"] == "no_match"
+
+
+def test_assess_no_title_only_match_when_group_lacks_creators():
+    # Groupe sans auteur : titre+année identiques ne suffisent pas (jamais par
+    # titre seul) -> signalé pour revue, pas apparié.
+    g = {"key": "G8", "title": "Croissance", "date": "1972",
+         "url": "https://inari/recueil/c.pdf", "creators": []}
+    lib = _enrich([{"key": "L8", "title": "Croissance", "date": "1972",
+                    "url": "https://inari/archive/c2.pdf", "creators": []}])
     r = vm.assess_item(g, lib)
     assert r["tier"] == "loss"
     assert r["reason"] == "no_match"

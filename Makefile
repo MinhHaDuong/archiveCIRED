@@ -50,7 +50,7 @@ outputs/recueil_corrections_report.json: src/diff_recueil.py src/match_untyped.p
 # Audit indépendant (ticket 0025) : aucune information perdue avant de supprimer
 # le groupe Recueil_CIRED — réseau (notices groupe + My Library), lecture seule,
 # hors `make check`.
-outputs/verify_recueil_mirror_report.md: src/verify_recueil_mirror.py src/reconcile_zotero.py
+outputs/verify_recueil_mirror_report.json outputs/verify_recueil_mirror_report.md: src/verify_recueil_mirror.py src/reconcile_zotero.py
 	uv run python src/verify_recueil_mirror.py \
 		--output-json outputs/verify_recueil_mirror_report.json \
 		--output-md outputs/verify_recueil_mirror_report.md
