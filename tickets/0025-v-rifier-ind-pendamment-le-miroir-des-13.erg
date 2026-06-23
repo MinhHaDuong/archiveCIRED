@@ -1,0 +1,80 @@
+%erg 0.1
+Title: Vérifier qu'aucune information n'est perdue avant de supprimer le groupe Recueil_CIRED
+Created: 2026-06-23
+Author: Minh Ha-Duong
+
+--- log ---
+2026-06-23T08:46Z Minh Ha-Duong created
+2026-06-23T08:46Z claude note Handoff pour vérificateur INDÉPENDANT (frais). Ne pas faire confiance à l'appariement de l'agent qui a exécuté la fusion. Suppression du groupe GELÉE tant que ce ticket n'est pas vert.
+2026-06-23T09:10Z claude note Corps nettoyé : la vérification part de l'état en ligne (collection à 131), sans les justifications/appariements de l'agent qui biaiseraient le verdict.
+2026-06-23T09:20Z claude note But recadré (M. Ha-Duong) : « ne perd-on pas d'information ? ». La cohérence interne de My Library (doublons, dédoublonnage) est HORS SCOPE.
+
+--- body ---
+## But
+
+Garantir qu'**aucune information n'est perdue** si l'on supprime le groupe Zotero
+séparé `Recueil_CIRED` (id 2511149, 131 notices). Autrement dit : l'information de
+**chacune** de ses 131 notices (tous les champs de métadonnées + le PDF/URL) doit
+se retrouver dans My Library (userID 2114597).
+
+**Hors scope** : la cohérence interne de My Library — doublons, dédoublonnage,
+qualité d'appariement, choix de quelle notice « gagne ». Les doublons sont
+attendus et acceptés ; ils ne sont PAS un motif de no-go.
+
+Garde-fou : le groupe n'est supprimé qu'une fois ce ticket vert (zéro perte).
+
+La vérification **part de l'état en ligne** et raisonne par elle-même ; elle
+n'utilise pas l'appariement, les comptages ou les artefacts de l'agent qui a
+peuplé la collection (ils pourraient biaiser le verdict).
+
+## État en ligne (live)
+
+- Groupe : `GET /groups/2511149/items/top?limit=100` (paginer) — 131 notices.
+- My Library : `GET /users/2114597/items/top?limit=100` (paginer). Une collection
+  « Recueil 50 ans CIRED » (key VPDB49CK) y rassemble les items concernés, mais
+  l'information peut aussi exister dans une notice hors collection — ne pas s'y
+  limiter ni se fier aux tags.
+- Credentials : `~/.config/keys/zotero-archive-cired.env` (ZOTERO_API_KEY).
+- Helpers de collecte en lecture seule : `src/reconcile_zotero.py`
+  (`fetch_top_items`, `_get`).
+
+## Actions (process FRAIS, lecture seule)
+
+1. Collecter en live les 131 notices du groupe et les notices de My Library.
+2. Pour **chaque** notice de groupe, vérifier que son information est présente
+   dans My Library : il existe au moins une notice dont les champs **couvrent**
+   ceux du groupe (titre, auteurs, année, revue/éditeur, volume/numéro/pages,
+   DOI/ISSN…) et dont le PDF/URL est conservé. Une copie exacte couvre
+   trivialement ; une notice pré-existante ne couvre que si elle contient au
+   moins l'information du groupe (sinon la version d'Antonin serait perdue).
+3. Rapporter la **liste des notices de groupe dont une part d'information n'est
+   PAS retrouvée** dans My Library (= perte). Idéalement vide. **C'est la SEULE
+   liste qui compte pour le verdict.**
+4. Verdict : **go** (supprimer le groupe) **ssi** la liste de perte est vide ;
+   sinon **no-go** + ce qu'il manque.
+5. **Section annexe, hors verdict** : le vérificateur peut, dans une section
+   séparée, signaler les doublons et incohérences internes de My Library qu'il a
+   remarqués. Pour information seulement — n'entre **pas** dans le go/no-go.
+
+## Test
+
+- Le test de couverture champ-à-champ est une fonction pure sur les `data`
+  collectés (testable sur fixtures, sans aucune écriture Zotero).
+
+## Invariants
+
+- NE PAS supprimer le groupe tant que ce ticket n'est pas vert (zéro perte).
+- Ticket **read-only** : il audite et rapporte. **Aucune écriture Zotero, aucun
+  nettoyage, aucune correction.** Laisser le **scaffolding en place** (copies
+  injectées, collection VPDB49CK, tags) — les correctifs sont faits ailleurs et
+  on **re-vérifiera après**.
+- Partir de l'état en ligne ; ne pas traiter les artefacts de l'agent comme
+  vérité ; les doublons/incohérences sont hors verdict (section annexe).
+- Ne pas toucher l'archive source sur disque.
+
+## Exit criteria
+
+- [ ] Rapport : liste des pertes d'information (la seule qui compte ; idéalement vide)
+- [ ] Section annexe (hors verdict) : doublons/incohérences éventuels
+- [ ] Décision explicite go/no-go suppression du groupe
+- [ ] `make check` passe

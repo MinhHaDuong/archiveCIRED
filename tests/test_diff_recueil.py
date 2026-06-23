@@ -153,3 +153,21 @@ def test_pair_fuzzy_one_to_one_keeps_best_title_match():
     pairs = dr._pair_fuzzy(group, perso, threshold=0.6)
     assert len(pairs) == 1
     assert pairs[0]["titre_sim"] == 1.0
+
+
+def test_report_to_ledger_filters_noted_creators_and_excludes():
+    report = {"corrections": [
+        {"perso_key": "A", "titre_sim": 1.0, "titre": "Bon",
+         "champs": {"pages": {"type": "modification", "perso": "1", "groupe": "417-438"},
+                    "volume": {"type": "modification", "perso": "x", "groupe": "31", "note": "à vérifier"},
+                    "creators": {"type": "modification", "groupe": ["g"], "perso": ["p"]}}},
+        {"perso_key": "B", "titre_sim": 0.5, "titre": "Douteux",
+         "champs": {"pages": {"type": "ajout", "perso": "", "groupe": "1-2"}}},
+        {"perso_key": "EXCL", "titre_sim": 1.0, "titre": "Exclu",
+         "champs": {"date": {"type": "ajout", "perso": "", "groupe": "1996-05"}}},
+    ]}
+    led = dr.report_to_ledger(report, exclude_keys={"EXCL"})
+    assert len(led) == 1                      # B douteux écarté, EXCL exclu
+    e = led[0]
+    assert e["key"] == "A" and e["set"] == {"pages": "417-438"}  # volume noté + creators exclus
+    assert e["applied"] is False
