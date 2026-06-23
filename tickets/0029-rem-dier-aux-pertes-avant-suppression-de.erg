@@ -9,6 +9,7 @@ Blocked-by: 0025
 2026-06-23T13:18Z claude note Issu de l'audit 0025 (verdict NO-GO). Corrige les pertes identifiées, puis 0025 sera re-vérifié (doit revenir GO/zéro-perte) avant suppression du groupe.
 
 2026-06-23T14:11Z claude note Notes faites : 16 notes d'Antonin réinjectées dans My Library (en-tête « Note de Antonin Pottier »), sauvegarde outputs/recueil_notes_backup.json. Audit re-vérifié : PERTES notes = 0. Restent les 8 notices méta/PDF (6 sans match, 2 champs manquants) -> 0029 reste ouvert. Bug d'audit corrigé en passant (appariement des notes multi-paragraphes, PR #22).
+2026-06-23T15:11Z claude note Axe méta/PDF corrigé : 2 PATCH (champs manquants) + 6 POST (no_match → My Library). Backup outputs/recueil_losses_backup.json. Audit re-vérifié → GO (0 perte méta/PDF, 0 perte note). Ticket 0025 reste ouvert : voir commentaire utilisateur sur les 56 URL recueil non dupliquées dans doc_equivalent.
 --- body ---
 ## Context
 
