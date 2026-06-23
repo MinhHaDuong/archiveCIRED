@@ -434,7 +434,7 @@ def main() -> int:
     logger.info("  PERTES notes   : %d", len(report["note_losses"]))
     logger.info("Verdict : %s", report["verdict"].upper())
     logger.info("Rapport : %s / %s", args.output_json, args.output_md)
-    return 0 if report["verdict"] == "go" else 0  # audit informatif, jamais d'échec
+    return 0  # audit informatif : un verdict no-go n'est pas un échec d'exécution
 
 
 if __name__ == "__main__":
