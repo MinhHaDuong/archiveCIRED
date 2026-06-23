@@ -1,0 +1,52 @@
+%erg 0.1
+Title: Démixer le catalogue : séparer les ~180 notices LEESU du fonds CIRED
+Created: 2026-06-23
+Author: Minh Ha-Duong
+Label: deferred
+
+--- log ---
+2026-06-23T13:56Z Minh Ha-Duong created
+2026-06-23T13:56Z claude note Issu du rapport d'étape COPIL (23 juin). Le catalogue Zotero « Base R2DS » mélange CIRED et LEESU (autre labo des Ponts).
+
+--- body ---
+## Context
+
+Le catalogue hébergé sur zotero.org (propriétaire F. Bordignon, « Base R2DS »)
+compte 764 notices dont **~180 du LEESU**, un autre laboratoire de l'ENPC. Le
+périmètre du projet est le fonds **CIRED** (1970–2013). Il faut identifier puis
+isoler les notices LEESU pour ne pas les enrichir/déposer comme du CIRED, sans
+les perdre (le LEESU peut en avoir l'usage).
+
+Démixer = retirer du périmètre de travail (tag + collection séparée), pas
+supprimer. À cadrer avec F. Bordignon (administratrice du groupe).
+
+## Relevant files
+
+- `src/reconcile_zotero.py` — collecte des notices Zotero
+- `outputs/doc_index.json` — index documentaire (rattachement)
+
+## Actions
+
+1. Critère d'appartenance LEESU vs CIRED (collection Zotero d'origine,
+   affiliation auteur, tags existants) — éviter l'appariement par titre seul.
+2. Rapport : liste des ~180 notices candidates LEESU, avec preuve de classement.
+3. Revue humaine (F. Bordignon) du périmètre.
+4. Matérialiser la séparation : tag `leesu` + collection dédiée, ou export.
+
+## Test
+
+- Classification sur fixtures de notices CIRED et LEESU connues.
+
+## Verification
+
+- [ ] Liste des notices LEESU produite et revue
+- [ ] Séparation matérialisée sans perte (tag/collection)
+
+## Invariants
+
+- Aucune suppression de notice ; sens unique (pas d'écrasement de métadonnées).
+
+## Exit criteria
+
+- [ ] Notices LEESU isolées du périmètre CIRED, rapport revu
+- [ ] `make check` passe

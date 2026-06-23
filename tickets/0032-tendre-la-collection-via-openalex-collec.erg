@@ -1,0 +1,53 @@
+%erg 0.1
+Title: Étendre la collection via OpenAlex (collecte par filtres auteur + période)
+Created: 2026-06-23
+Author: Minh Ha-Duong
+Label: deferred
+
+--- log ---
+2026-06-23T13:56Z Minh Ha-Duong created
+2026-06-23T13:56Z claude note Issu du rapport d'étape COPIL (23 juin). À distinguer de l'enrichissement [[0023]] : ici on ajoute de NOUVELLES notices absentes du catalogue, pas des ids sur les notices existantes.
+
+--- body ---
+## Context
+
+Au-delà d'enrichir les notices existantes ([[0023]]), **étendre** le catalogue
+en découvrant des publications CIRED **absentes** de « Base R2DS ». OpenAlex
+(api.openalex.org) permet une requête par **auteur** (CIRED connus) croisée avec
+la **période** (1970–2013) et l'affiliation, pour ramener des travaux candidats à
+ajouter après revue.
+
+Réutilise le harnais OpenAlex de [[0023]] (recherche, parsing d'un `work`),
+mais la logique diffère : dédoublonnage contre le catalogue actuel, puis
+proposition d'ajout — pas seulement appariement sur l'existant.
+
+## Relevant files
+
+- `src/reconcile_zotero.py` — état du catalogue (pour dédoublonner)
+- (à créer) harnais de requête OpenAlex par auteur/affiliation/période
+
+## Actions
+
+1. Lister les auteurs CIRED de référence (depuis le catalogue + [[0035]]).
+2. Requêter OpenAlex par auteur + période + affiliation ; collecter les works.
+3. Dédoublonner contre le catalogue (id/DOI, jamais titre seul).
+4. Rapport des candidats nouveaux pour revue humaine.
+5. Après revue : créer les notices (RIS/import), backup, sens unique.
+
+## Test
+
+- Dédoublonnage : un work déjà au catalogue n'est pas proposé en double.
+
+## Verification
+
+- [ ] Liste de candidats nouveaux produite, dédoublonnée, revue
+- [ ] Ajouts effectués après revue (backup)
+
+## Invariants
+
+- Apparier par id/DOI jamais par titre ; revue avant écriture ; backup.
+
+## Exit criteria
+
+- [ ] Catalogue étendu des publications CIRED trouvées via OpenAlex (rapport revu)
+- [ ] `make check` passe
