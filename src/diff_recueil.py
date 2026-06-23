@@ -63,6 +63,49 @@ def _iso_date(value: str | None) -> str:
     return value or ""
 
 
+_NUMBER_PREFIX = re.compile(
+    r"^(?:vol(?:ume)?\.?\s*|n[°o]\.?\s*|n\.\s*|num[eé]ro\s*|num\.?\s*|v\.?\s*)",
+    re.IGNORECASE,
+)
+
+
+def _norm_number(value: str | None) -> str:
+    """Normalise un champ volume ou numéro : entier pur, sans préfixe.
+
+    >>> _norm_number("vol. 8")
+    '8'
+    >>> _norm_number("n°316")
+    '316'
+    >>> _norm_number("v.3")
+    '3'
+    >>> _norm_number("42")
+    '42'
+    """
+    s = _NUMBER_PREFIX.sub("", (value or "").strip()).strip()
+    return s if re.fullmatch(r"\d+", s) else (value or "")
+
+
+def _norm_pages(value: str | None) -> str:
+    """Normalise un champ pages : intervalle avec tiret long, ou entier pur.
+
+    >>> _norm_pages("417-438")
+    '417–438'
+    >>> _norm_pages("29–35")
+    '29–35'
+    >>> _norm_pages("80")
+    '80'
+    >>> _norm_pages("22 p.")
+    '22 p.'
+    """
+    s = (value or "").strip()
+    m = re.fullmatch(r"(\d+)\s*[-–]\s*(\d+)", s)
+    if m:
+        return f"{m.group(1)}–{m.group(2)}"
+    if re.fullmatch(r"\d+", s):
+        return s
+    return value or ""
+
+
 def _field_note(champ: str, gv: str, pv: str,
                 journaux: set[str] = frozenset()) -> str | None:
     """Signale une valeur proposée à nettoyer à la main (pas d'import aveugle)."""
@@ -76,9 +119,6 @@ def _field_note(champ: str, gv: str, pv: str,
     if champ == "bookTitle" and re.search(
             r"(Éditions|Editions|Presses?|Press|Publishers?)\b", str(gv)):
         notes.append("extraire lieu/éditeur du bookTitle")
-    if (champ == "volume" and re.search(r"vol", str(pv), re.I)
-            and re.fullmatch(r"\d+", str(gv).strip())):
-        notes.append("vérifier volume vs numéro (perte d'info ?)")
     if champ == "publisher" and _norm(gv) in journaux:
         notes.append("éditeur = nom de la revue ? préciser l'organisme")
     return " ; ".join(notes) or None
@@ -115,7 +155,11 @@ def diff_fields(group: dict, perso: dict) -> dict:
     for f in DIFFABLE_FIELDS:
         gv, pv = group.get(f) or "", perso.get(f) or ""
         if f == "date":
-            gv = _iso_date(gv)  # 07/1994 -> 1994-07
+            gv = _iso_date(gv)
+        elif f in ("volume", "issue"):
+            gv, pv = _norm_number(gv), _norm_number(pv)
+        elif f == "pages":
+            gv, pv = _norm_pages(gv), _norm_pages(pv)
         if _norm(gv) == _norm(pv):
             continue
         if not _norm(gv):
@@ -239,7 +283,8 @@ def render_markdown(report: dict) -> str:
         "Antonin a corrigé les métadonnées dans le **groupe Recueil_CIRED** ; on "
         "reporte ces corrections dans **My Library**. Sens : Recueil_CIRED → My "
         "Library ; la colonne « Valeur d'Antonin » est la valeur *proposée*. "
-        "Appariement un-à-un ; dates normalisées ISO ; un `publicationTitle` qui "
+        "Appariement un-à-un ; dates normalisées ISO ; volume/numéro sans préfixe "
+        "(vol., n°) ; pages en intervalle tiret long. Un `publicationTitle` qui "
         "recopiait le titre est écarté. La colonne **Note** signale ce qui reste "
         "à nettoyer à la main.",
         "",

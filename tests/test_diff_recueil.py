@@ -124,13 +124,42 @@ def test_diff_fields_normalizes_date_to_iso():
     assert d["date"]["groupe"] == "1994-07"
 
 
-def test_field_note_flags_allcaps_and_volume():
+def test_field_note_flags_allcaps_and_publisher_in_booktitle():
     d = dr.diff_fields({"bookTitle": "DÉVELOPPEMENT local. Genève: Editions Régionales"},
                        {"bookTitle": ""})
     assert "ALLCAPS" in d["bookTitle"]["note"]
     assert "éditeur" in d["bookTitle"]["note"]
-    v = dr.diff_fields({"volume": "316"}, {"volume": "vol. 28"})
-    assert "volume vs numéro" in v["volume"]["note"]
+
+
+def test_norm_number_strips_prefix():
+    assert dr._norm_number("vol. 8") == "8"
+    assert dr._norm_number("n°316") == "316"
+    assert dr._norm_number("v.3") == "3"
+    assert dr._norm_number("42") == "42"
+    assert dr._norm_number("numéro 7") == "7"
+    assert dr._norm_number("n. 12") == "12"
+    assert dr._norm_number("vol.") == "vol."     # pas un entier : inchangé
+
+
+def test_norm_pages_normalizes_range():
+    assert dr._norm_pages("417-438") == "417–438"
+    assert dr._norm_pages("29–35") == "29–35"    # déjà tiret long
+    assert dr._norm_pages("80") == "80"
+    assert dr._norm_pages("22 p.") == "22 p."   # décompte, inchangé
+
+
+def test_diff_fields_normalizes_volume_issue():
+    assert dr.diff_fields({"volume": "8"}, {"volume": "vol. 8"}) == {}
+    assert dr.diff_fields({"issue": "2"}, {"issue": "n°2"}) == {}
+    d = dr.diff_fields({"volume": "316"}, {"volume": "vol. 28"})
+    assert d["volume"]["type"] == "modification"
+    assert d["volume"]["groupe"] == "316"
+
+
+def test_diff_fields_normalizes_pages_range():
+    assert dr.diff_fields({"pages": "417–438"}, {"pages": "417-438"}) == {}
+    d = dr.diff_fields({"pages": "417-438"}, {"pages": "22 p."})
+    assert d["pages"]["groupe"] == "417–438"
 
 
 def test_field_note_flags_publisher_equal_to_journal():
