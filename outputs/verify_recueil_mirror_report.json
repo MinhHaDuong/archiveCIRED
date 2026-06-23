@@ -2,15 +2,15 @@
   "meta": {
     "notices_groupe": 131,
     "notes_groupe": 17,
-    "notices_my_library_top": 764,
-    "notices_my_library_total": 1533,
+    "notices_my_library_top": 770,
+    "notices_my_library_total": 1539,
     "notes_my_library": 17,
     "group_id": "2511149",
     "user_id": "2114597"
   },
   "total": 131,
-  "url_preserved": 69,
-  "doc_equivalent": 54,
+  "url_preserved": 75,
+  "doc_equivalent": 56,
   "doc_equivalent_list": [
     {
       "key": "LBZL2DLF",
@@ -381,12 +381,28 @@
       "matched": "HFR8C92M"
     },
     {
+      "key": "QZ4RUYE4",
+      "title": "Le développement durable et le devenir des villes. Bonnes intentions et fausses bonnes idées",
+      "annee": "1996",
+      "url_basename": "1995-109-godard_le_developpement_durable_et_le_devenir_des_villes__bonnes_intentions_futuribles_n209_pp.29-35.pdf",
+      "tier": "doc_equivalent",
+      "matched": "S8VUIU74"
+    },
+    {
       "key": "5NMK4RVK",
       "title": "Décentralisation et planification du développement endogène",
       "annee": "1982",
       "url_basename": "1982-52-godard_la_decentralisation_et_la_planification_du_developpement_endogene_ifda_doss_32.pdf",
       "tier": "doc_equivalent",
       "matched": "STPFPZYZ"
+    },
+    {
+      "key": "TIZUI4EU",
+      "title": "Environnement et projet de civilisation",
+      "annee": "1972",
+      "url_basename": "1972-5-sachs.environnement_projet_civilisation.pdf",
+      "tier": "doc_equivalent",
+      "matched": "3ZMINRSF"
     },
     {
       "key": "4QALJU9P",
@@ -445,97 +461,41 @@
       "matched": "QE7AC8ZD"
     }
   ],
-  "losses": [
-    {
-      "key": "BL2UXD8E",
-      "title": "Entre nature et société : les jeux de l'irréversibilité : dans la construction économique et sociale du champ de l'environnement",
-      "annee": "1991",
-      "url_basename": "1991-86-godard-salles-jeux-irreversibilite.pdf",
-      "tier": "loss",
-      "reason": "no_match",
-      "missing": [],
-      "matched": null
-    },
-    {
-      "key": "ERX2ECHX",
-      "title": "Ecodevelopment : to create a durable equilibrium between man and nature, while avoiding the errors of lawless growth",
-      "annee": "1974",
-      "url_basename": "1974-14-sachs_ecodevelopment.pdf",
-      "tier": "loss",
-      "reason": "no_match",
-      "missing": [],
-      "matched": null
-    },
-    {
-      "key": "CU8CTE8X",
-      "title": "Elements pour une nouvelle approche de la gestion de l'eau dans les pays méditérranéens",
-      "annee": "1975",
-      "url_basename": "1975-191-options-mediterrannennes-chabrol-ci010639.pdf",
-      "tier": "loss",
-      "reason": "no_match",
-      "missing": [],
-      "matched": null
-    },
-    {
-      "key": "U45SGSYS",
-      "title": "La Méditerranée : un potentiel de ressources menacé ?",
-      "annee": "1975",
-      "url_basename": "1975-19-options-mediterrannennes-artuso-and-co-ci010638.pdf",
-      "tier": "loss",
-      "reason": "no_match",
-      "missing": [],
-      "matched": null
-    },
-    {
-      "key": "QZ4RUYE4",
-      "title": "Le développement durable et le devenir des villes. Bonnes intentions et fausses bonnes idées",
-      "annee": "1996",
-      "url_basename": "1995-109-godard_le_developpement_durable_et_le_devenir_des_villes__bonnes_intentions_futuribles_n209_pp.29-35.pdf",
-      "tier": "loss",
-      "reason": "metadata_incomplete",
-      "missing": [
-        "pages",
-        "publicationTitle",
-        "publisher"
-      ],
-      "matched": "S8VUIU74"
-    },
-    {
-      "key": "BI5WKFD9",
-      "title": "La décentralisation en France: un levier pour le développement local",
-      "annee": "1986",
-      "url_basename": "1986-72-godard-ceron-decentralisation-france.pdf",
-      "tier": "loss",
-      "reason": "no_match",
-      "missing": [],
-      "matched": null
-    },
-    {
-      "key": "VZZLHYNW",
-      "title": "Integration of technology in development planning: a normative view",
-      "annee": "1979",
-      "url_basename": "1979-30-sachs_vinaver_stpi.pdf",
-      "tier": "loss",
-      "reason": "no_match",
-      "missing": [],
-      "matched": null
-    },
-    {
-      "key": "TIZUI4EU",
-      "title": "Environnement et projet de civilisation",
-      "annee": "1972",
-      "url_basename": "1972-5-sachs.environnement_projet_civilisation.pdf",
-      "tier": "loss",
-      "reason": "metadata_incomplete",
-      "missing": [
-        "volume",
-        "pages"
-      ],
-      "matched": "3ZMINRSF"
-    }
-  ],
+  "losses": [],
   "note_losses": [],
   "duplicate_clusters": [
+    {
+      "titre": "integration of technology in development planning a normative view",
+      "annee": "1979",
+      "keys": [
+        "4PMKVKH6",
+        "WCI9YSD4"
+      ]
+    },
+    {
+      "titre": "la mediterranee un potentiel de ressources menace",
+      "annee": "1975",
+      "keys": [
+        "X8HZN2J3",
+        "NYFD6CNL"
+      ]
+    },
+    {
+      "titre": "elements pour une nouvelle approche de la gestion de l eau dans les pays mediterraneens",
+      "annee": "1975",
+      "keys": [
+        "5M7TJ5DZ",
+        "Z83SYUK5"
+      ]
+    },
+    {
+      "titre": "entre nature et societe les jeux de l irreversibilite dans la construction economique et sociale du champ de l environnement",
+      "annee": "1991",
+      "keys": [
+        "ZDV4BIS9",
+        "UI8XFEWK"
+      ]
+    },
     {
       "titre": "les temps espaces du developpement",
       "annee": "1980",
@@ -657,5 +617,5 @@
       ]
     }
   ],
-  "verdict": "no-go"
+  "verdict": "go"
 }

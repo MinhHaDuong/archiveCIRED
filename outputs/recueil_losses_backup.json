@@ -1,0 +1,178 @@
+[
+  {
+    "key": "S8VUIU74",
+    "version": 7577,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/S8VUIU74",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/S8VUIU74",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Godard",
+      "parsedDate": "1996-05",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "S8VUIU74",
+      "version": 7577,
+      "itemType": "journalArticle",
+      "title": "Le développement durable et le devenir des villes: bonnes intentions et fausses bonnes idées",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Olivier",
+          "lastName": "Godard"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Futuribles",
+      "publisher": "",
+      "place": "",
+      "date": "1996-05",
+      "volume": "",
+      "issue": "209",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "29–35",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/1995-109.pdf",
+      "accessDate": "2014-11-18",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0337-307X",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Le développement durable et le devenir des villes",
+      "language": "",
+      "libraryCatalog": "Google Scholar",
+      "callNumber": "109",
+      "rights": "non",
+      "extra": "hal-00624329 (preprint v1 2011-09-16)",
+      "tags": [
+        {
+          "tag": "CIRED"
+        },
+        {
+          "tag": "recueil-50ans"
+        }
+      ],
+      "collections": [
+        "QGVAEV3K",
+        "VPDB49CK"
+      ],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:14Z",
+      "dateModified": "2026-06-23T08:39:09Z"
+    }
+  },
+  {
+    "key": "3ZMINRSF",
+    "version": 7541,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/3ZMINRSF",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/3ZMINRSF",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Sachs",
+      "parsedDate": "1972-11",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "3ZMINRSF",
+      "version": 7541,
+      "itemType": "journalArticle",
+      "title": "Environnement et projet de civilisation",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Ignacy",
+          "lastName": "Sachs"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Les Temps Modernes",
+      "publisher": "",
+      "place": "",
+      "date": "1972-11",
+      "volume": "",
+      "issue": "n°316",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "14 p.",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_SAC_0350.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0040-3075",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Français",
+      "libraryCatalog": "",
+      "callNumber": "CIR_SAC_0350",
+      "rights": "",
+      "extra": "Éditeur : Gallimard",
+      "tags": [
+        {
+          "tag": "CIRED"
+        },
+        {
+          "tag": "recueil-50ans"
+        }
+      ],
+      "collections": [
+        "QGVAEV3K",
+        "VPDB49CK"
+      ],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:21Z",
+      "dateModified": "2026-06-23T08:38:31Z"
+    }
+  }
+]
