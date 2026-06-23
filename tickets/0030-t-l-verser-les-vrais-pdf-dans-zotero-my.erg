@@ -2,10 +2,13 @@
 Title: Téléverser les vrais PDF dans Zotero My Library (647 stubs)
 Created: 2026-06-23
 Author: minh
+Blocked-by: 0037
+Label: deferred
 
 --- log ---
 2026-06-23T13:46Z minh created
 2026-06-23T13:46Z minh note Audit src/audit_pdf_stubs.py : 15 PDF réels / 764, 668 stubs (642 du groupe mort 329932), 647 récupérables depuis l'archive
+2026-06-23T14:00Z minh note Bloqué : 17,5 Go à verser > quota d'un compte perso ; gate stockage = 0037 (compte ENPC). Intérim = liens inari (100% servis, HTTP 200)
 
 --- body ---
 ## Context
@@ -23,9 +26,22 @@ l'API. Copier une notice d'un groupe vers My Library transporte la métadonnée
 d'attachement mais pas le fichier.
 
 Bonne nouvelle : **647 des 668 stubs ont un fichier réel correspondant dans
-l'archive physique** (`outputs/file_index.json`, jointure par basename). La
-bibliothèque est donc rendable autonome **depuis le disque local**, sans dépendre
-du groupe 329932 disparu ni d'inari.centre-cired.fr.
+l'archive physique** (`outputs/file_index.json`, jointure par basename). Les
+fichiers existent donc localement, prêts à verser.
+
+## Contrainte de stockage (bloquant — voir [[0037]])
+
+Verser ces 647 PDF représente **17,5 Go** (Sachs 11,5 · LEESU 4,4 · Godard 1,8…).
+Les quotas Zotero gratuit (300 Mo) et payants 2/6 Go ne suffisent pas ; seul le
+palier **illimité** convient. La base étant sur un compte **personnel** de
+F. Bordignon (pas son adresse ENPC), on ne peut pas s'appuyer sur l'accord ENPC
+pour ce quota. **Ce ticket est donc gelé jusqu'à [[0037]]** (base sur un compte
+adossé ENPC).
+
+**Intérim retenu (2026-06-23)** : on garde les liens inari. Chaque notice porte
+une URL `inari.centre-cired.fr` qui sert le PDF — **100 % des 668, HTTP 200
+vérifié**. La dépendance inari est donc fonctionnelle ; rien n'est perdu avec le
+groupe mort 329932.
 
 Note connexe (ticket [[0025]]) : le groupe Recueil_CIRED (2511149) contient 148
 objets mais **0 attachement** — sa suppression ne perd aucun PDF. Le risque

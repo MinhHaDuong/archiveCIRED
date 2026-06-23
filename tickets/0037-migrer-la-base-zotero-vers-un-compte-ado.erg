@@ -1,0 +1,66 @@
+%erg 0.1
+Title: Migrer la base Zotero vers un compte adossé ENPC (stockage illimité)
+Created: 2026-06-23
+Author: minh
+Label: needs-human
+
+--- log ---
+2026-06-23T14:00Z minh created
+2026-06-23T14:00Z minh note Bloque 0030 : verser 17,5 Go de PDF exige le palier illimité, indisponible sur le compte perso actuel
+
+--- body ---
+## Context
+
+La bibliothèque My Library est possédée par F. Bordignon mais **sur une adresse
+personnelle, pas son adresse ENPC**. On ne peut donc **pas s'appuyer sur
+l'accord ENPC de stockage illimité** pour y verser les fichiers.
+
+Or rendre la base autonome (ticket [[0030]]) suppose de téléverser **17,5 Go**
+de PDF (fonds Sachs 11,5 Go, LEESU 4,4 Go, Godard 1,8 Go…). Les quotas Zotero
+gratuit (300 Mo) et payants 2/6 Go ne suffisent pas ; seul le palier **illimité
+(120 USD/an)** convient. Payer ce palier sur un compte personnel serait à la
+fois récurrent et fragile (tout repose sur un compte unique).
+
+Décision (2026-06-23) : **intérim** — on garde les liens inari (option 3 :
+chaque notice a une URL `inari.centre-cired.fr` qui sert le PDF, 100 % couvert,
+HTTP 200 vérifié). **Cible** — migrer la base sous un compte adossé à l'accord
+ENPC, où le quota illimité est disponible, puis exécuter 0030.
+
+## Relevant files
+
+- `outputs/pdf_stub_worklist.json` — volume et appariement des 647 PDF à verser
+- `tickets/0030-...erg` — téléversement, **bloqué par ce ticket**
+- `src/reconcile_zotero.py` — auth Zotero réutilisable pour un transfert API
+
+## Actions
+
+1. **Décision institutionnelle (humain)** : obtenir/confirmer un compte Zotero
+   adossé à l'accord ENPC (adresse ENPC de F. Bordignon, ou groupe institutionnel
+   ENPC avec quota illimité).
+2. Choisir le mode : transfert de propriété de la bibliothèque existante, ou
+   recréation dans un **groupe ENPC** + réimport des 764 notices (l'API permet
+   d'exporter/réimporter ; conserver les clés d'archive et les liens inari).
+3. Vérifier le quota disponible sur le compte cible avant tout upload.
+4. Une fois le stockage acquis : débloquer et lancer 0030.
+
+## Test
+
+- Sans objet (décision + manip de compte, pas de code applicatif). Si un script
+  de transfert est écrit, il suit la discipline `--dry-run`/`--apply --backup`.
+
+## Verification
+
+- [ ] Compte/groupe cible identifié, adossé ENPC, quota illimité confirmé
+- [ ] Les 764 notices présentes sur la cible, clés d'archive et liens inari intacts
+- [ ] 0030 débloqué (Blocked-by levé)
+
+## Invariants
+
+- Aucune perte de notice ni de métadonnée pendant la migration (export/backup
+  préalable).
+- Les liens inari restent valides tant que les fichiers ne sont pas versés.
+
+## Exit criteria
+
+- La base vit sur un stockage adossé ENPC où verser 17,5 Go est possible.
+- 0030 peut démarrer (précondition de stockage levée).
