@@ -157,7 +157,8 @@ def diff_fields(group: dict, perso: dict) -> dict:
         if f == "date":
             gv = _iso_date(gv)
         elif f in ("volume", "issue"):
-            gv, pv = _norm_number(gv), _norm_number(pv)
+            gv = _norm_number(gv)
+            # pv gardé brut : "vol. 8" ≠ "8" → patch généré pour nettoyer Zotero
         elif f == "pages":
             gv, pv = _norm_pages(gv), _norm_pages(pv)
         if _norm(gv) == _norm(pv):

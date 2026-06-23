@@ -149,11 +149,17 @@ def test_norm_pages_normalizes_range():
 
 
 def test_diff_fields_normalizes_volume_issue():
-    assert dr.diff_fields({"volume": "8"}, {"volume": "vol. 8"}) == {}
-    assert dr.diff_fields({"issue": "2"}, {"issue": "n°2"}) == {}
-    d = dr.diff_fields({"volume": "316"}, {"volume": "vol. 28"})
+    # groupe="8", perso="vol. 8" → patch généré : Zotero doit passer à "8"
+    d = dr.diff_fields({"volume": "8"}, {"volume": "vol. 8"})
     assert d["volume"]["type"] == "modification"
-    assert d["volume"]["groupe"] == "316"
+    assert d["volume"]["groupe"] == "8"
+    assert d["volume"]["perso"] == "vol. 8"
+    # idem issue : n°2 → 2
+    d2 = dr.diff_fields({"issue": "2"}, {"issue": "n°2"})
+    assert d2["issue"]["groupe"] == "2"
+    # groupe normalisé aussi quand il porte un préfixe
+    d3 = dr.diff_fields({"volume": "316"}, {"volume": "vol. 28"})
+    assert d3["volume"]["groupe"] == "316"
 
 
 def test_diff_fields_normalizes_pages_range():
