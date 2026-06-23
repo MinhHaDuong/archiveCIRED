@@ -233,6 +233,11 @@ def _enrich_library(lib_items: list[dict],
         for child in children_by_parent.get(data.get("key"), []):
             ubs.add(url_basename(child.get("url")))
             ubs.add(url_basename(child.get("title")))  # filename en pièce jointe
+        # 2e URL (recueil) stockée dans le champ Extra (convention catalogue) :
+        # une notice peut porter sa source numérisation dans `url` et le fichier
+        # recueil distinct en clair dans `Extra`. L'audit doit aussi la voir.
+        for u in re.findall(r"https?://\S+", data.get("extra", "") or ""):
+            ubs.add(url_basename(u))
         enriched.append((data, ubs - {""}))
     return enriched
 

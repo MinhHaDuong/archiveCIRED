@@ -1,18 +1,5 @@
 [
   {
-    "annee": "1981",
-    "titre": "Oppositions locales à des projets d'équipement",
-    "recueil_key": "LBZL2DLF",
-    "mylib_key": "B9PV9QB7",
-    "url_recueil": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1981-42-Nicolon_Oppositions_projets_d_equipement_article_rfsp_num_31_2.pdf",
-    "url_mylib": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GEN_0003.pdf",
-    "taille_recueil": 1733938,
-    "taille_mylib": 34645400,
-    "date_recueil": "Fri, 06 Mar 2020 15:45:28 GMT",
-    "date_mylib": "Fri, 23 Oct 2020 13:28:15 GMT",
-    "verdict": "taille_differente"
-  },
-  {
     "annee": "1982",
     "titre": "Environment and development revisited : ten years after Stockholm conference",
     "recueil_key": "H9SPPPJK",
@@ -23,49 +10,7 @@
     "taille_mylib": 17404908,
     "date_recueil": "Tue, 27 Oct 2020 14:50:30 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:42:04 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "59050538d12e014354309548cdd2c6e17fa2c9cd19ea47017692b43e8d9a0a9e",
-    "sha256_mylib": "59050538d12e014354309548cdd2c6e17fa2c9cd19ea47017692b43e8d9a0a9e",
-    "fichiers_identiques": true
-  },
-  {
-    "annee": "1981",
-    "titre": "Plaidoyer pour développer des technologies plus appropriées et passer du mimétisme au pluralisme technologique",
-    "recueil_key": "G9ELIQQ6",
-    "mylib_key": "RP95B3RA",
-    "url_recueil": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1981-43-_Thery_Mimetisme_technologique_Revue_Tiers_Monde_1981_88iers_0040-7356_1981_num_22_88_4073-2.pdf",
-    "url_mylib": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GEN_0004.pdf",
-    "taille_recueil": 827444,
-    "taille_mylib": 13697009,
-    "date_recueil": "Fri, 06 Mar 2020 15:45:28 GMT",
-    "date_mylib": "Fri, 23 Oct 2020 13:28:17 GMT",
-    "verdict": "taille_differente"
-  },
-  {
-    "annee": "1980",
-    "titre": "Les temps - espaces du développement",
-    "recueil_key": "TL695VVE",
-    "mylib_key": "R24GWFTW",
-    "url_recueil": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1980-38_Sachs_temps-espaces_developpement.pdf",
-    "url_mylib": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_SAC_0234.pdf",
-    "taille_recueil": 27140718,
-    "taille_mylib": 20930129,
-    "date_recueil": "Tue, 27 Oct 2020 14:49:59 GMT",
-    "date_mylib": "Fri, 23 Oct 2020 13:42:30 GMT",
-    "verdict": "taille_differente"
-  },
-  {
-    "annee": "1978",
-    "titre": "Développement, utopie, projet de société",
-    "recueil_key": "G9AEDNLN",
-    "mylib_key": "4VPQC7F6",
-    "url_recueil": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1978-192-Sachs.developpement_utopie.pdf",
-    "url_mylib": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_SAC_0334.pdf",
-    "taille_recueil": 1167535,
-    "taille_mylib": 40345467,
-    "date_recueil": "Thu, 04 Jun 2020 20:25:37 GMT",
-    "date_mylib": "Fri, 23 Oct 2020 13:47:32 GMT",
-    "verdict": "taille_differente"
+    "verdict": "taille_identique"
   },
   {
     "annee": "1983",
@@ -78,10 +23,7 @@
     "taille_mylib": 32596991,
     "date_recueil": "Tue, 27 Oct 2020 14:50:50 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:42:58 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "8d4db540404a316d17a5f82cb9abeac1255efdfb5164f5e88deb28474404da89",
-    "sha256_mylib": "8d4db540404a316d17a5f82cb9abeac1255efdfb5164f5e88deb28474404da89",
-    "fichiers_identiques": true
+    "verdict": "taille_identique"
   },
   {
     "annee": "1986",
@@ -107,10 +49,7 @@
     "taille_mylib": 182607,
     "date_recueil": "Fri, 06 Mar 2020 15:45:28 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:27:41 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "6c9e09388990198e5020c63de28e55652c81ae9ec1e626d3a6a190f3acca6784",
-    "sha256_mylib": "6c9e09388990198e5020c63de28e55652c81ae9ec1e626d3a6a190f3acca6784",
-    "fichiers_identiques": true
+    "verdict": "taille_identique"
   },
   {
     "annee": "1984",
@@ -123,23 +62,7 @@
     "taille_mylib": 38925006,
     "date_recueil": "Fri, 18 Dec 2020 14:20:40 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:31:38 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "8cb10305de208d338d569703e83a119abd9a165897be3925b39023e9ee6c01bc",
-    "sha256_mylib": "8cb10305de208d338d569703e83a119abd9a165897be3925b39023e9ee6c01bc",
-    "fichiers_identiques": true
-  },
-  {
-    "annee": "1975",
-    "titre": "La politique de l'environnement et l'avenir des relations entre l'Europe et le Tiers-Monde",
-    "recueil_key": "IRCNH6IF",
-    "mylib_key": "U6VHDB63",
-    "url_recueil": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1975-17-Ceron-Hource-environnement-europe-tiers-monde.pdf",
-    "url_mylib": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/1975-166.pdf",
-    "taille_recueil": 7038352,
-    "taille_mylib": 6881391,
-    "date_recueil": "Fri, 25 Sep 2020 13:50:28 GMT",
-    "date_mylib": "Fri, 23 Oct 2020 13:27:35 GMT",
-    "verdict": "taille_differente"
+    "verdict": "taille_identique"
   },
   {
     "annee": "1977",
@@ -165,23 +88,7 @@
     "taille_mylib": 19692290,
     "date_recueil": "Tue, 27 Oct 2020 14:49:20 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:43:11 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "c406f5ccc4c8a26353a343ce738035cea370ec28d0e7f12e75e8f9f37c9c03d5",
-    "sha256_mylib": "c406f5ccc4c8a26353a343ce738035cea370ec28d0e7f12e75e8f9f37c9c03d5",
-    "fichiers_identiques": true
-  },
-  {
-    "annee": "1984",
-    "titre": "Le biais mimétique dans le choix de techniques : un facteurd'asphyxie du dévéleoppement autocentré en Tanzanie",
-    "recueil_key": "PQZQLGTH",
-    "mylib_key": "62FAWZYT",
-    "url_recueil": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1984-64-Thery_biais-mimetique-choix-techniques-Tanzanie-_Tiers_Monde0040-7356_1984_num_25_100_4370.pdf",
-    "url_mylib": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GEN_0007.pdf",
-    "taille_recueil": 1137107,
-    "taille_mylib": 20160122,
-    "date_recueil": "Fri, 06 Mar 2020 15:45:28 GMT",
-    "date_mylib": "Fri, 23 Oct 2020 13:28:21 GMT",
-    "verdict": "taille_differente"
+    "verdict": "taille_identique"
   },
   {
     "annee": "1973",
@@ -194,10 +101,7 @@
     "taille_mylib": 12896420,
     "date_recueil": "Fri, 06 Mar 2020 15:45:00 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:27:33 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "dab18d639b7e1a17670ad0282992d3fe907e320c959e51357e33b0301f25dd28",
-    "sha256_mylib": "dab18d639b7e1a17670ad0282992d3fe907e320c959e51357e33b0301f25dd28",
-    "fichiers_identiques": true
+    "verdict": "taille_identique"
   },
   {
     "annee": "1993",
@@ -210,23 +114,7 @@
     "taille_mylib": 324453,
     "date_recueil": "Fri, 06 Mar 2020 15:45:28 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:27:40 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "85dffc13ad47748c1f3fd9c6db5ff0d6926e098d3d78140bc4e33b5f189aa347",
-    "sha256_mylib": "85dffc13ad47748c1f3fd9c6db5ff0d6926e098d3d78140bc4e33b5f189aa347",
-    "fichiers_identiques": true
-  },
-  {
-    "annee": "1982",
-    "titre": "Les bifurcations de la politique énergétique française depuis la guerre",
-    "recueil_key": "M4BTRNDY",
-    "mylib_key": "2YWUKF7M",
-    "url_recueil": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1982-55-Puiseux-bifurcations-politique-energetique.pdf",
-    "url_mylib": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GEN_0005.pdf",
-    "taille_recueil": 1251213,
-    "taille_mylib": 23482808,
-    "date_recueil": "Fri, 06 Mar 2020 15:45:28 GMT",
-    "date_mylib": "Fri, 23 Oct 2020 13:28:19 GMT",
-    "verdict": "taille_differente"
+    "verdict": "taille_identique"
   },
   {
     "annee": "1989",
@@ -239,23 +127,7 @@
     "taille_mylib": 2292822,
     "date_recueil": "Fri, 06 Mar 2020 15:45:28 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:27:39 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "1fd750a87f5c255281b431f111076b1550fc2dddfb3a3dfbfaa88e7e26da9ad9",
-    "sha256_mylib": "1fd750a87f5c255281b431f111076b1550fc2dddfb3a3dfbfaa88e7e26da9ad9",
-    "fichiers_identiques": true
-  },
-  {
-    "annee": "1975",
-    "titre": "L’environnement, obstacle ou argument pour un nouvel ordre économique international : essai de prospective à l’échelle du bassin méditerranéen",
-    "recueil_key": "XPE8ZI2Y",
-    "mylib_key": "BSU65UVI",
-    "url_recueil": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1975-15-Hourcade_environnement-obstacle-argument-Options_mediterraneennes_n31.pdf",
-    "url_mylib": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/1975-015.pdf",
-    "taille_recueil": 3291267,
-    "taille_mylib": 3286554,
-    "date_recueil": "Fri, 06 Mar 2020 15:45:28 GMT",
-    "date_mylib": "Fri, 23 Oct 2020 13:27:34 GMT",
-    "verdict": "taille_differente"
+    "verdict": "taille_identique"
   },
   {
     "annee": "1997",
@@ -268,10 +140,7 @@
     "taille_mylib": 213589,
     "date_recueil": "Fri, 06 Mar 2020 15:45:28 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:27:41 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "60f869f8f94dd8b0a917ff172d86b5083568f01c984e8554b3de2941d08cb414",
-    "sha256_mylib": "60f869f8f94dd8b0a917ff172d86b5083568f01c984e8554b3de2941d08cb414",
-    "fichiers_identiques": true
+    "verdict": "taille_identique"
   },
   {
     "annee": "1991",
@@ -284,10 +153,7 @@
     "taille_mylib": 278539,
     "date_recueil": "Fri, 06 Mar 2020 15:45:28 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:27:40 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "236040bc41679538b0aaf3a8374ee4a385bc1d5942b76f7be29c226582a88922",
-    "sha256_mylib": "236040bc41679538b0aaf3a8374ee4a385bc1d5942b76f7be29c226582a88922",
-    "fichiers_identiques": true
+    "verdict": "taille_identique"
   },
   {
     "annee": "1998",
@@ -300,10 +166,7 @@
     "taille_mylib": 103805,
     "date_recueil": "Fri, 06 Mar 2020 15:45:28 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:27:41 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "9a62db89e74870ebf51596adf045132fd85fa501c76d419f8ffd91cfff120acd",
-    "sha256_mylib": "9a62db89e74870ebf51596adf045132fd85fa501c76d419f8ffd91cfff120acd",
-    "fichiers_identiques": true
+    "verdict": "taille_identique"
   },
   {
     "annee": "1998",
@@ -316,10 +179,7 @@
     "taille_mylib": 128325,
     "date_recueil": "Fri, 06 Mar 2020 15:45:28 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:27:38 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "1b181f668618bc2910a63b0700fa3b064608e18bcdbc77fe4b6044e8b4fc3ea8",
-    "sha256_mylib": "1b181f668618bc2910a63b0700fa3b064608e18bcdbc77fe4b6044e8b4fc3ea8",
-    "fichiers_identiques": true
+    "verdict": "taille_identique"
   },
   {
     "annee": "1998",
@@ -332,10 +192,7 @@
     "taille_mylib": 270894,
     "date_recueil": "Fri, 06 Mar 2020 15:45:28 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:27:41 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "4deb3b885b4fbb1ac73eee1fea8205b33b05cc5456c440108aec30b2a620caf5",
-    "sha256_mylib": "4deb3b885b4fbb1ac73eee1fea8205b33b05cc5456c440108aec30b2a620caf5",
-    "fichiers_identiques": true
+    "verdict": "taille_identique"
   },
   {
     "annee": "1997",
@@ -348,10 +205,7 @@
     "taille_mylib": 225916,
     "date_recueil": "Fri, 06 Mar 2020 15:45:28 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:27:41 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "767368650800a8bf7965e2332d065e312827f250797b06e437a69b8621da94de",
-    "sha256_mylib": "767368650800a8bf7965e2332d065e312827f250797b06e437a69b8621da94de",
-    "fichiers_identiques": true
+    "verdict": "taille_identique"
   },
   {
     "annee": "1997",
@@ -364,10 +218,7 @@
     "taille_mylib": 263651,
     "date_recueil": "Fri, 06 Mar 2020 15:45:28 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:27:41 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "e3bc9b2405304116a95cd318743a489453db9fa2efa3f483e8521b301ae31689",
-    "sha256_mylib": "e3bc9b2405304116a95cd318743a489453db9fa2efa3f483e8521b301ae31689",
-    "fichiers_identiques": true
+    "verdict": "taille_identique"
   },
   {
     "annee": "1997",
@@ -380,10 +231,7 @@
     "taille_mylib": 221031,
     "date_recueil": "Fri, 06 Mar 2020 15:45:28 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:27:41 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "4f1a91f7be4a91cbbc4729b0d6edd5de933cc981a60357c6e7e0acb70156d357",
-    "sha256_mylib": "4f1a91f7be4a91cbbc4729b0d6edd5de933cc981a60357c6e7e0acb70156d357",
-    "fichiers_identiques": true
+    "verdict": "taille_identique"
   },
   {
     "annee": "1997",
@@ -396,10 +244,7 @@
     "taille_mylib": 261561,
     "date_recueil": "Fri, 06 Mar 2020 15:45:28 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:27:41 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "8147fb6e8017f12281afd71ff88455e11bd7ba44b8fe4c1acfe9afb4b4dee8e0",
-    "sha256_mylib": "8147fb6e8017f12281afd71ff88455e11bd7ba44b8fe4c1acfe9afb4b4dee8e0",
-    "fichiers_identiques": true
+    "verdict": "taille_identique"
   },
   {
     "annee": "1992",
@@ -412,10 +257,7 @@
     "taille_mylib": 205008,
     "date_recueil": "Fri, 06 Mar 2020 15:45:28 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:27:40 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "abcf72205104bf5f1da1560daee2812d6e28ede718de3456019efb9437e44ef8",
-    "sha256_mylib": "abcf72205104bf5f1da1560daee2812d6e28ede718de3456019efb9437e44ef8",
-    "fichiers_identiques": true
+    "verdict": "taille_identique"
   },
   {
     "annee": "1992",
@@ -428,49 +270,7 @@
     "taille_mylib": 161589,
     "date_recueil": "Fri, 06 Mar 2020 15:45:28 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:27:40 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "4a76c9d62d91f28d66de8fd6d0522f6647474472589040fd3bced3971aaacf2c",
-    "sha256_mylib": "4a76c9d62d91f28d66de8fd6d0522f6647474472589040fd3bced3971aaacf2c",
-    "fichiers_identiques": true
-  },
-  {
-    "annee": "1990",
-    "titre": "Environnement, modes de coordination et systèmes de légitimité : analyse de la catégorie de patrimoine naturel",
-    "recueil_key": "7ZYDMBRA",
-    "mylib_key": "BPFGPPBH",
-    "url_recueil": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1990-83-IMPRIME-DES-PAGES-BLANCHES-Godard-environnement-modes-coordination-legitmite.pdf",
-    "url_mylib": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GOD_0013.pdf",
-    "taille_recueil": 2443423,
-    "taille_mylib": 978013,
-    "date_recueil": "Fri, 06 Mar 2020 15:45:28 GMT",
-    "date_mylib": "Fri, 23 Oct 2020 13:28:47 GMT",
-    "verdict": "taille_differente"
-  },
-  {
-    "annee": "1989",
-    "titre": "Jeux de nature : quand le débat sur l'efficacité des politiques publiques contient la question de leur légitilité",
-    "recueil_key": "88CIV4SC",
-    "mylib_key": "DPQBEHSB",
-    "url_recueil": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1989-78-Godard_Jeux_de_nature_chez_Jollivet_et_Mathieu_Harmattan.pdf",
-    "url_mylib": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GOD_0032.pdf",
-    "taille_recueil": 229022,
-    "taille_mylib": 202055,
-    "date_recueil": "Fri, 06 Mar 2020 15:45:28 GMT",
-    "date_mylib": "Fri, 23 Oct 2020 13:39:53 GMT",
-    "verdict": "taille_differente"
-  },
-  {
-    "annee": "1975",
-    "titre": "L'occupation  des espaces littoraux méditérranéens",
-    "recueil_key": "X7ASGCXN",
-    "mylib_key": "RQ2AY8XX",
-    "url_recueil": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1975-16-Godard_occupation-espaces-littoraux-Options_Mediterrannennes_n3.pdf",
-    "url_mylib": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GOD_0030.pdf",
-    "taille_recueil": 3395438,
-    "taille_mylib": 3450889,
-    "date_recueil": "Fri, 06 Mar 2020 15:45:28 GMT",
-    "date_mylib": "Fri, 23 Oct 2020 13:29:49 GMT",
-    "verdict": "taille_differente"
+    "verdict": "taille_identique"
   },
   {
     "annee": "1984",
@@ -483,23 +283,7 @@
     "taille_mylib": 3285442,
     "date_recueil": "Fri, 06 Mar 2020 15:45:28 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:27:38 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "dc6117a16c56df58e5afb8b29640e389b413b8e311ad9f13c72da68b459b7ec9",
-    "sha256_mylib": "dc6117a16c56df58e5afb8b29640e389b413b8e311ad9f13c72da68b459b7ec9",
-    "fichiers_identiques": true
-  },
-  {
-    "annee": "1989",
-    "titre": "Développement des réseaux et modulations spatio-temporelles des tarifs: l'équité territoriale revisitée",
-    "recueil_key": "TISPDA42",
-    "mylib_key": "VMZPHJXH",
-    "url_recueil": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1989-81-Hourcade-Colombier-dev-reseaux-modulations-spatio-num_40_4_409159.pdf",
-    "url_mylib": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_HOU_0001.pdf",
-    "taille_recueil": 2489371,
-    "taille_mylib": 2485646,
-    "date_recueil": "Fri, 06 Mar 2020 15:45:28 GMT",
-    "date_mylib": "Fri, 23 Oct 2020 13:31:19 GMT",
-    "verdict": "taille_differente"
+    "verdict": "taille_identique"
   },
   {
     "annee": "1973",
@@ -512,10 +296,7 @@
     "taille_mylib": 295834,
     "date_recueil": "Fri, 06 Mar 2020 15:45:28 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:27:33 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "20c4db17d55c3510d6cf454978547016d818a4517c698efa039e82ba6d404475",
-    "sha256_mylib": "20c4db17d55c3510d6cf454978547016d818a4517c698efa039e82ba6d404475",
-    "fichiers_identiques": true
+    "verdict": "taille_identique"
   },
   {
     "annee": "1979",
@@ -528,10 +309,7 @@
     "taille_mylib": 9545976,
     "date_recueil": "Tue, 27 Oct 2020 16:06:38 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:31:20 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "a572123e023f1cda76da0061c478324a2b6cdaef076ef7b1cffb2a5c511ef087",
-    "sha256_mylib": "a572123e023f1cda76da0061c478324a2b6cdaef076ef7b1cffb2a5c511ef087",
-    "fichiers_identiques": true
+    "verdict": "taille_identique"
   },
   {
     "annee": "1993",
@@ -544,23 +322,7 @@
     "taille_mylib": 49440,
     "date_recueil": "Fri, 06 Mar 2020 15:45:28 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:27:40 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "4390491147e8a27d645451cea8c2242dfad0a495105273ba333e4ba7d1b2bca9",
-    "sha256_mylib": "4390491147e8a27d645451cea8c2242dfad0a495105273ba333e4ba7d1b2bca9",
-    "fichiers_identiques": true
-  },
-  {
-    "annee": "1992",
-    "titre": "La relation interdisciplinaire : problèmes et stratégies",
-    "recueil_key": "I73N53PY",
-    "mylib_key": "Y6PTWIVR",
-    "url_recueil": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1992-89-Godard-relation-interdisciplinaire.pdf",
-    "url_mylib": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GOD_0045.pdf",
-    "taille_recueil": 386184,
-    "taille_mylib": 68823490,
-    "date_recueil": "Fri, 06 Mar 2020 15:45:28 GMT",
-    "date_mylib": "Fri, 23 Oct 2020 13:30:42 GMT",
-    "verdict": "taille_differente"
+    "verdict": "taille_identique"
   },
   {
     "annee": "1985",
@@ -573,10 +335,7 @@
     "taille_mylib": 35439360,
     "date_recueil": "Tue, 27 Oct 2020 14:51:00 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:31:41 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "251e8767ff833aaf540a15f89daa515979b0199408d530f7a866ba650b36f67a",
-    "sha256_mylib": "251e8767ff833aaf540a15f89daa515979b0199408d530f7a866ba650b36f67a",
-    "fichiers_identiques": true
+    "verdict": "taille_identique"
   },
   {
     "annee": "1982",
@@ -589,10 +348,7 @@
     "taille_mylib": 32866873,
     "date_recueil": "Tue, 27 Oct 2020 14:50:38 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:44:20 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "2beebb142fbbee16f0313a4c8fdb0596dde4a9ba81a9632736109f777ff29f13",
-    "sha256_mylib": "2beebb142fbbee16f0313a4c8fdb0596dde4a9ba81a9632736109f777ff29f13",
-    "fichiers_identiques": true
+    "verdict": "taille_identique"
   },
   {
     "annee": "1981",
@@ -605,10 +361,7 @@
     "taille_mylib": 13314245,
     "date_recueil": "Tue, 27 Oct 2020 14:50:20 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:27:37 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "192d7da35f5adffaf543caf5341d7e85269057c84bf47371352438095f59d382",
-    "sha256_mylib": "192d7da35f5adffaf543caf5341d7e85269057c84bf47371352438095f59d382",
-    "fichiers_identiques": true
+    "verdict": "taille_identique"
   },
   {
     "annee": "1979",
@@ -621,10 +374,7 @@
     "taille_mylib": 34762411,
     "date_recueil": "Tue, 27 Oct 2020 14:49:37 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:43:42 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "5fcf53b68bb16b55714d683874ff80fc76b19e9720f7c7bbceba2053cc8a93d0",
-    "sha256_mylib": "5fcf53b68bb16b55714d683874ff80fc76b19e9720f7c7bbceba2053cc8a93d0",
-    "fichiers_identiques": true
+    "verdict": "taille_identique"
   },
   {
     "annee": "1978",
@@ -637,10 +387,7 @@
     "taille_mylib": 26406280,
     "date_recueil": "Tue, 27 Oct 2020 14:49:28 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:47:27 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "a90dd0f35275e4bca1fe9a951cc38641d78fe8f9cd60d580ddb5cc9fd03890be",
-    "sha256_mylib": "a90dd0f35275e4bca1fe9a951cc38641d78fe8f9cd60d580ddb5cc9fd03890be",
-    "fichiers_identiques": true
+    "verdict": "taille_identique"
   },
   {
     "annee": "1975",
@@ -653,10 +400,7 @@
     "taille_mylib": 109799028,
     "date_recueil": "Tue, 27 Oct 2020 14:49:12 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:48:41 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "25a83864841848315d14995b842c3e98e4c213eedf0d3487c74c63fc3b7eb8cb",
-    "sha256_mylib": "25a83864841848315d14995b842c3e98e4c213eedf0d3487c74c63fc3b7eb8cb",
-    "fichiers_identiques": true
+    "verdict": "taille_identique"
   },
   {
     "annee": "1995",
@@ -669,10 +413,7 @@
     "taille_mylib": 1770559,
     "date_recueil": "Fri, 06 Mar 2020 15:45:28 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:27:41 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "66bf7bfe666e5729d1e019ad1f8d22126ab47ca072616033d6e163c470101de9",
-    "sha256_mylib": "66bf7bfe666e5729d1e019ad1f8d22126ab47ca072616033d6e163c470101de9",
-    "fichiers_identiques": true
+    "verdict": "taille_identique"
   },
   {
     "annee": "1993",
@@ -685,22 +426,32 @@
     "taille_mylib": 148113,
     "date_recueil": "Fri, 06 Mar 2020 15:45:28 GMT",
     "date_mylib": "Fri, 23 Oct 2020 13:27:40 GMT",
-    "verdict": "taille_identique",
-    "sha256_recueil": "3ca9fd950a79c3dfd9d0cbb3c4114eed2a432fa0d523eb3a7684a0513aea4e53",
-    "sha256_mylib": "3ca9fd950a79c3dfd9d0cbb3c4114eed2a432fa0d523eb3a7684a0513aea4e53",
-    "fichiers_identiques": true
+    "verdict": "taille_identique"
   },
   {
-    "annee": "1982",
-    "titre": "Décentralisation et planification du développement endogène",
-    "recueil_key": "5NMK4RVK",
-    "mylib_key": "STPFPZYZ",
-    "url_recueil": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1982-52-Godard_La_decentralisation_et_la_planification_du_developpement_endogene_IFDA_doss_32.pdf",
-    "url_mylib": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GOD_0031.pdf",
-    "taille_recueil": 2133485,
-    "taille_mylib": 87179,
+    "annee": "1996",
+    "titre": "Le développement durable et le devenir des villes. Bonnes intentions et fausses bonnes idées",
+    "recueil_key": "QZ4RUYE4",
+    "mylib_key": "S8VUIU74",
+    "url_recueil": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1995-109-Godard_Le_developpement_durable_et_le_devenir_des_villes__bonnes_intentions_Futuribles_n209_pp.29-35.pdf",
+    "url_mylib": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/1995-109.pdf",
+    "taille_recueil": 75610,
+    "taille_mylib": 75610,
     "date_recueil": "Fri, 06 Mar 2020 15:45:28 GMT",
-    "date_mylib": "Fri, 23 Oct 2020 13:29:49 GMT",
+    "date_mylib": "Fri, 23 Oct 2020 13:27:41 GMT",
+    "verdict": "taille_identique"
+  },
+  {
+    "annee": "1972",
+    "titre": "Environnement et projet de civilisation",
+    "recueil_key": "TIZUI4EU",
+    "mylib_key": "3ZMINRSF",
+    "url_recueil": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1972-5-Sachs.environnement_projet_civilisation.pdf",
+    "url_mylib": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_SAC_0350.pdf",
+    "taille_recueil": 1063177,
+    "taille_mylib": 27231597,
+    "date_recueil": "Tue, 24 Apr 2012 10:35:08 GMT",
+    "date_mylib": "Fri, 23 Oct 2020 13:48:01 GMT",
     "verdict": "taille_differente"
   },
   {
