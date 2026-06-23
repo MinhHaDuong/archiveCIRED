@@ -1,0 +1,61 @@
+%erg 0.1
+Title: Réconcilier le fonds Sachs avec sa bibliographie publiée (CRBC-EHESS)
+Created: 2026-06-23
+Author: Minh Ha-Duong
+
+--- log ---
+2026-06-23T07:22Z Minh Ha-Duong created
+2026-06-23T07:22Z claude note Issu de la revue 0019 : vérification sur PDF des notices Sachs (Les Temps Modernes n°316, etc.). Une bibliographie publiée d'Ignacy Sachs fournit la vérité-terrain pour tout le fonds.
+
+--- body ---
+## Context
+
+Pendant la revue des corrections du recueil (0019), la vérification des notices
+Sachs sur les PDF a montré des métadonnées incomplètes ou erronées (revue,
+éditeur, volume vs numéro, date au mois près). Une **bibliographie publiée**
+d'Ignacy Sachs existe et fait autorité — elle permet de réconcilier
+systématiquement tout le fonds Sachs (CIR_SAC_*, ~581 fichiers) plutôt que au
+cas par cas.
+
+Source : *Ignacy Sachs 1953–1999, vol. 1*, CRBC-EHESS —
+https://crbc.ehess.fr/docannexe/file/1359/ignacy_sachs_1953_1999_vol._1.pdf
+(noter : vol. 1 ; chercher les volumes suivants pour la couverture complète).
+
+## Relevant files
+
+- `outputs/doc_index.json` — notices du fonds (fonds CIR_SAC)
+- `outputs/reconcile_report.md` — couverture CIR_SAC 581/581
+- Catalogue Zotero (My Library + groupe), via `src/reconcile_zotero.py`
+
+## Actions
+
+1. Récupérer la/les bibliographie(s) Sachs (vol. 1 ci-dessus + suites) et en
+   extraire une table structurée (titre, revue/ouvrage, année, volume, numéro,
+   pages, éditeur) — parsing du PDF.
+2. Apparier chaque entrée bibliographique aux notices CIR_SAC du catalogue
+   (par titre+année ; réutiliser la logique d'appariement de `match_untyped` /
+   `diff_recueil`).
+3. Produire un rapport de diff (bibliographie → notice) pour revue, puis
+   propager les corrections validées dans My Library (sens unique, backup).
+
+## Test
+
+- Parsing d'une entrée bibliographique → champs structurés, sur fixtures.
+- Diff de champs (réutiliser `diff_recueil.diff_fields`).
+
+## Verification
+
+- [ ] Table structurée extraite de la bibliographie
+- [ ] Rapport d'appariement bibliographie ↔ notices CIR_SAC
+- [ ] Corrections validées propagées (backup), aucune perte
+
+## Invariants
+
+- Propagation après revue humaine uniquement ; dry-run par défaut.
+- Ne pas toucher l'archive source sur disque.
+- Apparier sur identifiant/titre+année, jamais écraser à l'aveugle.
+
+## Exit criteria
+
+- [ ] Fonds Sachs réconcilié avec la bibliographie publiée (rapport + corrections)
+- [ ] `make check` passe
