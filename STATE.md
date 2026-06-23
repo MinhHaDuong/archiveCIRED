@@ -9,7 +9,7 @@ quelle publication via Zotero, métadonnées correctes. Dépôt HAL différé.
 
 ## Status
 <!-- generated 2026-06-23T09:45Z (à la main : refresh-STATE.py cassé, cf. 0027) -->
-**Tickets:** 9 prêts · 2 bloqués (0015←0018+0019+0025, 0024←0022+0023) · 4 différés (0003/0005/0006/0007) — `erg ready tickets/`
+**Tickets:** 10 prêts · 3 bloqués (0015←0018+0019+0025, 0024←0022+0023, 0030←0037) · 0037 needs-human (compte ENPC) · 4 différés (0003/0005/0006/0007) — `erg ready tickets/`
 **Catalogue:** base dédupliquée **686** notices ; recueil 50 ans d'Antonin **miroité** dans la collection « Recueil 50 ans CIRED » (key VPDB49CK, **131 items**) + tag `recueil-50ans`. Règle : apparier par **id, jamais par titre**.
 **Index:** file_index 1991 fichiers (0010) · doc_index 1112 docs (0011) · CI make check (0012) · 81 tests passent.
 **Recent commits:**
@@ -29,8 +29,9 @@ quelle publication via Zotero, métadonnées correctes. Dépôt HAL différé.
 
 ## Notes
 
-- **Autonomie PDF : 15 PDF réels / 764** seulement ; 668 stubs sans fichier (642
-  copiés du groupe mort 329932, 404), **647 récupérables depuis l'archive** → 0030.
+- **Autonomie PDF : 15 PDF réels / 764** ; 668 stubs sans fichier, mais **inari
+  sert les 668 (HTTP 200)** → intérim = liens inari. Verser les 17,5 Go (0030) est
+  **bloqué stockage** : compte perso ≠ quota ENPC → migration compte ENPC (0037).
 - Recueil miroité mais **non vérifié** : ne pas supprimer le groupe avant 0025 vert.
   Le groupe a **0 attachement** ⇒ aucune perte de fichier ; 0025 = audit métadonnées.
 - Binaire committé `tickets/erg` obsolète (casse refresh-STATE.py) → 0027.
