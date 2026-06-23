@@ -116,16 +116,20 @@ def _cell(value) -> str:
 def render_markdown(report: dict) -> str:
     """Table numérotée, une ligne par champ corrigé, pour revue humaine."""
     head = [
-        "# Corrections d'Antonin à revoir — groupe Recueil_CIRED → My Library",
+        "# Corrections d'Antonin à revoir",
         "",
         f"{report['paires_avec_corrections']} notices à corriger · "
         f"{report['total_ajouts']} ajouts · {report['total_modifications']} modifications.",
         "",
-        "Sens unique groupe → perso. « perso » = valeur actuelle, « groupe » = "
-        "valeur proposée par Antonin. Décider ligne par ligne avant propagation.",
+        "Antonin a corrigé les métadonnées dans le **groupe Recueil_CIRED** ; on "
+        "veut reporter ces corrections dans **My Library** (l'ancienne version). "
+        "Sens : Recueil_CIRED → My Library. La dernière colonne est la valeur "
+        "*proposée* (celle d'Antonin). Décider ligne par ligne avant propagation.",
         "",
-        "| # | Notice (perso) | Champ | Type | perso (actuel) | groupe (proposé) |",
-        "|--:|----------------|-------|------|----------------|------------------|",
+        "| # | Notice | Champ | Type | Valeur actuelle (My Library) "
+        "| Valeur d'Antonin (Recueil_CIRED) |",
+        "|--:|--------|-------|------|------------------------------"
+        "|----------------------------------|",
     ]
     lines, i = [], 0
     for row in sorted(report["corrections"], key=lambda r: -(r.get("score") or 0)):

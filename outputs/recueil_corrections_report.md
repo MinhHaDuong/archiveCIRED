@@ -1,11 +1,11 @@
-# Corrections d'Antonin à revoir — groupe Recueil_CIRED → My Library
+# Corrections d'Antonin à revoir
 
 25 notices à corriger · 22 ajouts · 54 modifications.
 
-Sens unique groupe → perso. « perso » = valeur actuelle, « groupe » = valeur proposée par Antonin. Décider ligne par ligne avant propagation.
+Antonin a corrigé les métadonnées dans le **groupe Recueil_CIRED** ; on veut reporter ces corrections dans **My Library** (l'ancienne version). Sens : Recueil_CIRED → My Library. La dernière colonne est la valeur *proposée* (celle d'Antonin). Décider ligne par ligne avant propagation.
 
-| # | Notice (perso) | Champ | Type | perso (actuel) | groupe (proposé) |
-|--:|----------------|-------|------|----------------|------------------|
+| # | Notice | Champ | Type | Valeur actuelle (My Library) | Valeur d'Antonin (Recueil_CIRED) |
+|--:|--------|-------|------|------------------------------|----------------------------------|
 | 1 | Oppositions locales à des projets d'équipement | `publicationTitle` | ✏️ modification | Revue françaisede sciences politiques | Revue française de sciences politiques |
 | 2 | Oppositions locales à des projets d'équipement | `volume` | ➕ ajout | — | 31 |
 | 3 | Oppositions locales à des projets d'équipement | `issue` | ✏️ modification | n°2 | 2 |

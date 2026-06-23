@@ -88,7 +88,8 @@ def test_render_markdown_one_row_per_field_change():
         }],
     }
     md = dr.render_markdown(report)
-    assert "| # | Notice (perso) |" in md          # en-tête de table
+    assert "Valeur actuelle (My Library)" in md     # en-tête explicite, sans ambiguïté
+    assert "Valeur d'Antonin (Recueil_CIRED)" in md
     assert "| 1 | Un titre | `pages` | ➕ ajout | — | 1-10 |" in md
     assert "\\|" in md                              # pipe échappé dans une valeur
     assert md.count("\n| 2 |") == 1                 # numérotation continue
