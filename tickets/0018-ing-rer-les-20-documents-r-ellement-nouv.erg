@@ -7,6 +7,7 @@ Author: Minh Ha-Duong
 2026-06-22T18:08Z Minh Ha-Duong created
 2026-06-22T18:08Z claude note Enfant de 0015 (tracker). Actionnable sans la table d'Antonin : « nouveau » se décide sur l'id YYYY-NNN du fichier, pas sur une jointure curatoriale.
 
+2026-06-22T18:17Z claude note Action 1 faite : src/select_new_recueil.py reproduit la sélection (77 déjà-corpus, 8 meilleurs-scans, 18 nouveaux, 7 non-standard). Reste l'ingestion Zotero (écriture groupe privé, humain).
 --- body ---
 ## Context
 
@@ -27,12 +28,44 @@ Ce flux **ne dépend pas** de la table `YYYY-NN`↔document d'Antonin qui bloque
 - `outputs/doc_index.json` — ids `YYYY-NNN` déjà présents
 - `attente/à dédoublonner avec ce qui est déjà traité/` (archive, lecture seule)
 
+## Sélection reproductible — FAIT (2026-06-22)
+
+`src/select_new_recueil.py` → `outputs/recueil_new_docs.json`. Décision fondée
+sur le fichier seul (hash + id), sans la table d'Antonin. Sur 110 fichiers du
+recueil : 77 déjà dans le corpus (renommage), **8** meilleurs scans (id connu,
+contenu ≠), **18** nouveaux (id absent de docs/), 7 à id non standard.
+
+Les chiffres diffèrent du diagnostic 0015 (« 20 / 6 ») à cause du cas
+`1975-019` ×2 (deux articles distincts au même numéro d'archive) : l'id étant
+présent dans docs/, ils tombent en « meilleur scan », pas en « nouveau ». 18 est
+le compte défendable des id réellement absents ; le rapport liste tout.
+
+Les 18 nouveaux sont bien les Hourcade/Godard/Quirion climat-éco 2001–2013
+attendus (+ qq 1972–1993).
+
+## Préparation de l'ingestion — FAIT (2026-06-22)
+
+`src/build_recueil_ris.py` → `outputs/recueil_new_docs.ris` (18 notices, à
+revoir avant import — aucune écriture Zotero). Découverte en appariant les 18
+aux notices du groupe `Recueil_CIRED` par préfixe `YYYY-NN` :
+
+- **5/18 seulement** sont dans le groupe d'Antonin → RIS riche (type, auteurs,
+  revue, volume, pages, abstract).
+- **13/18 sont absents AUSSI du groupe** : nouveaux pour le corpus ET pour le
+  groupe (surtout les climat-éco 2007–2013). Pas de métadonnée riche à copier ;
+  RIS *stub* dérivé du nom de fichier, marqué `N1 - à vérifier`.
+
+Conséquence : l'ingestion des 13 demande une vraie saisie (résolution DOI /
+Crossref ou saisie manuelle), pas une simple copie depuis le groupe.
+
 ## Actions
 
-1. Reconstituer la liste des 20 nouveaux + 6 meilleurs-scans depuis file_index
-   (id absent de docs/ ; hash unique) — script ou requête reproductible.
-2. Pour les 6 meilleurs scans : comparer les deux PDF, décider lequel garder.
-3. Ajouter les 20 nouveaux au catalogue Zotero (notice + lien inari recueil).
+1. [x] Reconstituer la liste reproductible (`src/select_new_recueil.py`).
+2. [x] Préparer le RIS d'import (`src/build_recueil_ris.py`).
+3. [ ] Pour les 8 meilleurs scans : comparer les deux PDF, décider lequel garder
+   (inclut le doublon de numéro `1975-019` ×2, signalé par `ids_en_collision`).
+4. [ ] Enrichir les 13 stubs (DOI/Crossref ou saisie) puis importer les 18 au
+   catalogue — étape de saisie/écriture sur le groupe privé, humaine.
 
 ## Test
 
@@ -41,9 +74,10 @@ Ce flux **ne dépend pas** de la table `YYYY-NN`↔document d'Antonin qui bloque
 
 ## Verification
 
-- [ ] Liste des 20 nouveaux + 6 meilleurs-scans reproductible
-- [ ] Décision documentée pour chacun des 6 doublons de contenu
-- [ ] 20 notices ajoutées au catalogue
+- [x] Liste des nouveaux + meilleurs-scans reproductible (`recueil_new_docs.json`)
+- [x] RIS d'import préparé pour les 18 (`recueil_new_docs.ris`)
+- [ ] Décision documentée pour chacun des 8 doublons de contenu
+- [ ] 18 notices ajoutées au catalogue
 
 ## Invariants
 
@@ -52,5 +86,6 @@ Ce flux **ne dépend pas** de la table `YYYY-NN`↔document d'Antonin qui bloque
 
 ## Exit criteria
 
-- [ ] Les 20 documents nouveaux sont au catalogue
+- [ ] Les 18 documents nouveaux sont au catalogue
+- [ ] Décision documentée pour les 8 meilleurs scans (quel PDF garder)
 - [ ] `make check` passe

@@ -1,0 +1,232 @@
+{
+  "recueil_total": 110,
+  "n_deja_corpus": 77,
+  "n_meilleur_scan": 8,
+  "n_nouveau": 18,
+  "n_id_non_standard": 7,
+  "deja_corpus": [
+    "attente/à dédoublonner avec ce qui est déjà traité/1973-9-reaction-a-the_limit_ to_growth.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1979-32-Sachs_Maldevelopment_Development_and_Change.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1981-43-_Thery_Mimetisme_technologique_Revue_Tiers_Monde_1981_88iers_0040-7356_1981_num_22_88_4073-2.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1982-55-Puiseux-bifurcations-politique-energetique.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1984 63-Schiray_Gaudin_economie-cachee.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1984-64-Thery_biais-mimetique-choix-techniques-Tanzanie-_Tiers_Monde0040-7356_1984_num_25_100_4370.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1985-68-Hourcade_economies d'echelle-corr-Isabelle.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1989-78-Godard_Jeux_de_nature_chez_Jollivet_et_Mathieu_Harmattan.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1989-79-IMPRIME-DES-PAGES-BLANCHES-_Schiray-economie_de_la_drogue_Sciences_sociales_et_sante7_1989_num_7_3_1134.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1989-80-hourcade-megie-theys-bouleversement-climats-gerer-incertitudeLzPTx7yJ.pdf-1.part.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1989-81-Hourcade-Colombier-dev-reseaux-modulations-spatio-num_40_4_409159.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1990-83-IMPRIME-DES-PAGES-BLANCHES-Godard-environnement-modes-coordination-legitmite.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1991-86-Godard-Salles-jeux-irreversibilite.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1991-87-Godard-Hourcade-Instruments-gestion-collective-risques-climatiques..pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1992-88-Godard-Variables-coordination-negociation-univers-controverse.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1992-89-Godard-relation-interdisciplinaire.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1992-90-Godard-economie-ecologie-nature-des-choses.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1992-93-Hourcade_Salles_Thery_Ecological-economics_and_scientific_controversies_Ecolofical_Economics-_n3.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1993-92 Hourcade Modelling long run scenarios Energy_Policy_21.3_pp309-326.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1993-96-Godard-Politiques-envt-transition-economie-marche-Europe-centrale-orientale.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1993-98-Godard-science-interet-denonciation-Lenoir.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1994-Rogalski-Gobierno-global.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1995-106-Grubb_Chapuis_Duong_EconomicsOfChangingCourse_Energy Policy.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1995-109-Godard_Le_developpement_durable_et_le_devenir_des_villes__bonnes_intentions_Futuribles_n209_pp.29-35.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1995-170-Godard_Economies_en-transition_et_expériance_française_d_economie mixte_Revue_d_etudes_compa_est_ouest_vol26n2.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1997-110-HaDuong.Grubb-Hourcade-InfluenceInertiaUncertaintyAbatement-1.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1997-112-Godard_Les_enjeux_des_negociations_sur_le_climat_Futuribles_n224.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1997-113-Godard-permis-negociable-convention-climat-exp-am-ricaine-harmonisation.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1997-114-environnement-hierarchie-enchevetree.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1997-115-Godard-ambivalence-precaution.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1998-116-Godard_l_ecodeveloppement_revisite_Economies_et_societes_Cahiers_ISMEA_n36.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1998-117-Godard_Sustainable_development_and_the_process_of_Jusifinng_choice.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1998-118-Godard_les_scenarios_energetiques_de_la_France_2010_2020_CGP_Doc_Francaise.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1999-119-nadaud-gouvello-Rapport_Final_Mayenne .pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2000-195-hourcade-fortin-impact-eco-pol-climatiques-controverses.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2000-hourcade-le-climat-est-il-une-marchandise.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2001-120-Schiray_Le_trafic_des_drogues_organisations_criminelles_et_politiques_publiques_de_controle_RISS_169.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2001-121-Minh_Transparency_and_control_engineering_integrated_assesment_models_CIRAD.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2001-198-hourcade-climat-au-risque-negotiation-internationale.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2002-122-Boemare_Quirion_implementing-ghg-tradint-in-europel.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2002-123-Ghersi Hourcade The_economics of lost deal Kyoto-The_Hague-Marrakesh_Economic_Journal_n3.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2002-171-Hourcade_Labyrinthe_de_verre_Critique_Internationale_n15.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2003-125-Ambrosi Hourcade Hallegatte Optimal control models and elicitation of attitudes towards climate damages. Envonmental Modeling and Assesment 8 n3l.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2003-201-ghersi-hourcade-equity-responsability.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2004-202-lecocq-hourcade-taux-actualisation-contre-principe-precaution.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2005-128-quirion_REE-does-uncertainty.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2006-129-keith-haduong-climatic-strategy-CO2-capture.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2006-130-demailly_quirion_CO2-abatement-compe-clim_pol.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2006-131-Ghersi Hourcade 2006 Macro Consistency Issues in E3 Modeling-3.doc",
+    "attente/à dédoublonner avec ce qui est déjà traité/2006-132-Hallegatte-jch-dumas-DynamicsMatterExtremeEvents.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2006-133-Hourcade_Jaccard_Bataille_Ghersi-Hybrid_Modeling.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2006-134-Crassous-et-al-endeogenous-structural-change-climate-targetsCIRED.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2006-173-Finon-social-efficiency-instruments-promotion-rnr.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2006-203-hourcade-bons-mauvais-usages-provocation-Etudes92.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2006-204-hourcade-Du_bon_usage_de_l_analyse_economique_pour_les_pol_climatique.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2008-140-Hallegatte-An adaptive regional input-output model and   its application to the assessment of the economic cost of Katrina, Risk  Analysis.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2008-141-DEMAILLY-Quirion  European Emission Trading Scheme and competitiveness-A case study on the iron and steel industry-Energy Economics.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2008-142-Hallegatte-Dumas-Can natural disasters have positive consequences- Investigating the role of embodied technical change-Ecological economics.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2008-144-Finon-Locatelli-Russian and European gas interdependence-Could contractual trade channel geopolitics-Energy policy.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2008-145-Gusdorf-Hallegatte-Lahellec-Time and space matter-how urban transitions create inequality-Global Environment Change.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2008-206-Hourcade-Enjeux geopolitiques du développement durable-Etudes.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2009-146-Hourcade_Ghersi_Interpreting_Environmental_Policy_Cost_Measures-in-Modelling Sustainable Development.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2009-147-Hallegate-Strategies to adapt to an uncertain climate change-Global Environmental Change.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2009-148-Nguyen-Ha-Duong- Economic potential of renewable energy in Vietnam s power sector-Energy Policy.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2009-208-Hourcade-Ambrosi-Dumas-Beyond the Stern Review-Lessons from a risky venture at the limits of the cost–benefit analysis-Ecological-Economics.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2009-209-Combet-Ghersi-Hourcade-Thubin-Etude-fiscalite-carbone-France-rapport-Cired.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2010-153-Nadaï-Labussiere-Birds-turbines and the making of wind power landscape in South France -Landscape Research.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2011-156-Rogalski-climat-negociations climat-carrefour.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2011-213-Waisman-et-al-Imaclim-R-infrastructure-supplementary-material.docx",
+    "attente/à dédoublonner avec ce qui est déjà traité/2011-213-Waisman-et-al-Imaclim-R-infrastructure.docx",
+    "attente/à dédoublonner avec ce qui est déjà traité/2012-157-Viguie_Hallegate__Trade-offs_and_system_energies_in_urban_policies_Nature_Climate_Change.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2012-158-Lecocq_Hourcade_Unspoken_ethical_issues_in_the_climate_affair_insights_from_a_theoreticalanalysis_of_negociation_mandates_Economic_Theory_49_2.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2012-159-Rogalski-Rio+20.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2012-160-Un-scenario-bas-carbone-acceptable-pour-la-France-elaboration-participative-et-analyse-macroeconomique-Cired-RACF.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2012-177-Finon-L-economieeduenucleaireerevisitee-Etudes.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2012-211-Hourcade-Pottier-Espagne-The-environment-and-directed-technical-change-comment-WP-Cired.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2013-214-Hourcade-Shukla-Triggering-low-carbon-transition-in-the-aftermath-of-the global-financial-crisis-Climate-policy.pdf"
+  ],
+  "meilleur_scan": [
+    {
+      "id": "1975-015",
+      "fichier": "attente/à dédoublonner avec ce qui est déjà traité/1975 15-Hourcade encironnement-obstacle-argument-Options_mediterraneennes_n31.pdf",
+      "hash": "ef9898a2bc3fb346a24589aea61dd33ff2024088"
+    },
+    {
+      "id": "1975-016",
+      "fichier": "attente/à dédoublonner avec ce qui est déjà traité/1975-16-Godard_occupation-espaces-littoraux-Options_Mediterrannennes_n3.pdf",
+      "hash": "01666e711f473419de223ce06f9cb8cf9438a07b"
+    },
+    {
+      "id": "1975-019",
+      "fichier": "attente/à dédoublonner avec ce qui est déjà traité/1975-19-options-mediterrannennes-artuso-and-co-CI010638.pdf",
+      "hash": "4af033bd791b60f86cc6fe1c0ba9fd2d8793d824"
+    },
+    {
+      "id": "1975-019",
+      "fichier": "attente/à dédoublonner avec ce qui est déjà traité/1975-19-options-mediterrannennes-chabrol-CI010639.pdf",
+      "hash": "82f97adcfd465989f983e8e8c414cc19bef144c1"
+    },
+    {
+      "id": "1979-028",
+      "fichier": "attente/à dédoublonner avec ce qui est déjà traité/1979-28-Hourcade-IFDA-Dossier-5.pdf",
+      "hash": "41edcba553c496416903c522a6c9e1de9111817e"
+    },
+    {
+      "id": "1988-077",
+      "fichier": "attente/à dédoublonner avec ce qui est déjà traité/1988-77-Capecchi_Pesce_Schiray_RevueTIS_vol1_n2-1.pdf",
+      "hash": "804823e5863f94b6baff35da9013d295c5193a6d"
+    },
+    {
+      "id": "1993-095",
+      "fichier": "attente/à dédoublonner avec ce qui est déjà traité/1993-95-Godard-risques-climatiques-raisons-scientifiques-economiques-politiquepdf",
+      "hash": "069ddd3acce35423288af9ebf50abcbbc7de09ec"
+    },
+    {
+      "id": "2004-127",
+      "fichier": "attente/à dédoublonner avec ce qui est déjà traité/2004 127-Caparros PERREAU Tazdaït North-south climate change negociation_Public_Choice vol121 n3-4.txt",
+      "hash": "89f79145542d39dc642e176faaeb5f7527d0e739"
+    }
+  ],
+  "nouveau": [
+    {
+      "id": "1972-007",
+      "fichier": "attente/à dédoublonner avec ce qui est déjà traité/1972-7-Rapport Croissance et environnement – Quelques aspects économiques de la protection de l’environnement- Groupe de recherche sur les stratégies de développement .pdf",
+      "hash": "0f3f2c69455f2ddd28e6823655716d3f68da4e19"
+    },
+    {
+      "id": "1979-031",
+      "fichier": "attente/à dédoublonner avec ce qui est déjà traité/1979-31-Schiray_Sigal_Styles _de_vie_IFDA_Dossier_14_1979.pdf",
+      "hash": "70563ddaf44210d54875c7c220ee534452a0c204"
+    },
+    {
+      "id": "1981-042",
+      "fichier": "attente/à dédoublonner avec ce qui est déjà traité/1981-42-Nicolon_Oppositions_projets_d_equipement_article_rfsp_num_31_2.pdf",
+      "hash": "d1d75948744815a182803520179b5611f7fff310"
+    },
+    {
+      "id": "1982-052",
+      "fichier": "attente/à dédoublonner avec ce qui est déjà traité/1982-52-Godard_La_decentralisation_et_la_planification_du_developpement_endogene_IFDA_doss_32.pdf",
+      "hash": "c4f7337cf6a22c403fdf0b1c707e76150fda34ef"
+    },
+    {
+      "id": "1993-097",
+      "fichier": "attente/à dédoublonner avec ce qui est déjà traité/1993 97-Godard Strategies_industrielles_et conventions_d_environnement_INSEE-Methodes_Environnement_et_economie39_40.pdf",
+      "hash": "80165005c8987e997aa5bf0f538eae3d85e5ef34"
+    },
+    {
+      "id": "2001-197",
+      "fichier": "attente/à dédoublonner avec ce qui est déjà traité/2001-197-mathy-hourcade-gouvello-CDM-leverage-for-development.pdf",
+      "hash": "3903f53b6545e7bfa406c17e6c5a6404fd685c09"
+    },
+    {
+      "id": "2007-136",
+      "fichier": "attente/à dédoublonner avec ce qui est déjà traité/2007-136-Hallegate-Hourcade-Ambrosi-Using climate analogues for assessing climate change economic impacts in urban areas-Climatic change.pdf",
+      "hash": "4ce9d3df2df5dd6c9a99cc4a8076aa3bb3433300"
+    },
+    {
+      "id": "2007-138",
+      "fichier": "attente/à dédoublonner avec ce qui est déjà traité/2007-138-Hourcade-Demailly-Neuhoff-Sato-Grubb-Matthes-Graichen-Differentiation and dynamics of EU ETS industrial competitiveness impacts- Climate Strategies Report.pdf",
+      "hash": "37dcf5076fd5d8e1b5ac6c308abd0c365c8fe1d3"
+    },
+    {
+      "id": "2007-172",
+      "fichier": "attente/à dédoublonner avec ce qui est déjà traité/2007-172-Finon-Perez-The social efficiency of instruments of Promotion of Renewables in the Electricity Industry-A transaction cost perspective-Ecological Economics.pdf",
+      "hash": "c8ebbc0bccaa1942189efb6a6d937a9f81424311"
+    },
+    {
+      "id": "2008-143",
+      "fichier": "attente/à dédoublonner avec ce qui est déjà traité/2008-143- Hallegatte-Ghil-Dumas-Hourcade-Business Cycles-Bifurcations and Chaos in a Neo Classical Model with Investment  Dynamics-Journal of Economic Behavior and Organization.pdf",
+      "hash": "f8569edfe00cc77728faf746c036c5d6b7372677"
+    },
+    {
+      "id": "2008-207",
+      "fichier": "attente/à dédoublonner avec ce qui est déjà traité/2008-207-Hourcade-Shukla-Mathy-Untying the Climate-Development Gordian Knot-Economic options in a politically constrained world-in-The design of climate policy.pdf",
+      "hash": "0ee148623bd03fb17576f8646cce91b4c3e3830a"
+    },
+    {
+      "id": "2010-150",
+      "fichier": "attente/à dédoublonner avec ce qui est déjà traité/2010-150-Monjon_Quirion-How to design a border adjustment for the European Union Emissions Trading System-Energy-policy.pdf",
+      "hash": "479c6a4779fd1fdb568d2b9598c2e074fd718d15"
+    },
+    {
+      "id": "2010-151",
+      "fichier": "attente/à dédoublonner avec ce qui est déjà traité/2010-151-Sassi-Crassous-Hourcade-Gitz-Waisman-Guivarch-Imaclim-R-a modelling framework to simulate sustainable development pathways-International Journal of Global Environmental Issues.doc",
+      "hash": "0279ca818d22e473ca28432a3117b5ef6de3da12"
+    },
+    {
+      "id": "2010-152",
+      "fichier": "attente/à dédoublonner avec ce qui est déjà traité/2010-152-Rozenberg-Hallegatte-Vogt-Schilb-Sassi-Guivarch-Waisman-Hourcade-Climate policies as a hedge against the uncertainty on future oil supply-Climatic change.pdf",
+      "hash": "27ddeb674124362adcebb1c937f5a18cfea0ad28"
+    },
+    {
+      "id": "2011-175",
+      "fichier": "attente/à dédoublonner avec ce qui est déjà traité/2011-175-Finon-Efficiency of policy instruments for CCS deployment, Climate policy.odt",
+      "hash": "dcf61af26018e46e4d3611f39d8546fad6dd3db0"
+    },
+    {
+      "id": "2011-210",
+      "fichier": "attente/à dédoublonner avec ce qui est déjà traité/2011-210-Hourcade-Perrissin-Fabert,-Rozenberg-Venturing-into-uncharted-financial-waters-an-essay-on-climate-friendly-finance-International-Environmental-Agreements-Politics-Law-and-Economics.pdf",
+      "hash": "e7a4a5a3406572785de54528ef555bb3bbcca7b0"
+    },
+    {
+      "id": "2012-212",
+      "fichier": "attente/à dédoublonner avec ce qui est déjà traité/2012-212-Waisman-Rozenberg-Sassi,-Hourcade-Peak-Oil-profiles-through-the-lens-of-a-general-equilibrium-assessment-Energy-Policy.pdf",
+      "hash": "4f1ba6e4a1da9bb380634cd5afd742a26115760c"
+    },
+    {
+      "id": "2013-162",
+      "fichier": "attente/à dédoublonner avec ce qui est déjà traité/2013-162-Quirion-Effet-net-sur-emploirderlartransition-energetiqueeeneFrance-Une-analyse-input-output-du-scenario-negaWatt-WP-Cired.pdf",
+      "hash": "603d78f6a64b6b62386648933b0d23e91b2d2cfb"
+    }
+  ],
+  "id_non_standard": [
+    "attente/à dédoublonner avec ce qui est déjà traité/1981-SCAN-INCOMPLET-Ceron_Baillon_AMENAGEMENT_ET_NATURE_n63_ARCHITECTURE_ET_.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1987_Ceron_espagnol_Agriculture_zones marginales_Agricultura_y_Sociedad_45_pp47_99.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/1997-Godard-111-Social-decision-making-under-scientific-controversy.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/2003 Quirion intensity_targets_REE_final.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/PAS-DANS-LA-LISTE-1975 elements-nouvelle-approche-gestion-eau-Chabrol Criqui Options Mediterranennes n31 1975.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/PAS-DANS-LA-LISTE-1981 Mimetisme_Emmanuel_réponse-à_Thery_1981_88-1.pdf",
+    "attente/à dédoublonner avec ce qui est déjà traité/PAS-DANS-LA-LISTE-1983 Mimetisme_Thery_répond-a_Emmanuel_num_24_93_-4.pdf"
+  ],
+  "ids_en_collision": [
+    "1975-019"
+  ]
+}
