@@ -90,12 +90,15 @@ def main() -> None:
         raise SystemExit("--apply exige --backup")
 
     entries = json.loads(args.ledger.read_text())
+    pending = [e for e in entries if not e.get("applied")]
+    if not pending:
+        raise SystemExit("Rien à appliquer : toutes les entrées sont applied.")
     env = rz.load_env(args.env)
     api_key = env["ZOTERO_API_KEY"]
     uid = rz.fetch_user_id(api_key)
 
     backup, plan = [], []
-    for e in entries:
+    for e in pending:
         key = e["key"]
         item, _ = rz._get(f"{rz.API}/users/{uid}/items/{key}", api_key)
         backup.append(item)

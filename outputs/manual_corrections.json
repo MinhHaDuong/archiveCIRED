@@ -21,18 +21,15 @@
     "source": "PDF docs/CIR_SAC_0350 + Gallimard (revue M. Ha-Duong)",
     "set": {
       "date": "1972-11",
-      "extra": "Éditeur : Gallimard"
+      "extra": "Éditeur : Gallimard",
+      "volume": "",
+      "ISSN": "0040-3075"
     },
     "deja_correct": {
       "publicationTitle": "Les Temps Modernes",
       "issue": "n°316"
     },
-    "note": "journalArticle n'a pas de champ publisher → Gallimard dans extra.",
-    "verify": {
-      "volume": "vol. 28 — Les Temps Modernes ne numérote pas en volumes ; effacer ? (laissé tel quel pour l'instant)",
-      "pages": "'14 p.' n'est pas une plage — pages réelles ? (laissé tel quel)",
-      "ISSN": "0040-3075 — ajouter ? (non appliqué)"
-    },
+    "note": "journalArticle n'a pas de champ publisher → Gallimard dans extra. 2e passe (décisions M. Ha-Duong) : volume effacé (Les Temps Modernes sans volume) ; ISSN 0040-3075 vérifié OpenAlex (2507 works). Pages : réelles introuvables (OpenAlex/HAL/PDF) → on garde '14 p.' (pages du PDF).",
     "applied": true
   },
   {
@@ -54,19 +51,16 @@
     "source": "PDF docs/1995-109 + HAL hal-00624329",
     "set": {
       "date": "1996-05",
-      "extra": "hal-00624329 (preprint v1 2011-09-16)"
+      "extra": "hal-00624329 (preprint v1 2011-09-16)",
+      "ISSN": "0337-307X"
     },
     "deja_correct": {
       "publicationTitle": "Futuribles",
       "issue": "209",
       "pages": "29–35"
     },
-    "note": "Confirme la proposition d'Antonin (recueil row 33/34). extra valait 'ok' (parasite) → remplacé par l'id HAL.",
+    "note": "Confirme la proposition d'Antonin (recueil row 33/34). extra valait 'ok' (parasite) → remplacé par l'id HAL. 2e passe (décisions M. Ha-Duong) : pas de publisher (journalArticle) ; ISSN 0337-307X vérifié OpenAlex (1440 works).",
     "hal_verified": "HAL hal-00624329 confirme : Olivier Godard, Futuribles n°209, pp 29-35, 1996-05-01.",
-    "verify": {
-      "publisher": "« Association Futuribles » ? (non appliqué — journalArticle n'a pas de champ publisher)",
-      "ISSN": "0337-307X — ajouter ? (non appliqué)"
-    },
     "applied": true
   }
 ]
