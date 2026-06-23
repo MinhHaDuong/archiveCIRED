@@ -1,0 +1,43 @@
+%erg 0.1
+Title: Mettre à jour le binaire committé tickets/erg (obsolète : sans list/Label:, casse refresh-STATE.py)
+Created: 2026-06-23
+Author: Minh Ha-Duong
+
+--- log ---
+2026-06-23T09:33Z Minh Ha-Duong created
+2026-06-23T09:33Z claude note Découvert pendant /lair : refresh-STATE.py a échoué (« Unknown command: list »).
+
+--- body ---
+## Contexte
+
+`tickets/erg` (binaire bootstrap committé, Linux x86-64) est en retard sur le
+`erg` installé (`~/.local/bin/erg`) : il n'a ni `list` (alias `ls`) ni
+`label`/`unlabel` — il propose encore `tag`/`untag` et ignore la clé d'en-tête
+`Label:`. Or le store a migré vers `Label:` (cf. commit 6983a55).
+
+Deux conséquences observées :
+- `refresh-STATE.py` (l.56 : `erg_bin = tickets_dir / "erg"`) appelle
+  `erg list … --json` → « Unknown command: list » → la section `## Status` de
+  STATE.md n'est plus régénérée (rafraîchie à la main ce jour).
+- Tout agent qui n'a que le binaire committé manipulera les tickets avec une
+  syntaxe (`tag`) et une compréhension de format périmées.
+
+## Relevant files
+- `tickets/erg` — binaire à régénérer.
+- `~/.claude/scripts/refresh-STATE.py` — consommateur cassé (harnais, hors repo).
+
+## Actions
+1. Régénérer `tickets/erg` à la version courante (`erg update` depuis l'amont,
+   ou copier `~/.local/bin/erg`), vérifier `./tickets/erg list --json` OK.
+2. Re-tourner `refresh-STATE.py` → la section `## Status` doit se régénérer.
+
+## Test
+- `./tickets/erg list tickets/ --json` retourne du JSON (≠ « Unknown command »).
+
+## Invariants
+- `erg check` reste vert ; le format `Label:` du store reste lisible.
+
+## Exit criteria
+- [ ] `tickets/erg` reconnaît `list` et `Label:`
+- [ ] `refresh-STATE.py` régénère `## Status` sans erreur
+- [ ] `make check` passe
