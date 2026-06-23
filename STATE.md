@@ -29,6 +29,8 @@ quelle publication via Zotero, métadonnées correctes. Dépôt HAL différé.
 
 ## Notes
 
+- **Autonomie PDF : 15 PDF réels / 764** seulement ; 668 stubs sans fichier (642
+  copiés du groupe mort 329932, 404), **647 récupérables depuis l'archive** → 0030.
 - Recueil miroité mais **non vérifié** : ne pas supprimer le groupe avant 0025 vert.
-  Dédoublonnage des ~48 copies injectées différé (`src/zotero_dedup.py`).
+  Le groupe a **0 attachement** ⇒ aucune perte de fichier ; 0025 = audit métadonnées.
 - Binaire committé `tickets/erg` obsolète (casse refresh-STATE.py) → 0027.
