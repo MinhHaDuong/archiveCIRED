@@ -136,6 +136,38 @@ def diff_fields(group: dict, perso: dict) -> dict:
     return out
 
 
+def report_to_ledger(report: dict, threshold: float = MATCH_TITRE_SAIN,
+                     exclude_keys: set[str] = frozenset(),
+                     include_noted: bool = False,
+                     include_creators: bool = False) -> list[dict]:
+    """Convertit un rapport de corrections en ledger d'application (cf.
+    `apply_corrections.py`).
+
+    Ne retient que les paires sûres (titre_sim ≥ threshold), hors `exclude_keys`.
+    Par défaut, exclut les champs portant une note « à nettoyer » (à traiter à la
+    main) et les `creators` (ordre/orthographe → normalisation, ticket 0021).
+    Réutilisable par les swarms d'enrichissement (0022/0023/0024).
+    """
+    out = []
+    for row in report["corrections"]:
+        if (row.get("titre_sim") or 0) < threshold:
+            continue
+        if row.get("perso_key") in exclude_keys:
+            continue
+        set_ = {}
+        for f, d in row["champs"].items():
+            if f == "creators" and not include_creators:
+                continue
+            if d.get("note") and not include_noted:
+                continue
+            set_[f] = d["groupe"]
+        if set_:
+            out.append({"key": row["perso_key"], "ref": row.get("titre"),
+                        "set": set_, "source": "recueil 0019 (set sûr)",
+                        "applied": False})
+    return out
+
+
 def corrections_report(pairs: list[dict]) -> dict:
     """Rapport de corrections pour une liste de paires appariées.
 
