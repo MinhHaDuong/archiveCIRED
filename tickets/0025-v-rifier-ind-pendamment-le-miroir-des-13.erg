@@ -12,6 +12,7 @@ Author: Minh Ha-Duong
 
 2026-06-23T13:18Z claude note Audit implémenté (src/verify_recueil_mirror.py) + exécuté en live. Verdict NO-GO : 16 notes d'annotation d'Antonin absentes de My Library + 8 notices (6 sans appariement net, 2 champs énumérés perdus). 69 URL préservées, 54 doc-équivalents. Rapport : outputs/verify_recueil_mirror_report.md. Gate reste ROUGE — ticket ouvert jusqu'à re-vérification zéro-perte après remédiation (voir 0029).
 2026-06-23T15:00Z claude note Les « 54 doc-équivalents » n'étaient pas tous des non-pertes (M. Ha-Duong) : comparaison fichier par fichier (src/compare_recueil_urls.py, rapport outputs/recueil_url_comparison.md) → 31 doublons vrais (SHA-256 identiques), MAIS 14 URL recueil pointent un FICHIER DISTINCT sur inari (extrait vs volume entier, parfois meilleur côté recueil) + 9 sans PDF. Les 14 sont des pertes si suppression sans réconciliation → cause NO-GO supplémentaire, ajoutée au scope de 0029. Aucune copie supprimée.
+2026-06-23T15:40Z claude note Cause NO-GO « 14 URL distinctes » LEVÉE (0029 action 4) : URL recueil rattachée à chaque notice My Library en linked_url. Toutes les pertes connues sont désormais couvertes — notes (#26), 8 notices méta/PDF (#27), 14 URL (réconciliées). Le verdict factuel penche vers GO, mais la DÉCISION go/no-go reste humaine (M. Ha-Duong : « on ne décide rien, surtout pas la suppression »). Gate laissé OUVERT pour cet arbitrage.
 --- body ---
 ## But
 
