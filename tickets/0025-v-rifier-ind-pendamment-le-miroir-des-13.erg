@@ -1,112 +1,80 @@
 %erg 0.1
-Title: Vérifier indépendamment le miroir des 131 notices du recueil (avant suppression du groupe)
+Title: Vérifier qu'aucune information n'est perdue avant de supprimer le groupe Recueil_CIRED
 Created: 2026-06-23
 Author: Minh Ha-Duong
 
 --- log ---
 2026-06-23T08:46Z Minh Ha-Duong created
 2026-06-23T08:46Z claude note Handoff pour vérificateur INDÉPENDANT (frais). Ne pas faire confiance à l'appariement de l'agent qui a exécuté la fusion. Suppression du groupe GELÉE tant que ce ticket n'est pas vert.
+2026-06-23T09:10Z claude note Corps nettoyé : la vérification part de l'état en ligne (collection à 131), sans les justifications/appariements de l'agent qui biaiseraient le verdict.
+2026-06-23T09:20Z claude note But recadré (M. Ha-Duong) : « ne perd-on pas d'information ? ». La cohérence interne de My Library (doublons, dédoublonnage) est HORS SCOPE.
 
 --- body ---
-## Context
+## But
 
-Objectif : **une seule base**. Le groupe Zotero séparé `Recueil_CIRED`
-(id 2511149, **131 notices**, curé par Antonin) est rapatrié dans **My Library**
-(compte « Base R2DS », userID 2114597) sous une **collection** « Recueil 50 ans
-CIRED » (key **VPDB49CK**), + tag `recueil-50ans`. Le dédoublonnage est accepté
-comme prix à payer.
+Garantir qu'**aucune information n'est perdue** si l'on supprime le groupe Zotero
+séparé `Recueil_CIRED` (id 2511149, 131 notices). Autrement dit : l'information de
+**chacune** de ses 131 notices (tous les champs de métadonnées + le PDF/URL) doit
+se retrouver dans My Library (userID 2114597).
 
-**Garde-fou (M. Ha-Duong)** : on ne supprime PAS le groupe tant que la collection
-ne contient pas 131 items appariés **ligne à ligne** au groupe. Ce ticket est la
-vérification indépendante de ce garde-fou — à exécuter par un agent/process
-**frais**, qui **ne fait pas confiance** à l'appariement de l'agent exécutant.
+**Hors scope** : la cohérence interne de My Library — doublons, dédoublonnage,
+qualité d'appariement, choix de quelle notice « gagne ». Les doublons sont
+attendus et acceptés ; ils ne sont PAS un motif de no-go.
 
-## Ce qui a été fait (état à vérifier, NE PAS re-supposer correct)
+Garde-fou : le groupe n'est supprimé qu'une fois ce ticket vert (zéro perte).
 
-1. Collection VPDB49CK créée (vide au départ).
-2. **57 notices existantes** de My Library « réconciliées » (ajout collection +
-   tag) — appariées au groupe par : 53 via similarité de titre forte
-   (`diff_recueil._pair_fuzzy`, seuil 0.75, un-à-un) ; 4 via auteur+année AVEC
-   recouvrement de titre (jac ≥ 0.3). NB : 58 notices de groupe → 57 perso
-   distinctes (2 notices de groupe pointent la même perso).
-3. **73 notices injectées** : copies des `data` du groupe (itemType + métadonnées
-   d'Antonin préservés), + tags `recueil-50ans` **et `à-dédoublonner`**, + 64
-   pièces jointes PDF (linked_url vers inari). Clés créées :
-   `outputs/recueil_injected.json`.
-4. **Collection = 130 items** (et non 131) — à cause du BUG ci-dessous.
+La vérification **part de l'état en ligne** et raisonne par elle-même ; elle
+n'utilise pas l'appariement, les comptages ou les artefacts de l'agent qui a
+peuplé la collection (ils pourraient biaiser le verdict).
 
-**BUG CONNU dans la réconciliation (à corriger via la vérif).** Les 4 matches
-« auteur+année+titre » (jac≈0.33) ajoutés aux 53 matches forts sont **non
-fiables et non un-à-un**. Cas avéré : DEUX notices de groupe distinctes —
-« Besoins de financement et stratégies énergétiques… » (1983) et « Prospective
-de la demande dans le tiers-monde… » (1985) — ont été appariées à **la même**
-notice perso « PROSPECTIVE DE L'ÉNERGIE ET STRATÉGIES DE DÉVELOPPEMENT… » (3
-documents différents écrasés). D'où : ~4 notices existantes **taguées à tort**
-`recueil-50ans`, ~5 notices de groupe **ni bien réconciliées ni injectées**, et
-le compte 130≠131. **Seuls les 53 matches de titre fort sont fiables** ; les 5
-« auteur+année+titre » sont à re-trancher (le candidat « Environnement et styles
-de développement » 1974, jac 0.5, est probablement le seul correct).
+## État en ligne (live)
 
-**POLLUTION POST-INJECTION (critique pour la vérif).** Comme les 73 copies sont
-maintenant dans My Library, re-lancer un appariement groupe→My-Library renvoie
-~126 faux couples (chaque notice de groupe matche **sa propre copie**). Le
-vérificateur DOIT distinguer les copies injectées (tag `à-dédoublonner`,
-`outputs/recueil_injected.json`) des notices d'origine.
+- Groupe : `GET /groups/2511149/items/top?limit=100` (paginer) — 131 notices.
+- My Library : `GET /users/2114597/items/top?limit=100` (paginer). Une collection
+  « Recueil 50 ans CIRED » (key VPDB49CK) y rassemble les items concernés, mais
+  l'information peut aussi exister dans une notice hors collection — ne pas s'y
+  limiter ni se fier aux tags.
+- Credentials : `~/.config/keys/zotero-archive-cired.env` (ZOTERO_API_KEY).
+- Helpers de collecte en lecture seule : `src/reconcile_zotero.py`
+  (`fetch_top_items`, `_get`).
 
-**Fiabilité globale = FAIBLE.** 48 appariements « auteur+année seuls » ont été
-rejetés comme faux (auteurs prolifiques). Parmi les 73 injectées, ~48 sont
-**probablement des doublons** (titre reformulé, non apparié) et ~25
-**probablement nouvelles**. À trancher par la vérif.
+## Actions (process FRAIS, lecture seule)
 
-## Relevant files
-
-- `~/.config/keys/zotero-archive-cired.env` — ZOTERO_API_KEY (accès écriture)
-- `src/reconcile_zotero.py` — helpers de collecte Zotero (`fetch_top_items`, `_get`)
-- `src/diff_recueil.py` — appariement flou + diff de champs
-- `src/add_new_docs.py` / `src/inject_recueil.py` — construction des notices injectées
-- `outputs/recueil_78_worklist.json` — les 78 non appariées par titre + candidats
-- `outputs/recueil_injected.json` — clés des 73 notices créées
-- `outputs/zotero_backup_*.json` — sauvegardes (local, gitignoré) pour rollback
-
-## Actions (vérificateur indépendant, frais)
-
-1. Refaire la collecte : 131 notices `groups/2511149/items/top` et les items de
-   `users/2114597/collections/VPDB49CK/items/top`.
-2. Construire un mapping **1:1 groupe → collection** par TES propres critères
-   (ne réutilise pas tel quel `_pair_fuzzy`) : pour chaque notice de groupe,
-   trouver son unique correspondant dans la collection (copie injectée :
-   métadonnées identiques + tag `à-dédoublonner` ; ou existante réconciliée).
-3. Rapporter : combien des 131 ont exactement un correspondant ; expliquer
-   l'écart 130 vs 131 (perso partagée) ; **lister toute notice de groupe SANS
-   correspondant** (manquante) et tout item de collection non rattachable.
-4. Réévaluer indépendamment les 57 réconciliées (sont-ce les mêmes documents ?
-   contrôler surtout les 4 « auteur+année+titre »).
-5. Produire la **liste des doublons** parmi les 73 injectées (notice injectée ≡
-   une notice existante de My Library) pour la passe de dédoublonnage
-   (`src/zotero_dedup.py`).
+1. Collecter en live les 131 notices du groupe et les notices de My Library.
+2. Pour **chaque** notice de groupe, vérifier que son information est présente
+   dans My Library : il existe au moins une notice dont les champs **couvrent**
+   ceux du groupe (titre, auteurs, année, revue/éditeur, volume/numéro/pages,
+   DOI/ISSN…) et dont le PDF/URL est conservé. Une copie exacte couvre
+   trivialement ; une notice pré-existante ne couvre que si elle contient au
+   moins l'information du groupe (sinon la version d'Antonin serait perdue).
+3. Rapporter la **liste des notices de groupe dont une part d'information n'est
+   PAS retrouvée** dans My Library (= perte). Idéalement vide. **C'est la SEULE
+   liste qui compte pour le verdict.**
+4. Verdict : **go** (supprimer le groupe) **ssi** la liste de perte est vide ;
+   sinon **no-go** + ce qu'il manque.
+5. **Section annexe, hors verdict** : le vérificateur peut, dans une section
+   séparée, signaler les doublons et incohérences internes de My Library qu'il a
+   remarqués. Pour information seulement — n'entre **pas** dans le go/no-go.
 
 ## Test
 
-- Le mapping 1:1 et le comptage sont des fonctions pures sur les `data` collectés
-  (testables sur fixtures, sans réécrire dans Zotero).
-
-## Verification
-
-- [ ] Mapping 131 groupe → collection produit, écart 130/131 expliqué
-- [ ] Notices de groupe sans correspondant : listées (idéalement 0)
-- [ ] 57 réconciliées re-contrôlées (faux appariements signalés)
-- [ ] Liste des doublons injectés (pour dédoublonnage)
-- [ ] Verdict go/no-go pour la suppression du groupe
+- Le test de couverture champ-à-champ est une fonction pure sur les `data`
+  collectés (testable sur fixtures, sans aucune écriture Zotero).
 
 ## Invariants
 
-- **NE PAS supprimer le groupe** tant que ce ticket n'est pas vert (131 couverts).
-- Lecture seule côté vérification : ne pas réécrire dans Zotero.
+- NE PAS supprimer le groupe tant que ce ticket n'est pas vert (zéro perte).
+- Ticket **read-only** : il audite et rapporte. **Aucune écriture Zotero, aucun
+  nettoyage, aucune correction.** Laisser le **scaffolding en place** (copies
+  injectées, collection VPDB49CK, tags) — les correctifs sont faits ailleurs et
+  on **re-vérifiera après**.
+- Partir de l'état en ligne ; ne pas traiter les artefacts de l'agent comme
+  vérité ; les doublons/incohérences sont hors verdict (section annexe).
 - Ne pas toucher l'archive source sur disque.
-- Rollback possible via `outputs/zotero_backup_*.json` (réconciliation/injection).
 
 ## Exit criteria
 
-- [ ] Rapport de vérification indépendant : miroir 131 ligne à ligne + doublons
+- [ ] Rapport : liste des pertes d'information (la seule qui compte ; idéalement vide)
+- [ ] Section annexe (hors verdict) : doublons/incohérences éventuels
 - [ ] Décision explicite go/no-go suppression du groupe
 - [ ] `make check` passe
