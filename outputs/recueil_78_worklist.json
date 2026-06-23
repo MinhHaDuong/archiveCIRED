@@ -1,0 +1,1617 @@
+[
+  {
+    "gkey": "7BG7KBPK",
+    "gtitle": "Stratégies industrielles et conventions d'environnement: De l'univers stabilisé aux univers controversés",
+    "gyear": 1993,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "godard"
+    ],
+    "cands": [
+      {
+        "pkey": "NKAJH45M",
+        "ptitle": "L'environnement, une polysémie sous-exploitée",
+        "pyear": 1992,
+        "jac": 0.1,
+        "deja_pris": false
+      },
+      {
+        "pkey": "Y6PTWIVR",
+        "ptitle": "La relation interdisciplinaire : problèmes et stratégies",
+        "pyear": 1992,
+        "jac": 0.1,
+        "deja_pris": true
+      },
+      {
+        "pkey": "D6BQEPBE",
+        "ptitle": "Les représentations concurrentes de l'étiologie des problèmes d'environnement - Début",
+        "pyear": 1993,
+        "jac": 0.08,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "USFEI9ZY",
+    "gtitle": "Energie et Tiers-Monde: dangers et illusions du mimétisme technologique",
+    "gyear": 1982,
+    "classe": "ABSENT (ajout d'Antonin ?)",
+    "auteurs": [
+      "hourcade"
+    ],
+    "cands": []
+  },
+  {
+    "gkey": "YLGKJBV4",
+    "gtitle": "Les enjeux de la vie associative en France",
+    "gyear": 1981,
+    "classe": "ABSENT (ajout d'Antonin ?)",
+    "auteurs": [
+      "passaris"
+    ],
+    "cands": []
+  },
+  {
+    "gkey": "W7V2MK6W",
+    "gtitle": "Créativités coopératives et auto-développement planifié: expériences chiliennes en réforme agraire (1967-1973)",
+    "gyear": 1982,
+    "classe": "ABSENT (ajout d'Antonin ?)",
+    "auteurs": [
+      "chonchol"
+    ],
+    "cands": []
+  },
+  {
+    "gkey": "2JACHBV9",
+    "gtitle": "Les dessous de l'économie cachée",
+    "gyear": 1982,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "gaudin",
+      "schiray"
+    ],
+    "cands": [
+      {
+        "pkey": "PXZG48FM",
+        "ptitle": "Progrès techniques et recherche de nouveaux modèles de temps sociaux",
+        "pyear": 1981,
+        "jac": 0.0,
+        "deja_pris": true
+      }
+    ]
+  },
+  {
+    "gkey": "MB6M5BUL",
+    "gtitle": "Mimétisme ou pluralisme de technologies plus appropriées: réplique à A. Emmanuel",
+    "gyear": 1983,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "thery"
+    ],
+    "cands": [
+      {
+        "pkey": "62FAWZYT",
+        "ptitle": "Le biais mimétique dans le choix de techniques : un facteurd'asphyxie du dévéleoppement autocentré en Tanzanie",
+        "pyear": 1984,
+        "jac": 0.0,
+        "deja_pris": true
+      }
+    ]
+  },
+  {
+    "gkey": "A5CQVGUB",
+    "gtitle": "Calcul économique et construction sociale des irréversibilités: leçons de l'histoire énergétique récente",
+    "gyear": 1991,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "boyer",
+      "chavance",
+      "godard",
+      "hourcade"
+    ],
+    "cands": [
+      {
+        "pkey": "UI8XFEWK",
+        "ptitle": "Entre nature et société : les jeux de l'irréversibilité : dans la construction économique et sociale du champ de l'environnement",
+        "pyear": 1991,
+        "jac": 0.19,
+        "deja_pris": true
+      },
+      {
+        "pkey": "HEUPYNJ2",
+        "ptitle": "Entre disciplines et réalité, l'artifice des systèmes",
+        "pyear": 1992,
+        "jac": 0.0,
+        "deja_pris": false
+      },
+      {
+        "pkey": "NKAJH45M",
+        "ptitle": "L'environnement, une polysémie sous-exploitée",
+        "pyear": 1992,
+        "jac": 0.0,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "DM8CDAXH",
+    "gtitle": "Price equalization and alternative approaches for rural electrification",
+    "gyear": 1990,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "colombier",
+      "hourcade",
+      "menanteau"
+    ],
+    "cands": [
+      {
+        "pkey": "VMZPHJXH",
+        "ptitle": "Développement des réseaux et modulations spatio-temporelles des tarifs: l'équité territoriale revisitée",
+        "pyear": 1989,
+        "jac": 0.0,
+        "deja_pris": true
+      },
+      {
+        "pkey": "8KM6L2HS",
+        "ptitle": "Le bouleversement des climats. Comment gérer l'incertitude ?",
+        "pyear": 1989,
+        "jac": 0.0,
+        "deja_pris": true
+      },
+      {
+        "pkey": "N5QPS2L7",
+        "ptitle": "Instruments pour une gestion collective des risques climatiques Un cadre d'analyse centré sur les moyens de faire apparaitre un signal-prix",
+        "pyear": 1991,
+        "jac": 0.0,
+        "deja_pris": true
+      }
+    ]
+  },
+  {
+    "gkey": "Z5ZFTH8S",
+    "gtitle": "Energie nouvelles et approvisionnement énergétique en zones rurales",
+    "gyear": 1986,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "hourcade",
+      "menanteau"
+    ],
+    "cands": [
+      {
+        "pkey": "D2E6JNIS",
+        "ptitle": "Réflexions sur les orientations du CIRED (1985-1990)",
+        "pyear": 1985,
+        "jac": 0.0,
+        "deja_pris": false
+      },
+      {
+        "pkey": "X3NM7EFI",
+        "ptitle": "SIGNIFICATION ET IMPASSES D’UN CONCEPT BANALISÉ : LES ÉCONOMIES D’ÉCHELLE",
+        "pyear": 1985,
+        "jac": 0.0,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "AZ32SJQL",
+    "gtitle": "Gouvernement mondial,\" global governance\" ou anomie?: Les enjeux des réponses aux défis planétaires",
+    "gyear": 1994,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "rogalski"
+    ],
+    "cands": [
+      {
+        "pkey": "2YHQV3L4",
+        "ptitle": "Armements et économie : une nouvelle donne pour les “dividendes de la paix” ?",
+        "pyear": 1993,
+        "jac": 0.0,
+        "deja_pris": true
+      }
+    ]
+  },
+  {
+    "gkey": "WKXVXX29",
+    "gtitle": "Applied Fairness Theory and Rationing Policy",
+    "gyear": 1982,
+    "classe": "ABSENT (ajout d'Antonin ?)",
+    "auteurs": [
+      "baumol"
+    ],
+    "cands": []
+  },
+  {
+    "gkey": "R5LP5EL4",
+    "gtitle": "Besoins de financement et stratégies énergétiques pour le Tiers-Monde",
+    "gyear": 1983,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "hourcade"
+    ],
+    "cands": [
+      {
+        "pkey": "6H8ATMZN",
+        "ptitle": "PROSPECTIVE DE L'ÉNERGIE ET STRATÉGIES DE DÉVELOPPEMENT DANS LE TIERS-MONDE",
+        "pyear": 1984,
+        "jac": 0.33,
+        "deja_pris": false
+      },
+      {
+        "pkey": "AG8MVA3G",
+        "ptitle": "L'énergie dans le Tiers-Monde à la CME de New-Delhi : du discours des experts aux enjeux du développement",
+        "pyear": 1984,
+        "jac": 0.14,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "2WFPW84D",
+    "gtitle": "Le nucléaire en France: un projet technique irréversible?",
+    "gyear": 1986,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "hourcade",
+      "puiseux"
+    ],
+    "cands": [
+      {
+        "pkey": "D2E6JNIS",
+        "ptitle": "Réflexions sur les orientations du CIRED (1985-1990)",
+        "pyear": 1985,
+        "jac": 0.0,
+        "deja_pris": false
+      },
+      {
+        "pkey": "X3NM7EFI",
+        "ptitle": "SIGNIFICATION ET IMPASSES D’UN CONCEPT BANALISÉ : LES ÉCONOMIES D’ÉCHELLE",
+        "pyear": 1985,
+        "jac": 0.0,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "9DYFQ347",
+    "gtitle": "La course d’obstacle des énergies renouvelables",
+    "gyear": 1988,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "hourcade",
+      "nicolon"
+    ],
+    "cands": [
+      {
+        "pkey": "CSNCNYLX",
+        "ptitle": "La prise en compte de l'environnement dans laplannification française : évaluation et éléments de prospective",
+        "pyear": 1988,
+        "jac": 0.0,
+        "deja_pris": false
+      },
+      {
+        "pkey": "VMZPHJXH",
+        "ptitle": "Développement des réseaux et modulations spatio-temporelles des tarifs: l'équité territoriale revisitée",
+        "pyear": 1989,
+        "jac": 0.0,
+        "deja_pris": true
+      },
+      {
+        "pkey": "8KM6L2HS",
+        "ptitle": "Le bouleversement des climats. Comment gérer l'incertitude ?",
+        "pyear": 1989,
+        "jac": 0.0,
+        "deja_pris": true
+      }
+    ]
+  },
+  {
+    "gkey": "LZERIJ8Y",
+    "gtitle": "Impératif industriel et nouveau mode de développement",
+    "gyear": 1983,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "hourcade"
+    ],
+    "cands": [
+      {
+        "pkey": "6H8ATMZN",
+        "ptitle": "PROSPECTIVE DE L'ÉNERGIE ET STRATÉGIES DE DÉVELOPPEMENT DANS LE TIERS-MONDE",
+        "pyear": 1984,
+        "jac": 0.1,
+        "deja_pris": false
+      },
+      {
+        "pkey": "AG8MVA3G",
+        "ptitle": "L'énergie dans le Tiers-Monde à la CME de New-Delhi : du discours des experts aux enjeux du développement",
+        "pyear": 1984,
+        "jac": 0.07,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "HQ3RY9IP",
+    "gtitle": "Durabilité des biens et nouvelle croissance",
+    "gyear": 1980,
+    "classe": "ABSENT (ajout d'Antonin ?)",
+    "auteurs": [
+      "baillon",
+      "ceron"
+    ],
+    "cands": []
+  },
+  {
+    "gkey": "26J3B2MW",
+    "gtitle": "Environnement, développement et styles de vie: recherche des grandes tendances de la croissance passée en France, comparables à celles des autres pays industrialisés à économie de marché",
+    "gyear": 1981,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "sachs",
+      "schiray"
+    ],
+    "cands": [
+      {
+        "pkey": "YDYWZTGS",
+        "ptitle": "Energie, espace, environnement : styles et stratégies du développement. Outils d'analyse",
+        "pyear": 1981,
+        "jac": 0.14,
+        "deja_pris": false
+      },
+      {
+        "pkey": "JRERRG2G",
+        "ptitle": "Styles de vie et planification",
+        "pyear": 1980,
+        "jac": 0.11,
+        "deja_pris": false
+      },
+      {
+        "pkey": "DKGW6Y4E",
+        "ptitle": "Développement ou maldéveloppement ? plaidoyer pour une économie qualitative",
+        "pyear": 1981,
+        "jac": 0.1,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "XQDFZY3F",
+    "gtitle": "Demain aujourd’hui: expérimentations sociales et changement de styles de vie",
+    "gyear": 1979,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "schiray",
+      "sigal"
+    ],
+    "cands": [
+      {
+        "pkey": "63WVLGZ4",
+        "ptitle": "Styles de vie et développement dans le monde occidental : expériences et expérimentations",
+        "pyear": 1978,
+        "jac": 0.25,
+        "deja_pris": false
+      },
+      {
+        "pkey": "LU2B54BD",
+        "ptitle": "Alternatives pour un autre développement",
+        "pyear": 1980,
+        "jac": 0.0,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "7GXVU4AL",
+    "gtitle": "La Nécessité d’une nouvelle division internationale du travail,",
+    "gyear": 1974,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "ceron",
+      "hourcade"
+    ],
+    "cands": [
+      {
+        "pkey": "BSU65UVI",
+        "ptitle": "L’environnement, obstacle ou argument pour un nouvel ordre économique international : essai de prospective à l’échelle du bassin méditerranéen",
+        "pyear": 1975,
+        "jac": 0.0,
+        "deja_pris": true
+      },
+      {
+        "pkey": "U6VHDB63",
+        "ptitle": "La politique de l'environnement et l'avenir des relations entre l'Europe et le Tiers-Monde",
+        "pyear": 1975,
+        "jac": 0.0,
+        "deja_pris": true
+      }
+    ]
+  },
+  {
+    "gkey": "ZDCCZIGX",
+    "gtitle": "Péréquation des coûts spatiaux des services publics en réseau et incitation à la maîtrise des usages concurrentiels. Perspectives d'innovation pour le Régime d'Electrification Rurale français",
+    "gyear": 1995,
+    "classe": "ABSENT (ajout d'Antonin ?)",
+    "auteurs": [
+      "de"
+    ],
+    "cands": []
+  },
+  {
+    "gkey": "WUPKKRTQ",
+    "gtitle": "Innovative mechanisms for exploiting international CO 2-emission abatement cost differences.",
+    "gyear": 1992,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "rios",
+      "salles",
+      "shunker"
+    ],
+    "cands": [
+      {
+        "pkey": "UI8XFEWK",
+        "ptitle": "Entre nature et société : les jeux de l'irréversibilité : dans la construction économique et sociale du champ de l'environnement",
+        "pyear": 1991,
+        "jac": 0.0,
+        "deja_pris": true
+      }
+    ]
+  },
+  {
+    "gkey": "2R9DUG9W",
+    "gtitle": "Décision en avenir controversé: la micro-économie enjeu et langage de négociation. Réflexions à partir de la crise des pluies acides en Europe",
+    "gyear": 1991,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "salles",
+      "theys"
+    ],
+    "cands": [
+      {
+        "pkey": "UI8XFEWK",
+        "ptitle": "Entre nature et société : les jeux de l'irréversibilité : dans la construction économique et sociale du champ de l'environnement",
+        "pyear": 1991,
+        "jac": 0.0,
+        "deja_pris": true
+      }
+    ]
+  },
+  {
+    "gkey": "MGHF73MR",
+    "gtitle": "Du transfert mimétique à l’auto-détermination: quelques points de repère",
+    "gyear": 1976,
+    "classe": "ABSENT (ajout d'Antonin ?)",
+    "auteurs": [
+      "thery"
+    ],
+    "cands": []
+  },
+  {
+    "gkey": "IBFTHFPY",
+    "gtitle": "La voiture électrique a-t-elle un avenir ?",
+    "gyear": 1985,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "nicolon"
+    ],
+    "cands": [
+      {
+        "pkey": "D2E6JNIS",
+        "ptitle": "Réflexions sur les orientations du CIRED (1985-1990)",
+        "pyear": 1985,
+        "jac": 0.0,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "UICWK2K9",
+    "gtitle": "L'intervention économique des collectivités locales dans le cadre des régies de production et de distribution d'électricité.",
+    "gyear": 1987,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "ceron"
+    ],
+    "cands": [
+      {
+        "pkey": "Z65IU87T",
+        "ptitle": "Formas de desarrollo agricola, medio ambiente y zonas marginadas",
+        "pyear": 1987,
+        "jac": 0.0,
+        "deja_pris": false
+      },
+      {
+        "pkey": "CSNCNYLX",
+        "ptitle": "La prise en compte de l'environnement dans laplannification française : évaluation et éléments de prospective",
+        "pyear": 1988,
+        "jac": 0.0,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "AJMDYN2P",
+    "gtitle": "Développement micro-régional, initiatives locales et planification décentralisée",
+    "gyear": 1982,
+    "classe": "ABSENT (ajout d'Antonin ?)",
+    "auteurs": [
+      "ceron",
+      "passaris"
+    ],
+    "cands": []
+  },
+  {
+    "gkey": "LC95GJSA",
+    "gtitle": "Les filières-stupéfiants : trois niveaux, cinq logiques. Les stratégies de survie et le monde des criminalités",
+    "gyear": 1994,
+    "classe": "ABSENT (ajout d'Antonin ?)",
+    "auteurs": [
+      "schiray"
+    ],
+    "cands": []
+  },
+  {
+    "gkey": "5Z37XGDV",
+    "gtitle": "L'économie des filières énergétiques. Coût de mise à disposition des énergies et choix des investissements de maîtrise de l'énergie",
+    "gyear": 1987,
+    "classe": "ABSENT (ajout d'Antonin ?)",
+    "auteurs": [
+      "hourcade",
+      "labrousse"
+    ],
+    "cands": []
+  },
+  {
+    "gkey": "NQLGNQDX",
+    "gtitle": "The biogas programs in India and China, an ecologically appropriate technology in two highly contrasting socio-economic settings.",
+    "gyear": 1981,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "thery"
+    ],
+    "cands": [
+      {
+        "pkey": "RP95B3RA",
+        "ptitle": "Plaidoyer pour développer des technologies plus appropriées et passer du mimétisme au pluralisme technologique",
+        "pyear": 1981,
+        "jac": 0.0,
+        "deja_pris": true
+      },
+      {
+        "pkey": "LU2B54BD",
+        "ptitle": "Alternatives pour un autre développement",
+        "pyear": 1980,
+        "jac": 0.0,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "IUJBLTUC",
+    "gtitle": "Consommation, usages du temps et styles de vie : vers une économie politique du hors marché ?",
+    "gyear": 1980,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "schiray",
+      "vinaver"
+    ],
+    "cands": [
+      {
+        "pkey": "PXZG48FM",
+        "ptitle": "Progrès techniques et recherche de nouveaux modèles de temps sociaux",
+        "pyear": 1981,
+        "jac": 0.06,
+        "deja_pris": true
+      },
+      {
+        "pkey": "LU2B54BD",
+        "ptitle": "Alternatives pour un autre développement",
+        "pyear": 1980,
+        "jac": 0.0,
+        "deja_pris": false
+      },
+      {
+        "pkey": "LR2XAKDN",
+        "ptitle": "Prise de conscience écologique et choix de techniques appropriées",
+        "pyear": 1981,
+        "jac": 0.0,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "ZSI2SJHW",
+    "gtitle": "Perspective des alternatives énergétiques pour le Tiers Monde : propositions pour une méthodologie",
+    "gyear": 1980,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "hourcade"
+    ],
+    "cands": [
+      {
+        "pkey": "VV3TCDIR",
+        "ptitle": "Choix énergétiques et choix de société : mythes et réalités des sentiers énergétiques doux",
+        "pyear": 1979,
+        "jac": 0.08,
+        "deja_pris": true
+      },
+      {
+        "pkey": "TE5U3W6V",
+        "ptitle": "Energies nouvelles et stratégies des pays en développement",
+        "pyear": 1979,
+        "jac": 0.0,
+        "deja_pris": true
+      }
+    ]
+  },
+  {
+    "gkey": "VQJBHDVR",
+    "gtitle": "Ecodéveloppement : deux grands programmes : Chine-Brésil",
+    "gyear": 1979,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "thery"
+    ],
+    "cands": [
+      {
+        "pkey": "LU2B54BD",
+        "ptitle": "Alternatives pour un autre développement",
+        "pyear": 1980,
+        "jac": 0.0,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "RTLIRMTU",
+    "gtitle": "Héritage et créativité du savoir écologique populaire comme facteurs de développement sous-utilisés",
+    "gyear": 1979,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "thery"
+    ],
+    "cands": [
+      {
+        "pkey": "LU2B54BD",
+        "ptitle": "Alternatives pour un autre développement",
+        "pyear": 1980,
+        "jac": 0.08,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "2ZTVMHBW",
+    "gtitle": "Vers une nouvelle civilisation du végétal: principaux programmes solaires au Brésil et en Argentine",
+    "gyear": 1977,
+    "classe": "ABSENT (ajout d'Antonin ?)",
+    "auteurs": [
+      "moisan",
+      "thery"
+    ],
+    "cands": []
+  },
+  {
+    "gkey": "I99HEK3V",
+    "gtitle": "Pauvreté et pollution",
+    "gyear": 1977,
+    "classe": "ABSENT (ajout d'Antonin ?)",
+    "auteurs": [
+      "sigal"
+    ],
+    "cands": []
+  },
+  {
+    "gkey": "QJIVWLIW",
+    "gtitle": "Technologies appropriées pour le tiers monde: vers une gestion du pluralisme technologique",
+    "gyear": 1974,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "sachs",
+      "thery",
+      "vinaver"
+    ],
+    "cands": [
+      {
+        "pkey": "E7QKBVQW",
+        "ptitle": "Le changement technologique comme variable des politiques de développement et l'avenir des rapports entre le Tiers Monde et les pays industrialisés",
+        "pyear": 1974,
+        "jac": 0.17,
+        "deja_pris": false
+      },
+      {
+        "pkey": "QT8HSMCI",
+        "ptitle": "Vers une politique de l'environnement",
+        "pyear": 1973,
+        "jac": 0.1,
+        "deja_pris": false
+      },
+      {
+        "pkey": "WBJV94XR",
+        "ptitle": "La crise dans les stratégies de développement : vers l'identification de nouveaux objectifs",
+        "pyear": 1975,
+        "jac": 0.07,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "MQVWZT28",
+    "gtitle": "Substitution entre ressources naturelles et nouvelle croissance",
+    "gyear": 1977,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "baillon",
+      "ceron",
+      "godard"
+    ],
+    "cands": [
+      {
+        "pkey": "G5G4Q8CS",
+        "ptitle": "Environnement et développement : de l'externalité à l'intégration contextuelle",
+        "pyear": 1978,
+        "jac": 0.0,
+        "deja_pris": true
+      }
+    ]
+  },
+  {
+    "gkey": "D7R89HKH",
+    "gtitle": "Croissance et environnement – Quelques aspects économiques de la protection de l’environnement",
+    "gyear": 1972,
+    "classe": "ABSENT (ajout d'Antonin ?)",
+    "auteurs": [],
+    "cands": []
+  },
+  {
+    "gkey": "TGEJDUMV",
+    "gtitle": "Analyse économique, modélisation prospective et développement durable ou comment faire remonter des informations du futur",
+    "gyear": 1998,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "hourcade"
+    ],
+    "cands": [
+      {
+        "pkey": "QRLF5SRD",
+        "ptitle": "Inﬂuence of socioeconomic inertia and uncertainty on optimal CO2-emission abatement",
+        "pyear": 1997,
+        "jac": 0.0,
+        "deja_pris": true
+      },
+      {
+        "pkey": "MQNSPMGX",
+        "ptitle": "Implications of recent CO2 emission-limitation proposals for stabilization of atmospheric concentrations",
+        "pyear": 1997,
+        "jac": 0.0,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "YFPAV9Z5",
+    "gtitle": "Planification du développement endogène et articulation des espaces de développement régionaux et micro-régionaux",
+    "gyear": 1984,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "godard"
+    ],
+    "cands": [
+      {
+        "pkey": "5QKTKLWV",
+        "ptitle": "Décentralisation et développement local en France",
+        "pyear": 1984,
+        "jac": 0.1,
+        "deja_pris": true
+      },
+      {
+        "pkey": "D2E6JNIS",
+        "ptitle": "Réflexions sur les orientations du CIRED (1985-1990)",
+        "pyear": 1985,
+        "jac": 0.0,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "AW5HAGHD",
+    "gtitle": "Quelles politiques face aux chocs énergétiques. France, Italie, Japon, RFA : quatre modes de résorption des déséquilibres",
+    "gyear": 1994,
+    "classe": "ABSENT (ajout d'Antonin ?)",
+    "auteurs": [
+      "hourcade",
+      "kostopoulou"
+    ],
+    "cands": []
+  },
+  {
+    "gkey": "Z5732QEF",
+    "gtitle": "Climate modelling and policy strategies. The role of technical change and uncertainty",
+    "gyear": 1998,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "carraro",
+      "hourcade"
+    ],
+    "cands": [
+      {
+        "pkey": "QRLF5SRD",
+        "ptitle": "Inﬂuence of socioeconomic inertia and uncertainty on optimal CO2-emission abatement",
+        "pyear": 1997,
+        "jac": 0.07,
+        "deja_pris": true
+      },
+      {
+        "pkey": "MQNSPMGX",
+        "ptitle": "Implications of recent CO2 emission-limitation proposals for stabilization of atmospheric concentrations",
+        "pyear": 1997,
+        "jac": 0.0,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "2CM2HC3U",
+    "gtitle": "Précaution et approche séquentielle de la décision face aux risques climatiques de l’effet de serre",
+    "gyear": 1997,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "godard",
+      "hourcade"
+    ],
+    "cands": [
+      {
+        "pkey": "2FVBC9PZ",
+        "ptitle": "L'ambivalence de la précaution et la transformation des rapports entre science et décision",
+        "pyear": 1997,
+        "jac": 0.14,
+        "deja_pris": true
+      },
+      {
+        "pkey": "ZZV67XHR",
+        "ptitle": "Normes, qualités des produits et circuits d'échange à l'ère de la précaution.",
+        "pyear": 1998,
+        "jac": 0.07,
+        "deja_pris": false
+      },
+      {
+        "pkey": "88YZFI6N",
+        "ptitle": "Social Decision-Making under Scientific Controversy, Expertise, and the Precautionary Principle",
+        "pyear": 1997,
+        "jac": 0.06,
+        "deja_pris": true
+      }
+    ]
+  },
+  {
+    "gkey": "2289HLRU",
+    "gtitle": "No-regret potentials and technical innovation : A viability approach to integrated assessment of climate policies",
+    "gyear": 1995,
+    "classe": "ABSENT (ajout d'Antonin ?)",
+    "auteurs": [
+      "chapuis",
+      "hourcade"
+    ],
+    "cands": []
+  },
+  {
+    "gkey": "TGKME386",
+    "gtitle": "The economics of changing course: Implications of adaptability and inertia for optimal climate policy",
+    "gyear": 1995,
+    "classe": "ABSENT (ajout d'Antonin ?)",
+    "auteurs": [
+      "chapuis",
+      "grubb",
+      "ha"
+    ],
+    "cands": []
+  },
+  {
+    "gkey": "RWGHNQ2M",
+    "gtitle": "Economic Issues and Negotiation on Global Environment",
+    "gyear": 1994,
+    "classe": "ABSENT (ajout d'Antonin ?)",
+    "auteurs": [
+      "carraro",
+      "hourcade"
+    ],
+    "cands": []
+  },
+  {
+    "gkey": "J5W7JM5A",
+    "gtitle": "Analyse économique et gestion des risques climatiques",
+    "gyear": 1994,
+    "classe": "ABSENT (ajout d'Antonin ?)",
+    "auteurs": [
+      "hourcade"
+    ],
+    "cands": []
+  },
+  {
+    "gkey": "5MAFMCEE",
+    "gtitle": "Le développement durable: paysage intellectuel",
+    "gyear": 1994,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "godard"
+    ],
+    "cands": [
+      {
+        "pkey": "Y2E89WCC",
+        "ptitle": "Le développement durable et la question urbaine",
+        "pyear": 1995,
+        "jac": 0.33,
+        "deja_pris": false
+      },
+      {
+        "pkey": "JMLBAYTC",
+        "ptitle": "Note sur l'étude du CERNA 'Imapct de différents instruments économiques sur l'exploitation des gisements d'économie d'énergie dans l'industrie française\" - P.N.Giraud et B. Simon",
+        "pyear": 1994,
+        "jac": 0.0,
+        "deja_pris": false
+      },
+      {
+        "pkey": "K4IK526M",
+        "ptitle": "A short notice on funding institutions and research organisation in the Environment / social sciences field in France",
+        "pyear": 1995,
+        "jac": 0.0,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "8L5BLJBP",
+    "gtitle": "El auge de la fractura Norte-Sur.?` Es posible un gobierno global?",
+    "gyear": 1994,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "rogalski"
+    ],
+    "cands": [
+      {
+        "pkey": "2YHQV3L4",
+        "ptitle": "Armements et économie : une nouvelle donne pour les “dividendes de la paix” ?",
+        "pyear": 1993,
+        "jac": 0.0,
+        "deja_pris": true
+      }
+    ]
+  },
+  {
+    "gkey": "4LZX63KS",
+    "gtitle": "De las \"bondades\" del gasto militar a los dividendos de la paz: ¿hacia un nuevo consenso?",
+    "gyear": 1993,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "rogalski"
+    ],
+    "cands": [
+      {
+        "pkey": "2YHQV3L4",
+        "ptitle": "Armements et économie : une nouvelle donne pour les “dividendes de la paix” ?",
+        "pyear": 1993,
+        "jac": 0.0,
+        "deja_pris": true
+      }
+    ]
+  },
+  {
+    "gkey": "X4NRJTKR",
+    "gtitle": "Les risques climatiques entre raisons scientifiques, économiques et politiques. Jalons de la construction d’un problème d’action internationale en univers controversé",
+    "gyear": 1993,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "godard"
+    ],
+    "cands": [
+      {
+        "pkey": "5GSGN6AX",
+        "ptitle": "Variables de coordination et négociation, en univers controversé, d'un régime international pour le climat",
+        "pyear": 1992,
+        "jac": 0.1,
+        "deja_pris": true
+      },
+      {
+        "pkey": "HEUPYNJ2",
+        "ptitle": "Entre disciplines et réalité, l'artifice des systèmes",
+        "pyear": 1992,
+        "jac": 0.06,
+        "deja_pris": false
+      },
+      {
+        "pkey": "9UQHKZWJ",
+        "ptitle": "Regards économiques sur la nouvelle organisation de la gestion des déchets ménagers en France",
+        "pyear": 1994,
+        "jac": 0.05,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "ILBXVP7W",
+    "gtitle": "Les enjeux économiques des risques globaux d’environnement",
+    "gyear": 1993,
+    "classe": "ABSENT (ajout d'Antonin ?)",
+    "auteurs": [
+      "salles"
+    ],
+    "cands": []
+  },
+  {
+    "gkey": "KVXTK464",
+    "gtitle": "Modelling long-run scenarios: Methodology lessons from a prospective study on a low CO2 intensive country",
+    "gyear": 1993,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "hourcade"
+    ],
+    "cands": [
+      {
+        "pkey": "BDEZFM5U",
+        "ptitle": "L’effet de serre: des bons et mauvais usages d’une provocation",
+        "pyear": 1992,
+        "jac": 0.0,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "6CEDUWAT",
+    "gtitle": "Les sciences entre philosophie et mass media ou l’incertaine légitimité",
+    "gyear": 1993,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "hourcade"
+    ],
+    "cands": [
+      {
+        "pkey": "BDEZFM5U",
+        "ptitle": "L’effet de serre: des bons et mauvais usages d’une provocation",
+        "pyear": 1992,
+        "jac": 0.0,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "VLMG9TNK",
+    "gtitle": "Ecological economics and scientific controversies. Lessons from some recent policy making in the EEC",
+    "gyear": 1992,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "hourcade",
+      "salles",
+      "thery"
+    ],
+    "cands": [
+      {
+        "pkey": "UI8XFEWK",
+        "ptitle": "Entre nature et société : les jeux de l'irréversibilité : dans la construction économique et sociale du champ de l'environnement",
+        "pyear": 1991,
+        "jac": 0.0,
+        "deja_pris": true
+      },
+      {
+        "pkey": "N5QPS2L7",
+        "ptitle": "Instruments pour une gestion collective des risques climatiques Un cadre d'analyse centré sur les moyens de faire apparaitre un signal-prix",
+        "pyear": 1991,
+        "jac": 0.0,
+        "deja_pris": true
+      },
+      {
+        "pkey": "BDEZFM5U",
+        "ptitle": "L’effet de serre: des bons et mauvais usages d’une provocation",
+        "pyear": 1992,
+        "jac": 0.0,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "JU26GGA4",
+    "gtitle": "Essai sur l'illégalité en économie : l'économie de la drogue",
+    "gyear": 1989,
+    "classe": "ABSENT (ajout d'Antonin ?)",
+    "auteurs": [
+      "schiray"
+    ],
+    "cands": []
+  },
+  {
+    "gkey": "VXC4HVJC",
+    "gtitle": "Les nouvelles technologies de la communication dans la vie quotidienne: imprévisibilité et expérimentation des usages",
+    "gyear": 1989,
+    "classe": "ABSENT (ajout d'Antonin ?)",
+    "auteurs": [
+      "capecchi",
+      "pesce",
+      "schiray"
+    ],
+    "cands": []
+  },
+  {
+    "gkey": "MKIBJXCL",
+    "gtitle": "chapitre XV : le défi de la gestion de l'environnement",
+    "gyear": 1986,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "godard"
+    ],
+    "cands": [
+      {
+        "pkey": "D2E6JNIS",
+        "ptitle": "Réflexions sur les orientations du CIRED (1985-1990)",
+        "pyear": 1985,
+        "jac": 0.0,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "ECKMA92W",
+    "gtitle": "Les économies d'échelle",
+    "gyear": 1985,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "hourcade"
+    ],
+    "cands": [
+      {
+        "pkey": "X3NM7EFI",
+        "ptitle": "SIGNIFICATION ET IMPASSES D’UN CONCEPT BANALISÉ : LES ÉCONOMIES D’ÉCHELLE",
+        "pyear": 1985,
+        "jac": 0.33,
+        "deja_pris": false
+      },
+      {
+        "pkey": "6H8ATMZN",
+        "ptitle": "PROSPECTIVE DE L'ÉNERGIE ET STRATÉGIES DE DÉVELOPPEMENT DANS LE TIERS-MONDE",
+        "pyear": 1984,
+        "jac": 0.0,
+        "deja_pris": false
+      },
+      {
+        "pkey": "AG8MVA3G",
+        "ptitle": "L'énergie dans le Tiers-Monde à la CME de New-Delhi : du discours des experts aux enjeux du développement",
+        "pyear": 1984,
+        "jac": 0.0,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "8KMIYECK",
+    "gtitle": "Le développement endogène et la différenciation des espaces de développement: une grille d’analyse pour le développement local",
+    "gyear": 1985,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "ceron",
+      "godard",
+      "passaris",
+      "vinaver"
+    ],
+    "cands": [
+      {
+        "pkey": "5QKTKLWV",
+        "ptitle": "Décentralisation et développement local en France",
+        "pyear": 1984,
+        "jac": 0.22,
+        "deja_pris": true
+      },
+      {
+        "pkey": "D2E6JNIS",
+        "ptitle": "Réflexions sur les orientations du CIRED (1985-1990)",
+        "pyear": 1985,
+        "jac": 0.0,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "46IH62D9",
+    "gtitle": "Prospective de la demande dans le tiers-monde: problèmes de modélisation",
+    "gyear": 1985,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "hourcade",
+      "lapillonne"
+    ],
+    "cands": [
+      {
+        "pkey": "6H8ATMZN",
+        "ptitle": "PROSPECTIVE DE L'ÉNERGIE ET STRATÉGIES DE DÉVELOPPEMENT DANS LE TIERS-MONDE",
+        "pyear": 1984,
+        "jac": 0.33,
+        "deja_pris": false
+      },
+      {
+        "pkey": "AG8MVA3G",
+        "ptitle": "L'énergie dans le Tiers-Monde à la CME de New-Delhi : du discours des experts aux enjeux du développement",
+        "pyear": 1984,
+        "jac": 0.14,
+        "deja_pris": false
+      },
+      {
+        "pkey": "D2E6JNIS",
+        "ptitle": "Réflexions sur les orientations du CIRED (1985-1990)",
+        "pyear": 1985,
+        "jac": 0.0,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "7Y9HGZGQ",
+    "gtitle": "Autonomie socio-économique et externalisation de l'environnement: la théorie néoclassique mise en perspective",
+    "gyear": 1984,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "godard"
+    ],
+    "cands": [
+      {
+        "pkey": "5QKTKLWV",
+        "ptitle": "Décentralisation et développement local en France",
+        "pyear": 1984,
+        "jac": 0.0,
+        "deja_pris": true
+      },
+      {
+        "pkey": "D2E6JNIS",
+        "ptitle": "Réflexions sur les orientations du CIRED (1985-1990)",
+        "pyear": 1985,
+        "jac": 0.0,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "MF6FE8GU",
+    "gtitle": "La réforme de la planification en France ou comment promouvoir un développement plus autonome? in Municipales 1983",
+    "gyear": 1982,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "godard"
+    ],
+    "cands": [
+      {
+        "pkey": "STPFPZYZ",
+        "ptitle": "Décentralisation et planification du développement endogène",
+        "pyear": 1982,
+        "jac": 0.17,
+        "deja_pris": true
+      }
+    ]
+  },
+  {
+    "gkey": "TQ59I4JC",
+    "gtitle": "Dialectique de l'environnement, style de développement et politiques publiques",
+    "gyear": 1982,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "godard"
+    ],
+    "cands": [
+      {
+        "pkey": "STPFPZYZ",
+        "ptitle": "Décentralisation et planification du développement endogène",
+        "pyear": 1982,
+        "jac": 0.11,
+        "deja_pris": true
+      }
+    ]
+  },
+  {
+    "gkey": "SUHYWBAH",
+    "gtitle": "Environnement, Architecture et matériaux de construction",
+    "gyear": 1981,
+    "classe": "ABSENT (ajout d'Antonin ?)",
+    "auteurs": [
+      "baillon",
+      "ceron"
+    ],
+    "cands": []
+  },
+  {
+    "gkey": "F5V32XV4",
+    "gtitle": "Crise de l’environnement et régulation du développement : pour un dépassement de la problématique ‘centralisation – décentralisation’",
+    "gyear": 1979,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "afcet",
+      "godard"
+    ],
+    "cands": [
+      {
+        "pkey": "G5G4Q8CS",
+        "ptitle": "Environnement et développement : de l'externalité à l'intégration contextuelle",
+        "pyear": 1978,
+        "jac": 0.18,
+        "deja_pris": true
+      },
+      {
+        "pkey": "4Q32NCT5",
+        "ptitle": "Politiques d'environnement et règles du commerce international : le principe de précautionsur la ligne de fracture.",
+        "pyear": 1979,
+        "jac": 0.06,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "CHYWS2GN",
+    "gtitle": "Development, maldevelopment and industrialisation of third world countries",
+    "gyear": 1979,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "sachs"
+    ],
+    "cands": [
+      {
+        "pkey": "DSRZKN4M",
+        "ptitle": "Research for strategies of transition : from maldevelopment to development",
+        "pyear": 1979,
+        "jac": 0.2,
+        "deja_pris": false
+      },
+      {
+        "pkey": "UCHNKYPR",
+        "ptitle": "Time-spaces of development",
+        "pyear": 1980,
+        "jac": 0.12,
+        "deja_pris": false
+      },
+      {
+        "pkey": "C9QYP2BX",
+        "ptitle": "Energy, environment, development",
+        "pyear": 1980,
+        "jac": 0.12,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "HE8X3R9I",
+    "gtitle": "Dimensionnement des systèmes technologiques, résilience des structures industrielles et défense de l’autonomie de décision : un éclairage sur les stratégies à long terme pour la France",
+    "gyear": 1979,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "hourcade"
+    ],
+    "cands": [
+      {
+        "pkey": "TE5U3W6V",
+        "ptitle": "Energies nouvelles et stratégies des pays en développement",
+        "pyear": 1979,
+        "jac": 0.06,
+        "deja_pris": true
+      },
+      {
+        "pkey": "VV3TCDIR",
+        "ptitle": "Choix énergétiques et choix de société : mythes et réalités des sentiers énergétiques doux",
+        "pyear": 1979,
+        "jac": 0.0,
+        "deja_pris": true
+      }
+    ]
+  },
+  {
+    "gkey": "HH39FQUT",
+    "gtitle": "Environnement et styles de développement",
+    "gyear": 1974,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "sachs"
+    ],
+    "cands": [
+      {
+        "pkey": "ILR5JLPJ",
+        "ptitle": "Environnement et style de développement",
+        "pyear": 1974,
+        "jac": 0.5,
+        "deja_pris": false
+      },
+      {
+        "pkey": "CTKWES6W",
+        "ptitle": "Développement, environnement et évaluation des techniques",
+        "pyear": 1973,
+        "jac": 0.4,
+        "deja_pris": true
+      },
+      {
+        "pkey": "SJSLEUTF",
+        "ptitle": "L'environnement et la planification",
+        "pyear": 1975,
+        "jac": 0.25,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "JP7LJD76",
+    "gtitle": "Croissance et environnement: éléments pour une stratégie d'harmonisation",
+    "gyear": 1973,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "groupe",
+      "sachs"
+    ],
+    "cands": [
+      {
+        "pkey": "3ZMINRSF",
+        "ptitle": "Environnement et projet de civilisation",
+        "pyear": 1972,
+        "jac": 0.14,
+        "deja_pris": true
+      },
+      {
+        "pkey": "QT8HSMCI",
+        "ptitle": "Vers une politique de l'environnement",
+        "pyear": 1973,
+        "jac": 0.14,
+        "deja_pris": false
+      },
+      {
+        "pkey": "ILR5JLPJ",
+        "ptitle": "Environnement et style de développement",
+        "pyear": 1974,
+        "jac": 0.14,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "6TVQHY7I",
+    "gtitle": "A qui profite l'anti-pollution?",
+    "gyear": 1972,
+    "classe": "ABSENT (ajout d'Antonin ?)",
+    "auteurs": [
+      "ceron"
+    ],
+    "cands": []
+  },
+  {
+    "gkey": "4QALJU9P",
+    "gtitle": "Permis d'émission négociables",
+    "gyear": 1993,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "baron",
+      "hourcade",
+      "organisation"
+    ],
+    "cands": [
+      {
+        "pkey": "BDEZFM5U",
+        "ptitle": "L’effet de serre: des bons et mauvais usages d’une provocation",
+        "pyear": 1992,
+        "jac": 0.0,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "TEUILYUK",
+    "gtitle": "Réduire les émissions de gaz à effet de serre au moyen de permis négociables",
+    "gyear": 1992,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "baron",
+      "hourcade"
+    ],
+    "cands": [
+      {
+        "pkey": "BDEZFM5U",
+        "ptitle": "L’effet de serre: des bons et mauvais usages d’une provocation",
+        "pyear": 1992,
+        "jac": 0.17,
+        "deja_pris": false
+      },
+      {
+        "pkey": "N5QPS2L7",
+        "ptitle": "Instruments pour une gestion collective des risques climatiques Un cadre d'analyse centré sur les moyens de faire apparaitre un signal-prix",
+        "pyear": 1991,
+        "jac": 0.0,
+        "deja_pris": true
+      }
+    ]
+  },
+  {
+    "gkey": "EA8X28BL",
+    "gtitle": "Nouvelles formes de financement de l’action internationale sur l’environnement",
+    "gyear": 1971,
+    "classe": "ABSENT (ajout d'Antonin ?)",
+    "auteurs": [
+      "ceron",
+      "hourcade"
+    ],
+    "cands": []
+  },
+  {
+    "gkey": "WB4BD6TC",
+    "gtitle": "Politique énergétique et effet de serre. Une esquisse des marges de manœuvre à 2030",
+    "gyear": 1991,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "baron",
+      "ben",
+      "hourcade"
+    ],
+    "cands": [
+      {
+        "pkey": "BDEZFM5U",
+        "ptitle": "L’effet de serre: des bons et mauvais usages d’une provocation",
+        "pyear": 1992,
+        "jac": 0.15,
+        "deja_pris": false
+      },
+      {
+        "pkey": "N5QPS2L7",
+        "ptitle": "Instruments pour une gestion collective des risques climatiques Un cadre d'analyse centré sur les moyens de faire apparaitre un signal-prix",
+        "pyear": 1991,
+        "jac": 0.0,
+        "deja_pris": true
+      }
+    ]
+  },
+  {
+    "gkey": "6L34DEER",
+    "gtitle": "Energy, development styles and capital requirements in Thrid world countries",
+    "gyear": 1982,
+    "classe": "ABSENT (ajout d'Antonin ?)",
+    "auteurs": [
+      "hourcade"
+    ],
+    "cands": []
+  },
+  {
+    "gkey": "B8E6YMRE",
+    "gtitle": "Planification décentralisée et modes de développement - L'expérience du Bureau Méridional de planification agricole en Provence",
+    "gyear": 1985,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "ceron",
+      "godard"
+    ],
+    "cands": [
+      {
+        "pkey": "5QKTKLWV",
+        "ptitle": "Décentralisation et développement local en France",
+        "pyear": 1984,
+        "jac": 0.08,
+        "deja_pris": true
+      },
+      {
+        "pkey": "D2E6JNIS",
+        "ptitle": "Réflexions sur les orientations du CIRED (1985-1990)",
+        "pyear": 1985,
+        "jac": 0.0,
+        "deja_pris": false
+      }
+    ]
+  },
+  {
+    "gkey": "4NACI36V",
+    "gtitle": "demande énergétique au tiers monde et besoin d'investissements",
+    "gyear": 1978,
+    "classe": "PRÉSENT (auteur+année)",
+    "auteurs": [
+      "hourcade"
+    ],
+    "cands": [
+      {
+        "pkey": "VV3TCDIR",
+        "ptitle": "Choix énergétiques et choix de société : mythes et réalités des sentiers énergétiques doux",
+        "pyear": 1979,
+        "jac": 0.0,
+        "deja_pris": true
+      },
+      {
+        "pkey": "TE5U3W6V",
+        "ptitle": "Energies nouvelles et stratégies des pays en développement",
+        "pyear": 1979,
+        "jac": 0.0,
+        "deja_pris": true
+      }
+    ]
+  }
+]
