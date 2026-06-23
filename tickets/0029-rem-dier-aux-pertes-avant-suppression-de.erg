@@ -1,0 +1,70 @@
+%erg 0.1
+Title: Remédier aux pertes avant suppression de Recueil_CIRED (notes + 8 notices)
+Created: 2026-06-23
+Author: Minh Ha-Duong
+Blocked-by: 0025
+
+--- log ---
+2026-06-23T13:18Z Minh Ha-Duong created
+2026-06-23T13:18Z claude note Issu de l'audit 0025 (verdict NO-GO). Corrige les pertes identifiées, puis 0025 sera re-vérifié (doit revenir GO/zéro-perte) avant suppression du groupe.
+
+--- body ---
+## Context
+
+L'audit indépendant 0025 (`src/verify_recueil_mirror.py`, rapport
+`outputs/verify_recueil_mirror_report.md`) conclut **NO-GO** : supprimer le
+groupe Zotero `Recueil_CIRED` perdrait de l'information non retrouvée dans My
+Library. Ce ticket porte la remédiation ; 0025 reste le gate (re-vérification
+zéro-perte exigée après).
+
+## Pertes à corriger (état au 2026-06-23, voir le rapport pour les clés)
+
+1. **16 notes d'annotation** d'Antonin rattachées à des notices du groupe, dont
+   le texte est introuvable dans My Library (My Library n'a qu'1 note, sans
+   rapport). Ce sont des commentaires substantiels (jusqu'à ~2 200 caractères) à
+   réinjecter sur la notice My Library équivalente.
+2. **2 notices** dont une notice pré-existante couvre le titre+année+auteur mais
+   à qui il manque des champs énumérés : `Le développement durable et le devenir
+   des villes` (pages, publicationTitle, publisher) et `Environnement et projet
+   de civilisation` (volume, pages). Compléter les champs ou injecter la version
+   du recueil.
+3. **6 notices** sans appariement net (titre normalisé non identique) — à
+   apparier/injecter manuellement : Entre nature et société (1991), Ecodevelopment
+   (1974), Eléments pour une nouvelle approche de la gestion de l'eau (1975), La
+   Méditerranée : un potentiel de ressources menacé ? (1975), La décentralisation
+   en France (1986), Integration of technology in development planning (1979).
+
+Hors verdict (rappel) : les 54 doc-équivalents (URL recueil non dupliquée mais
+PDF du même document présent) et les doublons internes de My Library ne sont PAS
+des pertes ; ne pas s'en occuper ici.
+
+## Relevant files
+- `src/verify_recueil_mirror.py` — l'audit (lecture seule) qui définit « perte ».
+- `outputs/verify_recueil_mirror_report.md` — liste exacte des clés à traiter.
+- `src/apply_corrections.py`, `src/add_new_docs.py` — patrons d'écriture Zotero
+  (toujours `--backup` avec `--apply`).
+
+## Actions
+1. Réinjecter les 16 notes sur la notice My Library équivalente (créer la notice
+   si absente).
+2. Compléter/injecter les 2 notices à champs manquants.
+3. Apparier ou injecter les 6 notices sans match.
+
+## Test
+- Réutiliser l'audit : après remédiation, `uv run python
+  src/verify_recueil_mirror.py` doit rendre **GO** (0 perte méta/PDF, 0 perte de
+  note).
+
+## Verification
+- [ ] `make outputs/verify_recueil_mirror_report.md` → verdict GO
+- [ ] Sauvegarde Zotero prise avant toute écriture (`--backup`)
+
+## Invariants
+- Ne pas toucher l'archive source sur disque.
+- Ne PAS supprimer le groupe ici : c'est 0025 (re-vérifié) qui débloque.
+- Toute écriture Zotero passe par un script avec `--backup`.
+
+## Exit criteria
+- [ ] Les 16 notes et 8 notices sont couvertes dans My Library
+- [ ] L'audit 0025 ré-exécuté rend GO (zéro perte)
+- [ ] `make check` passe
