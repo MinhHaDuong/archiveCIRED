@@ -1,0 +1,52 @@
+%erg 0.1
+Title: Déplacer le détail catalogue/recueil hors de ## Status (régénéré par refresh-STATE.py) vers une section éditée à la main
+Created: 2026-06-23
+Author: Minh Ha-Duong
+
+--- log ---
+2026-06-23T09:50Z Minh Ha-Duong created
+2026-06-23T09:50Z claude note Issu de /lair : refresh-STATE.py réparé (0027) régénère un ## Status minimal qui écrase le détail écrit à la main.
+
+--- body ---
+## Contexte
+
+`refresh-STATE.py` (réparé en [[0027]]) régénère la section `## Status` à chaque
+`/lair` : compteurs (`N ready · N blocked`) + 5 derniers commits, point. La spec
+`rules/state.md` confirme que `## Status` est **possédée par la machine** —
+remplacée intégralement à chaque session.
+
+Or le STATE actuel a du contenu durable écrit à la main *dans* `## Status` :
+- **Catalogue** : base 686 notices + collection « Recueil 50 ans CIRED »
+  (VPDB49CK, 131 items) + règle « apparier par id, jamais par titre ».
+- **Index** : file_index 1991 fichiers, doc_index 1112 docs.
+
+Au prochain `/lair`, refresh-STATE.py écrasera ces lignes. Il faut les déplacer
+vers une section éditée à la main (les sections après `## Status` sont préservées
+verbatim par le script).
+
+Détail mineur observé : le script classe les tickets `deferred` comme *blocked*
+(« 10 ready · 6 blocked » au lieu de 9/2/4). Acceptable pour un compteur, à noter.
+
+## Relevant files
+- `STATE.md` — déplacer Catalogue/Index hors de `## Status`.
+- `~/.claude/scripts/refresh-STATE.py` — référence (ne régénère que `## Status`).
+- `rules/state.md` — spec : `## Status` machine, total ≤ 40 lignes.
+
+## Actions
+1. Créer une section éditée à la main (p. ex. `## Catalogue & index`) et y
+   déplacer les lignes Catalogue/Index actuellement dans `## Status`.
+2. Laisser `## Status` ne contenir que compteurs + commits (sortie du script).
+3. Vérifier que `refresh-STATE.py` ne touche plus que `## Status` et que le
+   total reste ≤ 40 lignes.
+
+## Test
+- Après `refresh-STATE.py`, `git diff STATE.md` ne modifie que `## Status` et le
+  timestamp ; les sections Catalogue/Index/Chemin à suivre restent intactes.
+
+## Invariants
+- STATE.md ≤ 40 lignes ; `## Status` ≤ 20 lignes.
+
+## Exit criteria
+- [ ] Détail catalogue/index hors de `## Status`, dans une section main-éditée
+- [ ] `refresh-STATE.py` ne clobbe plus aucune info écrite à la main
+- [ ] STATE.md ≤ 40 lignes
