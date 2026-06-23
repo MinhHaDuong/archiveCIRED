@@ -8,6 +8,7 @@ Author: Minh Ha-Duong
 2026-06-23T08:46Z claude note Handoff pour vérificateur INDÉPENDANT (frais). Ne pas faire confiance à l'appariement de l'agent qui a exécuté la fusion. Suppression du groupe GELÉE tant que ce ticket n'est pas vert.
 2026-06-23T09:10Z claude note Corps nettoyé : la vérification part de l'état en ligne (collection à 131), sans les justifications/appariements de l'agent qui biaiseraient le verdict.
 2026-06-23T09:20Z claude note But recadré (M. Ha-Duong) : « ne perd-on pas d'information ? ». La cohérence interne de My Library (doublons, dédoublonnage) est HORS SCOPE.
+2026-06-23T09:30Z claude note Rôle dans le DAG : audit-gate du tracker [[0015]] (qui le porte en Blocked-by). Vert ⇒ groupe `Recueil_CIRED` supprimable ⇒ recueil réconcilié. Lui-même bloqué par rien : exécutable maintenant (lecture seule).
 
 --- body ---
 ## But
