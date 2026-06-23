@@ -2,24 +2,16 @@
   "meta": {
     "notices_groupe": 131,
     "notes_groupe": 17,
-    "notices_my_library_top": 770,
-    "notices_my_library_total": 1539,
+    "notices_my_library_top": 764,
+    "notices_my_library_total": 1533,
     "notes_my_library": 17,
     "group_id": "2511149",
     "user_id": "2114597"
   },
   "total": 131,
-  "url_preserved": 75,
-  "doc_equivalent": 56,
+  "url_preserved": 90,
+  "doc_equivalent": 41,
   "doc_equivalent_list": [
-    {
-      "key": "LBZL2DLF",
-      "title": "Oppositions locales à des projets d'équipement",
-      "annee": "1981",
-      "url_basename": "1981-42-nicolon_oppositions_projets_d_equipement_article_rfsp_num_31_2.pdf",
-      "tier": "doc_equivalent",
-      "matched": "B9PV9QB7"
-    },
     {
       "key": "H9SPPPJK",
       "title": "Environment and development revisited : ten years after Stockholm conference",
@@ -27,30 +19,6 @@
       "url_basename": "1982-57-sach_environment_development_stockholm.pdf",
       "tier": "doc_equivalent",
       "matched": "LV3GLTLU"
-    },
-    {
-      "key": "G9ELIQQ6",
-      "title": "Plaidoyer pour développer des technologies plus appropriées et passer du mimétisme au pluralisme technologique",
-      "annee": "1981",
-      "url_basename": "1981-43-_thery_mimetisme_technologique_revue_tiers_monde_1981_88iers_0040-7356_1981_num_22_88_4073-2.pdf",
-      "tier": "doc_equivalent",
-      "matched": "RP95B3RA"
-    },
-    {
-      "key": "TL695VVE",
-      "title": "Les temps - espaces du développement",
-      "annee": "1980",
-      "url_basename": "1980-38_sachs_temps-espaces_developpement.pdf",
-      "tier": "doc_equivalent",
-      "matched": "R24GWFTW"
-    },
-    {
-      "key": "G9AEDNLN",
-      "title": "Développement, utopie, projet de société",
-      "annee": "1978",
-      "url_basename": "1978-192-sachs.developpement_utopie.pdf",
-      "tier": "doc_equivalent",
-      "matched": "4VPQC7F6"
     },
     {
       "key": "C38PHR9A",
@@ -85,14 +53,6 @@
       "matched": "S9R4I4F4"
     },
     {
-      "key": "IRCNH6IF",
-      "title": "La politique de l'environnement et l'avenir des relations entre l'Europe et le Tiers-Monde",
-      "annee": "1975",
-      "url_basename": "1975-17-ceron-hource-environnement-europe-tiers-monde.pdf",
-      "tier": "doc_equivalent",
-      "matched": "U6VHDB63"
-    },
-    {
       "key": "MQVWZT28",
       "title": "Substitution entre ressources naturelles et nouvelle croissance",
       "annee": "1977",
@@ -107,14 +67,6 @@
       "url_basename": "1976-20-sachs_domination_technologie.pdf",
       "tier": "doc_equivalent",
       "matched": "KGKS7LFH"
-    },
-    {
-      "key": "PQZQLGTH",
-      "title": "Le biais mimétique dans le choix de techniques : un facteurd'asphyxie du dévéleoppement autocentré en Tanzanie",
-      "annee": "1984",
-      "url_basename": "1984-64-thery_biais-mimetique-choix-techniques-tanzanie-_tiers_monde0040-7356_1984_num_25_100_4370.pdf",
-      "tier": "doc_equivalent",
-      "matched": "62FAWZYT"
     },
     {
       "key": "SGUWUSZT",
@@ -133,28 +85,12 @@
       "matched": "2YHQV3L4"
     },
     {
-      "key": "M4BTRNDY",
-      "title": "Les bifurcations de la politique énergétique française depuis la guerre",
-      "annee": "1982",
-      "url_basename": "1982-55-puiseux-bifurcations-politique-energetique.pdf",
-      "tier": "doc_equivalent",
-      "matched": "2YWUKF7M"
-    },
-    {
       "key": "RD24DULV",
       "title": "Le bouleversement des climats. Comment gérer l'incertitude ?",
       "annee": "1989",
       "url_basename": "1989-80-hourcade-megie-theys-bouleversement-climats-gerer-incertitudelzptx7yj.pdf-1.part.pdf",
       "tier": "doc_equivalent",
       "matched": "8KM6L2HS"
-    },
-    {
-      "key": "XPE8ZI2Y",
-      "title": "L’environnement, obstacle ou argument pour un nouvel ordre économique international : essai de prospective à l’échelle du bassin méditerranéen",
-      "annee": "1975",
-      "url_basename": "1975-15-hourcade_environnement-obstacle-argument-options_mediterraneennes_n31.pdf",
-      "tier": "doc_equivalent",
-      "matched": "BSU65UVI"
     },
     {
       "key": "DJDX3BI8",
@@ -245,44 +181,12 @@
       "matched": "EMI3J8YC"
     },
     {
-      "key": "7ZYDMBRA",
-      "title": "Environnement, modes de coordination et systèmes de légitimité : analyse de la catégorie de patrimoine naturel",
-      "annee": "1990",
-      "url_basename": "1990-83-imprime-des-pages-blanches-godard-environnement-modes-coordination-legitmite.pdf",
-      "tier": "doc_equivalent",
-      "matched": "BPFGPPBH"
-    },
-    {
-      "key": "88CIV4SC",
-      "title": "Jeux de nature : quand le débat sur l'efficacité des politiques publiques contient la question de leur légitilité",
-      "annee": "1989",
-      "url_basename": "1989-78-godard_jeux_de_nature_chez_jollivet_et_mathieu_harmattan.pdf",
-      "tier": "doc_equivalent",
-      "matched": "DPQBEHSB"
-    },
-    {
-      "key": "X7ASGCXN",
-      "title": "L'occupation  des espaces littoraux méditérranéens",
-      "annee": "1975",
-      "url_basename": "1975-16-godard_occupation-espaces-littoraux-options_mediterrannennes_n3.pdf",
-      "tier": "doc_equivalent",
-      "matched": "RQ2AY8XX"
-    },
-    {
       "key": "5TLTLHYK",
       "title": "L'économie cachée en France : état du débat et bilan des travaux",
       "annee": "1984",
       "url_basename": "1984-63-schiray_gaudin_economie-cachee.pdf",
       "tier": "doc_equivalent",
       "matched": "NYLF264S"
-    },
-    {
-      "key": "TISPDA42",
-      "title": "Développement des réseaux et modulations spatio-temporelles des tarifs: l'équité territoriale revisitée",
-      "annee": "1989",
-      "url_basename": "1989-81-hourcade-colombier-dev-reseaux-modulations-spatio-num_40_4_409159.pdf",
-      "tier": "doc_equivalent",
-      "matched": "VMZPHJXH"
     },
     {
       "key": "MGXHTGK2",
@@ -307,14 +211,6 @@
       "url_basename": "1993-98-godard-science-interet-denonciation-lenoir.pdf",
       "tier": "doc_equivalent",
       "matched": "KEKWF9QT"
-    },
-    {
-      "key": "I73N53PY",
-      "title": "La relation interdisciplinaire : problèmes et stratégies",
-      "annee": "1992",
-      "url_basename": "1992-89-godard-relation-interdisciplinaire.pdf",
-      "tier": "doc_equivalent",
-      "matched": "Y6PTWIVR"
     },
     {
       "key": "BUPRIS9R",
@@ -389,22 +285,6 @@
       "matched": "S8VUIU74"
     },
     {
-      "key": "5NMK4RVK",
-      "title": "Décentralisation et planification du développement endogène",
-      "annee": "1982",
-      "url_basename": "1982-52-godard_la_decentralisation_et_la_planification_du_developpement_endogene_ifda_doss_32.pdf",
-      "tier": "doc_equivalent",
-      "matched": "STPFPZYZ"
-    },
-    {
-      "key": "TIZUI4EU",
-      "title": "Environnement et projet de civilisation",
-      "annee": "1972",
-      "url_basename": "1972-5-sachs.environnement_projet_civilisation.pdf",
-      "tier": "doc_equivalent",
-      "matched": "3ZMINRSF"
-    },
-    {
       "key": "4QALJU9P",
       "title": "Permis d'émission négociables",
       "annee": "1993",
@@ -464,38 +344,6 @@
   "losses": [],
   "note_losses": [],
   "duplicate_clusters": [
-    {
-      "titre": "integration of technology in development planning a normative view",
-      "annee": "1979",
-      "keys": [
-        "4PMKVKH6",
-        "WCI9YSD4"
-      ]
-    },
-    {
-      "titre": "la mediterranee un potentiel de ressources menace",
-      "annee": "1975",
-      "keys": [
-        "X8HZN2J3",
-        "NYFD6CNL"
-      ]
-    },
-    {
-      "titre": "elements pour une nouvelle approche de la gestion de l eau dans les pays mediterraneens",
-      "annee": "1975",
-      "keys": [
-        "5M7TJ5DZ",
-        "Z83SYUK5"
-      ]
-    },
-    {
-      "titre": "entre nature et societe les jeux de l irreversibilite dans la construction economique et sociale du champ de l environnement",
-      "annee": "1991",
-      "keys": [
-        "ZDV4BIS9",
-        "UI8XFEWK"
-      ]
-    },
     {
       "titre": "les temps espaces du developpement",
       "annee": "1980",

@@ -1,0 +1,340 @@
+[
+  {
+    "key": "5M7TJ5DZ",
+    "version": 7790,
+    "itemType": "journalArticle",
+    "title": "Elements pour une nouvelle approche de la gestion de l'eau dans les pays méditérranéens",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "D.",
+        "lastName": "Chabrol"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Patrick",
+        "lastName": "Criqui"
+      },
+      {
+        "creatorType": "contributor",
+        "firstName": "Olivier",
+        "lastName": "Godard"
+      },
+      {
+        "creatorType": "contributor",
+        "firstName": "Jean-Charles",
+        "lastName": "Hourcade"
+      }
+    ],
+    "abstractNote": "",
+    "publicationTitle": "Options méditerranéennes",
+    "publisher": "",
+    "place": "",
+    "date": "1975",
+    "volume": "",
+    "issue": "31",
+    "section": "",
+    "partNumber": "",
+    "partTitle": "",
+    "pages": "89-103",
+    "series": "",
+    "seriesTitle": "",
+    "seriesText": "",
+    "journalAbbreviation": "",
+    "DOI": "",
+    "citationKey": "",
+    "url": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1975-191-options-mediterrannennes-chabrol-CI010639.pdf",
+    "accessDate": "",
+    "PMID": "",
+    "PMCID": "",
+    "ISSN": "",
+    "archive": "",
+    "archiveLocation": "",
+    "shortTitle": "",
+    "language": "Français",
+    "libraryCatalog": "",
+    "callNumber": "CIR_GOD_0016",
+    "rights": "",
+    "extra": "",
+    "deleted": 1,
+    "tags": [
+      {
+        "tag": "recueil-50ans"
+      }
+    ],
+    "collections": [
+      "VPDB49CK"
+    ],
+    "relations": {},
+    "dateAdded": "2026-06-23T15:09:58Z",
+    "dateModified": "2026-06-23T21:05:04Z"
+  },
+  {
+    "key": "X8HZN2J3",
+    "version": 7788,
+    "itemType": "journalArticle",
+    "title": "La Méditerranée : un potentiel de ressources menacé ?",
+    "creators": [
+      {
+        "creatorType": "contributor",
+        "firstName": "Olivier",
+        "lastName": "Godard"
+      },
+      {
+        "creatorType": "contributor",
+        "firstName": "Jean-Charles",
+        "lastName": "Hourcade"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Max",
+        "lastName": "Artuso"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Michel",
+        "lastName": "Ertaud"
+      }
+    ],
+    "abstractNote": "",
+    "publicationTitle": "Options méditerranéennes",
+    "publisher": "",
+    "place": "",
+    "date": "1975",
+    "volume": "",
+    "issue": "31",
+    "section": "",
+    "partNumber": "",
+    "partTitle": "",
+    "pages": "77-87",
+    "series": "",
+    "seriesTitle": "",
+    "seriesText": "",
+    "journalAbbreviation": "",
+    "DOI": "",
+    "citationKey": "",
+    "url": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1975-19-options-mediterrannennes-artuso-and-co-CI010638.pdf",
+    "accessDate": "",
+    "PMID": "",
+    "PMCID": "",
+    "ISSN": "",
+    "archive": "",
+    "archiveLocation": "",
+    "shortTitle": "",
+    "language": "Français",
+    "libraryCatalog": "",
+    "callNumber": "CIR_GOD_0015",
+    "rights": "",
+    "extra": "",
+    "deleted": 1,
+    "tags": [
+      {
+        "tag": "recueil-50ans"
+      }
+    ],
+    "collections": [
+      "VPDB49CK"
+    ],
+    "relations": {},
+    "dateAdded": "2026-06-23T15:09:58Z",
+    "dateModified": "2026-06-23T21:04:34Z"
+  },
+  {
+    "key": "ZDV4BIS9",
+    "version": 7800,
+    "itemType": "bookSection",
+    "title": "Entre nature et société : les jeux de l'irréversibilité : dans la construction économique et sociale du champ de l'environnement",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Olivier",
+        "lastName": "Godard"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jean-Michel",
+        "lastName": "Salles"
+      },
+      {
+        "creatorType": "editor",
+        "firstName": "Olivier",
+        "lastName": "Godard"
+      },
+      {
+        "creatorType": "editor",
+        "firstName": "Robert",
+        "lastName": "Boyer"
+      },
+      {
+        "creatorType": "editor",
+        "firstName": "Bernard",
+        "lastName": "Chavance"
+      }
+    ],
+    "abstractNote": "",
+    "bookTitle": "",
+    "series": "",
+    "seriesNumber": "",
+    "volume": "",
+    "numberOfVolumes": "",
+    "edition": "",
+    "date": "1991",
+    "publisher": "",
+    "place": "",
+    "originalDate": "",
+    "originalPublisher": "",
+    "originalPlace": "",
+    "format": "",
+    "pages": "233-272",
+    "ISBN": "",
+    "DOI": "",
+    "citationKey": "",
+    "url": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1991-86-Godard-Salles-jeux-irreversibilite.pdf",
+    "accessDate": "",
+    "ISSN": "",
+    "archive": "",
+    "archiveLocation": "",
+    "shortTitle": "",
+    "language": "",
+    "libraryCatalog": "",
+    "callNumber": "CIR_GOD_0033",
+    "rights": "",
+    "extra": "",
+    "deleted": 1,
+    "tags": [
+      {
+        "tag": "recueil-50ans"
+      }
+    ],
+    "collections": [
+      "VPDB49CK"
+    ],
+    "relations": {},
+    "dateAdded": "2026-06-23T15:09:58Z",
+    "dateModified": "2026-06-23T21:07:52Z"
+  },
+  {
+    "key": "KETCQX77",
+    "version": 7803,
+    "itemType": "journalArticle",
+    "title": "Ecodevelopment : to create a durable equilibrium between man and nature, while avoiding the errors of lawless growth",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Ignacy",
+        "lastName": "Sachs"
+      }
+    ],
+    "abstractNote": "",
+    "publicationTitle": "Cerès",
+    "publisher": "",
+    "place": "",
+    "date": "1974",
+    "volume": "",
+    "issue": "n°42",
+    "section": "",
+    "partNumber": "",
+    "partTitle": "",
+    "pages": "5 p.",
+    "series": "",
+    "seriesTitle": "",
+    "seriesText": "",
+    "journalAbbreviation": "",
+    "DOI": "",
+    "citationKey": "",
+    "url": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1974-14-Sachs_ecodevelopment.pdf",
+    "accessDate": "",
+    "PMID": "",
+    "PMCID": "",
+    "ISSN": "",
+    "archive": "",
+    "archiveLocation": "",
+    "shortTitle": "",
+    "language": "anglais",
+    "libraryCatalog": "",
+    "callNumber": "CIR_SAC_0365",
+    "rights": "",
+    "extra": "",
+    "deleted": 1,
+    "tags": [
+      {
+        "tag": "recueil-50ans"
+      }
+    ],
+    "collections": [
+      "VPDB49CK"
+    ],
+    "relations": {},
+    "dateAdded": "2026-06-23T15:09:58Z",
+    "dateModified": "2026-06-23T21:10:12Z"
+  },
+  {
+    "key": "4PMKVKH6",
+    "version": 7816,
+    "itemType": "bookSection",
+    "title": "Integration of technology in development planning: a normative view",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Ignacy",
+        "lastName": "Sachs"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Krystyna",
+        "lastName": "Vinaver"
+      },
+      {
+        "creatorType": "bookAuthor",
+        "firstName": "R.",
+        "lastName": "Sagasti"
+      },
+      {
+        "creatorType": "bookAuthor",
+        "firstName": "A.",
+        "lastName": "Araz"
+      }
+    ],
+    "abstractNote": "",
+    "bookTitle": "Science and Technology for Development Planning in the STPI Countries",
+    "series": "",
+    "seriesNumber": "",
+    "volume": "",
+    "numberOfVolumes": "",
+    "edition": "",
+    "date": "1979",
+    "publisher": "IDRC",
+    "place": "Ottawa",
+    "originalDate": "",
+    "originalPublisher": "",
+    "originalPlace": "",
+    "format": "",
+    "pages": "117-136",
+    "ISBN": "",
+    "DOI": "",
+    "citationKey": "",
+    "url": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1979-30-Sachs_Vinaver_STPI.pdf",
+    "accessDate": "",
+    "ISSN": "",
+    "archive": "",
+    "archiveLocation": "",
+    "shortTitle": "",
+    "language": "",
+    "libraryCatalog": "",
+    "callNumber": "",
+    "rights": "",
+    "extra": "Book Authors: _:n25",
+    "deleted": 1,
+    "tags": [
+      {
+        "tag": "recueil-50ans"
+      }
+    ],
+    "collections": [
+      "VPDB49CK"
+    ],
+    "relations": {},
+    "dateAdded": "2026-06-23T15:09:58Z",
+    "dateModified": "2026-06-23T21:15:10Z"
+  }
+]

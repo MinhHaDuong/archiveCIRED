@@ -78,6 +78,19 @@ def test_assess_url_preserved_when_recueil_url_present():
     assert r["matched"] == "L1"
 
 
+def test_assess_url_preserved_when_recueil_url_in_extra():
+    # 2e URL recueil stockée dans Extra (url = numérisation) → toujours préservée.
+    g = {"key": "G1b", "title": "T", "date": "1993",
+         "url": "https://inari/recueil/x.pdf", "creators": [{"lastName": "Godard"}]}
+    lib = vm._enrich_library([{"key": "L1b", "title": "Tout autre titre",
+                               "date": "1993",
+                               "url": "https://inari/numerisation/CIR_GOD_9.pdf",
+                               "extra": "https://inari/recueil/x.pdf"}], {})
+    r = vm.assess_item(g, lib)
+    assert r["tier"] == "url_preserved"
+    assert r["matched"] == "L1b"
+
+
 def test_assess_doc_equivalent_when_metadata_full_and_pdf_present():
     # Pas de copie URL, mais une notice pré-existante couvre tout + a un PDF inari.
     g = {"key": "G2", "title": "Les villes", "date": "1996", "volume": "209",
