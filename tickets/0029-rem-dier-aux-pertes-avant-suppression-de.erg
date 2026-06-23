@@ -11,6 +11,7 @@ Blocked-by: 0025
 2026-06-23T14:11Z claude note Notes faites : 16 notes d'Antonin réinjectées dans My Library (en-tête « Note de Antonin Pottier »), sauvegarde outputs/recueil_notes_backup.json. Audit re-vérifié : PERTES notes = 0. Restent les 8 notices méta/PDF (6 sans match, 2 champs manquants) -> 0029 reste ouvert. Bug d'audit corrigé en passant (appariement des notes multi-paragraphes, PR #22).
 2026-06-23T15:00Z claude note Comparaison des URL des 54 doc-équivalents (src/compare_recueil_urls.py) : 31 vrais doublons (SHA-256 identiques), mais 14 pointent un FICHIER DISTINCT sur inari (extrait d'article vs scan du volume ; parfois meilleur côté recueil). Ces 14 sont des pertes si suppression sans réconciliation -> cause NO-GO supplémentaire. Rapport outputs/recueil_url_comparison.md.
 2026-06-23T15:11Z claude note Axe méta/PDF corrigé (PR #27) : 2 PATCH (champs manquants) + 6 POST (no_match → My Library). Backup outputs/recueil_losses_backup.json. Audit verify_recueil_mirror re-vérifié → GO sur son périmètre (méta/PDF + notes). Restent les 14 URL distinctes (action 4) avant un GO complet ; 0025 reste ROUGE.
+2026-06-23T15:40Z claude note Action 4 FAITE : 14 attachements linked_url créés sur les notices My Library (src/reconcile_recueil_urls.py --apply, backup outputs/recueil_urls_reconcile_backup.json). L'URL recueil de chaque fichier distinct est désormais rattachée à My Library — donc préservée après suppression du groupe (les fichiers inari sont hébergés hors du groupe Zotero). Idempotent (re-run : 0 à faire). Aucune copie supprimée. Toutes les pertes connues (notes + 8 notices + 14 URL) sont couvertes ; reste la décision humaine go/no-go sur 0025.
 --- body ---
 ## Context
 
@@ -64,7 +65,7 @@ restent hors scope.
 3. Apparier ou injecter les 6 notices sans match. **[fait — PR #27]**
 4. Réconcilier les 14 fichiers distincts : rattacher l'URL recueil à la notice
    My Library (sans supprimer la copie My Library — les deux PDF sont conservés).
-   **[reste à faire]**
+   **[fait — attachements linked_url, src/reconcile_recueil_urls.py]**
 
 ## Test
 - Réutiliser l'audit : après remédiation, `uv run python
@@ -82,7 +83,7 @@ restent hors scope.
 
 ## Exit criteria
 - [x] Les 16 notes et 8 notices sont couvertes dans My Library (PR #26, #27)
-- [ ] Les 14 fichiers distincts sont réconciliés (URL recueil rattachée à la
+- [x] Les 14 fichiers distincts sont réconciliés (URL recueil rattachée à la
       notice My Library, aucune copie supprimée)
 - [ ] L'audit 0025 ré-exécuté rend GO (zéro perte) — y compris les URL distinctes
 - [ ] `make check` passe

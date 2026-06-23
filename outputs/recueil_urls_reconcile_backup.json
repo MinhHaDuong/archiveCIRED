@@ -1,0 +1,1203 @@
+{
+  "BPFGPPBH": {
+    "item": {
+      "key": "BPFGPPBH",
+      "version": 7554,
+      "itemType": "journalArticle",
+      "title": "Environnement, modes de coordination et systèmes de légitimité : analyse de la catégorie de patrimoine naturel",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Olivier",
+          "lastName": "Godard"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Revue economique",
+      "publisher": "",
+      "place": "",
+      "date": "1990",
+      "volume": "vol. 41",
+      "issue": "n°2",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "215-241",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GOD_0013.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Français",
+      "libraryCatalog": "",
+      "callNumber": "CIR_GOD_0013",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "CIRED"
+        },
+        {
+          "tag": "recueil-50ans"
+        }
+      ],
+      "collections": [
+        "QGVAEV3K",
+        "VPDB49CK"
+      ],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:19Z",
+      "dateModified": "2026-06-23T08:38:45Z"
+    },
+    "children": [
+      {
+        "key": "NR8AJP7C",
+        "version": 5035,
+        "parentItem": "BPFGPPBH",
+        "itemType": "attachment",
+        "linkMode": "imported_file",
+        "title": "CIR_GOD_0013.pdf",
+        "accessDate": "",
+        "url": "",
+        "note": "",
+        "contentType": "application/pdf",
+        "charset": "",
+        "filename": "CIR_GOD_0013.pdf",
+        "md5": null,
+        "mtime": null,
+        "tags": [],
+        "relations": {
+          "owl:sameAs": "http://zotero.org/groups/329932/items/2G9T4ASN"
+        },
+        "dateAdded": "2015-05-21T07:57:43Z",
+        "dateModified": "2026-06-19T12:03:17Z"
+      }
+    ]
+  },
+  "VMZPHJXH": {
+    "item": {
+      "key": "VMZPHJXH",
+      "version": 7584,
+      "itemType": "journalArticle",
+      "title": "Développement des réseaux et modulations spatio-temporelles des tarifs: l'équité territoriale revisitée",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Michel",
+          "lastName": "Colombier"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jean-Charles",
+          "lastName": "Hourcade"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Revue économique",
+      "publisher": "",
+      "place": "",
+      "date": "1989",
+      "volume": "",
+      "issue": "",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "649–677",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_HOU_0001.pdf",
+      "accessDate": "2015-04-20T14:32:04Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Développement des réseaux et modulations spatio-temporelles des tarifs",
+      "language": "",
+      "libraryCatalog": "Google Scholar",
+      "callNumber": "CIR_HOU_0001",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "CIRED"
+        },
+        {
+          "tag": "recueil-50ans"
+        }
+      ],
+      "collections": [
+        "QGVAEV3K",
+        "VPDB49CK"
+      ],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:04Z",
+      "dateModified": "2026-06-23T08:39:17Z"
+    },
+    "children": [
+      {
+        "key": "SMWJCEQX",
+        "version": 5133,
+        "parentItem": "VMZPHJXH",
+        "itemType": "attachment",
+        "linkMode": "imported_file",
+        "title": "CIR_HOU_0001.pdf",
+        "accessDate": "",
+        "url": "",
+        "note": "",
+        "contentType": "application/pdf",
+        "charset": "",
+        "filename": "CIR_HOU_0001.pdf",
+        "md5": null,
+        "mtime": null,
+        "tags": [],
+        "relations": {
+          "owl:sameAs": [
+            "http://zotero.org/groups/329932/items/KRRZ39NU",
+            "http://zotero.org/groups/295264/items/55VUVV7B"
+          ]
+        },
+        "dateAdded": "2015-04-27T14:29:36Z",
+        "dateModified": "2026-06-19T12:04:42Z"
+      }
+    ]
+  },
+  "R24GWFTW": {
+    "item": {
+      "key": "R24GWFTW",
+      "version": 7574,
+      "itemType": "journalArticle",
+      "title": "Les temps - espaces du développement",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Ignacy",
+          "lastName": "Sachs"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Diogène",
+      "publisher": "",
+      "place": "",
+      "date": "1980",
+      "volume": "112",
+      "issue": "",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "80-95",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_SAC_0234.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Français",
+      "libraryCatalog": "",
+      "callNumber": "CIR_SAC_0234",
+      "rights": "",
+      "extra": "Faux doublon",
+      "tags": [
+        {
+          "tag": "CIRED"
+        },
+        {
+          "tag": "recueil-50ans"
+        }
+      ],
+      "collections": [
+        "QGVAEV3K",
+        "VPDB49CK"
+      ],
+      "relations": {
+        "dc:relation": "http://zotero.org/users/2114597/items/MA6CRSGK"
+      },
+      "dateAdded": "2020-11-06T17:46:02Z",
+      "dateModified": "2026-06-23T08:39:07Z"
+    },
+    "children": [
+      {
+        "key": "3XXCEAZK",
+        "version": 7750,
+        "parentItem": "R24GWFTW",
+        "itemType": "note",
+        "note": "<p><strong>Note de Antonin Pottier</strong></p>\n<p>à partir de la littérature américaine sur la valeur du temps, l'évaluation du travail non-rémunéré</p>\n<p> </p>",
+        "tags": [],
+        "relations": {},
+        "dateAdded": "2026-06-23T13:55:29Z",
+        "dateModified": "2026-06-23T13:55:29Z"
+      },
+      {
+        "key": "DZIFI6NC",
+        "version": 5836,
+        "parentItem": "R24GWFTW",
+        "itemType": "attachment",
+        "linkMode": "imported_file",
+        "title": "CIR_SAC_0234.pdf",
+        "accessDate": "",
+        "url": "",
+        "note": "",
+        "contentType": "application/pdf",
+        "charset": "",
+        "filename": "CIR_SAC_0234.pdf",
+        "md5": null,
+        "mtime": null,
+        "tags": [],
+        "relations": {
+          "owl:sameAs": "http://zotero.org/groups/329932/items/VMGXGACA"
+        },
+        "dateAdded": "2015-06-12T13:36:44Z",
+        "dateModified": "2026-06-19T12:14:10Z"
+      }
+    ]
+  },
+  "62FAWZYT": {
+    "item": {
+      "key": "62FAWZYT",
+      "version": 7547,
+      "itemType": "journalArticle",
+      "title": "Le biais mimétique dans le choix de techniques : un facteurd'asphyxie du dévéleoppement autocentré en Tanzanie",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Daniel",
+          "lastName": "Théry"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Tiers Monde",
+      "publisher": "",
+      "place": "",
+      "date": "1984",
+      "volume": "",
+      "issue": "n°25",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "14 p.",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GEN_0007.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Français",
+      "libraryCatalog": "",
+      "callNumber": "CIR_GEN_0007",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "CIRED"
+        },
+        {
+          "tag": "recueil-50ans"
+        }
+      ],
+      "collections": [
+        "QGVAEV3K",
+        "VPDB49CK"
+      ],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:20Z",
+      "dateModified": "2026-06-23T08:38:38Z"
+    },
+    "children": [
+      {
+        "key": "VUCFRGGQ",
+        "version": 4996,
+        "parentItem": "62FAWZYT",
+        "itemType": "attachment",
+        "linkMode": "imported_file",
+        "title": "CIR_GEN_0007.pdf",
+        "accessDate": "",
+        "url": "",
+        "note": "",
+        "contentType": "application/pdf",
+        "charset": "",
+        "filename": "CIR_GEN_0007.pdf",
+        "md5": null,
+        "mtime": null,
+        "tags": [],
+        "relations": {
+          "owl:sameAs": "http://zotero.org/groups/329932/items/J3BED3Q6"
+        },
+        "dateAdded": "2015-06-28T14:34:53Z",
+        "dateModified": "2026-06-19T12:02:43Z"
+      }
+    ]
+  },
+  "2YWUKF7M": {
+    "item": {
+      "key": "2YWUKF7M",
+      "version": 7538,
+      "itemType": "journalArticle",
+      "title": "Les bifurcations de la politique énergétique française depuis la guerre",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "L.",
+          "lastName": "Puiseux"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Annales. Économies, Sociétés, Civilisations.",
+      "publisher": "",
+      "place": "",
+      "date": "1982",
+      "volume": "",
+      "issue": "n°4",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "12 p.",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GEN_0005.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Français",
+      "libraryCatalog": "",
+      "callNumber": "CIR_GEN_0005",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "CIRED"
+        },
+        {
+          "tag": "recueil-50ans"
+        }
+      ],
+      "collections": [
+        "QGVAEV3K",
+        "VPDB49CK"
+      ],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:20Z",
+      "dateModified": "2026-06-23T08:38:28Z"
+    },
+    "children": [
+      {
+        "key": "K6ZWEXV5",
+        "version": 4990,
+        "parentItem": "2YWUKF7M",
+        "itemType": "attachment",
+        "linkMode": "imported_file",
+        "title": "CIR_GEN_0005.pdf",
+        "accessDate": "",
+        "url": "",
+        "note": "",
+        "contentType": "application/pdf",
+        "charset": "",
+        "filename": "CIR_GEN_0005.pdf",
+        "md5": null,
+        "mtime": null,
+        "tags": [],
+        "relations": {
+          "owl:sameAs": "http://zotero.org/groups/329932/items/TFQTT73G"
+        },
+        "dateAdded": "2015-06-28T14:12:21Z",
+        "dateModified": "2026-06-19T12:02:38Z"
+      }
+    ]
+  },
+  "4VPQC7F6": {
+    "item": {
+      "key": "4VPQC7F6",
+      "version": 7543,
+      "itemType": "journalArticle",
+      "title": "Développement, utopie, projet de société",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Ignacy",
+          "lastName": "Sachs"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Revue Tiers Monde",
+      "publisher": "",
+      "place": "",
+      "date": "1978",
+      "volume": "19",
+      "issue": "75",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "645-656",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_SAC_0334.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Français",
+      "libraryCatalog": "",
+      "callNumber": "CIR_SAC_0334",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "CIRED"
+        },
+        {
+          "tag": "recueil-50ans"
+        }
+      ],
+      "collections": [
+        "QGVAEV3K",
+        "VPDB49CK"
+      ],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:21Z",
+      "dateModified": "2026-06-23T08:38:34Z"
+    },
+    "children": [
+      {
+        "key": "F8VHGFP8",
+        "version": 6121,
+        "parentItem": "4VPQC7F6",
+        "itemType": "attachment",
+        "linkMode": "imported_file",
+        "title": "CIR_SAC_0334.pdf",
+        "accessDate": "",
+        "url": "",
+        "note": "",
+        "contentType": "application/pdf",
+        "charset": "",
+        "filename": "CIR_SAC_0334.pdf",
+        "md5": null,
+        "mtime": null,
+        "tags": [],
+        "relations": {
+          "owl:sameAs": "http://zotero.org/groups/329932/items/V7HSEXH8"
+        },
+        "dateAdded": "2015-06-25T14:06:27Z",
+        "dateModified": "2026-06-19T12:18:06Z"
+      }
+    ]
+  },
+  "B9PV9QB7": {
+    "item": {
+      "key": "B9PV9QB7",
+      "version": 7553,
+      "itemType": "journalArticle",
+      "title": "Oppositions locales à des projets d'équipement",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Alexandre",
+          "lastName": "Nicolon"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Revue française de sciences politiques",
+      "publisher": "",
+      "place": "",
+      "date": "1981",
+      "volume": "31",
+      "issue": "2",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "417-438",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GEN_0003.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Français",
+      "libraryCatalog": "",
+      "callNumber": "CIR_GEN_0003",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "CIRED"
+        },
+        {
+          "tag": "recueil-50ans"
+        }
+      ],
+      "collections": [
+        "QGVAEV3K",
+        "VPDB49CK"
+      ],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:20Z",
+      "dateModified": "2026-06-23T08:38:44Z"
+    },
+    "children": [
+      {
+        "key": "AKJ4IUWJ",
+        "version": 4984,
+        "parentItem": "B9PV9QB7",
+        "itemType": "attachment",
+        "linkMode": "imported_file",
+        "title": "CIR_GEN_0003.pdf",
+        "accessDate": "",
+        "url": "",
+        "note": "",
+        "contentType": "application/pdf",
+        "charset": "",
+        "filename": "CIR_GEN_0003.pdf",
+        "md5": null,
+        "mtime": null,
+        "tags": [],
+        "relations": {
+          "owl:sameAs": "http://zotero.org/groups/329932/items/6GQ2U49S"
+        },
+        "dateAdded": "2015-06-28T13:53:50Z",
+        "dateModified": "2026-06-19T12:02:33Z"
+      }
+    ]
+  },
+  "U6VHDB63": {
+    "item": {
+      "key": "U6VHDB63",
+      "version": 7582,
+      "itemType": "journalArticle",
+      "title": "La politique de l'environnement et l'avenir des relations entre l'Europe et le Tiers-Monde",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jean-Paul",
+          "lastName": "CÉRON"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jean Charles",
+          "lastName": "Hourcade"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michel",
+          "lastName": "Schiray"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Futuribles",
+      "publisher": "",
+      "place": "",
+      "date": "1975",
+      "volume": "",
+      "issue": "4",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "339-376",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/1975-166.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "166",
+      "rights": "non",
+      "extra": "ok",
+      "tags": [
+        {
+          "tag": "CIRED"
+        },
+        {
+          "tag": "recueil-50ans"
+        }
+      ],
+      "collections": [
+        "QGVAEV3K",
+        "VPDB49CK"
+      ],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:10Z",
+      "dateModified": "2026-06-23T08:39:15Z"
+    },
+    "children": [
+      {
+        "key": "ASNIT93K",
+        "version": 4576,
+        "parentItem": "U6VHDB63",
+        "itemType": "attachment",
+        "linkMode": "imported_file",
+        "title": "1975-166",
+        "accessDate": "",
+        "url": "",
+        "note": "",
+        "contentType": "application/pdf",
+        "charset": "",
+        "filename": "1975-166.pdf",
+        "md5": "d8ec4789b96d189e130334d0068fd9c8",
+        "mtime": 1417638183676,
+        "tags": [],
+        "relations": {},
+        "dateAdded": "2020-11-06T17:46:10Z",
+        "dateModified": "2020-11-06T17:46:11Z"
+      }
+    ]
+  },
+  "STPFPZYZ": {
+    "item": {
+      "key": "STPFPZYZ",
+      "version": 7579,
+      "itemType": "journalArticle",
+      "title": "Décentralisation et planification du développement endogène",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Olivier",
+          "lastName": "Godard"
+        }
+      ],
+      "abstractNote": "Ifda (International foundation for development alternatives) dossier 32.",
+      "publicationTitle": "",
+      "publisher": "",
+      "place": "",
+      "date": "1982",
+      "volume": "",
+      "issue": "",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GOD_0031.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Français",
+      "libraryCatalog": "",
+      "callNumber": "CIR_GOD_0031",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "CIRED"
+        },
+        {
+          "tag": "recueil-50ans"
+        }
+      ],
+      "collections": [
+        "QGVAEV3K",
+        "VPDB49CK"
+      ],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:03Z",
+      "dateModified": "2026-06-23T08:39:12Z"
+    },
+    "children": [
+      {
+        "key": "Q8Z3KN6S",
+        "version": 5070,
+        "parentItem": "STPFPZYZ",
+        "itemType": "attachment",
+        "linkMode": "imported_file",
+        "title": "CIR_GOD_0031.pdf",
+        "accessDate": "",
+        "url": "",
+        "note": "",
+        "contentType": "application/pdf",
+        "charset": "",
+        "filename": "CIR_GOD_0031.pdf",
+        "md5": null,
+        "mtime": null,
+        "tags": [],
+        "relations": {
+          "owl:sameAs": "http://zotero.org/groups/329932/items/52A8NCC5"
+        },
+        "dateAdded": "2015-04-27T14:30:05Z",
+        "dateModified": "2026-06-19T12:03:49Z"
+      }
+    ]
+  },
+  "BSU65UVI": {
+    "item": {
+      "key": "BSU65UVI",
+      "version": 7555,
+      "itemType": "journalArticle",
+      "title": "L’environnement, obstacle ou argument pour un nouvel ordre économique international : essai de prospective à l’échelle du bassin méditerranéen",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jean Charles",
+          "lastName": "Hourcade"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Options méditerranéennes",
+      "publisher": "",
+      "place": "",
+      "date": "1975",
+      "volume": "",
+      "issue": "31",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "57-74",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/1975-015.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "15",
+      "rights": "non",
+      "extra": "ok",
+      "tags": [
+        {
+          "tag": "CIRED"
+        },
+        {
+          "tag": "recueil-50ans"
+        }
+      ],
+      "collections": [
+        "QGVAEV3K",
+        "VPDB49CK"
+      ],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:11Z",
+      "dateModified": "2026-06-23T08:38:46Z"
+    },
+    "children": [
+      {
+        "key": "YH9SBUEX",
+        "version": 4585,
+        "parentItem": "BSU65UVI",
+        "itemType": "attachment",
+        "linkMode": "imported_file",
+        "title": "1975-015",
+        "accessDate": "",
+        "url": "",
+        "note": "",
+        "contentType": "application/pdf",
+        "charset": "",
+        "filename": "1975-015.pdf",
+        "md5": "457a6b2787bb589ad3416b2f209d25b2",
+        "mtime": 1417638229676,
+        "tags": [],
+        "relations": {},
+        "dateAdded": "2020-11-06T17:46:11Z",
+        "dateModified": "2020-11-06T17:46:12Z"
+      }
+    ]
+  },
+  "RP95B3RA": {
+    "item": {
+      "key": "RP95B3RA",
+      "version": 7575,
+      "itemType": "journalArticle",
+      "title": "Plaidoyer pour développer des technologies plus appropriées et passer du mimétisme au pluralisme technologique",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Daniel",
+          "lastName": "Théry"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Tiers Monde",
+      "publisher": "",
+      "place": "",
+      "date": "1981",
+      "volume": "22",
+      "issue": "88",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "877-884",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GEN_0004.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Français",
+      "libraryCatalog": "",
+      "callNumber": "CIR_GEN_0004",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "CIRED"
+        },
+        {
+          "tag": "recueil-50ans"
+        }
+      ],
+      "collections": [
+        "QGVAEV3K",
+        "VPDB49CK"
+      ],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:20Z",
+      "dateModified": "2026-06-23T08:39:08Z"
+    },
+    "children": [
+      {
+        "key": "NP2TU3ZR",
+        "version": 4987,
+        "parentItem": "RP95B3RA",
+        "itemType": "attachment",
+        "linkMode": "imported_file",
+        "title": "CIR_GEN_0004.pdf",
+        "accessDate": "",
+        "url": "",
+        "note": "",
+        "contentType": "application/pdf",
+        "charset": "",
+        "filename": "CIR_GEN_0004.pdf",
+        "md5": null,
+        "mtime": null,
+        "tags": [],
+        "relations": {
+          "owl:sameAs": "http://zotero.org/groups/329932/items/V7MS69SH"
+        },
+        "dateAdded": "2015-06-28T14:03:47Z",
+        "dateModified": "2026-06-19T12:02:36Z"
+      }
+    ]
+  },
+  "RQ2AY8XX": {
+    "item": {
+      "key": "RQ2AY8XX",
+      "version": 7576,
+      "itemType": "journalArticle",
+      "title": "L'occupation  des espaces littoraux méditérranéens",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Olivier",
+          "lastName": "Godard"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Options méditerranéennes",
+      "publisher": "",
+      "place": "",
+      "date": "1975",
+      "volume": "",
+      "issue": "31",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "35-55",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GOD_0030.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Français",
+      "libraryCatalog": "",
+      "callNumber": "CIR_GOD_0030",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "CIRED"
+        },
+        {
+          "tag": "recueil-50ans"
+        }
+      ],
+      "collections": [
+        "QGVAEV3K",
+        "VPDB49CK"
+      ],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:26Z",
+      "dateModified": "2026-06-23T08:39:09Z"
+    },
+    "children": [
+      {
+        "key": "FIC758BD",
+        "version": 5068,
+        "parentItem": "RQ2AY8XX",
+        "itemType": "attachment",
+        "linkMode": "imported_file",
+        "title": "CIR_GOD_0030.pdf",
+        "accessDate": "",
+        "url": "",
+        "note": "",
+        "contentType": "application/pdf",
+        "charset": "",
+        "filename": "CIR_GOD_0030.pdf",
+        "md5": null,
+        "mtime": null,
+        "tags": [],
+        "relations": {
+          "owl:sameAs": "http://zotero.org/groups/329932/items/DGBWUV7B"
+        },
+        "dateAdded": "2015-04-27T14:13:05Z",
+        "dateModified": "2026-06-19T12:03:48Z"
+      }
+    ]
+  },
+  "DPQBEHSB": {
+    "item": {
+      "key": "DPQBEHSB",
+      "version": 7557,
+      "itemType": "bookSection",
+      "title": "Jeux de nature : quand le débat sur l'efficacité des politiques publiques contient la question de leur légitilité",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Olivier",
+          "lastName": "Godard"
+        }
+      ],
+      "abstractNote": "",
+      "bookTitle": "Du rural à l'environnement : la question de la nature aujourd'hui",
+      "series": "",
+      "seriesNumber": "",
+      "volume": "",
+      "numberOfVolumes": "",
+      "edition": "L'Harmattan",
+      "date": "1989",
+      "publisher": "",
+      "place": "Paris",
+      "originalDate": "",
+      "originalPublisher": "",
+      "originalPlace": "",
+      "format": "",
+      "pages": "303-342",
+      "ISBN": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GOD_0032.pdf",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Français",
+      "libraryCatalog": "",
+      "callNumber": "CIR_GOD_0032",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "CIRED"
+        },
+        {
+          "tag": "recueil-50ans"
+        }
+      ],
+      "collections": [
+        "QGVAEV3K",
+        "VPDB49CK"
+      ],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:03Z",
+      "dateModified": "2026-06-23T08:38:48Z"
+    },
+    "children": [
+      {
+        "key": "5CIPD243",
+        "version": 5072,
+        "parentItem": "DPQBEHSB",
+        "itemType": "attachment",
+        "linkMode": "imported_file",
+        "title": "CIR_GOD_0032.pdf",
+        "accessDate": "",
+        "url": "",
+        "note": "",
+        "contentType": "application/pdf",
+        "charset": "",
+        "filename": "CIR_GOD_0032.pdf",
+        "md5": null,
+        "mtime": null,
+        "tags": [],
+        "relations": {
+          "owl:sameAs": "http://zotero.org/groups/2511149/items/CXZHCU8W"
+        },
+        "dateAdded": "2015-04-27T14:43:32Z",
+        "dateModified": "2026-06-19T12:03:51Z"
+      }
+    ]
+  },
+  "Y6PTWIVR": {
+    "item": {
+      "key": "Y6PTWIVR",
+      "version": 7589,
+      "itemType": "bookSection",
+      "title": "La relation interdisciplinaire : problèmes et stratégies",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Olivier",
+          "lastName": "Godard"
+        }
+      ],
+      "abstractNote": "",
+      "bookTitle": "Sciences de la nature, sciences de la société : les passeurs de frontières",
+      "series": "Sociologie",
+      "seriesNumber": "",
+      "volume": "",
+      "numberOfVolumes": "",
+      "edition": "",
+      "date": "1992",
+      "publisher": "CNRS édition",
+      "place": "",
+      "originalDate": "",
+      "originalPublisher": "",
+      "originalPlace": "",
+      "format": "",
+      "pages": "427-456",
+      "ISBN": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GOD_0045.pdf",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Français",
+      "libraryCatalog": "",
+      "callNumber": "CIR_GOD_0045",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "CIRED"
+        },
+        {
+          "tag": "recueil-50ans"
+        }
+      ],
+      "collections": [
+        "QGVAEV3K",
+        "VPDB49CK"
+      ],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:03Z",
+      "dateModified": "2026-06-23T08:39:23Z"
+    },
+    "children": [
+      {
+        "key": "BDCG6I3G",
+        "version": 5101,
+        "parentItem": "Y6PTWIVR",
+        "itemType": "attachment",
+        "linkMode": "imported_file",
+        "title": "CIR_GOD_0045.pdf",
+        "accessDate": "",
+        "url": "",
+        "note": "",
+        "contentType": "application/pdf",
+        "charset": "",
+        "filename": "CIR_GOD_0045.pdf",
+        "md5": null,
+        "mtime": null,
+        "tags": [],
+        "relations": {
+          "owl:sameAs": "http://zotero.org/groups/329932/items/EE48AZZC"
+        },
+        "dateAdded": "2015-05-07T15:40:04Z",
+        "dateModified": "2026-06-19T12:04:17Z"
+      }
+    ]
+  }
+}
