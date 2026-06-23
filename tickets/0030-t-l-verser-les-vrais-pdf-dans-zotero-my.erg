@@ -1,0 +1,84 @@
+%erg 0.1
+Title: Téléverser les vrais PDF dans Zotero My Library (647 stubs)
+Created: 2026-06-23
+Author: minh
+
+--- log ---
+2026-06-23T13:46Z minh created
+2026-06-23T13:46Z minh note Audit src/audit_pdf_stubs.py : 15 PDF réels / 764, 668 stubs (642 du groupe mort 329932), 647 récupérables depuis l'archive
+
+--- body ---
+## Context
+
+La bibliothèque Zotero My Library (764 notices) n'est **pas autonome** : sur
+683 attachements `imported_file` typés PDF, seuls **15 portent un fichier
+réellement téléversé** (`md5` présent). Les **668 autres sont des coquilles
+vides** — la fiche d'attachement existe (nom, type MIME) mais les octets du PDF
+n'ont jamais été déposés dans le stockage Zotero.
+
+Origine isolée (relation `owl:sameAs`) : ce sont des copies inter-bibliothèques.
+642 viennent du groupe **329932** (catalogue inari/Bordignon d'origine),
+aujourd'hui **404 avec notre clé** — les fichiers sources sont hors de portée via
+l'API. Copier une notice d'un groupe vers My Library transporte la métadonnée
+d'attachement mais pas le fichier.
+
+Bonne nouvelle : **647 des 668 stubs ont un fichier réel correspondant dans
+l'archive physique** (`outputs/file_index.json`, jointure par basename). La
+bibliothèque est donc rendable autonome **depuis le disque local**, sans dépendre
+du groupe 329932 disparu ni d'inari.centre-cired.fr.
+
+Note connexe (ticket [[0025]]) : le groupe Recueil_CIRED (2511149) contient 148
+objets mais **0 attachement** — sa suppression ne perd aucun PDF. Le risque
+« perte de fichier » du gel de suppression est écarté ; 0025 ne porte plus que
+sur la complétude des métadonnées.
+
+## Relevant files
+
+- `src/audit_pdf_stubs.py` — audit + worklist appariée (créé avec ce ticket)
+- `outputs/pdf_stub_worklist.json` / `.md` — worklist : `a_televerser` (647),
+  `a_normaliser` (21), ventilation par fonds
+- `outputs/file_index.json` — index physique de l'archive (clé = basename)
+- `src/reconcile_zotero.py` — helpers Zotero réutilisés (urllib, lib standard)
+- Archive source (lecture seule) :
+  `/home/haduong/data/datasets/ours/Archives CIRED numerisées/`
+
+## Actions
+
+1. Écrire `src/upload_pdf_attachments.py` : pour chaque entrée `a_televerser`,
+   téléverser le fichier d'archive sur l'attachement Zotero existant (API
+   Zotero file upload : autorisation → POST multipart → enregistrement). Réutiliser
+   `reconcile_zotero` pour l'auth.
+2. **`--dry-run` par défaut, `--apply` + `--backup` pour écrire** (discipline
+   projet : tout script écrivant Zotero exige `--backup` avec `--apply`).
+3. Traiter le sous-lot `a_normaliser` (21) : variantes de nom
+   (`..._0029PDF.pdf` → `..._0029.pdf`, `_a/_b_INTERNET`, noms descriptifs
+   Godard/Hourcade). Réconcilier puis verser, ou lister les vrais manquants.
+4. Idempotence : ne rien faire si l'attachement a déjà un `md5`.
+
+## Test
+
+- `tests/test_upload_pdf_attachments.py` : la sélection ne retient que les
+  attachements `imported_file` sans `md5` dont le fichier d'archive existe ;
+  un attachement avec `md5` est ignoré (idempotence) — fonction pure, sans réseau.
+
+## Verification
+
+- [ ] `uv run python src/audit_pdf_stubs.py` : `pdf_reels_televerse` ≈ 662
+      (15 + 647) après application, `stubs_sans_fichier` ≈ 21
+- [ ] Échantillon : ouvrir 3 notices dans l'interface web → le PDF s'affiche
+- [ ] Le sous-lot `a_normaliser` est soit versé soit documenté comme manquant réel
+
+## Invariants
+
+- Archive source en **lecture seule** — jamais de modification/déplacement.
+- `--apply` impose `--backup` (export préalable de la bibliothèque).
+- Ne pas toucher aux 15 notices déjà pourvues d'un fichier réel.
+
+## Exit criteria
+
+- Les 647 stubs appariés portent un PDF téléversé (`md5` présent).
+- Le sous-lot des 21 introuvables est résolu (versé) ou tranché (manquant réel
+  documenté dans le rapport).
+- `outputs/reconcile_report.md` et `STATE.md` corrigés : la bibliothèque ne
+  dépend plus du groupe 329932 ni d'inari pour les fichiers versés.
+- `make check` passe.
