@@ -104,6 +104,40 @@ def corrections_report(pairs: list[dict]) -> dict:
     }
 
 
+def _cell(value) -> str:
+    """Valeur de champ en texte de cellule Markdown (listes jointes, pipes échappés)."""
+    if isinstance(value, list):
+        value = " ; ".join(str(v) for v in value)
+    text = " ".join(str(value or "—").split())
+    text = text.replace("|", "\\|")
+    return text if len(text) <= 90 else text[:87] + "…"
+
+
+def render_markdown(report: dict) -> str:
+    """Table numérotée, une ligne par champ corrigé, pour revue humaine."""
+    head = [
+        "# Corrections d'Antonin à revoir — groupe Recueil_CIRED → My Library",
+        "",
+        f"{report['paires_avec_corrections']} notices à corriger · "
+        f"{report['total_ajouts']} ajouts · {report['total_modifications']} modifications.",
+        "",
+        "Sens unique groupe → perso. « perso » = valeur actuelle, « groupe » = "
+        "valeur proposée par Antonin. Décider ligne par ligne avant propagation.",
+        "",
+        "| # | Notice (perso) | Champ | Type | perso (actuel) | groupe (proposé) |",
+        "|--:|----------------|-------|------|----------------|------------------|",
+    ]
+    lines, i = [], 0
+    for row in sorted(report["corrections"], key=lambda r: -(r.get("score") or 0)):
+        titre = _cell(row.get("titre"))
+        for champ, d in row["champs"].items():
+            i += 1
+            mark = "➕" if d["type"] == "ajout" else "✏️"
+            lines.append(f"| {i} | {titre} | `{champ}` | {mark} {d['type']} | "
+                         f"{_cell(d['perso'])} | {_cell(d['groupe'])} |")
+    return "\n".join(head + lines) + "\n"
+
+
 def _pair_fuzzy(group_notices, perso_notices, threshold):
     """Apparie groupe→perso par similarité (délégué à match_untyped, 0008).
 
@@ -170,6 +204,7 @@ def main() -> None:
     pairs = _pair_fuzzy(group, perso, args.threshold)
     report = corrections_report(pairs)
     args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2))
+    args.output.with_suffix(".md").write_text(render_markdown(report))
 
     logger.info("Paires appariées          : %d", len(pairs))
     logger.info("  avec corrections         : %d", report["paires_avec_corrections"])

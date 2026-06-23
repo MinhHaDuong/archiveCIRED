@@ -76,3 +76,19 @@ def test_pair_fuzzy_matches_by_title_year_and_finds_corrections():
     assert len(pairs) == 1 and pairs[0]["perso_key"] == "HIT"
     d = dr.diff_fields(pairs[0]["groupe"], pairs[0]["perso"])
     assert d["pages"]["type"] == "ajout"      # perso vide -> groupe renseigne
+
+
+def test_render_markdown_one_row_per_field_change():
+    report = {
+        "paires_avec_corrections": 1, "total_ajouts": 1, "total_modifications": 1,
+        "corrections": [{
+            "perso_key": "K1", "score": 0.9, "titre": "Un titre",
+            "champs": {"pages": {"type": "ajout", "perso": "", "groupe": "1-10"},
+                       "title": {"type": "modification", "perso": "A | B", "groupe": "A-B"}},
+        }],
+    }
+    md = dr.render_markdown(report)
+    assert "| # | Notice (perso) |" in md          # en-tête de table
+    assert "| 1 | Un titre | `pages` | ➕ ajout | — | 1-10 |" in md
+    assert "\\|" in md                              # pipe échappé dans une valeur
+    assert md.count("\n| 2 |") == 1                 # numérotation continue
