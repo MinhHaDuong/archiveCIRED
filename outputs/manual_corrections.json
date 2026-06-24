@@ -402,6 +402,116 @@
         }
       ]
     },
-    "note": "Scan d'un numéro complet de revue, pas d'un article. Catherine Touraille, responsable de publication → editor. Titre corrigé : « Nouvelle » → « Nouvelles ».",    "applied": true
-  }
+    "note": "Scan d'un numéro complet de revue, pas d'un article. Catherine Touraille, responsable de publication → editor. Titre corrigé : « Nouvelle » → « Nouvelles ».",
+    "applied": true
+  },
+  {
+    "key": "GP7X8XC2",
+    "ref": "Nouvelles de l'écodéveloppement n°1 (1977) — CIR_GOD_0012 [itemType → document]",
+    "source": "Instruction M. Ha-Duong : journalArticle inadapté pour un numéro complet de revue",
+    "set": {
+      "itemType": "document",
+      "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 1"
+    },
+    "note": "PUT : document est le type Zotero le plus honnête pour un scan de numéro complet (journalArticle impliquerait un article). publicationTitle/issue non portés par document → dans extra. title/creators/date/url portés par CARRY.",
+    "applied": true
+  },
+  {
+    "key": "69W5P7B5",
+    "ref": "Nouvelles de l'écodéveloppement n°2 (1977) — CIR_GOD_0022 [itemType → document]",
+    "source": "Instruction M. Ha-Duong : journalArticle inadapté pour un numéro complet de revue",
+    "set": {
+      "itemType": "document",
+      "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 2"
+    },
+    "note": "PUT : document est le type Zotero le plus honnête pour un scan de numéro complet (journalArticle impliquerait un article). publicationTitle/issue non portés par document → dans extra. title/creators/date/url portés par CARRY.",
+    "applied": true
+  },
+  {
+    "key": "9E8E79KT",
+    "ref": "Nouvelles de l'écodéveloppement n°3 (1977) — CIR_GOD_0021 [itemType → document]",
+    "source": "Instruction M. Ha-Duong : journalArticle inadapté pour un numéro complet de revue",
+    "set": {
+      "itemType": "document",
+      "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 3"
+    },
+    "note": "PUT : document est le type Zotero le plus honnête pour un scan de numéro complet (journalArticle impliquerait un article). publicationTitle/issue non portés par document → dans extra. title/creators/date/url portés par CARRY.",
+    "applied": true
+  },
+  {
+    "key": "EHSPLTCA",
+    "ref": "Nouvelles de l'écodéveloppement n°4 (1978) — CIR_GOD_0023 [itemType → document]",
+    "source": "Instruction M. Ha-Duong : journalArticle inadapté pour un numéro complet de revue",
+    "set": {
+      "itemType": "document",
+      "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 4"
+    },
+    "note": "PUT : document est le type Zotero le plus honnête pour un scan de numéro complet (journalArticle impliquerait un article). publicationTitle/issue non portés par document → dans extra. title/creators/date/url portés par CARRY.",
+    "applied": true
+  },
+  {
+    "key": "2V84KRLD",
+    "ref": "Nouvelles de l'écodéveloppement n°5 (1978) — CIR_GOD_0024 [itemType → document]",
+    "source": "Instruction M. Ha-Duong : journalArticle inadapté pour un numéro complet de revue",
+    "set": {
+      "itemType": "document",
+      "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 5"
+    },
+    "note": "PUT : document est le type Zotero le plus honnête pour un scan de numéro complet (journalArticle impliquerait un article). publicationTitle/issue non portés par document → dans extra. title/creators/date/url portés par CARRY.",
+    "applied": true
+  },
+  {
+    "key": "UTJB44YW",
+    "ref": "Nouvelles de l'écodéveloppement n°6 (1978) — CIR_GOD_0025 [itemType → document]",
+    "source": "Instruction M. Ha-Duong : journalArticle inadapté pour un numéro complet de revue",
+    "set": {
+      "itemType": "document",
+      "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 6"
+    },
+    "note": "PUT : document est le type Zotero le plus honnête pour un scan de numéro complet (journalArticle impliquerait un article). publicationTitle/issue non portés par document → dans extra. title/creators/date/url portés par CARRY.",
+    "applied": true
+  },
+  {
+    "key": "WAA7EJLI",
+    "ref": "Nouvelles de l'écodéveloppement n°7 (1978) — CIR_GOD_0026 [itemType → document]",
+    "source": "Instruction M. Ha-Duong : journalArticle inadapté pour un numéro complet de revue",
+    "set": {
+      "itemType": "document",
+      "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 7"
+    },
+    "note": "PUT : document est le type Zotero le plus honnête pour un scan de numéro complet (journalArticle impliquerait un article). publicationTitle/issue non portés par document → dans extra. title/creators/date/url portés par CARRY.",
+    "applied": true
+  },
+  {
+    "key": "Z7V78ABV",
+    "ref": "Nouvelles de l'écodéveloppement n°8 (1979) — CIR_GOD_0027 [itemType → document]",
+    "source": "Instruction M. Ha-Duong : journalArticle inadapté pour un numéro complet de revue",
+    "set": {
+      "itemType": "document",
+      "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 8"
+    },
+    "note": "PUT : document est le type Zotero le plus honnête pour un scan de numéro complet (journalArticle impliquerait un article). publicationTitle/issue non portés par document → dans extra. title/creators/date/url portés par CARRY.",
+    "applied": true
+  },
+  {
+    "key": "EUCMZQUS",
+    "ref": "Nouvelles de l'écodéveloppement n°9 (1979) — CIR_GOD_0028 [itemType → document]",
+    "source": "Instruction M. Ha-Duong : journalArticle inadapté pour un numéro complet de revue",
+    "set": {
+      "itemType": "document",
+      "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 9"
+    },
+    "note": "PUT : document est le type Zotero le plus honnête pour un scan de numéro complet (journalArticle impliquerait un article). publicationTitle/issue non portés par document → dans extra. title/creators/date/url portés par CARRY.",
+    "applied": true
+  },
+  {
+    "key": "PAXNH53N",
+    "ref": "Nouvelles de l'écodéveloppement n°10 (1979) — CIR_GOD_0006 [itemType → document]",
+    "source": "Instruction M. Ha-Duong : journalArticle inadapté pour un numéro complet de revue",
+    "set": {
+      "itemType": "document",
+      "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 10"
+    },
+    "note": "PUT : document est le type Zotero le plus honnête pour un scan de numéro complet (journalArticle impliquerait un article). publicationTitle/issue non portés par document → dans extra. title/creators/date/url portés par CARRY.",
+    "applied": true  }
 ]
