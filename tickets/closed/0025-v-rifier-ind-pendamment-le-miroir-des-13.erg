@@ -2,6 +2,7 @@
 Title: Vérifier qu'aucune information n'est perdue avant de supprimer le groupe Recueil_CIRED
 Created: 2026-06-23
 Author: Minh Ha-Duong
+Closed: autoclosed — PR #35
 
 --- log ---
 2026-06-23T08:46Z Minh Ha-Duong created
@@ -14,6 +15,8 @@ Author: Minh Ha-Duong
 2026-06-23T15:00Z claude note Les « 54 doc-équivalents » n'étaient pas tous des non-pertes (M. Ha-Duong) : comparaison fichier par fichier (src/compare_recueil_urls.py, rapport outputs/recueil_url_comparison.md) → 31 doublons vrais (SHA-256 identiques), MAIS 14 URL recueil pointent un FICHIER DISTINCT sur inari (extrait vs volume entier, parfois meilleur côté recueil) + 9 sans PDF. Les 14 sont des pertes si suppression sans réconciliation → cause NO-GO supplémentaire, ajoutée au scope de 0029. Aucune copie supprimée.
 2026-06-23T15:40Z claude note Cause NO-GO « 14 URL distinctes » LEVÉE (0029 action 4) : URL recueil rattachée à chaque notice My Library en linked_url. Toutes les pertes connues sont désormais couvertes — notes (#26), 8 notices méta/PDF (#27), 14 URL (réconciliées). Le verdict factuel penche vers GO, mais la DÉCISION go/no-go reste humaine (M. Ha-Duong : « on ne décide rien, surtout pas la suppression »). Gate laissé OUVERT pour cet arbitrage.
 2026-06-23T17:30Z claude note Vérification ligne à ligne exigée (M. Ha-Duong : le cardinal ne prouve pas, il faut l'injection). Bijection construite et vérifiée : 131 notices groupe → 131 cibles My Library DISTINCTES, 0 collision, 0 no_match (outputs/recueil_bijection.md). Après nettoyage des doublons #27 et migration des 2e URL en Extra, audit re-vérifié → GO, injectif 131↔131. Décision finale go/no-go reste humaine.
+2026-06-24T04:00Z Minh Ha-Duong decided DÉCISION GO. Zéro perte prouvée (bijection injective 131↔131). Le groupe n'est PAS supprimé : renommé `Recueil_CIRED_tout_importé`, conservé comme trace de l'import complet. Le plan en avant est de prendre une copie des docs CIRED sur une autre bibliothèque (migration vers compte adossé ENPC, cf. [[0037]]/[[0030]]). Audit-gate vert → ticket clos.
+2026-06-24T04:06Z Minh Ha-Duong closed — autoclosed — PR #35
 --- body ---
 ## But
 
@@ -79,7 +82,7 @@ peuplé la collection (ils pourraient biaiser le verdict).
 
 ## Exit criteria
 
-- [ ] Rapport : liste des pertes d'information (la seule qui compte ; idéalement vide)
-- [ ] Section annexe (hors verdict) : doublons/incohérences éventuels
-- [ ] Décision explicite go/no-go suppression du groupe
-- [ ] `make check` passe
+- [x] Rapport : liste des pertes d'information (la seule qui compte ; idéalement vide) — VIDE (outputs/recueil_bijection.md, injectif 131↔131)
+- [x] Section annexe (hors verdict) : doublons/incohérences éventuels — outputs/recueil_url_comparison.md
+- [x] Décision explicite go/no-go suppression du groupe — GO ; groupe conservé renommé `Recueil_CIRED_tout_importé`, plan = copie des docs CIRED sur une autre bibliothèque
+- [x] `make check` passe
