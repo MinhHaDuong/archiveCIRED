@@ -2,13 +2,13 @@
 Title: Enrichir chaque notice via OpenAlex (openalexId + vérif métadonnées)
 Created: 2026-06-23
 Author: Minh Ha-Duong
-Closed: autoclosed — PR #45
 
 --- log ---
 2026-06-23T07:43Z Minh Ha-Duong created
 2026-06-23T07:43Z claude note Famille d'enrichissement avec [[0022]] (HAL) et [[0024]] (Google) ; même harnais. Bénéficie de [[0021]].
 
 2026-06-24T09:35Z Minh Ha-Duong closed — autoclosed — PR #45
+2026-06-24T10:07Z Minh Ha-Duong reopened — PR #45 a clos le ticket sur le BUILD du harnais, mais le RUN d'enrichissement n'a jamais tourné : bloqué dès le 1er appel par l'épuisement du budget quotidien gratuit OpenAlex (BudgetExhausted, reset minuit UTC), boucle break, checkpoint vide. Bilan réel : 0 notice enrichie sur 778 (outputs/openalex_report.json : searched=0, matched=0). Exit criteria non remplis. À reprendre quand le crédit OpenAlex est rétabli, avec --resume.
 --- body ---
 ## Context
 
