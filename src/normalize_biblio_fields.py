@@ -15,6 +15,7 @@ Dry-run par défaut. `--apply` exige `--backup FILE`.
 import argparse
 import json
 import logging
+import re
 import sys
 import urllib.request
 from pathlib import Path
@@ -52,7 +53,6 @@ def dirty_fields(data: dict) -> dict[str, tuple[str, str]]:
 
 def page_counts(data: dict) -> list[str]:
     """Valeurs de pages qui ressemblent à un décompte ('31 p.') — à traiter manuellement."""
-    import re
     raw = (data.get("pages") or "").strip()
     if raw and re.search(r"\d+\s*p\.?$", raw, re.IGNORECASE) and not re.search(r"\d+\s*[-–]", raw):
         return [raw]
