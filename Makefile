@@ -61,6 +61,12 @@ outputs/verify_recueil_mirror_report.json outputs/verify_recueil_mirror_report.m
 outputs/recueil_url_comparison.json outputs/recueil_url_comparison.md: src/compare_recueil_urls.py src/reconcile_zotero.py outputs/verify_recueil_mirror_report.json
 	uv run python src/compare_recueil_urls.py --output outputs/recueil_url_comparison.json
 
+# Résolution des stubs recueil (ticket 0018) : Crossref + OpenAlex + HAL pour les
+# documents nouveaux sans métadonnée de groupe — réseau, lecture seule, hors
+# `make check`. mailto = pool poli des APIs.
+outputs/resolve_stubs_report.json outputs/resolve_stubs_report.md: src/resolve_stubs.py outputs/recueil_new_docs.json
+	uv run python src/resolve_stubs.py --mailto minh.haduong@gmail.com --output outputs/resolve_stubs_report.json
+
 check-fast:
 	uv run pytest -m "not integration and not slow" tests/
 
