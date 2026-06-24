@@ -105,6 +105,21 @@ def title_sim(a: str | None, b: str | None) -> float:
     return len(ta & tb) / len(ta | tb)
 
 
+def _title_metrics(a: str | None, b: str | None) -> tuple[float, float]:
+    """Retourne (jaccard, containment) pour deux titres.
+
+    containment = 0 si le plus court a moins de 4 jetons significatifs.
+    """
+    ta, tb = _tokens(a), _tokens(b)
+    if not ta or not tb:
+        return 0.0, 0.0
+    inter = len(ta & tb)
+    jac = inter / len(ta | tb)
+    smaller = min(len(ta), len(tb))
+    cov = inter / smaller if smaller >= 4 else 0.0
+    return jac, cov
+
+
 def title_match(a: str | None, b: str | None) -> float:
     """Accroche de titre robuste à la troncature, dans [0, 1].
 
@@ -119,13 +134,7 @@ def title_match(a: str | None, b: str | None) -> float:
     ...             "elements gestion eau pays mediterraneens approche") == 1.0
     True
     """
-    ta, tb = _tokens(a), _tokens(b)
-    if not ta or not tb:
-        return 0.0
-    inter = len(ta & tb)
-    jac = inter / len(ta | tb)
-    smaller = min(len(ta), len(tb))
-    cov = inter / smaller if smaller >= 4 else 0.0
+    jac, cov = _title_metrics(a, b)
     return max(jac, cov)
 
 
@@ -149,15 +158,26 @@ def score(doc: dict, notice: dict) -> float:
     doivent jamais *abaisser* un bon appariement de titre. Aucun bonus n'est
     accordé sans une accroche de titre minimale, pour écarter les faux positifs
     « même année, titre différent ».
+
+    Exception : quand l'accroche de titre vient *essentiellement* du containment
+    (jac < 0.4, le plus court est sous-ensemble d'un titre beaucoup plus long),
+    une corroboration auteur OU année est exigée pour rester « probable ». Sans
+    elle, le score est plafonné à 0.74 (incertain). Cela prévient les faux
+    positifs du type Godard↔Hourcade (cov=0.75, jac=0.25, auteurs/années
+    différents).
     """
-    t = title_match(doc.get("titre"), notice.get("title"))
+    jac, cov = _title_metrics(doc.get("titre"), notice.get("title"))
+    t = max(jac, cov)
     if t < 0.2:
         return round(t, 4)
     da, na = last_names(doc.get("auteurs")), _notice_lastnames(notice)
     author = 1.0 if (da & na) else 0.0
     dy, ny = doc.get("annee"), notice.get("year")
     year = 1.0 if (dy and ny and int(dy) == int(ny)) else 0.0
-    return round(min(1.0, t + 0.12 * year + 0.10 * author), 4)
+    raw = t + 0.12 * year + 0.10 * author
+    if cov > 0 and jac < 0.4 and not (author or year):
+        return round(min(0.74, raw), 4)
+    return round(min(1.0, raw), 4)
 
 
 def match_one(doc: dict, notices: list[dict], top: int = 3) -> list[dict]:
