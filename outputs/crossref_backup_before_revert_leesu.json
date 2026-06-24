@@ -1,0 +1,4995 @@
+[
+  {
+    "key": "RG6PJDIM",
+    "version": 9184,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/RG6PJDIM",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/RG6PJDIM",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Thomas",
+      "parsedDate": "2001-01",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "RG6PJDIM",
+      "version": 9184,
+      "itemType": "thesis",
+      "title": "WATSIDE : a Decision Methodology for WATer Supply Integrated DEvelopment",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jean-Sébastien",
+          "lastName": "Thomas"
+        }
+      ],
+      "abstractNote": "In most areas of the world, due to growing urbanisation, a degradation of water resource quality, an increase of\nthe water price that is limited by the social acceptability, and tighter quality regulations, urban water supply\nmanagers have to face and solve more and more complex issues, where short term needs of the system are as\ncrucial as the necessary long term sustainable development. This necessitates the need to enlarge the vision of\nthe problem on one hand to the set of factors liable to influence the decision or to undergo this decision (i.e.\nstandard evolution, state of the resource, population evolution, water price evolution, state of the water works)\nand on the other hand to the set of players liable to be involved in this decision making and/or through these\nfactors. This is what is called an integrated approach.\nWATSIDE gives managers a methodology that facilitates this integrated approach. It does not aim to give\naccurate results, but rather to prepare the decision process, by providing the decision makers a support to\nunderstand, in a given situation, which parameters are critical, and within which range of variation of these\nparameters risks for the water supply can appear. The type of question addressed can be, for a problem of\nresource pollution which is endangering the water supply : How to balance preventative and curative approach of\nthe water supply development, as well as the interest of the different players, in the long term?\nThe core of WATSIDE is the system analysis and representation, that allows for a conceptualisation of a system\nstructure made up of 7 subsystems (upstream resource, upstream usage, transport, treatment plant, distribution,\ncustomers and management subsystems) plus a stakeholder analysis. Based on simple and global parameters,\nelements and transfer functions, a comprehensive model has been developed and made concrete through its\nmodelling with the systems dynamics software called Ithink®. Different 'What if scenarios can be tested for\nexample 'what if the population increases, the level of pollution grows, or the legislation changes. The impact of\nthe simulations are observed on the different outcomes defined according to the context (water price evolution,\nincomes evolution, margin evolution, ...)\nThis methodology is applied on the Marne river basin in the Paris region, focusing on the problem of pesticides\npollution. Different scenarios are developed. In particular, alternatives are compared in a strategic decision\nperspective for the water supply development. It is shown that, for the given conditions and restrictions and within\nthe given period of time it is more cost effective to have a preventative approach than to have a curative\napproach with high capital investments within the given period of time. Through these simulations, stakeholders\ncoming from upstream and downstream can discuss in order to reach agreements on the acceptable level of\npollution for both parties.\nAs a conclusion, through the development of WATSIDE, major different points have been identified :\nsystem thinking and systems methods can be adapted to carry out and structure a methodology for urban\nwater supply integrated development,\na global approach of urban water supply problem is possible if simple hypotheses are adopted and a limited\naccuracy accepted,\nit is possible to make the link between the stakeholder world and the physical world, through simple\nrelationships,\nit is necessary that the analyst uses WATSIDE with the involvement of decision makers as early as possible.\nThey should unite through the proposed process of learning and understanding",
+      "thesisType": "Doctorat",
+      "university": "RMIT UNIVERSITY",
+      "place": "",
+      "date": "2001-01",
+      "series": "",
+      "seriesNumber": "",
+      "numPages": "356",
+      "DOI": "10.1061/40499(2000)154",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_OUV_LEESU_0021.pdf",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_OUV_LEESU_0021",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:27Z",
+      "dateModified": "2026-06-24T10:42:19Z"
+    }
+  },
+  {
+    "key": "9NNSKW38",
+    "version": 8667,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/9NNSKW38",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/9NNSKW38",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "WOLFF épouse BRELOT",
+      "parsedDate": "1994-11-25",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "9NNSKW38",
+      "version": 8667,
+      "itemType": "thesis",
+      "title": "ELEMENTS POUR LA PRISE EN COMPTE DE L'IMPACT DES REJETS URBAINS SUR LES MILIEUX NATURELS DANS LA GESTION DES SYSTEMES D'ASSAINISSEMENT",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Elodie",
+          "lastName": "WOLFF épouse BRELOT"
+        }
+      ],
+      "abstractNote": "",
+      "thesisType": "Doctorat",
+      "university": "L'INSTITUT NATIONAL DES SCIENCES APPLIQUEES DE LYON",
+      "place": "LYON",
+      "date": "1994-11-25",
+      "series": "",
+      "seriesNumber": "",
+      "numPages": "331",
+      "DOI": "",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_TH_LEESU_0005.pdf",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_TH_LEESU_0005",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:19Z",
+      "dateModified": "2026-06-24T08:52:51Z"
+    }
+  },
+  {
+    "key": "EDXQIRGP",
+    "version": 8904,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/EDXQIRGP",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/EDXQIRGP",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "GOUNOU",
+      "parsedDate": "2008-07-09",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "EDXQIRGP",
+      "version": 8904,
+      "itemType": "thesis",
+      "title": "MOBILITE DES ELEMENTS TRACES METALLIQUES DANS LES SEDIMENTS : COUPLAGE ET COMPARAISON DES APPROCHES CHIMIQUE ET MICROBIOLOGIQUE",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Catherine",
+          "lastName": "GOUNOU"
+        }
+      ],
+      "abstractNote": "Les activités anthropiques entraînent une contamination des sédiments de rivière en de nombreux\npolluants et en particulier en éléments traces métalliques (ETM). Si la majorité des ETM se retrouvent\npiégés dans les sédiments, ceux-ci peuvent être remobilisés et passer en solution dans certaines\nconditions physico-chimiques et sous l’action des microorganismes autochtones. Les métaux relargués\npeuvent alors constituer un danger potentiel pour les organismes vivants dans les sédiments et dans la\ncolonne d'eau.\nDans le cas des sols, l’impact de l’activité microbienne autochtone sur la mobilité des ETM a souvent\nété rapporté. Cependant une telle activité de solubilisation n’a été que rarement étudiée dans le cas des\nsédiments. Une telle connaissance est pourtant importante pour la prédiction du comportement des\nmétaux contenus dans les sédiments et la gestion de ces derniers, notamment lors de leur stockage\nsuite aux opérations de dragage.\nDans ce contexte, l’objectif de cette thèse a été de comprendre et d’évaluer l’importance de certains\ndes processus microbiens et chimiques de mobilité des ETM dans les sédiments en conditions\nanaérobies.\nLa première phase de notre étude qui a consisté à incuber des sédiments de Seine et de Marne en\nmilieu anaérobie dopé en glucose avait pour objectif d’étudier la corrélation entre le métabolisme\nmicrobien et le comportement des métaux en solution et dans les sédiments. Dans ces conditions\nopératoires, une forte solubilisation du fer et du manganèse (sous forme réduite) associée à une\nsolubilisation de métaux traces (Co, Cu, Ni) a été mise en évidence, ce qui a laissé supposer\nl’intervention de bactéries ferri-réductrices dans les phénomènes observés. Une activité fermentaire\nimportante a été observée et caractérisée par la production d’acides organiques majoritaires tels que les\nacides acétique et butyrique. Un tel résultat souligne l’importance des bactéries fermentatrices dans les\nphénomènes de dissolution observés.\nLa deuxième étape de ce travail a consisté à confirmer l’importance de l’activité ferri-réductrice et à\nen identifier les acteurs principaux. Les analyses moléculaires menées ont montré que les bactéries\nferri-réductrices majoritairement identifiées, appartiennent aux espèces Clostridium butyricum et\nPaenibacillus polymyxa. L’utilisation d’un modèle géochimique nous a permis de montrer que les\nvoies métaboliques supportant la réduction du fer et la mobilité des métaux étaient les fermentations\nbutyrique et acétique.\nLa troisième étape a consisté à comparer les impacts directs (réduction enzymatique) et indirects\n(propriétés des acides organiques produits) de Paenibacillus polymyxa et Clostridium butyricum sur la\nmobilité du fer, du manganèse et des autres métaux. Une telle étude a montré que les acides\norganiques produits (acétique, lactique, succinique, propionique et butyrique) ont un très faible impact\nsur la solubilisation aux pH rencontrés dans les sédiments et que la réduction enzymatique\nmicrobienne est le principal mécanisme de dissolution des éléments métalliques en milieu anaérobie.",
+      "thesisType": "Doctorat",
+      "university": "Université Paris 12",
+      "place": "Val de Marne",
+      "date": "2008-07-09",
+      "series": "",
+      "seriesNumber": "",
+      "numPages": "314",
+      "DOI": "10.70675/475be1b8z5457z4d92z997dz72aeaae3d5ba",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_TH_LEESU_0010.pdf",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Français",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_TH_LEESU_0010",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:19Z",
+      "dateModified": "2026-06-24T10:22:09Z"
+    }
+  },
+  {
+    "key": "3HXYQ9SB",
+    "version": 8658,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/3HXYQ9SB",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/3HXYQ9SB",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "BACHOC",
+      "parsedDate": "1992-11-13",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "3HXYQ9SB",
+      "version": 8658,
+      "itemType": "thesis",
+      "title": "LE TRANSFERT DES SOLIDES DANS LES RESEAUX D'ASSAINISSEMENT UNITAIRES",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "André",
+          "lastName": "BACHOC"
+        }
+      ],
+      "abstractNote": "",
+      "thesisType": "Doctorat",
+      "university": "L'INSTITUT NATIONAL POLYTECHNIQUE DE TOULOUSE",
+      "place": "",
+      "date": "1992-11-13",
+      "series": "",
+      "seriesNumber": "",
+      "numPages": "414",
+      "DOI": "",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_TH_LEESU_0019.pdf",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_TH_LEESU_0019",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:19Z",
+      "dateModified": "2026-06-24T08:52:47Z"
+    }
+  },
+  {
+    "key": "4XYNSEFG",
+    "version": 9181,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/4XYNSEFG",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/4XYNSEFG",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "MOLLE",
+      "parsedDate": "2003-12-10",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "4XYNSEFG",
+      "version": 9181,
+      "itemType": "thesis",
+      "title": "FILTRES PLANTES DE ROSEAUX : LIMITES HYDRAULIQUES ET RETENTION DU PHOSPHORE",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Pascal",
+          "lastName": "MOLLE"
+        }
+      ],
+      "abstractNote": "",
+      "thesisType": "Doctorat",
+      "university": "L'UNIVERSITE MONTPELLIER II",
+      "place": "",
+      "date": "2003-12-10",
+      "series": "",
+      "seriesNumber": "",
+      "numPages": "290",
+      "DOI": "10.51257/a-v1-re101",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_TH_LEESU_0025.pdf",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_TH_LEESU_0025",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:17Z",
+      "dateModified": "2026-06-24T10:35:04Z"
+    }
+  },
+  {
+    "key": "T2LLYZ9Z",
+    "version": 8910,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/T2LLYZ9Z",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/T2LLYZ9Z",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Azimi et al.",
+      "parsedDate": "2005-11",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "T2LLYZ9Z",
+      "version": 8910,
+      "itemType": "journalArticle",
+      "title": "Decrease of atmospheric deposition of heavy metals in an urban area from 1994 to 2002 (Paris, France)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Sam",
+          "lastName": "Azimi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Vincent",
+          "lastName": "Rocher"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Stéphane",
+          "lastName": "Garnaud"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gilles",
+          "lastName": "Varrault"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Daniel R.",
+          "lastName": "Thevenot"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Chemosphere",
+      "publisher": "",
+      "place": "",
+      "date": "2005-11",
+      "volume": "61",
+      "issue": "5",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "645-651",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1016/j.chemosphere.2005.03.022",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0053.pdf",
+      "accessDate": "2015-07-10T12:52:00Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0045-6535",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0053",
+      "rights": "",
+      "extra": "HAL: hal-01180059",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:19Z",
+      "dateModified": "2026-06-24T10:22:14Z"
+    }
+  },
+  {
+    "key": "SKNCPXQV",
+    "version": 8915,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/SKNCPXQV",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/SKNCPXQV",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Thévenot et al.",
+      "parsedDate": "1980",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "SKNCPXQV",
+      "version": 8915,
+      "itemType": "journalArticle",
+      "title": "ELECTROCHEMICAL STUDY OF REACTIONS AT INTERFACES OF GLUCOSE OXIDASE COLLAGEN MEMBRANES",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Daniel R.",
+          "lastName": "Thévenot"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "R.",
+          "lastName": "Sternberg"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "PIERRE R.",
+          "lastName": "COULET"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Biochimica et Biophysica Acta (BBA) - Enzymology",
+      "publisher": "",
+      "place": "",
+      "date": "1980",
+      "volume": "612",
+      "issue": "2",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "317-327",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1016/0005-2744(80)90114-x",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0008.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0005-2744",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0008",
+      "rights": "",
+      "extra": "HAL: hal-01179303",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:27Z",
+      "dateModified": "2026-06-24T10:22:19Z"
+    }
+  },
+  {
+    "key": "SHKRHPX2",
+    "version": 8935,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/SHKRHPX2",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/SHKRHPX2",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Thévenot et al.",
+      "parsedDate": "1986",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "SHKRHPX2",
+      "version": 8935,
+      "itemType": "journalArticle",
+      "title": "BATCH METAL REMOVAL BY PEAT : KINETICS AND THERMODYNAMICS",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Daniel R.",
+          "lastName": "Thévenot"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "T.",
+          "lastName": "Gosset"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "J. L.",
+          "lastName": "TRANCART"
+        }
+      ],
+      "abstractNote": "Peat moss, a natural inexpensive material, is able to play an important rrle in treatment\nprocesses of metal-bearing industrial effluents since it adsorbs, complexes or exchanges various metal\ncations. This paper presents kinetics and thermodynamics of batch metal removal reactions by 50 g l-\n(dry wt) eutrophic or oligotrophic peat particles using Cu 2+, Cd :÷, Zn 2÷ and Ni 2÷ concentrations ranging\nfrom 0.01 to 100raM.\nMetal cation removal reactions are moderately rapid in l0 mM metal unbuffered solutions: the forward\nkinetic constant ranges between 0.005 and 0.17 M-Is-~, and equilibrium is reached within about 1 h.\nUnder these conditions of pH (2.2-4.2) and concentrations, apparent binding equilibrium constants were\nfound to range between 2 and 3150 M -~ depending upon the peat origin and the metal cation.\nIn 0-6.5 pH-buffered metal cation solutions, the four cations binding reactions behaved differently\ndemonstrating that metal binding equilibrium constant decrease in the order Ni 2+ > Cu 2+ > Cd 2+ = Zn 2÷ .\nWhen pH is higher than 6.7, more than 90% of a 10 mM metal cation solution is removed by 50 g 1 -t\npeat particles and metal binding capacities equal 200 mmol kg- ~ dry wt, whatever the metal nature and\nthe peat origin. Except for nickel cation which is very strongly bound to peat, all metal cations are\ncompletely released when pH is fixed below 1.5.",
+      "publicationTitle": "Water Research",
+      "publisher": "",
+      "place": "",
+      "date": "1986",
+      "volume": "20",
+      "issue": "1",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "21-26",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1016/0043-1354(86)90209-5",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0031.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0043-1354",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Wat. Res.",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0031",
+      "rights": "",
+      "extra": "HAL: hal-01179701",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:28Z",
+      "dateModified": "2026-06-24T10:22:33Z"
+    }
+  },
+  {
+    "key": "85LBV6AY",
+    "version": 8936,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/85LBV6AY",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/85LBV6AY",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Stemberg et al.",
+      "parsedDate": "1988",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "85LBV6AY",
+      "version": 8936,
+      "itemType": "journalArticle",
+      "title": "Study and Development of Multilayer Needle-type Enzymebased Glucose Microsensors",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Robert",
+          "lastName": "Stemberg"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Marie-Bernadette",
+          "lastName": "Barrau"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Laurent",
+          "lastName": "Gangiotti"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Daniel R.",
+          "lastName": "Thévenot"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "George S.",
+          "lastName": "Wilson"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dilbir S.",
+          "lastName": "Bindra"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gilberto D.",
+          "lastName": "Velho"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Philippe",
+          "lastName": "Froguel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gérard",
+          "lastName": "Reach"
+        }
+      ],
+      "abstractNote": "Glucose oxidase (GOD) was covalently coupled to a cellulose acetate (CA)\nlayer, using bovine serum albumin (BSA) and parabenzoquinone (PBQ)\nlinkages, Prior to GOD coupling this CA layer was deposited on the\nplatinum tip of a needle-type sensor and covered with an outer layer of\npolyurethane (PU). Such microsensors were found to be active, their GOD\nload reaching 1.6 to 3.0 pg mm-’ and their glucose response reaching I to\n3 PA M-’ mme2, even when the upper limit of their linear range reached\nIO-30 mM. Due to the multilayer structure and composition of these microsensors,\nsmall anions such as ascorbate were partially discriminated from\nneutral molecules such as hydrogen peroxide. When implanted subcutaneously\nin anaesthetized rats, sensor responses correlated correctly with\nblood glucose concentration but presented sensitivity coejjicients significantly\ndifferent to those determined in vitro: a 2 point calibration procedure\nwas found necessary for in vivo experiments.",
+      "publicationTitle": "Biosensors",
+      "publisher": "",
+      "place": "",
+      "date": "1988",
+      "volume": "4",
+      "issue": "1",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "27-40",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1016/0265-928x(89)80032-x",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0032.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0265-928X",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0032",
+      "rights": "",
+      "extra": "HAL: hal-01179712",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:28Z",
+      "dateModified": "2026-06-24T10:22:33Z"
+    }
+  },
+  {
+    "key": "BEGKQDMZ",
+    "version": 8937,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/BEGKQDMZ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/BEGKQDMZ",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Thévenot et al.",
+      "parsedDate": "2001",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "BEGKQDMZ",
+      "version": 8937,
+      "itemType": "journalArticle",
+      "title": "Impact environnemental de la mise en dépôt en eau de matériaux de dragage (cas du bassin de la Seine) = Environmental impact of laying in water dredged sediment",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Daniel R.",
+          "lastName": "Thévenot"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Régis",
+          "lastName": "Moilleron"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sonia",
+          "lastName": "Carpentier"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christophe",
+          "lastName": "Beltran"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Daniel",
+          "lastName": "Hervé"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "La Houille Blanche",
+      "publisher": "",
+      "place": "",
+      "date": "2001",
+      "volume": "87",
+      "issue": "8",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "82-86",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1051/lhb/2001096",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0051.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0018-6368",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0051",
+      "rights": "",
+      "extra": "HAL: hal-01180056",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:28Z",
+      "dateModified": "2026-06-24T10:22:34Z"
+    }
+  },
+  {
+    "key": "X6Q8JU27",
+    "version": 8938,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/X6Q8JU27",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/X6Q8JU27",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Thévenot and Luduc",
+      "parsedDate": "1974",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "X6Q8JU27",
+      "version": 8938,
+      "itemType": "journalArticle",
+      "title": "Chemical and Electrochemical Oxidation of Aqueous Solutions of NADH and Model Compounds",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Daniel R.",
+          "lastName": "Thévenot"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "P.",
+          "lastName": "Luduc"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Bioelectrochemistry and Bioenergetics",
+      "publisher": "",
+      "place": "",
+      "date": "1974",
+      "volume": "1",
+      "issue": "1-2",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "96-107",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Bioelectrochemistry and Bioenergetics",
+      "DOI": "10.1016/0302-4598(74)85011-7",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0003.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0302-4598",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0003",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:27Z",
+      "dateModified": "2026-06-24T10:22:34Z"
+    }
+  },
+  {
+    "key": "IPTWHDHM",
+    "version": 8939,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/IPTWHDHM",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/IPTWHDHM",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Bachoc et al.",
+      "parsedDate": "1994",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "IPTWHDHM",
+      "version": 8939,
+      "itemType": "journalArticle",
+      "title": "DES DECANTEURS POUR TRAITER LA POLLUTION DES REJETS URBAINS PAR TEMPS DE PLUIE",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "A.",
+          "lastName": "Bachoc"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ghassan",
+          "lastName": "Chebbo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Agnès",
+          "lastName": "Saget"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "La Houille Blanche",
+      "publisher": "",
+      "place": "",
+      "date": "1994",
+      "volume": "80",
+      "issue": "1-2",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "185-189",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1051/lhb/1994026",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0060.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0018-6368",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0060",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:27Z",
+      "dateModified": "2026-06-24T10:22:35Z"
+    }
+  },
+  {
+    "key": "K47MAKI4",
+    "version": 8940,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/K47MAKI4",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/K47MAKI4",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Thévenot and Rauwel",
+      "parsedDate": "1976",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "K47MAKI4",
+      "version": 8940,
+      "itemType": "journalArticle",
+      "title": "Use of Ring-disc Electrodes for the Determination of Aqueous Solutions of Sulphur-Containing Compounds: Thiols, Disulphides, Sulphides, Thiol-Esters, Proteins and Various Inorganic Ions",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Daniel R.",
+          "lastName": "Thévenot"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Francis",
+          "lastName": "Rauwel"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Bioelectrochemistry and Bioenergetics",
+      "publisher": "",
+      "place": "",
+      "date": "1976",
+      "volume": "3",
+      "issue": "2",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "284-301",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1016/0302-4598(76)80011-6",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0011.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0302-4598",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Bioelectvochemistry and Bioenergetics",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0011",
+      "rights": "",
+      "extra": "HAL: hal-01179315",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:27Z",
+      "dateModified": "2026-06-24T10:22:36Z"
+    }
+  },
+  {
+    "key": "I74BQNYA",
+    "version": 8941,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/I74BQNYA",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/I74BQNYA",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Thévenot",
+      "parsedDate": "1973",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "I74BQNYA",
+      "version": 8941,
+      "itemType": "journalArticle",
+      "title": "Propriétiés électrochimiques des dérivés polyconjugués hétérocycliques d'interêt biologique II. Effets des paramètres expérimentaux sur les caractéristiques des différentes vagues de réduction de la pyrimidine en solution aqueuse",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Daniel R.",
+          "lastName": "Thévenot"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Journal of Electroanalytical Chemistry",
+      "publisher": "",
+      "place": "",
+      "date": "1973",
+      "volume": "46",
+      "issue": "1",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "89-107",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1016/0368-1874(73)87047-9",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0005.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0368-1874",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "J. Electroanal. Chenu.",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0005",
+      "rights": "",
+      "extra": "HAL: hal-01179288",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:26Z",
+      "dateModified": "2026-06-24T10:22:36Z"
+    }
+  },
+  {
+    "key": "5AFFTCFC",
+    "version": 8942,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/5AFFTCFC",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/5AFFTCFC",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Thévenot et al.",
+      "parsedDate": "1975",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "5AFFTCFC",
+      "version": 8942,
+      "itemType": "journalArticle",
+      "title": "BINDING OF L-GLUTAMATE TO GLUTAMATE DEHYDROGENASE IN THE PRESENCE OF 1,4,5,6-TETRAHYDRONICOTINAMIDE ADENINE DINUCLEOTIDE",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Daniel R.",
+          "lastName": "Thévenot"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "C.",
+          "lastName": "Gautheron"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Catherine",
+          "lastName": "Godinot"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "G.",
+          "lastName": "Branlant"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "J. F.",
+          "lastName": "Biellmann"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "FEBS LETTERS",
+      "publisher": "",
+      "place": "",
+      "date": "1975",
+      "volume": "54",
+      "issue": "2",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "206-211",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1016/0014-5793(75)80075-5",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0002.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0014-5793",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0002",
+      "rights": "",
+      "extra": "HAL: hal-01179275",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:18Z",
+      "dateModified": "2026-06-24T10:22:37Z"
+    }
+  },
+  {
+    "key": "TRFVBNGE",
+    "version": 8943,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/TRFVBNGE",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/TRFVBNGE",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Thévenot and RAUWEL",
+      "parsedDate": "1977",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "TRFVBNGE",
+      "version": 8943,
+      "itemType": "journalArticle",
+      "title": "Use of ring-disc electrodes and viologens for the titration of cytochrome C and oxygen and for the study of their reduction kinetics",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Daniel R.",
+          "lastName": "Thévenot"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "FRANCIS",
+          "lastName": "RAUWEL"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Journal of Electroanalytical Chemistry and Interfacial Electrochemistry",
+      "publisher": "",
+      "place": "",
+      "date": "1977",
+      "volume": "75",
+      "issue": "2",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "579-593",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Journal of Electroanalytical Chemistry and Interfacial Electrochemistry",
+      "DOI": "10.1016/s0022-0728(77)80200-3",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0012.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0022-0728",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0012",
+      "rights": "",
+      "extra": "HAL: hal-01179317",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:18Z",
+      "dateModified": "2026-06-24T10:22:37Z"
+    }
+  },
+  {
+    "key": "8AACM568",
+    "version": 8944,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/8AACM568",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/8AACM568",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Thévenot and Apoteker",
+      "parsedDate": "1983",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "8AACM568",
+      "version": 8944,
+      "itemType": "journalArticle",
+      "title": "EXPERIMENTAL SIMULATION OF BIODEGRADATION IN RIVERS: OXYGEN, ORGANIC MATTER AND BIOMASS CONCENTRATION CHANGES",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Daniel R.",
+          "lastName": "Thévenot"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Arnaud",
+          "lastName": "Apoteker"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Water Research",
+      "publisher": "",
+      "place": "",
+      "date": "1983",
+      "volume": "17",
+      "issue": "10",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "1267-1274",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Water Res.",
+      "DOI": "10.1016/0043-1354(83)90251-8",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0016.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0043-1354",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0016",
+      "rights": "",
+      "extra": "HAL: hal-01179337",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:18Z",
+      "dateModified": "2026-06-24T10:22:38Z"
+    }
+  },
+  {
+    "key": "AHJCUNK2",
+    "version": 8945,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/AHJCUNK2",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/AHJCUNK2",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Thévenot et al.",
+      "parsedDate": "1994",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "AHJCUNK2",
+      "version": 8945,
+      "itemType": "journalArticle",
+      "title": "PRELIMINARY STUDY OF SURFACE TREATMENTS FOR PLATINUM ELECTRODES DESIGNED FOR OXIDATION-REDUCTION POTENTIAL DETERMINATIONS IN ACTIVATED SLUDGE",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Daniel R.",
+          "lastName": "Thévenot"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bénédicte",
+          "lastName": "Martin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Alain",
+          "lastName": "Heduit"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Water Science and Technology",
+      "publisher": "",
+      "place": "",
+      "date": "1994",
+      "volume": "30",
+      "issue": "4",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "239-242",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Wat. Sci. Tech.",
+      "DOI": "10.2166/wst.1994.0200",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0034.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0273-1223",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0034",
+      "rights": "",
+      "extra": "HAL: hal-02574232",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:18Z",
+      "dateModified": "2026-06-24T10:22:43Z"
+    }
+  },
+  {
+    "key": "9CUFYVVC",
+    "version": 8946,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/9CUFYVVC",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/9CUFYVVC",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Thévenot and Heduit",
+      "parsedDate": "1992",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "9CUFYVVC",
+      "version": 8946,
+      "itemType": "journalArticle",
+      "title": "ELEMENTS IN THE INTERPRETATION OF PLATINUM ELECTRODE POTENTIALS IN BIOLOGICAL TREATMENT",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Daniel R.",
+          "lastName": "Thévenot"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "A.",
+          "lastName": "Heduit"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Water Science and Technology",
+      "publisher": "",
+      "place": "",
+      "date": "1992",
+      "volume": "26",
+      "issue": "5-6",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "1335-1344",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Wat. Sci. Tech.",
+      "DOI": "10.2166/wst.1992.0576",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0037.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0273-1223",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0037",
+      "rights": "",
+      "extra": "HAL: hal-02578189",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:18Z",
+      "dateModified": "2026-06-24T10:22:44Z"
+    }
+  },
+  {
+    "key": "BXU4YPZY",
+    "version": 8947,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/BXU4YPZY",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/BXU4YPZY",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Thévenot and Lebreton",
+      "parsedDate": "1992",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "BXU4YPZY",
+      "version": 8947,
+      "itemType": "journalArticle",
+      "title": "POLLUTION METALLIQUE RELARGABLE PAR LES AEROSOLS D'ORIGINE AUTOROUTIERE",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Daniel R.",
+          "lastName": "Thévenot"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Laurent",
+          "lastName": "Lebreton"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Environmental Technology",
+      "publisher": "",
+      "place": "",
+      "date": "1992",
+      "volume": "13",
+      "issue": "1",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "35-44",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1080/09593339209385126",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0039.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0959-3330",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Environmental Technology",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0039",
+      "rights": "",
+      "extra": "HAL: hal-01200588",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:18Z",
+      "dateModified": "2026-06-24T10:22:44Z"
+    }
+  },
+  {
+    "key": "KTS3MB8E",
+    "version": 8948,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/KTS3MB8E",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/KTS3MB8E",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Thévenot et al.",
+      "parsedDate": "1996",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "KTS3MB8E",
+      "version": 8948,
+      "itemType": "journalArticle",
+      "title": "MODIFIED PLATINUM ELECTRODES: ELECTROCHEMICAL CHARACTERISTICS AND BEHAVIOUR IN ACTIVATED SLUDGE",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Daniel R.",
+          "lastName": "Thévenot"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Isabelle",
+          "lastName": "Quinio"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Daniel",
+          "lastName": "Stadmuller"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Alain",
+          "lastName": "Héduit"
+        }
+      ],
+      "abstractNote": "Polished platinum electrodes were coated with platinum black and/or with organic polymers (Nafion,\npolyurethane) to accelerate the electron tranfer rate to the metal-solution interface and/or to constitute a\nprotection barrier for the metal against neutral or anionic contaminants present in wastewater. The modified\nelectrodes were electrochemically characterized (surface roughness and exchange current density) and their\nbehaviour in activated sludge was studied. A platinum black deposit increases the roughness and the\nexchange current density. However, the response of these electrodes in an anoxic environment is very slow,\nwhich results in a low variation amplitude of the potential when they are placed in activated sludge\nalternately submitted to sequences of aeration and anoxia. A Nafion film provides partial protection against\ncontaminants thus increasing electrode response reproducibility. A polyurethane film has no apparent\nprotective effect.",
+      "publicationTitle": "Water Science and Technology",
+      "publisher": "",
+      "place": "",
+      "date": "1996",
+      "volume": "34",
+      "issue": "3-4",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "143-150",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.2166/wst.1996.0427",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0048.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0273-1223",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Wat. Sci, Tech.",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0048",
+      "rights": "",
+      "extra": "HAL: hal-02574334",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:18Z",
+      "dateModified": "2026-06-24T10:22:45Z"
+    }
+  },
+  {
+    "key": "87RVLHJF",
+    "version": 8949,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/87RVLHJF",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/87RVLHJF",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Thevenot et al.",
+      "parsedDate": "1991",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "87RVLHJF",
+      "version": 8949,
+      "itemType": "journalArticle",
+      "title": "Design and in Vitro Studies of a Needle-Type Glucose Sensor for Subcutaneous Monitoring",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Daniel R.",
+          "lastName": "Thevenot"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Robert",
+          "lastName": "Sternberg"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dilbir S.",
+          "lastName": "Bindra"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yanan",
+          "lastName": "Zhang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "George S.",
+          "lastName": "Wilson"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Analytical Chemistry",
+      "publisher": "",
+      "place": "",
+      "date": "1991",
+      "volume": "63",
+      "issue": "17",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "1692-1696",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1021/ac00017a008",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0040.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0003-2700",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0040",
+      "rights": "",
+      "extra": "HAL: hal-01179862",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:18Z",
+      "dateModified": "2026-06-24T10:22:46Z"
+    }
+  },
+  {
+    "key": "QXILCSZZ",
+    "version": 8950,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/QXILCSZZ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/QXILCSZZ",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Chebbo et al.",
+      "parsedDate": "1997",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "QXILCSZZ",
+      "version": 8950,
+      "itemType": "journalArticle",
+      "title": "Le bassin versant expérimental urbain du Marais à Paris : origine et caractéristiques de la pollution des eaux pluviales urbaines en réseau d'assainissement unitaire",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "G.",
+          "lastName": "Chebbo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "M. C.",
+          "lastName": "Gromaire"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jean-Marie",
+          "lastName": "Mouchel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "M",
+          "lastName": "Saad"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "La Houille Blanche",
+      "publisher": "",
+      "place": "",
+      "date": "1997",
+      "volume": "83",
+      "issue": "7",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "52-58",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1051/lhb/1997065",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0063.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0018-6368",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0063",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:18Z",
+      "dateModified": "2026-06-24T10:22:47Z"
+    }
+  },
+  {
+    "key": "5RKQFV78",
+    "version": 8951,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/5RKQFV78",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/5RKQFV78",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Chebbo et al.",
+      "parsedDate": "1995",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "5RKQFV78",
+      "version": 8951,
+      "itemType": "journalArticle",
+      "title": "URBAN DISCHARGES DURING WET WEATHER: WHAT VOLUMES HAVE TO BE TREATED?",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "G.",
+          "lastName": "Chebbo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Agnès",
+          "lastName": "Saget"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "M. Michel",
+          "lastName": "Desbordes"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Water Science and Technology",
+      "publisher": "",
+      "place": "",
+      "date": "1995",
+      "volume": "32",
+      "issue": "1",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "225-232",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "wat. scl tech.",
+      "DOI": "10.2166/wst.1995.0050",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0062.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0273-1223",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0062",
+      "rights": "",
+      "extra": "HAL: hal-00779543",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:18Z",
+      "dateModified": "2026-06-24T10:22:47Z"
+    }
+  },
+  {
+    "key": "PGDSQ23W",
+    "version": 8952,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/PGDSQ23W",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/PGDSQ23W",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Gires and de Gouvello",
+      "parsedDate": "2009",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "PGDSQ23W",
+      "version": 8952,
+      "itemType": "journalArticle",
+      "title": "Consequences to water suppliers of collecting rainwater on housing estates",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Auguste",
+          "lastName": "Gires"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bernard",
+          "lastName": "de Gouvello"
+        }
+      ],
+      "abstractNote": "The collection, storage and use of rainwater from roofs reduce the need for potable water.\nHowever, if water suppliers are to decrease their infrastructure costs as well as their\noperational costs (due to water savings), the rainwater system has to provide most of the time\na significant percentage of the water demand. This paper adopts the viewpoint of the water\nsuppliers and investigates how reliable this source of water is in the case of a housing estate,\nconsidering WC flushing as the only water demand. A housing estate was modelled and\ndifferent realistic input scenarios (water demand for WC flushing, storage capacity, roof area,\nand rainfall) were defined. Three indicators were exhibited. The variability generated by each\ninput on the indicators was evaluated. The indicators were estimated for 63 homogeneously\ndistributed French cities. Among the indicators exhibited in this paper, the most relevant\none is the percentage of water supplied from the tank that is secured during 95% of the\ndays of the simulation. The main conclusion is that the optimum way of determining\nthe storage capacity of the rainwater collection system is not the same from the viewpoint\nof the users than from the viewpoint of the water suppliers. Indeed, water suppliers tend\nto require bigger tanks in order to take into account the rainwater collection systems in\ntheir management plan.",
+      "publicationTitle": "Water Science and Technology",
+      "publisher": "",
+      "place": "",
+      "date": "2009",
+      "volume": "60",
+      "issue": "3",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "543-553",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "WST",
+      "DOI": "10.2166/wst.2009.361",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0075.PDF",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0273-1223",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0075",
+      "rights": "",
+      "extra": "HAL: hal-00816788",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:17Z",
+      "dateModified": "2026-06-24T10:22:48Z"
+    }
+  },
+  {
+    "key": "YPM9Q2MS",
+    "version": 8982,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/YPM9Q2MS",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/YPM9Q2MS",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Saget et al.",
+      "parsedDate": "1995",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "YPM9Q2MS",
+      "version": 8982,
+      "itemType": "journalArticle",
+      "title": "La base de données sur la qualité des rejets urbains par temps de pluie",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Agnès",
+          "lastName": "Saget"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ghassan",
+          "lastName": "Chebbo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "A.",
+          "lastName": "Bachoc"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "La Houille Blanche",
+      "publisher": "",
+      "place": "",
+      "date": "1995",
+      "volume": "82",
+      "issue": "8",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "15-20",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1051/lhb/1996080",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0067.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0018-6368",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0067",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:18Z",
+      "dateModified": "2026-06-24T10:23:07Z"
+    }
+  },
+  {
+    "key": "7JPHE7MP",
+    "version": 8983,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/7JPHE7MP",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/7JPHE7MP",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Saget et al.",
+      "parsedDate": "1998",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "7JPHE7MP",
+      "version": 8983,
+      "itemType": "journalArticle",
+      "title": "EXTENT OF POLLUTION IN URBAN WET WEATHER DISCHARGES",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Agnès",
+          "lastName": "Saget"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Marie-Christine",
+          "lastName": "Gromaire"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "J. C.",
+          "lastName": "Deutsch"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ghassan",
+          "lastName": "Chebbo"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Water Science and Technology",
+      "publisher": "",
+      "place": "",
+      "date": "1998",
+      "volume": "37",
+      "issue": "1",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "35-43",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.2166/wst.1998.0010",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0068.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0273-1223",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0068",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:18Z",
+      "dateModified": "2026-06-24T10:23:07Z"
+    }
+  },
+  {
+    "key": "VMH9QKUE",
+    "version": 7457,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/VMH9QKUE",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/VMH9QKUE",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Monismith",
+      "parsedDate": "1983",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "VMH9QKUE",
+      "version": 7457,
+      "itemType": "thesis",
+      "title": "DYNAMIC RESPONSE OF STRATIFIED RESERVOIRS TO SURFACE SHEAR STRESS",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Stephen Gene",
+          "lastName": "Monismith"
+        }
+      ],
+      "abstractNote": "",
+      "thesisType": "PH.D.",
+      "university": "University of California",
+      "place": "",
+      "date": "1983",
+      "series": "",
+      "seriesNumber": "",
+      "numPages": "343",
+      "DOI": "",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_TH_LEESU_0022.pdf",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "English",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_TH_LEESU_0022",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:19Z",
+      "dateModified": "2026-06-19T13:24:14Z"
+    }
+  },
+  {
+    "key": "MI97ZELQ",
+    "version": 8984,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/MI97ZELQ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/MI97ZELQ",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Thévenot and Buvet",
+      "parsedDate": "1972",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "MI97ZELQ",
+      "version": 8984,
+      "itemType": "journalArticle",
+      "title": "Propriétés électrochimiques de la nicotinamide et de ses dérivés en solution aqueuse : II. Étude électrochimique de l'iodure de N1-méthyl nicotinamide en solution aqueuse",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Daniel R.",
+          "lastName": "Thévenot"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "R.",
+          "lastName": "Buvet"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Journal of Electroanalytical Chemistry",
+      "publisher": "",
+      "place": "",
+      "date": "1972",
+      "volume": "39",
+      "issue": "2",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "447-469",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1016/0368-1874(72)80214-4",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0007.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0368-1874",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "J. Electroanal. Chenu.",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0007",
+      "rights": "",
+      "extra": "HAL: hal-01179302",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:26Z",
+      "dateModified": "2026-06-24T10:23:09Z"
+    }
+  },
+  {
+    "key": "A4GW9I3H",
+    "version": 8785,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/A4GW9I3H",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/A4GW9I3H",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Thévenot and Wilson",
+      "parsedDate": "1989",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "A4GW9I3H",
+      "version": 8785,
+      "itemType": "bookSection",
+      "title": "Unmediated amperometric enzyme electrodes",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Daniel R.",
+          "lastName": "Thévenot"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "George S.",
+          "lastName": "Wilson"
+        }
+      ],
+      "abstractNote": "",
+      "bookTitle": "Biosensors : pratical approach",
+      "series": "",
+      "seriesNumber": "",
+      "volume": "",
+      "numberOfVolumes": "",
+      "edition": "",
+      "date": "1989",
+      "publisher": "A.E.G. CASS",
+      "place": "",
+      "originalDate": "",
+      "originalPublisher": "",
+      "originalPlace": "",
+      "format": "",
+      "pages": "",
+      "ISBN": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0020.pdf",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0020",
+      "rights": "",
+      "extra": "HAL: hal-01179624",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:27Z",
+      "dateModified": "2026-06-24T09:16:31Z"
+    }
+  },
+  {
+    "key": "DS4FSTIS",
+    "version": 8985,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/DS4FSTIS",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/DS4FSTIS",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Rauwel and Thévenot",
+      "parsedDate": "1976",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "DS4FSTIS",
+      "version": 8985,
+      "itemType": "journalArticle",
+      "title": "Titration of aqueous solutions of phenols and determination of their bromination rate constants by means of ring-disc electrodes",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "F.",
+          "lastName": "Rauwel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "D.",
+          "lastName": "Thévenot"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Journal of Applied Electrochemistry",
+      "publisher": "",
+      "place": "",
+      "date": "1976",
+      "volume": "6",
+      "issue": "2",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "119-126",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1007/bf00615376",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0001.pdf",
+      "accessDate": "2015-06-26T09:38:50Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0021-891X",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0001",
+      "rights": "",
+      "extra": "HAL: hal-01178845",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:26Z",
+      "dateModified": "2026-06-24T10:23:10Z"
+    }
+  },
+  {
+    "key": "BBZWHR7Q",
+    "version": 8986,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/BBZWHR7Q",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/BBZWHR7Q",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Leduc and Thevenot",
+      "parsedDate": "1973",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "BBZWHR7Q",
+      "version": 8986,
+      "itemType": "journalArticle",
+      "title": "Electrochemical properties of nicotinamide derivatives in aqueous solution: Part IV. Oxidation of N1-alkyl-1, 4-dihydronicotinamides",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "P.",
+          "lastName": "Leduc"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "D.",
+          "lastName": "Thevenot"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Journal of Electroanalytical Chemistry",
+      "publisher": "",
+      "place": "",
+      "date": "1973",
+      "volume": "47",
+      "issue": "3",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "543-546",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1016/0368-1874(73)80093-0",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0004.pdf",
+      "accessDate": "2015-06-26T09:38:40Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0368-1874",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Electrochemical properties of nicotinamide derivatives in aqueous solution",
+      "language": "",
+      "libraryCatalog": "Google Scholar",
+      "callNumber": "ENPC00_AR_LEESU_0004",
+      "rights": "",
+      "extra": "HAL: hal-01179282",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:27Z",
+      "dateModified": "2026-06-24T10:23:11Z"
+    }
+  },
+  {
+    "key": "EB54CFGC",
+    "version": 8987,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/EB54CFGC",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/EB54CFGC",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Thevenot et al.",
+      "parsedDate": "1979",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "EB54CFGC",
+      "version": 8987,
+      "itemType": "journalArticle",
+      "title": "Enzyme collagen membrane for electrochemical determination of glucose",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Daniel R.",
+          "lastName": "Thevenot"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Robert",
+          "lastName": "Sternberg"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Pierre R.",
+          "lastName": "Coulet"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jean",
+          "lastName": "Laurent"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Daniele C.",
+          "lastName": "Gautheron"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Analytical Chemistry",
+      "publisher": "",
+      "place": "",
+      "date": "1979",
+      "volume": "51",
+      "issue": "1",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "96-100",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1021/ac50037a031",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0009.pdf",
+      "accessDate": "2015-06-26T09:28:22Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0003-2700",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "Google Scholar",
+      "callNumber": "ENPC00_AR_LEESU_0009",
+      "rights": "",
+      "extra": "HAL: hal-01179308",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:27Z",
+      "dateModified": "2026-06-24T10:23:12Z"
+    }
+  },
+  {
+    "key": "SL3QQD72",
+    "version": 8988,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/SL3QQD72",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/SL3QQD72",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Thevenot et al.",
+      "parsedDate": "1978",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "SL3QQD72",
+      "version": 8988,
+      "itemType": "journalArticle",
+      "title": "245-A highly sensitive glucose electrode using glucose oxidase collagen film",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Daniel R.",
+          "lastName": "Thevenot"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Pierre R.",
+          "lastName": "Coulet"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Robert",
+          "lastName": "Sternberg"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Daniele C.",
+          "lastName": "Gautheron"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Bioelectrochemistry and Bioenergetics",
+      "publisher": "",
+      "place": "",
+      "date": "1978",
+      "volume": "5",
+      "issue": "3",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "548-553",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1016/0302-4598(87)85047-x",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0010.pdf",
+      "accessDate": "2015-06-26T09:28:08Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0302-4598",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "Google Scholar",
+      "callNumber": "ENPC00_AR_LEESU_0010",
+      "rights": "",
+      "extra": "HAL: hal-01083001",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:27Z",
+      "dateModified": "2026-06-24T10:23:13Z"
+    }
+  },
+  {
+    "key": "BWZJNXVH",
+    "version": 8791,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/BWZJNXVH",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/BWZJNXVH",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Thévenot",
+      "parsedDate": "1985",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "BWZJNXVH",
+      "version": 8791,
+      "itemType": "bookSection",
+      "title": "Analytical bioelectrochemistry",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Daniel R.",
+          "lastName": "Thévenot"
+        }
+      ],
+      "abstractNote": "",
+      "bookTitle": "Electrochemistry in Research and Development",
+      "series": "",
+      "seriesNumber": "",
+      "volume": "",
+      "numberOfVolumes": "",
+      "edition": "",
+      "date": "1985",
+      "publisher": "Springer",
+      "place": "",
+      "originalDate": "",
+      "originalPublisher": "",
+      "originalPlace": "",
+      "format": "",
+      "pages": "181–188",
+      "ISBN": "",
+      "DOI": "10.1007/978-1-4684-5098-9_19",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0015.pdf",
+      "accessDate": "2015-06-25T11:40:07Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "Google Scholar",
+      "callNumber": "ENPC00_AR_LEESU_0015",
+      "rights": "",
+      "extra": "HAL: hal-01179335",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:19Z",
+      "dateModified": "2026-06-24T09:16:34Z"
+    }
+  },
+  {
+    "key": "KCLKBK88",
+    "version": 8989,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/KCLKBK88",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/KCLKBK88",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Sternberg et al.",
+      "parsedDate": "1988",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "KCLKBK88",
+      "version": 8989,
+      "itemType": "journalArticle",
+      "title": "Covalent enzyme coupling on cellulose acetate membranes for glucose sensor development",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Robert",
+          "lastName": "Sternberg"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dilbir S.",
+          "lastName": "Bindra"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "George S.",
+          "lastName": "Wilson"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Daniel R.",
+          "lastName": "Thevenot"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Analytical Chemistry",
+      "publisher": "",
+      "place": "",
+      "date": "1988",
+      "volume": "60",
+      "issue": "24",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "2781-2786",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1021/ac00175a028",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0019.pdf",
+      "accessDate": "2015-06-25T11:39:53Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0003-2700",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "Google Scholar",
+      "callNumber": "ENPC00_AR_LEESU_0019",
+      "rights": "",
+      "extra": "HAL: hal-01179370",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:19Z",
+      "dateModified": "2026-06-24T10:23:19Z"
+    }
+  },
+  {
+    "key": "3AGPMXGE",
+    "version": 8990,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/3AGPMXGE",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/3AGPMXGE",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Velho et al.",
+      "parsedDate": "1989",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "3AGPMXGE",
+      "version": 8990,
+      "itemType": "journalArticle",
+      "title": "In vitro and in vivo stability of electrode potentials in needle-type glucose sensors: influence of needle material",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "G.",
+          "lastName": "Velho"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ph",
+          "lastName": "Froguel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "R.",
+          "lastName": "Sternberg"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "D. R.",
+          "lastName": "Thevenot"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "G.",
+          "lastName": "Reach"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Diabetes",
+      "publisher": "",
+      "place": "",
+      "date": "1989",
+      "volume": "38",
+      "issue": "2",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "164-171",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.2337/diabetes.38.2.164",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0021.pdf",
+      "accessDate": "2015-06-25T11:39:45Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0012-1797",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "Google Scholar",
+      "callNumber": "ENPC00_AR_LEESU_0021",
+      "rights": "",
+      "extra": "HAL: hal-01179627",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:19Z",
+      "dateModified": "2026-06-24T10:23:19Z"
+    }
+  },
+  {
+    "key": "JGTIKU8W",
+    "version": 8991,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/JGTIKU8W",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/JGTIKU8W",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Wilson et al.",
+      "parsedDate": "1992",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "JGTIKU8W",
+      "version": 8991,
+      "itemType": "journalArticle",
+      "title": "Progress toward the development of an implantable sensor for glucose.",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "George S.",
+          "lastName": "Wilson"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Y.",
+          "lastName": "Zhang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "G.",
+          "lastName": "Reach"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "D.",
+          "lastName": "Moatti-Sirat"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "V.",
+          "lastName": "Poitout"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "D. R.",
+          "lastName": "Thevenot"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "F.",
+          "lastName": "Lemonnier"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "J. C.",
+          "lastName": "Klein"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Clinical Chemistry",
+      "publisher": "",
+      "place": "",
+      "date": "1992",
+      "volume": "38",
+      "issue": "9",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "1613-1617",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1093/clinchem/38.9.1613",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0036.pdf",
+      "accessDate": "2015-06-29T13:17:25Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0009-9147",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0036",
+      "rights": "",
+      "extra": "HAL: hal-01179833",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:27Z",
+      "dateModified": "2026-06-24T10:23:20Z"
+    }
+  },
+  {
+    "key": "LFFJ8VVL",
+    "version": 8992,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/LFFJ8VVL",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/LFFJ8VVL",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Fontvieille et al.",
+      "parsedDate": "1992",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "LFFJ8VVL",
+      "version": 8992,
+      "itemType": "journalArticle",
+      "title": "Fluorescein diacetate hydrolysis as a measure of microbial activity in aquatic systems: application to activated sludges",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "D. A.",
+          "lastName": "Fontvieille"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "A.",
+          "lastName": "Outaguerouine"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "D. R.",
+          "lastName": "Thevenot"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Environmental Technology",
+      "publisher": "",
+      "place": "",
+      "date": "1992",
+      "volume": "13",
+      "issue": "6",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "531-540",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1080/09593339209385181",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0038.pdf",
+      "accessDate": "2015-06-29T13:16:59Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0959-3330",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0038",
+      "rights": "",
+      "extra": "HAL: hal-01179839",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:18Z",
+      "dateModified": "2026-06-24T10:23:20Z"
+    }
+  },
+  {
+    "key": "AZE64HQV",
+    "version": 8993,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/AZE64HQV",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/AZE64HQV",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Wilson et al.",
+      "parsedDate": "1991",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "AZE64HQV",
+      "version": 8993,
+      "itemType": "journalArticle",
+      "title": "Biosensors for intracorporeal measurements–problems and strategies",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "George S.",
+          "lastName": "Wilson"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "G.",
+          "lastName": "Reach"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "D. R.",
+          "lastName": "Thevenot"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Biochemical Society Transactions",
+      "publisher": "",
+      "place": "",
+      "date": "1991",
+      "volume": "19",
+      "issue": "1",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "9-11",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1042/bst0190009",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0041.pdf",
+      "accessDate": "2015-06-29T13:16:27Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0300-5127",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0041",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:26Z",
+      "dateModified": "2026-06-24T10:23:21Z"
+    }
+  },
+  {
+    "key": "32NGS3GW",
+    "version": 8994,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/32NGS3GW",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/32NGS3GW",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Gonzalez et al.",
+      "parsedDate": "2000",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "32NGS3GW",
+      "version": 8994,
+      "itemType": "journalArticle",
+      "title": "Determination of polycyclic aromatic hydrocarbons in urban runoff samples from the “Le Marais” experimental catchment in Paris centre",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Ana",
+          "lastName": "Gonzalez"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Régis",
+          "lastName": "Moilleron"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ghassan",
+          "lastName": "Chebbo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Daniel R.",
+          "lastName": "Thévenot"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Polycyclic Aromatic Compounds",
+      "publisher": "",
+      "place": "",
+      "date": "2000",
+      "volume": "20",
+      "issue": "1-4",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "1-19",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1080/10406630008034772",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0043.pdf",
+      "accessDate": "2015-07-15",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "1040-6638",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0043",
+      "rights": "",
+      "extra": "HAL: hal-01179901",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:28Z",
+      "dateModified": "2026-06-24T10:23:22Z"
+    }
+  },
+  {
+    "key": "DBHZ36KQ",
+    "version": 8995,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/DBHZ36KQ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/DBHZ36KQ",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Von Sperling et al.",
+      "parsedDate": "2006",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "DBHZ36KQ",
+      "version": 8995,
+      "itemType": "journalArticle",
+      "title": "Aspectos de qualidade de agua en bacias de retention urbanas",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "E.",
+          "lastName": "Von Sperling"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bruno",
+          "lastName": "Tassin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Brigitte",
+          "lastName": "Vinçon-Leite"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Revista Brasileira de Recursos Hídricos",
+      "publisher": "",
+      "place": "",
+      "date": "2006",
+      "volume": "11",
+      "issue": "2",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "27-35",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.21168/rbrh.v11n2.p27-35",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0045.pdf",
+      "accessDate": "2015-07-15",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "2318-0331",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0045",
+      "rights": "",
+      "extra": "HAL: hal-00752713",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:28Z",
+      "dateModified": "2026-06-24T10:23:22Z"
+    }
+  },
+  {
+    "key": "63JJ4DJP",
+    "version": 8996,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/63JJ4DJP",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/63JJ4DJP",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Estèbe et al.",
+      "parsedDate": "1997",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "63JJ4DJP",
+      "version": 8996,
+      "itemType": "journalArticle",
+      "title": "Urban runoff impacts on particulate metal and hydrocarbon concentrations in river Seine: suspended solid and sediment transport",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Alexandrine",
+          "lastName": "Estèbe"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Hacène",
+          "lastName": "Boudries"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jean-Marie",
+          "lastName": "Mouchel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Daniel R.",
+          "lastName": "Thévenot"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Water Science and Technology",
+      "publisher": "",
+      "place": "",
+      "date": "1997",
+      "volume": "36",
+      "issue": "8-9",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "185-193",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.2166/wst.1997.0664",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0046.pdf",
+      "accessDate": "2015-07-15",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0273-1223",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Urban runoff impacts on particulate metal and hydrocarbon concentrations in river Seine",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0046",
+      "rights": "",
+      "extra": "HAL: hal-00779527",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:28Z",
+      "dateModified": "2026-06-24T10:23:23Z"
+    }
+  },
+  {
+    "key": "Z4X4LVQP",
+    "version": 8997,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/Z4X4LVQP",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/Z4X4LVQP",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Turdean et al.",
+      "parsedDate": "2002",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "Z4X4LVQP",
+      "version": 8997,
+      "itemType": "journalArticle",
+      "title": "Sensitive detection of organophosphorus pesticides using a needle type amperometric acetylcholinesterase-based bioelectrode. Thiocholine electrochemistry and immobilised enzyme inhibition",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Graziella L.",
+          "lastName": "Turdean"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ionel Catalin",
+          "lastName": "Popescu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Liviu",
+          "lastName": "Oniciu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Daniel R.",
+          "lastName": "Thevenot"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Journal of enzyme inhibition and medicinal chemistry",
+      "publisher": "",
+      "place": "",
+      "date": "2002",
+      "volume": "17",
+      "issue": "2",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "107-115",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1080/14756360290026469",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0052.pdf",
+      "accessDate": "2015-07-10T12:51:57Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "1475-6366",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "Google Scholar",
+      "callNumber": "ENPC00_AR_LEESU_0052",
+      "rights": "",
+      "extra": "HAL: hal-01180057",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:27Z",
+      "dateModified": "2026-06-24T10:23:23Z"
+    }
+  },
+  {
+    "key": "9IB9PJHH",
+    "version": 8998,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/9IB9PJHH",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/9IB9PJHH",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Rocher et al.",
+      "parsedDate": "2004",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "9IB9PJHH",
+      "version": 8998,
+      "itemType": "journalArticle",
+      "title": "Hydrocarbons and metals in atmospheric deposition and roof runoff in central Paris",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Vincent",
+          "lastName": "Rocher"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sam",
+          "lastName": "Azimi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Johnny",
+          "lastName": "Gasperi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Loïc",
+          "lastName": "Beuvin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mathieu",
+          "lastName": "Muller"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Régis",
+          "lastName": "Moilleron"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ghassan",
+          "lastName": "Chebbo"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Water, air, and soil pollution",
+      "publisher": "",
+      "place": "",
+      "date": "2004",
+      "volume": "159",
+      "issue": "1",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "67-86",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1023/b:wate.0000049165.12410.98",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0054.pdf",
+      "accessDate": "2015-07-10T12:52:03Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0049-6979",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "Google Scholar",
+      "callNumber": "ENPC00_AR_LEESU_0054",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:19Z",
+      "dateModified": "2026-06-24T10:23:24Z"
+    }
+  },
+  {
+    "key": "2M9FCPTI",
+    "version": 8999,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/2M9FCPTI",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/2M9FCPTI",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Gromaire et al.",
+      "parsedDate": "2001",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "2M9FCPTI",
+      "version": 8999,
+      "itemType": "journalArticle",
+      "title": "Contribution of different sources to the pollution of wet weather flows in combined sewers",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Marie-Christine",
+          "lastName": "Gromaire"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "S.",
+          "lastName": "Garnaud"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "M.",
+          "lastName": "Saad"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ghassan",
+          "lastName": "Chebbo"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Water research",
+      "publisher": "",
+      "place": "",
+      "date": "2001",
+      "volume": "35",
+      "issue": "2",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "521-533",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1016/s0043-1354(00)00261-x",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0055.pdf",
+      "accessDate": "2015-07-10T12:52:06Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0043-1354",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "Google Scholar",
+      "callNumber": "ENPC00_AR_LEESU_0055",
+      "rights": "",
+      "extra": "HAL: hal-00711820",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:19Z",
+      "dateModified": "2026-06-24T10:23:25Z"
+    }
+  },
+  {
+    "key": "8HE7JKEH",
+    "version": 9000,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/8HE7JKEH",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/8HE7JKEH",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Chebbo et al.",
+      "parsedDate": "1995",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "8HE7JKEH",
+      "version": 9000,
+      "itemType": "journalArticle",
+      "title": "The transfer of solids in combined sewer networks",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "G.",
+          "lastName": "Chebbo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "A.",
+          "lastName": "Bachoc"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "D.",
+          "lastName": "Laplace"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "B.",
+          "lastName": "Le Guennec"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Water science and technology",
+      "publisher": "",
+      "place": "",
+      "date": "1995",
+      "volume": "31",
+      "issue": "7",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "95-105",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.2166/wst.1995.0209",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0058.pdf",
+      "accessDate": "2015-07-13",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0273-1223",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "Google Scholar",
+      "callNumber": "ENPC00_AR_LEESU_0058",
+      "rights": "",
+      "extra": "HAL: hal-00779544",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:27Z",
+      "dateModified": "2026-06-24T10:23:25Z"
+    }
+  },
+  {
+    "key": "N5W3YPVU",
+    "version": 9001,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/N5W3YPVU",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/N5W3YPVU",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Tassin et al.",
+      "parsedDate": "1994",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "N5W3YPVU",
+      "version": 9001,
+      "itemType": "journalArticle",
+      "title": "Apports de la modélisation mathématique à la connaissance de la pollution des rejets urbains par temps de pluie",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "B.",
+          "lastName": "Tassin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "E.",
+          "lastName": "Gaume"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "G.",
+          "lastName": "Chebbo"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "La Houille Blanche",
+      "publisher": "",
+      "place": "",
+      "date": "1994",
+      "volume": "80",
+      "issue": "1-2",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "90-96",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1051/lhb/1994011",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0059.pdf",
+      "accessDate": "2015-07-13",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0018-6368",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "Google Scholar",
+      "callNumber": "ENPC00_AR_LEESU_0059",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:27Z",
+      "dateModified": "2026-06-24T10:23:26Z"
+    }
+  },
+  {
+    "key": "DEXN3B2M",
+    "version": 9002,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/DEXN3B2M",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/DEXN3B2M",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Desbordes et al.",
+      "parsedDate": "1994",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "DEXN3B2M",
+      "version": 9002,
+      "itemType": "journalArticle",
+      "title": "La pollution des rejets urbains par temps de pluie: quantité, origine et nature",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "M. Michel",
+          "lastName": "Desbordes"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "A.",
+          "lastName": "Bachoc"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "J. P.",
+          "lastName": "Tabuchi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "G.",
+          "lastName": "Chebbo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "J. P.",
+          "lastName": "Philippe"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "La Houille Blanche",
+      "publisher": "",
+      "place": "",
+      "date": "1994",
+      "volume": "80",
+      "issue": "1-2",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "21-33",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1051/lhb/1994001",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0061.pdf",
+      "accessDate": "2015-07-13",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0018-6368",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0061",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:18Z",
+      "dateModified": "2026-06-24T10:23:26Z"
+    }
+  },
+  {
+    "key": "2Z3JBZZ4",
+    "version": 9003,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/2Z3JBZZ4",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/2Z3JBZZ4",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Gromaire-Mertz et al.",
+      "parsedDate": "1998",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "2Z3JBZZ4",
+      "version": 9003,
+      "itemType": "journalArticle",
+      "title": "Origins and characteristics of urban wet weather pollution in combined sewer systems: the experimental urban catchment “Le Marais” in Paris",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Marie-Christine",
+          "lastName": "Gromaire-Mertz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ghassan",
+          "lastName": "Chebbo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mohamed",
+          "lastName": "Saad"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Water science and technology",
+      "publisher": "",
+      "place": "",
+      "date": "1998",
+      "volume": "37",
+      "issue": "1",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "35-43",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.2166/wst.1998.0010",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0064.pdf",
+      "accessDate": "2015-07-13",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0273-1223",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Origins and characteristics of urban wet weather pollution in combined sewer systems",
+      "language": "",
+      "libraryCatalog": "Google Scholar",
+      "callNumber": "ENPC00_AR_LEESU_0064",
+      "rights": "",
+      "extra": "HAL: hal-00779525",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:27Z",
+      "dateModified": "2026-06-24T10:23:27Z"
+    }
+  },
+  {
+    "key": "WG2V29F5",
+    "version": 9004,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/WG2V29F5",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/WG2V29F5",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Chebbo et al.",
+      "parsedDate": "1998",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "WG2V29F5",
+      "version": 9004,
+      "itemType": "journalArticle",
+      "title": "ANALYSIS OF THE METHODS FOR DETERMINING THE SETTLING CHARACTERISTICS OF SEWAGE AND STORMWATER SOLIDS",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "G.",
+          "lastName": "Chebbo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "E.",
+          "lastName": "Lucas-Aiguier"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jean-Luc",
+          "lastName": "Bertrand-Krajewski"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Benoit",
+          "lastName": "Gagné"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Peter",
+          "lastName": "Hedges"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Water Science and Technology",
+      "publisher": "",
+      "place": "",
+      "date": "1998",
+      "volume": "37",
+      "issue": "1",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "53-60",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Wal. Sci. Tech.",
+      "DOI": "10.2166/wst.1998.0014",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0070.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0273-1223",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0070",
+      "rights": "",
+      "extra": "HAL: hal-00779524",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:28Z",
+      "dateModified": "2026-06-24T10:23:27Z"
+    }
+  },
+  {
+    "key": "3KKN3NDQ",
+    "version": 9005,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/3KKN3NDQ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/3KKN3NDQ",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Kleeberg et al.",
+      "parsedDate": "2000",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "3KKN3NDQ",
+      "version": 9005,
+      "itemType": "journalArticle",
+      "title": "Lake Jabel restoration project: Phosphorus status and possibilities and limitations of diversion of its nutrient-rich main inflow",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Andreas",
+          "lastName": "Kleeberg"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Brigitte",
+          "lastName": "Nixdorf"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jürgen",
+          "lastName": "Mathes"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Lakes &amp; Reservoirs: Science, Policy and Management for Sustainable Use",
+      "publisher": "",
+      "place": "",
+      "date": "2000",
+      "volume": "5",
+      "issue": "1",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "23-33",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1046/j.1440-1770.2000.00092.x",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0072.pdf",
+      "accessDate": "2015-07-13",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "1320-5331",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "Google Scholar",
+      "callNumber": "ENPC00_AR_LEESU_0072",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:27Z",
+      "dateModified": "2026-06-24T10:23:28Z"
+    }
+  },
+  {
+    "key": "3FWE7JJS",
+    "version": 9006,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/3FWE7JJS",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/3FWE7JJS",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "CALLIERI and STOCKNER",
+      "parsedDate": "2000",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "3FWE7JJS",
+      "version": 9006,
+      "itemType": "journalArticle",
+      "title": "Picocyanobacteria success in oligotrophic lakes: fact or fiction?",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Cristiana",
+          "lastName": "CALLIERI"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "John",
+          "lastName": "STOCKNER"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Journal of Limnology",
+      "publisher": "",
+      "place": "",
+      "date": "2000",
+      "volume": "59",
+      "issue": "1",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "72",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.4081/jlimnol.2000.72",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0073.pdf",
+      "accessDate": "2015-07-13",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "1723-8633",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Picocyanobacteria success in oligotrophic lakes",
+      "language": "",
+      "libraryCatalog": "Google Scholar",
+      "callNumber": "ENPC00_AR_LEESU_0073",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:27Z",
+      "dateModified": "2026-06-24T10:23:28Z"
+    }
+  },
+  {
+    "key": "MF7INFWT",
+    "version": 9007,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/MF7INFWT",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/MF7INFWT",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Groleau et al.",
+      "parsedDate": "2000",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "MF7INFWT",
+      "version": 9007,
+      "itemType": "journalArticle",
+      "title": "Tracing calcite precipitation with specific conductance in a hard water alpine lake (Lake Bourget)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "A.",
+          "lastName": "Groleau"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "G.",
+          "lastName": "Sarazin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Brigitte",
+          "lastName": "Vinçon-Leite"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bruno",
+          "lastName": "Tassin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "C.",
+          "lastName": "Quiblier-Lloberas"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Water Research",
+      "publisher": "",
+      "place": "",
+      "date": "2000",
+      "volume": "34",
+      "issue": "17",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "4151-4160",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1016/s0043-1354(00)00191-3",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_AR_LEESU_0074.pdf",
+      "accessDate": "2015-07-13",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0043-1354",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_AR_LEESU_0074",
+      "rights": "",
+      "extra": "HAL: hal-00711823",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:27Z",
+      "dateModified": "2026-06-24T10:23:29Z"
+    }
+  }
+]
