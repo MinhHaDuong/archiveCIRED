@@ -1,0 +1,582 @@
+[
+  {
+    "key": "RG6PJDIM",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "",
+      "publicationTitle": "",
+      "pages": ""
+    },
+    "applied": false
+  },
+  {
+    "key": "9NNSKW38",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "",
+      "publicationTitle": "",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "ISSN": ""
+    },
+    "applied": false
+  },
+  {
+    "key": "EDXQIRGP",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.70675/475be1b8z5457z4d92z997dz72aeaae3d5ba"
+    },
+    "applied": false
+  },
+  {
+    "key": "3HXYQ9SB",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "",
+      "publicationTitle": "",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "ISSN": ""
+    },
+    "applied": false
+  },
+  {
+    "key": "4XYNSEFG",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "",
+      "publicationTitle": ""
+    },
+    "applied": false
+  },
+  {
+    "key": "T2LLYZ9Z",
+    "ref": "revert:leesu",
+    "set": {
+      "pages": "645-651",
+      "ISSN": "0045-6535"
+    },
+    "applied": false
+  },
+  {
+    "key": "SKNCPXQV",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1016/0005-2744(80)90114-x",
+      "publicationTitle": "Biochimica et Biophysica Acta (BBA) - Enzymology",
+      "volume": "612",
+      "issue": "2",
+      "pages": "317-327",
+      "ISSN": "0005-2744"
+    },
+    "applied": false
+  },
+  {
+    "key": "SHKRHPX2",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1016/0043-1354(86)90209-5",
+      "pages": "21-26",
+      "ISSN": "0043-1354"
+    },
+    "applied": false
+  },
+  {
+    "key": "85LBV6AY",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1016/0265-928x(89)80032-x",
+      "volume": "4",
+      "issue": "1",
+      "pages": "27-40",
+      "ISSN": "0265-928X"
+    },
+    "applied": false
+  },
+  {
+    "key": "BEGKQDMZ",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1051/lhb/2001096",
+      "volume": "87",
+      "pages": "82-86",
+      "ISSN": "0018-6368"
+    },
+    "applied": false
+  },
+  {
+    "key": "X6Q8JU27",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1016/0302-4598(74)85011-7",
+      "issue": "1-2",
+      "pages": "96-107",
+      "ISSN": "0302-4598"
+    },
+    "applied": false
+  },
+  {
+    "key": "IPTWHDHM",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1051/lhb/1994026",
+      "volume": "80",
+      "issue": "1-2",
+      "pages": "185-189",
+      "ISSN": "0018-6368"
+    },
+    "applied": false
+  },
+  {
+    "key": "K47MAKI4",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1016/0302-4598(76)80011-6",
+      "publicationTitle": "Bioelectrochemistry and Bioenergetics",
+      "volume": "3",
+      "issue": "2",
+      "pages": "284-301",
+      "ISSN": "0302-4598"
+    },
+    "applied": false
+  },
+  {
+    "key": "I74BQNYA",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1016/0368-1874(73)87047-9",
+      "publicationTitle": "Journal of Electroanalytical Chemistry",
+      "issue": "1",
+      "pages": "89-107",
+      "ISSN": "0368-1874"
+    },
+    "applied": false
+  },
+  {
+    "key": "5AFFTCFC",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1016/0014-5793(75)80075-5",
+      "pages": "206-211",
+      "ISSN": "0014-5793"
+    },
+    "applied": false
+  },
+  {
+    "key": "TRFVBNGE",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1016/s0022-0728(77)80200-3",
+      "volume": "75",
+      "issue": "2",
+      "pages": "579-593",
+      "ISSN": "0022-0728"
+    },
+    "applied": false
+  },
+  {
+    "key": "8AACM568",
+    "ref": "revert:leesu",
+    "set": {
+      "publicationTitle": "Water Research",
+      "pages": "1267-1274",
+      "ISSN": "0043-1354"
+    },
+    "applied": false
+  },
+  {
+    "key": "AHJCUNK2",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.2166/wst.1994.0200",
+      "pages": "239-242",
+      "ISSN": "0273-1223"
+    },
+    "applied": false
+  },
+  {
+    "key": "9CUFYVVC",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.2166/wst.1992.0576",
+      "pages": "1335-1344",
+      "ISSN": "0273-1223"
+    },
+    "applied": false
+  },
+  {
+    "key": "BXU4YPZY",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1080/09593339209385126",
+      "issue": "1",
+      "pages": "35-44",
+      "ISSN": "0959-3330"
+    },
+    "applied": false
+  },
+  {
+    "key": "KTS3MB8E",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.2166/wst.1996.0427",
+      "pages": "143-150",
+      "ISSN": "0273-1223"
+    },
+    "applied": false
+  },
+  {
+    "key": "87RVLHJF",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1021/ac00017a008",
+      "issue": "17",
+      "pages": "1692-1696",
+      "ISSN": "0003-2700"
+    },
+    "applied": false
+  },
+  {
+    "key": "QXILCSZZ",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1051/lhb/1997065",
+      "volume": "83",
+      "pages": "52-58",
+      "ISSN": "0018-6368"
+    },
+    "applied": false
+  },
+  {
+    "key": "5RKQFV78",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.2166/wst.1995.0050",
+      "pages": "225-232",
+      "ISSN": "0273-1223"
+    },
+    "applied": false
+  },
+  {
+    "key": "PGDSQ23W",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.2166/wst.2009.361",
+      "publicationTitle": "Water Science and Technology",
+      "pages": "543-553",
+      "ISSN": "0273-1223"
+    },
+    "applied": false
+  },
+  {
+    "key": "YPM9Q2MS",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1051/lhb/1996080",
+      "publicationTitle": "La Houille Blanche",
+      "volume": "82",
+      "issue": "8",
+      "pages": "15-20",
+      "ISSN": "0018-6368"
+    },
+    "applied": false
+  },
+  {
+    "key": "7JPHE7MP",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.2166/wst.1998.0010",
+      "publicationTitle": "Water Science and Technology",
+      "volume": "37",
+      "issue": "1",
+      "pages": "35-43",
+      "ISSN": "0273-1223"
+    },
+    "applied": false
+  },
+  {
+    "key": "VMH9QKUE",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "",
+      "publicationTitle": "",
+      "volume": "",
+      "pages": "",
+      "ISSN": ""
+    },
+    "applied": false
+  },
+  {
+    "key": "MI97ZELQ",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1016/0368-1874(72)80214-4",
+      "publicationTitle": "Journal of Electroanalytical Chemistry",
+      "volume": "39",
+      "issue": "2",
+      "pages": "447-469",
+      "ISSN": "0368-1874"
+    },
+    "applied": false
+  },
+  {
+    "key": "A4GW9I3H",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "",
+      "publicationTitle": "",
+      "pages": ""
+    },
+    "applied": false
+  },
+  {
+    "key": "DS4FSTIS",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1007/bf00615376",
+      "pages": "119-126",
+      "ISSN": "0021-891X"
+    },
+    "applied": false
+  },
+  {
+    "key": "BBZWHR7Q",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1016/0368-1874(73)80093-0",
+      "publicationTitle": "Journal of Electroanalytical Chemistry",
+      "pages": "543-546",
+      "ISSN": "0368-1874"
+    },
+    "applied": false
+  },
+  {
+    "key": "EB54CFGC",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1021/ac50037a031",
+      "pages": "96-100",
+      "ISSN": "0003-2700"
+    },
+    "applied": false
+  },
+  {
+    "key": "SL3QQD72",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1016/0302-4598(87)85047-x",
+      "pages": "548-553",
+      "ISSN": "0302-4598"
+    },
+    "applied": false
+  },
+  {
+    "key": "BWZJNXVH",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1007/978-1-4684-5098-9_19",
+      "publicationTitle": "",
+      "pages": "181–188"
+    },
+    "applied": false
+  },
+  {
+    "key": "KCLKBK88",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1021/ac00175a028",
+      "pages": "2781-2786",
+      "ISSN": "0003-2700"
+    },
+    "applied": false
+  },
+  {
+    "key": "3AGPMXGE",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.2337/diabetes.38.2.164",
+      "pages": "164-171",
+      "ISSN": "0012-1797"
+    },
+    "applied": false
+  },
+  {
+    "key": "JGTIKU8W",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1093/clinchem/38.9.1613",
+      "pages": "1613-1617",
+      "ISSN": "0009-9147"
+    },
+    "applied": false
+  },
+  {
+    "key": "LFFJ8VVL",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1080/09593339209385181",
+      "pages": "531-540",
+      "ISSN": "0959-3330"
+    },
+    "applied": false
+  },
+  {
+    "key": "AZE64HQV",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1042/bst0190009",
+      "publicationTitle": "Biochemical Society Transactions",
+      "pages": "9-11",
+      "ISSN": "0300-5127"
+    },
+    "applied": false
+  },
+  {
+    "key": "32NGS3GW",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1080/10406630008034772",
+      "pages": "1-19",
+      "ISSN": "1040-6638"
+    },
+    "applied": false
+  },
+  {
+    "key": "DBHZ36KQ",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.21168/rbrh.v11n2.p27-35",
+      "publicationTitle": "Revista Brasileira de Recursos Hídricos",
+      "pages": "27-35",
+      "ISSN": "2318-0331"
+    },
+    "applied": false
+  },
+  {
+    "key": "63JJ4DJP",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.2166/wst.1997.0664",
+      "issue": "8-9",
+      "pages": "185-193",
+      "ISSN": "0273-1223"
+    },
+    "applied": false
+  },
+  {
+    "key": "Z4X4LVQP",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1080/14756360290026469",
+      "pages": "107-115",
+      "ISSN": "1475-6366"
+    },
+    "applied": false
+  },
+  {
+    "key": "9IB9PJHH",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1023/b:wate.0000049165.12410.98",
+      "pages": "67-86",
+      "ISSN": "0049-6979"
+    },
+    "applied": false
+  },
+  {
+    "key": "2M9FCPTI",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1016/s0043-1354(00)00261-x",
+      "pages": "521-533",
+      "ISSN": "0043-1354"
+    },
+    "applied": false
+  },
+  {
+    "key": "8HE7JKEH",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.2166/wst.1995.0209",
+      "pages": "95-105",
+      "ISSN": "0273-1223"
+    },
+    "applied": false
+  },
+  {
+    "key": "N5W3YPVU",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1051/lhb/1994011",
+      "volume": "80",
+      "pages": "90-96",
+      "ISSN": "0018-6368"
+    },
+    "applied": false
+  },
+  {
+    "key": "DEXN3B2M",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1051/lhb/1994001",
+      "volume": "80",
+      "pages": "21-33",
+      "ISSN": "0018-6368"
+    },
+    "applied": false
+  },
+  {
+    "key": "2Z3JBZZ4",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.2166/wst.1998.0010",
+      "pages": "35-43",
+      "ISSN": "0273-1223"
+    },
+    "applied": false
+  },
+  {
+    "key": "WG2V29F5",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.2166/wst.1998.0014",
+      "pages": "53-60",
+      "ISSN": "0273-1223"
+    },
+    "applied": false
+  },
+  {
+    "key": "3KKN3NDQ",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1046/j.1440-1770.2000.00092.x",
+      "publicationTitle": "Lakes &amp; Reservoirs: Science, Policy and Management for Sustainable Use",
+      "pages": "23-33",
+      "ISSN": "1320-5331"
+    },
+    "applied": false
+  },
+  {
+    "key": "3FWE7JJS",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.4081/jlimnol.2000.72",
+      "pages": "72",
+      "ISSN": "1723-8633"
+    },
+    "applied": false
+  },
+  {
+    "key": "MF7INFWT",
+    "ref": "revert:leesu",
+    "set": {
+      "DOI": "10.1016/s0043-1354(00)00191-3",
+      "pages": "4151-4160",
+      "ISSN": "0043-1354"
+    },
+    "applied": false
+  }
+]
