@@ -2,6 +2,7 @@
 Title: Enrichir chaque notice via HAL (halId + vérif métadonnées)
 Created: 2026-06-23
 Author: Minh Ha-Duong
+Closed: autoclosed — PR #50
 
 --- log ---
 2026-06-23T07:43Z Minh Ha-Duong created
@@ -9,6 +10,7 @@ Author: Minh Ha-Duong
 2026-06-24T12:00Z claude note Harnais src/enrich_hal.py (recherche HAL → appariement corroboré Jaccard+auteur+année → diff, lecture seule, rapport ; PR #44). Passage complet sur les 579 notices éligibles : 89 appariées (~15 %), couverture concentrée sur les articles CIRED récents + le fonds LEESU (Thévenot électrochimie/biocapteurs, Azimi/Rocher chimie de l'eau). Corroboration auteur+année : 0 faux positif, même les 4 sim<0,8 sont corrects (titres tronqués, pas mauvais doc). Un swarm parallèle s'est avéré inutile — une passe séquentielle suffit sans marteler l'API.
 2026-06-24T12:10Z Minh Ha-Duong note Convention validée : halId en ligne « HAL: <id> » ajoutée à l'Extra (jamais d'écrasement). src/gen_hal_corrections.py génère les corrections depuis le rapport ; écrites via apply_corrections.py (ledger outputs/hal_corrections_proposals.json, backup outputs/enrich_hal_backup.json). 88 notices enrichies : halId + champs vides ajoutés (DOI ×30, volume ×12, revue ×6, numéro ×5). Pages EXCLUES de l'auto-ajout (HAL parfois tronqué, ex. « 51-99 » au lieu de « 5199-5207 ») + divergences laissées en revue. Vérifié live : 88 lignes HAL, 0 doublon. Les ~490 non-appariées ne sont pas dans HAL (vieux docs/revues étrangères/grise).
 
+2026-06-24T09:26Z Minh Ha-Duong closed — autoclosed — PR #50
 --- body ---
 ## Context
 
