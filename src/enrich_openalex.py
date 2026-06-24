@@ -223,33 +223,55 @@ def diff_notice_work(notice_data: dict, raw_work: dict) -> dict:
 
 # ── réseau ────────────────────────────────────────────────────────────────────
 
+class BudgetExhausted(Exception):
+    """OpenAlex a épuisé le budget quotidien gratuit (reset à minuit UTC)."""
+
+
 def _oa_get(url: str, mailto: str) -> dict:
-    """GET OpenAlex avec pool poli, retourne JSON. Relance sur 429 (5 tentatives)."""
+    """GET OpenAlex avec pool poli, retourne JSON.
+
+    Relance sur 429 transitoire (≤ 120 s d'attente, 3 tentatives).
+    Lève BudgetExhausted si le budget quotidien est épuisé (Retry-After > 600 s).
+    """
     sep = "&" if "?" in url else "?"
     full = f"{url}{sep}mailto={urllib.parse.quote(mailto)}"
     req = urllib.request.Request(
         full, headers={"User-Agent": f"archiveCIRED/1.0 (mailto:{mailto})"})
-    delay = 30
-    for attempt in range(5):
+    delay = 10
+    for attempt in range(3):
         try:
             with urllib.request.urlopen(req, timeout=30) as resp:
                 return json.loads(resp.read().decode())
         except urllib.error.HTTPError as e:
-            if e.code == 429 and attempt < 4:
-                wait = int(e.headers.get("Retry-After") or delay)
-                logger.warning("rate-limit 429, pause %ds… (tentative %d/5)",
-                               wait, attempt + 1)
-                time.sleep(wait)
+            if e.code == 429 and attempt < 2:
+                raw_body = e.read().decode(errors="replace")
+                try:
+                    retry_after = int(e.headers.get("Retry-After") or delay)
+                except ValueError:
+                    retry_after = delay
+                if retry_after > 600:
+                    raise BudgetExhausted(
+                        f"Budget OpenAlex épuisé — reset dans {retry_after}s "
+                        f"(~{retry_after // 3600}h). Relancer après minuit UTC."
+                    ) from None
+                logger.warning("rate-limit 429, pause %ds… (tentative %d/3; %s)",
+                               retry_after, attempt + 1, raw_body[:80])
+                time.sleep(retry_after)
                 delay = min(delay * 2, 120)
                 continue
             raise
 
 
 def search_by_doi(doi: str, mailto: str) -> dict | None:
-    """Lookup direct par DOI. Retourne le work OpenAlex brut ou None si introuvable."""
+    """Lookup direct par DOI. Retourne le work OpenAlex brut ou None si introuvable.
+
+    Propage BudgetExhausted (budget quotidien épuisé).
+    """
     enc = urllib.parse.quote(doi, safe="")
     try:
         return _oa_get(f"{OA_API}/works/https://doi.org/{enc}", mailto)
+    except BudgetExhausted:
+        raise
     except urllib.error.HTTPError as e:
         if e.code == 404:
             return None
@@ -259,7 +281,10 @@ def search_by_doi(doi: str, mailto: str) -> dict | None:
 
 def search_by_title(title: str, year: int | None, mailto: str,
                     per_page: int = 5) -> list[dict]:
-    """Recherche OpenAlex par titre, optionnellement filtrée par année."""
+    """Recherche OpenAlex par titre, optionnellement filtrée par année.
+
+    Propage BudgetExhausted (budget quotidien épuisé).
+    """
     params: dict[str, str] = {"search": title, "per-page": str(per_page)}
     if year:
         params["filter"] = f"publication_year:{year}"
@@ -267,6 +292,8 @@ def search_by_title(title: str, year: int | None, mailto: str,
     try:
         data = _oa_get(f"{OA_API}/works?{qs}", mailto)
         return data.get("results") or []
+    except BudgetExhausted:
+        raise
     except urllib.error.HTTPError:
         logger.warning("OpenAlex search KO : %s (%s)", title[:50], year)
         return []
@@ -358,6 +385,15 @@ def enrich_notices(notices: list[dict], mailto: str = DEFAULT_MAILTO,
                     })
                     logger.info("  → %s (%.2f) corrections: %s",
                                 p["id"], score, list(set_fields.keys()) or "aucune")
+
+        except BudgetExhausted as exc:
+            logger.error("BUDGET ÉPUISÉ : %s", exc)
+            if checkpoint_path:
+                _write_checkpoint(checkpoint_path, results, not_matched,
+                                  skipped, errors, len(notices))
+                logger.info("Checkpoint sauvegardé : %s", checkpoint_path)
+            logger.info("Reprendre demain avec : --resume %s", checkpoint_path)
+            break
 
         except Exception as exc:
             logger.error("erreur notice %s : %s", key, exc)
