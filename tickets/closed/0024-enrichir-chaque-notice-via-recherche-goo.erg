@@ -2,6 +2,7 @@
 Title: Enrichir chaque notice via recherche Google (url + vérif métadonnées)
 Created: 2026-06-23
 Author: Minh Ha-Duong
+Closed: autoclosed — PR #46
 
 --- log ---
 2026-06-23T07:43Z Minh Ha-Duong created
@@ -10,6 +11,7 @@ Author: Minh Ha-Duong
 
 2026-06-24T09:26Z Minh Ha-Duong note blocker 0022 closed — Blocked-by removed.
 2026-06-24T09:35Z Minh Ha-Duong note blocker 0023 closed — Blocked-by removed.
+2026-06-24T09:40Z Minh Ha-Duong closed — autoclosed — PR #46
 --- body ---
 ## Context
 
