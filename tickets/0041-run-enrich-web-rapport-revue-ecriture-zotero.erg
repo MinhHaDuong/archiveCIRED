@@ -1,0 +1,52 @@
+%erg 0.1
+Title: Exécuter enrich_web.py : rapport, revue humaine, écriture Zotero
+
+Created: 2026-06-24
+Author: Minh Ha-Duong
+
+--- log ---
+2026-06-24T00:00Z Minh Ha-Duong created
+2026-06-24T00:00Z claude note Harnais livré par PR #46 (ticket 0024). Ce ticket couvre la phase d'exécution : lancer le script sur le résidu non couvert par HAL/OpenAlex, produire le rapport, revue humaine, puis écriture Zotero.
+
+--- body ---
+## Context
+
+`src/enrich_web.py` (livré par ticket 0024 / PR #46) cherche via DuckDuckGo
+les notices absentes de HAL et OpenAlex, extrait les métadonnées académiques,
+et produit un rapport JSON+Markdown pour revue humaine. Le script est prêt ;
+il n'a pas encore tourné sur les données réelles.
+
+## Relevant files
+
+- `src/enrich_web.py` — script d'enrichissement web (harnais)
+- `src/apply_corrections.py` — écriture Zotero (backup, version)
+- `src/diff_recueil.py` — diff de champs pour la revue
+- `outputs/` — rapport produit par le run
+
+## Actions
+
+1. Lancer `uv run python src/enrich_web.py` sur le résidu (notices sans URL
+   non couvertes par HAL/OpenAlex) ; produire `outputs/enrich_web_report.json`
+   et `outputs/enrich_web_report.md`.
+2. Revue humaine du rapport : valider ou rejeter chaque proposition.
+3. Appliquer les corrections validées via `src/apply_corrections.py`
+   (dry-run d'abord, backup obligatoire).
+
+## Verification
+
+- [ ] `outputs/enrich_web_report.md` produit et lisible
+- [ ] Chaque proposition revue par un humain avant écriture
+- [ ] URL + métadonnées écrites dans Zotero pour les notices validées
+- [ ] Rapport des notices restées sans source fiable
+
+## Invariants
+
+- Vérification humaine obligatoire (source web non fiable).
+- Dry-run + backup avant toute écriture Zotero.
+- Ne pas écrire une URL non confirmée comme étant le bon document.
+
+## Exit criteria
+
+- [ ] Run complet sur le résidu ; rapport produit
+- [ ] Revue humaine effectuée ; corrections appliquées
+- [ ] `make check` passe
