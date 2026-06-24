@@ -73,6 +73,15 @@ outputs/resolve_stubs_report.json outputs/resolve_stubs_report.md: src/resolve_s
 outputs/enrich_hal_report.json outputs/enrich_hal_report.md: src/enrich_hal.py src/reconcile_zotero.py
 	uv run python src/enrich_hal.py --limit 0 --output outputs/enrich_hal_report.json
 
+# Enrichissement OpenAlex (ticket 0023) : openalexId + DOI + métadonnées pour
+# chaque notice My Library — réseau, lecture seule, hors `make check`.
+# Produit un rapport de revue + un ledger pour apply_corrections.py.
+outputs/openalex_report.json outputs/openalex_report.md outputs/openalex_corrections.json: src/enrich_openalex.py
+	uv run python src/enrich_openalex.py \
+		--mailto minh.haduong@gmail.com \
+		--output outputs/openalex_report.json \
+		--corrections outputs/openalex_corrections.json
+
 check-fast:
 	uv run pytest -m "not integration and not slow" tests/
 
