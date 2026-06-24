@@ -1,0 +1,729 @@
+[
+  {
+    "key": "RG6PJDIM",
+    "version": 8684,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/RG6PJDIM",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/RG6PJDIM",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Thomas",
+      "parsedDate": "2001-01",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "RG6PJDIM",
+      "version": 8684,
+      "itemType": "thesis",
+      "title": "WATSIDE : a Decision Methodology for WATer Supply Integrated DEvelopment",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jean-Sébastien",
+          "lastName": "Thomas"
+        }
+      ],
+      "abstractNote": "In most areas of the world, due to growing urbanisation, a degradation of water resource quality, an increase of\nthe water price that is limited by the social acceptability, and tighter quality regulations, urban water supply\nmanagers have to face and solve more and more complex issues, where short term needs of the system are as\ncrucial as the necessary long term sustainable development. This necessitates the need to enlarge the vision of\nthe problem on one hand to the set of factors liable to influence the decision or to undergo this decision (i.e.\nstandard evolution, state of the resource, population evolution, water price evolution, state of the water works)\nand on the other hand to the set of players liable to be involved in this decision making and/or through these\nfactors. This is what is called an integrated approach.\nWATSIDE gives managers a methodology that facilitates this integrated approach. It does not aim to give\naccurate results, but rather to prepare the decision process, by providing the decision makers a support to\nunderstand, in a given situation, which parameters are critical, and within which range of variation of these\nparameters risks for the water supply can appear. The type of question addressed can be, for a problem of\nresource pollution which is endangering the water supply : How to balance preventative and curative approach of\nthe water supply development, as well as the interest of the different players, in the long term?\nThe core of WATSIDE is the system analysis and representation, that allows for a conceptualisation of a system\nstructure made up of 7 subsystems (upstream resource, upstream usage, transport, treatment plant, distribution,\ncustomers and management subsystems) plus a stakeholder analysis. Based on simple and global parameters,\nelements and transfer functions, a comprehensive model has been developed and made concrete through its\nmodelling with the systems dynamics software called Ithink®. Different 'What if scenarios can be tested for\nexample 'what if the population increases, the level of pollution grows, or the legislation changes. The impact of\nthe simulations are observed on the different outcomes defined according to the context (water price evolution,\nincomes evolution, margin evolution, ...)\nThis methodology is applied on the Marne river basin in the Paris region, focusing on the problem of pesticides\npollution. Different scenarios are developed. In particular, alternatives are compared in a strategic decision\nperspective for the water supply development. It is shown that, for the given conditions and restrictions and within\nthe given period of time it is more cost effective to have a preventative approach than to have a curative\napproach with high capital investments within the given period of time. Through these simulations, stakeholders\ncoming from upstream and downstream can discuss in order to reach agreements on the acceptable level of\npollution for both parties.\nAs a conclusion, through the development of WATSIDE, major different points have been identified :\nsystem thinking and systems methods can be adapted to carry out and structure a methodology for urban\nwater supply integrated development,\na global approach of urban water supply problem is possible if simple hypotheses are adopted and a limited\naccuracy accepted,\nit is possible to make the link between the stakeholder world and the physical world, through simple\nrelationships,\nit is necessary that the analyst uses WATSIDE with the involvement of decision makers as early as possible.\nThey should unite through the proposed process of learning and understanding",
+      "thesisType": "Doctorat",
+      "university": "RMIT UNIVERSITY",
+      "place": "",
+      "date": "2001-01",
+      "series": "",
+      "seriesNumber": "",
+      "numPages": "356",
+      "DOI": "",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/ENPC00_OUV_LEESU_0021.pdf",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "ENPC00_OUV_LEESU_0021",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "LEESU"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:27Z",
+      "dateModified": "2026-06-24T08:53:00Z"
+    }
+  },
+  {
+    "key": "TK3F5JZC",
+    "version": 8609,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/TK3F5JZC",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/TK3F5JZC",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Sachs",
+      "parsedDate": "1988",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "TK3F5JZC",
+      "version": 8609,
+      "itemType": "report",
+      "title": "Ressources, emploi et financement du développement : produire sans détruire",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Ignacy",
+          "lastName": "Sachs"
+        }
+      ],
+      "abstractNote": "Le cas du Brésil. Rapport introductif pour le séminaire international du CENDEC, Brasilia  23-25 août 1988.",
+      "reportNumber": "",
+      "reportType": "",
+      "institution": "",
+      "place": "",
+      "date": "1988",
+      "seriesTitle": "",
+      "seriesNumber": "",
+      "pages": "49",
+      "DOI": "",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_SAC_0059.pdf",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Français",
+      "libraryCatalog": "",
+      "callNumber": "CIR_SAC_0059",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "CIRED"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:16Z",
+      "dateModified": "2026-06-24T08:52:22Z"
+    }
+  },
+  {
+    "key": "5D3SFHWE",
+    "version": 8602,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/5D3SFHWE",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/5D3SFHWE",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Sachs",
+      "parsedDate": "1990",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "5D3SFHWE",
+      "version": 8602,
+      "itemType": "report",
+      "title": "Growth and poverty : some lessons from Brazil",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Ignacy",
+          "lastName": "Sachs"
+        }
+      ],
+      "abstractNote": "Paper prepared for Wider.",
+      "reportNumber": "",
+      "reportType": "",
+      "institution": "",
+      "place": "",
+      "date": "1990",
+      "seriesTitle": "",
+      "seriesNumber": "",
+      "pages": "57",
+      "DOI": "",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_SAC_0072.pdf",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "anglais",
+      "libraryCatalog": "",
+      "callNumber": "CIR_SAC_0072",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "CIRED"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:15Z",
+      "dateModified": "2026-06-24T08:52:18Z"
+    }
+  },
+  {
+    "key": "DAMI3WQD",
+    "version": 8563,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/DAMI3WQD",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/DAMI3WQD",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Sachs",
+      "parsedDate": "1990",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "DAMI3WQD",
+      "version": 8563,
+      "itemType": "bookSection",
+      "title": "Perspectives de l'écodéveloppement en Amazonie",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Ignacy",
+          "lastName": "Sachs"
+        }
+      ],
+      "abstractNote": "",
+      "bookTitle": "Le Brésil : à l'aube du troisième millénaire",
+      "series": "",
+      "seriesNumber": "",
+      "volume": "",
+      "numberOfVolumes": "",
+      "edition": "",
+      "date": "1990",
+      "publisher": "",
+      "place": "",
+      "originalDate": "",
+      "originalPublisher": "",
+      "originalPlace": "",
+      "format": "",
+      "pages": "33–47",
+      "ISBN": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_SAC_0146.pdf",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Français",
+      "libraryCatalog": "",
+      "callNumber": "CIR_SAC_0146",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "CIRED"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:25Z",
+      "dateModified": "2026-06-24T08:17:46Z"
+    }
+  },
+  {
+    "key": "V6CYVFAD",
+    "version": 8555,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/V6CYVFAD",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/V6CYVFAD",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Sachs",
+      "parsedDate": "1982",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "V6CYVFAD",
+      "version": 8555,
+      "itemType": "bookSection",
+      "title": "The challenge of development : a prospective view",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Ignacy",
+          "lastName": "Sachs"
+        }
+      ],
+      "abstractNote": "",
+      "bookTitle": "Management for the XXI century : education and development",
+      "series": "",
+      "seriesNumber": "",
+      "volume": "",
+      "numberOfVolumes": "",
+      "edition": "",
+      "date": "1982",
+      "publisher": "",
+      "place": "",
+      "originalDate": "",
+      "originalPublisher": "",
+      "originalPlace": "",
+      "format": "",
+      "pages": "38–48",
+      "ISBN": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_SAC_0116.pdf",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "anglais",
+      "libraryCatalog": "",
+      "callNumber": "CIR_SAC_0116",
+      "rights": "",
+      "extra": "Faux doublon",
+      "tags": [
+        {
+          "tag": "CIRED"
+        }
+      ],
+      "collections": [],
+      "relations": {
+        "dc:relation": [
+          "http://zotero.org/users/2114597/items/5H9CCNYY",
+          "http://zotero.org/users/2114597/items/FU7DRGHX"
+        ]
+      },
+      "dateAdded": "2020-11-06T17:46:20Z",
+      "dateModified": "2026-06-24T08:17:42Z"
+    }
+  },
+  {
+    "key": "NKAJH45M",
+    "version": 8049,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/NKAJH45M",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/NKAJH45M",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Godard",
+      "parsedDate": "1992",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "NKAJH45M",
+      "version": 8049,
+      "itemType": "bookSection",
+      "title": "L'environnement, une polysémie sous-exploitée",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Olivier",
+          "lastName": "Godard"
+        }
+      ],
+      "abstractNote": "",
+      "bookTitle": "Sciences de la nature, sciences de la société : les passeurs de frontières",
+      "series": "Sociologie",
+      "seriesNumber": "",
+      "volume": "",
+      "numberOfVolumes": "",
+      "edition": "",
+      "date": "1992",
+      "publisher": "CNRS édition",
+      "place": "",
+      "originalDate": "",
+      "originalPublisher": "",
+      "originalPlace": "",
+      "format": "",
+      "pages": "337–345",
+      "ISBN": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GOD_0044.pdf",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Français",
+      "libraryCatalog": "",
+      "callNumber": "CIR_GOD_0044",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "CIRED"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:03Z",
+      "dateModified": "2026-06-24T07:38:06Z"
+    }
+  },
+  {
+    "key": "HEUPYNJ2",
+    "version": 8048,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/HEUPYNJ2",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/HEUPYNJ2",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Godard",
+      "parsedDate": "1992",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "HEUPYNJ2",
+      "version": 8048,
+      "itemType": "bookSection",
+      "title": "Entre disciplines et réalité, l'artifice des systèmes",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Olivier",
+          "lastName": "Godard"
+        }
+      ],
+      "abstractNote": "",
+      "bookTitle": "Sciences de la nature, sciences de la société : les passeurs de frontières",
+      "series": "Sociologie",
+      "seriesNumber": "",
+      "volume": "",
+      "numberOfVolumes": "",
+      "edition": "",
+      "date": "1992",
+      "publisher": "CNRS édition",
+      "place": "",
+      "originalDate": "",
+      "originalPublisher": "",
+      "originalPlace": "",
+      "format": "",
+      "pages": "243–257",
+      "ISBN": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GOD_0046.pdf",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Français",
+      "libraryCatalog": "",
+      "callNumber": "CIR_GOD_0046",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "CIRED"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:03Z",
+      "dateModified": "2026-06-24T07:38:05Z"
+    }
+  },
+  {
+    "key": "TZAKISCK",
+    "version": 7969,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/TZAKISCK",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/TZAKISCK",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Hourcade",
+      "parsedDate": "1994-01",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "TZAKISCK",
+      "version": 7969,
+      "itemType": "bookSection",
+      "title": "Economic Issues and Negotiation on Global Environment",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jean-Charles",
+          "lastName": "Hourcade"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Carlo",
+          "lastName": "Carraro"
+        }
+      ],
+      "abstractNote": "This contribution draws some general conclusions from current experience of energy studies on the impact of mitigation or prevention policies of greenhouse effect on the energy section.",
+      "bookTitle": "Trade, Innovation, Environment",
+      "series": "Fondazione Eni Enrico Mattei (FEEM) Series on Economics, Energy and Environment",
+      "seriesNumber": "",
+      "volume": "",
+      "numberOfVolumes": "",
+      "edition": "",
+      "date": "1994-01",
+      "publisher": "Kluwer Academic Publishers",
+      "place": "",
+      "originalDate": "",
+      "originalPublisher": "",
+      "originalPlace": "",
+      "format": "",
+      "pages": "385–405",
+      "ISBN": "978-94-010-4409-7 978-94-011-0948-2",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1994-185-Hourcade.negotiation_global_environment.pdf",
+      "accessDate": "2014-01-09T18:46:14Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "link.springer.com",
+      "callNumber": "",
+      "rights": "©1994 Kluwer Academic Publishers",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "recueil-50ans"
+        }
+      ],
+      "collections": [
+        "VPDB49CK"
+      ],
+      "relations": {},
+      "dateAdded": "2026-06-23T08:44:48Z",
+      "dateModified": "2026-06-24T07:37:24Z"
+    }
+  },
+  {
+    "key": "FU7DRGHX",
+    "version": 7210,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/FU7DRGHX",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/FU7DRGHX",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Sachs",
+      "parsedDate": "1979",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "FU7DRGHX",
+      "version": 7210,
+      "itemType": "bookSection",
+      "title": "The challenge of development : a prospective view",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Ignacy",
+          "lastName": "Sachs"
+        }
+      ],
+      "abstractNote": "",
+      "bookTitle": "Report of first colloquium on \"The changing expectations of society in the next thirty years\" : St. George's House, Windsor Castle, 14th-16th February, 1979",
+      "series": "",
+      "seriesNumber": "",
+      "volume": "",
+      "numberOfVolumes": "",
+      "edition": "",
+      "date": "1979",
+      "publisher": "American Assembly of Collegiate",
+      "place": "Washington, Brussels",
+      "originalDate": "",
+      "originalPublisher": "",
+      "originalPlace": "",
+      "format": "",
+      "pages": "9",
+      "ISBN": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_SAC_0004.pdf",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "anglais",
+      "libraryCatalog": "",
+      "callNumber": "CIR_SAC_0004",
+      "rights": "",
+      "extra": "Faux doublon",
+      "tags": [
+        {
+          "tag": "CIRED"
+        }
+      ],
+      "collections": [],
+      "relations": {
+        "dc:relation": [
+          "http://zotero.org/users/2114597/items/V6CYVFAD",
+          "http://zotero.org/users/2114597/items/5H9CCNYY"
+        ]
+      },
+      "dateAdded": "2020-11-06T17:46:28Z",
+      "dateModified": "2026-06-19T13:22:16Z"
+    }
+  }
+]

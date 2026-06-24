@@ -1,0 +1,91 @@
+[
+  {
+    "key": "RG6PJDIM",
+    "ref": "crossref:10.1061/40499(2000)154",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1061/40499(2000)154"
+    },
+    "applied": false
+  },
+  {
+    "key": "TK3F5JZC",
+    "ref": "crossref:10.3406/cbc.1989.1055",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.3406/cbc.1989.1055",
+      "pages": "9-56"
+    },
+    "applied": false
+  },
+  {
+    "key": "5D3SFHWE",
+    "ref": "crossref:10.1093/acprof:oso/9780198286370.003.0004",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1093/acprof:oso/9780198286370.003.0004",
+      "pages": "93-118"
+    },
+    "applied": false
+  },
+  {
+    "key": "DAMI3WQD",
+    "ref": "crossref:10.4000/books.iheal.2874",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.4000/books.iheal.2874",
+      "pages": "33-47"
+    },
+    "applied": false
+  },
+  {
+    "key": "V6CYVFAD",
+    "ref": "crossref:10.1007/978-94-009-7404-3_3",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1007/978-94-009-7404-3_3",
+      "pages": "38-48"
+    },
+    "applied": false
+  },
+  {
+    "key": "NKAJH45M",
+    "ref": "crossref:10.4000/books.editionscnrs.4203",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.4000/books.editionscnrs.4203",
+      "pages": "337-345"
+    },
+    "applied": false
+  },
+  {
+    "key": "HEUPYNJ2",
+    "ref": "crossref:10.4000/books.editionscnrs.4185",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.4000/books.editionscnrs.4185",
+      "pages": "243-257"
+    },
+    "applied": false
+  },
+  {
+    "key": "TZAKISCK",
+    "ref": "crossref:10.1007/978-94-011-0948-2_16",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1007/978-94-011-0948-2_16",
+      "pages": "385-405"
+    },
+    "applied": false
+  },
+  {
+    "key": "FU7DRGHX",
+    "ref": "crossref:10.1007/978-94-009-7404-3_3",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1007/978-94-009-7404-3_3",
+      "pages": "38-48"
+    },
+    "applied": false
+  }
+]
