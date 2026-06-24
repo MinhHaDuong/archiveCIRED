@@ -1,0 +1,64 @@
+%erg 0.1
+Title: Garde-fou : ne pas clore un ticket d'enrichissement avant que le run ait landé
+Created: 2026-06-24
+Author: Minh Ha-Duong
+
+--- log ---
+2026-06-24T10:25Z Minh Ha-Duong created
+
+--- body ---
+## Context
+
+Sweep roar (24 juin) : 3 des 4 tickets de la famille enrichissement ont été
+**autoclos sur le BUILD du harnais, pas sur le RUN effectif** — le catalogue
+n'a pas été enrichi alors que l'exit criterion « Catalogue enrichi » l'exigeait.
+
+| Ticket | Harnais | Run | Réalité |
+|---|---|---|---|
+| 0022 HAL | ✓ | ✓ | 88 notices landées — clos à juste titre |
+| 0023 OpenAlex | ✓ | ✗ | run vide (budget épuisé) — réouvert |
+| 0024 Web/DDG | ✓ | ✗ | jamais lancé — réouvert |
+| 0038 CrossRef | ✓ | ~ | run sur branche non mergée |
+
+Cause racine : `erg-pr-merge` autoclôt tout ticket cité en `**Ticket:**`
+**sans vérifier les cases d'exit criteria**. Une PR « harnais seulement » qui
+liste le ticket le ferme, même si « Catalogue enrichi » n'est pas coché. Ces
+tickets ont une définition du *done* en deux temps (construire l'outil PUIS le
+lancer pour enrichir réellement) ; ils ont été clos après l'étape 1.
+
+## Relevant files
+
+- `tickets/*enrichir-chaque-notice*` — la famille (0022/0023/0024/0038)
+- harnais : `src/enrich_hal.py`, `enrich_openalex.py`, `enrich_crossref.py`, `enrich_web.py`
+
+## Actions
+
+1. Convention : un ticket d'enrichissement se découpe en deux enfants —
+   **build** (harnais + tests, PR fermable) et **run** (exécution + landing des
+   corrections dans le catalogue, PR séparée). Le parent ne ferme qu'après le run.
+2. Alternative légère : laisser l'exit criterion « Catalogue enrichi » comme
+   case à cocher manuellement, et ne PAS mettre `**Ticket:**` (close) dans une
+   PR qui ne fait que le build — utiliser `Ticket-ref:`.
+3. Documenter la règle là où elle sera lue au moment de clore (AGENTS.md ou
+   convention de la famille enrichissement).
+
+## Test
+
+- Pas de test code direct : c'est un garde-fou de process. Si une vérif
+  mécanique est faisable (ex. un check qui refuse l'autoclose quand des cases
+  d'exit criteria restent décochées sur un ticket labellisé `enrichment`),
+  l'écrire ; sinon, convention documentée + revue.
+
+## Verification
+
+- [ ] Règle écrite (découpe build/run OU close-claim conditionnel)
+- [ ] Famille enrichissement re-vérifiée : chaque ticket clos a bien un run landé
+
+## Invariants
+
+- Ne pas re-clore 0023/0024 tant que leur run n'a pas landé dans le catalogue.
+
+## Exit criteria
+
+- [ ] Convention documentée empêchant la fermeture d'un enrichissement avant le run
+- [ ] `make check` passe
