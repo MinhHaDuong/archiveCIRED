@@ -2,13 +2,12 @@
 Title: Exécuter enrich_web.py : rapport, revue humaine, écriture Zotero
 Created: 2026-06-24
 Author: Minh Ha-Duong
-Closed: autoclosed — PR #55
-
 --- log ---
 2026-06-24T00:00Z Minh Ha-Duong created
 2026-06-24T00:00Z claude note Harnais livré par PR #46 (ticket 0024). Ce ticket couvre la phase d'exécution : lancer le script sur le résidu non couvert par HAL/OpenAlex, produire le rapport, revue humaine, puis écriture Zotero.
 
 2026-06-24T10:33Z Minh Ha-Duong closed — autoclosed — PR #55
+2026-06-24T00:00Z Minh Ha-Duong note rouvert — PR #55 créait le ticket sans compléter le travail ; run + revue + écriture restent à faire
 --- body ---
 ## Context
 
