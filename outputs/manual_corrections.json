@@ -214,5 +214,194 @@
     },
     "note": "Principal = corpus. Les 2 fichiers conservés ; l_autre marqué dans extra.",
     "applied": true
+  },
+  {
+    "key": "GP7X8XC2",
+    "ref": "Nouvelles de l'écodéveloppement n°1 (1977) — CIR_GOD_0012",
+    "source": "Instruction M. Ha-Duong : scan d'un numéro complet, responsable de publication Catherine Touraille",
+    "set": {
+      "title": "Nouvelles de l'écodéveloppement, n°1",
+      "publicationTitle": "Les Nouvelles de l'Écodéveloppement",
+      "issue": "1",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "lastName": "Touraille",
+          "firstName": "Catherine"
+        }
+      ]
+    },
+    "note": "Scan d'un numéro complet de revue, pas d'un article. Catherine Touraille, responsable de publication → editor. Titre corrigé : « Nouvelle » → « Nouvelles ». publicationTitle homogène avec clé 5QKTKLWV.",
+    "applied": true
+  },
+  {
+    "key": "69W5P7B5",
+    "ref": "Nouvelles de l'écodéveloppement n°2 (1977) — CIR_GOD_0022",
+    "source": "Instruction M. Ha-Duong : scan d'un numéro complet, responsable de publication Catherine Touraille",
+    "set": {
+      "title": "Nouvelles de l'écodéveloppement, n°2",
+      "publicationTitle": "Les Nouvelles de l'Écodéveloppement",
+      "issue": "2",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "lastName": "Touraille",
+          "firstName": "Catherine"
+        }
+      ]
+    },
+    "note": "Scan d'un numéro complet de revue, pas d'un article. Catherine Touraille, responsable de publication → editor. Titre corrigé : « Nouvelle » → « Nouvelles ».",
+    "applied": true
+  },
+  {
+    "key": "9E8E79KT",
+    "ref": "Nouvelles de l'écodéveloppement n°3 (1977) — CIR_GOD_0021",
+    "source": "Instruction M. Ha-Duong : scan d'un numéro complet, responsable de publication Catherine Touraille",
+    "set": {
+      "title": "Nouvelles de l'écodéveloppement, n°3",
+      "publicationTitle": "Les Nouvelles de l'Écodéveloppement",
+      "issue": "3",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "lastName": "Touraille",
+          "firstName": "Catherine"
+        }
+      ]
+    },
+    "note": "Scan d'un numéro complet de revue, pas d'un article. Catherine Touraille, responsable de publication → editor. Titre corrigé : « Nouvelle » → « Nouvelles ».",
+    "applied": true
+  },
+  {
+    "key": "EHSPLTCA",
+    "ref": "Nouvelles de l'écodéveloppement n°4 (1978) — CIR_GOD_0023",
+    "source": "Instruction M. Ha-Duong : scan d'un numéro complet, responsable de publication Catherine Touraille",
+    "set": {
+      "title": "Nouvelles de l'écodéveloppement, n°4",
+      "publicationTitle": "Les Nouvelles de l'Écodéveloppement",
+      "issue": "4",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "lastName": "Touraille",
+          "firstName": "Catherine"
+        }
+      ]
+    },
+    "note": "Scan d'un numéro complet de revue, pas d'un article. Catherine Touraille, responsable de publication → editor. Titre corrigé : « Nouvelle » → « Nouvelles ».",
+    "applied": true
+  },
+  {
+    "key": "2V84KRLD",
+    "ref": "Nouvelles de l'écodéveloppement n°5 (1978) — CIR_GOD_0024",
+    "source": "Instruction M. Ha-Duong : scan d'un numéro complet, responsable de publication Catherine Touraille",
+    "set": {
+      "title": "Nouvelles de l'écodéveloppement, n°5",
+      "publicationTitle": "Les Nouvelles de l'Écodéveloppement",
+      "issue": "5",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "lastName": "Touraille",
+          "firstName": "Catherine"
+        }
+      ]
+    },
+    "note": "Scan d'un numéro complet de revue, pas d'un article. Catherine Touraille, responsable de publication → editor. Titre corrigé : « Nouvelle » → « Nouvelles ».",
+    "applied": true
+  },
+  {
+    "key": "UTJB44YW",
+    "ref": "Nouvelles de l'écodéveloppement n°6 (1978) — CIR_GOD_0025",
+    "source": "Instruction M. Ha-Duong : scan d'un numéro complet, responsable de publication Catherine Touraille",
+    "set": {
+      "title": "Nouvelles de l'écodéveloppement, n°6",
+      "publicationTitle": "Les Nouvelles de l'Écodéveloppement",
+      "issue": "6",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "lastName": "Touraille",
+          "firstName": "Catherine"
+        }
+      ]
+    },
+    "note": "Scan d'un numéro complet de revue, pas d'un article. Catherine Touraille, responsable de publication → editor. Titre corrigé : « Nouvelle » → « Nouvelles ».",
+    "applied": true
+  },
+  {
+    "key": "WAA7EJLI",
+    "ref": "Nouvelles de l'écodéveloppement n°7 (1978) — CIR_GOD_0026",
+    "source": "Instruction M. Ha-Duong : scan d'un numéro complet, responsable de publication Catherine Touraille",
+    "set": {
+      "title": "Nouvelles de l'écodéveloppement, n°7",
+      "publicationTitle": "Les Nouvelles de l'Écodéveloppement",
+      "issue": "7",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "lastName": "Touraille",
+          "firstName": "Catherine"
+        }
+      ]
+    },
+    "note": "Scan d'un numéro complet de revue, pas d'un article. Catherine Touraille, responsable de publication → editor. Titre corrigé : « Nouvelle » → « Nouvelles ».",
+    "applied": true
+  },
+  {
+    "key": "Z7V78ABV",
+    "ref": "Nouvelles de l'écodéveloppement n°8 (1979) — CIR_GOD_0027",
+    "source": "Instruction M. Ha-Duong : scan d'un numéro complet, responsable de publication Catherine Touraille",
+    "set": {
+      "title": "Nouvelles de l'écodéveloppement, n°8",
+      "publicationTitle": "Les Nouvelles de l'Écodéveloppement",
+      "issue": "8",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "lastName": "Touraille",
+          "firstName": "Catherine"
+        }
+      ]
+    },
+    "note": "Scan d'un numéro complet de revue, pas d'un article. Catherine Touraille, responsable de publication → editor. Titre corrigé : « Nouvelle » → « Nouvelles ».",
+    "applied": true
+  },
+  {
+    "key": "EUCMZQUS",
+    "ref": "Nouvelles de l'écodéveloppement n°9 (1979) — CIR_GOD_0028",
+    "source": "Instruction M. Ha-Duong : scan d'un numéro complet, responsable de publication Catherine Touraille",
+    "set": {
+      "title": "Nouvelles de l'écodéveloppement, n°9",
+      "publicationTitle": "Les Nouvelles de l'Écodéveloppement",
+      "issue": "9",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "lastName": "Touraille",
+          "firstName": "Catherine"
+        }
+      ]
+    },
+    "note": "Scan d'un numéro complet de revue, pas d'un article. Catherine Touraille, responsable de publication → editor. Titre corrigé : « Nouvelle » → « Nouvelles ».",
+    "applied": true
+  },
+  {
+    "key": "PAXNH53N",
+    "ref": "Nouvelles de l'écodéveloppement n°10 (1979) — CIR_GOD_0006",
+    "source": "Instruction M. Ha-Duong : scan d'un numéro complet, responsable de publication Catherine Touraille",
+    "set": {
+      "title": "Nouvelles de l'écodéveloppement, n°10",
+      "publicationTitle": "Les Nouvelles de l'Écodéveloppement",
+      "issue": "10",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "lastName": "Touraille",
+          "firstName": "Catherine"
+        }
+      ]
+    },
+    "note": "Scan d'un numéro complet de revue, pas d'un article. Catherine Touraille, responsable de publication → editor. Titre corrigé : « Nouvelle » → « Nouvelles ».",    "applied": true
   }
 ]
