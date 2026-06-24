@@ -1,0 +1,692 @@
+[
+  {
+    "key": "GP7X8XC2",
+    "version": 8416,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/GP7X8XC2",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/GP7X8XC2",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Touraille",
+      "parsedDate": "1977",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "GP7X8XC2",
+      "version": 8416,
+      "itemType": "document",
+      "title": "Nouvelles de l'écodéveloppement, n°1",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "firstName": "Catherine",
+          "lastName": "Touraille"
+        }
+      ],
+      "abstractNote": "",
+      "type": "",
+      "date": "1977",
+      "publisher": "",
+      "place": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GOD_0012.pdf",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Français",
+      "libraryCatalog": "",
+      "callNumber": "CIR_GOD_0012",
+      "rights": "",
+      "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 1",
+      "tags": [
+        {
+          "tag": "CIRED"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:03Z",
+      "dateModified": "2026-06-24T08:04:07Z"
+    }
+  },
+  {
+    "key": "69W5P7B5",
+    "version": 8417,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/69W5P7B5",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/69W5P7B5",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Touraille",
+      "parsedDate": "1977",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "69W5P7B5",
+      "version": 8417,
+      "itemType": "document",
+      "title": "Nouvelles de l'écodéveloppement, n°2",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "firstName": "Catherine",
+          "lastName": "Touraille"
+        }
+      ],
+      "abstractNote": "",
+      "type": "",
+      "date": "1977",
+      "publisher": "",
+      "place": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GOD_0022.pdf",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Français",
+      "libraryCatalog": "",
+      "callNumber": "CIR_GOD_0022",
+      "rights": "",
+      "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 2",
+      "tags": [
+        {
+          "tag": "CIRED"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:26Z",
+      "dateModified": "2026-06-24T08:04:07Z"
+    }
+  },
+  {
+    "key": "9E8E79KT",
+    "version": 8418,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/9E8E79KT",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/9E8E79KT",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Touraille",
+      "parsedDate": "1977",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "9E8E79KT",
+      "version": 8418,
+      "itemType": "document",
+      "title": "Nouvelles de l'écodéveloppement, n°3",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "firstName": "Catherine",
+          "lastName": "Touraille"
+        }
+      ],
+      "abstractNote": "",
+      "type": "",
+      "date": "1977",
+      "publisher": "",
+      "place": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GOD_0021.pdf",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Français",
+      "libraryCatalog": "",
+      "callNumber": "CIR_GOD_0021",
+      "rights": "",
+      "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 3",
+      "tags": [
+        {
+          "tag": "CIRED"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:26Z",
+      "dateModified": "2026-06-24T08:04:08Z"
+    }
+  },
+  {
+    "key": "EHSPLTCA",
+    "version": 8419,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/EHSPLTCA",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/EHSPLTCA",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Touraille",
+      "parsedDate": "1978",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "EHSPLTCA",
+      "version": 8419,
+      "itemType": "document",
+      "title": "Nouvelles de l'écodéveloppement, n°4",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "firstName": "Catherine",
+          "lastName": "Touraille"
+        }
+      ],
+      "abstractNote": "",
+      "type": "",
+      "date": "1978",
+      "publisher": "",
+      "place": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GOD_0023.pdf",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Français",
+      "libraryCatalog": "",
+      "callNumber": "CIR_GOD_0023",
+      "rights": "",
+      "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 4",
+      "tags": [
+        {
+          "tag": "CIRED"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:26Z",
+      "dateModified": "2026-06-24T08:04:09Z"
+    }
+  },
+  {
+    "key": "2V84KRLD",
+    "version": 8420,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/2V84KRLD",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/2V84KRLD",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Touraille",
+      "parsedDate": "1978",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "2V84KRLD",
+      "version": 8420,
+      "itemType": "document",
+      "title": "Nouvelles de l'écodéveloppement, n°5",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "firstName": "Catherine",
+          "lastName": "Touraille"
+        }
+      ],
+      "abstractNote": "",
+      "type": "",
+      "date": "1978",
+      "publisher": "",
+      "place": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GOD_0024.pdf",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Français",
+      "libraryCatalog": "",
+      "callNumber": "CIR_GOD_0024",
+      "rights": "",
+      "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 5",
+      "tags": [
+        {
+          "tag": "CIRED"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:03Z",
+      "dateModified": "2026-06-24T08:04:09Z"
+    }
+  },
+  {
+    "key": "UTJB44YW",
+    "version": 8421,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/UTJB44YW",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/UTJB44YW",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Touraille",
+      "parsedDate": "1978",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "UTJB44YW",
+      "version": 8421,
+      "itemType": "document",
+      "title": "Nouvelles de l'écodéveloppement, n°6",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "firstName": "Catherine",
+          "lastName": "Touraille"
+        }
+      ],
+      "abstractNote": "",
+      "type": "",
+      "date": "1978",
+      "publisher": "",
+      "place": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GOD_0025.pdf",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Français",
+      "libraryCatalog": "",
+      "callNumber": "CIR_GOD_0025",
+      "rights": "",
+      "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 6",
+      "tags": [
+        {
+          "tag": "CIRED"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:03Z",
+      "dateModified": "2026-06-24T08:04:10Z"
+    }
+  },
+  {
+    "key": "WAA7EJLI",
+    "version": 8422,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/WAA7EJLI",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/WAA7EJLI",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Touraille",
+      "parsedDate": "1978",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "WAA7EJLI",
+      "version": 8422,
+      "itemType": "document",
+      "title": "Nouvelles de l'écodéveloppement, n°7",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "firstName": "Catherine",
+          "lastName": "Touraille"
+        }
+      ],
+      "abstractNote": "",
+      "type": "",
+      "date": "1978",
+      "publisher": "",
+      "place": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GOD_0026.pdf",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Français",
+      "libraryCatalog": "",
+      "callNumber": "CIR_GOD_0026",
+      "rights": "",
+      "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 7",
+      "tags": [
+        {
+          "tag": "CIRED"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:03Z",
+      "dateModified": "2026-06-24T08:04:10Z"
+    }
+  },
+  {
+    "key": "Z7V78ABV",
+    "version": 8423,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/Z7V78ABV",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/Z7V78ABV",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Touraille",
+      "parsedDate": "1979",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "Z7V78ABV",
+      "version": 8423,
+      "itemType": "document",
+      "title": "Nouvelles de l'écodéveloppement, n°8",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "firstName": "Catherine",
+          "lastName": "Touraille"
+        }
+      ],
+      "abstractNote": "",
+      "type": "",
+      "date": "1979",
+      "publisher": "",
+      "place": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GOD_0027.pdf",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Français",
+      "libraryCatalog": "",
+      "callNumber": "CIR_GOD_0027",
+      "rights": "",
+      "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 8",
+      "tags": [
+        {
+          "tag": "CIRED"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:03Z",
+      "dateModified": "2026-06-24T08:04:11Z"
+    }
+  },
+  {
+    "key": "EUCMZQUS",
+    "version": 8424,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/EUCMZQUS",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/EUCMZQUS",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Touraille",
+      "parsedDate": "1979",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "EUCMZQUS",
+      "version": 8424,
+      "itemType": "document",
+      "title": "Nouvelles de l'écodéveloppement, n°9",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "firstName": "Catherine",
+          "lastName": "Touraille"
+        }
+      ],
+      "abstractNote": "",
+      "type": "",
+      "date": "1979",
+      "publisher": "",
+      "place": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GOD_0028.pdf",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Français",
+      "libraryCatalog": "",
+      "callNumber": "CIR_GOD_0028",
+      "rights": "",
+      "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 9",
+      "tags": [
+        {
+          "tag": "CIRED"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:03Z",
+      "dateModified": "2026-06-24T08:04:12Z"
+    }
+  },
+  {
+    "key": "PAXNH53N",
+    "version": 8425,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/PAXNH53N",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/PAXNH53N",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Touraille",
+      "parsedDate": "1979",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "PAXNH53N",
+      "version": 8425,
+      "itemType": "document",
+      "title": "Nouvelles de l'écodéveloppement, n°10",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "firstName": "Catherine",
+          "lastName": "Touraille"
+        }
+      ],
+      "abstractNote": "",
+      "type": "",
+      "date": "1979",
+      "publisher": "",
+      "place": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GOD_0006.pdf",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Français",
+      "libraryCatalog": "",
+      "callNumber": "CIR_GOD_0006",
+      "rights": "",
+      "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 10",
+      "tags": [
+        {
+          "tag": "CIRED"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:03Z",
+      "dateModified": "2026-06-24T08:04:12Z"
+    }
+  }
+]

@@ -513,5 +513,125 @@
       "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 10"
     },
     "note": "PUT : document est le type Zotero le plus honnête pour un scan de numéro complet (journalArticle impliquerait un article). publicationTitle/issue non portés par document → dans extra. title/creators/date/url portés par CARRY.",
-    "applied": true  }
-]
+    "applied": true
+  },
+  {
+    "key": "GP7X8XC2",
+    "ref": "Nouvelles de l'écodéveloppement n°1 (1977-02) — CIR_GOD_0012 [publisher/place/date]",
+    "source": "Instruction M. Ha-Duong : publisher=CIRED, place=MSH 54 bd Raspail Paris ; mois lu p.1 du PDF CIR_GOD_0012",
+    "set": {
+      "publisher": "CIRED",
+      "place": "MSH, 54 Bd. Raspail, Paris",
+      "date": "1977-02"
+    },
+    "note": "PATCH. Mois extrait de la page de garde (pdftotext). Date affinée de 1977 → 1977-02.",
+    "applied": true
+  },
+  {
+    "key": "69W5P7B5",
+    "ref": "Nouvelles de l'écodéveloppement n°2 (1977-05) — CIR_GOD_0022 [publisher/place/date]",
+    "source": "Instruction M. Ha-Duong : publisher=CIRED, place=MSH 54 bd Raspail Paris ; mois lu p.1 du PDF CIR_GOD_0022",
+    "set": {
+      "publisher": "CIRED",
+      "place": "MSH, 54 Bd. Raspail, Paris",
+      "date": "1977-05"
+    },
+    "note": "PATCH. Mois extrait de la page de garde (pdftotext). Date affinée de 1977 → 1977-05.",
+    "applied": true
+  },
+  {
+    "key": "9E8E79KT",
+    "ref": "Nouvelles de l'écodéveloppement n°3 (1977-10) — CIR_GOD_0021 [publisher/place/date]",
+    "source": "Instruction M. Ha-Duong : publisher=CIRED, place=MSH 54 bd Raspail Paris ; mois lu p.1 du PDF CIR_GOD_0021",
+    "set": {
+      "publisher": "CIRED",
+      "place": "MSH, 54 Bd. Raspail, Paris",
+      "date": "1977-10"
+    },
+    "note": "PATCH. Mois extrait de la page de garde (pdftotext). Date affinée de 1977 → 1977-10.",
+    "applied": true
+  },
+  {
+    "key": "EHSPLTCA",
+    "ref": "Nouvelles de l'écodéveloppement n°4 (1978-02) — CIR_GOD_0023 [publisher/place/date]",
+    "source": "Instruction M. Ha-Duong : publisher=CIRED, place=MSH 54 bd Raspail Paris ; mois lu p.1 du PDF CIR_GOD_0023",
+    "set": {
+      "publisher": "CIRED",
+      "place": "MSH, 54 Bd. Raspail, Paris",
+      "date": "1978-02"
+    },
+    "note": "PATCH. Mois extrait de la page de garde (pdftotext). Date affinée de 1978 → 1978-02.",
+    "applied": true
+  },
+  {
+    "key": "2V84KRLD",
+    "ref": "Nouvelles de l'écodéveloppement n°5 (1978-06) — CIR_GOD_0024 [publisher/place/date]",
+    "source": "Instruction M. Ha-Duong : publisher=CIRED, place=MSH 54 bd Raspail Paris ; mois lu p.1 du PDF CIR_GOD_0024",
+    "set": {
+      "publisher": "CIRED",
+      "place": "MSH, 54 Bd. Raspail, Paris",
+      "date": "1978-06"
+    },
+    "note": "PATCH. Mois extrait de la page de garde (pdftotext). Date affinée de 1978 → 1978-06.",
+    "applied": true
+  },
+  {
+    "key": "UTJB44YW",
+    "ref": "Nouvelles de l'écodéveloppement n°6 (1978-09) — CIR_GOD_0025 [publisher/place/date]",
+    "source": "Instruction M. Ha-Duong : publisher=CIRED, place=MSH 54 bd Raspail Paris ; mois lu p.1 du PDF CIR_GOD_0025",
+    "set": {
+      "publisher": "CIRED",
+      "place": "MSH, 54 Bd. Raspail, Paris",
+      "date": "1978-09"
+    },
+    "note": "PATCH. Mois extrait de la page de garde (pdftotext). Date affinée de 1978 → 1978-09.",
+    "applied": true
+  },
+  {
+    "key": "WAA7EJLI",
+    "ref": "Nouvelles de l'écodéveloppement n°7 (1978-12) — CIR_GOD_0026 [publisher/place/date]",
+    "source": "Instruction M. Ha-Duong : publisher=CIRED, place=MSH 54 bd Raspail Paris ; mois lu p.1 du PDF CIR_GOD_0026",
+    "set": {
+      "publisher": "CIRED",
+      "place": "MSH, 54 Bd. Raspail, Paris",
+      "date": "1978-12"
+    },
+    "note": "PATCH. Mois extrait de la page de garde (pdftotext). Date affinée de 1978 → 1978-12.",
+    "applied": true
+  },
+  {
+    "key": "Z7V78ABV",
+    "ref": "Nouvelles de l'écodéveloppement n°8 (1979-03) — CIR_GOD_0027 [publisher/place/date]",
+    "source": "Instruction M. Ha-Duong : publisher=CIRED, place=MSH 54 bd Raspail Paris ; mois lu p.1 du PDF CIR_GOD_0027",
+    "set": {
+      "publisher": "CIRED",
+      "place": "MSH, 54 Bd. Raspail, Paris",
+      "date": "1979-03"
+    },
+    "note": "PATCH. Mois extrait de la page de garde (pdftotext). Date affinée de 1979 → 1979-03.",
+    "applied": true
+  },
+  {
+    "key": "EUCMZQUS",
+    "ref": "Nouvelles de l'écodéveloppement n°9 (1979-06) — CIR_GOD_0028 [publisher/place/date]",
+    "source": "Instruction M. Ha-Duong : publisher=CIRED, place=MSH 54 bd Raspail Paris ; mois lu p.1 du PDF CIR_GOD_0028",
+    "set": {
+      "publisher": "CIRED",
+      "place": "MSH, 54 Bd. Raspail, Paris",
+      "date": "1979-06"
+    },
+    "note": "PATCH. Mois extrait de la page de garde (pdftotext). Date affinée de 1979 → 1979-06.",
+    "applied": true
+  },
+  {
+    "key": "PAXNH53N",
+    "ref": "Nouvelles de l'écodéveloppement n°10 (1979-09) — CIR_GOD_0006 [publisher/place/date]",
+    "source": "Instruction M. Ha-Duong : publisher=CIRED, place=MSH 54 bd Raspail Paris ; mois lu p.1 du PDF CIR_GOD_0006",
+    "set": {
+      "publisher": "CIRED",
+      "place": "MSH, 54 Bd. Raspail, Paris",
+      "date": "1979-09"
+    },
+    "note": "PATCH. Mois extrait de la page de garde (pdftotext). Date affinée de 1979 → 1979-09.",
+    "applied": true
+  }]
