@@ -1,0 +1,70 @@
+%erg 0.1
+Title: Couvrir les rapports d'activité CIRED 1972–2013
+Created: 2026-06-24
+Author: Minh Ha-Duong
+Closed: autoclosed — PR #47
+
+--- log ---
+2026-06-24T00:00Z Minh Ha-Duong created
+
+2026-06-24T09:47Z Minh Ha-Duong closed — autoclosed — PR #47
+--- body ---
+## Context
+
+Le CIRED publie des **rapports d'activité** périodiques (biennaux puis annuels)
+depuis sa création en 1973. Ces rapports sont une source primaire de premier plan :
+ils listent les chercheurs, les projets, les publications de chaque période, et
+attestent l'existence de documents absents des bases bibliographiques (littérature
+grise, rapports de contrat, notes internes).
+
+L'archive numérisée ne contient qu'un seul document identifié comme rapport
+d'activité (1980, fonds Sachs). Le catalogue `doc_index.json` (1 112 documents)
+reflète cette lacune. Il faut balayer la série complète des rapports d'activité,
+identifier les manques, et rapatrier les exemplaires accessibles.
+
+## Relevant files
+
+- `/home/haduong/data/datasets/ours/Archives CIRED numerisées/` — archive source (lecture seule)
+- `outputs/doc_index.json` — catalogue actuel pour dédoublonnage
+- `outputs/file_index.json` — index physique des 1 991 fichiers
+
+## Actions
+
+1. **Inventaire de la série** : dresser la liste attendue des rapports d'activité
+   CIRED 1972–2013 (périodicité, numérotation ou plage d'années couverte par
+   chaque rapport). Sources : archives physiques CIRED, site CIRED, HAL, OpenAlex,
+   Gallica, Sudoc, catalogue inari.
+2. **Localiser les exemplaires existants** : chercher dans l'archive numérisée
+   (TDM/ + docs/) et dans la base Zotero du groupe cired-fonds.
+3. **Identifier les lacunes** : quelles années/périodes sont manquantes ?
+4. **Rapatrier les exemplaires accessibles** en PDF (scan ou natif) et les ajouter
+   à la base Zotero (backup + apply), en signalant les droits (CIRED interne ≠
+   publication HAL).
+5. **Extraire les listes de publications** de chaque rapport pour alimenter les
+   tickets [[0035]] (enrichissement catalogue) et [[0033]] (liste auteurs HAL).
+
+## Test
+
+- Vérifier qu'un rapport connu (ex. 1980, fonds Sachs) est retrouvé et bien
+  rattaché dans le catalogue.
+
+## Verification
+
+- [ ] Inventaire de la série établi (liste des rapports attendus avec statut :
+  présent / manquant / inaccessible)
+- [ ] Exemplaires manquants mais accessibles rapatriés et indexés dans Zotero
+- [ ] Lacunes irrécupérables signalées dans les notes du catalogue
+- [ ] `make check` passe
+
+## Invariants
+
+- Archive source en lecture seule.
+- Aucune écriture Zotero sans `--backup` puis `--apply`.
+- Revue humaine avant toute modification du catalogue.
+
+## Exit criteria
+
+- [ ] Inventaire complet de la série 1972–2013 (rapport par rapport)
+- [ ] Taux de couverture connu (N présents / M attendus)
+- [ ] Documents rapatriés et catalogue mis à jour
+- [ ] `make check` passe
