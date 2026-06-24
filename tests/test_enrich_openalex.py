@@ -1,11 +1,20 @@
 """Tests des fonctions pures de enrich_openalex (parsing, scoring, diff — sans réseau)."""
 
+import subprocess
 import sys
 from pathlib import Path
+
+import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
 import enrich_openalex as oa  # noqa: E402
+
+
+@pytest.mark.adherence
+def test_ruff():
+    result = subprocess.run(["uv", "run", "ruff", "check", "."], capture_output=True)
+    assert result.returncode == 0, result.stdout.decode()
 
 
 # ── extraction d'identifiants ─────────────────────────────────────────────────

@@ -267,7 +267,7 @@ def search_by_doi(doi: str, mailto: str) -> dict | None:
 
     Propage BudgetExhausted (budget quotidien épuisé).
     """
-    enc = urllib.parse.quote(doi, safe="")
+    enc = urllib.parse.quote(doi, safe="/")
     try:
         return _oa_get(f"{OA_API}/works/https://doi.org/{enc}", mailto)
     except BudgetExhausted:
@@ -285,7 +285,7 @@ def search_by_title(title: str, year: int | None, mailto: str,
 
     Propage BudgetExhausted (budget quotidien épuisé).
     """
-    params: dict[str, str] = {"search": title, "per-page": str(per_page)}
+    params: dict[str, str] = {"search": title, "per_page": str(per_page)}
     if year:
         params["filter"] = f"publication_year:{year}"
     qs = urllib.parse.urlencode(params)
@@ -362,7 +362,10 @@ def enrich_notices(notices: list[dict], mailto: str = DEFAULT_MAILTO,
                 not_matched.append({"key": key, "title": title[:80],
                                     "reason": "no_results"})
             else:
-                best, score = match_work(data, raw_works, threshold)
+                if searched_by == "doi":
+                    best, score = raw_works[0], 1.0
+                else:
+                    best, score = match_work(data, raw_works, threshold)
                 if best is None:
                     not_matched.append({
                         "key": key,
@@ -524,11 +527,15 @@ def main() -> None:
 
     prev_results: list[dict] = []
     prev_not_matched: list[dict] = []
+    prev_already_enriched = 0
+    prev_errors = 0
     skip_keys: set[str] = set()
     if args.resume and args.resume.exists():
         prev = json.loads(args.resume.read_text())
         prev_results = prev.get("results", [])
         prev_not_matched = prev.get("not_matched_list", [])
+        prev_already_enriched = prev.get("already_enriched", 0)
+        prev_errors = prev.get("errors", 0)
         skip_keys = (
             {r["key"] for r in prev_results}
             | {n["key"] for n in prev_not_matched}
@@ -546,6 +553,9 @@ def main() -> None:
     report["not_matched_list"] = prev_not_matched + report["not_matched_list"]
     report["matched"] = len(report["results"])
     report["not_matched"] = len(report["not_matched_list"])
+    report["already_enriched"] = prev_already_enriched + report["already_enriched"]
+    report["errors"] = prev_errors + report["errors"]
+    report["searched"] = report["matched"] + report["not_matched"] + report["errors"]
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2),
