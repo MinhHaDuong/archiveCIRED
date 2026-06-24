@@ -1,0 +1,76 @@
+%erg 0.1
+Title: Enrichir chaque notice via Crossref (DOI + vérif métadonnées)
+Created: 2026-06-24
+Author: Minh Ha-Duong
+Closed: autoclosed — PR #43
+
+--- log ---
+2026-06-24T00:00Z Minh Ha-Duong created
+2026-06-24T00:00Z claude note Famille d'enrichissement avec [[0022]] (HAL), [[0023]] (OpenAlex) et [[0024]] (Google) ; même harnais. Crossref est l'autorité sur les DOI des éditeurs — complémentaire à HAL (dépôts) et OpenAlex (couverture large). Bénéficie de [[0021]].
+
+2026-06-24T09:45Z Minh Ha-Duong closed — autoclosed — PR #43
+--- body ---
+## Context
+
+Enrichir chaque notice via **Crossref** (api.crossref.org). Pour chaque notice :
+rechercher par titre + auteur (+ année) via `/works?query.title=…&query.author=…`,
+apparier le bon travail, ajouter le **DOI** et vérifier/corriger les métadonnées
+(revue/container-title, volume, numéro, pages, année, auteurs, type).
+
+Crossref est l'autorité de référence pour les DOI des éditeurs commerciaux
+(Elsevier, Springer, Wiley, etc.) et pour les revues académiques publiées.
+Complémentaire à HAL ([[0022]], dépôts ouverts) et OpenAlex ([[0023]], couverture
+large) : Crossref couvre mieux les publications payantes anciennes et expose des
+métadonnées structurées fiables (ISSN, volume/issue, pages exactes). Bénéficie
+de [[0021]] (noms normalisés).
+
+API Crossref : `/works?query.bibliographic=…` ou `query.title` + `query.author`,
+polite pool (header `User-Agent` avec adresse mail), rate-limit 50 req/s.
+Résultat JSON : champ `message.items`, score de confiance (`score`), DOI,
+`container-title`, `volume`, `issue`, `page`, `published`, `author`, `type`.
+
+Même harnais que [[0022]]/[[0023]]/[[0024]] : rechercher → apparier → diff →
+revue humaine → écrire via `src/apply_corrections.py`.
+
+## Relevant files
+
+- `src/apply_corrections.py` — écriture Zotero (backup, version)
+- `src/match_untyped.py`, `src/diff_recueil.py` — appariement + diff de champs
+- `src/reconcile_zotero.py` — collecte des notices
+
+## Actions
+
+1. Harnais de recherche Crossref : requêtes API par titre+auteur+année, parsing
+   JSON → champs canoniques (DOI, revue, volume, numéro, pages, date, auteurs,
+   type). Header `mailto` obligatoire (polite pool).
+2. Appariement notice ↔ item Crossref : score Crossref + corroboration
+   Jaccard-titre + auteur/année (cf. leçon 0019 ; jamais containment seul).
+   Seuil à calibrer sur un échantillon (faux positifs fréquents sur titres courts).
+3. Diff métadonnées (Crossref → notice) + DOI ; rapport structuré pour revue.
+4. Swarm : fan-out d'agents sur lots de notices.
+5. Après revue : écrire DOI + corrections via `apply_corrections.py`
+   (dry-run par défaut, backup).
+
+## Test
+
+- Parsing d'un item Crossref JSON → champs canoniques ; appariement sur fixtures
+  (vrai/faux, dont cas titres courts ambigus).
+
+## Verification
+
+- [ ] DOI ajouté à chaque notice trouvée dans Crossref
+- [ ] Diffs de métadonnées revus avant écriture
+- [ ] Corrections appliquées (backup), rapport des notices sans correspondance
+- [ ] Header `mailto` présent dans toutes les requêtes (polite pool)
+
+## Invariants
+
+- Appariement corroboré (score Crossref + Jaccard + auteur/année) ; revue avant
+  écriture.
+- Dry-run par défaut ; backup ; sens unique source → notice.
+- Ne pas écraser un DOI déjà présent sans vérification explicite.
+
+## Exit criteria
+
+- [ ] Catalogue enrichi via Crossref (DOI + métadonnées vérifiées, rapport)
+- [ ] `make check` passe
