@@ -2,11 +2,13 @@
 Title: Propager les corrections métadonnées du recueil (matcher flou + revue humaine)
 Created: 2026-06-22
 Author: Minh Ha-Duong
+Closed: autoclosed — PR #37
 
 --- log ---
 2026-06-22T18:08Z Minh Ha-Duong created
 2026-06-22T18:08Z claude note Enfant de 0015 (tracker). Remplace la dépendance « table d'Antonin » par un appariement flou + revue humaine du diff. Couverture partielle assumée.
 2026-06-24T08:40Z Minh Ha-Duong note Revue humaine faite sur le diff live ré-exécuté (131 paires, 17 avec diff). Après neutralisation du bruit de format (préfixes vol./n°/p., traits d'union de prénoms, formats de date), 3 paires substantielles seulement : (1) Z83SYUK5 « Eléments gestion eau » — vraie perte : ajouté Godard Olivier + Hourcade Jean-Charles (contributors) côté perso, saisie UI, vérifié. (2) C2AKFA8J↔DIRW5XW5 — PAS une correction : diff_recueil avait mal apparié l'article 1984 au chapitre 1986 ; le chapitre a déjà sa propre notice DIRW5XW5 (complète). Deux publications distinctes du même fond → LIÉES (relation Connexe dc:relation, src/relate_zotero_items.py --apply, backup outputs/relate_decentralisation_backup.json), pas fusionnées. (3) WCI9YSD4 — aucune action (perso plus riche). Reste = bruit de format, couverture partielle assumée. Propagation sens unique respectée.
+2026-06-24T06:37Z Minh Ha-Duong closed — autoclosed — PR #37
 --- body ---
 ## Context
 
