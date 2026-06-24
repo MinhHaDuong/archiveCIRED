@@ -67,6 +67,12 @@ outputs/recueil_url_comparison.json outputs/recueil_url_comparison.md: src/compa
 outputs/resolve_stubs_report.json outputs/resolve_stubs_report.md: src/resolve_stubs.py outputs/recueil_new_docs.json
 	uv run python src/resolve_stubs.py --mailto minh.haduong@gmail.com --output outputs/resolve_stubs_report.json
 
+# Enrichissement HAL (ticket 0022) : pour chaque notice, halId + champs vérifiés
+# par appariement corroboré — réseau (HAL + Zotero), lecture seule, rapport pour
+# revue avant écriture (l'écriture passe par apply_corrections.py). Hors `make check`.
+outputs/enrich_hal_report.json outputs/enrich_hal_report.md: src/enrich_hal.py src/reconcile_zotero.py
+	uv run python src/enrich_hal.py --limit 0 --output outputs/enrich_hal_report.json
+
 check-fast:
 	uv run pytest -m "not integration and not slow" tests/
 

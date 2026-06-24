@@ -1,0 +1,343 @@
+{
+  "summary": {
+    "total": 42,
+    "matched": 8,
+    "with_halid": 8,
+    "with_field_adds": 3,
+    "unmatched": 34
+  },
+  "results": [
+    {
+      "key": "48Y52GT6",
+      "title": "Viable responses to the equity-responsibility dilemma: a consequentialist view",
+      "matched": null
+    },
+    {
+      "key": "K87UCL7J",
+      "title": "Energy and the village",
+      "matched": null
+    },
+    {
+      "key": "BB2U4QBV",
+      "title": "REVUE BIBLIOGRAPHIQUE SUR LES SOLIDES EN RESEAUX D'ASSAINISSEMENT",
+      "matched": null
+    },
+    {
+      "key": "EWVWMQPS",
+      "title": "Modelling long-run scenarios: Methodology lessons from a prospective study on a low CO2 intensive country",
+      "matched": null
+    },
+    {
+      "key": "5XZ54S9Y",
+      "title": "Does uncertainty justify intensity emission caps?",
+      "matched": {
+        "halId": "halshs-00007162",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "halshs-00007162",
+        "add": {},
+        "differ": {
+          "pages": [
+            "343–353",
+            "343-353"
+          ],
+          "date": [
+            "2005-11",
+            "2005"
+          ]
+        }
+      }
+    },
+    {
+      "key": "7ZS9FKIY",
+      "title": "Notre avenir à tous : notes critiques de Brice Lalonde et Ignacy Sachs",
+      "matched": null
+    },
+    {
+      "key": "6SRZZ6PS",
+      "title": "De la co-réflexion au co-développement",
+      "matched": null
+    },
+    {
+      "key": "ICZWULRI",
+      "title": "The Elusive interdisciplinarity of development planning",
+      "matched": null
+    },
+    {
+      "key": "96EU6M9A",
+      "title": "Social sustainability and whole development : exploring the dimensions of sustainable development",
+      "matched": null
+    },
+    {
+      "key": "WUUAFPXM",
+      "title": "Energy, food, ecodevelopment",
+      "matched": null
+    },
+    {
+      "key": "87U3BGI4",
+      "title": "Internationalisation de l'économie ou développement endogène ? Les enjeux de la crise au Brésil",
+      "matched": null
+    },
+    {
+      "key": "989XCP6X",
+      "title": "Le Brésil dans le corset du plan Collor",
+      "matched": null
+    },
+    {
+      "key": "MS5NPBBK",
+      "title": "Vers un codéveloppement mondial",
+      "matched": null
+    },
+    {
+      "key": "XWX256Q4",
+      "title": "Un autre développement urbain",
+      "matched": null
+    },
+    {
+      "key": "ENISG5GU",
+      "title": "L'économie cachée : esquisse d'une problématique",
+      "matched": null
+    },
+    {
+      "key": "8VRDE8V4",
+      "title": "Lost paradise or promised land : an ecodevelopment perspective on the Amazon region",
+      "matched": null
+    },
+    {
+      "key": "MA6CRSGK",
+      "title": "Les temps - espaces du développement",
+      "matched": null
+    },
+    {
+      "key": "DMNH5RCL",
+      "title": "Le géant brésilien encore loin du futur : l'échec du modèle qui séduit tant la Pologne",
+      "matched": null
+    },
+    {
+      "key": "NZX7NLSN",
+      "title": "L'économie du développement dans la tourmente de l'évolution du monde",
+      "matched": null
+    },
+    {
+      "key": "ZYMSK94W",
+      "title": "Nous sommes assis sur les ruines de deux modèles qui ne fonctionnent plus",
+      "matched": null
+    },
+    {
+      "key": "GKM93HYM",
+      "title": "Alternatives de développement : le pluralisme technologique et la gestion des systèmes",
+      "matched": null
+    },
+    {
+      "key": "Q8N8E32T",
+      "title": "Drame et développement en Asie",
+      "matched": null
+    },
+    {
+      "key": "7WKMUFRF",
+      "title": "Kalecki and development planning",
+      "matched": null
+    },
+    {
+      "key": "7LD2DNG9",
+      "title": "Population et éco-développement",
+      "matched": null
+    },
+    {
+      "key": "BEGKQDMZ",
+      "title": "Impact environnemental de la mise en dépôt en eau de matériaux de dragage (cas du bassin de la Seine) = Environmental impact of laying in water dredged sediment",
+      "matched": {
+        "halId": "hal-01180056",
+        "title_sim": 0.688
+      },
+      "diff": {
+        "halId": "hal-01180056",
+        "add": {
+          "DOI": "10.1051/lhb/2001096"
+        },
+        "differ": {
+          "publicationTitle": [
+            "La Houille Blanche",
+            "La Houille Blanche - Revue internationale de l'eau"
+          ],
+          "pages": [
+            "82–86",
+            "82 - 86"
+          ]
+        }
+      }
+    },
+    {
+      "key": "6PSTKQ7N",
+      "title": "Caractéristiques hydrodynamiques de tourbe en colonne : Hydrodynamic characteristics of peat columns",
+      "matched": null
+    },
+    {
+      "key": "PGDSQ23W",
+      "title": "Consequences to water suppliers of collecting rainwater on housing estates",
+      "matched": {
+        "halId": "hal-00816788",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00816788",
+        "add": {},
+        "differ": {
+          "pages": [
+            "543–553",
+            "543-553"
+          ]
+        }
+      }
+    },
+    {
+      "key": "AZMB55MJ",
+      "title": "Energie et Tiers-Monde: dangers et illusions du mimétisme technologique",
+      "matched": null
+    },
+    {
+      "key": "TZAKISCK",
+      "title": "Economic Issues and Negotiation on Global Environment",
+      "matched": null
+    },
+    {
+      "key": "WCI9YSD4",
+      "title": "Integration of technology in development planning: a normative view (Chapter 10)",
+      "matched": null
+    },
+    {
+      "key": "9BZTJNJ2",
+      "title": "Clean development mechanism: leverage for development?",
+      "matched": {
+        "halId": "halshs-01285635",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "halshs-01285635",
+        "add": {},
+        "differ": {
+          "pages": [
+            "251–268",
+            "251-268"
+          ],
+          "DOI": [
+            "10.3763/cpol.2001.0125",
+            "10.1016/S1469-3062(01)00013-4"
+          ]
+        }
+      }
+    },
+    {
+      "key": "VMZPHJXH",
+      "title": "Développement des réseaux et modulations spatio-temporelles des tarifs: l'équité territoriale revisitée",
+      "matched": null
+    },
+    {
+      "key": "KZKMJ2IZ",
+      "title": "Pauvreté et pollution",
+      "matched": null
+    },
+    {
+      "key": "2FVBC9PZ",
+      "title": "L'ambivalence de la précaution et la transformation des rapports entre science et décision",
+      "matched": {
+        "halId": "halshs-00624042",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "halshs-00624042",
+        "add": {},
+        "differ": {
+          "pages": [
+            "37–83",
+            "37-83"
+          ]
+        }
+      }
+    },
+    {
+      "key": "R9TKKWWX",
+      "title": "Hydrologie urbaine Eléments de bilan du programme \"Eau dans la ville\"",
+      "matched": null
+    },
+    {
+      "key": "EB54CFGC",
+      "title": "Enzyme collagen membrane for electrochemical determination of glucose",
+      "matched": {
+        "halId": "hal-01179308",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01179308",
+        "add": {
+          "DOI": "10.1021/ac50037a031"
+        },
+        "differ": {
+          "pages": [
+            "96–100",
+            "96 - 100"
+          ]
+        }
+      }
+    },
+    {
+      "key": "8HE7JKEH",
+      "title": "The transfer of solids in combined sewer networks",
+      "matched": {
+        "halId": "hal-00779544",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00779544",
+        "add": {
+          "DOI": "10.1016/0273-1223(95)00327-J"
+        },
+        "differ": {
+          "pages": [
+            "95–105",
+            "95"
+          ]
+        }
+      }
+    },
+    {
+      "key": "UJ3LWSVB",
+      "title": "COMPARAISON DE MODELES DE TRANSPORT EN SUSPENSION. APPLICATION A DES OUVRAGES DE STOCKAGE-DECANTATION",
+      "matched": null
+    },
+    {
+      "key": "YIG8T8P2",
+      "title": "A timely initiative",
+      "matched": null
+    },
+    {
+      "key": "UE4QKLR5",
+      "title": "Learning political economy with Michal Kalecki",
+      "matched": null
+    },
+    {
+      "key": "DMTICJZD",
+      "title": "De la co-réflexion au co-développement",
+      "matched": null
+    },
+    {
+      "key": "69BSN3R7",
+      "title": "CO2 abatement, competitiveness and leakage in the European cement industry under the EU ETS: grandfathering versus output-based allocation",
+      "matched": {
+        "halId": "hal-00719269",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00719269",
+        "add": {},
+        "differ": {
+          "pages": [
+            "93–113",
+            "93"
+          ]
+        }
+      }
+    }
+  ]
+}
