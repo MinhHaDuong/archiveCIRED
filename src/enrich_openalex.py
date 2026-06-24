@@ -36,7 +36,7 @@ logger = logging.getLogger("enrich_openalex")
 OA_API = "https://api.openalex.org"
 DEFAULT_MAILTO = "minh.haduong@gmail.com"
 DEFAULT_THRESHOLD = 0.75
-DEFAULT_PAUSE = 0.15  # secondes entre appels (polite pool ≤ 10 req/s)
+DEFAULT_PAUSE = 0.5   # secondes entre appels (polite pool ≤ 10 req/s)
 
 DEFAULT_ENV = rz.DEFAULT_ENV
 DEFAULT_OUTPUT = Path("outputs/openalex_report.json")
@@ -224,34 +224,37 @@ def diff_notice_work(notice_data: dict, raw_work: dict) -> dict:
 # ── réseau ────────────────────────────────────────────────────────────────────
 
 def _oa_get(url: str, mailto: str) -> dict:
-    """GET OpenAlex avec pool poli, retourne JSON. Relance sur 429."""
+    """GET OpenAlex avec pool poli, retourne JSON. Relance sur 429 (5 tentatives)."""
     sep = "&" if "?" in url else "?"
     full = f"{url}{sep}mailto={urllib.parse.quote(mailto)}"
     req = urllib.request.Request(
         full, headers={"User-Agent": f"archiveCIRED/1.0 (mailto:{mailto})"})
-    delay = 5
-    for attempt in range(3):
+    delay = 30
+    for attempt in range(5):
         try:
             with urllib.request.urlopen(req, timeout=30) as resp:
                 return json.loads(resp.read().decode())
         except urllib.error.HTTPError as e:
-            if e.code == 429 and attempt < 2:
-                logger.warning("rate-limit 429, pause %ds…", delay)
-                time.sleep(delay)
-                delay *= 2
+            if e.code == 429 and attempt < 4:
+                wait = int(e.headers.get("Retry-After") or delay)
+                logger.warning("rate-limit 429, pause %ds… (tentative %d/5)",
+                               wait, attempt + 1)
+                time.sleep(wait)
+                delay = min(delay * 2, 120)
                 continue
             raise
 
 
 def search_by_doi(doi: str, mailto: str) -> dict | None:
-    """Lookup direct par DOI. Retourne le work OpenAlex brut ou None (404)."""
+    """Lookup direct par DOI. Retourne le work OpenAlex brut ou None si introuvable."""
     enc = urllib.parse.quote(doi, safe="")
     try:
         return _oa_get(f"{OA_API}/works/https://doi.org/{enc}", mailto)
     except urllib.error.HTTPError as e:
         if e.code == 404:
             return None
-        raise
+        logger.warning("DOI lookup KO (HTTP %s) : %s", e.code, doi[:40])
+        return None
 
 
 def search_by_title(title: str, year: int | None, mailto: str,
@@ -273,78 +276,100 @@ def search_by_title(title: str, year: int | None, mailto: str,
 
 def enrich_notices(notices: list[dict], mailto: str = DEFAULT_MAILTO,
                    threshold: float = DEFAULT_THRESHOLD,
-                   pause: float = DEFAULT_PAUSE) -> dict:
+                   pause: float = DEFAULT_PAUSE,
+                   skip_keys: set[str] | None = None,
+                   checkpoint_path: Path | None = None,
+                   checkpoint_every: int = 50) -> dict:
     """Recherche et apparie chaque notice contre OpenAlex.
 
     `notices` : liste d'items Zotero complets (avec champ `data`) ou de dicts
     notice_of()-compatibles (avec `key`, `title`, `creators`, `date`, `DOI`,
     `extra`, etc. au niveau racine).
 
+    `skip_keys` : clés déjà traitées lors d'une exécution précédente (--resume).
+    `checkpoint_path` : si fourni, sauvegarde le rapport partiel tous les
+    `checkpoint_every` notices pour permettre une reprise en cas d'interruption.
+
     Retourne un rapport sérialisable avec résultats, corrections, non-trouvées.
     """
     results: list[dict] = []
     not_matched: list[dict] = []
     skipped: list[str] = []
+    errors: list[dict] = []
+    done = skip_keys or set()
+    n_processed = 0
 
     for item in notices:
         data = item.get("data") or item
         key = data.get("key") or item.get("key", "")
         title = (data.get("title") or "").strip()
-        year = _year_of(data.get("date"))
-        doi = doi_normalize(data.get("DOI"))
-        curr_extra = data.get("extra") or ""
 
-        if existing_openalex_id(curr_extra):
+        if key in done:
+            continue
+
+        if existing_openalex_id(data.get("extra")):
             skipped.append(key)
-            logger.debug("skip %s (déjà enrichi)", key)
+            done.add(key)
             continue
 
-        raw_works: list[dict] = []
-        searched_by = "title"
+        try:
+            year = _year_of(data.get("date"))
+            doi = doi_normalize(data.get("DOI"))
+            raw_works: list[dict] = []
+            searched_by = "title"
 
-        if doi:
-            logger.info("DOI   %s … (%s)", doi[:30], key)
-            w = search_by_doi(doi, mailto)
-            time.sleep(pause)
-            if w:
-                raw_works = [w]
-                searched_by = "doi"
+            if doi:
+                logger.info("DOI   %s … (%s)", doi[:30], key)
+                w = search_by_doi(doi, mailto)
+                time.sleep(pause)
+                if w:
+                    raw_works = [w]
+                    searched_by = "doi"
 
-        if not raw_works and title:
-            logger.info("titre %s… (%s)", title[:40], year or "?")
-            raw_works = search_by_title(title, year, mailto)
-            time.sleep(pause)
+            if not raw_works and title:
+                logger.info("titre %s… (%s)", title[:40], year or "?")
+                raw_works = search_by_title(title, year, mailto)
+                time.sleep(pause)
 
-        if not raw_works:
-            not_matched.append({"key": key, "title": title[:80],
-                                "reason": "no_results"})
-            continue
+            if not raw_works:
+                not_matched.append({"key": key, "title": title[:80],
+                                    "reason": "no_results"})
+            else:
+                best, score = match_work(data, raw_works, threshold)
+                if best is None:
+                    not_matched.append({
+                        "key": key,
+                        "title": title[:80],
+                        "reason": "low_score",
+                        "best_score": round(score, 4),
+                        "best_candidate": (raw_works[0].get("title") or "")[:80],
+                    })
+                else:
+                    set_fields = diff_notice_work(data, best)
+                    p = parse_work(best)
+                    results.append({
+                        "key": key,
+                        "ref": title[:80],
+                        "searched_by": searched_by,
+                        "openalex_id": p["id"],
+                        "doi_found": p["doi"],
+                        "score": score,
+                        "set": set_fields,
+                    })
+                    logger.info("  → %s (%.2f) corrections: %s",
+                                p["id"], score, list(set_fields.keys()) or "aucune")
 
-        best, score = match_work(data, raw_works, threshold)
+        except Exception as exc:
+            logger.error("erreur notice %s : %s", key, exc)
+            errors.append({"key": key, "title": title[:80], "error": str(exc)})
 
-        if best is None:
-            not_matched.append({
-                "key": key,
-                "title": title[:80],
-                "reason": "low_score",
-                "best_score": round(score, 4),
-                "best_candidate": (raw_works[0].get("title") or "")[:80],
-            })
-            continue
+        done.add(key)
+        n_processed += 1
 
-        set_fields = diff_notice_work(data, best)
-        p = parse_work(best)
-        results.append({
-            "key": key,
-            "ref": title[:80],
-            "searched_by": searched_by,
-            "openalex_id": p["id"],
-            "doi_found": p["doi"],
-            "score": score,
-            "set": set_fields,
-        })
-        logger.info("  → %s (%.2f) corrections: %s",
-                    p["id"], score, list(set_fields.keys()) or "aucune")
+        if checkpoint_path and n_processed % checkpoint_every == 0:
+            _write_checkpoint(checkpoint_path, results, not_matched, skipped,
+                              errors, len(notices))
+            logger.info("[checkpoint %d/%d]", n_processed, len(notices))
 
     return {
         "total": len(notices),
@@ -352,9 +377,30 @@ def enrich_notices(notices: list[dict], mailto: str = DEFAULT_MAILTO,
         "searched": len(notices) - len(skipped),
         "matched": len(results),
         "not_matched": len(not_matched),
+        "errors": len(errors),
         "results": results,
         "not_matched_list": not_matched,
+        "error_list": errors,
     }
+
+
+def _write_checkpoint(path: Path, results: list, not_matched: list,
+                      skipped: list, errors: list, total: int) -> None:
+    """Écrit un rapport partiel pour permettre la reprise."""
+    partial = {
+        "total": total,
+        "already_enriched": len(skipped),
+        "searched": len(results) + len(not_matched) + len(errors),
+        "matched": len(results),
+        "not_matched": len(not_matched),
+        "errors": len(errors),
+        "results": results,
+        "not_matched_list": not_matched,
+        "error_list": errors,
+        "_partial": True,
+    }
+    path.write_text(json.dumps(partial, ensure_ascii=False, indent=2),
+                    encoding="utf-8")
 
 
 # ── rapport Markdown ──────────────────────────────────────────────────────────
@@ -419,6 +465,8 @@ def main() -> None:
     p.add_argument("--env", type=Path, default=DEFAULT_ENV)
     p.add_argument("--notices", type=Path, default=None,
                    help="JSON de notices Zotero pré-collectées (hors-ligne)")
+    p.add_argument("--resume", type=Path, default=None,
+                   help="Rapport partiel d'une exécution précédente à compléter")
     p.add_argument("--mailto", default=DEFAULT_MAILTO,
                    help="email pour le pool poli OpenAlex")
     p.add_argument("--threshold", type=float, default=DEFAULT_THRESHOLD,
@@ -438,7 +486,30 @@ def main() -> None:
         notices = fetch_notices(args.env)
         logger.info("Notices collectées : %d", len(notices))
 
-    report = enrich_notices(notices, args.mailto, args.threshold, args.pause)
+    prev_results: list[dict] = []
+    prev_not_matched: list[dict] = []
+    skip_keys: set[str] = set()
+    if args.resume and args.resume.exists():
+        prev = json.loads(args.resume.read_text())
+        prev_results = prev.get("results", [])
+        prev_not_matched = prev.get("not_matched_list", [])
+        skip_keys = (
+            {r["key"] for r in prev_results}
+            | {n["key"] for n in prev_not_matched}
+            | set(prev.get("error_list") and [e["key"] for e in prev["error_list"]] or [])
+        )
+        logger.info("Reprise : %d déjà appariés, %d non appariés, %d clés ignorées",
+                    len(prev_results), len(prev_not_matched), len(skip_keys))
+
+    report = enrich_notices(notices, args.mailto, args.threshold, args.pause,
+                            skip_keys=skip_keys,
+                            checkpoint_path=args.output)
+
+    # Fusionner avec les résultats précédents si --resume
+    report["results"] = prev_results + report["results"]
+    report["not_matched_list"] = prev_not_matched + report["not_matched_list"]
+    report["matched"] = len(report["results"])
+    report["not_matched"] = len(report["not_matched_list"])
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2),
