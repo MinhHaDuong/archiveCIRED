@@ -1,0 +1,61 @@
+%erg 0.1
+Title: Corriger le mapping publicationTitle type-naïf dans enrich_hal et enrich_openalex
+Created: 2026-06-24
+Author: claude
+
+--- log ---
+2026-06-24T00:00Z claude created — découvert lors du /roar de 0038 (Crossref)
+
+--- body ---
+## Context
+
+`enrich_crossref.py` (ticket 0038) a provoqué des erreurs HTTP 400 en tentant
+d'écrire `publicationTitle` sur des notices de type `bookSection`, `thesis` et
+`report`. Zotero refuse ce champ pour ces types.
+
+Le correctif a été intégré dans `enrich_crossref.py` (filtrage par `itemType`
+avant de construire le diff). Le même anti-patron existe dans les deux autres
+scripts d'enrichissement :
+
+- `src/enrich_hal.py` : `FIELD_MAP` ligne 36 mappe `publicationTitle` pour tous
+  les types, y compris `bookSection` et `conferencePaper`.
+- `src/enrich_openalex.py` : ligne 210 écrit `publicationTitle` sans vérifier
+  `notice_data["itemType"]`.
+
+Ces scripts n'ont pas encore déclenché de 400 car leurs corrections n'ont pas
+été appliquées sur des notices de type problématique, ou la condition
+`not (notice_data.get("publicationTitle") or "").strip()` a filtré les cas
+où la valeur était déjà présente. Mais un futur `apply_corrections.py` sur
+des notices `bookSection` / `thesis` / `report` reproduira le même incident.
+
+## Relevant files
+
+- `src/enrich_hal.py:36` — `FIELD_MAP` avec `publicationTitle` inconditional
+- `src/enrich_openalex.py:209-210` — assignation de `publicationTitle` sans garde
+- `src/enrich_crossref.py:140-180` — référence : correctif type-aware déjà en place
+
+## Actions
+
+1. Dans `enrich_hal.py` : lors de la construction des champs à diffuser, filtrer
+   `publicationTitle` si `notice_data["itemType"]` n'est pas `journalArticle`
+   (ou `conferencePaper` si applicable).
+2. Dans `enrich_openalex.py` : même garde autour de la ligne 210.
+3. Ajouter un test unitaire dans `tests/test_enrich_hal.py` et
+   `tests/test_enrich_openalex.py` qui vérifie qu'une notice `bookSection`
+   ne reçoit pas `publicationTitle` dans le diff.
+
+## Verification
+
+- [ ] `make check-fast` passe sans erreur
+- [ ] Aucun diff produit par HAL/OpenAlex ne contient `publicationTitle` pour
+      un `itemType` différent de `journalArticle`
+
+## Invariants
+
+- Le comportement sur `journalArticle` doit rester identique
+- Les corrections déjà appliquées (outputs/*.json) ne sont pas à rejouer
+
+## Exit criteria
+
+- Les deux scripts produisent des diffs type-corrects
+- Tests unitaires couvrent le cas `bookSection`
