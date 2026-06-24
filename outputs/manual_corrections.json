@@ -214,5 +214,424 @@
     },
     "note": "Principal = corpus. Les 2 fichiers conservés ; l_autre marqué dans extra.",
     "applied": true
-  }
-]
+  },
+  {
+    "key": "GP7X8XC2",
+    "ref": "Nouvelles de l'écodéveloppement n°1 (1977) — CIR_GOD_0012",
+    "source": "Instruction M. Ha-Duong : scan d'un numéro complet, responsable de publication Catherine Touraille",
+    "set": {
+      "title": "Nouvelles de l'écodéveloppement, n°1",
+      "publicationTitle": "Les Nouvelles de l'Écodéveloppement",
+      "issue": "1",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "lastName": "Touraille",
+          "firstName": "Catherine"
+        }
+      ]
+    },
+    "note": "Scan d'un numéro complet de revue, pas d'un article. Catherine Touraille, responsable de publication → editor. Titre corrigé : « Nouvelle » → « Nouvelles ». publicationTitle homogène avec clé 5QKTKLWV.",
+    "applied": true
+  },
+  {
+    "key": "69W5P7B5",
+    "ref": "Nouvelles de l'écodéveloppement n°2 (1977) — CIR_GOD_0022",
+    "source": "Instruction M. Ha-Duong : scan d'un numéro complet, responsable de publication Catherine Touraille",
+    "set": {
+      "title": "Nouvelles de l'écodéveloppement, n°2",
+      "publicationTitle": "Les Nouvelles de l'Écodéveloppement",
+      "issue": "2",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "lastName": "Touraille",
+          "firstName": "Catherine"
+        }
+      ]
+    },
+    "note": "Scan d'un numéro complet de revue, pas d'un article. Catherine Touraille, responsable de publication → editor. Titre corrigé : « Nouvelle » → « Nouvelles ».",
+    "applied": true
+  },
+  {
+    "key": "9E8E79KT",
+    "ref": "Nouvelles de l'écodéveloppement n°3 (1977) — CIR_GOD_0021",
+    "source": "Instruction M. Ha-Duong : scan d'un numéro complet, responsable de publication Catherine Touraille",
+    "set": {
+      "title": "Nouvelles de l'écodéveloppement, n°3",
+      "publicationTitle": "Les Nouvelles de l'Écodéveloppement",
+      "issue": "3",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "lastName": "Touraille",
+          "firstName": "Catherine"
+        }
+      ]
+    },
+    "note": "Scan d'un numéro complet de revue, pas d'un article. Catherine Touraille, responsable de publication → editor. Titre corrigé : « Nouvelle » → « Nouvelles ».",
+    "applied": true
+  },
+  {
+    "key": "EHSPLTCA",
+    "ref": "Nouvelles de l'écodéveloppement n°4 (1978) — CIR_GOD_0023",
+    "source": "Instruction M. Ha-Duong : scan d'un numéro complet, responsable de publication Catherine Touraille",
+    "set": {
+      "title": "Nouvelles de l'écodéveloppement, n°4",
+      "publicationTitle": "Les Nouvelles de l'Écodéveloppement",
+      "issue": "4",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "lastName": "Touraille",
+          "firstName": "Catherine"
+        }
+      ]
+    },
+    "note": "Scan d'un numéro complet de revue, pas d'un article. Catherine Touraille, responsable de publication → editor. Titre corrigé : « Nouvelle » → « Nouvelles ».",
+    "applied": true
+  },
+  {
+    "key": "2V84KRLD",
+    "ref": "Nouvelles de l'écodéveloppement n°5 (1978) — CIR_GOD_0024",
+    "source": "Instruction M. Ha-Duong : scan d'un numéro complet, responsable de publication Catherine Touraille",
+    "set": {
+      "title": "Nouvelles de l'écodéveloppement, n°5",
+      "publicationTitle": "Les Nouvelles de l'Écodéveloppement",
+      "issue": "5",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "lastName": "Touraille",
+          "firstName": "Catherine"
+        }
+      ]
+    },
+    "note": "Scan d'un numéro complet de revue, pas d'un article. Catherine Touraille, responsable de publication → editor. Titre corrigé : « Nouvelle » → « Nouvelles ».",
+    "applied": true
+  },
+  {
+    "key": "UTJB44YW",
+    "ref": "Nouvelles de l'écodéveloppement n°6 (1978) — CIR_GOD_0025",
+    "source": "Instruction M. Ha-Duong : scan d'un numéro complet, responsable de publication Catherine Touraille",
+    "set": {
+      "title": "Nouvelles de l'écodéveloppement, n°6",
+      "publicationTitle": "Les Nouvelles de l'Écodéveloppement",
+      "issue": "6",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "lastName": "Touraille",
+          "firstName": "Catherine"
+        }
+      ]
+    },
+    "note": "Scan d'un numéro complet de revue, pas d'un article. Catherine Touraille, responsable de publication → editor. Titre corrigé : « Nouvelle » → « Nouvelles ».",
+    "applied": true
+  },
+  {
+    "key": "WAA7EJLI",
+    "ref": "Nouvelles de l'écodéveloppement n°7 (1978) — CIR_GOD_0026",
+    "source": "Instruction M. Ha-Duong : scan d'un numéro complet, responsable de publication Catherine Touraille",
+    "set": {
+      "title": "Nouvelles de l'écodéveloppement, n°7",
+      "publicationTitle": "Les Nouvelles de l'Écodéveloppement",
+      "issue": "7",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "lastName": "Touraille",
+          "firstName": "Catherine"
+        }
+      ]
+    },
+    "note": "Scan d'un numéro complet de revue, pas d'un article. Catherine Touraille, responsable de publication → editor. Titre corrigé : « Nouvelle » → « Nouvelles ».",
+    "applied": true
+  },
+  {
+    "key": "Z7V78ABV",
+    "ref": "Nouvelles de l'écodéveloppement n°8 (1979) — CIR_GOD_0027",
+    "source": "Instruction M. Ha-Duong : scan d'un numéro complet, responsable de publication Catherine Touraille",
+    "set": {
+      "title": "Nouvelles de l'écodéveloppement, n°8",
+      "publicationTitle": "Les Nouvelles de l'Écodéveloppement",
+      "issue": "8",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "lastName": "Touraille",
+          "firstName": "Catherine"
+        }
+      ]
+    },
+    "note": "Scan d'un numéro complet de revue, pas d'un article. Catherine Touraille, responsable de publication → editor. Titre corrigé : « Nouvelle » → « Nouvelles ».",
+    "applied": true
+  },
+  {
+    "key": "EUCMZQUS",
+    "ref": "Nouvelles de l'écodéveloppement n°9 (1979) — CIR_GOD_0028",
+    "source": "Instruction M. Ha-Duong : scan d'un numéro complet, responsable de publication Catherine Touraille",
+    "set": {
+      "title": "Nouvelles de l'écodéveloppement, n°9",
+      "publicationTitle": "Les Nouvelles de l'Écodéveloppement",
+      "issue": "9",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "lastName": "Touraille",
+          "firstName": "Catherine"
+        }
+      ]
+    },
+    "note": "Scan d'un numéro complet de revue, pas d'un article. Catherine Touraille, responsable de publication → editor. Titre corrigé : « Nouvelle » → « Nouvelles ».",
+    "applied": true
+  },
+  {
+    "key": "PAXNH53N",
+    "ref": "Nouvelles de l'écodéveloppement n°10 (1979) — CIR_GOD_0006",
+    "source": "Instruction M. Ha-Duong : scan d'un numéro complet, responsable de publication Catherine Touraille",
+    "set": {
+      "title": "Nouvelles de l'écodéveloppement, n°10",
+      "publicationTitle": "Les Nouvelles de l'Écodéveloppement",
+      "issue": "10",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "lastName": "Touraille",
+          "firstName": "Catherine"
+        }
+      ]
+    },
+    "note": "Scan d'un numéro complet de revue, pas d'un article. Catherine Touraille, responsable de publication → editor. Titre corrigé : « Nouvelle » → « Nouvelles ».",
+    "applied": true
+  },
+  {
+    "key": "GP7X8XC2",
+    "ref": "Nouvelles de l'écodéveloppement n°1 (1977) — CIR_GOD_0012 [itemType → document]",
+    "source": "Instruction M. Ha-Duong : journalArticle inadapté pour un numéro complet de revue",
+    "set": {
+      "itemType": "document",
+      "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 1"
+    },
+    "note": "PUT : document est le type Zotero le plus honnête pour un scan de numéro complet (journalArticle impliquerait un article). publicationTitle/issue non portés par document → dans extra. title/creators/date/url portés par CARRY.",
+    "applied": true
+  },
+  {
+    "key": "69W5P7B5",
+    "ref": "Nouvelles de l'écodéveloppement n°2 (1977) — CIR_GOD_0022 [itemType → document]",
+    "source": "Instruction M. Ha-Duong : journalArticle inadapté pour un numéro complet de revue",
+    "set": {
+      "itemType": "document",
+      "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 2"
+    },
+    "note": "PUT : document est le type Zotero le plus honnête pour un scan de numéro complet (journalArticle impliquerait un article). publicationTitle/issue non portés par document → dans extra. title/creators/date/url portés par CARRY.",
+    "applied": true
+  },
+  {
+    "key": "9E8E79KT",
+    "ref": "Nouvelles de l'écodéveloppement n°3 (1977) — CIR_GOD_0021 [itemType → document]",
+    "source": "Instruction M. Ha-Duong : journalArticle inadapté pour un numéro complet de revue",
+    "set": {
+      "itemType": "document",
+      "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 3"
+    },
+    "note": "PUT : document est le type Zotero le plus honnête pour un scan de numéro complet (journalArticle impliquerait un article). publicationTitle/issue non portés par document → dans extra. title/creators/date/url portés par CARRY.",
+    "applied": true
+  },
+  {
+    "key": "EHSPLTCA",
+    "ref": "Nouvelles de l'écodéveloppement n°4 (1978) — CIR_GOD_0023 [itemType → document]",
+    "source": "Instruction M. Ha-Duong : journalArticle inadapté pour un numéro complet de revue",
+    "set": {
+      "itemType": "document",
+      "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 4"
+    },
+    "note": "PUT : document est le type Zotero le plus honnête pour un scan de numéro complet (journalArticle impliquerait un article). publicationTitle/issue non portés par document → dans extra. title/creators/date/url portés par CARRY.",
+    "applied": true
+  },
+  {
+    "key": "2V84KRLD",
+    "ref": "Nouvelles de l'écodéveloppement n°5 (1978) — CIR_GOD_0024 [itemType → document]",
+    "source": "Instruction M. Ha-Duong : journalArticle inadapté pour un numéro complet de revue",
+    "set": {
+      "itemType": "document",
+      "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 5"
+    },
+    "note": "PUT : document est le type Zotero le plus honnête pour un scan de numéro complet (journalArticle impliquerait un article). publicationTitle/issue non portés par document → dans extra. title/creators/date/url portés par CARRY.",
+    "applied": true
+  },
+  {
+    "key": "UTJB44YW",
+    "ref": "Nouvelles de l'écodéveloppement n°6 (1978) — CIR_GOD_0025 [itemType → document]",
+    "source": "Instruction M. Ha-Duong : journalArticle inadapté pour un numéro complet de revue",
+    "set": {
+      "itemType": "document",
+      "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 6"
+    },
+    "note": "PUT : document est le type Zotero le plus honnête pour un scan de numéro complet (journalArticle impliquerait un article). publicationTitle/issue non portés par document → dans extra. title/creators/date/url portés par CARRY.",
+    "applied": true
+  },
+  {
+    "key": "WAA7EJLI",
+    "ref": "Nouvelles de l'écodéveloppement n°7 (1978) — CIR_GOD_0026 [itemType → document]",
+    "source": "Instruction M. Ha-Duong : journalArticle inadapté pour un numéro complet de revue",
+    "set": {
+      "itemType": "document",
+      "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 7"
+    },
+    "note": "PUT : document est le type Zotero le plus honnête pour un scan de numéro complet (journalArticle impliquerait un article). publicationTitle/issue non portés par document → dans extra. title/creators/date/url portés par CARRY.",
+    "applied": true
+  },
+  {
+    "key": "Z7V78ABV",
+    "ref": "Nouvelles de l'écodéveloppement n°8 (1979) — CIR_GOD_0027 [itemType → document]",
+    "source": "Instruction M. Ha-Duong : journalArticle inadapté pour un numéro complet de revue",
+    "set": {
+      "itemType": "document",
+      "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 8"
+    },
+    "note": "PUT : document est le type Zotero le plus honnête pour un scan de numéro complet (journalArticle impliquerait un article). publicationTitle/issue non portés par document → dans extra. title/creators/date/url portés par CARRY.",
+    "applied": true
+  },
+  {
+    "key": "EUCMZQUS",
+    "ref": "Nouvelles de l'écodéveloppement n°9 (1979) — CIR_GOD_0028 [itemType → document]",
+    "source": "Instruction M. Ha-Duong : journalArticle inadapté pour un numéro complet de revue",
+    "set": {
+      "itemType": "document",
+      "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 9"
+    },
+    "note": "PUT : document est le type Zotero le plus honnête pour un scan de numéro complet (journalArticle impliquerait un article). publicationTitle/issue non portés par document → dans extra. title/creators/date/url portés par CARRY.",
+    "applied": true
+  },
+  {
+    "key": "PAXNH53N",
+    "ref": "Nouvelles de l'écodéveloppement n°10 (1979) — CIR_GOD_0006 [itemType → document]",
+    "source": "Instruction M. Ha-Duong : journalArticle inadapté pour un numéro complet de revue",
+    "set": {
+      "itemType": "document",
+      "extra": "Périodique : Les Nouvelles de l'Écodéveloppement\nNuméro : 10"
+    },
+    "note": "PUT : document est le type Zotero le plus honnête pour un scan de numéro complet (journalArticle impliquerait un article). publicationTitle/issue non portés par document → dans extra. title/creators/date/url portés par CARRY.",
+    "applied": true
+  },
+  {
+    "key": "GP7X8XC2",
+    "ref": "Nouvelles de l'écodéveloppement n°1 (1977-02) — CIR_GOD_0012 [publisher/place/date]",
+    "source": "Instruction M. Ha-Duong : publisher=CIRED, place=MSH 54 bd Raspail Paris ; mois lu p.1 du PDF CIR_GOD_0012",
+    "set": {
+      "publisher": "CIRED",
+      "place": "MSH, 54 Bd. Raspail, Paris",
+      "date": "1977-02"
+    },
+    "note": "PATCH. Mois extrait de la page de garde (pdftotext). Date affinée de 1977 → 1977-02.",
+    "applied": true
+  },
+  {
+    "key": "69W5P7B5",
+    "ref": "Nouvelles de l'écodéveloppement n°2 (1977-05) — CIR_GOD_0022 [publisher/place/date]",
+    "source": "Instruction M. Ha-Duong : publisher=CIRED, place=MSH 54 bd Raspail Paris ; mois lu p.1 du PDF CIR_GOD_0022",
+    "set": {
+      "publisher": "CIRED",
+      "place": "MSH, 54 Bd. Raspail, Paris",
+      "date": "1977-05"
+    },
+    "note": "PATCH. Mois extrait de la page de garde (pdftotext). Date affinée de 1977 → 1977-05.",
+    "applied": true
+  },
+  {
+    "key": "9E8E79KT",
+    "ref": "Nouvelles de l'écodéveloppement n°3 (1977-10) — CIR_GOD_0021 [publisher/place/date]",
+    "source": "Instruction M. Ha-Duong : publisher=CIRED, place=MSH 54 bd Raspail Paris ; mois lu p.1 du PDF CIR_GOD_0021",
+    "set": {
+      "publisher": "CIRED",
+      "place": "MSH, 54 Bd. Raspail, Paris",
+      "date": "1977-10"
+    },
+    "note": "PATCH. Mois extrait de la page de garde (pdftotext). Date affinée de 1977 → 1977-10.",
+    "applied": true
+  },
+  {
+    "key": "EHSPLTCA",
+    "ref": "Nouvelles de l'écodéveloppement n°4 (1978-02) — CIR_GOD_0023 [publisher/place/date]",
+    "source": "Instruction M. Ha-Duong : publisher=CIRED, place=MSH 54 bd Raspail Paris ; mois lu p.1 du PDF CIR_GOD_0023",
+    "set": {
+      "publisher": "CIRED",
+      "place": "MSH, 54 Bd. Raspail, Paris",
+      "date": "1978-02"
+    },
+    "note": "PATCH. Mois extrait de la page de garde (pdftotext). Date affinée de 1978 → 1978-02.",
+    "applied": true
+  },
+  {
+    "key": "2V84KRLD",
+    "ref": "Nouvelles de l'écodéveloppement n°5 (1978-06) — CIR_GOD_0024 [publisher/place/date]",
+    "source": "Instruction M. Ha-Duong : publisher=CIRED, place=MSH 54 bd Raspail Paris ; mois lu p.1 du PDF CIR_GOD_0024",
+    "set": {
+      "publisher": "CIRED",
+      "place": "MSH, 54 Bd. Raspail, Paris",
+      "date": "1978-06"
+    },
+    "note": "PATCH. Mois extrait de la page de garde (pdftotext). Date affinée de 1978 → 1978-06.",
+    "applied": true
+  },
+  {
+    "key": "UTJB44YW",
+    "ref": "Nouvelles de l'écodéveloppement n°6 (1978-09) — CIR_GOD_0025 [publisher/place/date]",
+    "source": "Instruction M. Ha-Duong : publisher=CIRED, place=MSH 54 bd Raspail Paris ; mois lu p.1 du PDF CIR_GOD_0025",
+    "set": {
+      "publisher": "CIRED",
+      "place": "MSH, 54 Bd. Raspail, Paris",
+      "date": "1978-09"
+    },
+    "note": "PATCH. Mois extrait de la page de garde (pdftotext). Date affinée de 1978 → 1978-09.",
+    "applied": true
+  },
+  {
+    "key": "WAA7EJLI",
+    "ref": "Nouvelles de l'écodéveloppement n°7 (1978-12) — CIR_GOD_0026 [publisher/place/date]",
+    "source": "Instruction M. Ha-Duong : publisher=CIRED, place=MSH 54 bd Raspail Paris ; mois lu p.1 du PDF CIR_GOD_0026",
+    "set": {
+      "publisher": "CIRED",
+      "place": "MSH, 54 Bd. Raspail, Paris",
+      "date": "1978-12"
+    },
+    "note": "PATCH. Mois extrait de la page de garde (pdftotext). Date affinée de 1978 → 1978-12.",
+    "applied": true
+  },
+  {
+    "key": "Z7V78ABV",
+    "ref": "Nouvelles de l'écodéveloppement n°8 (1979-03) — CIR_GOD_0027 [publisher/place/date]",
+    "source": "Instruction M. Ha-Duong : publisher=CIRED, place=MSH 54 bd Raspail Paris ; mois lu p.1 du PDF CIR_GOD_0027",
+    "set": {
+      "publisher": "CIRED",
+      "place": "MSH, 54 Bd. Raspail, Paris",
+      "date": "1979-03"
+    },
+    "note": "PATCH. Mois extrait de la page de garde (pdftotext). Date affinée de 1979 → 1979-03.",
+    "applied": true
+  },
+  {
+    "key": "EUCMZQUS",
+    "ref": "Nouvelles de l'écodéveloppement n°9 (1979-06) — CIR_GOD_0028 [publisher/place/date]",
+    "source": "Instruction M. Ha-Duong : publisher=CIRED, place=MSH 54 bd Raspail Paris ; mois lu p.1 du PDF CIR_GOD_0028",
+    "set": {
+      "publisher": "CIRED",
+      "place": "MSH, 54 Bd. Raspail, Paris",
+      "date": "1979-06"
+    },
+    "note": "PATCH. Mois extrait de la page de garde (pdftotext). Date affinée de 1979 → 1979-06.",
+    "applied": true
+  },
+  {
+    "key": "PAXNH53N",
+    "ref": "Nouvelles de l'écodéveloppement n°10 (1979-09) — CIR_GOD_0006 [publisher/place/date]",
+    "source": "Instruction M. Ha-Duong : publisher=CIRED, place=MSH 54 bd Raspail Paris ; mois lu p.1 du PDF CIR_GOD_0006",
+    "set": {
+      "publisher": "CIRED",
+      "place": "MSH, 54 Bd. Raspail, Paris",
+      "date": "1979-09"
+    },
+    "note": "PATCH. Mois extrait de la page de garde (pdftotext). Date affinée de 1979 → 1979-09.",
+    "applied": true
+  }]
