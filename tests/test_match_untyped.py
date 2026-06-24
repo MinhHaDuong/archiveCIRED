@@ -6,12 +6,21 @@ et produit des candidats à **revue humaine** — jamais une fusion automatique
 (règle projet : apparier par id, jamais par titre ; cf. faux doublons Sachs).
 """
 
+import subprocess
 import sys
 from pathlib import Path
+
+import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
 
 import match_untyped as mu  # noqa: E402
+
+
+@pytest.mark.adherence
+def test_ruff():
+    result = subprocess.run(["uv", "run", "ruff", "check", "."], capture_output=True)
+    assert result.returncode == 0, result.stdout.decode()
 
 
 def test_normalize_strips_accents_case_punctuation():
