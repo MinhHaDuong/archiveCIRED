@@ -1,0 +1,1199 @@
+{
+  "successful": {
+    "0": {
+      "key": "9BZTJNJ2",
+      "version": 7909,
+      "library": {
+        "type": "user",
+        "id": 2114597,
+        "name": "Base R2DS",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/base_r2ds",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/users/2114597/items/9BZTJNJ2",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds/items/9BZTJNJ2",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "creatorSummary": "Mathy et al.",
+        "parsedDate": "2001",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "9BZTJNJ2",
+        "version": 7909,
+        "itemType": "journalArticle",
+        "title": "Clean development mechanism: leverage for development?",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Sandrine",
+            "lastName": "Mathy"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Jean-Charles",
+            "lastName": "Hourcade"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Christophe",
+            "lastName": "de Gouvello"
+          }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Climate Policy",
+        "publisher": "",
+        "place": "",
+        "date": "2001",
+        "volume": "1",
+        "issue": "2",
+        "section": "",
+        "partNumber": "",
+        "partTitle": "",
+        "pages": "251-268",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "DOI": "10.3763/cpol.2001.0125",
+        "citationKey": "",
+        "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/attente/%C3%A0%20d%C3%A9doublonner%20avec%20ce%20qui%20est%20d%C3%A9j%C3%A0%20trait%C3%A9/2001-197-mathy-hourcade-gouvello-CDM-leverage-for-development.pdf",
+        "accessDate": "",
+        "PMID": "",
+        "PMCID": "",
+        "ISSN": "",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "en",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "recueil-50ans-ajout-0018"
+          }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2026-06-24T07:28:36Z",
+        "dateModified": "2026-06-24T07:28:36Z"
+      }
+    },
+    "1": {
+      "key": "84DPXVJG",
+      "version": 7910,
+      "library": {
+        "type": "user",
+        "id": 2114597,
+        "name": "Base R2DS",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/base_r2ds",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/users/2114597/items/84DPXVJG",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds/items/84DPXVJG",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "creatorSummary": "Hallegatte et al.",
+        "parsedDate": "2007",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "84DPXVJG",
+        "version": 7910,
+        "itemType": "journalArticle",
+        "title": "Using climate analogues for assessing climate change economic impacts in urban areas",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Stéphane",
+            "lastName": "Hallegatte"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Jean-Charles",
+            "lastName": "Hourcade"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Philippe",
+            "lastName": "Ambrosi"
+          }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Climatic Change",
+        "publisher": "",
+        "place": "",
+        "date": "2007",
+        "volume": "82",
+        "issue": "1-2",
+        "section": "",
+        "partNumber": "",
+        "partTitle": "",
+        "pages": "47-60",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "DOI": "10.1007/s10584-006-9161-z",
+        "citationKey": "",
+        "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/attente/%C3%A0%20d%C3%A9doublonner%20avec%20ce%20qui%20est%20d%C3%A9j%C3%A0%20trait%C3%A9/2007-136-Hallegate-Hourcade-Ambrosi-Using%20climate%20analogues%20for%20assessing%20climate%20change%20economic%20impacts%20in%20urban%20areas-Climatic%20change.pdf",
+        "accessDate": "",
+        "PMID": "",
+        "PMCID": "",
+        "ISSN": "",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "en",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "recueil-50ans-ajout-0018"
+          }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2026-06-24T07:28:36Z",
+        "dateModified": "2026-06-24T07:28:36Z"
+      }
+    },
+    "2": {
+      "key": "NFSI7AIZ",
+      "version": 7911,
+      "library": {
+        "type": "user",
+        "id": 2114597,
+        "name": "Base R2DS",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/base_r2ds",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/users/2114597/items/NFSI7AIZ",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds/items/NFSI7AIZ",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "creatorSummary": "Finon and Perez",
+        "parsedDate": "2007",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "NFSI7AIZ",
+        "version": 7911,
+        "itemType": "journalArticle",
+        "title": "The social efficiency of instruments of promotion of renewable energies: A transaction-cost perspective",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Dominique",
+            "lastName": "Finon"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Yannick",
+            "lastName": "Perez"
+          }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Ecological Economics",
+        "publisher": "",
+        "place": "",
+        "date": "2007",
+        "volume": "62",
+        "issue": "1",
+        "section": "",
+        "partNumber": "",
+        "partTitle": "",
+        "pages": "77-92",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "DOI": "10.1016/j.ecolecon.2006.05.011",
+        "citationKey": "",
+        "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/attente/%C3%A0%20d%C3%A9doublonner%20avec%20ce%20qui%20est%20d%C3%A9j%C3%A0%20trait%C3%A9/2007-172-Finon-Perez-The%20social%20efficiency%20of%20instruments%20of%20Promotion%20of%20Renewables%20in%20the%20Electricity%20Industry-A%20transaction%20cost%20perspective-Ecological%20Economics.pdf",
+        "accessDate": "",
+        "PMID": "",
+        "PMCID": "",
+        "ISSN": "",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "en",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "recueil-50ans-ajout-0018"
+          }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2026-06-24T07:28:36Z",
+        "dateModified": "2026-06-24T07:28:36Z"
+      }
+    },
+    "3": {
+      "key": "565A3R98",
+      "version": 7912,
+      "library": {
+        "type": "user",
+        "id": 2114597,
+        "name": "Base R2DS",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/base_r2ds",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/users/2114597/items/565A3R98",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds/items/565A3R98",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "creatorSummary": "Hallegatte et al.",
+        "parsedDate": "2008",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "565A3R98",
+        "version": 7912,
+        "itemType": "journalArticle",
+        "title": "Business cycles, bifurcations and chaos in a neo-classical model with investment dynamics",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Stéphane",
+            "lastName": "Hallegatte"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Michael",
+            "lastName": "Ghil"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Patrice",
+            "lastName": "Dumas"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Jean-Charles",
+            "lastName": "Hourcade"
+          }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Journal of Economic Behavior &amp; Organization",
+        "publisher": "",
+        "place": "",
+        "date": "2008",
+        "volume": "67",
+        "issue": "1",
+        "section": "",
+        "partNumber": "",
+        "partTitle": "",
+        "pages": "57-77",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "DOI": "10.1016/j.jebo.2007.05.001",
+        "citationKey": "",
+        "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/attente/%C3%A0%20d%C3%A9doublonner%20avec%20ce%20qui%20est%20d%C3%A9j%C3%A0%20trait%C3%A9/2008-143-%20Hallegatte-Ghil-Dumas-Hourcade-Business%20Cycles-Bifurcations%20and%20Chaos%20in%20a%20Neo%20Classical%20Model%20with%20Investment%20%20Dynamics-Journal%20of%20Economic%20Behavior%20and%20Organization.pdf",
+        "accessDate": "",
+        "PMID": "",
+        "PMCID": "",
+        "ISSN": "",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "en",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "recueil-50ans-ajout-0018"
+          }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2026-06-24T07:28:36Z",
+        "dateModified": "2026-06-24T07:28:36Z"
+      }
+    },
+    "4": {
+      "key": "WQK7XEHH",
+      "version": 7913,
+      "library": {
+        "type": "user",
+        "id": 2114597,
+        "name": "Base R2DS",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/base_r2ds",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/users/2114597/items/WQK7XEHH",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds/items/WQK7XEHH",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "creatorSummary": "Hourcade et al.",
+        "parsedDate": "2008",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "WQK7XEHH",
+        "version": 7913,
+        "itemType": "bookSection",
+        "title": "Untying the Climate-Development Gordian Knot: Economic Options in a Politically Constrained World",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Jean-Charles",
+            "lastName": "Hourcade"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "P. R.",
+            "lastName": "Shukla"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Sandrine",
+            "lastName": "Mathy"
+          }
+        ],
+        "abstractNote": "",
+        "bookTitle": "The Design of Climate Policy",
+        "series": "",
+        "seriesNumber": "",
+        "volume": "",
+        "numberOfVolumes": "",
+        "edition": "",
+        "date": "2008",
+        "publisher": "The MIT Press",
+        "place": "",
+        "originalDate": "",
+        "originalPublisher": "",
+        "originalPlace": "",
+        "format": "",
+        "pages": "74-99",
+        "ISBN": "",
+        "DOI": "10.7551/mitpress/9780262073028.003.0005",
+        "citationKey": "",
+        "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/attente/%C3%A0%20d%C3%A9doublonner%20avec%20ce%20qui%20est%20d%C3%A9j%C3%A0%20trait%C3%A9/2008-207-Hourcade-Shukla-Mathy-Untying%20the%20Climate-Development%20Gordian%20Knot-Economic%20options%20in%20a%20politically%20constrained%20world-in-The%20design%20of%20climate%20policy.pdf",
+        "accessDate": "",
+        "ISSN": "",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "recueil-50ans-ajout-0018"
+          }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2026-06-24T07:28:36Z",
+        "dateModified": "2026-06-24T07:28:36Z"
+      }
+    },
+    "5": {
+      "key": "7TIKUE8J",
+      "version": 7914,
+      "library": {
+        "type": "user",
+        "id": 2114597,
+        "name": "Base R2DS",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/base_r2ds",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/users/2114597/items/7TIKUE8J",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds/items/7TIKUE8J",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "creatorSummary": "Monjon and Quirion",
+        "parsedDate": "2010",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "7TIKUE8J",
+        "version": 7914,
+        "itemType": "journalArticle",
+        "title": "How to design a border adjustment for the European Union Emissions Trading System?",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Stéphanie",
+            "lastName": "Monjon"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Philippe",
+            "lastName": "Quirion"
+          }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Energy Policy",
+        "publisher": "",
+        "place": "",
+        "date": "2010",
+        "volume": "38",
+        "issue": "9",
+        "section": "",
+        "partNumber": "",
+        "partTitle": "",
+        "pages": "5199-5207",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "DOI": "10.1016/j.enpol.2010.05.005",
+        "citationKey": "",
+        "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/attente/%C3%A0%20d%C3%A9doublonner%20avec%20ce%20qui%20est%20d%C3%A9j%C3%A0%20trait%C3%A9/2010-150-Monjon_Quirion-How%20to%20design%20a%20border%20adjustment%20for%20the%20European%20Union%20Emissions%20Trading%20System-Energy-policy.pdf",
+        "accessDate": "",
+        "PMID": "",
+        "PMCID": "",
+        "ISSN": "",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "en",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "recueil-50ans-ajout-0018"
+          }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2026-06-24T07:28:37Z",
+        "dateModified": "2026-06-24T07:28:37Z"
+      }
+    },
+    "6": {
+      "key": "KQMI4WC2",
+      "version": 7915,
+      "library": {
+        "type": "user",
+        "id": 2114597,
+        "name": "Base R2DS",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/base_r2ds",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/users/2114597/items/KQMI4WC2",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds/items/KQMI4WC2",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "creatorSummary": "Sassi et al.",
+        "parsedDate": "2010",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "KQMI4WC2",
+        "version": 7915,
+        "itemType": "journalArticle",
+        "title": "IMACLIM-R: a modelling framework to simulate sustainable development pathways",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Olivier",
+            "lastName": "Sassi"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Renaud",
+            "lastName": "Crassous"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Jean Charles",
+            "lastName": "Hourcade"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Vincent",
+            "lastName": "Gitz"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Henri",
+            "lastName": "Waisman"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Celine",
+            "lastName": "Guivarch"
+          }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "International Journal of Global Environmental Issues",
+        "publisher": "",
+        "place": "",
+        "date": "2010",
+        "volume": "10",
+        "issue": "1/2",
+        "section": "",
+        "partNumber": "",
+        "partTitle": "",
+        "pages": "5",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "DOI": "10.1504/ijgenvi.2010.030566",
+        "citationKey": "",
+        "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/attente/%C3%A0%20d%C3%A9doublonner%20avec%20ce%20qui%20est%20d%C3%A9j%C3%A0%20trait%C3%A9/2010-151-Sassi-Crassous-Hourcade-Gitz-Waisman-Guivarch-Imaclim-R-a%20modelling%20framework%20to%20simulate%20sustainable%20development%20pathways-International%20Journal%20of%20Global%20Environmental%20Issues.doc",
+        "accessDate": "",
+        "PMID": "",
+        "PMCID": "",
+        "ISSN": "",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "en",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "recueil-50ans-ajout-0018"
+          }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2026-06-24T07:28:37Z",
+        "dateModified": "2026-06-24T07:28:37Z"
+      }
+    },
+    "7": {
+      "key": "9AIB83SH",
+      "version": 7916,
+      "library": {
+        "type": "user",
+        "id": 2114597,
+        "name": "Base R2DS",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/base_r2ds",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/users/2114597/items/9AIB83SH",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds/items/9AIB83SH",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "creatorSummary": "Rozenberg et al.",
+        "parsedDate": "2010",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "9AIB83SH",
+        "version": 7916,
+        "itemType": "journalArticle",
+        "title": "Climate policies as a hedge against the uncertainty on future oil supply",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Julie",
+            "lastName": "Rozenberg"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Stéphane",
+            "lastName": "Hallegatte"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Adrien",
+            "lastName": "Vogt-Schilb"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Olivier",
+            "lastName": "Sassi"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Céline",
+            "lastName": "Guivarch"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Henri",
+            "lastName": "Waisman"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Jean-Charles",
+            "lastName": "Hourcade"
+          }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Climatic Change",
+        "publisher": "",
+        "place": "",
+        "date": "2010",
+        "volume": "101",
+        "issue": "3-4",
+        "section": "",
+        "partNumber": "",
+        "partTitle": "",
+        "pages": "663-668",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "DOI": "10.1007/s10584-010-9868-8",
+        "citationKey": "",
+        "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/attente/%C3%A0%20d%C3%A9doublonner%20avec%20ce%20qui%20est%20d%C3%A9j%C3%A0%20trait%C3%A9/2010-152-Rozenberg-Hallegatte-Vogt-Schilb-Sassi-Guivarch-Waisman-Hourcade-Climate%20policies%20as%20a%20hedge%20against%20the%20uncertainty%20on%20future%20oil%20supply-Climatic%20change.pdf",
+        "accessDate": "",
+        "PMID": "",
+        "PMCID": "",
+        "ISSN": "",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "en",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "recueil-50ans-ajout-0018"
+          }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2026-06-24T07:28:37Z",
+        "dateModified": "2026-06-24T07:28:37Z"
+      }
+    },
+    "8": {
+      "key": "PVSC6ZMQ",
+      "version": 7917,
+      "library": {
+        "type": "user",
+        "id": 2114597,
+        "name": "Base R2DS",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/base_r2ds",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/users/2114597/items/PVSC6ZMQ",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds/items/PVSC6ZMQ",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "creatorSummary": "Finon",
+        "parsedDate": "2012",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "PVSC6ZMQ",
+        "version": 7917,
+        "itemType": "journalArticle",
+        "title": "Efficiency of policy instruments for CCS deployment",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Dominique",
+            "lastName": "Finon"
+          }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Climate Policy",
+        "publisher": "",
+        "place": "",
+        "date": "2012",
+        "volume": "12",
+        "issue": "2",
+        "section": "",
+        "partNumber": "",
+        "partTitle": "",
+        "pages": "237-254",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "DOI": "10.1080/14693062.2011.605702",
+        "citationKey": "",
+        "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/attente/%C3%A0%20d%C3%A9doublonner%20avec%20ce%20qui%20est%20d%C3%A9j%C3%A0%20trait%C3%A9/2011-175-Finon-Efficiency%20of%20policy%20instruments%20for%20CCS%20deployment%2C%20Climate%20policy.odt",
+        "accessDate": "",
+        "PMID": "",
+        "PMCID": "",
+        "ISSN": "",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "en",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "recueil-50ans-ajout-0018"
+          }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2026-06-24T07:28:37Z",
+        "dateModified": "2026-06-24T07:28:37Z"
+      }
+    },
+    "9": {
+      "key": "AEZXX8F8",
+      "version": 7918,
+      "library": {
+        "type": "user",
+        "id": 2114597,
+        "name": "Base R2DS",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/base_r2ds",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/users/2114597/items/AEZXX8F8",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds/items/AEZXX8F8",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "creatorSummary": "Hourcade et al.",
+        "parsedDate": "2012",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "AEZXX8F8",
+        "version": 7918,
+        "itemType": "journalArticle",
+        "title": "Venturing into uncharted financial waters: an essay on climate-friendly finance",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "J. C.",
+            "lastName": "Hourcade"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "B.",
+            "lastName": "Perrissin Fabert"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "J.",
+            "lastName": "Rozenberg"
+          }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "International Environmental Agreements: Politics, Law and Economics",
+        "publisher": "",
+        "place": "",
+        "date": "2012",
+        "volume": "12",
+        "issue": "2",
+        "section": "",
+        "partNumber": "",
+        "partTitle": "",
+        "pages": "165-186",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "DOI": "10.1007/s10784-012-9169-y",
+        "citationKey": "",
+        "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/attente/%C3%A0%20d%C3%A9doublonner%20avec%20ce%20qui%20est%20d%C3%A9j%C3%A0%20trait%C3%A9/2011-210-Hourcade-Perrissin-Fabert%2C-Rozenberg-Venturing-into-uncharted-financial-waters-an-essay-on-climate-friendly-finance-International-Environmental-Agreements-Politics-Law-and-Economics.pdf",
+        "accessDate": "",
+        "PMID": "",
+        "PMCID": "",
+        "ISSN": "",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "en",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "recueil-50ans-ajout-0018"
+          }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2026-06-24T07:28:37Z",
+        "dateModified": "2026-06-24T07:28:37Z"
+      }
+    },
+    "10": {
+      "key": "PTIFHX7E",
+      "version": 7919,
+      "library": {
+        "type": "user",
+        "id": 2114597,
+        "name": "Base R2DS",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/base_r2ds",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/users/2114597/items/PTIFHX7E",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds/items/PTIFHX7E",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "creatorSummary": "Waisman et al.",
+        "parsedDate": "2012",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "PTIFHX7E",
+        "version": 7919,
+        "itemType": "journalArticle",
+        "title": "Peak Oil profiles through the lens of a general equilibrium assessment",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Henri",
+            "lastName": "Waisman"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Julie",
+            "lastName": "Rozenberg"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Olivier",
+            "lastName": "Sassi"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Jean-Charles",
+            "lastName": "Hourcade"
+          }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Energy Policy",
+        "publisher": "",
+        "place": "",
+        "date": "2012",
+        "volume": "48",
+        "issue": "",
+        "section": "",
+        "partNumber": "",
+        "partTitle": "",
+        "pages": "744-753",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "DOI": "10.1016/j.enpol.2012.06.005",
+        "citationKey": "",
+        "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/attente/%C3%A0%20d%C3%A9doublonner%20avec%20ce%20qui%20est%20d%C3%A9j%C3%A0%20trait%C3%A9/2012-212-Waisman-Rozenberg-Sassi%2C-Hourcade-Peak-Oil-profiles-through-the-lens-of-a-general-equilibrium-assessment-Energy-Policy.pdf",
+        "accessDate": "",
+        "PMID": "",
+        "PMCID": "",
+        "ISSN": "",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "en",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "recueil-50ans-ajout-0018"
+          }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2026-06-24T07:28:37Z",
+        "dateModified": "2026-06-24T07:28:37Z"
+      }
+    },
+    "11": {
+      "key": "DHPWE36E",
+      "version": 7920,
+      "library": {
+        "type": "user",
+        "id": 2114597,
+        "name": "Base R2DS",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/base_r2ds",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/users/2114597/items/DHPWE36E",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds/items/DHPWE36E",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "parsedDate": "2007",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "DHPWE36E",
+        "version": 7920,
+        "itemType": "report",
+        "title": "Differentiation and dynamics of EU ETS industrial competitiveness impacts",
+        "creators": [],
+        "abstractNote": "",
+        "reportNumber": "",
+        "reportType": "",
+        "institution": "",
+        "place": "",
+        "date": "2007",
+        "seriesTitle": "",
+        "seriesNumber": "",
+        "pages": "",
+        "DOI": "",
+        "ISBN": "",
+        "citationKey": "",
+        "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/attente/%C3%A0%20d%C3%A9doublonner%20avec%20ce%20qui%20est%20d%C3%A9j%C3%A0%20trait%C3%A9/2007-138-Hourcade-Demailly-Neuhoff-Sato-Grubb-Matthes-Graichen-Differentiation%20and%20dynamics%20of%20EU%20ETS%20industrial%20competitiveness%20impacts-%20Climate%20Strategies%20Report.pdf",
+        "accessDate": "",
+        "ISSN": "",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "Climate Strategies Report",
+        "tags": [
+          {
+            "tag": "recueil-50ans-ajout-0018"
+          },
+          {
+            "tag": "à-vérifier"
+          }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2026-06-24T07:28:37Z",
+        "dateModified": "2026-06-24T07:28:37Z"
+      }
+    },
+    "12": {
+      "key": "BGKSJQJQ",
+      "version": 7921,
+      "library": {
+        "type": "user",
+        "id": 2114597,
+        "name": "Base R2DS",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/base_r2ds",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/users/2114597/items/BGKSJQJQ",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds/items/BGKSJQJQ",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "parsedDate": "2013",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "BGKSJQJQ",
+        "version": 7921,
+        "itemType": "report",
+        "title": "Effet net sur l'emploi de la transition énergétique en France : une analyse input-output du scénario négaWatt",
+        "creators": [],
+        "abstractNote": "",
+        "reportNumber": "",
+        "reportType": "",
+        "institution": "CIRED",
+        "place": "",
+        "date": "2013",
+        "seriesTitle": "",
+        "seriesNumber": "",
+        "pages": "",
+        "DOI": "",
+        "ISBN": "",
+        "citationKey": "",
+        "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/attente/%C3%A0%20d%C3%A9doublonner%20avec%20ce%20qui%20est%20d%C3%A9j%C3%A0%20trait%C3%A9/2013-162-Quirion-Effet-net-sur-emploirderlartransition-energetiqueeeneFrance-Une-analyse-input-output-du-scenario-negaWatt-WP-Cired.pdf",
+        "accessDate": "",
+        "ISSN": "",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "Working Paper CIRED",
+        "tags": [
+          {
+            "tag": "recueil-50ans-ajout-0018"
+          },
+          {
+            "tag": "à-vérifier"
+          }
+        ],
+        "collections": [],
+        "relations": {},
+        "dateAdded": "2026-06-24T07:28:37Z",
+        "dateModified": "2026-06-24T07:28:37Z"
+      }
+    }
+  },
+  "success": {
+    "0": "9BZTJNJ2",
+    "1": "84DPXVJG",
+    "2": "NFSI7AIZ",
+    "3": "565A3R98",
+    "4": "WQK7XEHH",
+    "5": "7TIKUE8J",
+    "6": "KQMI4WC2",
+    "7": "9AIB83SH",
+    "8": "PVSC6ZMQ",
+    "9": "AEZXX8F8",
+    "10": "PTIFHX7E",
+    "11": "DHPWE36E",
+    "12": "BGKSJQJQ"
+  },
+  "unchanged": {},
+  "failed": {}
+}

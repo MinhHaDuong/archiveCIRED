@@ -9,6 +9,8 @@ Author: Minh Ha-Duong
 
 2026-06-22T18:17Z claude note Action 1 faite : src/select_new_recueil.py reproduit la sélection (77 déjà-corpus, 8 meilleurs-scans, 18 nouveaux, 7 non-standard). Reste l'ingestion Zotero (écriture groupe privé, humain).
 2026-06-24T09:10Z claude note Résolution DOI des 13 stubs (action 4, pré-saisie) : src/resolve_stubs.py interroge Crossref + OpenAlex + HAL avec le nom de fichier descriptif, garde le meilleur candidat par source (score = couverture du titre candidat). Rapport outputs/resolve_stubs_report.{json,md}, cible Make. Résultat : 11/13 résolus avec DOI (8 corroborés par HAL) — Crossref meilleure source, OpenAlex le plus faible. 2 non résolus = littérature grise sans DOI (2007-138 Climate Strategies Report ; 2013-162 WP CIRED, nom de fichier OCR-abîmé) → saisie manuelle. Plusieurs DOI révèlent une année de publication ≠ id d'archive (ex. 2011-175→2012, 2011-210→2012) : caler sur le DOI au catalogage. Lecture seule, aucune écriture Zotero. Reste l'ingestion effective des 18 + arbitrage des 8 meilleurs scans.
+2026-06-24T10:00Z claude note Localisation corrigée (M. Ha-Duong) : les 13 sont sur INARI dans le bucket *numérisation* (kCj0pHP0-CIRED_numerisation/zotero/www/attente/à dédoublonner/), pas seulement sur doudou — tout le dossier local est miroir d'inari. (J'avais conclu à tort « pas sur inari » en ne testant que le bucket recueil Wehurei6.) Donc URL inari stable existante, pas de téléversement.
+2026-06-24T10:05Z claude note INGESTION FAITE : src/import_stubs.py crée les 13 dans My Library — 11 journalArticle/bookSection avec métadonnées PROPRES récupérées sur Crossref par DOI, 2 report « à-vérifier » (sans DOI). URL = inari existante. Tag recueil-50ans-ajout-0018, HORS collection VPDB49CK (miroir audité des 131, intouché). 13 créées, 0 échec (clés : outputs/recueil_stubs_created.json). Dédoublonnage triple-axe vérifié live : DOI/URL, titre+auteur+année, titre seul → 0 doublon. Les 5 autres « nouveaux » (vieux docs) sont déjà au catalogue via le miroir → les 18 sont au catalogue. Reste l'arbitrage des 8 meilleurs scans.
 --- body ---
 ## Context
 
@@ -70,7 +72,10 @@ Crossref ou saisie manuelle), pas une simple copie depuis le groupe.
    - [x] Résolution DOI : `src/resolve_stubs.py` (Crossref+OpenAlex+HAL) →
      `outputs/resolve_stubs_report.md`. **11/13** avec DOI (8 corroborés HAL) ;
      2 grise sans DOI (2007-138, 2013-162) à saisir à la main.
-   - [ ] Import effectif des 18 au catalogue (saisie/écriture, humaine).
+   - [x] Import effectif : `src/import_stubs.py --apply` crée les 13 dans My
+     Library (11 via Crossref-par-DOI, 2 report à-vérifier), URL inari, tag
+     `recueil-50ans-ajout-0018`, hors VPDB49CK. 0 doublon (vérifié 3 axes). Les
+     5 autres nouveaux déjà au catalogue via le miroir → 18/18 au catalogue.
 
 ## Test
 
@@ -91,6 +96,6 @@ Crossref ou saisie manuelle), pas une simple copie depuis le groupe.
 
 ## Exit criteria
 
-- [ ] Les 18 documents nouveaux sont au catalogue
+- [x] Les 18 documents nouveaux sont au catalogue (13 importés + 5 via le miroir)
 - [ ] Décision documentée pour les 8 meilleurs scans (quel PDF garder)
 - [ ] `make check` passe
