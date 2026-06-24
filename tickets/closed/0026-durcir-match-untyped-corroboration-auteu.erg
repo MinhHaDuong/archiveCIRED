@@ -2,11 +2,13 @@
 Title: Durcir match_untyped : corroboration auteur/année quand l'accroche de titre est pure containment
 Created: 2026-06-23
 Author: Minh Ha-Duong
+Closed: autoclosed — PR #48
 
 --- log ---
 2026-06-23T09:17Z Minh Ha-Duong created
 2026-06-23T09:17Z claude note Issu d'un balayage /roar : même classe de bug que le correctif de diff_recueil.py (containment gonflait un appariement Godard/Hourcade à 0.75 alors que le Jaccard valait 0.25). Latent ici, pas un défaut confirmé.
 
+2026-06-24T09:18Z Minh Ha-Duong closed — autoclosed — PR #48
 --- body ---
 ## Contexte
 
