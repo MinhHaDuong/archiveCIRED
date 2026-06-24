@@ -1,0 +1,685 @@
+[
+  {
+    "id": "1972-007",
+    "year": 1972,
+    "query": "Rapport Croissance et environnement – Quelques aspects économiques de la protection de l’environnement Groupe de recherche sur les stratégies de développement",
+    "sources": {
+      "crossref": {
+        "source": "crossref",
+        "id": "10.18356/8c5eb42e-fr",
+        "title": "Travail décent et croissance économique",
+        "authors": [
+          ""
+        ],
+        "journal": "Rapport sur les Objectifs de Développement Durable",
+        "year": 2020,
+        "score": 0.25
+      },
+      "openalex": {
+        "source": "openalex",
+        "id": "https://doi.org/10.7202/018469ar",
+        "title": "De l’eau pour un développement durable : enjeux et stratégies",
+        "authors": [
+          "Ahmed Kettab",
+          "R. Mitiche",
+          "Naoual Bennaçar"
+        ],
+        "journal": "Revue des sciences de l eau",
+        "year": 2008,
+        "score": 0.4
+      },
+      "hal": null
+    }
+  },
+  {
+    "id": "1979-031",
+    "year": 1979,
+    "query": "Schiray Sigal Styles de vie IFDA Dossier 14 1979",
+    "sources": {
+      "crossref": {
+        "source": "crossref",
+        "id": "10.7193/dm.002.59-61",
+        "title": "Les études de \"styles de vie\" : Un dossier-débat",
+        "authors": [
+          "Strazzieri Alain"
+        ],
+        "journal": "Décisions Marketing",
+        "year": 1994,
+        "score": 0.6
+      },
+      "openalex": null,
+      "hal": null
+    }
+  },
+  {
+    "id": "1981-042",
+    "year": 1981,
+    "query": "Nicolon Oppositions projets d equipement article rfsp num 31 2",
+    "sources": {
+      "crossref": {
+        "source": "crossref",
+        "id": "10.3406/rfsp.1981.393959",
+        "title": "Oppositions locales à des projets d'équipement",
+        "authors": [
+          "Nicolon Alexandre"
+        ],
+        "journal": "Revue française de science politique",
+        "year": 1981,
+        "score": 0.75
+      },
+      "openalex": null,
+      "hal": null
+    }
+  },
+  {
+    "id": "1982-052",
+    "year": 1982,
+    "query": "Godard La decentralisation et la planification du developpement endogene IFDA doss 32",
+    "sources": {
+      "crossref": {
+        "source": "crossref",
+        "id": "10.1515/9783112317181-010",
+        "title": "TECHNIQUE ET DEVELOPPEMENT",
+        "authors": [],
+        "journal": "Development – The Western View / La Perspective Occidentale du Developpement",
+        "year": 1972,
+        "score": 0.5
+      },
+      "openalex": null,
+      "hal": null
+    }
+  },
+  {
+    "id": "1993-097",
+    "year": 1993,
+    "query": "Godard Strategies industrielles et conventions d environnement INSEE Methodes Environnement et economie39 40",
+    "sources": {
+      "crossref": {
+        "source": "crossref",
+        "id": "10.3917/sedes.dorie.2006.01.0232",
+        "title": "Ville et environnement",
+        "authors": [
+          "Godard Xavier"
+        ],
+        "journal": "Ville et environnement",
+        "year": 2006,
+        "score": 0.5
+      },
+      "openalex": null,
+      "hal": null
+    }
+  },
+  {
+    "id": "2001-197",
+    "year": 2001,
+    "query": "mathy hourcade gouvello CDM leverage for development",
+    "sources": {
+      "crossref": {
+        "source": "crossref",
+        "id": "10.3763/cpol.2001.0125",
+        "title": "Clean development mechanism: leverage for development?",
+        "authors": [
+          "Mathy Sandrine",
+          "Hourcade Jean-Charles",
+          "de Gouvello Christophe"
+        ],
+        "journal": "Climate Policy",
+        "year": 2001,
+        "score": 0.5
+      },
+      "openalex": {
+        "source": "openalex",
+        "id": "https://openalex.org/W2098920023",
+        "title": "Sustainable Development and Mitigation",
+        "authors": [
+          "Jayant Sathaye",
+          "Adil Najam",
+          "Chris Cocklin",
+          "Thomas Heller",
+          "Franck Lecocq",
+          "Llanes-Regueiro, Juan",
+          "Jiahua Pan",
+          "Steve Rayner"
+        ],
+        "journal": "ResearchOnline at James Cook University (James Cook University)",
+        "year": 2007,
+        "score": 0.333
+      },
+      "hal": {
+        "source": "hal",
+        "id": "10.1016/S1469-3062(01)00013-4",
+        "hal_id": "halshs-01285635",
+        "title": "Clean development mechanism: leverage for development?",
+        "authors": [
+          "Sandrine Mathy",
+          "Jean Charles Hourcade",
+          "Christophe de Gouvello"
+        ],
+        "journal": "Climate Policy",
+        "year": 2001,
+        "score": 0.5
+      }
+    }
+  },
+  {
+    "id": "2007-136",
+    "year": 2007,
+    "query": "Hallegate Hourcade Ambrosi Using climate analogues for assessing climate change economic impacts in urban areas Climatic change",
+    "sources": {
+      "crossref": {
+        "source": "crossref",
+        "id": "10.1007/s10584-006-9161-z",
+        "title": "Using climate analogues for assessing climate change economic impacts in urban areas",
+        "authors": [
+          "Hallegatte Stéphane",
+          "Hourcade Jean-Charles",
+          "Ambrosi Philippe"
+        ],
+        "journal": "Climatic Change",
+        "year": 2007,
+        "score": 1.0
+      },
+      "openalex": {
+        "source": "openalex",
+        "id": "https://doi.org/10.5194/nhess-12-1811-2012",
+        "title": "Urban vulnerability and resilience within the context of climate change",
+        "authors": [
+          "Eric Tromeur",
+          "R. Jamey Menard",
+          "J.-B. Bailly",
+          "C. Soulié"
+        ],
+        "journal": "Natural hazards and earth system sciences",
+        "year": 2012,
+        "score": 0.429
+      },
+      "hal": null
+    }
+  },
+  {
+    "id": "2007-138",
+    "year": 2007,
+    "query": "Hourcade Demailly Neuhoff Sato Grubb Matthes Graichen Differentiation and dynamics of EU ETS industrial competitiveness impacts Climate Strategies Report",
+    "sources": {
+      "crossref": {
+        "source": "crossref",
+        "id": "10.1080/14693062.2006.9685592",
+        "title": "Auctioning of EU ETS phase II allowances: how and why?",
+        "authors": [
+          "Hepburn Cameron",
+          "Grubb Michael",
+          "Neuhoff Karsten",
+          "Matthes Felix",
+          "Tse Maximilien"
+        ],
+        "journal": "Climate Policy",
+        "year": 2006,
+        "score": 0.25
+      },
+      "openalex": {
+        "source": "openalex",
+        "id": "https://openalex.org/W118538685",
+        "title": "The Effect of EU-ETS on Swedish Industry's Investment in Carbon Mitigating Technologies",
+        "authors": [
+          "Åsa Löfgren",
+          "Markus Wråke",
+          "Tomas Hagberg",
+          "Susanna Roth"
+        ],
+        "journal": "RePEc: Research Papers in Economics",
+        "year": 2013,
+        "score": 0.222
+      },
+      "hal": null
+    }
+  },
+  {
+    "id": "2007-172",
+    "year": 2007,
+    "query": "Finon Perez The social efficiency of instruments of Promotion of Renewables in the Electricity Industry A transaction cost perspective Ecological Economics",
+    "sources": {
+      "crossref": {
+        "source": "crossref",
+        "id": "10.1016/j.ecolecon.2006.05.011",
+        "title": "The social efficiency of instruments of promotion of renewable energies: A transaction-cost perspective",
+        "authors": [
+          "Finon Dominique",
+          "Perez Yannick"
+        ],
+        "journal": "Ecological Economics",
+        "year": 2007,
+        "score": 0.778
+      },
+      "openalex": {
+        "source": "openalex",
+        "id": "https://doi.org/10.2172/991963",
+        "title": "Supporting Solar Power in Renewables Portfolio Standards: Experience from the United States",
+        "authors": [
+          "Ryan Wiser",
+          "Galen Barbose",
+          "Edward Holt"
+        ],
+        "journal": "",
+        "year": 2010,
+        "score": 0.1
+      },
+      "hal": null
+    }
+  },
+  {
+    "id": "2008-143",
+    "year": 2008,
+    "query": "Hallegatte Ghil Dumas Hourcade Business Cycles Bifurcations and Chaos in a Neo Classical Model with Investment Dynamics Journal of Economic Behavior and Organization",
+    "sources": {
+      "crossref": {
+        "source": "crossref",
+        "id": "10.1016/j.jebo.2007.05.001",
+        "title": "Business cycles, bifurcations and chaos in a neo-classical model with investment dynamics",
+        "authors": [
+          "Hallegatte Stéphane",
+          "Ghil Michael",
+          "Dumas Patrice",
+          "Hourcade Jean-Charles"
+        ],
+        "journal": "Journal of Economic Behavior &amp; Organization",
+        "year": 2008,
+        "score": 1.0
+      },
+      "openalex": {
+        "source": "openalex",
+        "id": "https://doi.org/10.1257/jep.13.4.169",
+        "title": "On the Complexities of Complex Economic Dynamics",
+        "authors": [
+          "J. Barkley Rosser"
+        ],
+        "journal": "The Journal of Economic Perspectives",
+        "year": 1999,
+        "score": 0.5
+      },
+      "hal": {
+        "source": "hal",
+        "id": "10.1016/j.jebo.2007.05.001",
+        "hal_id": "hal-00598263",
+        "title": "Business Cycles, Bifurcations and Chaos in a Neo-Classical Model with Investment Dynamics",
+        "authors": [
+          "Stéphane Hallegatte",
+          "Michael Ghil",
+          "Patrice Dumas",
+          "Jean Charles Hourcade"
+        ],
+        "journal": "Journal of Economic Behavior and Organization",
+        "year": 2008,
+        "score": 1.0
+      }
+    }
+  },
+  {
+    "id": "2008-207",
+    "year": 2008,
+    "query": "Hourcade Shukla Mathy Untying the Climate Development Gordian Knot Economic options in a politically constrained world in The design of climate policy",
+    "sources": {
+      "crossref": {
+        "source": "crossref",
+        "id": "10.7551/mitpress/9780262073028.003.0005",
+        "title": "Untying the Climate-Development Gordian Knot: Economic Options in a Politically Constrained World",
+        "authors": [
+          "Hourcade Jean-Charles",
+          "Shukla P. R.",
+          "Mathy Sandrine"
+        ],
+        "journal": "The Design of Climate Policy",
+        "year": 2008,
+        "score": 1.0
+      },
+      "openalex": {
+        "source": "openalex",
+        "id": "https://doi.org/10.2139/ssrn.1596079",
+        "title": "Structuring International Financial Support for Climate Change Mitigation in Developing Countries",
+        "authors": [
+          "Karsten Neuhoff",
+          "Samuel Fankhauser",
+          "Emmanuel Guérin",
+          "Jean-Charles Hourcade",
+          "Helen C. Jackson",
+          "Ranjita Rajan",
+          "John Ward"
+        ],
+        "journal": "SSRN Electronic Journal",
+        "year": 2010,
+        "score": 0.111
+      },
+      "hal": {
+        "source": "hal",
+        "id": "hal-00783370",
+        "hal_id": "hal-00783370",
+        "title": "Untying the Climate - Development Gordian Knot: Economic options in a politically constrained world",
+        "authors": [
+          "Jc Hourcade",
+          "Pr Shukla",
+          "S Mathy"
+        ],
+        "journal": "",
+        "year": 2009,
+        "score": 1.0
+      }
+    }
+  },
+  {
+    "id": "2010-150",
+    "year": 2010,
+    "query": "Monjon Quirion How to design a border adjustment for the European Union Emissions Trading System Energy policy",
+    "sources": {
+      "crossref": {
+        "source": "crossref",
+        "id": "10.1016/j.enpol.2010.05.005",
+        "title": "How to design a border adjustment for the European Union Emissions Trading System?",
+        "authors": [
+          "Monjon Stéphanie",
+          "Quirion Philippe"
+        ],
+        "journal": "Energy Policy",
+        "year": 2010,
+        "score": 1.0
+      },
+      "openalex": {
+        "source": "openalex",
+        "id": "https://doi.org/10.1038/s41558-021-01250-z",
+        "title": "Potential impacts and challenges of border carbon adjustments",
+        "authors": [
+          "Christoph Böhringer",
+          "Carolyn Fischer",
+          "Knut Einar Rosendahl",
+          "Thomas F. Rutherford"
+        ],
+        "journal": "Nature Climate Change",
+        "year": 2022,
+        "score": 0.167
+      },
+      "hal": {
+        "source": "hal",
+        "id": "10.1016/j.enpol.2010.05.005",
+        "hal_id": "hal-00719254",
+        "title": "How to design a border adjustment for the European Union Emissions Trading System?",
+        "authors": [
+          "S. Monjon",
+          "Philippe Quirion"
+        ],
+        "journal": "Energy Policy",
+        "year": 2010,
+        "score": 1.0
+      }
+    }
+  },
+  {
+    "id": "2010-151",
+    "year": 2010,
+    "query": "Sassi Crassous Hourcade Gitz Waisman Guivarch Imaclim R a modelling framework to simulate sustainable development pathways International Journal of Global Environmental Issues",
+    "sources": {
+      "crossref": {
+        "source": "crossref",
+        "id": "10.1504/ijgenvi.2010.030566",
+        "title": "IMACLIM-R: a modelling framework to simulate sustainable development pathways",
+        "authors": [
+          "Sassi Olivier",
+          "Crassous Renaud",
+          "Hourcade Jean Charles",
+          "Gitz Vincent",
+          "Waisman Henri",
+          "Guivarch Celine"
+        ],
+        "journal": "International Journal of Global Environmental Issues",
+        "year": 2010,
+        "score": 1.0
+      },
+      "openalex": {
+        "source": "openalex",
+        "id": "https://doi.org/10.1016/j.apenergy.2019.02.002",
+        "title": "Prospects for energy economy modelling with big data: Hype, eliminating blind spots, or revolutionising the state of the art?",
+        "authors": [
+          "Francis G.N. Li",
+          "Chris Bataille",
+          "Steve Pye",
+          "Aïdan O'Sullivan"
+        ],
+        "journal": "Applied Energy",
+        "year": 2019,
+        "score": 0.067
+      },
+      "hal": {
+        "source": "hal",
+        "id": "10.1504/IJGENVI.2010.030566",
+        "hal_id": "hal-00566290",
+        "title": "IMACLIM-R: a modelling framework to simulate sustainable development pathways",
+        "authors": [
+          "Jean Charles Hourcade",
+          "Olivier Sassi",
+          "Renaud Crassous",
+          "Vincent Gitz",
+          "Henri Waisman",
+          "Céline Guivarch"
+        ],
+        "journal": "International Journal of Global Environmental Issues",
+        "year": 2010,
+        "score": 1.0
+      }
+    }
+  },
+  {
+    "id": "2010-152",
+    "year": 2010,
+    "query": "Rozenberg Hallegatte Vogt Schilb Sassi Guivarch Waisman Hourcade Climate policies as a hedge against the uncertainty on future oil supply Climatic change",
+    "sources": {
+      "crossref": {
+        "source": "crossref",
+        "id": "10.1007/s10584-010-9868-8",
+        "title": "Climate policies as a hedge against the uncertainty on future oil supply",
+        "authors": [
+          "Rozenberg Julie",
+          "Hallegatte Stéphane",
+          "Vogt-Schilb Adrien",
+          "Sassi Olivier",
+          "Guivarch Céline",
+          "Waisman Henri",
+          "Hourcade Jean-Charles"
+        ],
+        "journal": "Climatic Change",
+        "year": 2010,
+        "score": 1.0
+      },
+      "openalex": {
+        "source": "openalex",
+        "id": "https://doi.org/10.1002/wene.256",
+        "title": "Climate policies and nationally determined contributions: reconciling the needed ambition with the political economy",
+        "authors": [
+          "Adrien Vogt‐Schilb",
+          "Stéphane Hallegatte"
+        ],
+        "journal": "Wiley Interdisciplinary Reviews Energy and Environment",
+        "year": 2017,
+        "score": 0.182
+      },
+      "hal": {
+        "source": "hal",
+        "id": "10.1007/s10584-010-9868-8",
+        "hal_id": "hal-00667118",
+        "title": "Climate policies as a hedge against the uncertainty on future oil supply",
+        "authors": [
+          "Julie Rozenberg",
+          "Stéphane Hallegatte",
+          "Adrien Vogt-Schilb",
+          "Olivier Sassi",
+          "Céline Guivarch",
+          "Henri Waisman",
+          "Jean Charles Hourcade"
+        ],
+        "journal": "Climatic Change",
+        "year": 2010,
+        "score": 1.0
+      }
+    }
+  },
+  {
+    "id": "2011-175",
+    "year": 2011,
+    "query": "Finon Efficiency of policy instruments for CCS deployment, Climate policy",
+    "sources": {
+      "crossref": {
+        "source": "crossref",
+        "id": "10.1080/14693062.2011.605702",
+        "title": "Efficiency of policy instruments for CCS deployment",
+        "authors": [
+          "Finon Dominique"
+        ],
+        "journal": "Climate Policy",
+        "year": 2012,
+        "score": 1.0
+      },
+      "openalex": {
+        "source": "openalex",
+        "id": "https://doi.org/10.1787/5kg6qdx6b5q6-en",
+        "title": "Climate-Change Policy in the United Kingdom",
+        "authors": [
+          "Alex Bowen",
+          "James Rydge"
+        ],
+        "journal": "OECD Economics Department working papers",
+        "year": 2011,
+        "score": 0.4
+      },
+      "hal": {
+        "source": "hal",
+        "id": "10.1080/14693062.2011.605702",
+        "hal_id": "hal-00715348",
+        "title": "Efficiency of policy instruments for CCS deployment",
+        "authors": [
+          "Dominique Finon"
+        ],
+        "journal": "Climate Policy",
+        "year": 2012,
+        "score": 1.0
+      }
+    }
+  },
+  {
+    "id": "2011-210",
+    "year": 2011,
+    "query": "Hourcade Perrissin Fabert, Rozenberg Venturing into uncharted financial waters an essay on climate friendly finance International Environmental Agreements Politics Law and Economics",
+    "sources": {
+      "crossref": {
+        "source": "crossref",
+        "id": "10.1007/s10784-012-9169-y",
+        "title": "Venturing into uncharted financial waters: an essay on climate-friendly finance",
+        "authors": [
+          "Hourcade J. C.",
+          "Perrissin Fabert B.",
+          "Rozenberg J."
+        ],
+        "journal": "International Environmental Agreements: Politics, Law and Economics",
+        "year": 2012,
+        "score": 1.0
+      },
+      "openalex": {
+        "source": "openalex",
+        "id": "https://doi.org/10.1007/s10784-016-9349-2",
+        "title": "Special issue: managing fragmentation and complexity in the emerging system of international climate finance",
+        "authors": [
+          "Jonathan Pickering",
+          "Carola Betzold",
+          "Jakob Skovgaard"
+        ],
+        "journal": "International Environmental Agreements Politics Law and Economics",
+        "year": 2017,
+        "score": 0.3
+      },
+      "hal": {
+        "source": "hal",
+        "id": "10.1007/s10784-012-9169-y",
+        "hal_id": "hal-00715343",
+        "title": "Venturing into uncharted financial waters: an essay on climate-friendly finance",
+        "authors": [
+          "Jean Charles Hourcade",
+          "B. Perrissin Fabert",
+          "J. Rozenberg"
+        ],
+        "journal": "INTERNATIONAL ENVIRONMENTAL AGREEMENTS-POLITICS LAW AND ECONOMICS",
+        "year": 2012,
+        "score": 1.0
+      }
+    }
+  },
+  {
+    "id": "2012-212",
+    "year": 2012,
+    "query": "Waisman Rozenberg Sassi, Hourcade Peak Oil profiles through the lens of a general equilibrium assessment Energy Policy",
+    "sources": {
+      "crossref": {
+        "source": "crossref",
+        "id": "10.1016/j.enpol.2012.06.005",
+        "title": "Peak Oil profiles through the lens of a general equilibrium assessment",
+        "authors": [
+          "Waisman Henri",
+          "Rozenberg Julie",
+          "Sassi Olivier",
+          "Hourcade Jean-Charles"
+        ],
+        "journal": "Energy Policy",
+        "year": 2012,
+        "score": 1.0
+      },
+      "openalex": {
+        "source": "openalex",
+        "id": "https://doi.org/10.1039/d3ee00772c",
+        "title": "Emerging consensus on net energy paves the way for improved integrated assessment modeling",
+        "authors": [
+          "Louis Delannoy",
+          "Matthieu Auzanneau",
+          "Baptiste Andrieu",
+          "Olivier Vidal",
+          "Pierre-Yves Longaretti",
+          "Emmanuel Prados",
+          "David J. Murphy",
+          "Roger Bentley"
+        ],
+        "journal": "Energy & Environmental Science",
+        "year": 2023,
+        "score": 0.2
+      },
+      "hal": {
+        "source": "hal",
+        "id": "10.1016/j.enpol.2012.06.005",
+        "hal_id": "hal-00787704",
+        "title": "Peak Oil profiles through the lens of a general equilibrium assessment",
+        "authors": [
+          "H. Waisman",
+          "J. Rozenberg",
+          "O. Sassi",
+          "Jean Charles Hourcade"
+        ],
+        "journal": "Energy Policy",
+        "year": 2012,
+        "score": 1.0
+      }
+    }
+  },
+  {
+    "id": "2013-162",
+    "year": 2013,
+    "query": "Quirion Effet net sur emploirderlartransition energetiqueeeneFrance Une analyse input output du scenario negaWatt WP Cired",
+    "sources": {
+      "crossref": {
+        "source": "crossref",
+        "id": "10.70675/9505fde4z3fcez40dcz9d7dzb1452b91a2d1",
+        "title": "Effet du sommeil sur un apprentissage implicite : transfert vers une mémoire explicite ?",
+        "authors": [
+          "",
+          "Cherdieu Mélaine"
+        ],
+        "journal": "",
+        "year": null,
+        "score": 0.222
+      },
+      "openalex": null,
+      "hal": null
+    }
+  }
+]
