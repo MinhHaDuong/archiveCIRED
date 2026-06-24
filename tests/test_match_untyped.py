@@ -92,6 +92,62 @@ def test_match_one_ranks_and_thresholds():
     assert cands[0]["score"] > cands[1]["score"]
 
 
+def test_score_pure_containment_without_corroboration_is_incertain():
+    """Pure containment (jac < 0.4) sans auteur ni année → < 0.75 (incertain).
+
+    Régression ticket 0026 : cov seul poussait un appariement Godard↔Hourcade
+    à 0.75+ alors que le Jaccard valait 0.25.  Depuis le fix, une accroche
+    purement par containment exige un recoupement auteur OU année pour rester
+    « probable ».
+    """
+    # doc : 4 jetons, sous-ensemble du titre notice (12 jetons) → cov=1, jac≈0.33
+    doc_containment = {
+        "titre": "eau potable qualite ressources",
+        "auteurs": ["Godard, Olivier"],
+        "annee": 1984,
+    }
+    notice_long = {
+        "title": ("eau potable qualite ressources naturelles mondiales "
+                  "gouvernance institutions marches economique international"),
+        "creators": [{"lastName": "Hourcade"}],
+        "year": 1997,
+    }
+    s = mu.score(doc_containment, notice_long)
+    assert s < 0.75, f"containment seul sans corroboration doit rester incertain, score={s}"
+
+
+def test_score_pure_containment_with_author_stays_probable():
+    """Containment + même auteur → reste ≥ 0.75 (probable)."""
+    doc = {
+        "titre": "eau potable qualite ressources",
+        "auteurs": ["Godard, Olivier"],
+        "annee": 1984,
+    }
+    notice = {
+        "title": ("eau potable qualite ressources naturelles mondiales "
+                  "gouvernance institutions marches economique international"),
+        "creators": [{"lastName": "Godard"}],
+        "year": 1997,
+    }
+    assert mu.score(doc, notice) >= 0.75
+
+
+def test_score_pure_containment_with_year_stays_probable():
+    """Containment + même année → reste ≥ 0.75 (probable)."""
+    doc = {
+        "titre": "eau potable qualite ressources",
+        "auteurs": ["Godard, Olivier"],
+        "annee": 1984,
+    }
+    notice = {
+        "title": ("eau potable qualite ressources naturelles mondiales "
+                  "gouvernance institutions marches economique international"),
+        "creators": [{"lastName": "Hourcade"}],
+        "year": 1984,
+    }
+    assert mu.score(doc, notice) >= 0.75
+
+
 def test_match_all_partitions_probable_uncertain_absent():
     docs = [
         {"id": "hit", "titre": "Gestion de l'eau", "auteurs": ["Hourcade J.-C."], "annee": 1975},
