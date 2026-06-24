@@ -1,4 +1,4 @@
-Last updated: 2026-06-24T09:21Z
+Last updated: 2026-06-24T11:16Z
 
 ## North star
 
@@ -8,15 +8,15 @@ structurées (~740 documents). Succès = un chercheur trouve et télécharge n'i
 quelle publication via Zotero, métadonnées correctes. Dépôt HAL différé.
 
 ## Status
-<!-- generated 2026-06-24T09:21Z -->
+<!-- generated 2026-06-24T11:16Z -->
 
-**Tickets:** 6 ready · 13 blocked — `erg ready tickets/` for full list
+**Tickets:** 7 ready · 12 blocked — `erg ready tickets/` for full list
 **Recent commits:**
-  7718889 ticket(0026): close and archive — PR #48
-  abfc3cc ticket(0026): ajouter test_ruff manquant dans test_match_untyped.py
-  6e3a0cd ticket(0026): exiger corroboration auteur/année pour accroche pure-containment
-  03bc563 Merge pull request #44 from MinhHaDuong/enrich-hal-0022
-  883dd7a ticket(0022): harnais d'enrichissement HAL (phase rapport)
+  0b71431 ticket(0042): mapping publicationTitle type-naïf dans HAL et OpenAlex
+  9fa8193 Merge pull request #57 from MinhHaDuong/worktree-crossref-enrich
+  6fc4bcb Merge pull request #58 from MinhHaDuong/reopen-t0041
+  63b14ca chore(0041): rouvrir — run enrich_web.py pas encore exécuté
+  a3435b4 outputs(0038): revert 54 notices LEESU — enrichissement Crossref annulé
 
 ## Catalogue & index
 
@@ -26,10 +26,12 @@ quelle publication via Zotero, métadonnées correctes. Dépôt HAL différé.
 
 ## Chemin à suivre
 
-1. **0021** (normaliser auteurs) → swarms **0022**/**0023** (HAL/OpenAlex), **0024** en filet.
-2. Indépendant : **0020** (fonds Sachs).
+1. Enrichissements restants : **0023** (OpenAlex, relancer après reset budget UTC), **0024**/0041 (web, premier run), **0042** (corriger publicationTitle type-naïf dans HAL/OpenAlex).
+2. Normalisation : **0021** (auteurs).
+3. Indépendant : **0020** (fonds Sachs).
 
 ## Notes
 
 - **Autonomie PDF :** 668 stubs sans fichier attaché — inari sert les liens (HTTP 200)
   en intérim. Verser les 17,5 Go (0030) bloqué stockage : compte ENPC (0037).
+- **Enrichissements appliqués :** HAL 88 notices (0022 ✓) · Crossref 81 nettes (0038 ✓).
