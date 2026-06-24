@@ -87,22 +87,40 @@ def url_basename(url: str | None) -> str:
     return urllib.parse.unquote(url).strip().lower().rsplit("/", 1)[-1]
 
 
+# Étiquettes typographiques d'énumération — pas de l'information : « vol. 34 » et
+# « 34 » désignent le même volume. Retirées des deux côtés avant comparaison
+# (« n° » se réduit à « n » après pliage ASCII, « p. » à « p »).
+ENUM_LABELS = {"vol", "vols", "n", "no", "nos", "num", "p", "pp",
+               "page", "pages", "tome", "t", "fasc"}
+
+
+def _enum_tokens(s: str | None) -> set[str]:
+    """Jetons signifiants d'un champ énuméré, étiquettes typographiques retirées.
+
+    Le signe « ° » est supprimé par le pliage ASCII, ce qui collerait « n°1 » en
+    « n1 » : on le traite en séparateur d'abord, puis « n » tombe comme étiquette.
+    """
+    s = re.sub(r"[°º№]", " ", str(s or ""))
+    return set(norm_text(s).split()) - ENUM_LABELS
+
+
 def metadata_missing(group: dict, lib: dict,
                      fields: list[str] = ENUM_FIELDS) -> list[str]:
     """Champs énumérés présents dans `group` mais non couverts par `lib`.
 
-    Couverture par inclusion normalisée bidirectionnelle : « 22 » couvre « 22 »,
-    « pp. 29-35 » couvre « 29-35 ». Tolérant exprès — l'objectif est de repérer
-    une *vraie* perte (champ absent), pas une divergence de formatage.
+    Couverture par inclusion de tokens, étiquettes typographiques neutralisées :
+    « 22 » couvre « 22 », « pp. 29-35 » couvre « 29-35 », « 34 » couvre « vol. 34 ».
+    Tolérant exprès — l'objectif est de repérer une *vraie* perte (champ absent),
+    pas une divergence de formatage.
     """
     miss = []
     for f in fields:
-        gv = norm_text(group.get(f))
+        gv = _enum_tokens(group.get(f))
         if not gv:
             continue
-        # Inclusion par tokens (« 29 35 » ⊆ « pp 29 35 »), pas par sous-chaîne :
+        # Inclusion par tokens (« 29 35 » ⊆ « 29 35 »), pas par sous-chaîne :
         # évite qu'un volume « 2 » soit « couvert » par une année « 2024 ».
-        if not set(gv.split()) <= set(norm_text(lib.get(f)).split()):
+        if not gv <= _enum_tokens(lib.get(f)):
             miss.append(f)
     return miss
 
