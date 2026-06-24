@@ -1,0 +1,2235 @@
+[
+  {
+    "key": "48Y52GT6",
+    "ref": "crossref:10.1016/j.clipol.2003.10.011",
+    "score": 1.0,
+    "set": {
+      "ISSN": "1469-3062"
+    },
+    "applied": false
+  },
+  {
+    "key": "A45DECJC",
+    "ref": "crossref:10.4000/books.iheal.1418",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.4000/books.iheal.1418",
+      "publicationTitle": "Les phénomènes de frontière dans les pays tropicaux",
+      "pages": "201-207"
+    },
+    "applied": false
+  },
+  {
+    "key": "BF8ZAGC4",
+    "ref": "crossref:10.1177/053901847401300602",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1177/053901847401300602",
+      "publicationTitle": "Social Science Information",
+      "volume": "13",
+      "issue": "6",
+      "pages": "17-29",
+      "ISSN": "0539-0184"
+    },
+    "applied": false
+  },
+  {
+    "key": "RG6PJDIM",
+    "ref": "crossref:10.1061/40499(2000)154",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1061/40499(2000)154",
+      "publicationTitle": "Watershed Management and Operations Management 2000",
+      "pages": "1-10"
+    },
+    "applied": false
+  },
+  {
+    "key": "9NNSKW38",
+    "ref": "crossref:10.1051/lhb/1994015",
+    "score": 0.87,
+    "set": {
+      "DOI": "10.1051/lhb/1994015",
+      "publicationTitle": "La Houille Blanche",
+      "volume": "80",
+      "issue": "1-2",
+      "pages": "112-117",
+      "ISSN": "0018-6368"
+    },
+    "applied": false
+  },
+  {
+    "key": "EDXQIRGP",
+    "ref": "crossref:10.70675/475be1b8z5457z4d92z997dz72aeaae3d5ba",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.70675/475be1b8z5457z4d92z997dz72aeaae3d5ba"
+    },
+    "applied": false
+  },
+  {
+    "key": "WHIU7KV4",
+    "ref": "crossref:10.5194/npg-1-77-1994",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.5194/npg-1-77-1994",
+      "publicationTitle": "Nonlinear Processes in Geophysics",
+      "volume": "1",
+      "issue": "2/3",
+      "pages": "77-79",
+      "ISSN": "1607-7946"
+    },
+    "applied": false
+  },
+  {
+    "key": "3HXYQ9SB",
+    "ref": "crossref:10.1051/lhb/1989022",
+    "score": 0.9,
+    "set": {
+      "DOI": "10.1051/lhb/1989022",
+      "publicationTitle": "La Houille Blanche",
+      "volume": "75",
+      "issue": "3-4",
+      "pages": "239-242",
+      "ISSN": "0018-6368"
+    },
+    "applied": false
+  },
+  {
+    "key": "IRBX54XE",
+    "ref": "crossref:10.1029/wr013i002p00427",
+    "score": 0.7667,
+    "set": {
+      "DOI": "10.1029/wr013i002p00427",
+      "publicationTitle": "Water Resources Research",
+      "volume": "13",
+      "issue": "2",
+      "pages": "427-443",
+      "ISSN": "0043-1397"
+    },
+    "applied": false
+  },
+  {
+    "key": "4XYNSEFG",
+    "ref": "crossref:10.51257/a-v1-re101",
+    "score": 0.9,
+    "set": {
+      "DOI": "10.51257/a-v1-re101",
+      "publicationTitle": "Environnement"
+    },
+    "applied": false
+  },
+  {
+    "key": "CAVIKQ6W",
+    "ref": "crossref:10.1051/nss/19930104316",
+    "score": 1.0,
+    "set": {
+      "pages": "316-321",
+      "ISSN": "1240-1307"
+    },
+    "applied": false
+  },
+  {
+    "key": "EWVWMQPS",
+    "ref": "crossref:10.1016/0301-4215(93)90252-b",
+    "score": 1.0,
+    "set": {
+      "pages": "309-326"
+    },
+    "applied": false
+  },
+  {
+    "key": "AATNPKXT",
+    "ref": "crossref:10.1051/nss/19930102108",
+    "score": 1.0,
+    "set": {
+      "pages": "108-117",
+      "ISSN": "1240-1307"
+    },
+    "applied": false
+  },
+  {
+    "key": "HIH4ABAU",
+    "ref": "crossref:10.1051/nss/19940203202",
+    "score": 1.0,
+    "set": {
+      "pages": "202-211",
+      "ISSN": "1240-1307"
+    },
+    "applied": false
+  },
+  {
+    "key": "QRLF5SRD",
+    "ref": "crossref:10.1038/36825",
+    "score": 1.0,
+    "set": {
+      "pages": "270-273"
+    },
+    "applied": false
+  },
+  {
+    "key": "T2LLYZ9Z",
+    "ref": "crossref:10.1016/j.chemosphere.2005.03.022",
+    "score": 1.0,
+    "set": {
+      "pages": "645-651",
+      "ISSN": "0045-6535"
+    },
+    "applied": false
+  },
+  {
+    "key": "5XZ54S9Y",
+    "ref": "crossref:10.1016/j.reseneeco.2005.05.002",
+    "score": 1.0,
+    "set": {
+      "pages": "343-353",
+      "ISSN": "0928-7655"
+    },
+    "applied": false
+  },
+  {
+    "key": "7AJNH48Y",
+    "ref": "crossref:10.1007/s10584-005-9026-x",
+    "score": 1.0,
+    "set": {
+      "pages": "17-45",
+      "ISSN": "0165-0009"
+    },
+    "applied": false
+  },
+  {
+    "key": "3UU7NR6F",
+    "ref": "crossref:10.1016/j.ecolecon.2006.06.006",
+    "score": 1.0,
+    "set": {
+      "pages": "330-340",
+      "ISSN": "0921-8009"
+    },
+    "applied": false
+  },
+  {
+    "key": "3T33LI2E",
+    "ref": "crossref:10.3406/rint.2011.1207",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.3406/rint.2011.1207",
+      "volume": "89",
+      "issue": "1",
+      "pages": "93-112",
+      "ISSN": "0294-3069"
+    },
+    "applied": false
+  },
+  {
+    "key": "C3FBFNEZ",
+    "ref": "crossref:10.5547/issn0195-6574-ej-volsi2006-nosi2-3",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.5547/issn0195-6574-ej-volsi2006-nosi2-3",
+      "volume": "27",
+      "issue": "2_suppl",
+      "pages": "39-61",
+      "ISSN": "0195-6574"
+    },
+    "applied": false
+  },
+  {
+    "key": "C4DNFBD3",
+    "ref": "crossref:10.1007/s10584-011-0387-z",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1007/s10584-011-0387-z",
+      "publicationTitle": "Climatic Change",
+      "volume": "114",
+      "issue": "1",
+      "pages": "101-120",
+      "ISSN": "0165-0009"
+    },
+    "applied": false
+  },
+  {
+    "key": "AQH84LD2",
+    "ref": "crossref:10.1007/s10584-011-0387-z",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1007/s10584-011-0387-z",
+      "publicationTitle": "Climatic Change",
+      "volume": "114",
+      "issue": "1",
+      "pages": "101-120",
+      "ISSN": "0165-0009"
+    },
+    "applied": false
+  },
+  {
+    "key": "K3AZ222W",
+    "ref": "crossref:10.3406/tiers.1984.4371",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.3406/tiers.1984.4371",
+      "publicationTitle": "Tiers-Monde",
+      "volume": "25",
+      "issue": "100",
+      "pages": "801-808",
+      "ISSN": "0040-7356"
+    },
+    "applied": false
+  },
+  {
+    "key": "TK3F5JZC",
+    "ref": "crossref:10.3406/cbc.1989.1055",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.3406/cbc.1989.1055",
+      "publicationTitle": "Cahiers du Brésil Contemporain",
+      "volume": "6",
+      "issue": "1",
+      "pages": "9-56",
+      "ISSN": "0989-5191"
+    },
+    "applied": false
+  },
+  {
+    "key": "5D3SFHWE",
+    "ref": "crossref:10.1093/acprof:oso/9780198286370.003.0004",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1093/acprof:oso/9780198286370.003.0004",
+      "publicationTitle": "The Political Economy of Hunger: Volume 3: Endemic Hunger",
+      "pages": "93-118"
+    },
+    "applied": false
+  },
+  {
+    "key": "MKP7FDJH",
+    "ref": "crossref:10.1007/978-94-009-7404-3_3",
+    "score": 0.85,
+    "set": {
+      "DOI": "10.1007/978-94-009-7404-3_3",
+      "publicationTitle": "Management for the XXI Century",
+      "pages": "38-48"
+    },
+    "applied": false
+  },
+  {
+    "key": "SKNCPXQV",
+    "ref": "crossref:10.1016/0005-2744(80)90114-x",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1016/0005-2744(80)90114-x",
+      "publicationTitle": "Biochimica et Biophysica Acta (BBA) - Enzymology",
+      "volume": "612",
+      "issue": "2",
+      "pages": "317-327",
+      "ISSN": "0005-2744"
+    },
+    "applied": false
+  },
+  {
+    "key": "DAMI3WQD",
+    "ref": "crossref:10.4000/books.iheal.2874",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.4000/books.iheal.2874",
+      "publicationTitle": "Le Brésil à l’aube du troisième millénaire",
+      "pages": "33-47"
+    },
+    "applied": false
+  },
+  {
+    "key": "TKBB96ZF",
+    "ref": "crossref:10.1007/978-1-349-22526-2_11",
+    "score": 0.97,
+    "set": {
+      "DOI": "10.1007/978-1-349-22526-2_11",
+      "publicationTitle": "Market and Institutions in Economic Development",
+      "pages": "173-182"
+    },
+    "applied": false
+  },
+  {
+    "key": "ICZWULRI",
+    "ref": "crossref:10.1007/978-1-349-22526-2_11",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1007/978-1-349-22526-2_11",
+      "publicationTitle": "Market and Institutions in Economic Development",
+      "pages": "173-182"
+    },
+    "applied": false
+  },
+  {
+    "key": "V6CYVFAD",
+    "ref": "crossref:10.1007/978-94-009-7404-3_3",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1007/978-94-009-7404-3_3",
+      "publicationTitle": "Management for the XXI Century",
+      "pages": "38-48"
+    },
+    "applied": false
+  },
+  {
+    "key": "MGLQTYZ8",
+    "ref": "crossref:10.1111/j.1759-5436.1987.mp18001006.x",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1111/j.1759-5436.1987.mp18001006.x",
+      "volume": "18",
+      "issue": "1",
+      "pages": "39-46",
+      "ISSN": "0265-5012"
+    },
+    "applied": false
+  },
+  {
+    "key": "S9R4I4F4",
+    "ref": "crossref:10.1080/02255189.1980.9669806",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1080/02255189.1980.9669806",
+      "publicationTitle": "Canadian Journal of Development Studies / Revue canadienne d'études du développement",
+      "volume": "1",
+      "issue": "1",
+      "pages": "154-175",
+      "ISSN": "0225-5189"
+    },
+    "applied": false
+  },
+  {
+    "key": "QQBZQ56B",
+    "ref": "crossref:10.3406/ahess.1966.421392",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.3406/ahess.1966.421392",
+      "publicationTitle": "Annales. Histoire, Sciences Sociales",
+      "pages": "465-487",
+      "ISSN": "0395-2649"
+    },
+    "applied": false
+  },
+  {
+    "key": "UCHNKYPR",
+    "ref": "crossref:10.1177/039219218002811204",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1177/039219218002811204",
+      "volume": "28",
+      "pages": "75-90",
+      "ISSN": "0392-1921"
+    },
+    "applied": false
+  },
+  {
+    "key": "TGBQXAV6",
+    "ref": "crossref:10.3917/ateli.sachs.1980.01",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.3917/ateli.sachs.1980.01"
+    },
+    "applied": false
+  },
+  {
+    "key": "BILEA8CK",
+    "ref": "crossref:10.1017/s0395264900070293",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1017/s0395264900070293",
+      "publicationTitle": "Annales. Histoire, Sciences Sociales",
+      "pages": "507-509",
+      "ISSN": "0395-2649"
+    },
+    "applied": false
+  },
+  {
+    "key": "DBZP2JVZ",
+    "ref": "crossref:10.4337/9781035377893.00025",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.4337/9781035377893.00025",
+      "publicationTitle": "The State and the Economic Process",
+      "pages": "239-253"
+    },
+    "applied": false
+  },
+  {
+    "key": "HUHSWXQN",
+    "ref": "crossref:10.1177/053901847101000102",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1177/053901847101000102",
+      "pages": "33-39",
+      "ISSN": "0539-0184"
+    },
+    "applied": false
+  },
+  {
+    "key": "CMWGWJW5",
+    "ref": "crossref:10.3917/ving.p1990.25n1.0005",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.3917/ving.p1990.25n1.0005",
+      "volume": "n° 25",
+      "issue": "1",
+      "pages": "5-12",
+      "ISSN": "0294-1759"
+    },
+    "applied": false
+  },
+  {
+    "key": "LR3NA8X7",
+    "ref": "crossref:10.3406/cbc.1990.1113",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.3406/cbc.1990.1113",
+      "volume": "11",
+      "issue": "1",
+      "pages": "121-146",
+      "ISSN": "0989-5191"
+    },
+    "applied": false
+  },
+  {
+    "key": "CUAEL3EE",
+    "ref": "crossref:10.1051/nss/19940203258",
+    "score": 0.7667,
+    "set": {
+      "DOI": "10.1051/nss/19940203258",
+      "publicationTitle": "Natures Sciences Sociétés",
+      "volume": "2",
+      "issue": "3",
+      "pages": "258-265",
+      "ISSN": "1240-1307"
+    },
+    "applied": false
+  },
+  {
+    "key": "M55LXVLL",
+    "ref": "crossref:10.3406/tiers.1994.4848",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.3406/tiers.1994.4848",
+      "publicationTitle": "Tiers-Monde",
+      "pages": "53-60",
+      "ISSN": "0040-7356"
+    },
+    "applied": false
+  },
+  {
+    "key": "J4TAJUL3",
+    "ref": "crossref:10.1051/nss/19940203258",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1051/nss/19940203258",
+      "publicationTitle": "Natures Sciences Sociétés",
+      "pages": "258-265",
+      "ISSN": "1240-1307"
+    },
+    "applied": false
+  },
+  {
+    "key": "KLZ4D8E4",
+    "ref": "crossref:10.1111/j.1564-913x.2004.tb00309.x",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1111/j.1564-913x.2004.tb00309.x",
+      "pages": "177-202",
+      "ISSN": "0378-5599"
+    },
+    "applied": false
+  },
+  {
+    "key": "2M6GV76Q",
+    "ref": "crossref:10.1016/b978-0-08-022495-4.50012-x",
+    "score": 0.85,
+    "set": {
+      "DOI": "10.1016/b978-0-08-022495-4.50012-x",
+      "publicationTitle": "Studies in Political Economy of Development",
+      "pages": "179-187"
+    },
+    "applied": false
+  },
+  {
+    "key": "GBYJDDUG",
+    "ref": "crossref:10.3406/cbc.1998.1567",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.3406/cbc.1998.1567",
+      "volume": "33",
+      "issue": "1",
+      "pages": "179-183",
+      "ISSN": "0989-5191"
+    },
+    "applied": false
+  },
+  {
+    "key": "47EHV54R",
+    "ref": "crossref:10.3406/cbc.2000.1579",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.3406/cbc.2000.1579",
+      "volume": "41",
+      "issue": "1",
+      "pages": "15-30",
+      "ISSN": "0989-5191"
+    },
+    "applied": false
+  },
+  {
+    "key": "88L8TNSS",
+    "ref": "crossref:10.1016/b978-0-08-022495-4.50016-7",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1016/b978-0-08-022495-4.50016-7",
+      "publicationTitle": "Studies in Political Economy of Development",
+      "pages": "287-293"
+    },
+    "applied": false
+  },
+  {
+    "key": "I2Y8J7YM",
+    "ref": "crossref:10.2139/ssrn.389020",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.2139/ssrn.389020",
+      "publicationTitle": "SSRN Electronic Journal",
+      "ISSN": "1556-5068"
+    },
+    "applied": false
+  },
+  {
+    "key": "FY8CV9ZT",
+    "ref": "crossref:10.18356/4526c3f3-es",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.18356/4526c3f3-es",
+      "volume": "1980",
+      "issue": "12",
+      "pages": "107-113",
+      "ISSN": "1682-0908"
+    },
+    "applied": false
+  },
+  {
+    "key": "2ESNAHJD",
+    "ref": "crossref:10.18356/3fafc8f0-en",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.18356/3fafc8f0-en",
+      "publicationTitle": "CEPAL Review",
+      "volume": "1980",
+      "issue": "12",
+      "pages": "103-109",
+      "ISSN": "1684-0348"
+    },
+    "applied": false
+  },
+  {
+    "key": "YHA72MFG",
+    "ref": "crossref:10.1515/9783111640563-007",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1515/9783111640563-007",
+      "publicationTitle": "Development and environment",
+      "pages": "123-140"
+    },
+    "applied": false
+  },
+  {
+    "key": "JRY4D6FC",
+    "ref": "crossref:10.18356/3fafc8f0-en",
+    "score": 0.85,
+    "set": {
+      "DOI": "10.18356/3fafc8f0-en",
+      "publicationTitle": "CEPAL Review",
+      "volume": "1980",
+      "issue": "12",
+      "pages": "103-109",
+      "ISSN": "1684-0348"
+    },
+    "applied": false
+  },
+  {
+    "key": "DA5WI32Y",
+    "ref": "crossref:10.1007/978-1-349-22526-2_11",
+    "score": 0.85,
+    "set": {
+      "DOI": "10.1007/978-1-349-22526-2_11",
+      "publicationTitle": "Market and Institutions in Economic Development",
+      "pages": "173-182"
+    },
+    "applied": false
+  },
+  {
+    "key": "G6DF3HB6",
+    "ref": "crossref:10.3406/rint.2004.3249",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.3406/rint.2004.3249",
+      "publicationTitle": "Recherches Internationales",
+      "volume": "73",
+      "issue": "3",
+      "pages": "141-155",
+      "ISSN": "0294-3069"
+    },
+    "applied": false
+  },
+  {
+    "key": "ZG5GWPY6",
+    "ref": "crossref:10.1080/02255189.1980.9669806",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1080/02255189.1980.9669806",
+      "publicationTitle": "Canadian Journal of Development Studies / Revue canadienne d'études du développement",
+      "volume": "1",
+      "issue": "1",
+      "pages": "154-175",
+      "ISSN": "0225-5189"
+    },
+    "applied": false
+  },
+  {
+    "key": "XLX8F7RN",
+    "ref": "crossref:10.1111/j.1564-913x.2004.tb00549.x",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1111/j.1564-913x.2004.tb00549.x",
+      "publicationTitle": "International Labour Review",
+      "volume": "143",
+      "issue": "1-2",
+      "pages": "161-184",
+      "ISSN": "0020-7780"
+    },
+    "applied": false
+  },
+  {
+    "key": "W7HSDLWU",
+    "ref": "crossref:10.1007/bf02707644",
+    "score": 0.85,
+    "set": {
+      "DOI": "10.1007/bf02707644",
+      "publicationTitle": "Review of World Economics",
+      "volume": "136",
+      "issue": "4",
+      "pages": "579-600",
+      "ISSN": "1610-2878"
+    },
+    "applied": false
+  },
+  {
+    "key": "TVN3EL52",
+    "ref": "crossref:10.1080/14693062.2012.699787",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1080/14693062.2012.699787",
+      "volume": "13",
+      "issue": "1",
+      "pages": "1-19",
+      "ISSN": "1469-3062"
+    },
+    "applied": false
+  },
+  {
+    "key": "829S2U5G",
+    "ref": "crossref:10.1068/d22610",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1068/d22610",
+      "publicationTitle": "Environment and Planning D: Society and Space",
+      "volume": "31",
+      "issue": "1",
+      "pages": "116-139",
+      "ISSN": "0263-7758"
+    },
+    "applied": false
+  },
+  {
+    "key": "B4JQ69RV",
+    "ref": "crossref:10.1080/14693062.2012.741832",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1080/14693062.2012.741832",
+      "volume": "13",
+      "issue": "sup01",
+      "pages": "130-145",
+      "ISSN": "1469-3062"
+    },
+    "applied": false
+  },
+  {
+    "key": "4T7A5N9Z",
+    "ref": "crossref:10.1111/1468-2451.00146",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1111/1468-2451.00146",
+      "volume": "50",
+      "pages": "361-365",
+      "ISSN": "0020-8701"
+    },
+    "applied": false
+  },
+  {
+    "key": "AQ65EBE2",
+    "ref": "crossref:10.3406/ecoap.1994.1517",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.3406/ecoap.1994.1517",
+      "publicationTitle": "Économie appliquée",
+      "pages": "181-189",
+      "ISSN": "0013-0494"
+    },
+    "applied": false
+  },
+  {
+    "key": "C47PIG27",
+    "ref": "crossref:10.3406/polit.1983.3295",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.3406/polit.1983.3295",
+      "volume": "48",
+      "issue": "1",
+      "pages": "163-179",
+      "ISSN": "0032-342X"
+    },
+    "applied": false
+  },
+  {
+    "key": "MJINGVH2",
+    "ref": "crossref:10.3406/hom.1966.366816",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.3406/hom.1966.366816",
+      "pages": "5-18",
+      "ISSN": "0439-4216"
+    },
+    "applied": false
+  },
+  {
+    "key": "RQAGYWYM",
+    "ref": "crossref:10.1016/b978-0-08-022495-4.50013-1",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1016/b978-0-08-022495-4.50013-1",
+      "publicationTitle": "Studies in Political Economy of Development",
+      "pages": "188-239"
+    },
+    "applied": false
+  },
+  {
+    "key": "Q8N8E32T",
+    "ref": "crossref:10.1017/s0003975600001983",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1017/s0003975600001983",
+      "publicationTitle": "European Journal of Sociology",
+      "pages": "107-115",
+      "ISSN": "0003-9756"
+    },
+    "applied": false
+  },
+  {
+    "key": "LUCVY94Q",
+    "ref": "crossref:10.1007/bf00286399",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1007/bf00286399",
+      "volume": "39",
+      "issue": "3",
+      "pages": "311-320",
+      "ISSN": "0303-8300"
+    },
+    "applied": false
+  },
+  {
+    "key": "IXKE9G69",
+    "ref": "crossref:10.1016/0305-750x(78)90054-2",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1016/0305-750x(78)90054-2",
+      "issue": "7-8",
+      "pages": "967-969",
+      "ISSN": "0305-750X"
+    },
+    "applied": false
+  },
+  {
+    "key": "MI5H5TMZ",
+    "ref": "crossref:10.1007/bf02282151",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1007/bf02282151",
+      "pages": "438-445",
+      "ISSN": "0033-1538"
+    },
+    "applied": false
+  },
+  {
+    "key": "Y6JL7Q72",
+    "ref": "crossref:10.1177/030437547700300101",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1177/030437547700300101",
+      "publicationTitle": "Alternatives: Global, Local, Political",
+      "volume": "3",
+      "issue": "1",
+      "pages": "1-18",
+      "ISSN": "0304-3754"
+    },
+    "applied": false
+  },
+  {
+    "key": "7WKMUFRF",
+    "ref": "crossref:10.1111/j.1468-0084.1977.mp39001005.x",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1111/j.1468-0084.1977.mp39001005.x",
+      "pages": "47-56",
+      "ISSN": "0305-9049"
+    },
+    "applied": false
+  },
+  {
+    "key": "ZIJ4AC7K",
+    "ref": "crossref:10.1177/053901847401300602",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1177/053901847401300602",
+      "publicationTitle": "Social Science Information",
+      "pages": "17-29",
+      "ISSN": "0539-0184"
+    },
+    "applied": false
+  },
+  {
+    "key": "9JUBWUFG",
+    "ref": "crossref:10.4000/vertigo.11539",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.4000/vertigo.11539",
+      "publicationTitle": "VertigO",
+      "ISSN": "1492-8442"
+    },
+    "applied": false
+  },
+  {
+    "key": "UEQDYIG2",
+    "ref": "crossref:10.7202/010753ar",
+    "score": 1.0,
+    "set": {
+      "pages": "41-65",
+      "ISSN": "1710-3991"
+    },
+    "applied": false
+  },
+  {
+    "key": "MMYC3LFP",
+    "ref": "crossref:10.3917/riss.169.0389",
+    "score": 1.0,
+    "set": {
+      "pages": "389"
+    },
+    "applied": false
+  },
+  {
+    "key": "NKAJH45M",
+    "ref": "crossref:10.4000/books.editionscnrs.4203",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.4000/books.editionscnrs.4203",
+      "publicationTitle": "Sciences de la nature, sciences de la société",
+      "pages": "337-345"
+    },
+    "applied": false
+  },
+  {
+    "key": "HEUPYNJ2",
+    "ref": "crossref:10.4000/books.editionscnrs.4185",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.4000/books.editionscnrs.4185",
+      "publicationTitle": "Sciences de la nature, sciences de la société",
+      "pages": "243-257"
+    },
+    "applied": false
+  },
+  {
+    "key": "5578HQIC",
+    "ref": "crossref:10.2337/diacare.16.2.535",
+    "score": 0.82,
+    "set": {
+      "DOI": "10.2337/diacare.16.2.535",
+      "publicationTitle": "Diabetes Care",
+      "volume": "16",
+      "issue": "2",
+      "pages": "535-539",
+      "ISSN": "0149-5992"
+    },
+    "applied": false
+  },
+  {
+    "key": "SHKRHPX2",
+    "ref": "crossref:10.1016/0043-1354(86)90209-5",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1016/0043-1354(86)90209-5",
+      "pages": "21-26",
+      "ISSN": "0043-1354"
+    },
+    "applied": false
+  },
+  {
+    "key": "85LBV6AY",
+    "ref": "crossref:10.1016/0265-928x(89)80032-x",
+    "score": 0.975,
+    "set": {
+      "DOI": "10.1016/0265-928x(89)80032-x",
+      "volume": "4",
+      "issue": "1",
+      "pages": "27-40",
+      "ISSN": "0265-928X"
+    },
+    "applied": false
+  },
+  {
+    "key": "BEGKQDMZ",
+    "ref": "crossref:10.1051/lhb/2001096",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1051/lhb/2001096",
+      "volume": "87",
+      "pages": "82-86",
+      "ISSN": "0018-6368"
+    },
+    "applied": false
+  },
+  {
+    "key": "X6Q8JU27",
+    "ref": "crossref:10.1016/0302-4598(74)85011-7",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1016/0302-4598(74)85011-7",
+      "issue": "1-2",
+      "pages": "96-107",
+      "ISSN": "0302-4598"
+    },
+    "applied": false
+  },
+  {
+    "key": "IPTWHDHM",
+    "ref": "crossref:10.1051/lhb/1994026",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1051/lhb/1994026",
+      "volume": "80",
+      "issue": "1-2",
+      "pages": "185-189",
+      "ISSN": "0018-6368"
+    },
+    "applied": false
+  },
+  {
+    "key": "K47MAKI4",
+    "ref": "crossref:10.1016/0302-4598(76)80011-6",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1016/0302-4598(76)80011-6",
+      "publicationTitle": "Bioelectrochemistry and Bioenergetics",
+      "volume": "3",
+      "issue": "2",
+      "pages": "284-301",
+      "ISSN": "0302-4598"
+    },
+    "applied": false
+  },
+  {
+    "key": "I74BQNYA",
+    "ref": "crossref:10.1016/0368-1874(73)87047-9",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1016/0368-1874(73)87047-9",
+      "publicationTitle": "Journal of Electroanalytical Chemistry",
+      "issue": "1",
+      "pages": "89-107",
+      "ISSN": "0368-1874"
+    },
+    "applied": false
+  },
+  {
+    "key": "5AFFTCFC",
+    "ref": "crossref:10.1016/0014-5793(75)80075-5",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1016/0014-5793(75)80075-5",
+      "pages": "206-211",
+      "ISSN": "0014-5793"
+    },
+    "applied": false
+  },
+  {
+    "key": "TRFVBNGE",
+    "ref": "crossref:10.1016/s0022-0728(77)80200-3",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1016/s0022-0728(77)80200-3",
+      "volume": "75",
+      "issue": "2",
+      "pages": "579-593",
+      "ISSN": "0022-0728"
+    },
+    "applied": false
+  },
+  {
+    "key": "8AACM568",
+    "ref": "crossref:10.1016/0043-1354(83)90251-8",
+    "score": 1.0,
+    "set": {
+      "publicationTitle": "Water Research",
+      "pages": "1267-1274",
+      "ISSN": "0043-1354"
+    },
+    "applied": false
+  },
+  {
+    "key": "AHJCUNK2",
+    "ref": "crossref:10.2166/wst.1994.0200",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.2166/wst.1994.0200",
+      "pages": "239-242",
+      "ISSN": "0273-1223"
+    },
+    "applied": false
+  },
+  {
+    "key": "9CUFYVVC",
+    "ref": "crossref:10.2166/wst.1992.0576",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.2166/wst.1992.0576",
+      "pages": "1335-1344",
+      "ISSN": "0273-1223"
+    },
+    "applied": false
+  },
+  {
+    "key": "BXU4YPZY",
+    "ref": "crossref:10.1080/09593339209385126",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1080/09593339209385126",
+      "issue": "1",
+      "pages": "35-44",
+      "ISSN": "0959-3330"
+    },
+    "applied": false
+  },
+  {
+    "key": "KTS3MB8E",
+    "ref": "crossref:10.2166/wst.1996.0427",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.2166/wst.1996.0427",
+      "pages": "143-150",
+      "ISSN": "0273-1223"
+    },
+    "applied": false
+  },
+  {
+    "key": "87RVLHJF",
+    "ref": "crossref:10.1021/ac00017a008",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1021/ac00017a008",
+      "issue": "17",
+      "pages": "1692-1696",
+      "ISSN": "0003-2700"
+    },
+    "applied": false
+  },
+  {
+    "key": "QXILCSZZ",
+    "ref": "crossref:10.1051/lhb/1997065",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1051/lhb/1997065",
+      "volume": "83",
+      "pages": "52-58",
+      "ISSN": "0018-6368"
+    },
+    "applied": false
+  },
+  {
+    "key": "5RKQFV78",
+    "ref": "crossref:10.2166/wst.1995.0050",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.2166/wst.1995.0050",
+      "pages": "225-232",
+      "ISSN": "0273-1223"
+    },
+    "applied": false
+  },
+  {
+    "key": "8XSMRC7K",
+    "ref": "crossref:10.1051/lhb/1994026",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1051/lhb/1994026",
+      "publicationTitle": "La Houille Blanche",
+      "volume": "80",
+      "issue": "1-2",
+      "pages": "185-189",
+      "ISSN": "0018-6368"
+    },
+    "applied": false
+  },
+  {
+    "key": "PGDSQ23W",
+    "ref": "crossref:10.2166/wst.2009.361",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.2166/wst.2009.361",
+      "publicationTitle": "Water Science and Technology",
+      "pages": "543-553",
+      "ISSN": "0273-1223"
+    },
+    "applied": false
+  },
+  {
+    "key": "KEKWF9QT",
+    "ref": "crossref:10.1051/nss/19930103238",
+    "score": 0.97,
+    "set": {
+      "DOI": "10.1051/nss/19930103238",
+      "publicationTitle": "Natures Sciences Sociétés",
+      "pages": "238-245",
+      "ISSN": "1240-1307"
+    },
+    "applied": false
+  },
+  {
+    "key": "N5QPS2L7",
+    "ref": "crossref:10.1051/nss/19940203202",
+    "score": 0.9,
+    "set": {
+      "DOI": "10.1051/nss/19940203202",
+      "publicationTitle": "Natures Sciences Sociétés",
+      "volume": "2",
+      "issue": "3",
+      "pages": "202-211",
+      "ISSN": "1240-1307"
+    },
+    "applied": false
+  },
+  {
+    "key": "NYLF264S",
+    "ref": "crossref:10.2307/3501525",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.2307/3501525",
+      "pages": "691",
+      "ISSN": "0035-2764"
+    },
+    "applied": false
+  },
+  {
+    "key": "YYP9IPKZ",
+    "ref": "crossref:10.3406/receo.1995.2725",
+    "score": 1.0,
+    "set": {
+      "pages": "39-58"
+    },
+    "applied": false
+  },
+  {
+    "key": "G5ZMAIQW",
+    "ref": "crossref:10.3406/autog.1982.1472",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.3406/autog.1982.1472",
+      "volume": "15",
+      "issue": "8",
+      "pages": "63-78",
+      "ISSN": "0249-2563"
+    },
+    "applied": false
+  },
+  {
+    "key": "VXBSWP88",
+    "ref": "crossref:10.1016/0301-4215(90)90066-d",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1016/0301-4215(90)90066-d",
+      "pages": "861-870"
+    },
+    "applied": false
+  },
+  {
+    "key": "6PV8SBN7",
+    "ref": "crossref:10.4337/9781035304738.00010",
+    "score": 0.7667,
+    "set": {
+      "DOI": "10.4337/9781035304738.00010",
+      "publicationTitle": "The International Yearbook of Environmental and Resource Economics 2002/2003",
+      "pages": "1-65"
+    },
+    "applied": false
+  },
+  {
+    "key": "UJXIVA6F",
+    "ref": "crossref:10.1016/0301-4215(95)90168-7",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1016/0301-4215(95)90168-7",
+      "pages": "433-445",
+      "ISSN": "0301-4215"
+    },
+    "applied": false
+  },
+  {
+    "key": "TZAKISCK",
+    "ref": "crossref:10.1007/978-94-011-0948-2_16",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1007/978-94-011-0948-2_16",
+      "publicationTitle": "Trade, Innovation, Environment",
+      "pages": "385-405"
+    },
+    "applied": false
+  },
+  {
+    "key": "6DI3FFTG",
+    "ref": "crossref:10.22201/iiec.20078951e.1993.92.32736",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.22201/iiec.20078951e.1993.92.32736",
+      "publicationTitle": "Problemas del Desarrollo. Revista Latinoamericana de Economía",
+      "ISSN": "2007-8951"
+    },
+    "applied": false
+  },
+  {
+    "key": "6ANJRSBH",
+    "ref": "crossref:10.3406/sosan.1989.1134",
+    "score": 1.0,
+    "set": {
+      "pages": "5-25",
+      "ISSN": "0294-0337"
+    },
+    "applied": false
+  },
+  {
+    "key": "W3WPF5PV",
+    "ref": "crossref:10.1051/nss/19940204309",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1051/nss/19940204309",
+      "pages": "309-322",
+      "ISSN": "1240-1307"
+    },
+    "applied": false
+  },
+  {
+    "key": "287WK8UI",
+    "ref": "crossref:10.3406/comm.1985.1629",
+    "score": 1.0,
+    "set": {
+      "pages": "103-119"
+    },
+    "applied": false
+  },
+  {
+    "key": "ZU9G2TZ9",
+    "ref": "crossref:10.3406/ahess.1974.293493",
+    "score": 1.0,
+    "set": {
+      "publicationTitle": "Annales. Histoire, Sciences Sociales",
+      "pages": "553-570"
+    },
+    "applied": false
+  },
+  {
+    "key": "Y6PTWIVR",
+    "ref": "crossref:10.4000/books.editionscnrs.4210",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.4000/books.editionscnrs.4210",
+      "publicationTitle": "Sciences de la nature, sciences de la société",
+      "pages": "427-456"
+    },
+    "applied": false
+  },
+  {
+    "key": "4VPQC7F6",
+    "ref": "crossref:10.3406/tiers.1978.2823",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.3406/tiers.1978.2823",
+      "publicationTitle": "Tiers-Monde",
+      "pages": "645-656",
+      "ISSN": "0040-7356"
+    },
+    "applied": false
+  },
+  {
+    "key": "RP95B3RA",
+    "ref": "crossref:10.3406/tiers.1981.4073",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.3406/tiers.1981.4073",
+      "publicationTitle": "Tiers-Monde",
+      "pages": "877-884",
+      "ISSN": "0040-7356"
+    },
+    "applied": false
+  },
+  {
+    "key": "B9PV9QB7",
+    "ref": "crossref:10.3406/rfsp.1981.393959",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.3406/rfsp.1981.393959",
+      "publicationTitle": "Revue française de science politique",
+      "pages": "417-438",
+      "ISSN": "0035-2950"
+    },
+    "applied": false
+  },
+  {
+    "key": "BPFGPPBH",
+    "ref": "crossref:10.3917/reco.p1990.41n2.0215",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.3917/reco.p1990.41n2.0215",
+      "publicationTitle": "Revue économique",
+      "volume": "n° 41",
+      "pages": "215-242",
+      "ISSN": "0035-2764"
+    },
+    "applied": false
+  },
+  {
+    "key": "LV3GLTLU",
+    "ref": "crossref:10.1177/030437548200800303",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1177/030437548200800303",
+      "publicationTitle": "Alternatives: Global, Local, Political",
+      "pages": "369-378",
+      "ISSN": "0304-3754"
+    },
+    "applied": false
+  },
+  {
+    "key": "PXZG48FM",
+    "ref": "crossref:10.1080/02255189.1981.9670008",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1080/02255189.1981.9670008",
+      "publicationTitle": "Canadian Journal of Development Studies / Revue canadienne d'études du développement",
+      "pages": "443-460",
+      "ISSN": "0225-5189"
+    },
+    "applied": false
+  },
+  {
+    "key": "9BZTJNJ2",
+    "ref": "crossref:10.3763/cpol.2001.0125",
+    "score": 1.0,
+    "set": {
+      "pages": "251-268",
+      "ISSN": "1469-3062"
+    },
+    "applied": false
+  },
+  {
+    "key": "84DPXVJG",
+    "ref": "crossref:10.1007/s10584-006-9161-z",
+    "score": 1.0,
+    "set": {
+      "pages": "47-60",
+      "ISSN": "0165-0009"
+    },
+    "applied": false
+  },
+  {
+    "key": "NFSI7AIZ",
+    "ref": "crossref:10.1016/j.ecolecon.2006.05.011",
+    "score": 1.0,
+    "set": {
+      "pages": "77-92",
+      "ISSN": "0921-8009"
+    },
+    "applied": false
+  },
+  {
+    "key": "565A3R98",
+    "ref": "crossref:10.1016/j.jebo.2007.05.001",
+    "score": 1.0,
+    "set": {
+      "pages": "57-77",
+      "ISSN": "0167-2681"
+    },
+    "applied": false
+  },
+  {
+    "key": "WQK7XEHH",
+    "ref": "crossref:10.7551/mitpress/9780262073028.003.0005",
+    "score": 1.0,
+    "set": {
+      "publicationTitle": "The Design of Climate Policy",
+      "pages": "74-99"
+    },
+    "applied": false
+  },
+  {
+    "key": "7TIKUE8J",
+    "ref": "crossref:10.2139/ssrn.1594845",
+    "score": 1.0,
+    "set": {
+      "publicationTitle": "SSRN Electronic Journal",
+      "ISSN": "1556-5068"
+    },
+    "applied": false
+  },
+  {
+    "key": "9AIB83SH",
+    "ref": "crossref:10.1007/s10584-010-9868-8",
+    "score": 1.0,
+    "set": {
+      "pages": "663-668",
+      "ISSN": "0165-0009"
+    },
+    "applied": false
+  },
+  {
+    "key": "PVSC6ZMQ",
+    "ref": "crossref:10.1080/14693062.2011.605702",
+    "score": 1.0,
+    "set": {
+      "pages": "237-254",
+      "ISSN": "1469-3062"
+    },
+    "applied": false
+  },
+  {
+    "key": "AEZXX8F8",
+    "ref": "crossref:10.1007/s10784-012-9169-y",
+    "score": 1.0,
+    "set": {
+      "pages": "165-186",
+      "ISSN": "1567-9764"
+    },
+    "applied": false
+  },
+  {
+    "key": "PTIFHX7E",
+    "ref": "crossref:10.1016/j.enpol.2012.06.005",
+    "score": 1.0,
+    "set": {
+      "pages": "744-753",
+      "ISSN": "0301-4215"
+    },
+    "applied": false
+  },
+  {
+    "key": "KQMI4WC2",
+    "ref": "crossref:10.1504/ijgenvi.2010.030566",
+    "score": 1.0,
+    "set": {
+      "ISSN": "1466-6650"
+    },
+    "applied": false
+  },
+  {
+    "key": "2YWUKF7M",
+    "ref": "crossref:10.3406/ahess.1982.282874",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.3406/ahess.1982.282874",
+      "publicationTitle": "Annales. Histoire, Sciences Sociales",
+      "volume": "37",
+      "pages": "609-620",
+      "ISSN": "0395-2649"
+    },
+    "applied": false
+  },
+  {
+    "key": "62FAWZYT",
+    "ref": "crossref:10.3406/tiers.1984.4370",
+    "score": 0.9978,
+    "set": {
+      "DOI": "10.3406/tiers.1984.4370",
+      "publicationTitle": "Tiers-Monde",
+      "volume": "25",
+      "issue": "100",
+      "pages": "787-800",
+      "ISSN": "0040-7356"
+    },
+    "applied": false
+  },
+  {
+    "key": "VMZPHJXH",
+    "ref": "crossref:10.2307/3501778",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.2307/3501778",
+      "volume": "40",
+      "issue": "4",
+      "pages": "649",
+      "ISSN": "0035-2764"
+    },
+    "applied": false
+  },
+  {
+    "key": "WU2ABU7Z",
+    "ref": "crossref:10.1016/0921-8009(92)90026-o",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1016/0921-8009(92)90026-o",
+      "pages": "211-233",
+      "ISSN": "0921-8009"
+    },
+    "applied": false
+  },
+  {
+    "key": "DB6ZEKHG",
+    "ref": "crossref:10.1111/j.1467-7660.1979.tb00057.x",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1111/j.1467-7660.1979.tb00057.x",
+      "volume": "10",
+      "issue": "4",
+      "pages": "635-646",
+      "ISSN": "0012-155X"
+    },
+    "applied": false
+  },
+  {
+    "key": "AFMJBTXH",
+    "ref": "crossref:10.3406/ecoap.1984.4011",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.3406/ecoap.1984.4011",
+      "publicationTitle": "Économie appliquée",
+      "pages": "315-345",
+      "ISSN": "0013-0494"
+    },
+    "applied": false
+  },
+  {
+    "key": "IVU3IXHW",
+    "ref": "crossref:10.3406/tiers.1983.4267",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.3406/tiers.1983.4267",
+      "publicationTitle": "Tiers-Monde",
+      "pages": "169-176",
+      "ISSN": "0040-7356"
+    },
+    "applied": false
+  },
+  {
+    "key": "NGED73Q2",
+    "ref": "crossref:10.1007/978-94-009-7404-3_3",
+    "score": 0.85,
+    "set": {
+      "DOI": "10.1007/978-94-009-7404-3_3",
+      "publicationTitle": "Management for the XXI Century",
+      "pages": "38-48"
+    },
+    "applied": false
+  },
+  {
+    "key": "88YZFI6N",
+    "ref": "crossref:10.1016/0959-3780(92)90006-s",
+    "score": 0.7667,
+    "set": {
+      "DOI": "10.1016/0959-3780(92)90006-s",
+      "publicationTitle": "Global Environmental Change",
+      "volume": "2",
+      "issue": "3",
+      "pages": "239-249",
+      "ISSN": "0959-3780"
+    },
+    "applied": false
+  },
+  {
+    "key": "7IKEW8MP",
+    "ref": "crossref:10.1007/978-94-017-3188-1_18",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1007/978-94-017-3188-1_18",
+      "publicationTitle": "Economy &amp; Environment",
+      "pages": "299-317",
+      "ISSN": "0924-1019"
+    },
+    "applied": false
+  },
+  {
+    "key": "I27KS3IR",
+    "ref": "crossref:10.1051/lhb/1997065",
+    "score": 0.7667,
+    "set": {
+      "DOI": "10.1051/lhb/1997065",
+      "publicationTitle": "La Houille Blanche",
+      "volume": "83",
+      "issue": "7",
+      "pages": "52-58",
+      "ISSN": "0018-6368"
+    },
+    "applied": false
+  },
+  {
+    "key": "YPM9Q2MS",
+    "ref": "crossref:10.1051/lhb/1996080",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1051/lhb/1996080",
+      "publicationTitle": "La Houille Blanche",
+      "volume": "82",
+      "issue": "8",
+      "pages": "15-20",
+      "ISSN": "0018-6368"
+    },
+    "applied": false
+  },
+  {
+    "key": "7JPHE7MP",
+    "ref": "crossref:10.2166/wst.1998.0010",
+    "score": 0.8867,
+    "set": {
+      "DOI": "10.2166/wst.1998.0010",
+      "publicationTitle": "Water Science and Technology",
+      "volume": "37",
+      "issue": "1",
+      "pages": "35-43",
+      "ISSN": "0273-1223"
+    },
+    "applied": false
+  },
+  {
+    "key": "NDY4U9RM",
+    "ref": "crossref:10.1016/0368-1874(72)80244-2",
+    "score": 1.0,
+    "set": {
+      "publicationTitle": "Journal of Electroanalytical Chemistry",
+      "issue": "1",
+      "pages": "197-207",
+      "ISSN": "0368-1874"
+    },
+    "applied": false
+  },
+  {
+    "key": "VMH9QKUE",
+    "ref": "crossref:10.1017/s0022112086001507",
+    "score": 0.9571,
+    "set": {
+      "DOI": "10.1017/s0022112086001507",
+      "publicationTitle": "Journal of Fluid Mechanics",
+      "volume": "171",
+      "pages": "407-439",
+      "ISSN": "0022-1120"
+    },
+    "applied": false
+  },
+  {
+    "key": "QSWHSTV6",
+    "ref": "crossref:10.2166/wst.2003.0501",
+    "score": 0.7667,
+    "set": {
+      "DOI": "10.2166/wst.2003.0501",
+      "publicationTitle": "Water Science and Technology",
+      "volume": "48",
+      "issue": "9",
+      "pages": "93-101",
+      "ISSN": "0273-1223"
+    },
+    "applied": false
+  },
+  {
+    "key": "MI97ZELQ",
+    "ref": "crossref:10.1016/0368-1874(72)80214-4",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1016/0368-1874(72)80214-4",
+      "publicationTitle": "Journal of Electroanalytical Chemistry",
+      "volume": "39",
+      "issue": "2",
+      "pages": "447-469",
+      "ISSN": "0368-1874"
+    },
+    "applied": false
+  },
+  {
+    "key": "A4GW9I3H",
+    "ref": "crossref:10.1093/oso/9780199630462.003.0001",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1093/oso/9780199630462.003.0001",
+      "publicationTitle": "Biosensors",
+      "pages": "1-17"
+    },
+    "applied": false
+  },
+  {
+    "key": "DS4FSTIS",
+    "ref": "crossref:10.1007/bf00615376",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1007/bf00615376",
+      "pages": "119-126",
+      "ISSN": "0021-891X"
+    },
+    "applied": false
+  },
+  {
+    "key": "BBZWHR7Q",
+    "ref": "crossref:10.1016/0368-1874(73)80093-0",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1016/0368-1874(73)80093-0",
+      "publicationTitle": "Journal of Electroanalytical Chemistry",
+      "pages": "543-546",
+      "ISSN": "0368-1874"
+    },
+    "applied": false
+  },
+  {
+    "key": "EB54CFGC",
+    "ref": "crossref:10.1021/ac50037a031",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1021/ac50037a031",
+      "pages": "96-100",
+      "ISSN": "0003-2700"
+    },
+    "applied": false
+  },
+  {
+    "key": "SL3QQD72",
+    "ref": "crossref:10.1016/0302-4598(87)85047-x",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1016/0302-4598(87)85047-x",
+      "pages": "548-553",
+      "ISSN": "0302-4598"
+    },
+    "applied": false
+  },
+  {
+    "key": "BWZJNXVH",
+    "ref": "crossref:10.1007/978-1-4684-5098-9_19",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1007/978-1-4684-5098-9_19",
+      "publicationTitle": "Electrochemistry in Research and Development",
+      "pages": "181-188"
+    },
+    "applied": false
+  },
+  {
+    "key": "KCLKBK88",
+    "ref": "crossref:10.1021/ac00175a028",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1021/ac00175a028",
+      "pages": "2781-2786",
+      "ISSN": "0003-2700"
+    },
+    "applied": false
+  },
+  {
+    "key": "3AGPMXGE",
+    "ref": "crossref:10.2337/diabetes.38.2.164",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.2337/diabetes.38.2.164",
+      "pages": "164-171",
+      "ISSN": "0012-1797"
+    },
+    "applied": false
+  },
+  {
+    "key": "JGTIKU8W",
+    "ref": "crossref:10.1093/clinchem/38.9.1613",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1093/clinchem/38.9.1613",
+      "pages": "1613-1617",
+      "ISSN": "0009-9147"
+    },
+    "applied": false
+  },
+  {
+    "key": "LFFJ8VVL",
+    "ref": "crossref:10.1080/09593339209385181",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1080/09593339209385181",
+      "pages": "531-540",
+      "ISSN": "0959-3330"
+    },
+    "applied": false
+  },
+  {
+    "key": "AZE64HQV",
+    "ref": "crossref:10.1042/bst0190009",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1042/bst0190009",
+      "publicationTitle": "Biochemical Society Transactions",
+      "pages": "9-11",
+      "ISSN": "0300-5127"
+    },
+    "applied": false
+  },
+  {
+    "key": "32NGS3GW",
+    "ref": "crossref:10.1080/10406630008034772",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1080/10406630008034772",
+      "pages": "1-19",
+      "ISSN": "1040-6638"
+    },
+    "applied": false
+  },
+  {
+    "key": "DBHZ36KQ",
+    "ref": "crossref:10.21168/rbrh.v11n2.p27-35",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.21168/rbrh.v11n2.p27-35",
+      "publicationTitle": "Revista Brasileira de Recursos Hídricos",
+      "pages": "27-35",
+      "ISSN": "2318-0331"
+    },
+    "applied": false
+  },
+  {
+    "key": "63JJ4DJP",
+    "ref": "crossref:10.2166/wst.1997.0664",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.2166/wst.1997.0664",
+      "issue": "8-9",
+      "pages": "185-193",
+      "ISSN": "0273-1223"
+    },
+    "applied": false
+  },
+  {
+    "key": "Z4X4LVQP",
+    "ref": "crossref:10.1080/14756360290026469",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1080/14756360290026469",
+      "pages": "107-115",
+      "ISSN": "1475-6366"
+    },
+    "applied": false
+  },
+  {
+    "key": "9IB9PJHH",
+    "ref": "crossref:10.1023/b:wate.0000049165.12410.98",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1023/b:wate.0000049165.12410.98",
+      "pages": "67-86",
+      "ISSN": "0049-6979"
+    },
+    "applied": false
+  },
+  {
+    "key": "2M9FCPTI",
+    "ref": "crossref:10.1016/s0043-1354(00)00261-x",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1016/s0043-1354(00)00261-x",
+      "pages": "521-533",
+      "ISSN": "0043-1354"
+    },
+    "applied": false
+  },
+  {
+    "key": "8HE7JKEH",
+    "ref": "crossref:10.2166/wst.1995.0209",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.2166/wst.1995.0209",
+      "pages": "95-105",
+      "ISSN": "0273-1223"
+    },
+    "applied": false
+  },
+  {
+    "key": "N5W3YPVU",
+    "ref": "crossref:10.1051/lhb/1994011",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1051/lhb/1994011",
+      "volume": "80",
+      "pages": "90-96",
+      "ISSN": "0018-6368"
+    },
+    "applied": false
+  },
+  {
+    "key": "DEXN3B2M",
+    "ref": "crossref:10.1051/lhb/1994001",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1051/lhb/1994001",
+      "volume": "80",
+      "pages": "21-33",
+      "ISSN": "0018-6368"
+    },
+    "applied": false
+  },
+  {
+    "key": "2Z3JBZZ4",
+    "ref": "crossref:10.2166/wst.1998.0010",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.2166/wst.1998.0010",
+      "pages": "35-43",
+      "ISSN": "0273-1223"
+    },
+    "applied": false
+  },
+  {
+    "key": "WG2V29F5",
+    "ref": "crossref:10.2166/wst.1998.0014",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.2166/wst.1998.0014",
+      "pages": "53-60",
+      "ISSN": "0273-1223"
+    },
+    "applied": false
+  },
+  {
+    "key": "3KKN3NDQ",
+    "ref": "crossref:10.1046/j.1440-1770.2000.00092.x",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1046/j.1440-1770.2000.00092.x",
+      "publicationTitle": "Lakes &amp; Reservoirs: Science, Policy and Management for Sustainable Use",
+      "pages": "23-33",
+      "ISSN": "1320-5331"
+    },
+    "applied": false
+  },
+  {
+    "key": "3FWE7JJS",
+    "ref": "crossref:10.4081/jlimnol.2000.72",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.4081/jlimnol.2000.72",
+      "pages": "72",
+      "ISSN": "1723-8633"
+    },
+    "applied": false
+  },
+  {
+    "key": "MF7INFWT",
+    "ref": "crossref:10.1016/s0043-1354(00)00191-3",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1016/s0043-1354(00)00191-3",
+      "pages": "4151-4160",
+      "ISSN": "0043-1354"
+    },
+    "applied": false
+  },
+  {
+    "key": "JRERRG2G",
+    "ref": "crossref:10.1080/02255189.1980.9669819",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1080/02255189.1980.9669819",
+      "publicationTitle": "Canadian Journal of Development Studies / Revue canadienne d'études du développement",
+      "volume": "1",
+      "issue": "2",
+      "pages": "306-326",
+      "ISSN": "0225-5189"
+    },
+    "applied": false
+  },
+  {
+    "key": "3V85666Z",
+    "ref": "crossref:10.5547/issn0195-6574-ej-volsi2006-nosi1-13",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.5547/issn0195-6574-ej-volsi2006-nosi1-13",
+      "publicationTitle": "The Energy Journal",
+      "volume": "27",
+      "issue": "1_suppl",
+      "pages": "259-276",
+      "ISSN": "0195-6574"
+    },
+    "applied": false
+  },
+  {
+    "key": "7UXGF53H",
+    "ref": "crossref:10.3406/rjenv.2000.3738",
+    "score": 0.97,
+    "set": {
+      "DOI": "10.3406/rjenv.2000.3738",
+      "publicationTitle": "Revue Juridique de l'Environnement",
+      "volume": "25",
+      "issue": "1",
+      "pages": "127-144",
+      "ISSN": "0397-0299"
+    },
+    "applied": false
+  },
+  {
+    "key": "UE4QKLR5",
+    "ref": "crossref:10.1080/095382599106995",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1080/095382599106995",
+      "publicationTitle": "Review of Political Economy",
+      "volume": "11",
+      "issue": "3",
+      "pages": "267-272",
+      "ISSN": "0953-8259"
+    },
+    "applied": false
+  },
+  {
+    "key": "3H2WQCTW",
+    "ref": "crossref:10.3917/reof.176.0149",
+    "score": 0.85,
+    "set": {
+      "DOI": "10.3917/reof.176.0149",
+      "publicationTitle": "Revue de l'OFCE",
+      "volume": "N° 176",
+      "issue": "1",
+      "pages": "149-174",
+      "ISSN": "1265-9576"
+    },
+    "applied": false
+  },
+  {
+    "key": "FU7DRGHX",
+    "ref": "crossref:10.1007/978-94-009-7404-3_3",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1007/978-94-009-7404-3_3",
+      "publicationTitle": "Management for the XXI Century",
+      "pages": "38-48"
+    },
+    "applied": false
+  },
+  {
+    "key": "WINM9HZI",
+    "ref": "crossref:10.3406/cbc.1998.1567",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.3406/cbc.1998.1567",
+      "publicationTitle": "Cahiers du Brésil Contemporain",
+      "volume": "33",
+      "issue": "1",
+      "pages": "179-183",
+      "ISSN": "0989-5191"
+    },
+    "applied": false
+  },
+  {
+    "key": "5H9CCNYY",
+    "ref": "crossref:10.1007/978-94-009-7404-3_3",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1007/978-94-009-7404-3_3",
+      "publicationTitle": "Management for the XXI Century",
+      "pages": "38-48"
+    },
+    "applied": false
+  },
+  {
+    "key": "C2YLFBMY",
+    "ref": "crossref:10.3917/deba.113.0136",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.3917/deba.113.0136",
+      "volume": "n° 113",
+      "issue": "1",
+      "pages": "136-145",
+      "ISSN": "0246-2346"
+    },
+    "applied": false
+  },
+  {
+    "key": "PQIGHQJR",
+    "ref": "crossref:10.1016/s0921-8009(02)00213-6",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1016/s0921-8009(02)00213-6",
+      "issue": "2-3",
+      "pages": "213-230",
+      "ISSN": "0921-8009"
+    },
+    "applied": false
+  },
+  {
+    "key": "MAU49Z23",
+    "ref": "crossref:10.1023/a:1025586922143",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1023/a:1025586922143",
+      "publicationTitle": "Environmental Modeling &amp; Assessment",
+      "pages": "133-147",
+      "ISSN": "1420-2026"
+    },
+    "applied": false
+  },
+  {
+    "key": "69BSN3R7",
+    "ref": "crossref:10.1080/14693062.2006.9685590",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1080/14693062.2006.9685590",
+      "pages": "93-113",
+      "ISSN": "1469-3062"
+    },
+    "applied": false
+  },
+  {
+    "key": "CE4JJNVD",
+    "ref": "crossref:10.5547/issn0195-6574-ej-volsi2006-nosi2-1",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.5547/issn0195-6574-ej-volsi2006-nosi2-1",
+      "volume": "27",
+      "issue": "2_suppl",
+      "pages": "1-11",
+      "ISSN": "0195-6574"
+    },
+    "applied": false
+  },
+  {
+    "key": "Y7EMI7W6",
+    "ref": "crossref:10.1111/j.1467-8292.2006.00308.x",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1111/j.1467-8292.2006.00308.x",
+      "pages": "309-343",
+      "ISSN": "1370-4788"
+    },
+    "applied": false
+  },
+  {
+    "key": "W7JAGF2D",
+    "ref": "crossref:10.1038/nclimate1434",
+    "score": 1.0,
+    "set": {
+      "DOI": "10.1038/nclimate1434",
+      "pages": "334-337",
+      "ISSN": "1758-678X"
+    },
+    "applied": false
+  }
+]
