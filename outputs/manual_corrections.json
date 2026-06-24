@@ -70,11 +70,31 @@
     "set": {
       "title": "Differentiation and dynamics of EU ETS competitiveness impacts",
       "creators": [
-        {"creatorType": "author", "lastName": "Hourcade", "firstName": "Jean-Charles"},
-        {"creatorType": "author", "lastName": "Demailly", "firstName": "Damien"},
-        {"creatorType": "author", "lastName": "Neuhoff", "firstName": "Karsten"},
-        {"creatorType": "author", "lastName": "Sato", "firstName": "Misato"},
-        {"creatorType": "author", "lastName": "Grubb", "firstName": "Michael"}
+        {
+          "creatorType": "author",
+          "lastName": "Hourcade",
+          "firstName": "Jean-Charles"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Demailly",
+          "firstName": "Damien"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Neuhoff",
+          "firstName": "Karsten"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Sato",
+          "firstName": "Misato"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Grubb",
+          "firstName": "Michael"
+        }
       ],
       "date": "2007-03-30",
       "institution": "Climate Strategies",
@@ -92,7 +112,11 @@
     "set": {
       "title": "L'effet net sur l'emploi de la transition énergétique en France : une analyse input-output du scénario négaWatt",
       "creators": [
-        {"creatorType": "author", "lastName": "Quirion", "firstName": "Philippe"}
+        {
+          "creatorType": "author",
+          "lastName": "Quirion",
+          "firstName": "Philippe"
+        }
       ],
       "date": "2013-04",
       "institution": "CIRED",
@@ -101,6 +125,94 @@
       "language": "fr"
     },
     "note": "Page de garde : « No 46-2013, CIRED Working Papers Series, April 2013 », auteur unique Philippe Quirion.",
+    "applied": true
+  },
+  {
+    "key": "BSU65UVI",
+    "ref": "1975-015 — La Méditerranée / Hourcade environnement : marquage principal/copie (best scan 0018)",
+    "source": "Comparaison visuelle des 2 PDF + validation M. Ha-Duong (une par une)",
+    "set": {
+      "url": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1975-15-Hourcade_environnement-obstacle-argument-Options_mediterraneennes_n31.pdf",
+      "extra": "Copie moins bonne (corpus, OCR plus complet) : https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/1975-015.pdf"
+    },
+    "note": "Principal = recueil. Les 2 fichiers conservés ; l_autre marqué dans extra.",
+    "applied": true
+  },
+  {
+    "key": "RQ2AY8XX",
+    "ref": "1975-016 — Godard occupation espaces littoraux : marquage principal/copie (best scan 0018)",
+    "source": "Comparaison visuelle des 2 PDF + validation M. Ha-Duong (une par une)",
+    "set": {
+      "url": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1975-16-Godard_occupation-espaces-littoraux-Options_Mediterrannennes_n3.pdf",
+      "extra": "Copie moins bonne (corpus, OCR plus complet) : https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GOD_0030.pdf"
+    },
+    "note": "Principal = recueil. Les 2 fichiers conservés ; l_autre marqué dans extra.",
+    "applied": true
+  },
+  {
+    "key": "NYFD6CNL",
+    "ref": "1975-019a — Artuso La Méditerranée potentiel menacé : marquage principal/copie (best scan 0018)",
+    "source": "Comparaison visuelle des 2 PDF + validation M. Ha-Duong (une par une)",
+    "set": {
+      "url": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1975-19-options-mediterrannennes-artuso-and-co-CI010638.pdf",
+      "extra": "Copie moins bonne (corpus) : https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GOD_0015.pdf"
+    },
+    "note": "Principal = recueil. Les 2 fichiers conservés ; l_autre marqué dans extra.",
+    "applied": true
+  },
+  {
+    "key": "Z83SYUK5",
+    "ref": "1975-019b — Chabrol Criqui gestion eau : marquage principal/copie (best scan 0018)",
+    "source": "Comparaison visuelle des 2 PDF + validation M. Ha-Duong (une par une)",
+    "set": {
+      "url": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1975-191-options-mediterrannennes-chabrol-CI010639.pdf",
+      "extra": "Copie moins bonne (corpus) : https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GOD_0016.pdf"
+    },
+    "note": "Principal = recueil. Les 2 fichiers conservés ; l_autre marqué dans extra.",
+    "applied": true
+  },
+  {
+    "key": "VV3TCDIR",
+    "ref": "1979-028 — Hourcade Choix énergétiques : marquage principal/copie (best scan 0018)",
+    "source": "Comparaison visuelle des 2 PDF + validation M. Ha-Duong (une par une)",
+    "set": {
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_HOU_0002.pdf",
+      "extra": "Numéro complet IFDA Dossier 5 (source, 114 p, contient d_autres articles) : https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/attente/%C3%A0%20d%C3%A9doublonner%20avec%20ce%20qui%20est%20d%C3%A9j%C3%A0%20trait%C3%A9/1979-28-Hourcade-IFDA-Dossier-5.pdf"
+    },
+    "note": "Principal = corpus. Les 2 fichiers conservés ; l_autre marqué dans extra.",
+    "applied": true
+  },
+  {
+    "key": "KP5UEGVG",
+    "ref": "1988-077 — Capecchi nouvelles technologies : marquage principal/copie (best scan 0018)",
+    "source": "Comparaison visuelle des 2 PDF + validation M. Ha-Duong (une par une)",
+    "set": {
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/1988-077.pdf",
+      "extra": "Copie moins bonne (recueil, image sans OCR ; contenu identique vérifié) : https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1988-77-Capecchi_Pesce_Schiray_RevueTIS_vol1_n2-1.pdf"
+    },
+    "note": "Principal = corpus. Les 2 fichiers conservés ; l_autre marqué dans extra.",
+    "applied": true
+  },
+  {
+    "key": "JNGDSIGV",
+    "ref": "1993-095 — Godard risques climatiques : marquage principal/copie (best scan 0018)",
+    "source": "Comparaison visuelle des 2 PDF + validation M. Ha-Duong (une par une)",
+    "set": {
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/1993-095.pdf",
+      "extra": "Copie moins bonne (recueil, fichier cassé : nom + contenu) : https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1993-95-Godard-risques-climatiques-raisons-scientifiques-economiques-politiquepdf"
+    },
+    "note": "Principal = corpus. Les 2 fichiers conservés ; l_autre marqué dans extra.",
+    "applied": true
+  },
+  {
+    "key": "I2Y8J7YM",
+    "ref": "2004-127 — Caparros North-South negotiations : marquage principal/copie (best scan 0018)",
+    "source": "Comparaison visuelle des 2 PDF + validation M. Ha-Duong (une par une)",
+    "set": {
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/2004-127.pdf",
+      "extra": "Version texte seul, un mot par ligne (recueil) : https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/attente/%C3%A0%20d%C3%A9doublonner%20avec%20ce%20qui%20est%20d%C3%A9j%C3%A0%20trait%C3%A9/2004%20127-Caparros%20PERREAU%20Tazda%C3%AFt%20North-south%20climate%20change%20negociation_Public_Choice%20vol121%20n3-4.txt"
+    },
+    "note": "Principal = corpus. Les 2 fichiers conservés ; l_autre marqué dans extra.",
     "applied": true
   }
 ]
