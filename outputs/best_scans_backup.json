@@ -1,0 +1,736 @@
+[
+  {
+    "key": "BSU65UVI",
+    "version": 7944,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/BSU65UVI",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/BSU65UVI",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/users/2114597/items/YH9SBUEX",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 3286554
+      }
+    },
+    "meta": {
+      "creatorSummary": "Hourcade",
+      "parsedDate": "1975",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "BSU65UVI",
+      "version": 7944,
+      "itemType": "journalArticle",
+      "title": "L’environnement, obstacle ou argument pour un nouvel ordre économique international : essai de prospective à l’échelle du bassin méditerranéen",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jean Charles",
+          "lastName": "Hourcade"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Options méditerranéennes",
+      "publisher": "",
+      "place": "",
+      "date": "1975",
+      "volume": "",
+      "issue": "31",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "57–74",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/1975-015.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "15",
+      "rights": "non",
+      "extra": "ok\nhttps://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1975-15-Hourcade_environnement-obstacle-argument-Options_mediterraneennes_n31.pdf",
+      "tags": [
+        {
+          "tag": "CIRED"
+        },
+        {
+          "tag": "recueil-50ans"
+        }
+      ],
+      "collections": [
+        "VPDB49CK"
+      ],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:11Z",
+      "dateModified": "2026-06-24T07:37:11Z"
+    }
+  },
+  {
+    "key": "RQ2AY8XX",
+    "version": 7946,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/RQ2AY8XX",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/RQ2AY8XX",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Godard",
+      "parsedDate": "1975",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "RQ2AY8XX",
+      "version": 7946,
+      "itemType": "journalArticle",
+      "title": "L'occupation  des espaces littoraux méditérranéens",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Olivier",
+          "lastName": "Godard"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Options méditerranéennes",
+      "publisher": "",
+      "place": "",
+      "date": "1975",
+      "volume": "",
+      "issue": "31",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "35–55",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GOD_0030.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Français",
+      "libraryCatalog": "",
+      "callNumber": "CIR_GOD_0030",
+      "rights": "",
+      "extra": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1975-16-Godard_occupation-espaces-littoraux-Options_Mediterrannennes_n3.pdf",
+      "tags": [
+        {
+          "tag": "CIRED"
+        },
+        {
+          "tag": "recueil-50ans"
+        }
+      ],
+      "collections": [
+        "VPDB49CK"
+      ],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:26Z",
+      "dateModified": "2026-06-24T07:37:12Z"
+    }
+  },
+  {
+    "key": "NYFD6CNL",
+    "version": 7950,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/NYFD6CNL",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/NYFD6CNL",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Artuso and Ertaud",
+      "parsedDate": "1975",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "NYFD6CNL",
+      "version": 7950,
+      "itemType": "journalArticle",
+      "title": "La Méditerranée : un potentiel de ressources menacé ?",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Max",
+          "lastName": "Artuso"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michel",
+          "lastName": "Ertaud"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Olivier",
+          "lastName": "Godard"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Jean-Charles",
+          "lastName": "Hourcade"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Options méditerranéennes",
+      "publisher": "",
+      "place": "",
+      "date": "1975",
+      "volume": "",
+      "issue": "31",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "77–87",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GOD_0015.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Français",
+      "libraryCatalog": "",
+      "callNumber": "CIR_GOD_0015",
+      "rights": "",
+      "extra": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1975-19-options-mediterrannennes-artuso-and-co-CI010638.pdf",
+      "tags": [
+        {
+          "tag": "CIRED"
+        },
+        {
+          "tag": "recueil-50ans"
+        }
+      ],
+      "collections": [
+        "VPDB49CK"
+      ],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:14Z",
+      "dateModified": "2026-06-24T07:37:14Z"
+    }
+  },
+  {
+    "key": "Z83SYUK5",
+    "version": 7932,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/Z83SYUK5",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/Z83SYUK5",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Chabrol and Criqui",
+      "parsedDate": "1975",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "Z83SYUK5",
+      "version": 7932,
+      "itemType": "journalArticle",
+      "title": "Elements pour une nouvelle approche de la gestion de l'eau dans les pays méditérranéens",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "D.",
+          "lastName": "Chabrol"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Patrick",
+          "lastName": "Criqui"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Olivier",
+          "lastName": "Godard"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Jean-Charles",
+          "lastName": "Hourcade"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Options méditerranéennes",
+      "publisher": "",
+      "place": "",
+      "date": "1975",
+      "volume": "",
+      "issue": "31",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "89–103",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GOD_0016.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Français",
+      "libraryCatalog": "",
+      "callNumber": "CIR_GOD_0016",
+      "rights": "",
+      "extra": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1975-191-options-mediterrannennes-chabrol-CI010639.pdf",
+      "tags": [
+        {
+          "tag": "CIRED"
+        },
+        {
+          "tag": "recueil-50ans"
+        }
+      ],
+      "collections": [
+        "VPDB49CK"
+      ],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:14Z",
+      "dateModified": "2026-06-24T07:37:04Z"
+    }
+  },
+  {
+    "key": "VV3TCDIR",
+    "version": 7585,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/VV3TCDIR",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/VV3TCDIR",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Hourcade",
+      "parsedDate": "1979",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "VV3TCDIR",
+      "version": 7585,
+      "itemType": "report",
+      "title": "Choix énergétiques et choix de société : mythes et réalités des sentiers énergétiques doux",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jean-Charles",
+          "lastName": "Hourcade"
+        }
+      ],
+      "abstractNote": "",
+      "reportNumber": "",
+      "reportType": "",
+      "institution": "",
+      "place": "",
+      "date": "1979",
+      "seriesTitle": "",
+      "seriesNumber": "",
+      "pages": "16",
+      "DOI": "",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_HOU_0002.pdf",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "français, anglais, espagnol",
+      "libraryCatalog": "",
+      "callNumber": "CIR_HOU_0002",
+      "rights": "non",
+      "extra": "Type doc",
+      "tags": [
+        {
+          "tag": "CIRED"
+        },
+        {
+          "tag": "recueil-50ans"
+        }
+      ],
+      "collections": [
+        "VPDB49CK"
+      ],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:28Z",
+      "dateModified": "2026-06-23T08:39:18Z"
+    }
+  },
+  {
+    "key": "KP5UEGVG",
+    "version": 7897,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/KP5UEGVG",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/KP5UEGVG",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Capecchi et al.",
+      "parsedDate": "1989",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "KP5UEGVG",
+      "version": 7897,
+      "itemType": "journalArticle",
+      "title": "Les nouvelles technologies de la communication dans la vie quotidienne: imprévisibilité et expérimentation des usages",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "V.",
+          "lastName": "Capecchi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "A.",
+          "lastName": "Pesce"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michel",
+          "lastName": "Schiray"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Technologies de l'Informatique et Société",
+      "publisher": "",
+      "place": "",
+      "date": "1989",
+      "volume": "1",
+      "issue": "2",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "37–76",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1988-77-Capecchi_Pesce_Schiray_RevueTIS_vol1_n2-1.pdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Les nouvelles technologies de la communication dans la vie quotidienne",
+      "language": "",
+      "libraryCatalog": "Google Scholar",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "recueil-50ans"
+        }
+      ],
+      "collections": [
+        "VPDB49CK"
+      ],
+      "relations": {},
+      "dateAdded": "2026-06-23T08:44:50Z",
+      "dateModified": "2026-06-23T08:44:50Z"
+    }
+  },
+  {
+    "key": "JNGDSIGV",
+    "version": 7897,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/JNGDSIGV",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/JNGDSIGV",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Godard",
+      "parsedDate": "1993",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "JNGDSIGV",
+      "version": 7897,
+      "itemType": "journalArticle",
+      "title": "Les risques climatiques entre raisons scientifiques, économiques et politiques. Jalons de la construction d’un problème d’action internationale en univers controversé",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Olivier",
+          "lastName": "Godard"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "CRESAL, Les raisons de l’action publique. Entre expertise et débat. Paris, L’Harmattan,(Coll. Logiques politiques)",
+      "publisher": "",
+      "place": "",
+      "date": "1993",
+      "volume": "",
+      "issue": "",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "33–52",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/Wehurei6-recueil_50ans_CIRED/1993-95-Godard-risques-climatiques-raisons-scientifiques-economiques-politiquepdf",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "Google Scholar",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "recueil-50ans"
+        }
+      ],
+      "collections": [
+        "VPDB49CK"
+      ],
+      "relations": {},
+      "dateAdded": "2026-06-23T08:44:49Z",
+      "dateModified": "2026-06-23T08:44:49Z"
+    }
+  },
+  {
+    "key": "I2Y8J7YM",
+    "version": 6840,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/I2Y8J7YM",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/I2Y8J7YM",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Caparros et al.",
+      "parsedDate": "2004",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "I2Y8J7YM",
+      "version": 6840,
+      "itemType": "journalArticle",
+      "title": "North-south climate change negotiations: A sequential game with asymmetric information",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Alejandro",
+          "lastName": "Caparros"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "J.-C.",
+          "lastName": "Péreau"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Tarik",
+          "lastName": "Tazdaït"
+        }
+      ],
+      "abstractNote": "This article determines the conditions under which the Southern countries should act together, or separately, while negotiating with the North about climate change policy and about the conditions for future Southern engagement. The paper models the international negotiations with complete and with asymmetric information in a dynamic framework. Results show that, depending on their characteristics, the different players can obtain benefits delaying the moment of the agreement.",
+      "publicationTitle": "Public Choice",
+      "publisher": "",
+      "place": "",
+      "date": "2004",
+      "volume": "121",
+      "issue": "3-4",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "455–480",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/2004-127.pdf",
+      "accessDate": "2014-11-18",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "North-south climate change negotiations",
+      "language": "",
+      "libraryCatalog": "Google Scholar",
+      "callNumber": "127",
+      "rights": "non",
+      "extra": "ok",
+      "tags": [
+        {
+          "tag": "CIRED"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2020-11-06T17:46:14Z",
+      "dateModified": "2026-06-19T13:19:58Z"
+    }
+  }
+]
