@@ -6,6 +6,8 @@ Author: Minh Ha-Duong
 --- log ---
 2026-06-23T07:43Z Minh Ha-Duong created
 2026-06-23T07:43Z claude note Prototype HAL validé en revue 0019 (hal-00624329 a confirmé la notice Godard/Futuribles). À industrialiser en swarm. Famille avec [[0023]] [[0024]] ; bénéficie de [[0021]].
+2026-06-24T12:00Z claude note Harnais src/enrich_hal.py (recherche HAL → appariement corroboré Jaccard+auteur+année → diff, lecture seule, rapport ; PR #44). Passage complet sur les 579 notices éligibles : 89 appariées (~15 %), couverture concentrée sur les articles CIRED récents + le fonds LEESU (Thévenot électrochimie/biocapteurs, Azimi/Rocher chimie de l'eau). Corroboration auteur+année : 0 faux positif, même les 4 sim<0,8 sont corrects (titres tronqués, pas mauvais doc). Un swarm parallèle s'est avéré inutile — une passe séquentielle suffit sans marteler l'API.
+2026-06-24T12:10Z Minh Ha-Duong note Convention validée : halId en ligne « HAL: <id> » ajoutée à l'Extra (jamais d'écrasement). src/gen_hal_corrections.py génère les corrections depuis le rapport ; écrites via apply_corrections.py (ledger outputs/hal_corrections_proposals.json, backup outputs/enrich_hal_backup.json). 88 notices enrichies : halId + champs vides ajoutés (DOI ×30, volume ×12, revue ×6, numéro ×5). Pages EXCLUES de l'auto-ajout (HAL parfois tronqué, ex. « 51-99 » au lieu de « 5199-5207 ») + divergences laissées en revue. Vérifié live : 88 lignes HAL, 0 doublon. Les ~490 non-appariées ne sont pas dans HAL (vieux docs/revues étrangères/grise).
 
 --- body ---
 ## Context
@@ -46,9 +48,9 @@ rechercher → apparier (réutiliser `match_untyped`/`diff_recueil`) → diff �
 
 ## Verification
 
-- [ ] halId ajouté à chaque notice trouvée dans HAL
-- [ ] Diffs de métadonnées revus avant écriture
-- [ ] Corrections appliquées (backup), rapport des notices sans correspondance
+- [x] halId ajouté à chaque notice trouvée dans HAL (88 ; 1 déjà à jour)
+- [x] Diffs de métadonnées revus avant écriture (sim audité, pages exclues, divergences en revue)
+- [x] Corrections appliquées (backup enrich_hal_backup.json), rapport des notices sans correspondance (enrich_hal_report.md)
 
 ## Invariants
 
@@ -57,5 +59,5 @@ rechercher → apparier (réutiliser `match_untyped`/`diff_recueil`) → diff �
 
 ## Exit criteria
 
-- [ ] Catalogue enrichi via HAL (halId + métadonnées vérifiées, rapport)
-- [ ] `make check` passe
+- [x] Catalogue enrichi via HAL (88 halId + champs vérifiés, rapport ; ~490 non couvertes car absentes de HAL)
+- [x] `make check` passe

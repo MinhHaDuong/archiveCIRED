@@ -1,0 +1,935 @@
+[
+  {
+    "key": "99ZFWQ44",
+    "ref": "The economics of changing course: Implications of adaptability and ine — HAL halshs-00002455",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: halshs-00002455"
+    },
+    "note": "halId halshs-00002455. Divergences (revue, non écrites) : ['pages', 'date'].",
+    "applied": true
+  },
+  {
+    "key": "QRLF5SRD",
+    "ref": "Inﬂuence of socioeconomic inertia and uncertainty on optimal CO2-emiss — HAL halshs-00002452",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "ok\nHAL: halshs-00002452"
+    },
+    "note": "halId halshs-00002452. Divergences (revue, non écrites) : ['pages', 'date'].",
+    "applied": true
+  },
+  {
+    "key": "T2LLYZ9Z",
+    "ref": "Decrease of atmospheric deposition of heavy metals in an urban area fr — HAL hal-01180059",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01180059"
+    },
+    "note": "halId hal-01180059. Divergences (revue, non écrites) : ['pages', 'date'].",
+    "applied": true
+  },
+  {
+    "key": "5XZ54S9Y",
+    "ref": "Does uncertainty justify intensity emission caps? — HAL halshs-00007162",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "ok\nHAL: halshs-00007162"
+    },
+    "note": "halId halshs-00007162. Divergences (revue, non écrites) : ['pages', 'date'].",
+    "applied": true
+  },
+  {
+    "key": "7AJNH48Y",
+    "ref": "Climate Strategy with Co2 Capture from the Air — HAL halshs-00003926",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "ok\nHAL: halshs-00003926"
+    },
+    "note": "halId halshs-00003926. Divergences (revue, non écrites) : ['pages', 'date'].",
+    "applied": true
+  },
+  {
+    "key": "3UU7NR6F",
+    "ref": "Why economic dynamics matter in assessing climate change damages: Illu — HAL hal-00164626",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "ok\nHAL: hal-00164626"
+    },
+    "note": "halId hal-00164626. Divergences (revue, non écrites) : ['pages', 'date'].",
+    "applied": true
+  },
+  {
+    "key": "3T33LI2E",
+    "ref": "Le climat, une négociation carrefour — HAL hal-00772580",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "ok\nHAL: hal-00772580",
+      "volume": "89"
+    },
+    "note": "halId hal-00772580. Divergences (revue, non écrites) : ['pages', 'date'].",
+    "applied": true
+  },
+  {
+    "key": "SKNCPXQV",
+    "ref": "ELECTROCHEMICAL STUDY OF REACTIONS AT INTERFACES OF GLUCOSE OXIDASE CO — HAL hal-01179303",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01179303",
+      "publicationTitle": "Biochimica et Biophysica Acta (BBA) - Enzymology",
+      "DOI": "10.1016/0005-2744(80)90114-X"
+    },
+    "note": "halId hal-01179303. Divergences (revue, non écrites) : [].",
+    "applied": true
+  },
+  {
+    "key": "I2Y8J7YM",
+    "ref": "North-south climate change negotiations: A sequential game with asymme — HAL halshs-00009823",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "Version texte seul, un mot par ligne (recueil) : https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/attente/%C3%A0%20d%C3%A9doublonner%20avec%20ce%20qui%20est%20d%C3%A9j%C3%A0%20trait%C3%A9/2004%20127-Caparros%20PERREAU%20Tazda%C3%AFt%20North-south%20climate%20change%20negociation_Public_Choice%20vol121%20n3-4.txt\nHAL: halshs-00009823",
+      "DOI": "10.1007/s11127-004-2683-x"
+    },
+    "note": "halId halshs-00009823. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "RQ2AY8XX",
+    "ref": "L'occupation  des espaces littoraux méditérranéens — HAL halshs-00618217",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "Copie moins bonne (corpus, OCR plus complet) : https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/docs/CIR_GOD_0030.pdf\nHAL: halshs-00618217",
+      "volume": "31"
+    },
+    "note": "halId halshs-00618217. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "TVN3EL52",
+    "ref": "Option value in low-carbon technology policies — HAL hal-00787889",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-00787889",
+      "volume": "13",
+      "issue": "1",
+      "DOI": "10.1080/14693062.2012.699787"
+    },
+    "note": "halId hal-00787889. Divergences (revue, non écrites) : ['pages', 'date'].",
+    "applied": true
+  },
+  {
+    "key": "829S2U5G",
+    "ref": "Playing in the line, channelling multiplicity : with power planning in — HAL hal-01785358",
+    "source": "enrich_hal.py (sim 0.727)",
+    "set": {
+      "extra": "HAL: hal-01785358",
+      "volume": "31",
+      "issue": "1",
+      "DOI": "10.1068/d22610"
+    },
+    "note": "halId hal-01785358. Divergences (revue, non écrites) : ['publicationTitle', 'pages', 'date'].",
+    "applied": true
+  },
+  {
+    "key": "9JUBWUFG",
+    "ref": "De quelques enjeux de Rio+ 20 — HAL hal-00855640",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "ok\nHAL: hal-00855640",
+      "volume": "mis en ligne le 30 janvier 2012",
+      "issue": "http://vertigo.revues.org/11539"
+    },
+    "note": "halId hal-00855640. Divergences (revue, non écrites) : [].",
+    "applied": true
+  },
+  {
+    "key": "UEQDYIG2",
+    "ref": "Le taux d’actualisation contre le principe de précaution ? Leçons à pa — HAL halshs-00000967",
+    "source": "enrich_hal.py (sim 0.818)",
+    "set": {
+      "extra": "ok\nHAL: halshs-00000967"
+    },
+    "note": "halId halshs-00000967. Divergences (revue, non écrites) : ['date'].",
+    "applied": true
+  },
+  {
+    "key": "6GLAHY9Y",
+    "ref": "Transparency and control in engineering integrated assessment models — HAL halshs-00000681",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "ok\nHAL: halshs-00000681"
+    },
+    "note": "halId halshs-00000681. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "5578HQIC",
+    "ref": "EUROPEAN ACHIEVEMENTS IN SENSOR RESEARCH DEDICATED TO IN VIVO MONITORI — HAL hal-01179829",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01179829"
+    },
+    "note": "halId hal-01179829. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "SHKRHPX2",
+    "ref": "BATCH METAL REMOVAL BY PEAT : KINETICS AND THERMODYNAMICS — HAL hal-01179701",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01179701"
+    },
+    "note": "halId hal-01179701. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "85LBV6AY",
+    "ref": "Study and Development of Multilayer Needle-type Enzymebased Glucose Mi — HAL hal-01179712",
+    "source": "enrich_hal.py (sim 0.7)",
+    "set": {
+      "extra": "HAL: hal-01179712"
+    },
+    "note": "halId hal-01179712. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "BEGKQDMZ",
+    "ref": "Impact environnemental de la mise en dépôt en eau de matériaux de drag — HAL hal-01180056",
+    "source": "enrich_hal.py (sim 0.688)",
+    "set": {
+      "extra": "HAL: hal-01180056",
+      "DOI": "10.1051/lhb/2001096"
+    },
+    "note": "halId hal-01180056. Divergences (revue, non écrites) : ['publicationTitle', 'pages'].",
+    "applied": true
+  },
+  {
+    "key": "K47MAKI4",
+    "ref": "Use of Ring-disc Electrodes for the Determination of Aqueous Solutions — HAL hal-01179315",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01179315",
+      "publicationTitle": "Bioelectrochemistry and Bioenergetics",
+      "volume": "3",
+      "DOI": "10.1016/0302-4598(76)80011-6"
+    },
+    "note": "halId hal-01179315. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "I74BQNYA",
+    "ref": "Propriétiés électrochimiques des dérivés polyconjugués hétérocycliques — HAL hal-01179288",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01179288",
+      "publicationTitle": "Journal of electroanalytical chemistry and interfacial electrochemistry",
+      "DOI": "10.1016/S0022-0728(73)80181-0"
+    },
+    "note": "halId hal-01179288. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "L6CTG39B",
+    "ref": "TOXIC METAL SPECIATION SCHEME FOR WATER AND SEDIMENT FROM AN URBAN STO — HAL hal-01179637",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01179637"
+    },
+    "note": "halId hal-01179637. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "DIIFGLT3",
+    "ref": "SENSOR OPERATING PRINCIPLES — HAL hal-01179726",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01179726",
+      "volume": "Chap.2"
+    },
+    "note": "halId hal-01179726. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "6U9GMK49",
+    "ref": "The design and development of in vivo glucose sensors for an artificia — HAL hal-01179643",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01179643"
+    },
+    "note": "halId hal-01179643. Divergences (revue, non écrites) : ['publicationTitle', 'pages'].",
+    "applied": true
+  },
+  {
+    "key": "JNB7T34Y",
+    "ref": "PERSPECTIVES DE MAITRISE DES PROCESSUS DE NITRIFICATION ET DE DENITRIF — HAL hal-01179682",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01179682",
+      "volume": "6"
+    },
+    "note": "halId hal-01179682. Divergences (revue, non écrites) : ['publicationTitle', 'pages'].",
+    "applied": true
+  },
+  {
+    "key": "5AFFTCFC",
+    "ref": "BINDING OF L-GLUTAMATE TO GLUTAMATE DEHYDROGENASE IN THE PRESENCE OF 1 — HAL hal-01179275",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01179275",
+      "DOI": "10.1016/0014-5793(75)80075-5"
+    },
+    "note": "halId hal-01179275. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "TRFVBNGE",
+    "ref": "Use of ring-disc electrodes and viologens for the titration of cytochr — HAL hal-01179317",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01179317",
+      "DOI": "10.1016/S0022-0728(77)80200-3"
+    },
+    "note": "halId hal-01179317. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "DVY9W2ZB",
+    "ref": "Caractérisation physico-chimique de tourbe utilisée en épuration d'eau — HAL hal-01179652",
+    "source": "enrich_hal.py (sim 0.588)",
+    "set": {
+      "extra": "HAL: hal-01179652",
+      "publicationTitle": "Tribune du CEBEDEAU",
+      "volume": "40",
+      "issue": "523-524"
+    },
+    "note": "halId hal-01179652. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "BQ9827PA",
+    "ref": "MICROBIAL DECOMPOSITION — HAL hal-01179690",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01179690"
+    },
+    "note": "halId hal-01179690. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "8AACM568",
+    "ref": "EXPERIMENTAL SIMULATION OF BIODEGRADATION IN RIVERS: OXYGEN, ORGANIC M — HAL hal-01179337",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01179337"
+    },
+    "note": "halId hal-01179337. Divergences (revue, non écrites) : ['publicationTitle'].",
+    "applied": true
+  },
+  {
+    "key": "YRJPIY2C",
+    "ref": "In vivo calibration of a subcutaneous glucose sensor for determination — HAL hal-01179359",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01179359",
+      "issue": "3"
+    },
+    "note": "halId hal-01179359. Divergences (revue, non écrites) : ['publicationTitle', 'pages'].",
+    "applied": true
+  },
+  {
+    "key": "AHJCUNK2",
+    "ref": "PRELIMINARY STUDY OF SURFACE TREATMENTS FOR PLATINUM ELECTRODES DESIGN — HAL hal-02574232",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-02574232"
+    },
+    "note": "halId hal-02574232. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "9CUFYVVC",
+    "ref": "ELEMENTS IN THE INTERPRETATION OF PLATINUM ELECTRODE POTENTIALS IN BIO — HAL hal-02578189",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-02578189"
+    },
+    "note": "halId hal-02578189. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "BXU4YPZY",
+    "ref": "POLLUTION METALLIQUE RELARGABLE PAR LES AEROSOLS D'ORIGINE AUTOROUTIER — HAL hal-01200588",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01200588",
+      "DOI": "10.1080/09593339209385126"
+    },
+    "note": "halId hal-01200588. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "KTS3MB8E",
+    "ref": "MODIFIED PLATINUM ELECTRODES: ELECTROCHEMICAL CHARACTERISTICS AND BEHA — HAL hal-02574334",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-02574334"
+    },
+    "note": "halId hal-02574334. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "87RVLHJF",
+    "ref": "Design and in Vitro Studies of a Needle-Type Glucose Sensor for Subcut — HAL hal-01179862",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01179862",
+      "DOI": "10.1021/ac00017a008"
+    },
+    "note": "halId hal-01179862. Divergences (revue, non écrites) : ['publicationTitle', 'pages'].",
+    "applied": true
+  },
+  {
+    "key": "5RKQFV78",
+    "ref": "URBAN DISCHARGES DURING WET WEATHER: WHAT VOLUMES HAVE TO BE TREATED? — HAL hal-00779543",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-00779543",
+      "DOI": "10.1016/0273-1223(95)00559-6"
+    },
+    "note": "halId hal-00779543. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "PGDSQ23W",
+    "ref": "Consequences to water suppliers of collecting rainwater on housing est — HAL hal-00816788",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-00816788"
+    },
+    "note": "halId hal-00816788. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "6PV8SBN7",
+    "ref": "Climate modelling and policy strategies. The role of technical change  — HAL hal-00716515",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "Place: Amsterdam\nHAL: hal-00716515"
+    },
+    "note": "halId hal-00716515. Divergences (revue, non écrites) : ['publicationTitle', 'issue', 'pages'].",
+    "applied": true
+  },
+  {
+    "key": "9BZTJNJ2",
+    "ref": "Clean development mechanism: leverage for development? — HAL halshs-01285635",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: halshs-01285635"
+    },
+    "note": "halId halshs-01285635. Divergences (revue, non écrites) : ['pages', 'DOI'].",
+    "applied": true
+  },
+  {
+    "key": "84DPXVJG",
+    "ref": "Using climate analogues for assessing climate change economic impacts  — HAL hal-00164627",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-00164627"
+    },
+    "note": "halId hal-00164627. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "NFSI7AIZ",
+    "ref": "The social efficiency of instruments of promotion of renewable energie — HAL hal-00716667",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-00716667"
+    },
+    "note": "halId hal-00716667. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "565A3R98",
+    "ref": "Business cycles, bifurcations and chaos in a neo-classical model with  — HAL halshs-00007196",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: halshs-00007196"
+    },
+    "note": "halId halshs-00007196. Divergences (revue, non écrites) : ['publicationTitle', 'pages'].",
+    "applied": true
+  },
+  {
+    "key": "WQK7XEHH",
+    "ref": "Untying the Climate-Development Gordian Knot: Economic Options in a Po — HAL hal-00783370",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-00783370"
+    },
+    "note": "halId hal-00783370. Divergences (revue, non écrites) : ['pages', 'date'].",
+    "applied": true
+  },
+  {
+    "key": "7TIKUE8J",
+    "ref": "How to design a border adjustment for the European Union Emissions Tra — HAL hal-00719254",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-00719254"
+    },
+    "note": "halId hal-00719254. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "9AIB83SH",
+    "ref": "Climate policies as a hedge against the uncertainty on future oil supp — HAL hal-00866449",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-00866449"
+    },
+    "note": "halId hal-00866449. Divergences (revue, non écrites) : [].",
+    "applied": true
+  },
+  {
+    "key": "PVSC6ZMQ",
+    "ref": "Efficiency of policy instruments for CCS deployment — HAL hal-00715348",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-00715348"
+    },
+    "note": "halId hal-00715348. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "AEZXX8F8",
+    "ref": "Venturing into uncharted financial waters: an essay on climate-friendl — HAL hal-00715343",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-00715343"
+    },
+    "note": "halId hal-00715343. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "PTIFHX7E",
+    "ref": "Peak Oil profiles through the lens of a general equilibrium assessment — HAL hal-00787704",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-00787704"
+    },
+    "note": "halId hal-00787704. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "KQMI4WC2",
+    "ref": "IMACLIM-R: a modelling framework to simulate sustainable development p — HAL hal-00566290",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-00566290"
+    },
+    "note": "halId hal-00566290. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "WU2ABU7Z",
+    "ref": "Ecological economics and scientific controversies. Lessons from some r — HAL hal-02961810",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-02961810",
+      "DOI": "10.1016/0921-8009(92)90026-O"
+    },
+    "note": "halId hal-02961810. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "5RS5FT4S",
+    "ref": "Quelles politiques face aux chocs énergétiques. France, Italie, Japon, — HAL hal-00991639",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-00991639",
+      "volume": "189"
+    },
+    "note": "halId hal-00991639. Divergences (revue, non écrites) : ['date'].",
+    "applied": true
+  },
+  {
+    "key": "H3PNJSQQ",
+    "ref": "L'écodéveloppement revisité — HAL hal-00622847",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "ok\nHAL: hal-00622847"
+    },
+    "note": "halId hal-00622847. Divergences (revue, non écrites) : ['publicationTitle', 'pages'].",
+    "applied": true
+  },
+  {
+    "key": "88YZFI6N",
+    "ref": "Social Decision-Making under Scientific Controversy, Expertise, and th — HAL halshs-00624027",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "ok\nHAL: halshs-00624027"
+    },
+    "note": "halId halshs-00624027. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "7IKEW8MP",
+    "ref": "Sustainable development and the process of justifying choices in a con — HAL hal-00622855",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "ok\nHAL: hal-00622855"
+    },
+    "note": "halId hal-00622855. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "2FVBC9PZ",
+    "ref": "L'ambivalence de la précaution et la transformation des rapports entre — HAL halshs-00624042",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "ok\nHAL: halshs-00624042"
+    },
+    "note": "halId halshs-00624042. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "Q7RY93V5",
+    "ref": "URBAN RUNOFF IMPACT ON COMPOSITION AND CONCENTRATION OF HYDROCARBONS I — HAL hal-01180061",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01180061"
+    },
+    "note": "halId hal-01180061. Divergences (revue, non écrites) : [].",
+    "applied": true
+  },
+  {
+    "key": "NDY4U9RM",
+    "ref": "Propriétés électrochimiques de la nicotinamide et de ses dérivés en so — HAL hal-01179296",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01179296",
+      "publicationTitle": "Journal of electroanalytical chemistry and interfacial electrochemistry"
+    },
+    "note": "halId hal-01179296. Divergences (revue, non écrites) : [].",
+    "applied": true
+  },
+  {
+    "key": "TS5ZLX38",
+    "ref": "Evaluation of Implantable Glucose Enzyme-Based Sensors with Extracorpo — HAL hal-01179672",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01179672",
+      "volume": "20"
+    },
+    "note": "halId hal-01179672. Divergences (revue, non écrites) : [].",
+    "applied": true
+  },
+  {
+    "key": "MI97ZELQ",
+    "ref": "Propriétés électrochimiques de la nicotinamide et de ses dérivés en so — HAL hal-01179302",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01179302",
+      "publicationTitle": "Journal of electroanalytical chemistry and interfacial electrochemistry",
+      "DOI": "10.1016/S0022-0728(72)80167-0"
+    },
+    "note": "halId hal-01179302. Divergences (revue, non écrites) : [].",
+    "applied": true
+  },
+  {
+    "key": "A4GW9I3H",
+    "ref": "Unmediated amperometric enzyme electrodes — HAL hal-01179624",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01179624"
+    },
+    "note": "halId hal-01179624. Divergences (revue, non écrites) : [].",
+    "applied": true
+  },
+  {
+    "key": "H6KXL2JU",
+    "ref": "Significance of dissolved and particulate metal and hydrocarbon determ — HAL hal-01180054",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01180054"
+    },
+    "note": "halId hal-01180054. Divergences (revue, non écrites) : [].",
+    "applied": true
+  },
+  {
+    "key": "DS4FSTIS",
+    "ref": "Titration of aqueous solutions of phenols and determination of their b — HAL hal-01178845",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01178845",
+      "DOI": "10.1007/BF00615376"
+    },
+    "note": "halId hal-01178845. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "BBZWHR7Q",
+    "ref": "Electrochemical properties of nicotinamide derivatives in aqueous solu — HAL hal-01179282",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01179282"
+    },
+    "note": "halId hal-01179282. Divergences (revue, non écrites) : ['issue', 'pages'].",
+    "applied": true
+  },
+  {
+    "key": "EB54CFGC",
+    "ref": "Enzyme collagen membrane for electrochemical determination of glucose — HAL hal-01179308",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01179308",
+      "DOI": "10.1021/ac50037a031"
+    },
+    "note": "halId hal-01179308. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "SL3QQD72",
+    "ref": "245-A highly sensitive glucose electrode using glucose oxidase collage — HAL hal-01083001",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01083001",
+      "DOI": "10.1016/0302-4598(87)85047-X"
+    },
+    "note": "halId hal-01083001. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "BWZJNXVH",
+    "ref": "Analytical bioelectrochemistry — HAL hal-01179335",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01179335",
+      "DOI": "10.1007/978-1-4684-5098-9_19"
+    },
+    "note": "halId hal-01179335. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "KCLKBK88",
+    "ref": "Covalent enzyme coupling on cellulose acetate membranes for glucose se — HAL hal-01179370",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01179370",
+      "DOI": "10.1021/ac00175a028"
+    },
+    "note": "halId hal-01179370. Divergences (revue, non écrites) : ['publicationTitle', 'pages'].",
+    "applied": true
+  },
+  {
+    "key": "3AGPMXGE",
+    "ref": "In vitro and in vivo stability of electrode potentials in needle-type  — HAL hal-01179627",
+    "source": "enrich_hal.py (sim 0.818)",
+    "set": {
+      "extra": "HAL: hal-01179627"
+    },
+    "note": "halId hal-01179627. Divergences (revue, non écrites) : [].",
+    "applied": true
+  },
+  {
+    "key": "JGTIKU8W",
+    "ref": "Progress toward the development of an implantable sensor for glucose. — HAL hal-01179833",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01179833"
+    },
+    "note": "halId hal-01179833. Divergences (revue, non écrites) : [].",
+    "applied": true
+  },
+  {
+    "key": "LFFJ8VVL",
+    "ref": "Fluorescein diacetate hydrolysis as a measure of microbial activity in — HAL hal-01179839",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01179839"
+    },
+    "note": "halId hal-01179839. Divergences (revue, non écrites) : [].",
+    "applied": true
+  },
+  {
+    "key": "32NGS3GW",
+    "ref": "Determination of polycyclic aromatic hydrocarbons in urban runoff samp — HAL hal-01179901",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01179901",
+      "DOI": "10.1080/10406630008034772"
+    },
+    "note": "halId hal-01179901. Divergences (revue, non écrites) : [].",
+    "applied": true
+  },
+  {
+    "key": "DBHZ36KQ",
+    "ref": "Aspectos de qualidade de agua en bacias de retention urbanas — HAL hal-00752713",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-00752713"
+    },
+    "note": "halId hal-00752713. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "63JJ4DJP",
+    "ref": "Urban runoff impacts on particulate metal and hydrocarbon concentratio — HAL hal-00779527",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-00779527",
+      "DOI": "10.1016/S0273-1223(97)00600-8"
+    },
+    "note": "halId hal-00779527. Divergences (revue, non écrites) : ['issue', 'pages'].",
+    "applied": true
+  },
+  {
+    "key": "Z4X4LVQP",
+    "ref": "Sensitive detection of organophosphorus pesticides using a needle type — HAL hal-01180057",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-01180057"
+    },
+    "note": "halId hal-01180057. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "2M9FCPTI",
+    "ref": "Contribution of different sources to the pollution of wet weather flow — HAL hal-00711820",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-00711820",
+      "DOI": "10.1016/S0043-1354(00)00261-X"
+    },
+    "note": "halId hal-00711820. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "8HE7JKEH",
+    "ref": "The transfer of solids in combined sewer networks — HAL hal-00779544",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-00779544",
+      "DOI": "10.1016/0273-1223(95)00327-J"
+    },
+    "note": "halId hal-00779544. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "2Z3JBZZ4",
+    "ref": "Origins and characteristics of urban wet weather pollution in combined — HAL hal-00779525",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-00779525",
+      "DOI": "10.1016/S0273-1223(97)00753-1"
+    },
+    "note": "halId hal-00779525. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "WG2V29F5",
+    "ref": "ANALYSIS OF THE METHODS FOR DETERMINING THE SETTLING CHARACTERISTICS O — HAL hal-00779524",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-00779524",
+      "DOI": "10.1016/S0273-1223(97)00755-5"
+    },
+    "note": "halId hal-00779524. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "MF7INFWT",
+    "ref": "Tracing calcite precipitation with specific conductance in a hard wate — HAL hal-00711823",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "HAL: hal-00711823",
+      "DOI": "10.1016/S0043-1354(00)00191-3"
+    },
+    "note": "halId hal-00711823. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "C2YLFBMY",
+    "ref": "Le climat au risque de la négociation internationale — HAL hal-00547774",
+    "source": "enrich_hal.py (sim 0.833)",
+    "set": {
+      "extra": "ok\nHAL: hal-00547774"
+    },
+    "note": "halId hal-00547774. Divergences (revue, non écrites) : ['pages', 'date'].",
+    "applied": true
+  },
+  {
+    "key": "PQIGHQJR",
+    "ref": "Implementing greenhouse gas trading in Europe: lessons from economic l — HAL halshs-00007264",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "ok\nHAL: halshs-00007264",
+      "DOI": "10.1016/S0921-8009(02)00213-6"
+    },
+    "note": "halId halshs-00007264. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "INCBDSWS",
+    "ref": "Dans le labyrinthe de verre. La négociation sur l'effet de serre — HAL halshs-00007691",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "ok\nHAL: halshs-00007691"
+    },
+    "note": "halId halshs-00007691. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "MAU49Z23",
+    "ref": "Optimal control models and elicitation of attitudes towards climate da — HAL halshs-00000966",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "ok\nHAL: halshs-00000966",
+      "DOI": "10.1023/A:1025586922143"
+    },
+    "note": "halId halshs-00000966. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "69BSN3R7",
+    "ref": "CO2 abatement, competitiveness and leakage in the European cement indu — HAL hal-00719269",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "ok\nHAL: hal-00719269"
+    },
+    "note": "halId hal-00719269. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "CE4JJNVD",
+    "ref": "Hybrid Modeling: New Answers to Old Challenges Introduction to the Spe — HAL hal-00716778",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "ok\nHAL: hal-00716778",
+      "volume": "NC"
+    },
+    "note": "halId hal-00716778. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "Y7EMI7W6",
+    "ref": "The social efficiency of instruments for the promotion of renewable en — HAL hal-00716383",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "ok\nHAL: hal-00716383",
+      "DOI": "10.1111/j.1467-8292.2006.00308.x"
+    },
+    "note": "halId hal-00716383. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  },
+  {
+    "key": "W7JAGF2D",
+    "ref": "Trade-offs and synergies in urban climate policies — HAL hal-00716121",
+    "source": "enrich_hal.py (sim 1.0)",
+    "set": {
+      "extra": "ok\nHAL: hal-00716121",
+      "DOI": "10.1038/NCLIMATE1434"
+    },
+    "note": "halId hal-00716121. Divergences (revue, non écrites) : ['pages'].",
+    "applied": true
+  }
+]

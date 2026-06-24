@@ -1,10 +1,10 @@
 {
   "summary": {
-    "total": 42,
-    "matched": 8,
-    "with_halid": 8,
-    "with_field_adds": 3,
-    "unmatched": 34
+    "total": 579,
+    "matched": 89,
+    "with_halid": 89,
+    "with_field_adds": 42,
+    "unmatched": 490
   },
   "results": [
     {
@@ -13,8 +13,138 @@
       "matched": null
     },
     {
+      "key": "U6IG36BY",
+      "title": "A la recherche de stratégies de transition : du maldéveloppement au développement",
+      "matched": null
+    },
+    {
+      "key": "XCERT277",
+      "title": "Environment and styles of development",
+      "matched": null
+    },
+    {
+      "key": "JLHJIHTL",
+      "title": "Changer de vie : prospectus d'un jeu de prospective",
+      "matched": null
+    },
+    {
+      "key": "TDYHTS75",
+      "title": "Eco-developing",
+      "matched": null
+    },
+    {
+      "key": "NM2ZEN4I",
+      "title": "A qui et pourquoi ?",
+      "matched": null
+    },
+    {
+      "key": "Q6CQBQMB",
+      "title": "Vers une civilisation bio-industrielle des tropiques ?",
+      "matched": null
+    },
+    {
+      "key": "9Y5KPHEL",
+      "title": "The industrial futures of the third world : reconsidering the patterns of North-South interdependence",
+      "matched": null
+    },
+    {
+      "key": "CIXSGZK6",
+      "title": "The food energy nexus : draft project proposal",
+      "matched": null
+    },
+    {
+      "key": "8WSJ24GL",
+      "title": "Chercheurs du CIRED concernés par les recherches sur les énergies nouvelles",
+      "matched": null
+    },
+    {
+      "key": "YDYWZTGS",
+      "title": "Energie, espace, environnement : styles et stratégies du développement. Outils d'analyse",
+      "matched": null
+    },
+    {
+      "key": "YAUUQ55V",
+      "title": "Techniques, temps et société : pour une nouvelle approche du travail",
+      "matched": null
+    },
+    {
+      "key": "A45DECJC",
+      "title": "Colonisation et écodéveloppement",
+      "matched": null
+    },
+    {
+      "key": "LR2XAKDN",
+      "title": "Prise de conscience écologique et choix de techniques appropriées",
+      "matched": null
+    },
+    {
       "key": "K87UCL7J",
       "title": "Energy and the village",
+      "matched": null
+    },
+    {
+      "key": "C9QYP2BX",
+      "title": "Energy, environment, development",
+      "matched": null
+    },
+    {
+      "key": "8VNF8P2V",
+      "title": "Les structures du quotidien et la crise",
+      "matched": null
+    },
+    {
+      "key": "X3HPY2PS",
+      "title": "Inventing a humane future",
+      "matched": null
+    },
+    {
+      "key": "NHDPAIUR",
+      "title": "De la croissance économique à l'écodéveloppement",
+      "matched": null
+    },
+    {
+      "key": "Q4GG6RRE",
+      "title": "Political culture and institutions for a world community : citizenhood, local, national, regional and planetary",
+      "matched": null
+    },
+    {
+      "key": "CZW8XNX3",
+      "title": "Cinq ans après le sommet de la terre : sur un ciel d'hiver quelques hirondelles",
+      "matched": null
+    },
+    {
+      "key": "GUZN3HK9",
+      "title": "Culture et développement du quotidien",
+      "matched": null
+    },
+    {
+      "key": "2LUSPCYH",
+      "title": "Transformer les déchets en richesses !",
+      "matched": null
+    },
+    {
+      "key": "SRZGYM33",
+      "title": "Coréflexion pour un codéveloppement",
+      "matched": null
+    },
+    {
+      "key": "BN8VPLY7",
+      "title": "Quel développement pour le XXIe siècle ?",
+      "matched": null
+    },
+    {
+      "key": "AX9AFBC7",
+      "title": "Les notes de lecture d'Ignacy Sachs",
+      "matched": null
+    },
+    {
+      "key": "BF8ZAGC4",
+      "title": "Environnement et planification : quelques pistes de recherche et d'action",
+      "matched": null
+    },
+    {
+      "key": "IGLIBF2T",
+      "title": "Heurs et malheurs du biogaz asiatique",
       "matched": null
     },
     {
@@ -23,9 +153,190 @@
       "matched": null
     },
     {
+      "key": "EIQY48PZ",
+      "title": "Urban waters: Resource or Risk?: WWW-YES-2013: PROCEEDINGS DRAFT VERSION",
+      "matched": null
+    },
+    {
+      "key": "BGRGQ9XX",
+      "title": "Urban waters: Resource or Risk? WWW-YES-2012",
+      "matched": null
+    },
+    {
+      "key": "2B6WA7LC",
+      "title": "Urban waters: Resource or Risk? WWW-YES-2011",
+      "matched": null
+    },
+    {
+      "key": "3KP7I7RP",
+      "title": "Urban waters: Resource or Risk? : WWW-YES-2010",
+      "matched": null
+    },
+    {
+      "key": "WP97PIBZ",
+      "title": "Urban waters : Resource or Risk ? : FOURTH WORLD WIDE WORKSHOP FOR YOUNG ENVIRONMENTAL SCIENTISTS WWW-YES-2005",
+      "matched": null
+    },
+    {
+      "key": "L7ZFZGRG",
+      "title": "Discharged urban waters : Ressource or Risk ?: THIRD WORLD WIDE WORKSHOP FOR YOUNG ENVIRONMENTAL SCIENTISTS WWW-YES-2004",
+      "matched": null
+    },
+    {
+      "key": "UW6QXQGY",
+      "title": "Discharged urban waters : Ressource or Risk ? 2nd WWW-YES",
+      "matched": null
+    },
+    {
+      "key": "WYBLN43Z",
+      "title": "MODELISATION DU COMPORTEMENT DES POLLUANTS DANS LES HYDROSYSTEMES",
+      "matched": null
+    },
+    {
+      "key": "3N5732LA",
+      "title": "Regard croisés Amazonie / est parisien : autour des pollutions de l'eau et des sols: expériences citoyennes, expertises scientifiques",
+      "matched": null
+    },
+    {
+      "key": "RHGYIUIH",
+      "title": "Conférence des Nations Unies sur l'Environnement et le Développement (CNUED): DISCOURS PRONONCE PAR MADAME SEGOLENE ROYAL",
+      "matched": null
+    },
+    {
+      "key": "8B9MTZUW",
+      "title": "Durabilité des biens et nouvelle croissance",
+      "matched": null
+    },
+    {
+      "key": "A5H6D2ZJ",
+      "title": "Environnement, Architecture et matériaux de construction",
+      "matched": null
+    },
+    {
+      "key": "CAVIKQ6W",
+      "title": "Les sciences entre philosophie et mass media ou l’incertaine légitimité",
+      "matched": null
+    },
+    {
       "key": "EWVWMQPS",
       "title": "Modelling long-run scenarios: Methodology lessons from a prospective study on a low CO2 intensive country",
       "matched": null
+    },
+    {
+      "key": "AATNPKXT",
+      "title": "Les enjeux économiques des risques globaux d’environnement",
+      "matched": null
+    },
+    {
+      "key": "HIH4ABAU",
+      "title": "Analyse économique et gestion des risques climatiques",
+      "matched": null
+    },
+    {
+      "key": "99ZFWQ44",
+      "title": "The economics of changing course: Implications of adaptability and inertia for optimal climate policy",
+      "matched": {
+        "halId": "halshs-00002455",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "halshs-00002455",
+        "add": {},
+        "differ": {
+          "pages": [
+            "417–431",
+            "417-432"
+          ],
+          "date": [
+            "1995-04-01",
+            "1995"
+          ]
+        }
+      }
+    },
+    {
+      "key": "GI3M378Z",
+      "title": "La voiture électrique a-t-elle un avenir ?",
+      "matched": null
+    },
+    {
+      "key": "UZTAGW2C",
+      "title": "Du transfert mimétique à l’auto-détermination: quelques points de repère",
+      "matched": null
+    },
+    {
+      "key": "QM6ZCWUS",
+      "title": "La Nécessité d’une nouvelle division internationale du travail,",
+      "matched": null
+    },
+    {
+      "key": "3P3QA3E8",
+      "title": "Environnement, développement et styles de vie: recherche des grandes tendances de la croissance passée en France, comparables à celles des autres pays industrialisés à économie de marché",
+      "matched": null
+    },
+    {
+      "key": "G99DNFAE",
+      "title": "Créativités coopératives et auto-développement planifié: expériences chiliennes en réforme agraire (1967-1973)",
+      "matched": null
+    },
+    {
+      "key": "GSX8BH2N",
+      "title": "Energie nouvelles et approvisionnement énergétique en zones rurales",
+      "matched": null
+    },
+    {
+      "key": "QJTBDT37",
+      "title": "Les enjeux de la vie associative en France",
+      "matched": null
+    },
+    {
+      "key": "QRLF5SRD",
+      "title": "Inﬂuence of socioeconomic inertia and uncertainty on optimal CO2-emission abatement",
+      "matched": {
+        "halId": "halshs-00002452",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "halshs-00002452",
+        "add": {},
+        "differ": {
+          "pages": [
+            "270–273",
+            "270-273"
+          ],
+          "date": [
+            "1997-11-20",
+            "1997"
+          ]
+        }
+      }
+    },
+    {
+      "key": "BBDACUYU",
+      "title": "Les Eaux de Versailles -- Eaux ornementales - Eaux alimentaires - Eaux usées",
+      "matched": null
+    },
+    {
+      "key": "T2LLYZ9Z",
+      "title": "Decrease of atmospheric deposition of heavy metals in an urban area from 1994 to 2002 (Paris, France)",
+      "matched": {
+        "halId": "hal-01180059",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01180059",
+        "add": {},
+        "differ": {
+          "pages": [
+            "645–651",
+            "645-651"
+          ],
+          "date": [
+            "2005-11",
+            "2005"
+          ]
+        }
+      }
     },
     {
       "key": "5XZ54S9Y",
@@ -50,8 +361,202 @@
       }
     },
     {
+      "key": "7AJNH48Y",
+      "title": "Climate Strategy with Co2 Capture from the Air",
+      "matched": {
+        "halId": "halshs-00003926",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "halshs-00003926",
+        "add": {},
+        "differ": {
+          "pages": [
+            "17–45",
+            "17-45"
+          ],
+          "date": [
+            "2006-01",
+            "2006"
+          ]
+        }
+      }
+    },
+    {
+      "key": "3UU7NR6F",
+      "title": "Why economic dynamics matter in assessing climate change damages: Illustration on extreme events",
+      "matched": {
+        "halId": "hal-00164626",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00164626",
+        "add": {},
+        "differ": {
+          "pages": [
+            "330–340",
+            "330-340"
+          ],
+          "date": [
+            "2007-04",
+            "2007"
+          ]
+        }
+      }
+    },
+    {
+      "key": "3T33LI2E",
+      "title": "Le climat, une négociation carrefour",
+      "matched": {
+        "halId": "hal-00772580",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00772580",
+        "add": {
+          "volume": "89"
+        },
+        "differ": {
+          "pages": [
+            "93–112",
+            "nc"
+          ],
+          "date": [
+            "2011-03",
+            "2011"
+          ]
+        }
+      }
+    },
+    {
+      "key": "M5NY7GHE",
+      "title": "'Introduction' au colloque \"Temps et sociétés\" et 'conclusion'.",
+      "matched": null
+    },
+    {
+      "key": "C3FBFNEZ",
+      "title": "Macroeconomic consistency issues in E3 modeling : the continued fable of the Elephant and the Rabbit",
+      "matched": null
+    },
+    {
+      "key": "K3AZ222W",
+      "title": "L'explosion urbaine et la théorie du développement : cinq propositions de recherche",
+      "matched": null
+    },
+    {
+      "key": "MQ47Z27U",
+      "title": "Après la tragédie de Bhopal",
+      "matched": null
+    },
+    {
+      "key": "G28338TH",
+      "title": "Food and energy : complementarity or competition ?",
+      "matched": null
+    },
+    {
+      "key": "CLWGNRLR",
+      "title": "Crisis de energeticos : escasez imaginaria, problemas graves",
+      "matched": null
+    },
+    {
+      "key": "C24D6PTY",
+      "title": "Non au boycott scientifique",
+      "matched": null
+    },
+    {
+      "key": "D4JSQI36",
+      "title": "Regard hérétique sur deux mdèles mondiaux",
+      "matched": null
+    },
+    {
+      "key": "XU8AKR2H",
+      "title": "Dans une perspective d'éco-développement",
+      "matched": null
+    },
+    {
+      "key": "SRH96BG7",
+      "title": "Economie et écologie",
+      "matched": null
+    },
+    {
       "key": "7ZS9FKIY",
       "title": "Notre avenir à tous : notes critiques de Brice Lalonde et Ignacy Sachs",
+      "matched": null
+    },
+    {
+      "key": "AYH9LSTN",
+      "title": "Felutvecklingens kriser i norr : en väg ut",
+      "matched": null
+    },
+    {
+      "key": "NG7PS5GF",
+      "title": "Societa locali e culture dello sviluppo. Relazioni industriali e formazione il sindacato nel mezzogiorno",
+      "matched": null
+    },
+    {
+      "key": "FU4SGG89",
+      "title": "On our way to where ? Some criteria for transitional strategies",
+      "matched": null
+    },
+    {
+      "key": "Z5M6L95Q",
+      "title": "La tipologia dei modelli economici",
+      "matched": null
+    },
+    {
+      "key": "TKLYHFDP",
+      "title": "Il potenziale di sviluppo endogeno",
+      "matched": null
+    },
+    {
+      "key": "LQ6WBEVV",
+      "title": "L'ecosviluppo : una scelta non rinviabile",
+      "matched": null
+    },
+    {
+      "key": "PDVZJ7BI",
+      "title": "Di 'Maldéveloppement' si muore",
+      "matched": null
+    },
+    {
+      "key": "SLKTZUQU",
+      "title": "I costi dell'urbanizzazione di massa",
+      "matched": null
+    },
+    {
+      "key": "G69PIYPE",
+      "title": "L'expertise économique du changement climatique planétaire : sur la scène française, autour du Commissariat général du Plan",
+      "matched": null
+    },
+    {
+      "key": "QT8HSMCI",
+      "title": "Vers une politique de l'environnement",
+      "matched": null
+    },
+    {
+      "key": "SKNCPXQV",
+      "title": "ELECTROCHEMICAL STUDY OF REACTIONS AT INTERFACES OF GLUCOSE OXIDASE COLLAGEN MEMBRANES",
+      "matched": {
+        "halId": "hal-01179303",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01179303",
+        "add": {
+          "publicationTitle": "Biochimica et Biophysica Acta (BBA) - Enzymology",
+          "DOI": "10.1016/0005-2744(80)90114-X"
+        },
+        "differ": {}
+      }
+    },
+    {
+      "key": "79NLYDG8",
+      "title": "Desarello y trabajo",
+      "matched": null
+    },
+    {
+      "key": "9YG8S9SU",
+      "title": "Le Brésil dans ses transformations",
       "matched": null
     },
     {
@@ -60,8 +565,138 @@
       "matched": null
     },
     {
+      "key": "2TZC9S2W",
+      "title": "S'attaquer aux racines de l'exclusion",
+      "matched": null
+    },
+    {
+      "key": "8UP3RTY9",
+      "title": "Limites de la compétitivité : vers un nouveau contrat mondial",
+      "matched": null
+    },
+    {
+      "key": "LB7KGFM8",
+      "title": "Un mécanisme d'exclusion",
+      "matched": null
+    },
+    {
+      "key": "ICJRGADY",
+      "title": "Le défi de l'environnement",
+      "matched": null
+    },
+    {
+      "key": "D5Q2RV2S",
+      "title": "Perceptions of extractivism : introduction and overview",
+      "matched": null
+    },
+    {
+      "key": "ETC8X8Z7",
+      "title": "Enjeux internationaux : nord-sud, confrontation ou coopération ?",
+      "matched": null
+    },
+    {
+      "key": "NKHUZJTD",
+      "title": "Environnement et développement : une perspective du sud",
+      "matched": null
+    },
+    {
+      "key": "MTPW8KI7",
+      "title": "Croissance et pauvreté : les leçons de l'expérience Brésilienne",
+      "matched": null
+    },
+    {
+      "key": "DAMI3WQD",
+      "title": "Perspectives de l'écodéveloppement en Amazonie",
+      "matched": null
+    },
+    {
+      "key": "T6XIDV66",
+      "title": "Quel développement pour le XXIe siècle ?",
+      "matched": null
+    },
+    {
+      "key": "C6RT3F5V",
+      "title": "L'environnement et les transports urbains",
+      "matched": null
+    },
+    {
+      "key": "SW5Q9CJA",
+      "title": "Como superar el crecimiento sin desarrollo",
+      "matched": null
+    },
+    {
+      "key": "TKBB96ZF",
+      "title": "The Elusive interdisciplinary of development planning",
+      "matched": null
+    },
+    {
       "key": "ICZWULRI",
       "title": "The Elusive interdisciplinarity of development planning",
+      "matched": null
+    },
+    {
+      "key": "JGIDBXHP",
+      "title": "Vulnerability of giant cities and the life lottery",
+      "matched": null
+    },
+    {
+      "key": "V6CYVFAD",
+      "title": "The challenge of development : a prospective view",
+      "matched": null
+    },
+    {
+      "key": "DH8DP2SL",
+      "title": "The Aftermath of the earth summit : unfolding the process",
+      "matched": null
+    },
+    {
+      "key": "YVBMG77B",
+      "title": "L'indépendance du Tiers Monde : structures de production et structures intellectuelles",
+      "matched": null
+    },
+    {
+      "key": "NFWMVCF4",
+      "title": "Facing the crisis in large cities : word, food and energy in urban ecodevlopment",
+      "matched": null
+    },
+    {
+      "key": "V5GU36EY",
+      "title": "A comment on professor Chakravarty's paper",
+      "matched": null
+    },
+    {
+      "key": "XL48BM3Y",
+      "title": "Brésil : l'an 1 de la nouvelle République",
+      "matched": null
+    },
+    {
+      "key": "URD6N8NB",
+      "title": "Commentaire sur le texte du Professeur Chakravarty",
+      "matched": null
+    },
+    {
+      "key": "H6TPDU3Q",
+      "title": "Brésil - Inde : essai de comparaison",
+      "matched": null
+    },
+    {
+      "key": "2HHDQRUR",
+      "title": "Cultures et styles de développement",
+      "matched": null
+    },
+    {
+      "key": "HGX9YRC3",
+      "title": "Théorie et pratique du développement endogène : le champ des recherches comparatives",
+      "matched": null
+    },
+    {
+      "key": "9RB84IIU",
+      "title": "New rural-urban configurations and emerging resource-conserving cities",
+      "matched": null
+    },
+    {
+      "key": "LKF3KI2N",
+      "title": "La crisi, il progresso tecnico e l'economia sommersa",
       "matched": null
     },
     {
@@ -70,8 +705,138 @@
       "matched": null
     },
     {
+      "key": "MGLQTYZ8",
+      "title": "The social and ecological impact of 'Pro-Alcool'.",
+      "matched": null
+    },
+    {
+      "key": "WTUME74G",
+      "title": "Uma respota ao desafio da energia : moderaçao",
+      "matched": null
+    },
+    {
+      "key": "ZV2J9THS",
+      "title": "Gandhi and development : a european view",
+      "matched": null
+    },
+    {
+      "key": "ELV9C6ME",
+      "title": "L'expertise économique du changement climatique planétaire : sur la scène internationale, le Groupe d'experts intergouvernemental sur l'évolution du climat (GIEC). Jeux d'expertise et enjeux d'orientation de l'action",
+      "matched": null
+    },
+    {
+      "key": "S9R4I4F4",
+      "title": "Developing in harmony with nature : consumption patterns, time and space uses, resource profiles, and technological choices",
+      "matched": null
+    },
+    {
+      "key": "TE5U3W6V",
+      "title": "Energies nouvelles et stratégies des pays en développement",
+      "matched": null
+    },
+    {
+      "key": "ILR5JLPJ",
+      "title": "Environnement et style de développement",
+      "matched": null
+    },
+    {
+      "key": "XL43YPX4",
+      "title": "Vous avez dit : néfaste ?",
+      "matched": null
+    },
+    {
+      "key": "AG8MVA3G",
+      "title": "L'énergie dans le Tiers-Monde à la CME de New-Delhi : du discours des experts aux enjeux du développement",
+      "matched": null
+    },
+    {
+      "key": "QQBZQ56B",
+      "title": "Du Moyen-Age à nos jours : européo-centrisme et découverte du Tiers Monde",
+      "matched": null
+    },
+    {
+      "key": "DX459F94",
+      "title": "Deux gaspillages : pays riches, pays pauvres",
+      "matched": null
+    },
+    {
+      "key": "RNFWHZRZ",
+      "title": "Introduction : urban agriculture and self-reliance",
+      "matched": null
+    },
+    {
+      "key": "X4YA4GCR",
+      "title": "Improving life in the \"L-City\"",
+      "matched": null
+    },
+    {
       "key": "WUUAFPXM",
       "title": "Energy, food, ecodevelopment",
+      "matched": null
+    },
+    {
+      "key": "3IUICZKY",
+      "title": "L'art de la décision",
+      "matched": null
+    },
+    {
+      "key": "695TRCM3",
+      "title": "Il sole brasiliano è delle masse. Bioenergia e agroindustria per una diversa civiltà industriale",
+      "matched": null
+    },
+    {
+      "key": "UCHNKYPR",
+      "title": "Time-spaces of development",
+      "matched": null
+    },
+    {
+      "key": "G594AFU2",
+      "title": "The strategies of ecodevelopment",
+      "matched": null
+    },
+    {
+      "key": "TGBQXAV6",
+      "title": "Les stratégies de l'écodéveloppement",
+      "matched": null
+    },
+    {
+      "key": "Z9Y3R2IY",
+      "title": "Work, food and energy in urban ecodevelopment",
+      "matched": null
+    },
+    {
+      "key": "7UFZS6SW",
+      "title": "Sonsacando a Sachs",
+      "matched": null
+    },
+    {
+      "key": "BILEA8CK",
+      "title": "Paul Bairoch, de Jéricho à Mexico : villes et économies dans l'histoire",
+      "matched": null
+    },
+    {
+      "key": "GQXKXZM6",
+      "title": "Develompent theory",
+      "matched": null
+    },
+    {
+      "key": "RN58SQ7H",
+      "title": "Les grandes villes face à la crise : travail, nourriture et énergie dans l'écodéveloppement urbain",
+      "matched": null
+    },
+    {
+      "key": "DKDU863T",
+      "title": "Amérique latine, la nouvelle donne : interview d'Ignacy Sachs",
+      "matched": null
+    },
+    {
+      "key": "7YAM4AGQ",
+      "title": "Survivre dans les villes du Tiers-Monde : aliments et énergie",
+      "matched": null
+    },
+    {
+      "key": "ZEFUFCPI",
+      "title": "Les options énergétiques pour le Brésil",
       "matched": null
     },
     {
@@ -80,8 +845,138 @@
       "matched": null
     },
     {
+      "key": "N3TEJW6X",
+      "title": "Les systèmes intégrés en agriculture : une alternative à la crise. Interview d'Ignacy Sachs",
+      "matched": null
+    },
+    {
+      "key": "HQM7XTIR",
+      "title": "Un autre développement : quelle solution à la crise ?",
+      "matched": null
+    },
+    {
+      "key": "9QWDNI8H",
+      "title": "Introduction : la fin de l'ère de Colomb ? Le développement en question",
+      "matched": null
+    },
+    {
+      "key": "JQQ9LZ4A",
+      "title": "Développement local et sorties de crise dans la société industrielle",
+      "matched": null
+    },
+    {
+      "key": "EWIPP7QZ",
+      "title": "Social innovations in the urban setting : scope and evaluation criteria",
+      "matched": null
+    },
+    {
+      "key": "B6TSQ4D4",
+      "title": "Une civilisation du respect de la vie végétale ?",
+      "matched": null
+    },
+    {
+      "key": "UNW96CLQ",
+      "title": "Ansätze zu einem globalen umweltschutz : Oeoko entwicklung - eine idee setzt sich durch",
+      "matched": null
+    },
+    {
+      "key": "AJ5JJTUH",
+      "title": "Wasteland of garden planet ?",
+      "matched": null
+    },
+    {
+      "key": "DBZP2JVZ",
+      "title": "A common problem to the three worlds : promoting economic and social democracy",
+      "matched": null
+    },
+    {
+      "key": "HUHSWXQN",
+      "title": "Development-oriented research : post-scriptum to a discussion",
+      "matched": null
+    },
+    {
+      "key": "7RN5TDLH",
+      "title": "Etre un citoyen planétaire",
+      "matched": null
+    },
+    {
+      "key": "QKYA5IV7",
+      "title": "Transition strategies for the 21st century",
+      "matched": null
+    },
+    {
+      "key": "CMWGWJW5",
+      "title": "Pluralité des développements brésiliens",
+      "matched": null
+    },
+    {
       "key": "989XCP6X",
       "title": "Le Brésil dans le corset du plan Collor",
+      "matched": null
+    },
+    {
+      "key": "LR3NA8X7",
+      "title": "L'écodéveloppement de l'Amazonie : stratégies priorités de recherche, coopération internationale",
+      "matched": null
+    },
+    {
+      "key": "RV7LX775",
+      "title": "Le malentendu Nord-Sud se creuse",
+      "matched": null
+    },
+    {
+      "key": "8MVRCLVW",
+      "title": "Le Brésil : terre promise ou paradis perdu ?",
+      "matched": null
+    },
+    {
+      "key": "IZUYUBAP",
+      "title": "Introduccion : el fin de la era de Colon ? El desarrollo en tela de juicio",
+      "matched": null
+    },
+    {
+      "key": "HQBMIYR8",
+      "title": "Le Brésil en mal d'un projet",
+      "matched": null
+    },
+    {
+      "key": "CUAEL3EE",
+      "title": "Les urgences de l'écologie : entretien avec Ignacy Sachs",
+      "matched": null
+    },
+    {
+      "key": "LZPWHFZ9",
+      "title": "L'imagination au pouvoir",
+      "matched": null
+    },
+    {
+      "key": "25Q2P628",
+      "title": "Instaurer un dialogue avec une société civile : entretien avec Ignacy Sachs",
+      "matched": null
+    },
+    {
+      "key": "M55LXVLL",
+      "title": "Le développement reconsidéré : quelques réflexions inspirées par le Sommet de la terre",
+      "matched": null
+    },
+    {
+      "key": "BPGRYQG2",
+      "title": "Mondialisation, défis globaux, régulation planétaire",
+      "matched": null
+    },
+    {
+      "key": "J4TAJUL3",
+      "title": "Environnement, développement, marché : pour une économie anthropologique. Entretien avec Ignacy Sachs",
+      "matched": null
+    },
+    {
+      "key": "VITDJTY4",
+      "title": "Le quantitatif et le qualitatif quelques questions sur les enjeux et les limites de la mesure du développement",
+      "matched": null
+    },
+    {
+      "key": "3MR9V9D6",
+      "title": "Les 'Sirènes' de Copenhague",
       "matched": null
     },
     {
@@ -90,8 +985,168 @@
       "matched": null
     },
     {
+      "key": "GH8KN5UT",
+      "title": "Quelle mondialisation ?",
+      "matched": null
+    },
+    {
+      "key": "23WUD5RG",
+      "title": "Le droit au développement durable",
+      "matched": null
+    },
+    {
+      "key": "ZDJNIH5I",
+      "title": "Brésil : tristes tropiques ou terre de bonne espérance ? Tropicalité, tropicologie et développement",
+      "matched": null
+    },
+    {
+      "key": "BJM4UARU",
+      "title": "Développement de la culture, culture du développement",
+      "matched": null
+    },
+    {
+      "key": "JT7AU9UK",
+      "title": "L'urbanisation ou la déruralisation ?",
+      "matched": null
+    },
+    {
+      "key": "3TTGL63M",
+      "title": "Quel Etat pour quel développement ?",
+      "matched": null
+    },
+    {
+      "key": "TVNXGUFI",
+      "title": "Les leçons de l'effondrement polonais : croissance perverse et maldéveloppement",
+      "matched": null
+    },
+    {
+      "key": "KLZ4D8E4",
+      "title": "Développement inclusif et travail décent pour tous",
+      "matched": null
+    },
+    {
+      "key": "38FIQK6J",
+      "title": "Impasse nord-sud : actualité de l'écodéveloppement",
+      "matched": null
+    },
+    {
+      "key": "GMMS3L6M",
+      "title": "Sustainable development : from normative concept to action",
+      "matched": null
+    },
+    {
+      "key": "HRXBYDJZ",
+      "title": "Le développement durable : du concept normatif à l'action",
+      "matched": null
+    },
+    {
+      "key": "2M6GV76Q",
+      "title": "Transfer of technology and strategy of industrialisation",
+      "matched": null
+    },
+    {
+      "key": "F8ADWNDV",
+      "title": "Lo Sviluppo : le attese e i risultati : crisi di una strategia e ricerca di nuovi valori",
+      "matched": null
+    },
+    {
       "key": "XWX256Q4",
       "title": "Un autre développement urbain",
+      "matched": null
+    },
+    {
+      "key": "GBYJDDUG",
+      "title": "L'imagination et le savoir : le développement selon Celso Furtado",
+      "matched": null
+    },
+    {
+      "key": "47EHV54R",
+      "title": "Les quiproquos du débat sur la mondialisation",
+      "matched": null
+    },
+    {
+      "key": "9YCXN5FI",
+      "title": "Crise et environnement pour quand les solutions radicales ?",
+      "matched": null
+    },
+    {
+      "key": "88L8TNSS",
+      "title": "A welfare state for poor countries",
+      "matched": null
+    },
+    {
+      "key": "V8J6I87S",
+      "title": "India e Brasile due 'balene' nell'oceano globale",
+      "matched": null
+    },
+    {
+      "key": "6N39FTWJ",
+      "title": "Le jeu de l'harmonisation",
+      "matched": null
+    },
+    {
+      "key": "I2Y8J7YM",
+      "title": "North-south climate change negotiations: A sequential game with asymmetric information",
+      "matched": {
+        "halId": "halshs-00009823",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "halshs-00009823",
+        "add": {
+          "DOI": "10.1007/s11127-004-2683-x"
+        },
+        "differ": {
+          "pages": [
+            "455–480",
+            "455-480"
+          ]
+        }
+      }
+    },
+    {
+      "key": "JNGDSIGV",
+      "title": "Les risques climatiques entre raisons scientifiques, économiques et politiques. Jalons de la construction d’un problème d’action internationale en univers controversé",
+      "matched": null
+    },
+    {
+      "key": "KP5UEGVG",
+      "title": "Les nouvelles technologies de la communication dans la vie quotidienne: imprévisibilité et expérimentation des usages",
+      "matched": null
+    },
+    {
+      "key": "Z83SYUK5",
+      "title": "Elements pour une nouvelle approche de la gestion de l'eau dans les pays méditérranéens",
+      "matched": null
+    },
+    {
+      "key": "NYFD6CNL",
+      "title": "La Méditerranée : un potentiel de ressources menacé ?",
+      "matched": null
+    },
+    {
+      "key": "RQ2AY8XX",
+      "title": "L'occupation  des espaces littoraux méditérranéens",
+      "matched": {
+        "halId": "halshs-00618217",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "halshs-00618217",
+        "add": {
+          "volume": "31"
+        },
+        "differ": {
+          "pages": [
+            "35–55",
+            "35-55"
+          ]
+        }
+      }
+    },
+    {
+      "key": "BSU65UVI",
+      "title": "L’environnement, obstacle ou argument pour un nouvel ordre économique international : essai de prospective à l’échelle du bassin méditerranéen",
       "matched": null
     },
     {
@@ -100,8 +1155,138 @@
       "matched": null
     },
     {
+      "key": "L4EGPAKW",
+      "title": "Ecodesarrollo : concepto, aplicacion, implicaciones",
+      "matched": null
+    },
+    {
+      "key": "FY8CV9ZT",
+      "title": "Estrategias de desarrollo con requerimientos energéticos moderados : problemas y enfoques",
+      "matched": null
+    },
+    {
+      "key": "2ESNAHJD",
+      "title": "Development strategies with moderate energy requirements : problems and approaches",
+      "matched": null
+    },
+    {
+      "key": "K2WCA46Z",
+      "title": "Trends and developments = courants et tendances",
+      "matched": null
+    },
+    {
+      "key": "MHAZUPCV",
+      "title": "La ville et les ressources",
+      "matched": null
+    },
+    {
+      "key": "7NT4A2R3",
+      "title": "Culture, ecology and evelopment : redefining planning approaches",
+      "matched": null
+    },
+    {
+      "key": "DWW9NH92",
+      "title": "Conditions of development : whither industrial societies ?",
+      "matched": null
+    },
+    {
+      "key": "YHA72MFG",
+      "title": "Environmental quality management and development planning : some suggestions for action",
+      "matched": null
+    },
+    {
+      "key": "V96UPJH8",
+      "title": "Perspectives économiques mondiales et leurs répercussions sur la demande en énergies : esquisse d'une structure d'approvisionnement scénarios de croissance",
+      "matched": null
+    },
+    {
+      "key": "SJSLEUTF",
+      "title": "L'environnement et la planification",
+      "matched": null
+    },
+    {
+      "key": "VXIQKDTZ",
+      "title": "Nucléaire : à la recherche de stratégies de remplacement",
+      "matched": null
+    },
+    {
+      "key": "YFGLN4QK",
+      "title": "Relacion del ecodesarrollo con el desarrollo de los asentamientos humanos",
+      "matched": null
+    },
+    {
+      "key": "TTJCXQZX",
+      "title": "Des péages pour les tankers",
+      "matched": null
+    },
+    {
       "key": "8VRDE8V4",
       "title": "Lost paradise or promised land : an ecodevelopment perspective on the Amazon region",
+      "matched": null
+    },
+    {
+      "key": "JRY4D6FC",
+      "title": "Energy, environment and development strategies",
+      "matched": null
+    },
+    {
+      "key": "BAVWF4NG",
+      "title": "Le Brésil dans sa modernité",
+      "matched": null
+    },
+    {
+      "key": "8727KGR4",
+      "title": "Le Brésil dans ses littératures",
+      "matched": null
+    },
+    {
+      "key": "XDITCHI6",
+      "title": "La Ecologia en los asentamientos humanos (siete tesis basicas)",
+      "matched": null
+    },
+    {
+      "key": "TTA8S48P",
+      "title": "For whom the pandora box ? Biotechnology and agro-industrial development",
+      "matched": null
+    },
+    {
+      "key": "B2VS2YXL",
+      "title": "L'accumulation des périls sur l'environnement",
+      "matched": null
+    },
+    {
+      "key": "4T2VJGN9",
+      "title": "Carrefour du monde",
+      "matched": null
+    },
+    {
+      "key": "4CBNHXTF",
+      "title": "Quo vadis, Amazzonia ?",
+      "matched": null
+    },
+    {
+      "key": "4CNYP4GZ",
+      "title": "Sachs",
+      "matched": null
+    },
+    {
+      "key": "R4SK8QCZ",
+      "title": "La pianificazione dello sviluppo e la sua inafferrabileinterdisciplinarita",
+      "matched": null
+    },
+    {
+      "key": "PHJLMH4X",
+      "title": "Epuisement d'un modèle de l'économie mondiale",
+      "matched": null
+    },
+    {
+      "key": "7ECYUXII",
+      "title": "Ethnocentrism : source and aggravating factor of conflicts",
+      "matched": null
+    },
+    {
+      "key": "J66E4QH3",
+      "title": "Energie et style de développement",
       "matched": null
     },
     {
@@ -110,8 +1295,184 @@
       "matched": null
     },
     {
+      "key": "XCDFJTJA",
+      "title": "From poverty trap to inclusive development in LDCs",
+      "matched": null
+    },
+    {
+      "key": "TZFRPEK7",
+      "title": "The state and the social partners : towards a development compact",
+      "matched": null
+    },
+    {
+      "key": "BTQ4VZKD",
+      "title": "Searching for new development strategies : challenges of social summit",
+      "matched": null
+    },
+    {
+      "key": "NBCD4TEC",
+      "title": "Inventing a humane future",
+      "matched": null
+    },
+    {
+      "key": "PPZ9SJPV",
+      "title": "Work, food and energy in urban ecodevelopment",
+      "matched": null
+    },
+    {
+      "key": "JFMEYH2A",
+      "title": "Tourism and ecological development",
+      "matched": null
+    },
+    {
+      "key": "F42IT3MG",
+      "title": "Developing in harmony with nature : guidelines for resource management by people in the biosphere reserves",
+      "matched": null
+    },
+    {
+      "key": "92X9V3QF",
+      "title": "Un projet social démocratique à l'épreuve de la réalité",
+      "matched": null
+    },
+    {
+      "key": "HHPAWN4E",
+      "title": "Se réapproprier les droits humains",
+      "matched": null
+    },
+    {
+      "key": "LSDX9TTX",
+      "title": "Introduction : quelles villes pour quel développement ?",
+      "matched": null
+    },
+    {
+      "key": "9W8B454U",
+      "title": "The quantitative and qualitative measurement of development : its implications and limitations",
+      "matched": null
+    },
+    {
+      "key": "6SIUIU7D",
+      "title": "Plaidoyer pour une démocratie sociale",
+      "matched": null
+    },
+    {
+      "key": "7DCN4V3Y",
+      "title": "Dismantling the mechanism of exclusion",
+      "matched": null
+    },
+    {
       "key": "DMNH5RCL",
       "title": "Le géant brésilien encore loin du futur : l'échec du modèle qui séduit tant la Pologne",
+      "matched": null
+    },
+    {
+      "key": "P5GME2F6",
+      "title": "Etat, marché, société civile et environnement",
+      "matched": null
+    },
+    {
+      "key": "ZACDS2US",
+      "title": "Le développement, un concept transdisciplinaire par excellence",
+      "matched": null
+    },
+    {
+      "key": "P7L5LYMQ",
+      "title": "Brazil : energy and development,  a case-study prepared for the North-south energy round table",
+      "matched": null
+    },
+    {
+      "key": "G6DF3HB6",
+      "title": "Bandung, les non-alignés et le développement : cinquante ans après",
+      "matched": null
+    },
+    {
+      "key": "UXN4CB66",
+      "title": "Introduction : la fin de l'ère de Colomb ? Le développement en question",
+      "matched": null
+    },
+    {
+      "key": "JS4V56ET",
+      "title": "Réorienter le développement urbain",
+      "matched": null
+    },
+    {
+      "key": "6PYSZ6IQ",
+      "title": "Préface. 'Le Brésil après le miracle'",
+      "matched": null
+    },
+    {
+      "key": "V29IJ6V9",
+      "title": "Energy and development strategies : the challenge of Nairobi",
+      "matched": null
+    },
+    {
+      "key": "QSZYAJWK",
+      "title": "Resources and the city",
+      "matched": null
+    },
+    {
+      "key": "TVN3EL52",
+      "title": "Option value in low-carbon technology policies",
+      "matched": {
+        "halId": "hal-00787889",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00787889",
+        "add": {
+          "volume": "13",
+          "issue": "1",
+          "DOI": "10.1080/14693062.2012.699787"
+        },
+        "differ": {
+          "pages": [
+            "20",
+            "1"
+          ],
+          "date": [
+            "2014",
+            "2013"
+          ]
+        }
+      }
+    },
+    {
+      "key": "Z65IU87T",
+      "title": "Formas de desarrollo agricola, medio ambiente y zonas marginadas",
+      "matched": null
+    },
+    {
+      "key": "829S2U5G",
+      "title": "Playing in the line, channelling multiplicity : with power planning in the Narbonnaise",
+      "matched": {
+        "halId": "hal-01785358",
+        "title_sim": 0.727
+      },
+      "diff": {
+        "halId": "hal-01785358",
+        "add": {
+          "volume": "31",
+          "issue": "1",
+          "DOI": "10.1068/d22610"
+        },
+        "differ": {
+          "publicationTitle": [
+            "Environment and planning D",
+            "Environment and Planning D: Society and Space"
+          ],
+          "pages": [
+            "1–20",
+            "116 - 139"
+          ],
+          "date": [
+            "2012",
+            "2013"
+          ]
+        }
+      }
+    },
+    {
+      "key": "B4JQ69RV",
+      "title": "The transition of the electricity sytem towards decarbonization : the need for change in the market regime",
       "matched": null
     },
     {
@@ -120,8 +1481,138 @@
       "matched": null
     },
     {
+      "key": "WYRMDVMS",
+      "title": "Crise, conjoncture, civilisation",
+      "matched": null
+    },
+    {
+      "key": "5NH77RTI",
+      "title": "Cultivating the cities",
+      "matched": null
+    },
+    {
+      "key": "5BDA6SPW",
+      "title": "Agropolis",
+      "matched": null
+    },
+    {
+      "key": "GQBQNPVJ",
+      "title": "Agropolis",
+      "matched": null
+    },
+    {
+      "key": "JK8LVVE4",
+      "title": "Food and energy production : allies or rivals ?",
+      "matched": null
+    },
+    {
+      "key": "8RLTMNNS",
+      "title": "Energia y alimentacion : aliados o rivales ?",
+      "matched": null
+    },
+    {
+      "key": "YTDAX3K5",
+      "title": "Energie et alimentation : complémentarité conflictuelle ?",
+      "matched": null
+    },
+    {
+      "key": "2TGBP234",
+      "title": "Pour un programme commun des citoyens",
+      "matched": null
+    },
+    {
+      "key": "E3MD8TGD",
+      "title": "Stratégies de transition pour le XXIe siècle",
+      "matched": null
+    },
+    {
+      "key": "WTLM5VR2",
+      "title": "La logique du développement",
+      "matched": null
+    },
+    {
+      "key": "4T7A5N9Z",
+      "title": "The logic of development",
+      "matched": null
+    },
+    {
+      "key": "G5KEGXVN",
+      "title": "Coping with the urban explosion",
+      "matched": null
+    },
+    {
+      "key": "AQ65EBE2",
+      "title": "L'Inde et l'actualité de \"voies médianes\"",
+      "matched": null
+    },
+    {
       "key": "ZYMSK94W",
       "title": "Nous sommes assis sur les ruines de deux modèles qui ne fonctionnent plus",
+      "matched": null
+    },
+    {
+      "key": "5T64BL4G",
+      "title": "L'invité  Ignacy Sachs",
+      "matched": null
+    },
+    {
+      "key": "IRMIXGIV",
+      "title": "Lo sviluppo e idiritti dell'uomo",
+      "matched": null
+    },
+    {
+      "key": "3MYS4L5J",
+      "title": "Piccole e medie imprese in Brasile",
+      "matched": null
+    },
+    {
+      "key": "DN2AZF6S",
+      "title": "Good-bye to all that",
+      "matched": null
+    },
+    {
+      "key": "54J5DKSP",
+      "title": "Stratégies de l'éco-développement",
+      "matched": null
+    },
+    {
+      "key": "TGW86V2D",
+      "title": "Autonomie, oui, autarcie, non",
+      "matched": null
+    },
+    {
+      "key": "C47PIG27",
+      "title": "Le Brésil après les élections : démocratie sans développement ?",
+      "matched": null
+    },
+    {
+      "key": "M4CZ8QQ7",
+      "title": "Alimentation et énergie : complémentarités et concurrence",
+      "matched": null
+    },
+    {
+      "key": "5UNYT3DL",
+      "title": "De la croissace au changement de structures",
+      "matched": null
+    },
+    {
+      "key": "ZV92CEAZ",
+      "title": "Autonomie locale et planification de l'écodéveloppement",
+      "matched": null
+    },
+    {
+      "key": "SN7VH287",
+      "title": "Vers un développement en harmonie avec la nature",
+      "matched": null
+    },
+    {
+      "key": "4DJ6NRMP",
+      "title": "The crisis of the welfare state and the exercise of social rights to development",
+      "matched": null
+    },
+    {
+      "key": "F4DIYGQM",
+      "title": "L'aide, la croissance et l'emploi",
       "matched": null
     },
     {
@@ -130,8 +1621,138 @@
       "matched": null
     },
     {
+      "key": "FUQGNIS2",
+      "title": "Mégalopoles : comment arrêter l'explosion",
+      "matched": null
+    },
+    {
+      "key": "YM26RDK6",
+      "title": "E le balene salveranno il mondo",
+      "matched": null
+    },
+    {
+      "key": "JCFPRFYR",
+      "title": "La grande mutazione : i paesi dell'Est europeo alla ricerca di nuovi rapporti tra Stato e mercato",
+      "matched": null
+    },
+    {
+      "key": "TT9KWBSK",
+      "title": "Nuove strategie di sviluppo",
+      "matched": null
+    },
+    {
+      "key": "472G9IQX",
+      "title": "Alla  ricerca di nuove strategie per lo sviluppo",
+      "matched": null
+    },
+    {
+      "key": "RKA5T8LM",
+      "title": "Cultura della globalizzazione",
+      "matched": null
+    },
+    {
+      "key": "MJINGVH2",
+      "title": "La notion de surplus et son application aux économies primitives",
+      "matched": null
+    },
+    {
+      "key": "RQAGYWYM",
+      "title": "Selection of techniques : problems and policies for Latin America",
+      "matched": null
+    },
+    {
+      "key": "EKZLR3NX",
+      "title": "Medio ambiente y desarrollo",
+      "matched": null
+    },
+    {
+      "key": "LSYVG5CC",
+      "title": "Technologia y politica de empleo",
+      "matched": null
+    },
+    {
+      "key": "GH5ED62V",
+      "title": "La dependencia cientifica y tecnologica",
+      "matched": null
+    },
+    {
+      "key": "P2CBQA88",
+      "title": "Limites al crecimiento",
+      "matched": null
+    },
+    {
+      "key": "APGC85BL",
+      "title": "Hacia una politica cientifica y tecnologica",
+      "matched": null
+    },
+    {
       "key": "Q8N8E32T",
       "title": "Drame et développement en Asie",
+      "matched": null
+    },
+    {
+      "key": "P7HZSKF8",
+      "title": "Vaciar el purgatorio",
+      "matched": null
+    },
+    {
+      "key": "LUCVY94Q",
+      "title": "What state, what markets, for what development ? The social, ecological and economical dimensions of planning",
+      "matched": null
+    },
+    {
+      "key": "YNRJHX2Q",
+      "title": "Actitud ecodesarrollo",
+      "matched": null
+    },
+    {
+      "key": "GZL6N3XU",
+      "title": "La crisis del estado benefactor y el ejercicio de los derechos sociales al desarrollo",
+      "matched": null
+    },
+    {
+      "key": "9NQCINLB",
+      "title": "Controverses à propos de l'énergie nucléaire",
+      "matched": null
+    },
+    {
+      "key": "IXKE9G69",
+      "title": "Ecodevelopment : a paradigm for strategic planning ? comment on James",
+      "matched": null
+    },
+    {
+      "key": "MI5H5TMZ",
+      "title": "Environment and development : key concepts for a new approach to education",
+      "matched": null
+    },
+    {
+      "key": "WRE4WPD9",
+      "title": "Environnement et développement : concepts clés d'une nouvelle éducation",
+      "matched": null
+    },
+    {
+      "key": "AZVVEC4Y",
+      "title": "Styles de vie et prospective",
+      "matched": null
+    },
+    {
+      "key": "73YTT2SN",
+      "title": "Tourisme et écodéveloppement",
+      "matched": null
+    },
+    {
+      "key": "WIK44GXU",
+      "title": "Eco-development : meeting human needs",
+      "matched": null
+    },
+    {
+      "key": "GDFYX6GF",
+      "title": "Ghandi and development",
+      "matched": null
+    },
+    {
+      "key": "Y6JL7Q72",
+      "title": "Civilization project and ecological prudence",
       "matched": null
     },
     {
@@ -140,9 +1761,215 @@
       "matched": null
     },
     {
+      "key": "WAKWE83B",
+      "title": "Vers une nouvelle civilisation industrielle des tropiques",
+      "matched": null
+    },
+    {
+      "key": "ZIJ4AC7K",
+      "title": "Environnement et planification : quelques pistes de recherche et d'action",
+      "matched": null
+    },
+    {
+      "key": "9C6FJLEM",
+      "title": "Energie et prospective internationale : fausse pénurie / conflits réels",
+      "matched": null
+    },
+    {
+      "key": "WYTKA2N3",
+      "title": "Ambiente y estilos de desarrollo",
+      "matched": null
+    },
+    {
+      "key": "I4ICPUGA",
+      "title": "Controlling technology for development",
+      "matched": null
+    },
+    {
+      "key": "DSRZKN4M",
+      "title": "Research for strategies of transition : from maldevelopment to development",
+      "matched": null
+    },
+    {
+      "key": "MQNSPMGX",
+      "title": "Implications of recent CO2 emission-limitation proposals for stabilization of atmospheric concentrations",
+      "matched": null
+    },
+    {
+      "key": "9JUBWUFG",
+      "title": "De quelques enjeux de Rio+ 20",
+      "matched": {
+        "halId": "hal-00855640",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00855640",
+        "add": {
+          "volume": "mis en ligne le 30 janvier 2012",
+          "issue": "http://vertigo.revues.org/11539"
+        },
+        "differ": {}
+      }
+    },
+    {
+      "key": "UEQDYIG2",
+      "title": "Le taux d’actualisation contre le principe de précaution ? Leçons à partir du cas des politiques climatiques",
+      "matched": {
+        "halId": "halshs-00000967",
+        "title_sim": 0.818
+      },
+      "diff": {
+        "halId": "halshs-00000967",
+        "add": {},
+        "differ": {
+          "date": [
+            "2004",
+            "2003"
+          ]
+        }
+      }
+    },
+    {
+      "key": "6GLAHY9Y",
+      "title": "Transparency and control in engineering integrated assessment models",
+      "matched": {
+        "halId": "halshs-00000681",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "halshs-00000681",
+        "add": {},
+        "differ": {
+          "pages": [
+            "209–218",
+            "209-218"
+          ]
+        }
+      }
+    },
+    {
+      "key": "MMYC3LFP",
+      "title": "Introduction : trafic de drogues, organisations criminelles et politiques publiques de contrôle",
+      "matched": null
+    },
+    {
+      "key": "YASZXNVC",
+      "title": "L'expertise économique du changement climatique planétaire : modèles d'organisation de l'exeprtise",
+      "matched": null
+    },
+    {
+      "key": "9CJ8BV5K",
+      "title": "Impact économique des politiques climatiques : des controverses aux enjeux de coordination",
+      "matched": null
+    },
+    {
       "key": "7LD2DNG9",
       "title": "Population et éco-développement",
       "matched": null
+    },
+    {
+      "key": "J7VIBKHQ",
+      "title": "Penser globalement, agir localement",
+      "matched": null
+    },
+    {
+      "key": "5KSRLT3I",
+      "title": "Réflexions d'un économiste sur des questions posées par des juristes",
+      "matched": null
+    },
+    {
+      "key": "CNUG9CP3",
+      "title": "La place de l'économie dans la problématique environnementale",
+      "matched": null
+    },
+    {
+      "key": "LC2STQBK",
+      "title": "La précaution, des hésitations aux questions",
+      "matched": null
+    },
+    {
+      "key": "7L56UXWC",
+      "title": "Les instruments économiques au service de la lutte contre la pollution atmosphérique : le cas des permis négociables = Economic instruments at the service of atmospheric pollution control : the case of tradable permits.",
+      "matched": null
+    },
+    {
+      "key": "UE3I4K2S",
+      "title": "Le changement climatique : une question de politique mondiale",
+      "matched": null
+    },
+    {
+      "key": "ZVUBP9BI",
+      "title": "La dialectique réversibilité - irréversibilité : une mise en perspective",
+      "matched": null
+    },
+    {
+      "key": "NKAJH45M",
+      "title": "L'environnement, une polysémie sous-exploitée",
+      "matched": null
+    },
+    {
+      "key": "HEUPYNJ2",
+      "title": "Entre disciplines et réalité, l'artifice des systèmes",
+      "matched": null
+    },
+    {
+      "key": "DR5EKX9K",
+      "title": "Les répercussions de la crise énergétique mondiale sur l'environnement et le développement : une interview de M. Ignacy Sachs, directeur du CIRED",
+      "matched": null
+    },
+    {
+      "key": "5578HQIC",
+      "title": "EUROPEAN ACHIEVEMENTS IN SENSOR RESEARCH DEDICATED TO IN VIVO MONITORING (a) GLUCOSE",
+      "matched": {
+        "halId": "hal-01179829",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01179829",
+        "add": {},
+        "differ": {
+          "pages": [
+            "201–225",
+            "201 - 225"
+          ]
+        }
+      }
+    },
+    {
+      "key": "SHKRHPX2",
+      "title": "BATCH METAL REMOVAL BY PEAT : KINETICS AND THERMODYNAMICS",
+      "matched": {
+        "halId": "hal-01179701",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01179701",
+        "add": {},
+        "differ": {
+          "pages": [
+            "21–26",
+            "21-26"
+          ]
+        }
+      }
+    },
+    {
+      "key": "85LBV6AY",
+      "title": "Study and Development of Multilayer Needle-type Enzymebased Glucose Microsensors",
+      "matched": {
+        "halId": "hal-01179712",
+        "title_sim": 0.7
+      },
+      "diff": {
+        "halId": "hal-01179712",
+        "add": {},
+        "differ": {
+          "pages": [
+            "27–40",
+            "27 - 40"
+          ]
+        }
+      }
     },
     {
       "key": "BEGKQDMZ",
@@ -169,8 +1996,415 @@
       }
     },
     {
+      "key": "VPQYKHWE",
+      "title": "Les travaux hydrauliques de Versailles",
+      "matched": null
+    },
+    {
+      "key": "X6Q8JU27",
+      "title": "Chemical and Electrochemical Oxidation of Aqueous Solutions of NADH and Model Compounds",
+      "matched": null
+    },
+    {
+      "key": "86VKWHMM",
+      "title": "LES APPORTS DE CHALEUR DANS L'ATMOSPHÈRE",
+      "matched": null
+    },
+    {
+      "key": "IPTWHDHM",
+      "title": "DES DECANTEURS POUR TRAITER LA POLLUTION DES REJETS URBAINS PAR TEMPS DE PLUIE",
+      "matched": null
+    },
+    {
+      "key": "K47MAKI4",
+      "title": "Use of Ring-disc Electrodes for the Determination of Aqueous Solutions of Sulphur-Containing Compounds: Thiols, Disulphides, Sulphides, Thiol-Esters, Proteins and Various Inorganic Ions",
+      "matched": {
+        "halId": "hal-01179315",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01179315",
+        "add": {
+          "publicationTitle": "Bioelectrochemistry and Bioenergetics",
+          "volume": "3",
+          "DOI": "10.1016/0302-4598(76)80011-6"
+        },
+        "differ": {
+          "pages": [
+            "284–301",
+            "284 - 301"
+          ]
+        }
+      }
+    },
+    {
+      "key": "I74BQNYA",
+      "title": "Propriétiés électrochimiques des dérivés polyconjugués hétérocycliques d'interêt biologique II. Effets des paramètres expérimentaux sur les caractéristiques des différentes vagues de réduction de la pyrimidine en solution aqueuse",
+      "matched": {
+        "halId": "hal-01179288",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01179288",
+        "add": {
+          "publicationTitle": "Journal of electroanalytical chemistry and interfacial electrochemistry",
+          "DOI": "10.1016/S0022-0728(73)80181-0"
+        },
+        "differ": {
+          "pages": [
+            "89–107",
+            "89 - 107"
+          ]
+        }
+      }
+    },
+    {
+      "key": "L6CTG39B",
+      "title": "TOXIC METAL SPECIATION SCHEME FOR WATER AND SEDIMENT FROM AN URBAN STORM SEWAGE",
+      "matched": {
+        "halId": "hal-01179637",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01179637",
+        "add": {},
+        "differ": {
+          "pages": [
+            "457–462",
+            "457-462"
+          ]
+        }
+      }
+    },
+    {
+      "key": "DIIFGLT3",
+      "title": "SENSOR OPERATING PRINCIPLES",
+      "matched": {
+        "halId": "hal-01179726",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01179726",
+        "add": {
+          "volume": "Chap.2"
+        },
+        "differ": {
+          "pages": [
+            "31–94",
+            "31-94"
+          ]
+        }
+      }
+    },
+    {
+      "key": "6U9GMK49",
+      "title": "The design and development of in vivo glucose sensors for an artificial endocrine pancreas",
+      "matched": {
+        "halId": "hal-01179643",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01179643",
+        "add": {},
+        "differ": {
+          "publicationTitle": [
+            "Biosensors: fundamentals and applications",
+            "Biosensors"
+          ],
+          "pages": [
+            "390–408",
+            "390-408"
+          ]
+        }
+      }
+    },
+    {
+      "key": "JNB7T34Y",
+      "title": "PERSPECTIVES DE MAITRISE DES PROCESSUS DE NITRIFICATION ET DE DENITRIFICATION DANS LES BOUES ACTIVEES A L'AIDE DU POTENTIEL D'OXYDO-REDUCTION",
+      "matched": {
+        "halId": "hal-01179682",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01179682",
+        "add": {
+          "volume": "6"
+        },
+        "differ": {
+          "publicationTitle": [
+            "Pergamon Journals",
+            "Water Science and Technology: Water Supply"
+          ],
+          "pages": [
+            "275–285",
+            "275-285"
+          ]
+        }
+      }
+    },
+    {
+      "key": "5AFFTCFC",
+      "title": "BINDING OF L-GLUTAMATE TO GLUTAMATE DEHYDROGENASE IN THE PRESENCE OF 1,4,5,6-TETRAHYDRONICOTINAMIDE ADENINE DINUCLEOTIDE",
+      "matched": {
+        "halId": "hal-01179275",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01179275",
+        "add": {
+          "DOI": "10.1016/0014-5793(75)80075-5"
+        },
+        "differ": {
+          "pages": [
+            "206–2011",
+            "206-211"
+          ]
+        }
+      }
+    },
+    {
+      "key": "TRFVBNGE",
+      "title": "Use of ring-disc electrodes and viologens for the titration of cytochrome C and oxygen and for the study of their reduction kinetics",
+      "matched": {
+        "halId": "hal-01179317",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01179317",
+        "add": {
+          "DOI": "10.1016/S0022-0728(77)80200-3"
+        },
+        "differ": {
+          "pages": [
+            "579–593",
+            "579 - 593"
+          ]
+        }
+      }
+    },
+    {
+      "key": "DVY9W2ZB",
+      "title": "Caractérisation physico-chimique de tourbe utilisée en épuration d'eau usée urbaine = Physico-chemical characterization of peat used in urban water treatment",
+      "matched": {
+        "halId": "hal-01179652",
+        "title_sim": 0.588
+      },
+      "diff": {
+        "halId": "hal-01179652",
+        "add": {
+          "publicationTitle": "Tribune du CEBEDEAU",
+          "volume": "40",
+          "issue": "523-524"
+        },
+        "differ": {
+          "pages": [
+            "35–45",
+            "35-45"
+          ]
+        }
+      }
+    },
+    {
       "key": "6PSTKQ7N",
       "title": "Caractéristiques hydrodynamiques de tourbe en colonne : Hydrodynamic characteristics of peat columns",
+      "matched": null
+    },
+    {
+      "key": "BQ9827PA",
+      "title": "MICROBIAL DECOMPOSITION",
+      "matched": {
+        "halId": "hal-01179690",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01179690",
+        "add": {},
+        "differ": {
+          "pages": [
+            "217–246",
+            "217 - 246"
+          ]
+        }
+      }
+    },
+    {
+      "key": "8AACM568",
+      "title": "EXPERIMENTAL SIMULATION OF BIODEGRADATION IN RIVERS: OXYGEN, ORGANIC MATTER AND BIOMASS CONCENTRATION CHANGES",
+      "matched": {
+        "halId": "hal-01179337",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01179337",
+        "add": {},
+        "differ": {
+          "publicationTitle": [
+            "Water Res.",
+            "Water Research"
+          ]
+        }
+      }
+    },
+    {
+      "key": "YRJPIY2C",
+      "title": "In vivo calibration of a subcutaneous glucose sensor for determination of subcutaneous glucose kinetics",
+      "matched": {
+        "halId": "hal-01179359",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01179359",
+        "add": {
+          "issue": "3"
+        },
+        "differ": {
+          "publicationTitle": [
+            "Diabetes, Nutrition & Metabolism, Clinical and Experimental",
+            "Diabetes, American Diabetes Association"
+          ],
+          "pages": [
+            "227–233",
+            "227 - 233"
+          ]
+        }
+      }
+    },
+    {
+      "key": "HUDEA8L5",
+      "title": "The use of microprocessors for the evaluation of the analytical performance of enzymebased sensors",
+      "matched": null
+    },
+    {
+      "key": "AHJCUNK2",
+      "title": "PRELIMINARY STUDY OF SURFACE TREATMENTS FOR PLATINUM ELECTRODES DESIGNED FOR OXIDATION-REDUCTION POTENTIAL DETERMINATIONS IN ACTIVATED SLUDGE",
+      "matched": {
+        "halId": "hal-02574232",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-02574232",
+        "add": {},
+        "differ": {
+          "pages": [
+            "139–242",
+            "239-242"
+          ]
+        }
+      }
+    },
+    {
+      "key": "9CUFYVVC",
+      "title": "ELEMENTS IN THE INTERPRETATION OF PLATINUM ELECTRODE POTENTIALS IN BIOLOGICAL TREATMENT",
+      "matched": {
+        "halId": "hal-02578189",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-02578189",
+        "add": {},
+        "differ": {
+          "pages": [
+            "1335–1344",
+            "1335-1344"
+          ]
+        }
+      }
+    },
+    {
+      "key": "BXU4YPZY",
+      "title": "POLLUTION METALLIQUE RELARGABLE PAR LES AEROSOLS D'ORIGINE AUTOROUTIERE",
+      "matched": {
+        "halId": "hal-01200588",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01200588",
+        "add": {
+          "DOI": "10.1080/09593339209385126"
+        },
+        "differ": {
+          "pages": [
+            "35–44",
+            "35 - 44"
+          ]
+        }
+      }
+    },
+    {
+      "key": "5XURK4CU",
+      "title": "Caractérisation de la mobilté des métaux lourds les sédiments : (rivières, milieux côtièrs et particules solides de réseaux pluvieux urbains",
+      "matched": null
+    },
+    {
+      "key": "KTS3MB8E",
+      "title": "MODIFIED PLATINUM ELECTRODES: ELECTROCHEMICAL CHARACTERISTICS AND BEHAVIOUR IN ACTIVATED SLUDGE",
+      "matched": {
+        "halId": "hal-02574334",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-02574334",
+        "add": {},
+        "differ": {
+          "pages": [
+            "143–150",
+            "143-150"
+          ]
+        }
+      }
+    },
+    {
+      "key": "87RVLHJF",
+      "title": "Design and in Vitro Studies of a Needle-Type Glucose Sensor for Subcutaneous Monitoring",
+      "matched": {
+        "halId": "hal-01179862",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01179862",
+        "add": {
+          "DOI": "10.1021/ac00017a008"
+        },
+        "differ": {
+          "publicationTitle": [
+            "Analytical Chemistry",
+            "Analytical and Bioanalytical Chemistry"
+          ],
+          "pages": [
+            "1692–1696",
+            "1692-1696"
+          ]
+        }
+      }
+    },
+    {
+      "key": "QXILCSZZ",
+      "title": "Le bassin versant expérimental urbain du Marais à Paris : origine et caractéristiques de la pollution des eaux pluviales urbaines en réseau d'assainissement unitaire",
+      "matched": null
+    },
+    {
+      "key": "5RKQFV78",
+      "title": "URBAN DISCHARGES DURING WET WEATHER: WHAT VOLUMES HAVE TO BE TREATED?",
+      "matched": {
+        "halId": "hal-00779543",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00779543",
+        "add": {
+          "DOI": "10.1016/0273-1223(95)00559-6"
+        },
+        "differ": {
+          "pages": [
+            "225–232",
+            "225"
+          ]
+        }
+      }
+    },
+    {
+      "key": "8XSMRC7K",
+      "title": "La pollution des rejets urbains par temps de pluie",
       "matched": null
     },
     {
@@ -192,8 +2426,159 @@
       }
     },
     {
+      "key": "7MT4P69D",
+      "title": "L'inscription économique du développement durable",
+      "matched": null
+    },
+    {
+      "key": "33LMMBJR",
+      "title": "Le potentiel de développement endogène",
+      "matched": null
+    },
+    {
+      "key": "3UIV2BPH",
+      "title": "Le concept d'environnement, une hiérarchie enchevêtrée",
+      "matched": null
+    },
+    {
+      "key": "8KM6L2HS",
+      "title": "Le bouleversement des climats. Comment gérer l'incertitude ?",
+      "matched": null
+    },
+    {
+      "key": "CTKWES6W",
+      "title": "Développement, environnement et évaluation des techniques",
+      "matched": null
+    },
+    {
+      "key": "EMI3J8YC",
+      "title": "L'économie, l'écologie et la nature des choses",
+      "matched": null
+    },
+    {
+      "key": "FFTTS5TR",
+      "title": "Les permis négociables et la Convention sur le climat : de l’expérience américaine aux enjeux de l’harmonisation",
+      "matched": null
+    },
+    {
+      "key": "HFR8C92M",
+      "title": "Politiques de l'environnement et transition vers l'économie de marché dans les sociétés de l'Europe centrale et orientale Questions guidées par l'expérience française",
+      "matched": null
+    },
+    {
+      "key": "KEKWF9QT",
+      "title": "Sciences et intérêts : la figure de la dénonciation",
+      "matched": null
+    },
+    {
+      "key": "N5QPS2L7",
+      "title": "Instruments pour une gestion collective des risques climatiques Un cadre d'analyse centré sur les moyens de faire apparaitre un signal-prix",
+      "matched": null
+    },
+    {
+      "key": "NYLF264S",
+      "title": "L'économie cachée en France : état du débat et bilan des travaux",
+      "matched": null
+    },
+    {
+      "key": "YYP9IPKZ",
+      "title": "Trajectoires institutionnelles et choix d'instruments pour les politiques d'environnement dans les économies en transition",
+      "matched": null
+    },
+    {
+      "key": "HTV4SCXR",
+      "title": "Stratégies industrielles et conventions d'environnement: De l'univers stabilisé aux univers controversés",
+      "matched": null
+    },
+    {
       "key": "AZMB55MJ",
       "title": "Energie et Tiers-Monde: dangers et illusions du mimétisme technologique",
+      "matched": null
+    },
+    {
+      "key": "G5ZMAIQW",
+      "title": "Les dessous de l'économie cachée",
+      "matched": null
+    },
+    {
+      "key": "VXBSWP88",
+      "title": "Price equalization and alternative approaches for rural electrification",
+      "matched": null
+    },
+    {
+      "key": "SRPKIZUR",
+      "title": "Applied Fairness Theory and Rationing Policy",
+      "matched": null
+    },
+    {
+      "key": "H6VA3SBN",
+      "title": "La course d’obstacle des énergies renouvelables",
+      "matched": null
+    },
+    {
+      "key": "EDXDQ5FC",
+      "title": "Impératif industriel et nouveau mode de développement",
+      "matched": null
+    },
+    {
+      "key": "CVD7IK7X",
+      "title": "Péréquation des coûts spatiaux des services publics en réseau et incitation à la maîtrise des usages concurrentiels. Perspectives d'innovation pour le Régime d'Electrification Rurale français",
+      "matched": null
+    },
+    {
+      "key": "E2BZZNZ5",
+      "title": "Innovative mechanisms for exploiting international CO 2-emission abatement cost differences.",
+      "matched": null
+    },
+    {
+      "key": "ZUE9IAVJ",
+      "title": "Calcul économique et construction sociale des irréversibilités: leçons de l'histoire énergétique récente",
+      "matched": null
+    },
+    {
+      "key": "E9BXIHBT",
+      "title": "Gouvernement mondial,\" global governance\" ou anomie?: Les enjeux des réponses aux défis planétaires",
+      "matched": null
+    },
+    {
+      "key": "JA7TGR35",
+      "title": "Vers une nouvelle civilisation du végétal: principaux programmes solaires au Brésil et en Argentine",
+      "matched": null
+    },
+    {
+      "key": "7ZNPPVE8",
+      "title": "Précaution et approche séquentielle de la décision face aux risques climatiques de l’effet de serre",
+      "matched": null
+    },
+    {
+      "key": "6PV8SBN7",
+      "title": "Climate modelling and policy strategies. The role of technical change and uncertainty",
+      "matched": {
+        "halId": "hal-00716515",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00716515",
+        "add": {},
+        "differ": {
+          "publicationTitle": [
+            "Climate modelling and policy strategies. The role of technical change and uncertainty",
+            "Energy Economics"
+          ],
+          "issue": [
+            "5-6",
+            "41065"
+          ],
+          "pages": [
+            "463–471",
+            "463"
+          ]
+        }
+      }
+    },
+    {
+      "key": "UJXIVA6F",
+      "title": "No-regret potentials and technical innovation : A viability approach to integrated assessment of climate policies",
       "matched": null
     },
     {
@@ -202,8 +2587,159 @@
       "matched": null
     },
     {
+      "key": "6DI3FFTG",
+      "title": "De las \"bondades\" del gasto militar a los dividendos de la paz: ¿hacia un nuevo consenso?",
+      "matched": null
+    },
+    {
+      "key": "6ANJRSBH",
+      "title": "Essai sur l'illégalité en économie : l'économie de la drogue",
+      "matched": null
+    },
+    {
+      "key": "ZGCFXXS2",
+      "title": "Crise de l’environnement et régulation du développement : pour un dépassement de la problématique ‘centralisation – décentralisation’",
+      "matched": null
+    },
+    {
+      "key": "QZXR6569",
+      "title": "Croissance et environnement: éléments pour une stratégie d'harmonisation",
+      "matched": null
+    },
+    {
+      "key": "ZG2H9STF",
+      "title": "A qui profite l'anti-pollution?",
+      "matched": null
+    },
+    {
+      "key": "X3NM7EFI",
+      "title": "SIGNIFICATION ET IMPASSES D’UN CONCEPT BANALISÉ : LES ÉCONOMIES D’ÉCHELLE",
+      "matched": null
+    },
+    {
+      "key": "BRF7JIV9",
+      "title": "Besoins de financement et stratégies énergétiques pour le Tiers-Monde",
+      "matched": null
+    },
+    {
+      "key": "W3WPF5PV",
+      "title": "Le développement durable: paysage intellectuel",
+      "matched": null
+    },
+    {
+      "key": "287WK8UI",
+      "title": "Les économies d'échelle",
+      "matched": null
+    },
+    {
+      "key": "VICVVNME",
+      "title": "Prospective de la demande dans le tiers-monde: problèmes de modélisation",
+      "matched": null
+    },
+    {
+      "key": "ZU9G2TZ9",
+      "title": "Environnement et styles de développement",
+      "matched": null
+    },
+    {
+      "key": "S8VUIU74",
+      "title": "Le développement durable et le devenir des villes: bonnes intentions et fausses bonnes idées",
+      "matched": {
+        "halId": "hal-00624329",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00624329",
+        "add": {},
+        "differ": {
+          "publicationTitle": [
+            "Le développement durable et le devenir des villes. Bonnes intentions et fausses bonnes idées",
+            "Futuribles"
+          ],
+          "pages": [
+            "29–35",
+            "29-35"
+          ],
+          "date": [
+            "1996-05",
+            "1996"
+          ]
+        }
+      }
+    },
+    {
+      "key": "UI8XFEWK",
+      "title": "Entre nature et société : les jeux de l'irréversibilité : dans la construction économique et sociale du champ de l'environnement",
+      "matched": null
+    },
+    {
       "key": "WCI9YSD4",
       "title": "Integration of technology in development planning: a normative view (Chapter 10)",
+      "matched": null
+    },
+    {
+      "key": "Y6PTWIVR",
+      "title": "La relation interdisciplinaire : problèmes et stratégies",
+      "matched": null
+    },
+    {
+      "key": "DPQBEHSB",
+      "title": "Jeux de nature : quand le débat sur l'efficacité des politiques publiques contient la question de leur légitilité",
+      "matched": null
+    },
+    {
+      "key": "4VPQC7F6",
+      "title": "Développement, utopie, projet de société",
+      "matched": null
+    },
+    {
+      "key": "R24GWFTW",
+      "title": "Les temps - espaces du développement",
+      "matched": null
+    },
+    {
+      "key": "RP95B3RA",
+      "title": "Plaidoyer pour développer des technologies plus appropriées et passer du mimétisme au pluralisme technologique",
+      "matched": null
+    },
+    {
+      "key": "B9PV9QB7",
+      "title": "Oppositions locales à des projets d'équipement",
+      "matched": null
+    },
+    {
+      "key": "BPFGPPBH",
+      "title": "Environnement, modes de coordination et systèmes de légitimité : analyse de la catégorie de patrimoine naturel",
+      "matched": null
+    },
+    {
+      "key": "3ZMINRSF",
+      "title": "Environnement et projet de civilisation",
+      "matched": null
+    },
+    {
+      "key": "LV3GLTLU",
+      "title": "Environment and development revisited : ten years after Stockholm conference",
+      "matched": null
+    },
+    {
+      "key": "6MJFX9HB",
+      "title": "La crise de l'Etat protecteur et l'exercice des droits sociaux au développement",
+      "matched": null
+    },
+    {
+      "key": "U6VHDB63",
+      "title": "La politique de l'environnement et l'avenir des relations entre l'Europe et le Tiers-Monde",
+      "matched": null
+    },
+    {
+      "key": "PXZG48FM",
+      "title": "Progrès techniques et recherche de nouveaux modèles de temps sociaux",
+      "matched": null
+    },
+    {
+      "key": "C2AKFA8J",
+      "title": "Décentralisation et développement local en France",
       "matched": null
     },
     {
@@ -229,13 +2765,415 @@
       }
     },
     {
+      "key": "84DPXVJG",
+      "title": "Using climate analogues for assessing climate change economic impacts in urban areas",
+      "matched": {
+        "halId": "hal-00164627",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00164627",
+        "add": {},
+        "differ": {
+          "pages": [
+            "47–60",
+            "47-60"
+          ]
+        }
+      }
+    },
+    {
+      "key": "NFSI7AIZ",
+      "title": "The social efficiency of instruments of promotion of renewable energies: A transaction-cost perspective",
+      "matched": {
+        "halId": "hal-00716667",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00716667",
+        "add": {},
+        "differ": {
+          "pages": [
+            "77–92",
+            "77"
+          ]
+        }
+      }
+    },
+    {
+      "key": "565A3R98",
+      "title": "Business cycles, bifurcations and chaos in a neo-classical model with investment dynamics",
+      "matched": {
+        "halId": "halshs-00007196",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "halshs-00007196",
+        "add": {},
+        "differ": {
+          "publicationTitle": [
+            "Journal of Economic Behavior &amp; Organization",
+            "Journal of Economic Behavior and Organization"
+          ],
+          "pages": [
+            "57–77",
+            "57-77"
+          ]
+        }
+      }
+    },
+    {
+      "key": "WQK7XEHH",
+      "title": "Untying the Climate-Development Gordian Knot: Economic Options in a Politically Constrained World",
+      "matched": {
+        "halId": "hal-00783370",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00783370",
+        "add": {},
+        "differ": {
+          "pages": [
+            "74–99",
+            "75-99"
+          ],
+          "date": [
+            "2008",
+            "2009"
+          ]
+        }
+      }
+    },
+    {
+      "key": "7TIKUE8J",
+      "title": "How to design a border adjustment for the European Union Emissions Trading System?",
+      "matched": {
+        "halId": "hal-00719254",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00719254",
+        "add": {},
+        "differ": {
+          "pages": [
+            "5199–5207",
+            "51-99"
+          ]
+        }
+      }
+    },
+    {
+      "key": "9AIB83SH",
+      "title": "Climate policies as a hedge against the uncertainty on future oil supply",
+      "matched": {
+        "halId": "hal-00866449",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00866449",
+        "add": {},
+        "differ": {}
+      }
+    },
+    {
+      "key": "PVSC6ZMQ",
+      "title": "Efficiency of policy instruments for CCS deployment",
+      "matched": {
+        "halId": "hal-00715348",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00715348",
+        "add": {},
+        "differ": {
+          "pages": [
+            "237–254",
+            "237--254"
+          ]
+        }
+      }
+    },
+    {
+      "key": "AEZXX8F8",
+      "title": "Venturing into uncharted financial waters: an essay on climate-friendly finance",
+      "matched": {
+        "halId": "hal-00715343",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00715343",
+        "add": {},
+        "differ": {
+          "pages": [
+            "165–186",
+            "165--186"
+          ]
+        }
+      }
+    },
+    {
+      "key": "PTIFHX7E",
+      "title": "Peak Oil profiles through the lens of a general equilibrium assessment",
+      "matched": {
+        "halId": "hal-00787704",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00787704",
+        "add": {},
+        "differ": {
+          "pages": [
+            "744–753",
+            "744-753"
+          ]
+        }
+      }
+    },
+    {
+      "key": "KQMI4WC2",
+      "title": "IMACLIM-R: a modelling framework to simulate sustainable development pathways",
+      "matched": {
+        "halId": "hal-00566290",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00566290",
+        "add": {},
+        "differ": {
+          "pages": [
+            "5",
+            "5-24"
+          ]
+        }
+      }
+    },
+    {
+      "key": "2YWUKF7M",
+      "title": "Les bifurcations de la politique énergétique française depuis la guerre",
+      "matched": null
+    },
+    {
+      "key": "62FAWZYT",
+      "title": "Le biais mimétique dans le choix de techniques : un facteurd'asphyxie du dévéleoppement autocentré en Tanzanie",
+      "matched": null
+    },
+    {
+      "key": "27L4GI2E",
+      "title": "Environnement et politique scientifique",
+      "matched": null
+    },
+    {
       "key": "VMZPHJXH",
       "title": "Développement des réseaux et modulations spatio-temporelles des tarifs: l'équité territoriale revisitée",
       "matched": null
     },
     {
+      "key": "STPFPZYZ",
+      "title": "Décentralisation et planification du développement endogène",
+      "matched": null
+    },
+    {
+      "key": "5GPCR5FK",
+      "title": "Ecodevelopment : to create a durable equilibrium between man and nature, while avoiding the errors of lawless growth",
+      "matched": null
+    },
+    {
+      "key": "DIRW5XW5",
+      "title": "La décentralisation en France: un levier pour le développement local",
+      "matched": null
+    },
+    {
+      "key": "37ATUJ9G",
+      "title": "Permis d'émission négociables",
+      "matched": null
+    },
+    {
+      "key": "RZQ6PXEP",
+      "title": "La réforme de la planification en France ou comment promouvoir un développement plus autonome? in Municipales 1983",
+      "matched": null
+    },
+    {
+      "key": "P6S2G97K",
+      "title": "Le développement endogène et la différenciation des espaces de développement: une grille d’analyse pour le développement local",
+      "matched": null
+    },
+    {
+      "key": "WU2ABU7Z",
+      "title": "Ecological economics and scientific controversies. Lessons from some recent policy making in the EEC",
+      "matched": {
+        "halId": "hal-02961810",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-02961810",
+        "add": {
+          "DOI": "10.1016/0921-8009(92)90026-O"
+        },
+        "differ": {
+          "pages": [
+            "211–233",
+            "211-233"
+          ]
+        }
+      }
+    },
+    {
+      "key": "DB6ZEKHG",
+      "title": "Development, maldevelopment and industrialisation of third world countries",
+      "matched": null
+    },
+    {
+      "key": "AFMJBTXH",
+      "title": "Autonomie socio-économique et externalisation de l'environnement: la théorie néoclassique mise en perspective",
+      "matched": null
+    },
+    {
+      "key": "QFCQIDQE",
+      "title": "chapitre XV : le défi de la gestion de l'environnement",
+      "matched": null
+    },
+    {
+      "key": "IFIPP3W3",
+      "title": "El auge de la fractura Norte-Sur.?` Es posible un gobierno global?",
+      "matched": null
+    },
+    {
+      "key": "5RS5FT4S",
+      "title": "Quelles politiques face aux chocs énergétiques. France, Italie, Japon, RFA : quatre modes de résorption des déséquilibres",
+      "matched": {
+        "halId": "hal-00991639",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00991639",
+        "add": {
+          "volume": "189",
+          "pages": "7-27"
+        },
+        "differ": {
+          "date": [
+            "1994-07",
+            "1994"
+          ]
+        }
+      }
+    },
+    {
+      "key": "N7ZAFWR3",
+      "title": "Analyse économique, modélisation prospective et développement durable ou comment faire remonter des informations du futur",
+      "matched": null
+    },
+    {
       "key": "KZKMJ2IZ",
       "title": "Pauvreté et pollution",
+      "matched": null
+    },
+    {
+      "key": "7S52XRJ7",
+      "title": "L'économie des filières énergétiques. Coût de mise à disposition des énergies et choix des investissements de maîtrise de l'énergie",
+      "matched": null
+    },
+    {
+      "key": "PVFKUMBK",
+      "title": "Substitution entre ressources naturelles et nouvelle croissance",
+      "matched": null
+    },
+    {
+      "key": "CD2GCAG7",
+      "title": "The biogas programs in India and China, an ecologically appropriate technology in two highly contrasting socio-economic settings.",
+      "matched": null
+    },
+    {
+      "key": "D4MNJZS7",
+      "title": "Les filières-stupéfiants : trois niveaux, cinq logiques. Les stratégies de survie et le monde des criminalités",
+      "matched": null
+    },
+    {
+      "key": "BKRF273C",
+      "title": "Décision en avenir controversé: la micro-économie enjeu et langage de négociation. Réflexions à partir de la crise des pluies acides en Europe",
+      "matched": null
+    },
+    {
+      "key": "IVU3IXHW",
+      "title": "Mimétisme ou pluralisme de technologies plus appropriées: réplique à A. Emmanuel",
+      "matched": null
+    },
+    {
+      "key": "NGED73Q2",
+      "title": "Trade and development : a prospective view of unctad",
+      "matched": null
+    },
+    {
+      "key": "LIJ3E8NT",
+      "title": "Les enjeux des négociations sur le climat De Rio à Kyoto : pourquoi la Convention sur le climat devrait intéresser ceux qui ne s’y intéressent pas",
+      "matched": null
+    },
+    {
+      "key": "H3PNJSQQ",
+      "title": "L'écodéveloppement revisité",
+      "matched": {
+        "halId": "hal-00622847",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00622847",
+        "add": {},
+        "differ": {
+          "publicationTitle": [
+            "Economies et Sociétés, Cahiers de l'ISMEA",
+            "Gazette du Palais"
+          ],
+          "pages": [
+            "213–229",
+            "213-229"
+          ]
+        }
+      }
+    },
+    {
+      "key": "G5G4Q8CS",
+      "title": "Environnement et développement : de l'externalité à l'intégration contextuelle",
+      "matched": null
+    },
+    {
+      "key": "88YZFI6N",
+      "title": "Social Decision-Making under Scientific Controversy, Expertise, and the Precautionary Principle",
+      "matched": {
+        "halId": "halshs-00624027",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "halshs-00624027",
+        "add": {},
+        "differ": {
+          "pages": [
+            "39–73",
+            "39-73"
+          ]
+        }
+      }
+    },
+    {
+      "key": "7IKEW8MP",
+      "title": "Sustainable development and the process of justifying choices in a controversial universe",
+      "matched": {
+        "halId": "hal-00622855",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00622855",
+        "add": {},
+        "differ": {
+          "pages": [
+            "299–317",
+            "299-317"
+          ]
+        }
+      }
+    },
+    {
+      "key": "2YHQV3L4",
+      "title": "Armements et économie : une nouvelle donne pour les “dividendes de la paix” ?",
       "matched": null
     },
     {
@@ -257,9 +3195,231 @@
       }
     },
     {
+      "key": "F65HPQ28",
+      "title": "Urban waters: Resource or Risk?",
+      "matched": null
+    },
+    {
+      "key": "YZL9Q87V",
+      "title": "Urban waters: Resource or Risk?",
+      "matched": null
+    },
+    {
+      "key": "YPM9Q2MS",
+      "title": "La base de données sur la qualité des rejets urbains par temps de pluie",
+      "matched": null
+    },
+    {
+      "key": "7JPHE7MP",
+      "title": "EXTENT OF POLLUTION IN URBAN WET WEATHER DISCHARGES",
+      "matched": null
+    },
+    {
+      "key": "YIRGH5XD",
+      "title": "Méthodologie d'évaluation de l'efficacité d'un décanteur particulaire dans le traitement des rejets urbains de temps de Pluie",
+      "matched": null
+    },
+    {
+      "key": "RXEALXXT",
+      "title": "3N: une Nouvelle technologie, une Nouvelle science, une Nouvelle pédagogie Implementing 3N : a New technology, a New science, a New teaching method",
+      "matched": null
+    },
+    {
+      "key": "8YKN74RS",
+      "title": "ABORATORY SIMULATION FOR HEAVY METAL EVOLUTION IN CSO POLLUTED RTVER SEINE SEDIMENTS AND INTERSTITIAL WATERS",
+      "matched": null
+    },
+    {
+      "key": "Q7RY93V5",
+      "title": "URBAN RUNOFF IMPACT ON COMPOSITION AND CONCENTRATION OF HYDROCARBONS IN RIVER SEINE SUSPENDED SOLIDS",
+      "matched": {
+        "halId": "hal-01180061",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01180061",
+        "add": {},
+        "differ": {}
+      }
+    },
+    {
+      "key": "C8RWMRLR",
+      "title": "Potentiel d'oxydo-réduction en épuration biologique Méthode de mesure et applications",
+      "matched": null
+    },
+    {
+      "key": "LITKD3B7",
+      "title": "Effet de la complexation sur les réactions d'oxydo-réduction biologiques",
+      "matched": null
+    },
+    {
+      "key": "NDY4U9RM",
+      "title": "Propriétés électrochimiques de la nicotinamide et de ses dérivés en solution aqueuse : III. Influence du pH de la solution et de la concentration de nicotinamide sur la réduction polarographique de ce composé",
+      "matched": {
+        "halId": "hal-01179296",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01179296",
+        "add": {
+          "publicationTitle": "Journal of electroanalytical chemistry and interfacial electrochemistry",
+          "pages": "197-207"
+        },
+        "differ": {}
+      }
+    },
+    {
+      "key": "TS5ZLX38",
+      "title": "Evaluation of Implantable Glucose Enzyme-Based Sensors with Extracorporal Blood Shunt.",
+      "matched": {
+        "halId": "hal-01179672",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01179672",
+        "add": {
+          "volume": "20",
+          "pages": "13-16"
+        },
+        "differ": {}
+      }
+    },
+    {
+      "key": "UDZBXXYU",
+      "title": "First International Workshop on Sewer Sediments 'Origin, occurrence and behaviour of sediments in sewer systems\" 4-6 September 1991",
+      "matched": null
+    },
+    {
       "key": "R9TKKWWX",
       "title": "Hydrologie urbaine Eléments de bilan du programme \"Eau dans la ville\"",
       "matched": null
+    },
+    {
+      "key": "MI97ZELQ",
+      "title": "Propriétés électrochimiques de la nicotinamide et de ses dérivés en solution aqueuse : II. Étude électrochimique de l'iodure de N1-méthyl nicotinamide en solution aqueuse",
+      "matched": {
+        "halId": "hal-01179302",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01179302",
+        "add": {
+          "publicationTitle": "Journal of electroanalytical chemistry and interfacial electrochemistry",
+          "pages": "447-469",
+          "DOI": "10.1016/S0022-0728(72)80167-0"
+        },
+        "differ": {}
+      }
+    },
+    {
+      "key": "Q5RK2Q5F",
+      "title": "2nd Wageningen Conference URBAN STORM WATER QUALITY AND ECOLOGICAL EFFECTS UPON RECEIVING WATERS 20, 21 and 22 September 1989",
+      "matched": null
+    },
+    {
+      "key": "A4GW9I3H",
+      "title": "Unmediated amperometric enzyme electrodes",
+      "matched": {
+        "halId": "hal-01179624",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01179624",
+        "add": {
+          "pages": "1-17"
+        },
+        "differ": {}
+      }
+    },
+    {
+      "key": "L9HIZLGF",
+      "title": "MODELISATION DE LA DECANTATION DES SOLIDES EN SUSPENSION DANS LES REJETS URBAINS PAR TEMPS DE PLUIEE",
+      "matched": null
+    },
+    {
+      "key": "9T6U2HDZ",
+      "title": "LES EAUX DE RUISSELLEMENT Caractéristiques et moyens de dépollution Travaux de recherche",
+      "matched": null
+    },
+    {
+      "key": "BNVBN5QI",
+      "title": "Discharged urban waters: Ressource or Risk?. Volume 2",
+      "matched": null
+    },
+    {
+      "key": "C5NHAE26",
+      "title": "18 ans d'existence d'un diplôme multidisciplinaire, le Diplôme d'Etudes Approfondies en Sciences et Techniques de l'Environnement : la majorité ? = 18 years for an interdisciplinary one-year postgraduate degree on environmental science and technology : the full age ?",
+      "matched": null
+    },
+    {
+      "key": "H6KXL2JU",
+      "title": "Significance of dissolved and particulate metal and hydrocarbon determinations in urban runoff samples",
+      "matched": {
+        "halId": "hal-01180054",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01180054",
+        "add": {},
+        "differ": {}
+      }
+    },
+    {
+      "key": "XPRL3FCD",
+      "title": "Efficacité d'un décanteur particulaire dans le traitement des Rejets Urbains de Temps de Pluie",
+      "matched": null
+    },
+    {
+      "key": "J46DRVPR",
+      "title": "ÉTUDES THERMIQUES, CHIMIQUES ET BIOLOGIQUES DES EAUX DES LACS DE L'EST DE LA FRANCE (Vosges, Jura, Alpes de Savoie)",
+      "matched": null
+    },
+    {
+      "key": "4GCVD9EZ",
+      "title": "Répartition de la pollution à l'intérieur des événements",
+      "matched": null
+    },
+    {
+      "key": "DS4FSTIS",
+      "title": "Titration of aqueous solutions of phenols and determination of their bromination rate constants by means of ring-disc electrodes",
+      "matched": {
+        "halId": "hal-01178845",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01178845",
+        "add": {
+          "DOI": "10.1007/BF00615376"
+        },
+        "differ": {
+          "pages": [
+            "119–126",
+            "119 - 126"
+          ]
+        }
+      }
+    },
+    {
+      "key": "BBZWHR7Q",
+      "title": "Electrochemical properties of nicotinamide derivatives in aqueous solution: Part IV. Oxidation of N1-alkyl-1, 4-dihydronicotinamides",
+      "matched": {
+        "halId": "hal-01179282",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01179282",
+        "add": {},
+        "differ": {
+          "issue": [
+            "3",
+            "47"
+          ],
+          "pages": [
+            "543–546",
+            "543-546"
+          ]
+        }
+      }
     },
     {
       "key": "EB54CFGC",
@@ -277,6 +3437,214 @@
           "pages": [
             "96–100",
             "96 - 100"
+          ]
+        }
+      }
+    },
+    {
+      "key": "SL3QQD72",
+      "title": "245-A highly sensitive glucose electrode using glucose oxidase collagen film",
+      "matched": {
+        "halId": "hal-01083001",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01083001",
+        "add": {
+          "DOI": "10.1016/0302-4598(87)85047-X"
+        },
+        "differ": {
+          "pages": [
+            "548–553",
+            "548 - 553"
+          ]
+        }
+      }
+    },
+    {
+      "key": "BWZJNXVH",
+      "title": "Analytical bioelectrochemistry",
+      "matched": {
+        "halId": "hal-01179335",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01179335",
+        "add": {
+          "DOI": "10.1007/978-1-4684-5098-9_19"
+        },
+        "differ": {
+          "pages": [
+            "181–188",
+            "181-188"
+          ]
+        }
+      }
+    },
+    {
+      "key": "KCLKBK88",
+      "title": "Covalent enzyme coupling on cellulose acetate membranes for glucose sensor development",
+      "matched": {
+        "halId": "hal-01179370",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01179370",
+        "add": {
+          "DOI": "10.1021/ac00175a028"
+        },
+        "differ": {
+          "publicationTitle": [
+            "Analytical Chemistry",
+            "Analytical and Bioanalytical Chemistry"
+          ],
+          "pages": [
+            "2781–2786",
+            "2781-2786"
+          ]
+        }
+      }
+    },
+    {
+      "key": "3AGPMXGE",
+      "title": "In vitro and in vivo stability of electrode potentials in needle-type glucose sensors: influence of needle material",
+      "matched": {
+        "halId": "hal-01179627",
+        "title_sim": 0.818
+      },
+      "diff": {
+        "halId": "hal-01179627",
+        "add": {},
+        "differ": {}
+      }
+    },
+    {
+      "key": "JGTIKU8W",
+      "title": "Progress toward the development of an implantable sensor for glucose.",
+      "matched": {
+        "halId": "hal-01179833",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01179833",
+        "add": {},
+        "differ": {}
+      }
+    },
+    {
+      "key": "LFFJ8VVL",
+      "title": "Fluorescein diacetate hydrolysis as a measure of microbial activity in aquatic systems: application to activated sludges",
+      "matched": {
+        "halId": "hal-01179839",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01179839",
+        "add": {},
+        "differ": {}
+      }
+    },
+    {
+      "key": "AZE64HQV",
+      "title": "Biosensors for intracorporeal measurements–problems and strategies",
+      "matched": null
+    },
+    {
+      "key": "32NGS3GW",
+      "title": "Determination of polycyclic aromatic hydrocarbons in urban runoff samples from the “Le Marais” experimental catchment in Paris centre",
+      "matched": {
+        "halId": "hal-01179901",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01179901",
+        "add": {
+          "DOI": "10.1080/10406630008034772"
+        },
+        "differ": {}
+      }
+    },
+    {
+      "key": "DBHZ36KQ",
+      "title": "Aspectos de qualidade de agua en bacias de retention urbanas",
+      "matched": {
+        "halId": "hal-00752713",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00752713",
+        "add": {},
+        "differ": {
+          "pages": [
+            "27–35",
+            "27-35"
+          ]
+        }
+      }
+    },
+    {
+      "key": "63JJ4DJP",
+      "title": "Urban runoff impacts on particulate metal and hydrocarbon concentrations in river Seine: suspended solid and sediment transport",
+      "matched": {
+        "halId": "hal-00779527",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00779527",
+        "add": {
+          "DOI": "10.1016/S0273-1223(97)00600-8"
+        },
+        "differ": {
+          "issue": [
+            "8",
+            "41525"
+          ],
+          "pages": [
+            "185–193",
+            "185"
+          ]
+        }
+      }
+    },
+    {
+      "key": "Z4X4LVQP",
+      "title": "Sensitive detection of organophosphorus pesticides using a needle type amperometric acetylcholinesterase-based bioelectrode. Thiocholine electrochemistry and immobilised enzyme inhibition",
+      "matched": {
+        "halId": "hal-01180057",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-01180057",
+        "add": {},
+        "differ": {
+          "pages": [
+            "107–115",
+            "107 – 115"
+          ]
+        }
+      }
+    },
+    {
+      "key": "9IB9PJHH",
+      "title": "Hydrocarbons and metals in atmospheric deposition and roof runoff in central Paris",
+      "matched": null
+    },
+    {
+      "key": "2M9FCPTI",
+      "title": "Contribution of different sources to the pollution of wet weather flows in combined sewers",
+      "matched": {
+        "halId": "hal-00711820",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00711820",
+        "add": {
+          "DOI": "10.1016/S0043-1354(00)00261-X"
+        },
+        "differ": {
+          "pages": [
+            "521–533",
+            "521--533"
           ]
         }
       }
@@ -302,8 +3670,183 @@
       }
     },
     {
+      "key": "N5W3YPVU",
+      "title": "Apports de la modélisation mathématique à la connaissance de la pollution des rejets urbains par temps de pluie",
+      "matched": null
+    },
+    {
+      "key": "DEXN3B2M",
+      "title": "La pollution des rejets urbains par temps de pluie: quantité, origine et nature",
+      "matched": null
+    },
+    {
+      "key": "2Z3JBZZ4",
+      "title": "Origins and characteristics of urban wet weather pollution in combined sewer systems: the experimental urban catchment “Le Marais” in Paris",
+      "matched": {
+        "halId": "hal-00779525",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00779525",
+        "add": {
+          "DOI": "10.1016/S0273-1223(97)00753-1"
+        },
+        "differ": {
+          "pages": [
+            "35–43",
+            "35"
+          ]
+        }
+      }
+    },
+    {
+      "key": "WG2V29F5",
+      "title": "ANALYSIS OF THE METHODS FOR DETERMINING THE SETTLING CHARACTERISTICS OF SEWAGE AND STORMWATER SOLIDS",
+      "matched": {
+        "halId": "hal-00779524",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00779524",
+        "add": {
+          "DOI": "10.1016/S0273-1223(97)00755-5"
+        },
+        "differ": {
+          "pages": [
+            "53–60",
+            "53-60"
+          ]
+        }
+      }
+    },
+    {
+      "key": "HXCPSF6Y",
+      "title": "The influence of morphometry and vertical mixing on the net phytoplankton primary production",
+      "matched": null
+    },
+    {
+      "key": "3KKN3NDQ",
+      "title": "Lake Jabel restoration project: Phosphorus status and possibilities and limitations of diversion of its nutrient-rich main inflow",
+      "matched": null
+    },
+    {
+      "key": "3FWE7JJS",
+      "title": "Picocyanobacteria success in oligotrophic lakes: fact or fiction?",
+      "matched": null
+    },
+    {
+      "key": "MF7INFWT",
+      "title": "Tracing calcite precipitation with specific conductance in a hard water alpine lake (Lake Bourget)",
+      "matched": {
+        "halId": "hal-00711823",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00711823",
+        "add": {
+          "DOI": "10.1016/S0043-1354(00)00191-3"
+        },
+        "differ": {
+          "pages": [
+            "4151–4160",
+            "4151--4160"
+          ]
+        }
+      }
+    },
+    {
+      "key": "AISDPJ4Y",
+      "title": "Bilan de la recherche sur les solides en réseaux d'assainissement",
+      "matched": null
+    },
+    {
+      "key": "44ZM4AHS",
+      "title": "SYNTHESE SUR LES CARACTERISTIQUES DES SOLIDES EN SUSPENSION DANS LES REJETS URBAINS PAR TEMPS DE PLUIE",
+      "matched": null
+    },
+    {
+      "key": "6MRIKSEV",
+      "title": "Eléments de dimensionnement d'ouvrages de traitement des rejets urbains par temps de pluie : Ouvrages combinant stockage et traitement au fil de l'eau",
+      "matched": null
+    },
+    {
+      "key": "P3WFSA4J",
+      "title": "REJETS PLUVIAUX URBAINS: DISTRIBUTION DE LEUR POLLUTION ET EFFICACITE DE BASSINS DE STOCKAGE - DECANTATION : Analyse des données des 4 bassins versants expérimentaux de la campagne nationale de mesures 1980 - 1982 : ANNEXES",
+      "matched": null
+    },
+    {
+      "key": "ZKBIHZ9V",
+      "title": "Protocole de mesure  de la répartition de la pollution par classe de vitesses de chute des solides en suspension dans les effluents urbains de temps de pluie : Analyse bibliographique : Document provisoire",
+      "matched": null
+    },
+    {
       "key": "UJ3LWSVB",
       "title": "COMPARAISON DE MODELES DE TRANSPORT EN SUSPENSION. APPLICATION A DES OUVRAGES DE STOCKAGE-DECANTATION",
+      "matched": null
+    },
+    {
+      "key": "QIDNGGQU",
+      "title": "NOTION DE CHARGE ADMISSIBLE",
+      "matched": null
+    },
+    {
+      "key": "4MBNWPKT",
+      "title": "Styles de vie et prospective : aménagement du temps, de la production et de l'espace",
+      "matched": null
+    },
+    {
+      "key": "JRERRG2G",
+      "title": "Styles de vie et planification",
+      "matched": null
+    },
+    {
+      "key": "D8EM4ZEN",
+      "title": "Efficient resource use patterns for sustainable development : overcoming the maldevelopment crisis",
+      "matched": null
+    },
+    {
+      "key": "EBGDT4LC",
+      "title": "France - Tiers Monde : une nouvelle demande pour les sciences sociales",
+      "matched": null
+    },
+    {
+      "key": "U3ASELZK",
+      "title": "Population, space, energy : preliminary notes for a comparative research project",
+      "matched": null
+    },
+    {
+      "key": "JTRJIAMZ",
+      "title": "Development crises in the North : their implications for long-term UN Strategies",
+      "matched": null
+    },
+    {
+      "key": "YA9QN4WW",
+      "title": "Une idée en marche : l'écodéveloppement",
+      "matched": null
+    },
+    {
+      "key": "J855CE83",
+      "title": "Memorandum on science and technology for environmentally sound development",
+      "matched": null
+    },
+    {
+      "key": "JRXWAE9T",
+      "title": "Le développement local et les sorties de la crise dans la société industrielle",
+      "matched": null
+    },
+    {
+      "key": "VN3H32SX",
+      "title": "Développement, droits humains et citoyennetés",
+      "matched": null
+    },
+    {
+      "key": "EUNKX53A",
+      "title": "Activities related to ecodevelopment program",
+      "matched": null
+    },
+    {
+      "key": "7XWU63SH",
+      "title": "La crise actuelle et les structures de consommation",
       "matched": null
     },
     {
@@ -312,14 +3855,269 @@
       "matched": null
     },
     {
+      "key": "4BADF7QW",
+      "title": "Ecodéveloppement : concept, application, enejux",
+      "matched": null
+    },
+    {
+      "key": "JMLBAYTC",
+      "title": "Note sur l'étude du CERNA 'Imapct de différents instruments économiques sur l'exploitation des gisements d'économie d'énergie dans l'industrie française\" - P.N.Giraud et B. Simon",
+      "matched": null
+    },
+    {
+      "key": "82QKXA46",
+      "title": "La crise, le progrès technique et l'économie cachée",
+      "matched": null
+    },
+    {
+      "key": "DKGW6Y4E",
+      "title": "Développement ou maldéveloppement ? plaidoyer pour une économie qualitative",
+      "matched": null
+    },
+    {
+      "key": "WNM2CLAE",
+      "title": "La ville et son profil énergétique",
+      "matched": null
+    },
+    {
+      "key": "MXYAJ3IS",
+      "title": "Bioconversion de la energia solar y aprovechamiento de los recursos renovables : hacia una nueva civilizacion industrial en los tropicas",
+      "matched": null
+    },
+    {
+      "key": "QHAWE27N",
+      "title": "Acculturazione",
+      "matched": null
+    },
+    {
+      "key": "AIHBPRIZ",
+      "title": "L'électronucléaire : solution définitive ou stratégie de soudure ?",
+      "matched": null
+    },
+    {
+      "key": "PHDB6IAH",
+      "title": "Quelques hypothèses sur les facteurs exogènes pouvant affecter la prospective de la forêt française",
+      "matched": null
+    },
+    {
+      "key": "4CCDBLEH",
+      "title": "Styles de vie, temps disponible et surplus économique : éléments d'une théorie de consommation généralisée",
+      "matched": null
+    },
+    {
+      "key": "D5H5GG59",
+      "title": "Styles de développement et environnement : essai d'approche systémique",
+      "matched": null
+    },
+    {
+      "key": "GZQ7BLP4",
+      "title": "Social values and technology choice in an international context",
+      "matched": null
+    },
+    {
+      "key": "J2T7Y2CW",
+      "title": "Le développement en tant qu'appropriation des droits de l'homme",
+      "matched": null
+    },
+    {
       "key": "UE4QKLR5",
       "title": "Learning political economy with Michal Kalecki",
+      "matched": null
+    },
+    {
+      "key": "278SFCWB",
+      "title": "Social sustainability and whole development",
+      "matched": null
+    },
+    {
+      "key": "VPTMTRKG",
+      "title": "Deux réflexions sur l'équité des entreprises",
+      "matched": null
+    },
+    {
+      "key": "92V4Y8RN",
+      "title": "Brazil and India : two 'whales' in the global ocean",
+      "matched": null
+    },
+    {
+      "key": "GKIBQSE5",
+      "title": "Vers une régulation démocratique des 'économies mixtes'",
+      "matched": null
+    },
+    {
+      "key": "8GGHT3LA",
+      "title": "Comment agir contre la 'tiers mondialisation' du monde ?",
+      "matched": null
+    },
+    {
+      "key": "MN5DZK8J",
+      "title": "Sustainable development : an indian perspective",
+      "matched": null
+    },
+    {
+      "key": "ZAHFA7YD",
+      "title": "L'Amazonie : quel développement ?",
+      "matched": null
+    },
+    {
+      "key": "3H2WQCTW",
+      "title": "Le climat est-il une marchandise ?",
+      "matched": null
+    },
+    {
+      "key": "FU7DRGHX",
+      "title": "The challenge of development : a prospective view",
+      "matched": null
+    },
+    {
+      "key": "NL4EDB7S",
+      "title": "Les notes de lecture d'Ignacy Sachs",
+      "matched": null
+    },
+    {
+      "key": "VBWYMGMS",
+      "title": "L'environnement et les transports urbains",
+      "matched": null
+    },
+    {
+      "key": "XGIKNTQM",
+      "title": "Le Brésil en mal d'un projet",
+      "matched": null
+    },
+    {
+      "key": "N8IFQILB",
+      "title": "For whom the Pandora box ? Biotechnology and agro-industrial development",
       "matched": null
     },
     {
       "key": "DMTICJZD",
       "title": "De la co-réflexion au co-développement",
       "matched": null
+    },
+    {
+      "key": "WINM9HZI",
+      "title": "L'imagination et le savoir : le développement selon Celso Furtado",
+      "matched": null
+    },
+    {
+      "key": "WFHMAI46",
+      "title": "The state and the social partners : towards a development compact",
+      "matched": null
+    },
+    {
+      "key": "9L76DXXD",
+      "title": "Un autre développement : quelle solution à la crise ?",
+      "matched": null
+    },
+    {
+      "key": "64ASC6ZZ",
+      "title": "How do we get there ? Transition strategies towards another development",
+      "matched": null
+    },
+    {
+      "key": "FHFGVT4L",
+      "title": "Energy, food, ecodevelopment",
+      "matched": null
+    },
+    {
+      "key": "3SN6WTKG",
+      "title": "Prise de conscience écologique et choix de techniques appropriées",
+      "matched": null
+    },
+    {
+      "key": "SKLXIG8L",
+      "title": "Le potentiel de développement endogène",
+      "matched": null
+    },
+    {
+      "key": "GGPYT8AM",
+      "title": "Controlling technology for development",
+      "matched": null
+    },
+    {
+      "key": "5H9CCNYY",
+      "title": "The challenge of development : a prospective view",
+      "matched": null
+    },
+    {
+      "key": "C2YLFBMY",
+      "title": "Le climat au risque de la négociation internationale",
+      "matched": {
+        "halId": "hal-00547774",
+        "title_sim": 0.833
+      },
+      "diff": {
+        "halId": "hal-00547774",
+        "add": {},
+        "differ": {
+          "pages": [
+            "136–145",
+            "p1-7"
+          ],
+          "date": [
+            "2001",
+            "2000"
+          ]
+        }
+      }
+    },
+    {
+      "key": "PQIGHQJR",
+      "title": "Implementing greenhouse gas trading in Europe: lessons from economic literature and international experiences",
+      "matched": {
+        "halId": "halshs-00007264",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "halshs-00007264",
+        "add": {
+          "DOI": "10.1016/S0921-8009(02)00213-6"
+        },
+        "differ": {
+          "pages": [
+            "213–230",
+            "213-230"
+          ]
+        }
+      }
+    },
+    {
+      "key": "INCBDSWS",
+      "title": "Dans le labyrinthe de verre. La négociation sur l'effet de serre",
+      "matched": {
+        "halId": "halshs-00007691",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "halshs-00007691",
+        "add": {},
+        "differ": {
+          "pages": [
+            "143–158",
+            "143-158"
+          ]
+        }
+      }
+    },
+    {
+      "key": "MAU49Z23",
+      "title": "Optimal control models and elicitation of attitudes towards climate damages",
+      "matched": {
+        "halId": "halshs-00000966",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "halshs-00000966",
+        "add": {
+          "DOI": "10.1023/A:1025586922143"
+        },
+        "differ": {
+          "pages": [
+            "133–147",
+            "133-147"
+          ]
+        }
+      }
     },
     {
       "key": "69BSN3R7",
@@ -335,6 +4133,71 @@
           "pages": [
             "93–113",
             "93"
+          ]
+        }
+      }
+    },
+    {
+      "key": "CE4JJNVD",
+      "title": "Hybrid Modeling: New Answers to Old Challenges Introduction to the Special Issue of\" The Energy Journal\"",
+      "matched": {
+        "halId": "hal-00716778",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00716778",
+        "add": {
+          "volume": "NC"
+        },
+        "differ": {
+          "pages": [
+            "1–12",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "key": "Y7EMI7W6",
+      "title": "The social efficiency of instruments for the promotion of renewable energies in the liberalised power industry",
+      "matched": {
+        "halId": "hal-00716383",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00716383",
+        "add": {
+          "DOI": "10.1111/j.1467-8292.2006.00308.x"
+        },
+        "differ": {
+          "pages": [
+            "309–343",
+            "309"
+          ]
+        }
+      }
+    },
+    {
+      "key": "BDEZFM5U",
+      "title": "L’effet de serre: des bons et mauvais usages d’une provocation",
+      "matched": null
+    },
+    {
+      "key": "W7JAGF2D",
+      "title": "Trade-offs and synergies in urban climate policies",
+      "matched": {
+        "halId": "hal-00716121",
+        "title_sim": 1.0
+      },
+      "diff": {
+        "halId": "hal-00716121",
+        "add": {
+          "DOI": "10.1038/NCLIMATE1434"
+        },
+        "differ": {
+          "pages": [
+            "334–337",
+            "334-337"
           ]
         }
       }
