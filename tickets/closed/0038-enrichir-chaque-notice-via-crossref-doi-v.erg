@@ -2,11 +2,13 @@
 Title: Enrichir chaque notice via Crossref (DOI + vérif métadonnées)
 Created: 2026-06-24
 Author: Minh Ha-Duong
+Closed: autoclosed — PR #43
 
 --- log ---
 2026-06-24T00:00Z Minh Ha-Duong created
 2026-06-24T00:00Z claude note Famille d'enrichissement avec [[0022]] (HAL), [[0023]] (OpenAlex) et [[0024]] (Google) ; même harnais. Crossref est l'autorité sur les DOI des éditeurs — complémentaire à HAL (dépôts) et OpenAlex (couverture large). Bénéficie de [[0021]].
 
+2026-06-24T09:45Z Minh Ha-Duong closed — autoclosed — PR #43
 --- body ---
 ## Context
 
