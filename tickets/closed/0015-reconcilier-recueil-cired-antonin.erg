@@ -2,6 +2,7 @@
 Title: Réconcilier le groupe Recueil_CIRED (corrections métadonnées d'Antonin)
 Created: 2026-06-19
 Author: Minh Ha-Duong
+Closed: autoclosed — PR #42
 
 --- log ---
 2026-06-19T13:00Z claude created
@@ -12,6 +13,7 @@ Author: Minh Ha-Duong
 2026-06-24T04:06Z Minh Ha-Duong note blocker 0025 closed — Blocked-by removed.
 2026-06-24T06:37Z Minh Ha-Duong note blocker 0019 closed — Blocked-by removed.
 2026-06-24T11:10Z Minh Ha-Duong note Dernier blocker 0018 fermé. Volet recueil complet : miroir des 131 prouvé zéro-perte (0025, double voie bijection + audit champ-à-champ), corrections d'Antonin propagées et publications distinctes liées (0019), 18 docs nouveaux ingérés avec DOI Crossref/HAL + métadonnées grises depuis les PDF (0018), 8 meilleurs scans tranchés (2 fichiers conservés, principal/copie marqués). Tracker clos.
+2026-06-24T08:16Z Minh Ha-Duong closed — autoclosed — PR #42
 --- body ---
 ## Tracker — scindé le 2026-06-22
 
