@@ -2,11 +2,13 @@
 Title: Déplacer le détail catalogue/recueil hors de ## Status (régénéré par refresh-STATE.py) vers une section éditée à la main
 Created: 2026-06-23
 Author: Minh Ha-Duong
+Closed: autoclosed — PR #49
 
 --- log ---
 2026-06-23T09:50Z Minh Ha-Duong created
 2026-06-23T09:50Z claude note Issu de /lair : refresh-STATE.py réparé (0027) régénère un ## Status minimal qui écrase le détail écrit à la main.
 
+2026-06-24T09:41Z Minh Ha-Duong closed — autoclosed — PR #49
 --- body ---
 ## Contexte
 
