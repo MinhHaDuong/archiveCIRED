@@ -2,11 +2,13 @@
 Title: Propager les corrections métadonnées du recueil (matcher flou + revue humaine)
 Created: 2026-06-22
 Author: Minh Ha-Duong
+Closed: autoclosed — PR #37
 
 --- log ---
 2026-06-22T18:08Z Minh Ha-Duong created
 2026-06-22T18:08Z claude note Enfant de 0015 (tracker). Remplace la dépendance « table d'Antonin » par un appariement flou + revue humaine du diff. Couverture partielle assumée.
-
+2026-06-24T08:40Z Minh Ha-Duong note Revue humaine faite sur le diff live ré-exécuté (131 paires, 17 avec diff). Après neutralisation du bruit de format (préfixes vol./n°/p., traits d'union de prénoms, formats de date), 3 paires substantielles seulement : (1) Z83SYUK5 « Eléments gestion eau » — vraie perte : ajouté Godard Olivier + Hourcade Jean-Charles (contributors) côté perso, saisie UI, vérifié. (2) C2AKFA8J↔DIRW5XW5 — PAS une correction : diff_recueil avait mal apparié l'article 1984 au chapitre 1986 ; le chapitre a déjà sa propre notice DIRW5XW5 (complète). Deux publications distinctes du même fond → LIÉES (relation Connexe dc:relation, src/relate_zotero_items.py --apply, backup outputs/relate_decentralisation_backup.json), pas fusionnées. (3) WCI9YSD4 — aucune action (perso plus riche). Reste = bruit de format, couverture partielle assumée. Propagation sens unique respectée.
+2026-06-24T06:37Z Minh Ha-Duong closed — autoclosed — PR #37
 --- body ---
 ## Context
 
@@ -54,8 +56,10 @@ fondé sur le matcher flou, avec revue humaine.
    corrigés : pages (13), creators (13), volume (9), title (9), issue (8),
    publicationTitle (7). Corrections vérifiées de bonne qualité (ex. revue mal
    orthographiée corrigée, « 22 p. » → « 417-438 », journal vide renseigné).
-3. [ ] **Revue humaine** du rapport, puis propager groupe → perso (dry-run par
-   défaut ; `--apply` exige `--backup`).
+3. [x] **Revue humaine** du rapport, puis propager groupe → perso (dry-run par
+   défaut ; `--apply` exige `--backup`). 3 paires substantielles : 1 correction
+   d'auteurs (Z83SYUK5), 1 lien entre publications distinctes (C2AKFA8J↔DIRW5XW5),
+   1 sans action. Reste = bruit de format (couverture partielle assumée).
 
 ## Test
 
@@ -65,7 +69,7 @@ fondé sur le matcher flou, avec revue humaine.
 
 - [x] Logique de diff des champs, pure et testée (`src/diff_recueil.py`)
 - [x] Rapport d'appariement + diff sur données réelles (`recueil_corrections_report.json`)
-- [ ] Corrections propagées après revue humaine, aucune perdue, sens unique
+- [x] Corrections propagées après revue humaine, aucune perdue, sens unique
 
 ## Invariants
 
@@ -75,5 +79,5 @@ fondé sur le matcher flou, avec revue humaine.
 
 ## Exit criteria
 
-- [ ] Corrections d'Antonin (paires sûres) importées dans My Library
-- [ ] `make check` passe
+- [x] Corrections d'Antonin (paires sûres) importées dans My Library
+- [x] `make check` passe
