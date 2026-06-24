@@ -82,6 +82,12 @@ outputs/openalex_report.json outputs/openalex_report.md outputs/openalex_correct
 		--output outputs/openalex_report.json \
 		--corrections outputs/openalex_corrections.json
 
+# Enrichissement via Crossref (ticket 0038) : DOI + métadonnées pour chaque
+# notice My Library — réseau Zotero + Crossref, lecture seule, hors `make check`.
+# Produit rapport + ledger pour apply_corrections.py.
+outputs/crossref_enrichment_report.json outputs/crossref_enrichment_report.md outputs/crossref_corrections.json: src/enrich_crossref.py src/reconcile_zotero.py src/match_untyped.py
+	uv run python src/enrich_crossref.py --mailto minh.haduong@gmail.com
+
 check-fast:
 	uv run pytest -m "not integration and not slow" tests/
 
