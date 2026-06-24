@@ -1,0 +1,144 @@
+[
+  {
+    "key": "DHPWE36E",
+    "version": 7920,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/DHPWE36E",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/DHPWE36E",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "parsedDate": "2007",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "DHPWE36E",
+      "version": 7920,
+      "itemType": "report",
+      "title": "Differentiation and dynamics of EU ETS industrial competitiveness impacts",
+      "creators": [],
+      "abstractNote": "",
+      "reportNumber": "",
+      "reportType": "",
+      "institution": "",
+      "place": "",
+      "date": "2007",
+      "seriesTitle": "",
+      "seriesNumber": "",
+      "pages": "",
+      "DOI": "",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/attente/%C3%A0%20d%C3%A9doublonner%20avec%20ce%20qui%20est%20d%C3%A9j%C3%A0%20trait%C3%A9/2007-138-Hourcade-Demailly-Neuhoff-Sato-Grubb-Matthes-Graichen-Differentiation%20and%20dynamics%20of%20EU%20ETS%20industrial%20competitiveness%20impacts-%20Climate%20Strategies%20Report.pdf",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "Climate Strategies Report",
+      "tags": [
+        {
+          "tag": "recueil-50ans-ajout-0018"
+        },
+        {
+          "tag": "à-vérifier"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2026-06-24T07:28:37Z",
+      "dateModified": "2026-06-24T07:28:37Z"
+    }
+  },
+  {
+    "key": "BGKSJQJQ",
+    "version": 7921,
+    "library": {
+      "type": "user",
+      "id": 2114597,
+      "name": "Base R2DS",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/base_r2ds",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/2114597/items/BGKSJQJQ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/base_r2ds/items/BGKSJQJQ",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "parsedDate": "2013",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "BGKSJQJQ",
+      "version": 7921,
+      "itemType": "report",
+      "title": "Effet net sur l'emploi de la transition énergétique en France : une analyse input-output du scénario négaWatt",
+      "creators": [],
+      "abstractNote": "",
+      "reportNumber": "",
+      "reportType": "",
+      "institution": "CIRED",
+      "place": "",
+      "date": "2013",
+      "seriesTitle": "",
+      "seriesNumber": "",
+      "pages": "",
+      "DOI": "",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://inari.centre-cired.fr/kCj0pHP0-CIRED_numerisation/zotero/www/attente/%C3%A0%20d%C3%A9doublonner%20avec%20ce%20qui%20est%20d%C3%A9j%C3%A0%20trait%C3%A9/2013-162-Quirion-Effet-net-sur-emploirderlartransition-energetiqueeeneFrance-Une-analyse-input-output-du-scenario-negaWatt-WP-Cired.pdf",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "Working Paper CIRED",
+      "tags": [
+        {
+          "tag": "recueil-50ans-ajout-0018"
+        },
+        {
+          "tag": "à-vérifier"
+        }
+      ],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2026-06-24T07:28:37Z",
+      "dateModified": "2026-06-24T07:28:37Z"
+    }
+  }
+]

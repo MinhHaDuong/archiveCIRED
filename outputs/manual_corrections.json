@@ -62,5 +62,45 @@
     "note": "Confirme la proposition d'Antonin (recueil row 33/34). extra valait 'ok' (parasite) → remplacé par l'id HAL. 2e passe (décisions M. Ha-Duong) : pas de publisher (journalArticle) ; ISSN 0337-307X vérifié OpenAlex (1440 works).",
     "hal_verified": "HAL hal-00624329 confirme : Olivier Godard, Futuribles n°209, pp 29-35, 1996-05-01.",
     "applied": true
+  },
+  {
+    "key": "DHPWE36E",
+    "ref": "Differentiation and dynamics of EU ETS competitiveness impacts (Climate Strategies, 2007)",
+    "source": "PDF 2007-138 pp.1-2 (page de garde + Contributing Authors)",
+    "set": {
+      "title": "Differentiation and dynamics of EU ETS competitiveness impacts",
+      "creators": [
+        {"creatorType": "author", "lastName": "Hourcade", "firstName": "Jean-Charles"},
+        {"creatorType": "author", "lastName": "Demailly", "firstName": "Damien"},
+        {"creatorType": "author", "lastName": "Neuhoff", "firstName": "Karsten"},
+        {"creatorType": "author", "lastName": "Sato", "firstName": "Misato"},
+        {"creatorType": "author", "lastName": "Grubb", "firstName": "Michael"}
+      ],
+      "date": "2007-03-30",
+      "institution": "Climate Strategies",
+      "reportType": "Interim Report",
+      "seriesTitle": "Research Theme 1.3",
+      "language": "en"
+    },
+    "note": "Page de garde : « Research Theme 1.3, Interim Report, 30 March 2007 ». Contributing Authors (5) : Demailly (CIRED), Grubb (Cambridge EPRG), Hourcade (CIRED), Neuhoff (Cambridge), Sato (Cambridge). Matthes & Graichen, dans le nom de fichier, n'apparaissent PAS sur la garde de ce Thème 1.3 — non retenus.",
+    "applied": true
+  },
+  {
+    "key": "BGKSJQJQ",
+    "ref": "Quirion — L'effet net sur l'emploi de la transition énergétique (CIRED WP 46-2013)",
+    "source": "PDF 2013-162 pp.1-2 (page de garde)",
+    "set": {
+      "title": "L'effet net sur l'emploi de la transition énergétique en France : une analyse input-output du scénario négaWatt",
+      "creators": [
+        {"creatorType": "author", "lastName": "Quirion", "firstName": "Philippe"}
+      ],
+      "date": "2013-04",
+      "institution": "CIRED",
+      "seriesTitle": "CIRED Working Papers Series",
+      "reportNumber": "46-2013",
+      "language": "fr"
+    },
+    "note": "Page de garde : « No 46-2013, CIRED Working Papers Series, April 2013 », auteur unique Philippe Quirion.",
+    "applied": true
   }
 ]
