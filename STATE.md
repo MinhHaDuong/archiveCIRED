@@ -1,4 +1,4 @@
-Last updated: 2026-06-23T09:45Z
+Last updated: 2026-06-24T09:21Z
 
 ## North star
 
@@ -8,30 +8,28 @@ structurées (~740 documents). Succès = un chercheur trouve et télécharge n'i
 quelle publication via Zotero, métadonnées correctes. Dépôt HAL différé.
 
 ## Status
-<!-- generated 2026-06-23T09:45Z (à la main : refresh-STATE.py cassé, cf. 0027) -->
-**Tickets:** 10 prêts · 3 bloqués (0015←0018+0019+0025, 0024←0022+0023, 0030←0037) · 0037 needs-human (compte ENPC) · 4 différés (0003/0005/0006/0007) — `erg ready tickets/`
-**Catalogue:** base dédupliquée **686** notices ; recueil 50 ans d'Antonin **miroité** dans la collection « Recueil 50 ans CIRED » (key VPDB49CK, **131 items**) + tag `recueil-50ans`. Règle : apparier par **id, jamais par titre**.
-**Index:** file_index 1991 fichiers (0010) · doc_index 1112 docs (0011) · CI make check (0012) · 81 tests passent.
+<!-- generated 2026-06-24T09:21Z -->
+
+**Tickets:** 6 ready · 13 blocked — `erg ready tickets/` for full list
 **Recent commits:**
-  b5dcbbc Encoder les arêtes du DAG de tickets (Blocked-by)
-  885b282 Ticket 0026 (durcir match_untyped) + 0006 deferred de explore-prs
-  6983a55 Migrer les tickets legacy Tag: → Label: (erg migrate)
-  dfe1ef2 Ticket 0025 : recadrer l'audit « aucune perte d'information »
-  2f6caff Ticket 0019 : cartographie des 131 notices du groupe (miroir)
+  7718889 ticket(0026): close and archive — PR #48
+  abfc3cc ticket(0026): ajouter test_ruff manquant dans test_match_untyped.py
+  6e3a0cd ticket(0026): exiger corroboration auteur/année pour accroche pure-containment
+  03bc563 Merge pull request #44 from MinhHaDuong/enrich-hal-0022
+  883dd7a ticket(0022): harnais d'enrichissement HAL (phase rapport)
+
+## Catalogue & index
+
+**Catalogue :** base dédupliquée **686** notices ; collection « Recueil 50 ans CIRED »
+(key VPDB49CK, **131 items**) + tag `recueil-50ans`. Règle : apparier par **id, jamais par titre**.
+**Index :** file_index 1991 fichiers (0010) · doc_index 1112 docs (0011) · CI make check (0012).
 
 ## Chemin à suivre
 
-1. **0025** — audit zéro-perte (lecture seule, exécutable maintenant). Vert ⇒
-   groupe `Recueil_CIRED` supprimable ; avec 0018+0019 ferme le tracker 0015.
-2. **0021** (normaliser auteurs) → swarms **0022**/**0023** (HAL/OpenAlex),
-   **0024** en filet après. Mêmes notices : ≤8 agents, écritures revues.
-3. Indépendant : **0020** (fonds Sachs). Opportuniste : **0026** (durcir matcher).
+1. **0021** (normaliser auteurs) → swarms **0022**/**0023** (HAL/OpenAlex), **0024** en filet.
+2. Indépendant : **0020** (fonds Sachs).
 
 ## Notes
 
-- **Autonomie PDF : 15 PDF réels / 764** ; 668 stubs sans fichier, mais **inari
-  sert les 668 (HTTP 200)** → intérim = liens inari. Verser les 17,5 Go (0030) est
-  **bloqué stockage** : compte perso ≠ quota ENPC → migration compte ENPC (0037).
-- Recueil miroité mais **non vérifié** : ne pas supprimer le groupe avant 0025 vert.
-  Le groupe a **0 attachement** ⇒ aucune perte de fichier ; 0025 = audit métadonnées.
-- Binaire committé `tickets/erg` obsolète (casse refresh-STATE.py) → 0027.
+- **Autonomie PDF :** 668 stubs sans fichier attaché — inari sert les liens (HTTP 200)
+  en intérim. Verser les 17,5 Go (0030) bloqué stockage : compte ENPC (0037).
