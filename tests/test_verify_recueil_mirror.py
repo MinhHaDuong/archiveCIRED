@@ -61,6 +61,16 @@ def test_metadata_missing_no_numeric_substring_false_cover():
     assert vm.metadata_missing({"pages": "29-35"}, {"pages": "pp. 29-35"}) == []
 
 
+def test_metadata_missing_ignores_typographic_labels():
+    # Les étiquettes d'énumération (« vol. », « n° », « p. ») ne sont pas de
+    # l'information : la version propre côté lib couvre la version préfixée du recueil.
+    g = {"volume": "vol. 34", "issue": "n°1", "pages": "p. 137-151"}
+    lib = {"volume": "34", "issue": "1", "pages": "137-151"}
+    assert vm.metadata_missing(g, lib) == []
+    # symétrique : « 31 p. » couvert par « 31 »
+    assert vm.metadata_missing({"pages": "31 p."}, {"pages": "31"}) == []
+
+
 # --- assess_item : les trois niveaux de préservation -------------------------
 
 def _enrich(items):

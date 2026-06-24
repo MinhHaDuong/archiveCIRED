@@ -13,6 +13,7 @@ Author: Minh Ha-Duong
 2026-06-23T15:40Z claude note Action 4 FAITE : 14 attachements linked_url créés sur les notices My Library (src/reconcile_recueil_urls.py --apply, backup outputs/recueil_urls_reconcile_backup.json). L'URL recueil de chaque fichier distinct est désormais rattachée à My Library — donc préservée après suppression du groupe (les fichiers inari sont hébergés hors du groupe Zotero). Idempotent (re-run : 0 à faire). Aucune copie supprimée. Toutes les pertes connues (notes + 8 notices + 14 URL) sont couvertes ; reste la décision humaine go/no-go sur 0025.
 2026-06-23T17:30Z claude note Convention 2e URL revue (M. Ha-Duong) : un attachement n'apparaît pas à l'export → la 2e URL va dans le champ Extra. Les 14 migrés attachement→Extra (src/migrate_attach_to_extra.py). Les 5 copies #27 (faux no_match) supprimées définitivement (src/delete_recueil_dup_copies.py), originales conservées avec leurs 2 URL ; collection ramenée à 131 ↔ groupe. Audit corrigé pour lire Extra (sinon faux NO-GO).
 2026-06-24T04:06Z Minh Ha-Duong note blocker 0025 closed — Blocked-by removed.
+2026-06-24T04:30Z claude note Vérification finale : audit ré-exécuté → 2 faux NO-GO (EW7ENHB4, IJNE9FV7) reason metadata_incomplete. Diagnostic : pas de vraie perte — My Library a déjà l'info en version PROPRE (« 34 », « 1 », « 137-151 ») contre la version préfixée du recueil (« vol. 34 », « n°1 », « p. 137-151 »). metadata_missing faisait une égalité de tokens stricte : « vol » ∈ groupe ∉ lib → faux positif. Appliquer le PATCH aurait DÉGRADÉ les valeurs propres. Correctif dans l'audit, pas dans Zotero : metadata_missing neutralise les étiquettes typographiques (vol/n/p/pp…) et traite « ° » en séparateur (sinon « n°1 » colle en « n1 »). Test test_metadata_missing_ignores_typographic_labels. Aucune écriture Zotero. Audit re-vérifié → GO, 0 perte (90 url_preserved + 41 doc_equivalent = 131). make check : 140 passed.
 --- body ---
 ## Context
 
@@ -74,8 +75,8 @@ restent hors scope.
   note).
 
 ## Verification
-- [ ] `make outputs/verify_recueil_mirror_report.md` → verdict GO
-- [ ] Sauvegarde Zotero prise avant toute écriture (`--backup`)
+- [x] `make outputs/verify_recueil_mirror_report.md` → verdict GO (0 perte)
+- [x] Sauvegarde Zotero prise avant toute écriture (`--backup`) — N/A cette manche : aucune écriture (correctif côté audit)
 
 ## Invariants
 - Ne pas toucher l'archive source sur disque.
@@ -86,5 +87,5 @@ restent hors scope.
 - [x] Les 16 notes et 8 notices sont couvertes dans My Library (PR #26, #27)
 - [x] Les 14 fichiers distincts sont réconciliés (URL recueil rattachée à la
       notice My Library, aucune copie supprimée)
-- [ ] L'audit 0025 ré-exécuté rend GO (zéro perte) — y compris les URL distinctes
-- [ ] `make check` passe
+- [x] L'audit 0025 ré-exécuté rend GO (zéro perte) — y compris les URL distinctes
+- [x] `make check` passe
