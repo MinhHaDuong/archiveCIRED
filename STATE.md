@@ -1,4 +1,4 @@
-Last updated: 2026-06-24T11:16Z
+Last updated: 2026-10-31T22:30Z
 
 ## North star
 
@@ -7,16 +7,7 @@ CIRED et ENPC : collection Zotero privée partagée, PDFs attachés, métadonné
 structurées (~740 documents). Succès = un chercheur trouve et télécharge n'importe
 quelle publication via Zotero, métadonnées correctes. Dépôt HAL différé.
 
-## Status
-<!-- generated 2026-06-24T11:16Z -->
-
-**Tickets:** 7 ready · 12 blocked — `erg ready tickets/` for full list
-**Recent commits:**
-  0b71431 ticket(0042): mapping publicationTitle type-naïf dans HAL et OpenAlex
-  9fa8193 Merge pull request #57 from MinhHaDuong/worktree-crossref-enrich
-  6fc4bcb Merge pull request #58 from MinhHaDuong/reopen-t0041
-  63b14ca chore(0041): rouvrir — run enrich_web.py pas encore exécuté
-  a3435b4 outputs(0038): revert 54 notices LEESU — enrichissement Crossref annulé
+Live counts: `erg ready tickets/` · `erg list` · `/dashboard`.
 
 ## Catalogue & index
 
@@ -26,7 +17,7 @@ quelle publication via Zotero, métadonnées correctes. Dépôt HAL différé.
 
 ## Chemin à suivre
 
-1. Enrichissements restants : **0023** (OpenAlex, relancer après reset budget UTC), **0024**/0041 (web, premier run), **0042** (corriger publicationTitle type-naïf dans HAL/OpenAlex).
+1. Enrichissements restants : **0023** (OpenAlex, relancer après reset budget UTC), **0041** (web, premier run), **0042** (corriger publicationTitle type-naïf dans HAL/OpenAlex ; ticket encore dans la PR #59).
 2. Normalisation : **0021** (auteurs).
 3. Indépendant : **0020** (fonds Sachs).
 
