@@ -30,15 +30,17 @@ des notices `bookSection` / `thesis` / `report` reproduira le même incident.
 
 ## Relevant files
 
-- `src/enrich_hal.py:36` — `FIELD_MAP` avec `publicationTitle` inconditional
+- `src/enrich_hal.py:36` — `FIELD_MAP` avec `publicationTitle` sans condition
 - `src/enrich_openalex.py:209-210` — assignation de `publicationTitle` sans garde
 - `src/enrich_crossref.py:140-180` — référence : correctif type-aware déjà en place
 
 ## Actions
 
 1. Dans `enrich_hal.py` : lors de la construction des champs à diffuser, filtrer
-   `publicationTitle` si `notice_data["itemType"]` n'est pas `journalArticle`
-   (ou `conferencePaper` si applicable).
+   `publicationTitle` si `notice_data["itemType"]` n'est pas `journalArticle`.
+   Dans le schéma Zotero, le même champ de base s'appelle `proceedingsTitle`
+   pour `conferencePaper` et `bookTitle` pour `bookSection` : les écrire sous
+   ces noms relève d'un autre ticket.
 2. Dans `enrich_openalex.py` : même garde autour de la ligne 210.
 3. Ajouter un test unitaire dans `tests/test_enrich_hal.py` et
    `tests/test_enrich_openalex.py` qui vérifie qu'une notice `bookSection`
