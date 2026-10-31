@@ -2,10 +2,12 @@
 Title: Read the Archives CIRED folder from DATASETS_DIR
 Created: 2026-10-31
 Author: claude
+Closed: archive path built once in src/archive_path.py from DATASETS_DIR; tests cover unset
 
 --- log ---
 2026-10-31T19:22Z claude created
 
+2026-10-31T20:53Z Minh Ha-Duong closed — archive path built once in src/archive_path.py from DATASETS_DIR; tests cover unset
 --- body ---
 ## Context
 
