@@ -7,6 +7,8 @@ import json
 import logging
 from pathlib import Path
 
+import archive_path
+
 logger = logging.getLogger(__name__)
 
 
@@ -60,8 +62,8 @@ def main() -> None:
     )
     parser.add_argument(
         "--archive-dir",
-        default="/home/haduong/data/datasets/ours/Archives CIRED numerisées",
-        help="Root of the digitized archive",
+        default=None,
+        help="Root of the digitized archive (default: $DATASETS_DIR/ours/Archives CIRED numerisées)",
     )
     parser.add_argument(
         "--output-json",
@@ -85,7 +87,7 @@ def main() -> None:
         format="%(asctime)s %(levelname)s %(message)s",
     )
 
-    archive_root = Path(args.archive_dir)
+    archive_root = Path(args.archive_dir) if args.archive_dir else archive_path.archive_dir()
     records = build_file_index(archive_root)
     write_json(records, Path(args.output_json))
     write_csv(records, Path(args.output_csv))

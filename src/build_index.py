@@ -10,6 +10,8 @@ import subprocess
 import tempfile
 from pathlib import Path
 
+import archive_path
+
 logger = logging.getLogger(__name__)
 
 # ---------------------------------------------------------------------------
@@ -661,7 +663,7 @@ def write_index(entries: list[dict], output_path: Path) -> None:
 # ---------------------------------------------------------------------------
 # Global archive root (needed by enrich_from_cir_sac_txt)
 # ---------------------------------------------------------------------------
-_archive_root: Path = Path("/home/haduong/data/datasets/ours/Archives CIRED numerisées")
+_archive_root: Path | None = None  # set by main() / build_doc_index
 
 
 # ---------------------------------------------------------------------------
@@ -671,8 +673,8 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Build JSON index of CIRED archive.")
     parser.add_argument(
         "--archive-dir",
-        default="/home/haduong/data/datasets/ours/Archives CIRED numerisées",
-        help="Root of the digitized archive",
+        default=None,
+        help="Root of the digitized archive (default: $DATASETS_DIR/ours/Archives CIRED numerisées)",
     )
     parser.add_argument(
         "--output",
@@ -696,7 +698,7 @@ def main() -> None:
         format="%(asctime)s %(levelname)s %(message)s",
     )
 
-    archive_dir = Path(args.archive_dir)
+    archive_dir = Path(args.archive_dir) if args.archive_dir else archive_path.archive_dir()
     docs_dir = archive_dir / "docs"
     dedoublonner_dir = (
         archive_dir / "attente" / "à dédoublonner avec ce qui est déjà traité"

@@ -6,6 +6,8 @@ import logging
 from datetime import datetime, timezone
 from pathlib import Path
 
+import archive_path
+
 
 def hash_pdf(path: Path) -> str:
     return hashlib.sha1(path.read_bytes()).hexdigest()
@@ -42,12 +44,18 @@ def classify_attente(attente_dir: Path, corpus_hashes: dict[str, str]) -> list[d
 
 def main():
     parser = argparse.ArgumentParser(description="Dédoublonner le corpus par SHA1")
-    parser.add_argument("--docs", required=True, type=Path)
-    parser.add_argument("--attente", required=True, type=Path)
+    parser.add_argument("--docs", type=Path, help="default: <archive>/docs")
+    parser.add_argument("--attente", type=Path, help="default: <archive>/attente/à dédoublonner avec ce qui est déjà traité")
     parser.add_argument(
         "--output", default=Path("outputs/dedup_report.json"), type=Path
     )
     args = parser.parse_args()
+    if args.docs is None:
+        args.docs = archive_path.archive_dir() / "docs"
+    if args.attente is None:
+        args.attente = (
+            archive_path.archive_dir() / "attente" / "à dédoublonner avec ce qui est déjà traité"
+        )
 
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
     log = logging.getLogger(__name__)
