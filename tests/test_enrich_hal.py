@@ -3,6 +3,8 @@
 import sys
 from pathlib import Path
 
+import pytest
+
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
 import enrich_hal as eh
@@ -59,6 +61,24 @@ def test_proposed_diff_adds_missing_and_flags_differ():
     assert d["add"]["DOI"] == "10.1/x"
     assert "pages" not in d["add"]  # déjà présent, équivalent
     assert "publicationTitle" not in d["add"]
+
+
+def test_proposed_diff_adds_journal_for_journal_article():
+    notice = {"itemType": "journalArticle", "publicationTitle": ""}
+    d = eh.proposed_diff(notice, {"journalTitle": "Energy Policy", "halId": "h"})
+    assert d["add"]["publicationTitle"] == "Energy Policy"
+
+
+@pytest.mark.parametrize("item_type", ["bookSection", "conferencePaper",
+                                       "thesis", "report"])
+def test_proposed_diff_no_journal_for_non_journal_types(item_type):
+    for pt in ("", "Other Title"):
+        notice = {"itemType": item_type, "publicationTitle": pt}
+        d = eh.proposed_diff(notice, {"journalTitle": "Energy Policy",
+                                      "volume": "3", "halId": "h"})
+        assert "publicationTitle" not in d["add"]
+        assert "publicationTitle" not in d["differ"]
+        assert d["add"]["volume"] == "3"
 
 
 def test_proposed_diff_flags_real_divergence():

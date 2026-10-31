@@ -30,6 +30,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import match_untyped as mu  # noqa: E402  normalize, title_match, _notice_lastnames
 import reconcile_zotero as rz  # noqa: E402
+from zotero_fields import allows_publication_title  # noqa: E402
 
 logger = logging.getLogger("enrich_openalex")
 
@@ -206,7 +207,8 @@ def diff_notice_work(notice_data: dict, raw_work: dict) -> dict:
     if p["doi"] and not doi_normalize(notice_data.get("DOI")):
         fields["DOI"] = p["doi"]
 
-    if p["journal"] and not (notice_data.get("publicationTitle") or "").strip():
+    if (p["journal"] and allows_publication_title(notice_data.get("itemType"))
+            and not (notice_data.get("publicationTitle") or "").strip()):
         fields["publicationTitle"] = p["journal"]
 
     if p["volume"] and not (notice_data.get("volume") or "").strip():

@@ -131,6 +131,7 @@ def test_parse_work_handles_missing_biblio():
 # ── scoring notice ↔ work ─────────────────────────────────────────────────────
 
 NOTICE_HSIANG = {
+    "itemType": "journalArticle",
     "title": "Estimating economic damage from climate change in the United States",
     "creators": [{"lastName": "Hsiang", "creatorType": "author"},
                  {"lastName": "Kopp", "creatorType": "author"}],
@@ -209,6 +210,14 @@ def test_diff_adds_journal_when_missing():
     notice = {**NOTICE_HSIANG, "publicationTitle": ""}
     fields = oa.diff_notice_work(notice, SAMPLE_WORK)
     assert fields.get("publicationTitle") == "Nature"
+
+
+@pytest.mark.parametrize("item_type", ["bookSection", "conferencePaper",
+                                       "thesis", "report"])
+def test_diff_no_journal_for_non_journal_types(item_type):
+    notice = {**NOTICE_HSIANG, "itemType": item_type, "publicationTitle": ""}
+    fields = oa.diff_notice_work(notice, SAMPLE_WORK)
+    assert "publicationTitle" not in fields
 
 
 def test_diff_skips_journal_when_present():

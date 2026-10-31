@@ -17,7 +17,7 @@ Live counts: `erg ready tickets/` · `erg list` · `/dashboard`.
 
 ## Chemin à suivre
 
-1. Enrichissements restants : **0023** (OpenAlex, relancer après reset budget UTC), **0041** (web, premier run), **0042** (corriger publicationTitle type-naïf dans HAL/OpenAlex ; ticket encore dans la PR #59).
+1. Enrichissements restants : **0023** (OpenAlex, relancer après reset budget UTC), **0041** (web, premier run).
 2. Normalisation : **0021** (auteurs).
 3. Indépendant : **0020** (fonds Sachs).
 

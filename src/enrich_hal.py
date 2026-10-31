@@ -24,6 +24,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import reconcile_zotero as rz  # noqa: E402
+from zotero_fields import allows_publication_title  # noqa: E402
 
 logger = logging.getLogger("enrich_hal")
 
@@ -101,6 +102,9 @@ def proposed_diff(notice: dict, hal: dict) -> dict:
     """
     add, differ = {}, {}
     for zf, hf in FIELD_MAP.items():
+        if zf == "publicationTitle" and not allows_publication_title(
+                notice.get("itemType")):
+            continue
         hv = str(hal.get(hf) or "").strip()
         if not hv:
             continue
