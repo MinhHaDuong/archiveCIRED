@@ -2,10 +2,10 @@
 
 ## Données source
 
-L'archive numérisée est à :
-```
-/home/haduong/data/datasets/ours/Archives CIRED numerisées/
-```
+L'archive numérisée est à `$DATASETS_DIR/ours/Archives CIRED numerisées/`.
+Le chemin est construit en un seul endroit, `src/archive_path.py`. Si la session
+n'a pas chargé `DATASETS_DIR`, il est lu dans `~/.config/environment.d/50-datasets.conf`.
+Ne jamais écrire le chemin en dur.
 
 Structure :
 - `docs/` — corpus principal (articles, rapports, chapitres, thèses, WP), 1970–2013
