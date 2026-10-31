@@ -10,6 +10,7 @@ from collections import defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
+import archive_path
 import build_index  # for enrichment functions — set build_index._archive_root before calling
 
 logger = logging.getLogger(__name__)
@@ -353,8 +354,8 @@ def main() -> None:
     )
     parser.add_argument(
         "--archive-dir",
-        default="/home/haduong/data/datasets/ours/Archives CIRED numerisées",
-        help="Root of the digitized archive",
+        default=None,
+        help="Root of the digitized archive (default: $DATASETS_DIR/ours/Archives CIRED numerisées)",
     )
     parser.add_argument(
         "--file-index",
@@ -383,7 +384,7 @@ def main() -> None:
         format="%(asctime)s %(levelname)s %(message)s",
     )
 
-    archive_root = Path(args.archive_dir)
+    archive_root = Path(args.archive_dir) if args.archive_dir else archive_path.archive_dir()
 
     # Set global ONCE before any enrichment
     build_index._archive_root = archive_root

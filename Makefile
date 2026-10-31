@@ -1,25 +1,20 @@
-ARCHIVE ?= /home/haduong/data/datasets/ours/Archives CIRED numerisées
-
+# Archive path: src/archive_path.py ($DATASETS_DIR/ours/Archives CIRED numerisées);
+# scripts resolve it themselves, pass --archive-dir only to override.
 .PHONY: check check-fast
 
 outputs/attic/dedup_report.json: src/dedup.py
-	uv run python src/dedup.py \
-		--docs "$(ARCHIVE)/docs" \
-		--attente "$(ARCHIVE)/attente/à dédoublonner avec ce qui est déjà traité" \
-		--output outputs/attic/dedup_report.json
+	uv run python src/dedup.py --output outputs/attic/dedup_report.json
 
 outputs/index.json: src/build_index.py
 	uv run python src/build_index.py --output outputs/index.json --unresolved outputs/attic/unresolved.csv
 
 outputs/file_index.json outputs/file_index.csv: src/build_file_index.py
 	uv run python src/build_file_index.py \
-		--archive-dir "$(ARCHIVE)" \
 		--output-json outputs/file_index.json \
 		--output-csv outputs/file_index.csv
 
 outputs/doc_index.json: src/build_doc_index.py outputs/file_index.json outputs/index.json
 	uv run python src/build_doc_index.py \
-		--archive-dir "$(ARCHIVE)" \
 		--output outputs/doc_index.json
 
 # Réconciliation avec le catalogue Zotero distant — nécessite réseau +
