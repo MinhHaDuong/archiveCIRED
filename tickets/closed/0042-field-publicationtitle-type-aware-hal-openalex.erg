@@ -2,11 +2,13 @@
 Title: Corriger le mapping publicationTitle type-naïf dans enrich_hal et enrich_openalex
 Created: 2026-06-24
 Author: claude
+Closed: tickets/
 
 --- log ---
 2026-06-24T00:00Z claude created — découvert lors du /roar de 0038 (Crossref)
 
 2026-10-31T21:24Z premise corrected: enrich_crossref.py has no itemType guard (follow-up needed); fixed HAL+OpenAlex via src/zotero_fields.py
+2026-10-31T21:25Z Minh Ha-Duong closed — tickets/
 --- body ---
 ## Context
 
