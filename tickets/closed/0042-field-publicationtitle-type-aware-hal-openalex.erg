@@ -2,10 +2,13 @@
 Title: Corriger le mapping publicationTitle type-naïf dans enrich_hal et enrich_openalex
 Created: 2026-06-24
 Author: claude
+Closed: done — PR #67
 
 --- log ---
 2026-06-24T00:00Z claude created — découvert lors du /roar de 0038 (Crossref)
 
+2026-10-31T21:24Z premise corrected: enrich_crossref.py has no itemType guard (follow-up needed); fixed HAL+OpenAlex via src/zotero_fields.py
+2026-10-31T21:25Z Minh Ha-Duong closed — tickets/
 --- body ---
 ## Context
 
@@ -13,9 +16,12 @@ Author: claude
 d'écrire `publicationTitle` sur des notices de type `bookSection`, `thesis` et
 `report`. Zotero refuse ce champ pour ces types.
 
-Le correctif a été intégré dans `enrich_crossref.py` (filtrage par `itemType`
-avant de construire le diff). Le même anti-patron existe dans les deux autres
-scripts d'enrichissement :
+[Correction 2026-10-31 : contrairement à ce qui était écrit ici, `enrich_crossref.py`
+n'a PAS de filtrage par `itemType` (même mapping naïf, ligne 160) ; il reste à
+corriger, hors périmètre de ce ticket. La garde partagée est dans
+`src/zotero_fields.py`.]
+
+Le même anti-patron existe dans les scripts d'enrichissement :
 
 - `src/enrich_hal.py` : `FIELD_MAP` ligne 36 mappe `publicationTitle` pour tous
   les types, y compris `bookSection` et `conferencePaper`.
@@ -32,7 +38,7 @@ des notices `bookSection` / `thesis` / `report` reproduira le même incident.
 
 - `src/enrich_hal.py:36` — `FIELD_MAP` avec `publicationTitle` sans condition
 - `src/enrich_openalex.py:209-210` — assignation de `publicationTitle` sans garde
-- `src/enrich_crossref.py:140-180` — référence : correctif type-aware déjà en place
+- `src/enrich_crossref.py:160` — PAS de correctif (correction : voir Context) ; hors périmètre
 
 ## Actions
 
