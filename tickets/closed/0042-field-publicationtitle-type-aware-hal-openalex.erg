@@ -2,7 +2,7 @@
 Title: Corriger le mapping publicationTitle type-naïf dans enrich_hal et enrich_openalex
 Created: 2026-06-24
 Author: claude
-Closed: tickets/
+Closed: done — PR #67
 
 --- log ---
 2026-06-24T00:00Z claude created — découvert lors du /roar de 0038 (Crossref)
