@@ -1,0 +1,25 @@
+%erg 0.1
+Title: Read the Archives CIRED folder from DATASETS_DIR
+Created: 2026-10-31
+Author: claude
+
+--- log ---
+2026-10-31T19:22Z claude created
+
+--- body ---
+## Context
+
+Host convention (author ruling 2026-10-31, harness tracker 1401): data locations are declared per host in `~/.config/environment.d/50-datasets.conf`, organised by lifecycle (explained in `/data/README.md` on padme and `~/data/README.md` on doudou):
+- `DATASETS_DIR`: padme `/data/datasets`, doudou `/home/haduong/data/datasets`; `ours/` (data we produce) and `external/` (third-party, frozen) below it
+- `MIRRORS_DIR`: padme `/data/mirrors` only (live replicas such as RePEc); deliberately unset on doudou, where the RePEc mirror was removed 2026-10-31
+Code reads the variable, falls back to parsing that file when the session did not load it (plain ssh), and fails with a clear message when unset. Never hardcode the path.
+
+A read-only sweep (2026-10-31) found the archive path hardcoded in five places:
+`Makefile:1` (`ARCHIVE ?= /home/haduong/data/datasets/ours/Archives CIRED numerisées`),
+`src/build_doc_index.py:356`, `src/build_file_index.py:63`, `src/build_index.py:664,674`.
+
+## Exit criteria
+
+- [ ] The archive path is `$DATASETS_DIR/ours/Archives CIRED numerisées` in one place (Makefile or one module constant), every script reads it
+- [ ] Unset `DATASETS_DIR` stops with a clear message; test covers it
+- [ ] No literal `/home/haduong/data` left in code or Makefile
