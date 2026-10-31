@@ -1,0 +1,26 @@
+%erg 0.1
+Title: Garde publicationTitle par itemType dans enrich_crossref
+Created: 2026-10-31
+Author: Minh Ha-Duong
+
+--- log ---
+2026-10-31T21:27Z Minh Ha-Duong created
+
+--- body ---
+
+## Context
+
+Ticket 0042 (PR #67) made `enrich_hal.py` and `enrich_openalex.py` skip
+`publicationTitle` outside `journalArticle`, through `src/zotero_fields.py`.
+The raid found that `enrich_crossref.py` has the same naive mapping: its
+`diff_fields` (`("journal", "publicationTitle")`, ~line 160) never reads
+`itemType`. Ticket 0042 assumed a fix was already there; there is none. Zotero
+rejects the field with HTTP 400 on `bookSection`, `conferencePaper`, `thesis`
+and `report`.
+
+## Exit criteria
+
+- [ ] `enrich_crossref.diff_fields` proposes `publicationTitle` only when
+      `zotero_fields.allows_publication_title(itemType)` is true
+- [ ] Tests: `bookSection` (and other non-journal types) get no
+      `publicationTitle`; `journalArticle` still does
