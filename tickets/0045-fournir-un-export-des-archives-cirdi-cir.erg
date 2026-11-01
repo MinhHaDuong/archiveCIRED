@@ -1,0 +1,31 @@
+%erg 0.1
+Title: Fournir un export des archives à Cirdi (cired.digital)
+Created: 2026-11-01
+Author: MinhHaDuong
+
+--- log ---
+2026-11-01T13:06Z MinhHaDuong created
+
+--- body ---
+## Contexte
+Demande de l'auteur, 2026-11-01, côté cired.digital (Cirdi, l'assistant RAG
+sur les publications du CIRED) : ajouter les archives du CIRED (1970-2013)
+à la collection indexée. Ticket demandeur : CIRED/cired.digital
+tickets/0015 (« Add the CIRED Archives (1970-2013) to the collection »).
+Canal inter-projets : ce ticket, pas une modification depuis cired.digital.
+
+## Ce qui est attendu d'ici
+- Le périmètre que les droits permettent d'indexer et de citer. Le groupe
+  Zotero est privé pour éviter le tri des droits document par document ;
+  Cirdi envisage de devenir un service interne au CIRED (cired.digital
+  ticket 0013), ce qui peut changer ce qui est acceptable.
+- Un export : métadonnées (identifiants : clé Zotero, id HAL, DOI ; titre,
+  auteurs, année, fonds) et PDF, depuis doc_index.json ou le groupe Zotero.
+  Appariement par identifiant, jamais par titre (règle du projet).
+- Une indication des documents sans texte exploitable (scans à passer en
+  OCR).
+
+## Critères de sortie
+- [ ] Périmètre de droits décidé et noté ici (sous-ensemble, interne seulement ou public)
+- [ ] Export produit, reproductible par un script, et son emplacement communiqué dans le ticket 0015 de cired.digital (une ligne de journal là-bas)
+- [ ] Liste des documents à OCRiser jointe à l'export
